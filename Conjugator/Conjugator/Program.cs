@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 
@@ -16,7 +17,14 @@ namespace Conjugator
             var conjugations =
                 JsonSerializer.Deserialize<Dictionary<string, Conjugation>>(File.ReadAllText(conjugationsFileName));
 
-            var verbs = JsonSerializer.Deserialize<VerbList>(File.ReadAllText(verbsFileName));
+            int conjugatedVerbCount = conjugations.Count;
+
+            var verbList = JsonSerializer.Deserialize<VerbList>(File.ReadAllText(verbsFileName));
+
+            Verbs verbs = verbList.Verbs;
+            int verbCount = verbs.FirstGroup.Length + verbs.SecondGroup.Length + verbs.ThirdGroup.Length;
+
+            Console.WriteLine($"{conjugatedVerbCount} {verbCount}");
         }
     }
 }
