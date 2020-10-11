@@ -1,17 +1,22 @@
-﻿using System;
+﻿using System.Collections.Generic;
 using System.IO;
+using System.Text.Json;
 
 namespace Conjugator
 {
-    class Program
+    internal class Program
     {
-        const string nodeModulesPath = @"..\..\..\..\..\node_modules";
-        static void Main(string[] args)
+        private const string nodeModulesPath = @"..\..\..\..\..\node_modules";
+
+        private static void Main(string[] args)
         {
             string verbsFileName = Path.Combine(nodeModulesPath, @"french-verbs-list\verbs.json");
-            string frenchVerbsLefffName = Path.Combine(nodeModulesPath, @"french-verbs-lefff\dist\conjugations.json");
-            var t = File.Exists(frenchVerbsLefffName);
-            Console.WriteLine(t);
+            string conjugationsFileName = Path.Combine(nodeModulesPath, @"french-verbs-lefff\dist\conjugations.json");
+
+            var conjugations =
+                JsonSerializer.Deserialize<Dictionary<string, Conjugation>>(File.ReadAllText(conjugationsFileName));
+
+            var verbs = JsonSerializer.Deserialize<VerbList>(File.ReadAllText(verbsFileName));
         }
     }
 }
