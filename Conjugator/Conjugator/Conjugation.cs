@@ -1,7 +1,7 @@
 ﻿using System.Collections.Concurrent;
 using System.Text.Json.Serialization;
 
-namespace Conjugator
+namespace ConjugatorLibrary
 {
     public class Conjugation
     {

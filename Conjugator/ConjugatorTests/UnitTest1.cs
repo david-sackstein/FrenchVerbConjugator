@@ -1,8 +1,6 @@
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text.Json;
-using Conjugator;
+using System.Linq;
+using ConjugatorLibrary;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ConjugatorTests
@@ -11,24 +9,25 @@ namespace ConjugatorTests
     public class UnitTest1
     {
         private const string nodeModulesPath = @"..\..\..\..\..\node_modules";
+        private static VerbData verbData;
+
+        [ClassInitialize]
+        public static void SetUp(TestContext context)
+        {
+            verbData = new VerbData(nodeModulesPath);
+        }
 
         [TestMethod]
-        public void TestMethod1()
+        public void TestMethod2()
         {
-            string verbsFileName = Path.Combine(nodeModulesPath, @"french-verbs-list\verbs.json");
-            string conjugationsFileName = Path.Combine(nodeModulesPath, @"french-verbs-lefff\dist\conjugations.json");
+            string verb = "manger";
 
-            var conjugations =
-                JsonSerializer.Deserialize<Dictionary<string, Conjugation>>(File.ReadAllText(conjugationsFileName));
+            Conjugation conjugation = verbData.Conjugations[verb];
+            string[] expected = conjugation.Present;
 
-            int conjugatedVerbCount = conjugations.Count;
+            string[] actual = new Conjugator().GetErPresent(verb);
 
-            var verbList = JsonSerializer.Deserialize<VerbList>(File.ReadAllText(verbsFileName));
-
-            Verbs verbs = verbList.Verbs;
-            int verbCount = verbs.FirstGroup.Length + verbs.SecondGroup.Length + verbs.ThirdGroup.Length;
-
-            Console.WriteLine($"{conjugatedVerbCount} {verbCount}");
+            Assert.IsTrue(expected.SequenceEqual(actual));
         }
     }
 }

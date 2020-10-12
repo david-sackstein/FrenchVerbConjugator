@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Conjugator\Conjugator.csproj" />
+    <ProjectReference Include="..\Conjugator\ConjugatorLibrary.csproj" />
   </ItemGroup>
 
 </Project>

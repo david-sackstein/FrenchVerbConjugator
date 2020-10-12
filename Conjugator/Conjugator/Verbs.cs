@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Conjugator
+namespace ConjugatorLibrary
 {
     public class Verbs
     {
