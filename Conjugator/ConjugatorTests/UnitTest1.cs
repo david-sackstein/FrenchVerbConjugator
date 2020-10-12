@@ -1,15 +1,19 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
+using Conjugator;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Conjugator
+namespace ConjugatorTests
 {
-    internal class Program
+    [TestClass]
+    public class UnitTest1
     {
         private const string nodeModulesPath = @"..\..\..\..\..\node_modules";
 
-        private static void Main(string[] args)
+        [TestMethod]
+        public void TestMethod1()
         {
             string verbsFileName = Path.Combine(nodeModulesPath, @"french-verbs-list\verbs.json");
             string conjugationsFileName = Path.Combine(nodeModulesPath, @"french-verbs-lefff\dist\conjugations.json");

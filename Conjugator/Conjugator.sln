@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conjugator", "Conjugator\Conjugator.csproj", "{7C7A430C-69C3-4B79-B677-655AEC568597}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conjugator", "Conjugator\Conjugator.csproj", "{7C7A430C-69C3-4B79-B677-655AEC568597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConjugatorTests", "ConjugatorTests\ConjugatorTests.csproj", "{579168E3-850A-4FB0-9EB9-C4BD7C6A5538}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7C7A430C-69C3-4B79-B677-655AEC568597}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C7A430C-69C3-4B79-B677-655AEC568597}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C7A430C-69C3-4B79-B677-655AEC568597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579168E3-850A-4FB0-9EB9-C4BD7C6A5538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579168E3-850A-4FB0-9EB9-C4BD7C6A5538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579168E3-850A-4FB0-9EB9-C4BD7C6A5538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579168E3-850A-4FB0-9EB9-C4BD7C6A5538}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
