@@ -32,6 +32,29 @@ namespace ConjugatorLibrary
             return withEndings;
         }
 
+        private static string[] noDoubleL = new[]{
+            "celer",
+            "ciseler",
+            "congeler",
+            "courrieler",
+            "déceler",
+            "décongeler",
+            "dégeler",
+            "démanteler",
+            "dépuceler",
+            "geler",
+            "greneler",
+            "harceler",
+            "marteler",
+            "modeler",
+            "nickeler",
+            "peler",
+            "receler",
+            "regeler",
+            "remodeler",
+            "surgeler",
+            "écarteler"};
+
         private static string[] Apply(string[] endings, string verb)
         {
             string stem = verb.Remove(verb.Length - 2);
@@ -55,7 +78,7 @@ namespace ConjugatorLibrary
                 }
             }
 
-            if (verb == "celer")
+            if (verb == "celer" || verb == "agneler")
             {
                 Console.WriteLine();
             }
@@ -67,8 +90,9 @@ namespace ConjugatorLibrary
                 {
                     if (stem[replacedCharIndex + 1] == 'l')
                     {
-                        if (! new[] { 'c', 's', 'g', 'i', 't', 'n', 'd', 'k', 'p' }.Contains(stem[replacedCharIndex - 1]))
+                        if (! noDoubleL.Contains(verb))
                         {
+                            // celer
                             string stemJeTuIlIls1 = stem + 'l';
                             return new[]
                             {
@@ -81,6 +105,7 @@ namespace ConjugatorLibrary
                             };
                         }
                     }
+                    // agneler
                     string stemJeTuIlIls = ReplaceAt(stem, replacedCharIndex, 'è');
                     return new[]
                     {
