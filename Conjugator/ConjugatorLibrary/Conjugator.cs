@@ -65,19 +65,22 @@ namespace ConjugatorLibrary
                 int replacedCharIndex = verb.Length - 4;
                 if (replacedCharIndex > 0 && stem[replacedCharIndex] == 'e')
                 {
-                    //if (stem[replacedCharIndex+1] == 'l')
-                    //{
-                    //    string stemJeTuIlIls1 = stem + 'l';
-                    //    return new[]
-                    //    {
-                    //        stemJeTuIlIls1 + endings[0],
-                    //        stemJeTuIlIls1 + endings[1],
-                    //        stemJeTuIlIls1 + endings[2],
-                    //        stem + endings[3],
-                    //        stem + endings[4],
-                    //        stemJeTuIlIls1 + endings[5],
-                    //    };
-                    //}
+                    if (stem[replacedCharIndex + 1] == 'l')
+                    {
+                        if (! new[] { 'c', 's', 'g', 'i', 't', 'n', 'd', 'k', 'p' }.Contains(stem[replacedCharIndex - 1]))
+                        {
+                            string stemJeTuIlIls1 = stem + 'l';
+                            return new[]
+                            {
+                                stemJeTuIlIls1 + endings[0],
+                                stemJeTuIlIls1 + endings[1],
+                                stemJeTuIlIls1 + endings[2],
+                                stem + endings[3],
+                                stem + endings[4],
+                                stemJeTuIlIls1 + endings[5],
+                            };
+                        }
+                    }
                     string stemJeTuIlIls = ReplaceAt(stem, replacedCharIndex, 'è');
                     return new[]
                     {
