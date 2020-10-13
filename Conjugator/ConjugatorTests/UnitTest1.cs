@@ -35,7 +35,7 @@ namespace ConjugatorTests
                 .GroupBy(IsCorrect)
                 .ToDictionary(g => g.Key, g => g.ToList());
 
-            Assert.IsTrue(grades[true].Count >= 6668);
+            Assert.IsTrue(grades[true].Count >= 6695);
 
             var firstFailure = grades[false][0];
             ShowError(firstFailure);

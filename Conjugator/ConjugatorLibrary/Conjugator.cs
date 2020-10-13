@@ -41,6 +41,21 @@ namespace ConjugatorLibrary
                 };
             }
 
+            replacedCharIndex = verb.Length - 3;
+            if (replacedCharIndex > 0 && stem[replacedCharIndex] == 'y')
+            {
+                string stemJeTuIlIls = ReplaceAt(stem, replacedCharIndex, 'i');
+                return new[]
+                {
+                    stemJeTuIlIls + endings[0],
+                    stemJeTuIlIls + endings[1],
+                    stemJeTuIlIls + endings[2],
+                    stem + endings[3],
+                    stem + endings[4],
+                    stemJeTuIlIls + endings[5],
+                };
+            }
+
             return endings.Select(ending => stem + ending).ToArray();
         }
 
