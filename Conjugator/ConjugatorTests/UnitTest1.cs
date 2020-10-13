@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using ConjugatorLibrary;
@@ -34,7 +35,22 @@ namespace ConjugatorTests
                 .GroupBy(IsCorrect)
                 .ToDictionary(g => g.Key, g => g.ToList());
 
-            Assert.IsTrue(grades[true].Count >= 188);
+            Assert.IsTrue(grades[true].Count >= 6668);
+
+            var firstFailure = grades[false][0];
+            ShowError(firstFailure);
+        }
+
+        private static void ShowError(string verb)
+        {
+            Conjugation conjugation = _verbData.Conjugations[verb];
+            string[] expected = conjugation.Present;
+            string[] actual = _conjugator.GetErPresent(verb);
+            for (int i = 0; i < expected.Length; i++)
+            {
+                string incorrect = actual[i] == expected[i] ? "" : "x";
+                Console.WriteLine($"{expected[i]}\n{actual[i]} {incorrect}\n");
+            }
         }
 
         private static bool IsCorrect(string verb)
