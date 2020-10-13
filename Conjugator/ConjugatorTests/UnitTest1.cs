@@ -30,12 +30,24 @@ namespace ConjugatorTests
         [TestMethod]
         public void TestAllErPresent()
         {
-            Dictionary<bool, List<string>> grades = _verbData.Conjugations.Keys
+            Dictionary<bool, string[]> grades = _verbData.Conjugations.Keys
                 .Where(v => v.EndsWith("er"))
                 .GroupBy(IsCorrect)
-                .ToDictionary(g => g.Key, g => g.ToList());
+                .ToDictionary(g => g.Key, g => g.ToArray());
 
-            Assert.IsTrue(grades[false].Count <= 347);
+            string[] expectedErrors = ErrorList.Load();
+            string[] actualErrors = grades[false];
+
+            var newErrors = actualErrors.Except(expectedErrors).ToArray();
+            var newFixes = expectedErrors.Except(actualErrors).ToArray();
+
+            foreach (var newError in newErrors)
+            {
+                ShowError(newError);
+            }
+            //Assert.IsTrue(!newErrors.Any());
+
+            //ErrorList.Save(grades[false]);
 
             var firstFailure = grades[false][0];
             ShowError(firstFailure);
