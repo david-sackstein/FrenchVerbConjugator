@@ -32,7 +32,7 @@ namespace ConjugatorLibrary
             return withEndings;
         }
 
-        private static string[] noDoubleL = new[]{
+        private static readonly string[] noDoubleL = {
             "celer",
             "ciseler",
             "congeler",
@@ -54,6 +54,24 @@ namespace ConjugatorLibrary
             "remodeler",
             "surgeler",
             "écarteler"};
+
+        private static readonly string[] noDoubleT = {
+            "acheter",
+            "becqueter",
+            "corseter",
+            "craqueter",
+            "crocheter",
+            "décliqueter",
+            "dépaqueter",
+            "empaqueter",
+            "fureter",
+            "guillemeter",
+            "haleter",
+            "piqueter",
+            "préacheter",
+            "racheter",
+            "rempaqueter"
+        };
 
         private static string[] Apply(string[] endings, string verb)
         {
@@ -78,7 +96,7 @@ namespace ConjugatorLibrary
                 }
             }
 
-            if (verb == "celer" || verb == "agneler")
+            if (verb == "achever")
             {
                 Console.WriteLine();
             }
@@ -90,7 +108,7 @@ namespace ConjugatorLibrary
                 {
                     if (stem[replacedCharIndex + 1] == 'l')
                     {
-                        if (! noDoubleL.Contains(verb))
+                        if (!noDoubleL.Contains(verb))
                         {
                             // celer
                             string stemJeTuIlIls1 = stem + 'l';
@@ -104,18 +122,52 @@ namespace ConjugatorLibrary
                                 stemJeTuIlIls1 + endings[5],
                             };
                         }
+                        else
+                        {
+                            // agneler
+                            string stemJeTuIlIls = ReplaceAt(stem, replacedCharIndex, 'è');
+                            return new[]
+                            {
+                                stemJeTuIlIls + endings[0],
+                                stemJeTuIlIls + endings[1],
+                                stemJeTuIlIls + endings[2],
+                                stem + endings[3],
+                                stem + endings[4],
+                                stemJeTuIlIls + endings[5],
+                            };
+                        }
                     }
-                    // agneler
-                    string stemJeTuIlIls = ReplaceAt(stem, replacedCharIndex, 'è');
-                    return new[]
+                    else if (stem[replacedCharIndex + 1] == 't')
                     {
-                        stemJeTuIlIls + endings[0],
-                        stemJeTuIlIls + endings[1],
-                        stemJeTuIlIls + endings[2],
-                        stem + endings[3],
-                        stem + endings[4],
-                        stemJeTuIlIls + endings[5],
-                    };
+                        if (!noDoubleT.Contains(verb))
+                        {
+                            // feuilleter
+                            string stemJeTuIlIls1 = stem + 't';
+                            return new[]
+                            {
+                                stemJeTuIlIls1 + endings[0],
+                                stemJeTuIlIls1 + endings[1],
+                                stemJeTuIlIls1 + endings[2],
+                                stem + endings[3],
+                                stem + endings[4],
+                                stemJeTuIlIls1 + endings[5],
+                            };
+                        }
+                        else
+                        {
+                            // acheter
+                            string stemJeTuIlIls = ReplaceAt(stem, replacedCharIndex, 'è');
+                            return new[]
+                            {
+                                stemJeTuIlIls + endings[0],
+                                stemJeTuIlIls + endings[1],
+                                stemJeTuIlIls + endings[2],
+                                stem + endings[3],
+                                stem + endings[4],
+                                stemJeTuIlIls + endings[5],
+                            };
+                        }
+                    }
                 }
             }
 
