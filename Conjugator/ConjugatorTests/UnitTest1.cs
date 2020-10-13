@@ -31,14 +31,14 @@ namespace ConjugatorTests
         [TestMethod]
         public void TestAllErPresent()
         {
-            var y = _verbData.Conjugations.Where(c => c.Key.EndsWith("eler")).ToArray();
-            Dictionary<bool, string[]> s = _verbData.Conjugations
-                .Where(c => c.Key.EndsWith("eter"))
-                .GroupBy(c => c.Value.Present[0].EndsWith("ette"))
-                .ToDictionary(g => g.Key, g => g.Select(u => u.Key).ToArray());
+            //var y = _verbData.Conjugations.Where(c => c.Key.EndsWith("ever")).ToArray();
+            //Dictionary<bool, string[]> s = _verbData.Conjugations
+            //    .Where(c => c.Key.EndsWith("ever"))
+            //    .GroupBy(c => c.Value.Present[0].EndsWith("ette"))
+            //    .ToDictionary(g => g.Key, g => g.Select(u => u.Key).ToArray());
 
-            var u1 = JsonSerializer.Serialize(s[true], new JsonSerializerOptions { WriteIndented = true });
-            var u2 = JsonSerializer.Serialize(s[false], new JsonSerializerOptions { WriteIndented = true });
+            //var u1 = JsonSerializer.Serialize(s[true], new JsonSerializerOptions { WriteIndented = true });
+            //var u2 = JsonSerializer.Serialize(s[false], new JsonSerializerOptions { WriteIndented = true });
 
 
             Dictionary<bool, string[]> grades = _verbData.Conjugations.Keys
@@ -58,7 +58,7 @@ namespace ConjugatorTests
             }
             //Assert.IsTrue(!newErrors.Any());
 
-           // ErrorList.Save(grades[false]);
+           //ErrorList.Save(grades[false]);
 
             var firstFailure = grades[false][0];
             ShowError(firstFailure);

@@ -109,8 +109,8 @@ namespace ConjugatorLibrary
                     if (stem[replacedCharIndex + 1] == 'l')
                     {
                         if (!noDoubleL.Contains(verb))
-                        {
-                            // celer
+                        { 
+                            // agneler
                             string stemJeTuIlIls1 = stem + 'l';
                             return new[]
                             {
@@ -124,7 +124,7 @@ namespace ConjugatorLibrary
                         }
                         else
                         {
-                            // agneler
+                            // celer
                             string stemJeTuIlIls = ReplaceAt(stem, replacedCharIndex, 'è');
                             return new[]
                             {
@@ -167,6 +167,20 @@ namespace ConjugatorLibrary
                                 stemJeTuIlIls + endings[5],
                             };
                         }
+                    }
+                    else if (stem[replacedCharIndex + 1] == 'v')
+                    {
+                        // achever
+                        string stemJeTuIlIls = ReplaceAt(stem, replacedCharIndex, 'è');
+                        return new[]
+                        {
+                            stemJeTuIlIls + endings[0],
+                            stemJeTuIlIls + endings[1],
+                            stemJeTuIlIls + endings[2],
+                            stem + endings[3],
+                            stem + endings[4],
+                            stemJeTuIlIls + endings[5],
+                        };
                     }
                 }
             }
