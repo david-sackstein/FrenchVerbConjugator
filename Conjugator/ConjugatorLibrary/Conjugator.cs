@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.Contracts;
+﻿using System;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 
@@ -28,6 +29,21 @@ namespace ConjugatorLibrary
 
             int replacedCharIndex = verb.Length - 4;
             if (replacedCharIndex > 0 && stem[replacedCharIndex] == 'é')
+            {
+                string stemJeTuIlIls = ReplaceAt(stem, replacedCharIndex, 'è');
+                return new[]
+                {
+                    stemJeTuIlIls + endings[0],
+                    stemJeTuIlIls + endings[1],
+                    stemJeTuIlIls + endings[2],
+                    stem + endings[3],
+                    stem + endings[4],
+                    stemJeTuIlIls + endings[5],
+                };
+            }
+
+            replacedCharIndex = verb.Length - 4;
+            if (replacedCharIndex > 0 && stem[replacedCharIndex] == 'e')
             {
                 string stemJeTuIlIls = ReplaceAt(stem, replacedCharIndex, 'è');
                 return new[]

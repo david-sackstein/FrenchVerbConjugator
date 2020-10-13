@@ -35,7 +35,7 @@ namespace ConjugatorTests
                 .GroupBy(IsCorrect)
                 .ToDictionary(g => g.Key, g => g.ToList());
 
-            Assert.IsTrue(grades[true].Count >= 6695);
+            Assert.IsTrue(grades[false].Count <= 347);
 
             var firstFailure = grades[false][0];
             ShowError(firstFailure);
@@ -46,6 +46,7 @@ namespace ConjugatorTests
             Conjugation conjugation = _verbData.Conjugations[verb];
             string[] expected = conjugation.Present;
             string[] actual = _conjugator.GetErPresent(verb);
+            Console.WriteLine($"{verb}:\n");
             for (int i = 0; i < expected.Length; i++)
             {
                 string incorrect = actual[i] == expected[i] ? "" : "x";
