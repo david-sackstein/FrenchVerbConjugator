@@ -12,6 +12,10 @@ namespace ConjugatorLibrary
             Contract.Requires(verb.EndsWith("er"));
             Contract.Requires(verb.Length > 2);
 
+            if (verb == "aller")
+            {
+                return new [] {"vais", "vas", "va", "allons", "allez", "vont"};
+            }
             // for manger
             string onsEnding = "ons";
             if (verb[^3] == 'g')

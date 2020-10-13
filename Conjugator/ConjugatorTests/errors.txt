@@ -1,5 +1,4 @@
 [
-  "aller",
   "all\u00E9cher",
   "all\u00E9guer",
   "amener",
