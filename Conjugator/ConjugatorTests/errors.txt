@@ -1,5 +1,4 @@
 [
-  "autorégler",
   "autosevrer",
   "brouillasser",
   "bruiner",
@@ -15,7 +14,6 @@
   "déféquer",
   "déluger",
   "dépecer",
-  "dérégler",
   "désintégrer",
   "empeser",
   "enamourer",
@@ -49,7 +47,6 @@
   "raller",
   "receper",
   "ressemer",
-  "régler",
   "régner",
   "réintégrer",
   "réséquer",
