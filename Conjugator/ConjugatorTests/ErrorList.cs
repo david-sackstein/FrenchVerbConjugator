@@ -1,5 +1,7 @@
 ﻿using System.IO;
+using System.Text.Encodings.Web;
 using System.Text.Json;
+using System.Text.Unicode;
 
 namespace ConjugatorTests
 {
@@ -11,6 +13,7 @@ namespace ConjugatorTests
         {
             var errors = JsonSerializer.Serialize(errorVerbs, new JsonSerializerOptions
             {
+                Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
                 WriteIndented = true
             });
             File.WriteAllText(errorFileName, errors);
