@@ -49,7 +49,7 @@ namespace ConjugatorTests
             }
             Assert.IsTrue(!newErrors.Any());
 
-            //WErrorList.Save(grades[false]);
+            ErrorList.Save(grades[false]);
 
             var firstFailure = grades[false][0];
             ShowError(firstFailure);

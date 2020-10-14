@@ -96,7 +96,8 @@ namespace ConjugatorLibrary
                 Console.WriteLine();
             }
 
-            if (verb[^4] == 'c' && verb[^3] == 'h')
+            string substring = verb.Substring(verb.Length-4, 2);
+            if (substring == "ch" || substring == "gu")
             {
                 int replacedCharIndex = verb.Length - 5;
                 if (replacedCharIndex > 0 && stem[replacedCharIndex] == 'é')
