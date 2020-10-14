@@ -87,20 +87,11 @@ namespace ConjugatorLibrary
                 int replacedCharIndex1 = verb.Length - 4;
                 if (replacedCharIndex1 > 0 && stem[replacedCharIndex1] == 'é')
                 {
-                    string stemJeTuIlIls = ReplaceAt(stem, replacedCharIndex1, 'è');
-                    return new[]
-                    {
-                        stemJeTuIlIls + endings[0],
-                        stemJeTuIlIls + endings[1],
-                        stemJeTuIlIls + endings[2],
-                        stem + endings[3],
-                        stem + endings[4],
-                        stemJeTuIlIls + endings[5],
-                    };
+                    return ConvertEtoEaigu(endings, stem, replacedCharIndex1);
                 }
             }
 
-            if (verb == "achever")
+            if (verb == "allécher")
             {
                 Console.WriteLine();
             }
@@ -112,79 +103,32 @@ namespace ConjugatorLibrary
                 {
                     if (stem[replacedCharIndex + 1] == 'l')
                     {
-                        if (!noDoubleL.Contains(verb))
-                        { 
-                            // agneler
-                            string stemJeTuIlIls1 = stem + 'l';
-                            return new[]
-                            {
-                                stemJeTuIlIls1 + endings[0],
-                                stemJeTuIlIls1 + endings[1],
-                                stemJeTuIlIls1 + endings[2],
-                                stem + endings[3],
-                                stem + endings[4],
-                                stemJeTuIlIls1 + endings[5],
-                            };
-                        }
-                        else
+                        if (noDoubleL.Contains(verb))
                         {
                             // celer
-                            string stemJeTuIlIls = ReplaceAt(stem, replacedCharIndex, 'è');
-                            return new[]
-                            {
-                                stemJeTuIlIls + endings[0],
-                                stemJeTuIlIls + endings[1],
-                                stemJeTuIlIls + endings[2],
-                                stem + endings[3],
-                                stem + endings[4],
-                                stemJeTuIlIls + endings[5],
-                            };
+                            return ConvertEtoEaigu(endings, stem, replacedCharIndex);
                         }
+
+                        // agneler
+                        return DoubleConsonant(endings, stem);
                     }
-                    else if (stem[replacedCharIndex + 1] == 't')
+
+                    if (stem[replacedCharIndex + 1] == 't')
                     {
-                        if (!noDoubleT.Contains(verb))
-                        {
-                            // feuilleter
-                            string stemJeTuIlIls1 = stem + 't';
-                            return new[]
-                            {
-                                stemJeTuIlIls1 + endings[0],
-                                stemJeTuIlIls1 + endings[1],
-                                stemJeTuIlIls1 + endings[2],
-                                stem + endings[3],
-                                stem + endings[4],
-                                stemJeTuIlIls1 + endings[5],
-                            };
-                        }
-                        else
+                        if (noDoubleT.Contains(verb))
                         {
                             // acheter
-                            string stemJeTuIlIls = ReplaceAt(stem, replacedCharIndex, 'è');
-                            return new[]
-                            {
-                                stemJeTuIlIls + endings[0],
-                                stemJeTuIlIls + endings[1],
-                                stemJeTuIlIls + endings[2],
-                                stem + endings[3],
-                                stem + endings[4],
-                                stemJeTuIlIls + endings[5],
-                            };
+                            return ConvertEtoEaigu(endings, stem, replacedCharIndex);
                         }
+
+                        // feuilleter
+                        return DoubleConsonant(endings, stem);
                     }
-                    else if (stem[replacedCharIndex + 1] == 'v')
+
+                    if (stem[replacedCharIndex + 1] == 'v')
                     {
                         // achever
-                        string stemJeTuIlIls = ReplaceAt(stem, replacedCharIndex, 'è');
-                        return new[]
-                        {
-                            stemJeTuIlIls + endings[0],
-                            stemJeTuIlIls + endings[1],
-                            stemJeTuIlIls + endings[2],
-                            stem + endings[3],
-                            stem + endings[4],
-                            stemJeTuIlIls + endings[5],
-                        };
+                        return ConvertEtoEaigu(endings, stem, replacedCharIndex);
                     }
                 }
             }
@@ -209,10 +153,35 @@ namespace ConjugatorLibrary
             return endings.Select(ending => stem + ending).ToArray();
         }
 
+        private static string[] ConvertEtoEaigu(string[] endings, string stem, int replacedCharIndex)
+        {
+            string actualStem = ReplaceAt(stem, replacedCharIndex, 'è');
+            return AddEndings(endings, actualStem, stem);
+        }
+
+        private static string[] DoubleConsonant(string[] endings, string stem)
+        {
+            string actualStem = stem + stem[^1];
+            return AddEndings(endings, actualStem, stem);
+        }
+
+        private static string[] AddEndings(string[] endings, string baseStem, string NousVousStem)
+        {
+            return new[]
+            {
+                baseStem + endings[0],
+                baseStem + endings[1],
+                baseStem + endings[2],
+                NousVousStem + endings[3],
+                NousVousStem + endings[4],
+                baseStem + endings[5],
+            };
+        }
+
         private static string ReplaceAt(string inString, int index, char c)
         {
             int actualIndex = index > 0 ? index : inString.Length + index;
-            return new StringBuilder(inString) {[actualIndex] = c}.ToString();
+            return new StringBuilder(inString) { [actualIndex] = c }.ToString();
         }
     }
 }
