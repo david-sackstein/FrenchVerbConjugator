@@ -81,7 +81,7 @@ namespace ConjugatorLibrary
         {
             string stem = verb.Remove(verb.Length - 2);
 
-            if (verb == "amener")
+            if (verb == "appuyer")
             {
                 Console.WriteLine();
             }
@@ -141,10 +141,11 @@ namespace ConjugatorLibrary
                 }
             }
 
-            // for aboyer
+            // for aboyer, appuyer
             int replacedCharIndex2 = verb.Length - 3;
+            string substring1 = stem.Substring(replacedCharIndex2-1, 2);
             if (replacedCharIndex2 > 0 && 
-                (replacedCharIndex2 + 1 <= stem.Length) && stem.Substring(replacedCharIndex2-1, 2) == "oy")
+                (replacedCharIndex2 + 1 <= stem.Length) && (substring1 == "oy" || substring1 == "uy"))
             {
                 string stemJeTuIlIls = ReplaceAt(stem, replacedCharIndex2, 'i');
                 return AddEndings(endings, stemJeTuIlIls, stem);
