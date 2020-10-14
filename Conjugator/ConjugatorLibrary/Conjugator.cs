@@ -81,19 +81,20 @@ namespace ConjugatorLibrary
         {
             string stem = verb.Remove(verb.Length - 2);
 
+            if (verb == "amener")
+            {
+                Console.WriteLine();
+            }
+
             // for précéder (but not planchéier)
             if (verb[^3] != 'i')
             {
                 int replacedCharIndex1 = verb.Length - 4;
-                if (replacedCharIndex1 > 0 && stem[replacedCharIndex1] == 'é')
+                char vowel = stem[replacedCharIndex1];
+                if (replacedCharIndex1 > 0 && vowel == 'é')
                 {
                     return ConvertEtoEaigu(endings, stem, replacedCharIndex1);
                 }
-            }
-
-            if (verb == "allécher")
-            {
-                Console.WriteLine();
             }
 
             string substring = verb.Substring(verb.Length-4, 2);
@@ -101,6 +102,14 @@ namespace ConjugatorLibrary
             {
                 int replacedCharIndex = verb.Length - 5;
                 if (replacedCharIndex > 0 && stem[replacedCharIndex] == 'é')
+                {
+                    return ConvertEtoEaigu(endings, stem, replacedCharIndex);
+                }
+            }
+            if (substring == "en")
+            {
+                int replacedCharIndex = verb.Length - 4;
+                if (replacedCharIndex > 0 && stem[replacedCharIndex] == 'e')
                 {
                     return ConvertEtoEaigu(endings, stem, replacedCharIndex);
                 }

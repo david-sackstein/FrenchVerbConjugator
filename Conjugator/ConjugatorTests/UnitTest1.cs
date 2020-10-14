@@ -39,7 +39,8 @@ namespace ConjugatorTests
             string[] expectedErrors = ErrorList.Load();
             string[] actualErrors = grades[false];
 
-            //var d = grades[false].Where(x => x.EndsWith("écher")).ToArray();
+            var d1 = grades[false].Where(x => x.EndsWith("ener")).ToArray();
+            var d2 = grades[true].Where(x => x.EndsWith("ener")).ToArray();
             var newErrors = actualErrors.Except(expectedErrors).ToArray();
             var newFixes = expectedErrors.Except(actualErrors).ToArray();
 
