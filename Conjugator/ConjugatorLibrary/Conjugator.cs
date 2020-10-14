@@ -103,26 +103,14 @@ namespace ConjugatorLibrary
                 {
                     if (stem[replacedCharIndex + 1] == 'l')
                     {
-                        if (noDoubleL.Contains(verb))
-                        {
-                            // celer
-                            return ConvertEtoEaigu(endings, stem, replacedCharIndex);
-                        }
-
-                        // agneler
-                        return DoubleConsonant(endings, stem);
+                        bool isException = noDoubleL.Contains(verb);
+                        return DoubleConsonant(endings, stem, replacedCharIndex, isException);
                     }
 
                     if (stem[replacedCharIndex + 1] == 't')
                     {
-                        if (noDoubleT.Contains(verb))
-                        {
-                            // acheter
-                            return ConvertEtoEaigu(endings, stem, replacedCharIndex);
-                        }
-
-                        // feuilleter
-                        return DoubleConsonant(endings, stem);
+                        bool isException = noDoubleT.Contains(verb);
+                        return DoubleConsonant(endings, stem, replacedCharIndex, isException);
                     }
 
                     if (stem[replacedCharIndex + 1] == 'v')
@@ -139,18 +127,24 @@ namespace ConjugatorLibrary
                 (replacedCharIndex2 + 1 <= stem.Length) && stem.Substring(replacedCharIndex2-1, 2) == "oy")
             {
                 string stemJeTuIlIls = ReplaceAt(stem, replacedCharIndex2, 'i');
-                return new[]
-                {
-                    stemJeTuIlIls + endings[0],
-                    stemJeTuIlIls + endings[1],
-                    stemJeTuIlIls + endings[2],
-                    stem + endings[3],
-                    stem + endings[4],
-                    stemJeTuIlIls + endings[5],
-                };
+                return AddEndings(endings, stemJeTuIlIls, stem);
             }
 
             return endings.Select(ending => stem + ending).ToArray();
+        }
+
+        private static string[] DoubleConsonant(
+            string[] endings, string stem, 
+            int replacedCharIndex, bool isException)
+        {
+            if (isException)
+            {
+                // celer
+                return ConvertEtoEaigu(endings, stem, replacedCharIndex);
+            }
+
+            // agneler
+            return DoubleConsonant(endings, stem);
         }
 
         private static string[] ConvertEtoEaigu(string[] endings, string stem, int replacedCharIndex)
@@ -165,15 +159,15 @@ namespace ConjugatorLibrary
             return AddEndings(endings, actualStem, stem);
         }
 
-        private static string[] AddEndings(string[] endings, string baseStem, string NousVousStem)
+        private static string[] AddEndings(string[] endings, string baseStem, string nousVousStem)
         {
             return new[]
             {
                 baseStem + endings[0],
                 baseStem + endings[1],
                 baseStem + endings[2],
-                NousVousStem + endings[3],
-                NousVousStem + endings[4],
+                nousVousStem + endings[3],
+                nousVousStem + endings[4],
                 baseStem + endings[5],
             };
         }
