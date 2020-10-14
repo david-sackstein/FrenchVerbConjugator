@@ -81,7 +81,7 @@ namespace ConjugatorLibrary
         {
             string stem = verb.Remove(verb.Length - 2);
 
-            if (verb == "appuyer")
+            if (verb == "autocélébrer")
             {
                 Console.WriteLine();
             }
@@ -98,7 +98,7 @@ namespace ConjugatorLibrary
             }
 
             string substring = verb.Substring(verb.Length-4, 2);
-            if (substring == "ch" || substring == "gu")
+            if (substring == "ch" || substring == "gu" || substring == "br")
             {
                 int replacedCharIndex = verb.Length - 5;
                 if (replacedCharIndex > 0 && stem[replacedCharIndex] == 'é')
