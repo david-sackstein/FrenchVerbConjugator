@@ -95,6 +95,16 @@ namespace ConjugatorLibrary
             {
                 Console.WriteLine();
             }
+
+            if (verb[^4] == 'c' && verb[^3] == 'h')
+            {
+                int replacedCharIndex = verb.Length - 5;
+                if (replacedCharIndex > 0 && stem[replacedCharIndex] == 'é')
+                {
+                    return ConvertEtoEaigu(endings, stem, replacedCharIndex);
+                }
+            }
+
             // for acheter but not annexer
             if (! new[] {'x', 'f', 'w', 'y'}.Contains(verb[^3]))
             {

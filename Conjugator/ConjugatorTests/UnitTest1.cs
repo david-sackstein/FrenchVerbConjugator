@@ -39,6 +39,7 @@ namespace ConjugatorTests
             string[] expectedErrors = ErrorList.Load();
             string[] actualErrors = grades[false];
 
+            //var d = grades[false].Where(x => x.EndsWith("écher")).ToArray();
             var newErrors = actualErrors.Except(expectedErrors).ToArray();
             var newFixes = expectedErrors.Except(actualErrors).ToArray();
 
@@ -48,7 +49,7 @@ namespace ConjugatorTests
             }
             Assert.IsTrue(!newErrors.Any());
 
-            ErrorList.Save(grades[false]);
+            //WErrorList.Save(grades[false]);
 
             var firstFailure = grades[false][0];
             ShowError(firstFailure);
