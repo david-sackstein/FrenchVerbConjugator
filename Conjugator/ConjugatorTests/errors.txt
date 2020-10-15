@@ -1,14 +1,5 @@
 [
   [
-    "autosevrer",
-    "autosèvre",
-    "autosèvres",
-    "autosèvre",
-    "autosevrons",
-    "autosevrez",
-    "autosèvrent"
-  ],
-  [
     "brouillasser",
     "brouillasse",
     null,
@@ -49,15 +40,6 @@
   ],
   [
     "capeyer"
-  ],
-  [
-    "chronométrer",
-    "chronomètre",
-    "chronomètres",
-    "chronomètre",
-    "chronométrons",
-    "chronométrez",
-    "chronomètrent"
   ],
   [
     "clairsemer",
@@ -144,15 +126,6 @@
     "enameurent"
   ],
   [
-    "enfiévrer",
-    "enfièvre",
-    "enfièvres",
-    "enfièvre",
-    "enfiévrons",
-    "enfiévrez",
-    "enfièvrent"
-  ],
-  [
     "exécrer",
     "exècre",
     "exècres",
@@ -219,24 +192,6 @@
     "imprègnent"
   ],
   [
-    "impétrer",
-    "impètre",
-    "impètres",
-    "impètre",
-    "impétrons",
-    "impétrez",
-    "impètrent"
-  ],
-  [
-    "interpénétrer",
-    "interpénètre",
-    "interpénètres",
-    "interpénètre",
-    "interpénétrons",
-    "interpénétrez",
-    "interpénètrent"
-  ],
-  [
     "intégrer",
     "intègre",
     "intègres",
@@ -244,15 +199,6 @@
     "intégrons",
     "intégrez",
     "intègrent"
-  ],
-  [
-    "kilométrer",
-    "kilomètre",
-    "kilomètres",
-    "kilomètre",
-    "kilométrons",
-    "kilométrez",
-    "kilomètrent"
   ],
   [
     "langueyer"
@@ -276,15 +222,6 @@
     null
   ],
   [
-    "métrer",
-    "mètre",
-    "mètres",
-    "mètre",
-    "métrons",
-    "métrez",
-    "mètrent"
-  ],
-  [
     "neiger",
     "neige",
     null,
@@ -294,15 +231,6 @@
     null
   ],
   [
-    "paramétrer",
-    "paramètre",
-    "paramètres",
-    "paramètre",
-    "paramétrons",
-    "paramétrez",
-    "paramètrent"
-  ],
-  [
     "parsemer",
     "parsème",
     "parsèmes",
@@ -310,15 +238,6 @@
     "parsemons",
     "parsemez",
     "parsèment"
-  ],
-  [
-    "perpétrer",
-    "perpètre",
-    "perpètres",
-    "perpètre",
-    "perpétrons",
-    "perpétrez",
-    "perpètrent"
   ],
   [
     "peser",
@@ -364,15 +283,6 @@
     null,
     null,
     null
-  ],
-  [
-    "pénétrer",
-    "pénètre",
-    "pénètres",
-    "pénètre",
-    "pénétrons",
-    "pénétrez",
-    "pénètrent"
   ],
   [
     "raller",
@@ -438,15 +348,6 @@
     "sèment"
   ],
   [
-    "sevrer",
-    "sèvre",
-    "sèvres",
-    "sèvre",
-    "sevrons",
-    "sevrez",
-    "sèvrent"
-  ],
-  [
     "soupeser",
     "soupèse",
     "soupèses",
@@ -454,15 +355,6 @@
     "soupesons",
     "soupesez",
     "soupèsent"
-  ],
-  [
-    "télémétrer",
-    "télémètre",
-    "télémètres",
-    "télémètre",
-    "télémétrons",
-    "télémétrez",
-    "télémètrent"
   ],
   [
     "vaser",
