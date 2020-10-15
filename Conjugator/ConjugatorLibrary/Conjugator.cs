@@ -81,9 +81,19 @@ namespace ConjugatorLibrary
         {
             string stem = verb.Remove(verb.Length - 2);
 
-            if (verb == "receper")
+            if (verb == "enamourer")
             {
                 Console.WriteLine();
+            }
+
+            if (verb.Length > 5)
+            {
+                string substring3 = verb.Substring(verb.Length - 6, 4);
+                if (substring3 == "mour")
+                {
+                    string stemJeTuIlIls = ReplaceAt(stem, verb.Length - 5, 'e');
+                    return AddEndings(endings, stemJeTuIlIls, stem);
+                }
             }
 
             // for précéder (but not planchéier)

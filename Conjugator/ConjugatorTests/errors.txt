@@ -1,14 +1,5 @@
 [
   [
-    "enamourer",
-    "enameure",
-    "enameures",
-    "enameure",
-    "enamourons",
-    "enamourez",
-    "enameurent"
-  ],
-  [
     "raller",
     "rvais",
     "rvas",
@@ -16,14 +7,5 @@
     "rallons",
     "rallez",
     "rvont"
-  ],
-  [
-    "énamourer",
-    "énameure",
-    "énameures",
-    "énameure",
-    "énamourons",
-    "énamourez",
-    "énameurent"
   ]
 ]
