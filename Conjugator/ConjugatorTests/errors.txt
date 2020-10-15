@@ -81,15 +81,6 @@
     "enameurent"
   ],
   [
-    "exécrer",
-    "exècre",
-    "exècres",
-    "exècre",
-    "exécrons",
-    "exécrez",
-    "exècrent"
-  ],
-  [
     "faseyer"
   ],
   [
