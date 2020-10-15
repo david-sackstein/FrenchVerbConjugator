@@ -123,15 +123,6 @@
     "langueyer"
   ],
   [
-    "liserer",
-    "lisère",
-    "lisères",
-    "lisère",
-    "liserons",
-    "liserez",
-    "lisèrent"
-  ],
-  [
     "mouillasser",
     "mouillasse",
     null,

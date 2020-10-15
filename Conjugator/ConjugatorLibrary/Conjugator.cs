@@ -98,7 +98,7 @@ namespace ConjugatorLibrary
             }
 
             string substring = verb.Substring(verb.Length-4, 2);
-            if (new[] {"es", "em", "ep"}.Contains(substring))
+            if (new[] {"es", "em", "ep", "er"}.Contains(substring))
             {
                 int replacedCharIndex = verb.Length - 4;
                 char vowel = stem[replacedCharIndex];
