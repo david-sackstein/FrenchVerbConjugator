@@ -55,7 +55,7 @@ namespace ConjugatorLibrary
             if (vowel4 == 'é' || vowel4 == 'e')
             {
                 char consonant = stem[replacedCharIndex4 + 1];
-                
+
                 switch (consonant)
                 {
                     case 'l':
@@ -75,9 +75,13 @@ namespace ConjugatorLibrary
             }
 
             string substring = verb.Substring(replacedCharIndex4, 2);
-            if (new[] { "es", "em", "ep", "er", "ec", "en" }.Contains(substring))
+
+            if (vowel4 == 'e')
             {
-                return ConvertEtoEaigu(endings, stem, replacedCharIndex4);
+                if (new[] {'s', 'm', 'p', 'r', 'c', 'n'}.Contains(substring[1]))
+                {
+                    return ConvertEtoEaigu(endings, stem, replacedCharIndex4);
+                }
             }
 
             if (verb.Length > 5)
@@ -91,7 +95,10 @@ namespace ConjugatorLibrary
                         return ConvertEtoEaigu(endings, stem, replacedCharIndex);
                     }
                 }
+            }
 
+            if (verb.Length > 5)
+            {
                 string substring3 = verb.Substring(verb.Length - 6, 4);
                 if (substring3 == "mour")
                 {
