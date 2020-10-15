@@ -44,18 +44,12 @@ namespace ConjugatorLibrary
             char vowel4 = stem[replacedCharIndex4];
 
             // for précéder (but not planchéier)
-            if (verb[^3] != 'i')
+            if (vowel4 == 'é')
             {
-                if (vowel4 == 'é')
+                if (verb[^3] != 'i')
                 {
                     return ConvertEtoEaigu(endings, stem, replacedCharIndex4);
                 }
-            }
-
-            string substring = verb.Substring(replacedCharIndex4, 2);
-            if (new[] {"es", "em", "ep", "er", "ec"}.Contains(substring))
-            {
-                return ConvertEtoEaigu(endings, stem, replacedCharIndex4);
             }
 
             if (vowel4 == 'é' || vowel4 == 'e')
@@ -77,6 +71,12 @@ namespace ConjugatorLibrary
                     // achever
                     return ConvertEtoEaigu(endings, stem, replacedCharIndex4);
                 }
+            }
+
+            string substring = verb.Substring(replacedCharIndex4, 2);
+            if (new[] { "es", "em", "ep", "er", "ec" }.Contains(substring))
+            {
+                return ConvertEtoEaigu(endings, stem, replacedCharIndex4);
             }
 
             if (substring == "en")
