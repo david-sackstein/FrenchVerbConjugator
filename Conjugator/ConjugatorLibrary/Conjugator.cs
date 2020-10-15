@@ -98,7 +98,7 @@ namespace ConjugatorLibrary
             }
 
             string substring = verb.Substring(verb.Length-4, 2);
-            if (new[] {"ch", "gu", "br", "gl", "vr", "tr", "qu", "gr"}.Contains(substring))
+            if (new[] {"ch", "gu", "br", "gl", "vr", "tr", "qu", "gr", "gn" }.Contains(substring))
             {
                 int replacedCharIndex = verb.Length - 5;
                 char vowel = stem[replacedCharIndex];
