@@ -54,32 +54,28 @@ namespace ConjugatorLibrary
 
             if (vowel4 == 'é' || vowel4 == 'e')
             {
-                if (stem[replacedCharIndex4 + 1] == 'l')
+                char consonant = stem[replacedCharIndex4 + 1];
+                
+                switch (consonant)
                 {
-                    bool isException = Exceptions.noDoubleL.Contains(verb);
-                    return DoubleConsonant(endings, stem, replacedCharIndex4, isException);
-                }
-
-                if (stem[replacedCharIndex4 + 1] == 't')
-                {
-                    bool isException = Exceptions.noDoubleT.Contains(verb);
-                    return DoubleConsonant(endings, stem, replacedCharIndex4, isException);
-                }
-
-                if (stem[replacedCharIndex4 + 1] == 'v')
-                {
-                    // achever
-                    return ConvertEtoEaigu(endings, stem, replacedCharIndex4);
+                    case 'l':
+                    {
+                        bool isException = Exceptions.noDoubleL.Contains(verb);
+                        return DoubleConsonant(endings, stem, replacedCharIndex4, isException);
+                    }
+                    case 't':
+                    {
+                        bool isException = Exceptions.noDoubleT.Contains(verb);
+                        return DoubleConsonant(endings, stem, replacedCharIndex4, isException);
+                    }
+                    case 'v':
+                        // achever
+                        return ConvertEtoEaigu(endings, stem, replacedCharIndex4);
                 }
             }
 
             string substring = verb.Substring(replacedCharIndex4, 2);
-            if (new[] { "es", "em", "ep", "er", "ec" }.Contains(substring))
-            {
-                return ConvertEtoEaigu(endings, stem, replacedCharIndex4);
-            }
-
-            if (substring == "en")
+            if (new[] { "es", "em", "ep", "er", "ec", "en" }.Contains(substring))
             {
                 return ConvertEtoEaigu(endings, stem, replacedCharIndex4);
             }
