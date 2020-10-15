@@ -10,7 +10,7 @@ namespace ConjugatorLibrary
         public string[] GetErPresent(string verb)
         {
             Contract.Requires(verb.EndsWith("er"));
-            Contract.Requires(verb.Length > 2);
+            Contract.Requires(verb.Length > 4);
 
             if (verb == "aller")
             {
@@ -56,8 +56,41 @@ namespace ConjugatorLibrary
             if (new[] {"es", "em", "ep", "er", "ec"}.Contains(substring))
             {
                 int replacedCharIndex = verb.Length - 4;
+                char vowel1 = stem[replacedCharIndex];
+                if (replacedCharIndex > 0 && (vowel1 == 'e'))
+                {
+                    return ConvertEtoEaigu(endings, stem, replacedCharIndex);
+                }
+            }
+
+            int replacedCharIndex5 = verb.Length - 4;
+            char vowel2 = stem[replacedCharIndex5];
+            if (vowel2 == 'é' || vowel2 == 'e')
+            {
+                if (stem[replacedCharIndex5 + 1] == 'l')
+                {
+                    bool isException = Exceptions.noDoubleL.Contains(verb);
+                    return DoubleConsonant(endings, stem, replacedCharIndex5, isException);
+                }
+
+                if (stem[replacedCharIndex5 + 1] == 't')
+                {
+                    bool isException = Exceptions.noDoubleT.Contains(verb);
+                    return DoubleConsonant(endings, stem, replacedCharIndex5, isException);
+                }
+
+                if (stem[replacedCharIndex5 + 1] == 'v')
+                {
+                    // achever
+                    return ConvertEtoEaigu(endings, stem, replacedCharIndex5);
+                }
+            }
+
+            if (new[] { "ch", "gu", "br", "gl", "vr", "tr", "qu", "gr", "gn", "cr" }.Contains(substring))
+            {
+                int replacedCharIndex = verb.Length - 5;
                 char vowel = stem[replacedCharIndex];
-                if (replacedCharIndex > 0 && (vowel == 'e'))
+                if (replacedCharIndex > 0 && (vowel == 'é' || vowel == 'e'))
                 {
                     return ConvertEtoEaigu(endings, stem, replacedCharIndex);
                 }
@@ -67,44 +100,6 @@ namespace ConjugatorLibrary
             {
                 int replacedCharIndex = verb.Length - 4;
                 if (replacedCharIndex > 0 && stem[replacedCharIndex] == 'e')
-                {
-                    return ConvertEtoEaigu(endings, stem, replacedCharIndex);
-                }
-            }
-
-            {
-                int replacedCharIndex = verb.Length - 4;
-                if (replacedCharIndex > 0)
-                {
-                    char vowel = stem[replacedCharIndex];
-                    if (vowel == 'é' || vowel == 'e')
-                    {
-                        if (stem[replacedCharIndex + 1] == 'l')
-                        {
-                            bool isException = Exceptions.noDoubleL.Contains(verb);
-                            return DoubleConsonant(endings, stem, replacedCharIndex, isException);
-                        }
-
-                        if (stem[replacedCharIndex + 1] == 't')
-                        {
-                            bool isException = Exceptions.noDoubleT.Contains(verb);
-                            return DoubleConsonant(endings, stem, replacedCharIndex, isException);
-                        }
-
-                        if (stem[replacedCharIndex + 1] == 'v')
-                        {
-                            // achever
-                            return ConvertEtoEaigu(endings, stem, replacedCharIndex);
-                        }
-                    }
-                }
-            }
-
-            if (new[] { "ch", "gu", "br", "gl", "vr", "tr", "qu", "gr", "gn", "cr" }.Contains(substring))
-            {
-                int replacedCharIndex = verb.Length - 5;
-                char vowel = stem[replacedCharIndex];
-                if (replacedCharIndex > 0 && (vowel == 'é' || vowel == 'e'))
                 {
                     return ConvertEtoEaigu(endings, stem, replacedCharIndex);
                 }
