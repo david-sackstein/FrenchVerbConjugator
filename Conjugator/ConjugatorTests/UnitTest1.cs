@@ -53,7 +53,7 @@ namespace ConjugatorTests
             string[] expected = conjugation.Present;
             string[] actual = _conjugator.GetErPresent(verb);
             return 
-                expected != null && 
+                expected == null || 
                 expected.Zip(actual)
                     .All(tuple => tuple.First == null || tuple.First == tuple.Second);
         }

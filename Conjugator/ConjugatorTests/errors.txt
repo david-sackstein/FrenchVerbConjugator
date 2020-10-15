@@ -1,14 +1,5 @@
 [
   [
-    "béer"
-  ],
-  [
-    "capeyer"
-  ],
-  [
-    "clamecer"
-  ],
-  [
     "enamourer",
     "enameure",
     "enameures",
@@ -16,12 +7,6 @@
     "enamourons",
     "enamourez",
     "enameurent"
-  ],
-  [
-    "faseyer"
-  ],
-  [
-    "langueyer"
   ],
   [
     "raller",
