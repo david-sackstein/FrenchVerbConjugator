@@ -46,7 +46,7 @@ namespace ConjugatorLibrary
             {
                 int replacedCharIndex1 = verb.Length - 4;
                 char vowel = stem[replacedCharIndex1];
-                if (replacedCharIndex1 > 0 && vowel == 'é')
+                if (vowel == 'é')
                 {
                     return ConvertEtoEaigu(endings, stem, replacedCharIndex1);
                 }
@@ -57,7 +57,7 @@ namespace ConjugatorLibrary
             {
                 int replacedCharIndex = verb.Length - 4;
                 char vowel1 = stem[replacedCharIndex];
-                if (replacedCharIndex > 0 && (vowel1 == 'e'))
+                if (vowel1 == 'e')
                 {
                     return ConvertEtoEaigu(endings, stem, replacedCharIndex);
                 }
