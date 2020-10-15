@@ -63,15 +63,6 @@
     null
   ],
   [
-    "dépecer",
-    "dépèce",
-    "dépèces",
-    "dépèce",
-    "dépeçons",
-    "dépecez",
-    "dépècent"
-  ],
-  [
     "enamourer",
     "enameure",
     "enameures",
