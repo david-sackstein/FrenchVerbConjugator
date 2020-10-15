@@ -1,5 +1,4 @@
-﻿using System;
-using System.Diagnostics.Contracts;
+﻿using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 
@@ -10,7 +9,7 @@ namespace ConjugatorLibrary
         public string[] GetErPresent(string verb)
         {
             Contract.Requires(verb.EndsWith("er"));
-            Contract.Requires(verb.Length > 4);
+            Contract.Requires(verb.Length > 2);
 
             if (verb == "aller")
             {
@@ -41,10 +40,11 @@ namespace ConjugatorLibrary
         {
             string stem = verb.Remove(verb.Length - 2);
 
+            int replacedCharIndex1 = verb.Length - 4;
+
             // for précéder (but not planchéier)
             if (verb[^3] != 'i')
             {
-                int replacedCharIndex1 = verb.Length - 4;
                 char vowel = stem[replacedCharIndex1];
                 if (vowel == 'é')
                 {
@@ -52,37 +52,35 @@ namespace ConjugatorLibrary
                 }
             }
 
-            string substring = verb.Substring(verb.Length-4, 2);
+            string substring = verb.Substring(replacedCharIndex1, 2);
             if (new[] {"es", "em", "ep", "er", "ec"}.Contains(substring))
             {
-                int replacedCharIndex = verb.Length - 4;
-                char vowel1 = stem[replacedCharIndex];
+                char vowel1 = stem[replacedCharIndex1];
                 if (vowel1 == 'e')
                 {
-                    return ConvertEtoEaigu(endings, stem, replacedCharIndex);
+                    return ConvertEtoEaigu(endings, stem, replacedCharIndex1);
                 }
             }
 
-            int replacedCharIndex5 = verb.Length - 4;
-            char vowel2 = stem[replacedCharIndex5];
+            char vowel2 = stem[replacedCharIndex1];
             if (vowel2 == 'é' || vowel2 == 'e')
             {
-                if (stem[replacedCharIndex5 + 1] == 'l')
+                if (stem[replacedCharIndex1 + 1] == 'l')
                 {
                     bool isException = Exceptions.noDoubleL.Contains(verb);
-                    return DoubleConsonant(endings, stem, replacedCharIndex5, isException);
+                    return DoubleConsonant(endings, stem, replacedCharIndex1, isException);
                 }
 
-                if (stem[replacedCharIndex5 + 1] == 't')
+                if (stem[replacedCharIndex1 + 1] == 't')
                 {
                     bool isException = Exceptions.noDoubleT.Contains(verb);
-                    return DoubleConsonant(endings, stem, replacedCharIndex5, isException);
+                    return DoubleConsonant(endings, stem, replacedCharIndex1, isException);
                 }
 
-                if (stem[replacedCharIndex5 + 1] == 'v')
+                if (stem[replacedCharIndex1 + 1] == 'v')
                 {
                     // achever
-                    return ConvertEtoEaigu(endings, stem, replacedCharIndex5);
+                    return ConvertEtoEaigu(endings, stem, replacedCharIndex1);
                 }
             }
 
@@ -90,7 +88,7 @@ namespace ConjugatorLibrary
             {
                 int replacedCharIndex = verb.Length - 5;
                 char vowel = stem[replacedCharIndex];
-                if (replacedCharIndex > 0 && (vowel == 'é' || vowel == 'e'))
+                if (vowel == 'é' || vowel == 'e')
                 {
                     return ConvertEtoEaigu(endings, stem, replacedCharIndex);
                 }
