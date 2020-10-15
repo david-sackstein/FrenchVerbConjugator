@@ -100,7 +100,8 @@ namespace ConjugatorLibrary
             string substring = verb.Substring(verb.Length-4, 2);
             if (substring == "ch" || substring == "gu" || 
                 substring == "br" || substring == "gl" || 
-                substring == "vr" || substring == "tr" || substring == "qu")
+                substring == "vr" || substring == "tr" || 
+                substring == "qu" || substring == "gr")
             {
                 int replacedCharIndex = verb.Length - 5;
                 char vowel = stem[replacedCharIndex];

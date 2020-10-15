@@ -81,15 +81,6 @@
     "dépècent"
   ],
   [
-    "désintégrer",
-    "désintègre",
-    "désintègres",
-    "désintègre",
-    "désintégrons",
-    "désintégrez",
-    "désintègrent"
-  ],
-  [
     "empeser",
     "empèse",
     "empèses",
@@ -154,15 +145,6 @@
     "imprégnons",
     "imprégnez",
     "imprègnent"
-  ],
-  [
-    "intégrer",
-    "intègre",
-    "intègres",
-    "intègre",
-    "intégrons",
-    "intégrez",
-    "intègrent"
   ],
   [
     "langueyer"
@@ -283,15 +265,6 @@
     "régnons",
     "régnez",
     "règnent"
-  ],
-  [
-    "réintégrer",
-    "réintègre",
-    "réintègres",
-    "réintègre",
-    "réintégrons",
-    "réintégrez",
-    "réintègrent"
   ],
   [
     "semer",
