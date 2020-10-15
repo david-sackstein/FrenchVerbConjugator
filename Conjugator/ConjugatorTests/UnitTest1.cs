@@ -27,6 +27,29 @@ namespace ConjugatorTests
             TestErPresent(verb);
         }
 
+        Conjugation FixPresentErConjugation(string verb, Conjugation input)
+        {
+            Conjugation output = new Conjugation();
+            foreach (var property in typeof(Conjugation).GetProperties())
+            {
+                property.SetValue(output, property.GetValue(input));
+            }
+            output.Present = _conjugator.GetErPresent(verb);
+            return output;
+        }
+
+        //[TestMethod]
+        public void FixPresentErConjugations()
+        {
+            Dictionary<string, Conjugation> fixedConjugations = _verbData.Conjugations
+                .Where(kv => kv.Key.EndsWith("er"))
+                .ToDictionary(
+                    kv => kv.Key,
+                    kv => FixPresentErConjugation(kv.Key, kv.Value));
+
+            VerbData.SaveConjugations(_nodeModulesPath, fixedConjugations);
+        }
+
         [TestMethod]
         public void TestAllErPresent()
         {
@@ -53,7 +76,6 @@ namespace ConjugatorTests
             string[] expected = conjugation.Present;
             string[] actual = _conjugator.GetErPresent(verb);
             return 
-                verb == "raller" || // this is an error in the ground truth
                 expected == null || 
                 expected.Zip(actual)
                     .All(tuple => tuple.First == null || tuple.First == tuple.Second);
