@@ -42,15 +42,6 @@
     "capeyer"
   ],
   [
-    "clairsemer",
-    "clairsème",
-    "clairsèmes",
-    "clairsème",
-    "clairsemons",
-    "clairsemez",
-    "clairsèment"
-  ],
-  [
     "clamecer"
   ],
   [
@@ -159,15 +150,6 @@
     null
   ],
   [
-    "parsemer",
-    "parsème",
-    "parsèmes",
-    "parsème",
-    "parsemons",
-    "parsemez",
-    "parsèment"
-  ],
-  [
     "pleuvasser",
     "pleuvasse",
     null,
@@ -220,24 +202,6 @@
     "recepons",
     "recepez",
     "recèpent"
-  ],
-  [
-    "ressemer",
-    "ressème",
-    "ressèmes",
-    "ressème",
-    "ressemons",
-    "ressemez",
-    "ressèment"
-  ],
-  [
-    "semer",
-    "sème",
-    "sèmes",
-    "sème",
-    "semons",
-    "semez",
-    "sèment"
   ],
   [
     "vaser",
