@@ -16,6 +16,7 @@ namespace ConjugatorLibrary
             {
                 return new [] {"vais", "vas", "va", "allons", "allez", "vont"};
             }
+
             // for manger
             string onsEnding = "ons";
             if (verb[^3] == 'g')
@@ -36,55 +37,9 @@ namespace ConjugatorLibrary
             return withEndings;
         }
 
-        private static readonly string[] noDoubleL = {
-            "celer",
-            "ciseler",
-            "congeler",
-            "courrieler",
-            "déceler",
-            "décongeler",
-            "dégeler",
-            "démanteler",
-            "dépuceler",
-            "geler",
-            "greneler",
-            "harceler",
-            "marteler",
-            "modeler",
-            "nickeler",
-            "peler",
-            "receler",
-            "regeler",
-            "remodeler",
-            "surgeler",
-            "écarteler"};
-
-        private static readonly string[] noDoubleT = {
-            "acheter",
-            "becqueter",
-            "corseter",
-            "craqueter",
-            "crocheter",
-            "décliqueter",
-            "dépaqueter",
-            "empaqueter",
-            "fureter",
-            "guillemeter",
-            "haleter",
-            "piqueter",
-            "préacheter",
-            "racheter",
-            "rempaqueter"
-        };
-
         private static string[] Apply(string[] endings, string verb)
         {
             string stem = verb.Remove(verb.Length - 2);
-
-            if (verb == "enamourer")
-            {
-                Console.WriteLine();
-            }
 
             if (verb.Length > 5)
             {
@@ -145,13 +100,13 @@ namespace ConjugatorLibrary
                 {
                     if (stem[replacedCharIndex + 1] == 'l')
                     {
-                        bool isException = noDoubleL.Contains(verb);
+                        bool isException = Exceptions.noDoubleL.Contains(verb);
                         return DoubleConsonant(endings, stem, replacedCharIndex, isException);
                     }
 
                     if (stem[replacedCharIndex + 1] == 't')
                     {
-                        bool isException = noDoubleT.Contains(verb);
+                        bool isException = Exceptions.noDoubleT.Contains(verb);
                         return DoubleConsonant(endings, stem, replacedCharIndex, isException);
                     }
 

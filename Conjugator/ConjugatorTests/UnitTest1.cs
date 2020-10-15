@@ -20,13 +20,6 @@ namespace ConjugatorTests
             _conjugator = new Conjugator();
         }
 
-        [TestMethod]
-        public void TestMangerPresent()
-        {
-            string verb = "manger";
-            TestErPresent(verb);
-        }
-
         Conjugation FixPresentErConjugation(string verb, Conjugation input)
         {
             Conjugation output = new Conjugation();
@@ -67,7 +60,7 @@ namespace ConjugatorTests
             Assert.IsTrue(!newErrors.Any());
 
             Console.WriteLine($"{actualErrors.Length} errors");
-            ErrorList.Save(actualErrors, _verbData.Conjugations);
+            //ErrorList.Save(actualErrors, _verbData.Conjugations);
         }
 
         private static bool IsCorrect(string verb)
