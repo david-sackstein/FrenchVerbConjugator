@@ -41,16 +41,6 @@ namespace ConjugatorLibrary
         {
             string stem = verb.Remove(verb.Length - 2);
 
-            if (verb.Length > 5)
-            {
-                string substring3 = verb.Substring(verb.Length - 6, 4);
-                if (substring3 == "mour")
-                {
-                    string stemJeTuIlIls = ReplaceAt(stem, verb.Length - 5, 'e');
-                    return AddEndings(endings, stemJeTuIlIls, stem);
-                }
-            }
-
             // for précéder (but not planchéier)
             if (verb[^3] != 'i')
             {
@@ -73,16 +63,6 @@ namespace ConjugatorLibrary
                 }
             }
 
-            if (new[] {"ch", "gu", "br", "gl", "vr", "tr", "qu", "gr", "gn", "cr" }.Contains(substring))
-            {
-                int replacedCharIndex = verb.Length - 5;
-                char vowel = stem[replacedCharIndex];
-                if (replacedCharIndex > 0 && (vowel == 'é' || vowel == 'e'))
-                {
-                    return ConvertEtoEaigu(endings, stem, replacedCharIndex);
-                }
-            }
-
             if (substring == "en")
             {
                 int replacedCharIndex = verb.Length - 4;
@@ -92,29 +72,51 @@ namespace ConjugatorLibrary
                 }
             }
 
-            // for acheter but not annexer
-            if (! new[] {'x', 'f', 'w', 'y'}.Contains(verb[^3]))
             {
                 int replacedCharIndex = verb.Length - 4;
-                if (replacedCharIndex > 0 && stem[replacedCharIndex] == 'e')
+                if (replacedCharIndex > 0)
                 {
-                    if (stem[replacedCharIndex + 1] == 'l')
+                    char vowel = stem[replacedCharIndex];
+                    if (vowel == 'é' || vowel == 'e')
                     {
-                        bool isException = Exceptions.noDoubleL.Contains(verb);
-                        return DoubleConsonant(endings, stem, replacedCharIndex, isException);
-                    }
+                        if (stem[replacedCharIndex + 1] == 'l')
+                        {
+                            bool isException = Exceptions.noDoubleL.Contains(verb);
+                            return DoubleConsonant(endings, stem, replacedCharIndex, isException);
+                        }
 
-                    if (stem[replacedCharIndex + 1] == 't')
-                    {
-                        bool isException = Exceptions.noDoubleT.Contains(verb);
-                        return DoubleConsonant(endings, stem, replacedCharIndex, isException);
-                    }
+                        if (stem[replacedCharIndex + 1] == 't')
+                        {
+                            bool isException = Exceptions.noDoubleT.Contains(verb);
+                            return DoubleConsonant(endings, stem, replacedCharIndex, isException);
+                        }
 
-                    if (stem[replacedCharIndex + 1] == 'v')
-                    {
-                        // achever
-                        return ConvertEtoEaigu(endings, stem, replacedCharIndex);
+                        if (stem[replacedCharIndex + 1] == 'v')
+                        {
+                            // achever
+                            return ConvertEtoEaigu(endings, stem, replacedCharIndex);
+                        }
                     }
+                }
+            }
+
+            if (new[] { "ch", "gu", "br", "gl", "vr", "tr", "qu", "gr", "gn", "cr" }.Contains(substring))
+            {
+                int replacedCharIndex = verb.Length - 5;
+                char vowel = stem[replacedCharIndex];
+                if (replacedCharIndex > 0 && (vowel == 'é' || vowel == 'e'))
+                {
+                    return ConvertEtoEaigu(endings, stem, replacedCharIndex);
+                }
+            }
+
+            if (verb.Length > 5)
+            {
+                string substring3 = verb.Substring(verb.Length - 6, 4);
+                if (substring3 == "mour")
+                {
+                    string stemJeTuIlIls = ReplaceAt(stem, verb.Length - 5, 'e');
+                    return AddEndings(endings, stemJeTuIlIls, stem);
                 }
             }
 
