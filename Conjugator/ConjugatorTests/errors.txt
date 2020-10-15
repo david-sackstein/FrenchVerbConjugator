@@ -63,24 +63,6 @@
     null
   ],
   [
-    "disséquer",
-    "dissèque",
-    "dissèques",
-    "dissèque",
-    "disséquons",
-    "disséquez",
-    "dissèquent"
-  ],
-  [
-    "déféquer",
-    "défèque",
-    "défèques",
-    "défèque",
-    "déféquons",
-    "déféquez",
-    "défèquent"
-  ],
-  [
     "déluger",
     "déluge",
     null,
@@ -163,24 +145,6 @@
     null,
     null,
     null
-  ],
-  [
-    "hypothéquer",
-    "hypothèque",
-    "hypothèques",
-    "hypothèque",
-    "hypothéquons",
-    "hypothéquez",
-    "hypothèquent"
-  ],
-  [
-    "hypotéquer",
-    "hypotèque",
-    "hypotèques",
-    "hypotèque",
-    "hypotéquons",
-    "hypotéquez",
-    "hypotèquent"
   ],
   [
     "imprégner",
@@ -328,15 +292,6 @@
     "réintégrons",
     "réintégrez",
     "réintègrent"
-  ],
-  [
-    "réséquer",
-    "résèque",
-    "résèques",
-    "résèque",
-    "réséquons",
-    "réséquez",
-    "résèquent"
   ],
   [
     "semer",
