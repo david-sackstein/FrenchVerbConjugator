@@ -81,7 +81,7 @@ namespace ConjugatorLibrary
         {
             string stem = verb.Remove(verb.Length - 2);
 
-            if (verb == "parsemer")
+            if (verb == "receper")
             {
                 Console.WriteLine();
             }
@@ -98,7 +98,7 @@ namespace ConjugatorLibrary
             }
 
             string substring = verb.Substring(verb.Length-4, 2);
-            if (new[] {"es", "em"}.Contains(substring))
+            if (new[] {"es", "em", "ep"}.Contains(substring))
             {
                 int replacedCharIndex = verb.Length - 4;
                 char vowel = stem[replacedCharIndex];

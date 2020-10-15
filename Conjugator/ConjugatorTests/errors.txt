@@ -195,15 +195,6 @@
     "rvont"
   ],
   [
-    "receper",
-    "recèpe",
-    "recèpes",
-    "recèpe",
-    "recepons",
-    "recepez",
-    "recèpent"
-  ],
-  [
     "vaser",
     "vase",
     null,
