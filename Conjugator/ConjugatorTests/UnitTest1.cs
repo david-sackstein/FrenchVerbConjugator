@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Channels;
 using ConjugatorLibrary;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -38,34 +39,13 @@ namespace ConjugatorTests
             string[] expectedErrors = ErrorList.Load();
             string[] actualErrors = grades[false];
 
-            var d1 = grades[false].Where(x => x.EndsWith("ener")).ToArray();
-            var d2 = grades[true].Where(x => x.EndsWith("ener")).ToArray();
             var newErrors = actualErrors.Except(expectedErrors).ToArray();
             var newFixes = expectedErrors.Except(actualErrors).ToArray();
 
-            foreach (var newError in newErrors)
-            {
-                ShowError(newError);
-            }
             Assert.IsTrue(!newErrors.Any());
 
-            ErrorList.Save(grades[false]);
-
-            var firstFailure = grades[false][0];
-            ShowError(firstFailure);
-        }
-
-        private static void ShowError(string verb)
-        {
-            Conjugation conjugation = _verbData.Conjugations[verb];
-            string[] expected = conjugation.Present;
-            string[] actual = _conjugator.GetErPresent(verb);
-            Console.WriteLine($"{verb}:\n");
-            for (int i = 0; i < expected.Length; i++)
-            {
-                string incorrect = actual[i] == expected[i] ? "" : "x";
-                Console.WriteLine($"{expected[i]}\n{actual[i]} {incorrect}\n");
-            }
+            Console.WriteLine($"{actualErrors.Length} errors");
+            ErrorList.Save(grades[false], _verbData.Conjugations);
         }
 
         private static bool IsCorrect(string verb)
