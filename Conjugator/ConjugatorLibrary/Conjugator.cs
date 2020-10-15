@@ -81,7 +81,7 @@ namespace ConjugatorLibrary
         {
             string stem = verb.Remove(verb.Length - 2);
 
-            if (verb == "dépecer")
+            if (verb == "soupeser")
             {
                 Console.WriteLine();
             }
@@ -98,6 +98,16 @@ namespace ConjugatorLibrary
             }
 
             string substring = verb.Substring(verb.Length-4, 2);
+            if (new[] {"es"}.Contains(substring))
+            {
+                int replacedCharIndex = verb.Length - 4;
+                char vowel = stem[replacedCharIndex];
+                if (replacedCharIndex > 0 && (vowel == 'e'))
+                {
+                    return ConvertEtoEaigu(endings, stem, replacedCharIndex);
+                }
+            }
+
             if (new[] {"ch", "gu", "br", "gl", "vr", "tr", "qu", "gr", "gn" }.Contains(substring))
             {
                 int replacedCharIndex = verb.Length - 5;

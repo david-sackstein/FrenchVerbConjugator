@@ -81,15 +81,6 @@
     "dépècent"
   ],
   [
-    "empeser",
-    "empèse",
-    "empèses",
-    "empèse",
-    "empesons",
-    "empesez",
-    "empèsent"
-  ],
-  [
     "enamourer",
     "enameure",
     "enameures",
@@ -177,15 +168,6 @@
     "parsèment"
   ],
   [
-    "peser",
-    "pèse",
-    "pèses",
-    "pèse",
-    "pesons",
-    "pesez",
-    "pèsent"
-  ],
-  [
     "pleuvasser",
     "pleuvasse",
     null,
@@ -256,15 +238,6 @@
     "semons",
     "semez",
     "sèment"
-  ],
-  [
-    "soupeser",
-    "soupèse",
-    "soupèses",
-    "soupèse",
-    "soupesons",
-    "soupesez",
-    "soupèsent"
   ],
   [
     "vaser",
