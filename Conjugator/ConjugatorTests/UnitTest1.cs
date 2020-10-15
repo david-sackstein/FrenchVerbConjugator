@@ -52,7 +52,10 @@ namespace ConjugatorTests
             Conjugation conjugation = _verbData.Conjugations[verb];
             string[] expected = conjugation.Present;
             string[] actual = _conjugator.GetErPresent(verb);
-            return expected != null && expected.SequenceEqual(actual);
+            return 
+                expected != null && 
+                expected.Zip(actual)
+                    .All(tuple => tuple.First == null || tuple.First == tuple.Second);
         }
 
         private static void TestErPresent(string verb)

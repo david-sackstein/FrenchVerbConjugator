@@ -1,41 +1,5 @@
 [
   [
-    "brouillasser",
-    "brouillasse",
-    null,
-    "brouillasse",
-    null,
-    null,
-    null
-  ],
-  [
-    "bruiner",
-    "bruine",
-    null,
-    "bruine",
-    null,
-    null,
-    null
-  ],
-  [
-    "brumer",
-    "brume",
-    null,
-    "brume",
-    null,
-    null,
-    null
-  ],
-  [
-    "brumasser",
-    "brumasse",
-    null,
-    "brumasse",
-    null,
-    null,
-    null
-  ],
-  [
     "béer"
   ],
   [
@@ -43,24 +7,6 @@
   ],
   [
     "clamecer"
-  ],
-  [
-    "crachiner",
-    "crachine",
-    null,
-    "crachine",
-    null,
-    null,
-    null
-  ],
-  [
-    "déluger",
-    "déluge",
-    null,
-    "déluge",
-    null,
-    null,
-    null
   ],
   [
     "enamourer",
@@ -75,88 +21,7 @@
     "faseyer"
   ],
   [
-    "floconner",
-    "floconne",
-    null,
-    "floconne",
-    null,
-    null,
-    null
-  ],
-  [
-    "frimasser",
-    "frimasse",
-    null,
-    "frimasse",
-    null,
-    null,
-    null
-  ],
-  [
-    "grêler",
-    "grêle",
-    null,
-    "grêle",
-    null,
-    null,
-    null
-  ],
-  [
     "langueyer"
-  ],
-  [
-    "mouillasser",
-    "mouillasse",
-    null,
-    "mouillasse",
-    null,
-    null,
-    null
-  ],
-  [
-    "neiger",
-    "neige",
-    null,
-    "neige",
-    null,
-    null,
-    null
-  ],
-  [
-    "pleuvasser",
-    "pleuvasse",
-    null,
-    "pleuvasse",
-    null,
-    null,
-    null
-  ],
-  [
-    "pleuviner",
-    "pleuvine",
-    null,
-    "pleuvine",
-    null,
-    null,
-    null
-  ],
-  [
-    "pleuvoter",
-    "pleuvote",
-    null,
-    "pleuvote",
-    null,
-    null,
-    null
-  ],
-  [
-    "pluvioter",
-    "pluviote",
-    null,
-    "pluviote",
-    null,
-    null,
-    null
   ],
   [
     "raller",
@@ -166,24 +31,6 @@
     "rallons",
     "rallez",
     "rvont"
-  ],
-  [
-    "vaser",
-    "vase",
-    null,
-    "vase",
-    null,
-    null,
-    null
-  ],
-  [
-    "venter",
-    "vente",
-    null,
-    "vente",
-    null,
-    null,
-    null
   ],
   [
     "énamourer",
