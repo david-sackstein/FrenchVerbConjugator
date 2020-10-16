@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.Contracts;
+﻿using System;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 
@@ -40,97 +41,60 @@ namespace ConjugatorLibrary
         {
             string stem = verb.Remove(verb.Length - 2);
 
-            int replacedCharIndex4 = verb.Length - 4;
-            char vowel4 = stem[replacedCharIndex4];
-
-            // for précéder (but not planchéier)
-            if (vowel4 == 'é')
+            if (stem.Length > 2)
             {
-                if (verb[^3] != 'i')
-                {
-                    return ConvertEtoEaigu(endings, stem, replacedCharIndex4);
-                }
-            }
+                string substring = stem.Substring(stem.Length - 2, 2);
 
-            string substring2 = verb.Substring(replacedCharIndex4, 2);
-            
-            switch (substring2)
-            {
-                case "el":
+                switch (substring)
                 {
-                    bool isException = Exceptions.noDoubleL.Contains(verb);
-                    return DoubleConsonant(endings, stem, replacedCharIndex4, isException);
-                }
-                case "et":
-                {
-                    bool isException = Exceptions.noDoubleT.Contains(verb);
-                    return DoubleConsonant(endings, stem, replacedCharIndex4, isException);
-                }
-
-                case "es":
-                case "em":
-                case "ep":
-                case "er":
-                case "ec":
-                case "en":
-                case "ev":
-                    return ConvertEtoEaigu(endings, stem, replacedCharIndex4);
-            }
-
-            if (verb.Length > 5)
-            {
-                string substring = verb.Substring(replacedCharIndex4-1, 3);
-
-                if (new[]
-                {
-                    "ech", "egu", "ebr", "egl", "evr", "etr", "equ", "egr", "egn", "ecr",
-                    "éch", "égu", "ébr", "égl", "évr", "étr", "équ", "égr", "égn", "écr"
-                }.Contains(substring))
-                {
-                    int replacedCharIndex = verb.Length - 5;
-                    char vowel = stem[replacedCharIndex];
-                    if (vowel == 'é' || vowel == 'e')
+                    case "oy":
+                    case "uy":
                     {
-                        return ConvertEtoEaigu(endings, stem, replacedCharIndex);
+                        string stemJeTuIlIls = ReplaceAt(stem, verb.Length - 3, 'i');
+                        return AddEndings(endings, stemJeTuIlIls, stem);
                     }
+
+                    case "éc": case "éd": case "ég": case "éj": case "él": case "ém":
+                    case "én": case "ép": case "ér": case "és": case "ét": case "es":
+                    case "em": case "ep": case "er": case "ec": case "en": case "ev":
+
+                    case "el" when Exceptions.noDoubleL.Contains(verb):
+                    case "et" when Exceptions.noDoubleT.Contains(verb):
+
+                        return ConvertEtoEaigu(endings, stem, stem.Length - substring.Length);
+
+                    case "el":
+                    case "et":
+
+                        return DoubleConsonant(endings, stem);
                 }
             }
 
-            if (verb.Length > 5)
+            if (stem.Length > 3)
             {
-                string substring3 = verb.Substring(verb.Length - 6, 4);
-                if (substring3 == "mour")
+                string substring = verb.Substring(stem.Length - 3, 3);
+
+                switch (substring)
                 {
-                    string stemJeTuIlIls = ReplaceAt(stem, verb.Length - 5, 'e');
+                    case "éch": case "égu": case "ébr": case "égl": case "évr":
+                    case "étr": case "équ": case "égr": case "égn": case "écr":
+                    case "evr":
+                        return ConvertEtoEaigu(endings, stem, stem.Length - substring.Length);
+                }
+            }
+
+            if (stem.Length > 4)
+            {
+                string substring = verb.Substring(stem.Length - 4, 4);
+
+                if (substring == "mour")
+                {
+                    string stemJeTuIlIls = ReplaceAt(stem, stem.Length - 3, 'e');
                     return AddEndings(endings, stemJeTuIlIls, stem);
                 }
             }
 
-            // for aboyer, appuyer
-            int replacedCharIndex2 = verb.Length - 3;
-            string substring1 = stem.Substring(replacedCharIndex2 - 1, 2);
-            if (replacedCharIndex2 > 0 &&
-                replacedCharIndex2 + 1 <= stem.Length && (substring1 == "oy" || substring1 == "uy"))
-            {
-                string stemJeTuIlIls = ReplaceAt(stem, replacedCharIndex2, 'i');
-                return AddEndings(endings, stemJeTuIlIls, stem);
-            }
-
             return endings.Select(ending => stem + ending).ToArray();
-        }
-
-        private static string[] DoubleConsonant(
-            string[] endings, string stem,
-            int replacedCharIndex, bool isException)
-        {
-            if (isException)
-            {
-                // celer
-                return ConvertEtoEaigu(endings, stem, replacedCharIndex);
-            }
-
-            // agneler
-            return DoubleConsonant(endings, stem);
         }
 
         private static string[] ConvertEtoEaigu(string[] endings, string stem, int replacedCharIndex)
