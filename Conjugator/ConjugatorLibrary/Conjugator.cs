@@ -43,9 +43,9 @@ namespace ConjugatorLibrary
 
             if (stem.Length > 2)
             {
-                string substring = stem.Substring(stem.Length - 2);
+                string stemEnding = stem.Substring(stem.Length - 2);
 
-                switch (substring)
+                switch (stemEnding)
                 {
                     case "oy":
                     case "uy":
@@ -61,7 +61,7 @@ namespace ConjugatorLibrary
                     case "el" when Exceptions.noDoubleL.Contains(verb):
                     case "et" when Exceptions.noDoubleT.Contains(verb):
 
-                        return ConvertEtoEaigu(endings, stem, stem.Length - substring.Length);
+                        return ConvertEtoEaigu(endings, stem, stemEnding);
 
                     case "el":
                     case "et":
@@ -72,22 +72,22 @@ namespace ConjugatorLibrary
 
             if (stem.Length > 3)
             {
-                string substring = stem.Substring(stem.Length - 3);
+                string stemEnding = stem.Substring(stem.Length - 3);
 
-                switch (substring)
+                switch (stemEnding)
                 {
                     case "éch": case "égu": case "ébr": case "égl": case "évr":
                     case "étr": case "équ": case "égr": case "égn": case "écr":
                     case "evr":
-                        return ConvertEtoEaigu(endings, stem, stem.Length - substring.Length);
+                        return ConvertEtoEaigu(endings, stem, stemEnding);
                 }
             }
 
             if (stem.Length > 4)
             {
-                string substring = stem.Substring(stem.Length - 4);
+                string stemEnding = stem.Substring(stem.Length - 4);
 
-                if (substring == "mour")
+                if (stemEnding == "mour")
                 {
                     string stemJeTuIlIls = ReplaceAt(stem, stem.Length - 3, 'e');
                     return AddEndings(endings, stemJeTuIlIls, stem);
@@ -97,8 +97,9 @@ namespace ConjugatorLibrary
             return endings.Select(ending => stem + ending).ToArray();
         }
 
-        private static string[] ConvertEtoEaigu(string[] endings, string stem, int replacedCharIndex)
+        private static string[] ConvertEtoEaigu(string[] endings, string stem, string stemEnding)
         {
+            int replacedCharIndex = stem.Length - stemEnding.Length;
             string actualStem = ReplaceAt(stem, replacedCharIndex, 'è');
             return AddEndings(endings, actualStem, stem);
         }
