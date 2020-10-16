@@ -77,11 +77,15 @@ namespace ConjugatorLibrary
                     return ConvertEtoEaigu(endings, stem, replacedCharIndex4);
             }
 
-            string substring = verb.Substring(replacedCharIndex4, 2);
-            
             if (verb.Length > 5)
             {
-                if (new[] {"ch", "gu", "br", "gl", "vr", "tr", "qu", "gr", "gn", "cr"}.Contains(substring))
+                string substring = verb.Substring(replacedCharIndex4-1, 3);
+
+                if (new[]
+                {
+                    "ech", "egu", "ebr", "egl", "evr", "etr", "equ", "egr", "egn", "ecr",
+                    "éch", "égu", "ébr", "égl", "évr", "étr", "équ", "égr", "égn", "écr"
+                }.Contains(substring))
                 {
                     int replacedCharIndex = verb.Length - 5;
                     char vowel = stem[replacedCharIndex];
