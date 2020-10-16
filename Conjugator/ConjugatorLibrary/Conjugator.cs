@@ -52,10 +52,10 @@ namespace ConjugatorLibrary
                 }
             }
 
+            char consonant = stem[replacedCharIndex4 + 1];
+
             if (vowel4 == 'é' || vowel4 == 'e')
             {
-                char consonant = stem[replacedCharIndex4 + 1];
-
                 switch (consonant)
                 {
                     case 'l':
@@ -72,18 +72,18 @@ namespace ConjugatorLibrary
                         // achever
                         return ConvertEtoEaigu(endings, stem, replacedCharIndex4);
                 }
-            }
 
-            string substring = verb.Substring(replacedCharIndex4, 2);
-
-            if (vowel4 == 'e')
-            {
-                if (new[] {'s', 'm', 'p', 'r', 'c', 'n'}.Contains(substring[1]))
+                if (vowel4 == 'e')
                 {
-                    return ConvertEtoEaigu(endings, stem, replacedCharIndex4);
+                    if (new[] {'s', 'm', 'p', 'r', 'c', 'n'}.Contains(consonant))
+                    {
+                        return ConvertEtoEaigu(endings, stem, replacedCharIndex4);
+                    }
                 }
             }
 
+            string substring = verb.Substring(replacedCharIndex4, 2);
+            
             if (verb.Length > 5)
             {
                 if (new[] {"ch", "gu", "br", "gl", "vr", "tr", "qu", "gr", "gn", "cr"}.Contains(substring))
