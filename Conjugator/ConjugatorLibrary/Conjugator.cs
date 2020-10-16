@@ -52,34 +52,29 @@ namespace ConjugatorLibrary
                 }
             }
 
-            char consonant = stem[replacedCharIndex4 + 1];
-
-            if (vowel4 == 'é' || vowel4 == 'e')
+            string substring2 = verb.Substring(replacedCharIndex4, 2);
+            
+            switch (substring2)
             {
-                switch (consonant)
+                case "el":
                 {
-                    case 'l':
-                    {
-                        bool isException = Exceptions.noDoubleL.Contains(verb);
-                        return DoubleConsonant(endings, stem, replacedCharIndex4, isException);
-                    }
-                    case 't':
-                    {
-                        bool isException = Exceptions.noDoubleT.Contains(verb);
-                        return DoubleConsonant(endings, stem, replacedCharIndex4, isException);
-                    }
-                    case 'v':
-                        // achever
-                        return ConvertEtoEaigu(endings, stem, replacedCharIndex4);
+                    bool isException = Exceptions.noDoubleL.Contains(verb);
+                    return DoubleConsonant(endings, stem, replacedCharIndex4, isException);
+                }
+                case "et":
+                {
+                    bool isException = Exceptions.noDoubleT.Contains(verb);
+                    return DoubleConsonant(endings, stem, replacedCharIndex4, isException);
                 }
 
-                if (vowel4 == 'e')
-                {
-                    if (new[] {'s', 'm', 'p', 'r', 'c', 'n'}.Contains(consonant))
-                    {
-                        return ConvertEtoEaigu(endings, stem, replacedCharIndex4);
-                    }
-                }
+                case "es":
+                case "em":
+                case "ep":
+                case "er":
+                case "ec":
+                case "en":
+                case "ev":
+                    return ConvertEtoEaigu(endings, stem, replacedCharIndex4);
             }
 
             string substring = verb.Substring(replacedCharIndex4, 2);
