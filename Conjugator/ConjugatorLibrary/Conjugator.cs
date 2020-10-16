@@ -43,7 +43,7 @@ namespace ConjugatorLibrary
 
             if (stem.Length > 2)
             {
-                string substring = stem.Substring(stem.Length - 2, 2);
+                string substring = stem.Substring(stem.Length - 2);
 
                 switch (substring)
                 {
@@ -72,7 +72,7 @@ namespace ConjugatorLibrary
 
             if (stem.Length > 3)
             {
-                string substring = verb.Substring(stem.Length - 3, 3);
+                string substring = stem.Substring(stem.Length - 3);
 
                 switch (substring)
                 {
@@ -85,7 +85,7 @@ namespace ConjugatorLibrary
 
             if (stem.Length > 4)
             {
-                string substring = verb.Substring(stem.Length - 4, 4);
+                string substring = stem.Substring(stem.Length - 4);
 
                 if (substring == "mour")
                 {
