@@ -18,7 +18,15 @@ namespace ConjugatorLibrary
             string[] endings = {"ais", "ais", "ait", "ions", "iez", "aient"};
             if (verb[^3] == 'g')
             {
-                endings = endings.Select(e => "e" + e).ToArray();
+                endings = new[]
+                {
+                    "e" + endings[0],
+                    "e" + endings[1],
+                    "e" + endings[2],
+                    endings[3],
+                    endings[4],
+                    "e" + endings[5],
+                };
             }
 
             string[] withEndings = ApplyEndings(endings, verb);
