@@ -14,6 +14,7 @@ namespace ConjugatorTests
         private static PresentConjugator _presentConjugator;
         private static ImparfaitConjugator _imparfaitConjugator;
         private static ParticipePasseConjugator _participeParfaitConjugator;
+        private static FutureConjugator _futureConjugator;
 
         [ClassInitialize]
         public static void SetUp(TestContext context)
@@ -22,54 +23,32 @@ namespace ConjugatorTests
             _presentConjugator = new PresentConjugator();
             _imparfaitConjugator = new ImparfaitConjugator();
             _participeParfaitConjugator = new ParticipePasseConjugator();
+            _futureConjugator = new FutureConjugator();
         }
 
         [TestMethod]
         public void TestAllErPresent()
         {
-            Dictionary<bool, string[]> grades = _verbData.Conjugations.Keys
-                .Where(v => v.EndsWith("er"))
-                .GroupBy(IsErPresentCorrect)
-                .ToDictionary(g => g.Key, g => g.ToArray());
-
-            string[] expectedErrors = ErrorList.Load();
-            string[] actualErrors = grades.ContainsKey(false) ? grades[false] : new string[0];
-
-            var newErrors = actualErrors.Except(expectedErrors).ToArray();
-            var newFixes = expectedErrors.Except(actualErrors).ToArray();
-
-            Assert.IsTrue(!newErrors.Any());
-
-            //Console.WriteLine($"{actualErrors.Length} errors");
-            //ErrorList.Save(actualErrors, _verbData.Conjugations);
+            TestAll(v => _verbData.Conjugations[v].Present, _presentConjugator.GetErPresent);
         }
 
         [TestMethod]
         public void TestAllErImparfait()
         {
-            Dictionary<bool, string[]> grades = _verbData.Conjugations.Keys
-                .Where(v => v.EndsWith("er"))
-                .GroupBy(IsErImparfaitCorrect)
-                .ToDictionary(g => g.Key, g => g.ToArray());
-
-            string[] expectedErrors = ErrorList.Load();
-            string[] actualErrors = grades.ContainsKey(false) ? grades[false] : new string[0];
-
-            var newErrors = actualErrors.Except(expectedErrors).ToArray();
-            var newFixes = expectedErrors.Except(actualErrors).ToArray();
-
-            Assert.IsTrue(!newErrors.Any());
-
-            //Console.WriteLine($"{actualErrors.Length} errors");
-            //ErrorList.Save(actualErrors, _verbData.Conjugations);
+            TestAll(v => _verbData.Conjugations[v].Imparfait, _imparfaitConjugator.GetErImparfait);
         }
 
         [TestMethod]
         public void TestAllParticipeParfait()
         {
+            TestAll(v => _verbData.Conjugations[v].ParticipePasse, _participeParfaitConjugator.GetParticipleParfait);
+        }
+
+        private static void TestAll(Func<string, string[]> referenceConjugator, Func<string, string[]> conjugator)
+        {
             Dictionary<bool, string[]> grades = _verbData.Conjugations.Keys
                 .Where(v => v.EndsWith("er"))
-                .GroupBy(IsParticiplePasseCorrect)
+                .GroupBy(v => IsCorrect(v, referenceConjugator, conjugator))
                 .ToDictionary(g => g.Key, g => g.ToArray());
 
             string[] expectedErrors = ErrorList.Load();
@@ -84,39 +63,20 @@ namespace ConjugatorTests
             //ErrorList.Save(actualErrors, _verbData.Conjugations);
         }
 
-        private static bool IsErPresentCorrect(string verb)
+        private static bool IsCorrect(
+            string verb, 
+            Func<string, string[]> referenceConjugator, 
+            Func<string, string[]> conjugator)
         {
-            Conjugation conjugation = _verbData.Conjugations[verb];
-            string[] expected = conjugation.Present;
-            string[] actual = _presentConjugator.GetErPresent(verb);
-            return 
-                expected == null || 
-                expected.Zip(actual)
-                    .All(tuple => tuple.First == null || tuple.First == tuple.Second);
-        }
-
-        private static bool IsErImparfaitCorrect(string verb)
-        {
-            Conjugation conjugation = _verbData.Conjugations[verb];
-            string[] expected = conjugation.Imparfait;
-            string[] actual = _imparfaitConjugator.GetErImparfait(verb);
+            string[] expected = referenceConjugator(verb);
+            string[] actual = conjugator(verb);
             return
                 expected == null ||
                 expected.Zip(actual)
                     .All(tuple => tuple.First == null || tuple.First == tuple.Second);
         }
 
-        private static bool IsParticiplePasseCorrect(string verb)
-        {
-            Conjugation conjugation = _verbData.Conjugations[verb];
-            string[] expected = conjugation.ParticipePasse;
-            string[] actual = _participeParfaitConjugator.GetParticipleParfait(verb);
-            return
-                expected == null ||
-                expected.Zip(actual)
-                    .All(tuple => tuple.First == null || tuple.First == tuple.Second);
-        }
-
+        #region Hidden 
         Conjugation FixPresentErConjugation(string verb, Conjugation input)
         {
             Conjugation output = new Conjugation();
@@ -139,5 +99,6 @@ namespace ConjugatorTests
 
             VerbData.SaveConjugations(_nodeModulesPath, fixedConjugations);
         }
+        #endregion
     }
 }
