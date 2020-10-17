@@ -41,7 +41,9 @@ namespace ConjugatorLibrary
 
             if (stem.Length > 2)
             {
-                if (GetActualStem1(endings, verb, stem, out string actualStem))
+                string stemEnding = stem.Substring(stem.Length - 2);
+
+                if (GetActualStem1(stem, stemEnding, out string actualStem))
                 {
                     return AddEndings(endings, actualStem, stem);
                 }
@@ -49,7 +51,9 @@ namespace ConjugatorLibrary
 
             if (stem.Length > 3)
             {
-                if (GetActualStem2(endings, verb, stem, out string actualStem))
+                string stemEnding = stem.Substring(stem.Length - 3);
+
+                if (GetActualStem2(stem, stemEnding, out string actualStem))
                 {
                     return AddEndings(endings, actualStem, stem);
                 }
@@ -57,7 +61,9 @@ namespace ConjugatorLibrary
 
             if (stem.Length > 4)
             {
-                if (GetActualStem3(endings, verb, stem, out string actualStem))
+                string stemEnding = stem.Substring(stem.Length - 4);
+
+                if (GetActualStem3(stem, stemEnding, out string actualStem))
                 {
                     return AddEndings(endings, actualStem, stem);
                 }
@@ -66,16 +72,14 @@ namespace ConjugatorLibrary
             return endings.Select(ending => stem + ending).ToArray();
         }
 
-        private static bool GetActualStem1(string[] endings, string verb, string stem, out string actualStem5)
+        private static bool GetActualStem1(string stem, string stemEnding, out string actualStem)
         {
-            string stemEnding = stem.Substring(stem.Length - 2);
-
             switch (stemEnding)
             {
                 case "oy":
                 case "uy":
                 {
-                    actualStem5 = ReplaceAt(stem, stem.Length - 1, 'i');
+                    actualStem = ReplaceAt(stem, stem.Length - 1, 'i');
                     return true;
                 }
 
@@ -98,27 +102,25 @@ namespace ConjugatorLibrary
                 case "en":
                 case "ev":
 
-                case "el" when Exceptions.noDoubleL.Contains(verb):
-                case "et" when Exceptions.noDoubleT.Contains(verb):
+                case "el" when Exceptions.noDoubleL.Contains(stem + "er"):
+                case "et" when Exceptions.noDoubleT.Contains(stem + "er"):
 
-                    actualStem5 = ActualStemGrave(stem, stemEnding);
+                    actualStem = ActualStemGrave(stem, stemEnding);
                     return true;
 
                 case "el":
                 case "et":
 
-                    actualStem5 = ActualStemDoubled(stem);
+                    actualStem = ActualStemDoubled(stem);
                     return true;
             }
 
-            actualStem5 = "";
+            actualStem = "";
             return false;
         }
 
-        private static bool GetActualStem2(string[] endings, string verb, string stem, out string actualStem5)
+        private static bool GetActualStem2(string stem, string stemEnding, out string actualStem)
         {
-            string stemEnding = stem.Substring(stem.Length - 3);
-
             switch (stemEnding)
             {
                 case "éch":
@@ -132,25 +134,23 @@ namespace ConjugatorLibrary
                 case "égn":
                 case "écr":
                 case "evr":
-                    actualStem5 = ActualStemGrave(stem, stemEnding);
+                    actualStem = ActualStemGrave(stem, stemEnding);
                     return true;
             }
 
-            actualStem5 = "";
+            actualStem = "";
             return false;
         }
 
-        private static bool GetActualStem3(string[] endings, string verb, string stem, out string actualStem5)
+        private static bool GetActualStem3(string stem, string stemEnding, out string actualStem)
         {
-            string stemEnding = stem.Substring(stem.Length - 4);
-
             if (stemEnding == "mour")
             {
-                actualStem5 = ReplaceAt(stem, stem.Length - 3, 'e');
+                actualStem = ReplaceAt(stem, stem.Length - 3, 'e');
                 return true;
             }
 
-            actualStem5 = "";
+            actualStem = "";
             return false;
         }
 
