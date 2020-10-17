@@ -5,27 +5,29 @@ namespace ConjugatorLibrary
     public static class StemConverter
     {
         // The base stem is used for je, tu, il, ils but not for nous and vous
-        public static bool GetBaseStem(string stem, out string baseStem)
+        public static bool GetModifiedStem(string stem, out string modifiedStem)
         {
             if (
-                GetBaseStem2(stem, out baseStem) || 
-                GetBaseStem3(stem, out baseStem) || 
-                GetBaseStem4(stem, out baseStem))
+                BasedOnLastTwoLetters(stem, out modifiedStem) ||
+                BasedOnLastThreeLetters(stem, out modifiedStem) ||
+                BasedOnLastFourLetters(stem, out modifiedStem))
             {
                 return true;
             }
 
-            baseStem = "";
+            modifiedStem = "";
             return false;
         }
 
-        private static bool GetBaseStem2(string stem, out string actualStem)
+        private static bool BasedOnLastTwoLetters(string stem, out string actualStem)
         {
             const int endingLength = 2;
 
+            actualStem = stem;
+
             if (stem.Length < endingLength)
             {
-                goto NoChange;
+                return false;
             }
 
             // @formatter:off
@@ -39,7 +41,6 @@ namespace ConjugatorLibrary
                     actualStem = stem.ReplaceAt(stem.Length - 1, 'i');
                     return true;
                 }
-
                 case "éc": case "éd": case "ég": case "éj": case "él": case "ém": case "én": case "ép":
                 case "ér": case "és": case "ét": case "es": case "em":
                 case "ep": case "er": case "ec": case "en": case "ev":
@@ -59,17 +60,18 @@ namespace ConjugatorLibrary
 
             // @formatter:on
 
-            NoChange:
-            actualStem = "";
             return false;
         }
 
-        private static bool GetBaseStem3(string stem, out string actualStem)
+        private static bool BasedOnLastThreeLetters(string stem, out string actualStem)
         {
             const int endingLength = 3;
+            
+            actualStem = stem;
+
             if (stem.Length < endingLength)
             {
-                goto NoChange;
+                return false;
             }
 
             string stemEnding = stem.Substring(stem.Length - endingLength);
@@ -78,27 +80,26 @@ namespace ConjugatorLibrary
 
             switch (stemEnding)
             {
-                case "éch": case "égu": case "ébr": case "égl": case "évr":
-                case "étr": case "équ": case "égr": case "égn": case "écr":
-                case "evr":
+                case "éch": case "égu": case "ébr":case "égl":
+                case "évr": case "étr": case "équ":case "égr":
+                case "égn": case "écr": case "evr":
                     actualStem = ReplaceEwithEGrave(stem, stemEnding);
                     return true;
             }
 
             // @formatter:on
-
-            NoChange:
-            actualStem = "";
             return false;
         }
 
-        private static bool GetBaseStem4(string stem, out string actualStem)
+        private static bool BasedOnLastFourLetters(string stem, out string actualStem)
         {
             const int endingLength = 4;
 
+            actualStem = stem;
+
             if (stem.Length < endingLength)
             {
-                goto NoChange;
+                return false;
             }
 
             string stemEnding = stem.Substring(stem.Length - endingLength);
@@ -108,8 +109,6 @@ namespace ConjugatorLibrary
                 return true;
             }
 
-            NoChange:
-            actualStem = "";
             return false;
         }
 

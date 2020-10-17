@@ -38,30 +38,30 @@ namespace ConjugatorLibrary
         {
             string stem = verb.Remove(verb.Length - 2);
 
-            // determine the stem for je, tu, il, ils ("baseStem") which may
+            // determine the stem for je, tu, il, ils ("modifiedStem") which may
             // not be the same as for nous and vous
 
-            return StemConverter.GetBaseStem(stem, out string baseStem) 
-                ? AddEndings(endings, baseStem, stem) 
+            return StemConverter.GetModifiedStem(stem, out string modifiedStem) 
+                ? AddEndings(endings, modifiedStem, stem) 
                 : AddEndings(endings, stem);
         }
 
-        private static string[] AddEndings(string[] endings, string baseStem, string nousVousStem)
+        private static string[] AddEndings(string[] endings, string modifiedStem, string nousVousStem)
         {
             return new[]
             {
-                baseStem + endings[0],
-                baseStem + endings[1],
-                baseStem + endings[2],
+                modifiedStem + endings[0],
+                modifiedStem + endings[1],
+                modifiedStem + endings[2],
                 nousVousStem + endings[3],
                 nousVousStem + endings[4],
-                baseStem + endings[5],
+                modifiedStem + endings[5],
             };
         }
 
-        private static string[] AddEndings(string[] endings, string baseStem)
+        private static string[] AddEndings(string[] endings, string modifiedStem)
         {
-            return endings.Select(ending => baseStem + ending).ToArray();
+            return endings.Select(ending => modifiedStem + ending).ToArray();
         }
     }
 }
