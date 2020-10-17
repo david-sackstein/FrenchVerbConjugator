@@ -35,6 +35,18 @@ namespace ConjugatorLibrary
             return withEndings;
         }
 
+        static readonly string[] oneToThree = {
+            "éc", "éd", "ég", "éj", "él", "ém", "én", "ép", "ér", "és", "ét",
+            "es", "em", "ep", "er", "ec", "en", "ev"
+        };
+
+        string GetActualStem(string val) => val switch
+        {
+            _ when oneToThree.Contains(val) => "7",
+            _ => "9"
+        };
+
+
         private static string[] ApplyEndings(string[] endings, string verb)
         {
             string stem = verb.Remove(verb.Length - 2);
@@ -59,12 +71,14 @@ namespace ConjugatorLibrary
                     case "el" when Exceptions.noDoubleL.Contains(verb):
                     case "et" when Exceptions.noDoubleT.Contains(verb):
 
-                        return ConvertEtoEaigu(endings, stem, stemEnding);
+                        string actualStem = ActualStemGrave(stem, stemEnding);
+                        return AddEndings(endings, actualStem, stem);
 
                     case "el":
                     case "et":
 
-                        return DoubleConsonant(endings, stem);
+                        string actualStem1 = ActualStemDoubled(stem);
+                        return AddEndings(endings, actualStem1, stem);
                 }
             }
 
@@ -77,7 +91,8 @@ namespace ConjugatorLibrary
                     case "éch": case "égu": case "ébr": case "égl": case "évr":
                     case "étr": case "équ": case "égr": case "égn": case "écr":
                     case "evr":
-                        return ConvertEtoEaigu(endings, stem, stemEnding);
+                        string actualStem = ActualStemGrave(stem, stemEnding);
+                        return AddEndings(endings, actualStem, stem);
                 }
             }
 
@@ -95,17 +110,17 @@ namespace ConjugatorLibrary
             return endings.Select(ending => stem + ending).ToArray();
         }
 
-        private static string[] ConvertEtoEaigu(string[] endings, string stem, string stemEnding)
+        private static string ActualStemGrave(string stem, string stemEnding)
         {
             int index = stem.Length - stemEnding.Length;
             string actualStem = ReplaceAt(stem, index, 'è');
-            return AddEndings(endings, actualStem, stem);
+            return actualStem;
         }
 
-        private static string[] DoubleConsonant(string[] endings, string stem)
+        private static string ActualStemDoubled(string stem)
         {
             string actualStem = stem + stem[^1];
-            return AddEndings(endings, actualStem, stem);
+            return actualStem;
         }
 
         private static string[] AddEndings(string[] endings, string baseStem, string nousVousStem)
