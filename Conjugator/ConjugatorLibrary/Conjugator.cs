@@ -1,5 +1,4 @@
-﻿using System;
-using System.Diagnostics.Contracts;
+﻿using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 
@@ -94,24 +93,9 @@ namespace ConjugatorLibrary
                     return true;
                 }
 
-                case "éc":
-                case "éd":
-                case "ég":
-                case "éj":
-                case "él":
-                case "ém":
-                case "én":
-                case "ép":
-                case "ér":
-                case "és":
-                case "ét":
-                case "es":
-                case "em":
-                case "ep":
-                case "er":
-                case "ec":
-                case "en":
-                case "ev":
+                case "éc": case "éd": case "ég": case "éj": case "él": case "ém": case "én": case "ép":
+                case "ér": case "és": case "ét": case "es": case "em":
+                case "ep": case "er": case "ec": case "en": case "ev":
 
                 case "el" when Exceptions.noDoubleL.Contains(stem + "er"):
                 case "et" when Exceptions.noDoubleT.Contains(stem + "er"):
@@ -134,16 +118,8 @@ namespace ConjugatorLibrary
         {
             switch (stemEnding)
             {
-                case "éch":
-                case "égu":
-                case "ébr":
-                case "égl":
-                case "évr":
-                case "étr":
-                case "équ":
-                case "égr":
-                case "égn":
-                case "écr":
+                case "éch": case "égu": case "ébr": case "égl": case "évr":
+                case "étr": case "équ": case "égr": case "égn": case "écr":
                 case "evr":
                     actualStem = ActualStemGrave(stem, stemEnding);
                     return true;
