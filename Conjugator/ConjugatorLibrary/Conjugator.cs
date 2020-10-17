@@ -35,50 +35,15 @@ namespace ConjugatorLibrary
             return withEndings;
         }
 
-        static readonly string[] oneToThree = {
-            "éc", "éd", "ég", "éj", "él", "ém", "én", "ép", "ér", "és", "ét",
-            "es", "em", "ep", "er", "ec", "en", "ev"
-        };
-
-        string GetActualStem(string val) => val switch
-        {
-            _ when oneToThree.Contains(val) => "7",
-            _ => "9"
-        };
-
-
         private static string[] ApplyEndings(string[] endings, string verb)
         {
             string stem = verb.Remove(verb.Length - 2);
 
             if (stem.Length > 2)
             {
-                string stemEnding = stem.Substring(stem.Length - 2);
-
-                switch (stemEnding)
+                if (Strings(endings, verb, stem, out string actualStem))
                 {
-                    case "oy":
-                    case "uy":
-                    {
-                        string stemJeTuIlIls = ReplaceAt(stem, verb.Length - 3, 'i');
-                        return AddEndings(endings, stemJeTuIlIls, stem);
-                    }
-
-                    case "éc": case "éd": case "ég": case "éj": case "él": case "ém":
-                    case "én": case "ép": case "ér": case "és": case "ét": case "es":
-                    case "em": case "ep": case "er": case "ec": case "en": case "ev":
-
-                    case "el" when Exceptions.noDoubleL.Contains(verb):
-                    case "et" when Exceptions.noDoubleT.Contains(verb):
-
-                        string actualStem = ActualStemGrave(stem, stemEnding);
-                        return AddEndings(endings, actualStem, stem);
-
-                    case "el":
-                    case "et":
-
-                        string actualStem1 = ActualStemDoubled(stem);
-                        return AddEndings(endings, actualStem1, stem);
+                    return AddEndings(endings, actualStem, stem);
                 }
             }
 
@@ -108,6 +73,55 @@ namespace ConjugatorLibrary
             }
 
             return endings.Select(ending => stem + ending).ToArray();
+        }
+
+        private static bool Strings(string[] endings, string verb, string stem, out string actualStem5)
+        {
+            string stemEnding = stem.Substring(stem.Length - 2);
+
+            switch (stemEnding)
+            {
+                case "oy":
+                case "uy":
+                {
+                    actualStem5 = ReplaceAt(stem, stem.Length - 1, 'i');
+                    return true;
+                }
+
+                case "éc":
+                case "éd":
+                case "ég":
+                case "éj":
+                case "él":
+                case "ém":
+                case "én":
+                case "ép":
+                case "ér":
+                case "és":
+                case "ét":
+                case "es":
+                case "em":
+                case "ep":
+                case "er":
+                case "ec":
+                case "en":
+                case "ev":
+
+                case "el" when Exceptions.noDoubleL.Contains(verb):
+                case "et" when Exceptions.noDoubleT.Contains(verb):
+
+                    actualStem5 = ActualStemGrave(stem, stemEnding);
+                    return true;
+
+                case "el":
+                case "et":
+
+                    actualStem5 = ActualStemDoubled(stem);
+                    return true;
+            }
+
+            actualStem5 = "";
+            return false;
         }
 
         private static string ActualStemGrave(string stem, string stemEnding)
