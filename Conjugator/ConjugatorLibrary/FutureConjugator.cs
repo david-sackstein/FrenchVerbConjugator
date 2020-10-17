@@ -12,7 +12,7 @@ namespace ConjugatorLibrary
 
             string stem = GetStem(verb);
 
-            string[] endings = {"ais", "ais", "ait", "ions", "iez", "aient"};
+            string[] endings = {"ai", "as", "a", "ons", "ez", "ont"};
             if (verb[^3] == 'g')
             {
                 endings = endings.MatchNousVous(s => "e" + s);
@@ -20,11 +20,11 @@ namespace ConjugatorLibrary
 
             string[] withEndings = AddEndings(endings, stem);
 
-            // soften the c with a cedilla before an 'a'
-            if (verb[^3] == 'c')
-            {
-                withEndings = withEndings.MatchNousVous(s => s.ReplaceAt(stem.Length - 1, 'ç'));
-            }
+            //// soften the c with a cedilla before an 'a'
+            //if (verb[^3] == 'c')
+            //{
+            //    withEndings = withEndings.MatchNousVous(s => s.ReplaceAt(stem.Length - 1, 'ç'));
+            //}
 
             return withEndings;
         }
@@ -33,9 +33,9 @@ namespace ConjugatorLibrary
         {
             if (verb == "aller")
             {
-                return "all";
+                return "ir";
             }
-            return verb.Remove(verb.Length - 2);
+            return verb;
         }
 
         private static string[] AddEndings(string[] endings, string stem)
