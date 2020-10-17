@@ -11,13 +11,15 @@ namespace ConjugatorTests
     {
         private const string _nodeModulesPath = @"..\..\..\..\..\node_modules";
         private static VerbData _verbData;
-        private static Conjugator _conjugator;
+        private static PresentConjugator _presentConjugator;
+        private static ImparfaitConjugator _imparfaitConjugator;
 
         [ClassInitialize]
         public static void SetUp(TestContext context)
         {
             _verbData = new VerbData(_nodeModulesPath);
-            _conjugator = new Conjugator();
+            _presentConjugator = new PresentConjugator();
+            _imparfaitConjugator = new ImparfaitConjugator();
         }
 
         Conjugation FixPresentErConjugation(string verb, Conjugation input)
@@ -27,7 +29,7 @@ namespace ConjugatorTests
             {
                 property.SetValue(output, property.GetValue(input));
             }
-            output.Present = _conjugator.GetErPresent(verb);
+            output.Present = _presentConjugator.GetErPresent(verb);
             return output;
         }
 
@@ -48,7 +50,7 @@ namespace ConjugatorTests
         {
             Dictionary<bool, string[]> grades = _verbData.Conjugations.Keys
                 .Where(v => v.EndsWith("er"))
-                .GroupBy(IsCorrect)
+                .GroupBy(IsErPresentCorrect)
                 .ToDictionary(g => g.Key, g => g.ToArray());
 
             string[] expectedErrors = ErrorList.Load();
@@ -63,25 +65,46 @@ namespace ConjugatorTests
             //ErrorList.Save(actualErrors, _verbData.Conjugations);
         }
 
-        private static bool IsCorrect(string verb)
+        [TestMethod]
+        public void TestAllErImparfait()
+        {
+            Dictionary<bool, string[]> grades = _verbData.Conjugations.Keys
+                .Where(v => v.EndsWith("er"))
+                .GroupBy(IsErImparfaitCorrect)
+                .ToDictionary(g => g.Key, g => g.ToArray());
+
+            string[] expectedErrors = ErrorList.Load();
+            string[] actualErrors = grades.ContainsKey(false) ? grades[false] : new string[0];
+
+            var newErrors = actualErrors.Except(expectedErrors).ToArray();
+            var newFixes = expectedErrors.Except(actualErrors).ToArray();
+
+            Assert.IsTrue(!newErrors.Any());
+
+            Console.WriteLine($"{actualErrors.Length} errors");
+            //ErrorList.Save(actualErrors, _verbData.Conjugations);
+        }
+
+        private static bool IsErPresentCorrect(string verb)
         {
             Conjugation conjugation = _verbData.Conjugations[verb];
             string[] expected = conjugation.Present;
-            string[] actual = _conjugator.GetErPresent(verb);
+            string[] actual = _presentConjugator.GetErPresent(verb);
             return 
                 expected == null || 
                 expected.Zip(actual)
                     .All(tuple => tuple.First == null || tuple.First == tuple.Second);
         }
 
-        private static void TestErPresent(string verb)
+        private static bool IsErImparfaitCorrect(string verb)
         {
             Conjugation conjugation = _verbData.Conjugations[verb];
-            string[] expected = conjugation.Present;
-
-            string[] actual = new Conjugator().GetErPresent(verb);
-
-            Assert.IsTrue(expected.SequenceEqual(actual));
+            string[] expected = conjugation.Imparfait;
+            string[] actual = _imparfaitConjugator.GetErImparfait(verb);
+            return
+                expected == null ||
+                expected.Zip(actual)
+                    .All(tuple => tuple.First == null || tuple.First == tuple.Second);
         }
     }
 }

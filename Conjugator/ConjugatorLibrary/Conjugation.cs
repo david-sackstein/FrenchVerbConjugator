@@ -14,7 +14,7 @@ namespace ConjugatorLibrary
         public string[] Imperative { get; set; }
         
         [JsonPropertyName("I")]
-        public string[] Imperfect { get; set; }
+        public string[] Imparfait { get; set; }
         
         [JsonPropertyName("G")]
         public string[] ParticipePresent { get; set; }
