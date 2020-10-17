@@ -7,44 +7,30 @@ namespace ConjugatorLibrary
         // The base stem is used for je, tu, il, ils but not for nous and vous
         public static bool GetBaseStem(string stem, out string baseStem)
         {
-            if (stem.Length > 2)
+            if (
+                GetBaseStem2(stem, out baseStem) || 
+                GetBaseStem3(stem, out baseStem) || 
+                GetBaseStem4(stem, out baseStem))
             {
-                string stemEnding = stem.Substring(stem.Length - 2);
-
-                if (GetBaseStem2(stem, stemEnding, out baseStem))
-                {
-                    return true;
-                }
-            }
-
-            if (stem.Length > 3)
-            {
-                string stemEnding = stem.Substring(stem.Length - 3);
-
-                if (GetBaseStem3(stem, stemEnding, out baseStem))
-                {
-                    return true;
-                }
-            }
-
-            if (stem.Length > 4)
-            {
-                string stemEnding = stem.Substring(stem.Length - 4);
-
-                if (GetBaseStem4(stem, stemEnding, out baseStem))
-                {
-                    return true;
-                }
+                return true;
             }
 
             baseStem = "";
             return false;
         }
 
-        private static bool GetBaseStem2(string stem, string stemEnding, out string actualStem)
+        private static bool GetBaseStem2(string stem, out string actualStem)
         {
+            const int endingLength = 2;
+
+            if (stem.Length < endingLength)
+            {
+                goto NoChange;
+            }
+
             // @formatter:off
 
+            string stemEnding = stem.Substring(stem.Length - endingLength);
             switch (stemEnding)
             {
                 case "oy":
@@ -73,14 +59,23 @@ namespace ConjugatorLibrary
 
             // @formatter:on
 
+            NoChange:
             actualStem = "";
             return false;
         }
 
-        private static bool GetBaseStem3(string stem, string stemEnding, out string actualStem)
+        private static bool GetBaseStem3(string stem, out string actualStem)
         {
+            const int endingLength = 3;
+            if (stem.Length < endingLength)
+            {
+                goto NoChange;
+            }
+
+            string stemEnding = stem.Substring(stem.Length - endingLength);
+
             // @formatter:off
-            
+
             switch (stemEnding)
             {
                 case "éch": case "égu": case "ébr": case "égl": case "évr":
@@ -92,18 +87,28 @@ namespace ConjugatorLibrary
 
             // @formatter:on
 
+            NoChange:
             actualStem = "";
             return false;
         }
 
-        private static bool GetBaseStem4(string stem, string stemEnding, out string actualStem)
+        private static bool GetBaseStem4(string stem, out string actualStem)
         {
+            const int endingLength = 4;
+
+            if (stem.Length < endingLength)
+            {
+                goto NoChange;
+            }
+
+            string stemEnding = stem.Substring(stem.Length - endingLength);
             if (stemEnding == "mour")
             {
                 actualStem = stem.ReplaceAt(stem.Length - 3, 'e');
                 return true;
             }
 
+            NoChange:
             actualStem = "";
             return false;
         }
