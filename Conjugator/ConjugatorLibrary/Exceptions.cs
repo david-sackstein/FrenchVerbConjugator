@@ -23,7 +23,8 @@
             "regeler",
             "remodeler",
             "surgeler",
-            "écarteler"};
+            "écarteler"
+        };
 
         public static readonly string[] noDoubleT = {
             "acheter",

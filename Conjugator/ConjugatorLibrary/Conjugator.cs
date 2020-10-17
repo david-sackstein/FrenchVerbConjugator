@@ -1,5 +1,4 @@
-﻿using System;
-using System.Diagnostics.Contracts;
+﻿using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 
@@ -17,27 +16,26 @@ namespace ConjugatorLibrary
                 return new[] {"vais", "vas", "va", "allons", "allez", "vont"};
             }
 
-            // for manger
+            // soften the g before an 'o'
             string onsEnding = "ons";
             if (verb[^3] == 'g')
             {
-                // soften the g before an 'o'
                 onsEnding = "e" + onsEnding;
             }
 
             string[] endings = {"e", "es", "e", onsEnding, "ez", "ent"};
-            string[] withEndings = Apply(endings, verb);
+            string[] withEndings = ApplyEndings(endings, verb);
 
+            // soften the c with a cedilla before an 'o'
             if (verb[^3] == 'c')
             {
-                // soften the c with a cedilla before an 'o'
                 withEndings[3] = ReplaceAt(withEndings[3], -4, 'ç');
             }
 
             return withEndings;
         }
 
-        private static string[] Apply(string[] endings, string verb)
+        private static string[] ApplyEndings(string[] endings, string verb)
         {
             string stem = verb.Remove(verb.Length - 2);
 
@@ -99,8 +97,8 @@ namespace ConjugatorLibrary
 
         private static string[] ConvertEtoEaigu(string[] endings, string stem, string stemEnding)
         {
-            int replacedCharIndex = stem.Length - stemEnding.Length;
-            string actualStem = ReplaceAt(stem, replacedCharIndex, 'è');
+            int index = stem.Length - stemEnding.Length;
+            string actualStem = ReplaceAt(stem, index, 'è');
             return AddEndings(endings, actualStem, stem);
         }
 
