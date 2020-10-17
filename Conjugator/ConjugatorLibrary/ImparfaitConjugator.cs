@@ -15,7 +15,7 @@ namespace ConjugatorLibrary
             string[] endings = {"ais", "ais", "ait", "ions", "iez", "aient"};
             if (verb[^3] == 'g')
             {
-                endings = endings.ForNonNousVous(s => "e" + s);
+                endings = endings.MatchNousVous(s => "e" + s);
             }
 
             string[] withEndings = AddEndings(endings, stem);
@@ -23,7 +23,7 @@ namespace ConjugatorLibrary
             // soften the c with a cedilla before an 'a'
             if (verb[^3] == 'c')
             {
-                withEndings = withEndings.ForNonNousVous(s => s.ReplaceAt(stem.Length - 1, 'ç'));
+                withEndings = withEndings.MatchNousVous(s => s.ReplaceAt(stem.Length - 1, 'ç'));
             }
 
             return withEndings;
