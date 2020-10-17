@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.Contracts;
+﻿using System;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 
@@ -52,7 +53,7 @@ namespace ConjugatorLibrary
             {
                string stemEnding = stem.Substring(stem.Length - 2);
 
-               if (GetNonNousVousStem1(stem, stemEnding, out nonNousVousStem))
+               if (GetNonNousVousStem2(stem, stemEnding, out nonNousVousStem))
                {
                    return true;
                }
@@ -62,7 +63,7 @@ namespace ConjugatorLibrary
             {
                 string stemEnding = stem.Substring(stem.Length - 3);
 
-                if (GetNonNousVousStem2(stem, stemEnding, out nonNousVousStem))
+                if (GetNonNousVousStem3(stem, stemEnding, out nonNousVousStem))
                 {
                     return true;
                 }
@@ -72,7 +73,7 @@ namespace ConjugatorLibrary
             {
                 string stemEnding = stem.Substring(stem.Length - 4);
 
-                if (GetNonNousVousStem3(stem, stemEnding, out nonNousVousStem))
+                if (GetNonNousVousStem4(stem, stemEnding, out nonNousVousStem))
                 {
                     return true;
                 }
@@ -82,7 +83,7 @@ namespace ConjugatorLibrary
             return false;
         }
 
-        private static bool GetNonNousVousStem1(string stem, string stemEnding, out string actualStem)
+        private static bool GetNonNousVousStem2(string stem, string stemEnding, out string actualStem)
         {
             switch (stemEnding)
             {
@@ -114,7 +115,7 @@ namespace ConjugatorLibrary
             return false;
         }
 
-        private static bool GetNonNousVousStem2(string stem, string stemEnding, out string actualStem)
+        private static bool GetNonNousVousStem3(string stem, string stemEnding, out string actualStem)
         {
             switch (stemEnding)
             {
@@ -129,7 +130,7 @@ namespace ConjugatorLibrary
             return false;
         }
 
-        private static bool GetNonNousVousStem3(string stem, string stemEnding, out string actualStem)
+        private static bool GetNonNousVousStem4(string stem, string stemEnding, out string actualStem)
         {
             if (stemEnding == "mour")
             {
