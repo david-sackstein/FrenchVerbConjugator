@@ -16,16 +16,16 @@ namespace ConjugatorLibrary
             }
 
             // soften the g before an 'o'
-            string onsEnding = "ons";
+            string nousEnding = "ons";
             if (verb[^3] == 'g')
             {
-                onsEnding = "e" + onsEnding;
+                nousEnding = "e" + nousEnding;
             }
 
-            string[] endings = {"e", "es", "e", onsEnding, "ez", "ent"};
+            string[] endings = {"e", "es", "e", nousEnding, "ez", "ent"};
             string[] withEndings = ApplyEndings(endings, verb);
 
-            // soften the c with a cedilla before an 'o'
+            // soften the c with a cedilla before an 'o' for nous (at index 3)
             if (verb[^3] == 'c')
             {
                 withEndings[3] = withEndings[3].ReplaceAt(-4, 'ç');
