@@ -15,14 +15,12 @@ namespace ConjugatorLibrary
                 return new[] {"allais", "allais", "allait", "allions", "alliez", "allaient" };
             }
 
-            // soften the g before an 'o'
-            string nousEnding = "ions";
+            string[] endings = {"ais", "ais", "ait", "ions", "iez", "aient"};
             if (verb[^3] == 'g')
             {
-                nousEnding = "e" + nousEnding;
+                endings = endings.Select(e => "e" + e).ToArray();
             }
 
-            string[] endings = {"ais", "ais", "ait", nousEnding, "iez", "aient"};
             string[] withEndings = ApplyEndings(endings, verb);
 
             // soften the c with a cedilla before an 'o' for nous (at index 3)

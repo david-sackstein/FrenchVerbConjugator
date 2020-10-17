@@ -675,15 +675,6 @@
     "délogent"
   ],
   [
-    "déluger",
-    "déluge",
-    "déluges",
-    "déluge",
-    "délugeons",
-    "délugez",
-    "délugent"
-  ],
-  [
     "démanger",
     "démange",
     "démanges",
@@ -1645,15 +1636,6 @@
     "naufrageons",
     "naufragez",
     "naufragent"
-  ],
-  [
-    "neiger",
-    "neige",
-    "neiges",
-    "neige",
-    "neigeons",
-    "neigez",
-    "neigent"
   ],
   [
     "nuancer",
