@@ -40,33 +40,47 @@ namespace ConjugatorLibrary
         {
             string stem = verb.Remove(verb.Length - 2);
 
-            bool isok = false;
-            string actualStem = "";
-
-            if (stem.Length > 2)
-            {
-                string stemEnding = stem.Substring(stem.Length - 2);
-
-                isok = GetActualStem1(stem, stemEnding, out actualStem);
-            }
-            if (!isok && stem.Length > 3)
-            {
-                string stemEnding = stem.Substring(stem.Length - 3);
-
-                isok = GetActualStem2(stem, stemEnding, out actualStem);
-            }
-            if (!isok && stem.Length > 4)
-            {
-                string stemEnding = stem.Substring(stem.Length - 4);
-
-                isok = GetActualStem3(stem, stemEnding, out actualStem);
-            }
-
-            if (isok)
+            if (GetActualStem(stem, out string actualStem))
             {
                 return AddEndings(endings, actualStem, stem);
             }
             return endings.Select(ending => stem + ending).ToArray();
+        }
+
+        private static bool GetActualStem(string stem, out string actualStem)
+        {
+            if (stem.Length > 2)
+            {
+               string stemEnding = stem.Substring(stem.Length - 2);
+
+               if (GetActualStem1(stem, stemEnding, out actualStem))
+               {
+                   return true;
+               }
+            }
+
+            if (stem.Length > 3)
+            {
+                string stemEnding = stem.Substring(stem.Length - 3);
+
+                if (GetActualStem2(stem, stemEnding, out actualStem))
+                {
+                    return true;
+                }
+            }
+
+            if (stem.Length > 4)
+            {
+                string stemEnding = stem.Substring(stem.Length - 4);
+
+                if (GetActualStem3(stem, stemEnding, out actualStem))
+                {
+                    return true;
+                }
+            }
+
+            actualStem = "";
+            return false;
         }
 
         private static bool GetActualStem1(string stem, string stemEnding, out string actualStem)
