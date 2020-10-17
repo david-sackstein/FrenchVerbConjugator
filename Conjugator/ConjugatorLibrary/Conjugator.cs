@@ -57,12 +57,9 @@ namespace ConjugatorLibrary
 
             if (stem.Length > 4)
             {
-                string stemEnding = stem.Substring(stem.Length - 4);
-
-                if (stemEnding == "mour")
+                if (GetActualStem3(endings, verb, stem, out string actualStem))
                 {
-                    string stemJeTuIlIls = ReplaceAt(stem, stem.Length - 3, 'e');
-                    return AddEndings(endings, stemJeTuIlIls, stem);
+                    return AddEndings(endings, actualStem, stem);
                 }
             }
 
@@ -137,6 +134,20 @@ namespace ConjugatorLibrary
                 case "evr":
                     actualStem5 = ActualStemGrave(stem, stemEnding);
                     return true;
+            }
+
+            actualStem5 = "";
+            return false;
+        }
+
+        private static bool GetActualStem3(string[] endings, string verb, string stem, out string actualStem5)
+        {
+            string stemEnding = stem.Substring(stem.Length - 4);
+
+            if (stemEnding == "mour")
+            {
+                actualStem5 = ReplaceAt(stem, stem.Length - 3, 'e');
+                return true;
             }
 
             actualStem5 = "";
