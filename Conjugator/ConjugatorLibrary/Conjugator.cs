@@ -41,7 +41,7 @@ namespace ConjugatorLibrary
 
             if (stem.Length > 2)
             {
-                if (Strings(endings, verb, stem, out string actualStem))
+                if (GetActualStem1(endings, verb, stem, out string actualStem))
                 {
                     return AddEndings(endings, actualStem, stem);
                 }
@@ -49,15 +49,9 @@ namespace ConjugatorLibrary
 
             if (stem.Length > 3)
             {
-                string stemEnding = stem.Substring(stem.Length - 3);
-
-                switch (stemEnding)
+                if (GetActualStem2(endings, verb, stem, out string actualStem))
                 {
-                    case "éch": case "égu": case "ébr": case "égl": case "évr":
-                    case "étr": case "équ": case "égr": case "égn": case "écr":
-                    case "evr":
-                        string actualStem = ActualStemGrave(stem, stemEnding);
-                        return AddEndings(endings, actualStem, stem);
+                    return AddEndings(endings, actualStem, stem);
                 }
             }
 
@@ -75,7 +69,7 @@ namespace ConjugatorLibrary
             return endings.Select(ending => stem + ending).ToArray();
         }
 
-        private static bool Strings(string[] endings, string verb, string stem, out string actualStem5)
+        private static bool GetActualStem1(string[] endings, string verb, string stem, out string actualStem5)
         {
             string stemEnding = stem.Substring(stem.Length - 2);
 
@@ -117,6 +111,31 @@ namespace ConjugatorLibrary
                 case "et":
 
                     actualStem5 = ActualStemDoubled(stem);
+                    return true;
+            }
+
+            actualStem5 = "";
+            return false;
+        }
+
+        private static bool GetActualStem2(string[] endings, string verb, string stem, out string actualStem5)
+        {
+            string stemEnding = stem.Substring(stem.Length - 3);
+
+            switch (stemEnding)
+            {
+                case "éch":
+                case "égu":
+                case "ébr":
+                case "égl":
+                case "évr":
+                case "étr":
+                case "équ":
+                case "égr":
+                case "égn":
+                case "écr":
+                case "evr":
+                    actualStem5 = ActualStemGrave(stem, stemEnding);
                     return true;
             }
 
