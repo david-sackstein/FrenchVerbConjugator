@@ -31,7 +31,7 @@ namespace ConjugatorTests
 
         private static string[] Flatten(string verb, Dictionary<string, Conjugation> conjugations)
         {
-            string[] conjugation = conjugations[verb].Present ?? new string[0];
+            string[] conjugation = conjugations[verb].Future ?? new string[0];
             return new[] { verb }.Concat(conjugation).ToArray();
         }
 
