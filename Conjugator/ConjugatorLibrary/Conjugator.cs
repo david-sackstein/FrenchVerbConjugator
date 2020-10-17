@@ -1,7 +1,5 @@
-﻿using System;
-using System.Diagnostics.Contracts;
+﻿using System.Diagnostics.Contracts;
 using System.Linq;
-using System.Text;
 
 namespace ConjugatorLibrary
 {
@@ -30,7 +28,7 @@ namespace ConjugatorLibrary
             // soften the c with a cedilla before an 'o'
             if (verb[^3] == 'c')
             {
-                withEndings[3] = ReplaceAt(withEndings[3], -4, 'ç');
+                withEndings[3] = withEndings[3].ReplaceAt(-4, 'ç');
             }
 
             return withEndings;
@@ -40,143 +38,30 @@ namespace ConjugatorLibrary
         {
             string stem = verb.Remove(verb.Length - 2);
 
-            if (GetNonNousVousStem(stem, out string nonNousVousStem))
-            {
-                return AddEndings(endings, nonNousVousStem, stem);
-            }
-            return AddEndings(endings, stem);
+            // determine the stem for je, tu, il, ils ("baseStem") which may
+            // not be the same as for nous and vous
+
+            return StemConverter.GetBaseStem(stem, out string baseStem) 
+                ? AddEndings(endings, baseStem, stem) 
+                : AddEndings(endings, stem);
         }
 
-        private static bool GetNonNousVousStem(string stem, out string nonNousVousStem)
-        {
-            if (stem.Length > 2)
-            {
-               string stemEnding = stem.Substring(stem.Length - 2);
-
-               if (GetNonNousVousStem2(stem, stemEnding, out nonNousVousStem))
-               {
-                   return true;
-               }
-            }
-
-            if (stem.Length > 3)
-            {
-                string stemEnding = stem.Substring(stem.Length - 3);
-
-                if (GetNonNousVousStem3(stem, stemEnding, out nonNousVousStem))
-                {
-                    return true;
-                }
-            }
-
-            if (stem.Length > 4)
-            {
-                string stemEnding = stem.Substring(stem.Length - 4);
-
-                if (GetNonNousVousStem4(stem, stemEnding, out nonNousVousStem))
-                {
-                    return true;
-                }
-            }
-
-            nonNousVousStem = "";
-            return false;
-        }
-
-        private static bool GetNonNousVousStem2(string stem, string stemEnding, out string actualStem)
-        {
-            switch (stemEnding)
-            {
-                case "oy":
-                case "uy":
-                {
-                    actualStem = ReplaceAt(stem, stem.Length - 1, 'i');
-                    return true;
-                }
-
-                case "éc": case "éd": case "ég": case "éj": case "él": case "ém": case "én": case "ép":
-                case "ér": case "és": case "ét": case "es": case "em":
-                case "ep": case "er": case "ec": case "en": case "ev":
-
-                case "el" when Exceptions.noDoubleL.Contains(stem + "er"):
-                case "et" when Exceptions.noDoubleT.Contains(stem + "er"):
-
-                    actualStem = ActualStemGrave(stem, stemEnding);
-                    return true;
-
-                case "el":
-                case "et":
-
-                    actualStem = ActualStemDoubled(stem);
-                    return true;
-            }
-
-            actualStem = "";
-            return false;
-        }
-
-        private static bool GetNonNousVousStem3(string stem, string stemEnding, out string actualStem)
-        {
-            switch (stemEnding)
-            {
-                case "éch": case "égu": case "ébr": case "égl": case "évr":
-                case "étr": case "équ": case "égr": case "égn": case "écr":
-                case "evr":
-                    actualStem = ActualStemGrave(stem, stemEnding);
-                    return true;
-            }
-
-            actualStem = "";
-            return false;
-        }
-
-        private static bool GetNonNousVousStem4(string stem, string stemEnding, out string actualStem)
-        {
-            if (stemEnding == "mour")
-            {
-                actualStem = ReplaceAt(stem, stem.Length - 3, 'e');
-                return true;
-            }
-
-            actualStem = "";
-            return false;
-        }
-
-        private static string ActualStemGrave(string stem, string stemEnding)
-        {
-            int index = stem.Length - stemEnding.Length;
-            string actualStem = ReplaceAt(stem, index, 'è');
-            return actualStem;
-        }
-
-        private static string ActualStemDoubled(string stem)
-        {
-            string actualStem = stem + stem[^1];
-            return actualStem;
-        }
-
-        private static string[] AddEndings(string[] endings, string nonNousVousStem, string nousVousStem)
+        private static string[] AddEndings(string[] endings, string baseStem, string nousVousStem)
         {
             return new[]
             {
-                nonNousVousStem + endings[0],
-                nonNousVousStem + endings[1],
-                nonNousVousStem + endings[2],
+                baseStem + endings[0],
+                baseStem + endings[1],
+                baseStem + endings[2],
                 nousVousStem + endings[3],
                 nousVousStem + endings[4],
-                nonNousVousStem + endings[5],
+                baseStem + endings[5],
             };
         }
 
-        private static string[] AddEndings(string[] endings, string stem)
+        private static string[] AddEndings(string[] endings, string baseStem)
         {
-            return endings.Select(ending => stem + ending).ToArray();
-        }
-
-        private static string ReplaceAt(string inString, int index, char c)
-        {
-            int actualIndex = index > 0 ? index : inString.Length + index;
-            return new StringBuilder(inString) {[actualIndex] = c}.ToString();
+            return endings.Select(ending => baseStem + ending).ToArray();
         }
     }
 }
