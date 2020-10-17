@@ -34,7 +34,12 @@ namespace ConjugatorLibrary
             // soften the c with a cedilla before an 'o' for nous (at index 3)
             if (verb[^3] == 'c')
             {
-                withEndings[3] = withEndings[3].ReplaceAt(-4, 'ç');
+                withEndings[0] = withEndings[0].ReplaceAt(-4, 'ç');
+                withEndings[1] = withEndings[1].ReplaceAt(-4, 'ç');
+                withEndings[2] = withEndings[2].ReplaceAt(-4, 'ç');
+                //withEndings[3] = withEndings[3].ReplaceAt(-4, 'ç');
+                //withEndings[4] = withEndings[4].ReplaceAt(-4, 'ç');
+                withEndings[5] = withEndings[5].ReplaceAt(-6, 'ç');
             }
 
             return withEndings;
