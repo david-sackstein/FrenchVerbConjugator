@@ -20,7 +20,7 @@ namespace ConjugatorLibrary
         public string[] ParticipePresent { get; set; }
         
         [JsonPropertyName("K")]
-        public string[] ParticiplePasse{ get; set; }
+        public string[] ParticipePasse{ get; set; }
         
         [JsonPropertyName("J")]
         public string[] PasseSimple { get; set; }
