@@ -12,7 +12,7 @@ namespace ConjugatorLibrary
             Contract.Requires(verb.EndsWith("er"));
             Contract.Requires(verb.Length > 2);
 
-            if (verb == "aboyer")
+            if (verb == "précéder")
             {
                 Console.WriteLine();
             }
@@ -39,6 +39,10 @@ namespace ConjugatorLibrary
                 return "ir";
             }
 
+            if (FutureStemConverter.GetModifiedStem(verb.Substring(0, verb.Length - 2), out string modifiedStem))
+            {
+                return modifiedStem + "er";
+            }
             if (verb.EndsWith("oyer") || verb.EndsWith("uyer"))
             {
                 return verb.ReplaceAt(-3, 'i');

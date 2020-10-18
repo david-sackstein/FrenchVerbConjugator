@@ -41,7 +41,7 @@ namespace ConjugatorLibrary
             // determine the stem for je, tu, il, ils ("modifiedStem") which may
             // not be the same as for nous and vous
 
-            return StemConverter.GetModifiedStem(stem, out string modifiedStem) 
+            return PresentStemConverter.GetModifiedStem(stem, out string modifiedStem) 
                 ? AddEndings(endings, modifiedStem, stem) 
                 : AddEndings(endings, stem);
         }
