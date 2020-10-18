@@ -9,15 +9,6 @@
     "autosèvreront       autosevreront"
   ],
   [
-    "receper",
-    "recèperai           receperai",
-    "recèperas           receperas",
-    "recèpera            recepera",
-    "recèperons          receperons",
-    "recèperez           receperez",
-    "recèperont          receperont"
-  ],
-  [
     "sevrer",
     "sèvrerai            sevrerai",
     "sèvreras            sevreras",
