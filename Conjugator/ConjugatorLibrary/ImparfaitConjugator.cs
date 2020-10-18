@@ -3,9 +3,9 @@ using System.Linq;
 
 namespace ConjugatorLibrary
 {
-    public class ImparfaitConjugator
+    public static class ImparfaitConjugator
     {
-        public string[] GetConjugations(string verb)
+        public static string[] GetConjugations(string verb)
         {
             Contract.Requires(verb.EndsWith("er"));
             Contract.Requires(verb.Length > 2);

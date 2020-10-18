@@ -11,51 +11,41 @@ namespace ConjugatorTests
     {
         private const string _nodeModulesPath = @"..\..\..\..\..\node_modules";
         private static VerbData _verbData;
-        private static PresentConjugator _presentConjugator;
-        private static ImparfaitConjugator _imparfaitConjugator;
-        private static ParticipePasseConjugator _participePasseConjugator;
-        private static FutureConjugator _futureConjugator;
-        private static ConditionelConjugator _conditionelConjugator;
 
         [ClassInitialize]
         public static void SetUp(TestContext context)
         {
             _verbData = new VerbData(_nodeModulesPath);
-            _presentConjugator = new PresentConjugator();
-            _imparfaitConjugator = new ImparfaitConjugator();
-            _participePasseConjugator = new ParticipePasseConjugator();
-            _futureConjugator = new FutureConjugator();
-            _conditionelConjugator = new ConditionelConjugator();
         }
 
         [TestMethod]
         public void TestAllErPresent()
         {
-            TestAll(v => _verbData.Conjugations[v].Present, _presentConjugator.GetConjugations);
+            TestAll(v => _verbData.Conjugations[v].Present, PresentConjugator.GetConjugations);
         }
 
         [TestMethod]
         public void TestAllErImparfait()
         {
-            TestAll(v => _verbData.Conjugations[v].Imparfait, _imparfaitConjugator.GetConjugations);
+            TestAll(v => _verbData.Conjugations[v].Imparfait, ImparfaitConjugator.GetConjugations);
         }
 
         [TestMethod]
         public void TestAllParticipePasse()
         {
-            TestAll(v => _verbData.Conjugations[v].ParticipePasse, _participePasseConjugator.GetConjugations);
+            TestAll(v => _verbData.Conjugations[v].ParticipePasse, ParticipePasseConjugator.GetConjugations);
         }
 
         [TestMethod]
         public void TestAllFuture()
         {
-            TestAll(v => _verbData.Conjugations[v].Future, _futureConjugator.GetConjugations);
+            TestAll(v => _verbData.Conjugations[v].Future, FutureConjugator.GetConjugations);
         }
 
         [TestMethod]
         public void TestAllConditional()
         {
-            TestAll(v => _verbData.Conjugations[v].Conditional, _conditionelConjugator.GetConjugations);
+            TestAll(v => _verbData.Conjugations[v].Conditional, ConditionelConjugator.GetConjugations);
         }
 
         private static void TestAll(Func<string, string[]> referenceConjugator, Func<string, string[]> conjugator)
@@ -89,30 +79,5 @@ namespace ConjugatorTests
                 expected.Zip(actual)
                     .All(tuple => tuple.First == null || tuple.First == tuple.Second);
         }
-
-        #region Hidden 
-        Conjugation FixPresentErConjugation(string verb, Conjugation input)
-        {
-            Conjugation output = new Conjugation();
-            foreach (var property in typeof(Conjugation).GetProperties())
-            {
-                property.SetValue(output, property.GetValue(input));
-            }
-            output.Present = _presentConjugator.GetConjugations(verb);
-            return output;
-        }
-
-        //[TestMethod]
-        public void FixPresentErConjugations()
-        {
-            Dictionary<string, Conjugation> fixedConjugations = _verbData.Conjugations
-                .Where(kv => kv.Key.EndsWith("er"))
-                .ToDictionary(
-                    kv => kv.Key,
-                    kv => FixPresentErConjugation(kv.Key, kv.Value));
-
-            VerbData.SaveConjugations(_nodeModulesPath, fixedConjugations);
-        }
-        #endregion
     }
 }

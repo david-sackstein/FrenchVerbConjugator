@@ -1,20 +1,11 @@
-﻿using System;
-using System.Diagnostics.Contracts;
-using System.Linq;
+﻿using System.Linq;
 
 namespace ConjugatorLibrary
 {
-    public class ParticipePasseConjugator
+    public static class ParticipePasseConjugator
     {
-        public string[] GetConjugations(string verb)
+        public static string[] GetConjugations(string verb)
         {
-            Contract.Requires(verb.EndsWith("er"));
-            Contract.Requires(verb.Length > 2);
-
-            if (verb == "béer")
-            {
-                Console.WriteLine();
-            }
             string stem = GetStem(verb);
 
             string[] endings = { "é", "és", "ée", "ées" };

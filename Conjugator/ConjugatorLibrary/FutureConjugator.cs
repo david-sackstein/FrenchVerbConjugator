@@ -4,20 +4,13 @@ using System.Linq;
 
 namespace ConjugatorLibrary
 {
-    public class FutureConjugator
+    public static class FutureConjugator
     {
-        public string[] GetConjugations(string verb)
+        public static readonly string[] endings = { "ai", "as", "a", "ons", "ez", "ont" };
+
+        public static string[] GetConjugations(string verb)
         {
-            Contract.Requires(verb != null && verb.Length > 2 && verb.EndsWith("er"));
-
-            if (verb == "agneler")
-            {
-                Console.WriteLine();
-            }
-
             string stem = GetStem(verb);
-
-            string[] endings = {"ai", "as", "a", "ons", "ez", "ont"};
 
             return AddEndings(endings, stem);
         }
