@@ -7,8 +7,7 @@ namespace ConjugatorLibrary
     {
         public string[] GetErPresent(string verb)
         {
-            Contract.Requires(verb.EndsWith("er"));
-            Contract.Requires(verb.Length > 2);
+            Contract.Requires(verb != null && verb.Length > 2 && verb.EndsWith("er"));
 
             if (verb == "aller")
             {

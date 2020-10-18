@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Data;
 using System.Diagnostics.Contracts;
 using System.Linq;
 
@@ -9,8 +8,7 @@ namespace ConjugatorLibrary
     {
         public string[] GetErFuture(string verb)
         {
-            Contract.Requires(verb.EndsWith("er"));
-            Contract.Requires(verb.Length > 2);
+            Contract.Requires(verb != null && verb.Length > 2 && verb.EndsWith("er"));
 
             if (verb == "agneler")
             {
@@ -26,20 +24,28 @@ namespace ConjugatorLibrary
 
         private static string GetStem(string verb)
         {
-            if (verb == "aller")
+            switch (verb)
             {
-                return "ir";
+                case "aller":
+                    return "ir";
+                case "renvoyer":
+                case "envoyer":
+                    return verb.Replace("voyer", "verr");
+                default:
+                    return GetShortenedStem(verb) + "er";
             }
-            if (verb == "renvoyer" || verb == "envoyer")
+        }
+
+        private static string GetShortenedStem(string verb)
+        {
+            string shortenedStem = verb[..^2];
+
+            if (FutureStemConverter.GetModifiedStem(shortenedStem, out string modifiedStem))
             {
-                return verb.Replace("voyer", "verr");
+                return modifiedStem;
             }
 
-            if (FutureStemConverter.GetModifiedStem(verb.Substring(0, verb.Length - 2), out string modifiedStem))
-            {
-                return modifiedStem + "er";
-            }
-            return verb;
+            return shortenedStem;
         }
 
         private static string[] AddEndings(string[] endings, string stem)
