@@ -18,15 +18,6 @@
     "clairsèmeront       clairsemeront"
   ],
   [
-    "dépecer",
-    "dépècerai           dépecerai",
-    "dépèceras           dépeceras",
-    "dépècera            dépecera",
-    "dépècerons          dépecerons",
-    "dépècerez           dépecerez",
-    "dépèceront          dépeceront"
-  ],
-  [
     "envoyer",
     "enverrai            envoierai",
     "enverras            envoieras",
