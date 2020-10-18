@@ -27,15 +27,6 @@
     "dépèceront          dépeceront"
   ],
   [
-    "empeser",
-    "empèserai           empeserai",
-    "empèseras           empeseras",
-    "empèsera            empesera",
-    "empèserons          empeserons",
-    "empèserez           empeserez",
-    "empèseront          empeseront"
-  ],
-  [
     "envoyer",
     "enverrai            envoierai",
     "enverras            envoieras",
@@ -61,15 +52,6 @@
     "parsèmerons         parsemerons",
     "parsèmerez          parsemerez",
     "parsèmeront         parsemeront"
-  ],
-  [
-    "peser",
-    "pèserai             peserai",
-    "pèseras             peseras",
-    "pèsera              pesera",
-    "pèserons            peserons",
-    "pèserez             peserez",
-    "pèseront            peseront"
   ],
   [
     "receper",
@@ -115,14 +97,5 @@
     "sèvrerons           sevrerons",
     "sèvrerez            sevrerez",
     "sèvreront           sevreront"
-  ],
-  [
-    "soupeser",
-    "soupèserai          soupeserai",
-    "soupèseras          soupeseras",
-    "soupèsera           soupesera",
-    "soupèserons         soupeserons",
-    "soupèserez          soupeserez",
-    "soupèseront         soupeseront"
   ]
 ]
