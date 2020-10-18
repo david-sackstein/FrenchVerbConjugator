@@ -43,10 +43,6 @@ namespace ConjugatorLibrary
             {
                 return modifiedStem + "er";
             }
-            if (verb.EndsWith("oyer") || verb.EndsWith("uyer"))
-            {
-                return verb.ReplaceAt(-3, 'i');
-            }
             return verb;
         }
 

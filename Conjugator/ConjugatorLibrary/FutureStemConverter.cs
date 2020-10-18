@@ -7,13 +7,13 @@ namespace ConjugatorLibrary
         // The base stem is used for je, tu, il, ils but not for nous and vous
         public static bool GetModifiedStem(string stem, out string modifiedStem)
         {
-            //if (
-            //    BasedOnLastTwoLetters(stem, out modifiedStem) ||
-            //    BasedOnLastThreeLetters(stem, out modifiedStem) ||
-            //    BasedOnLastFourLetters(stem, out modifiedStem))
-            //{
-            //    return true;
-            //}
+            if (
+                BasedOnLastTwoLetters(stem, out modifiedStem)) // ||
+                //BasedOnLastThreeLetters(stem, out modifiedStem) ||
+                //BasedOnLastFourLetters(stem, out modifiedStem))
+            {
+                return true;
+            }
 
             modifiedStem = "";
             return false;
@@ -41,18 +41,19 @@ namespace ConjugatorLibrary
                     actualStem = stem.ReplaceAt(stem.Length - 1, 'i');
                     return true;
                 }
-                case "éc": case "éd": case "ég": case "éj": case "él": case "ém": case "én": case "ép":
-                case "ér": case "és": case "ét": case "es": case "em":
-                case "ep": case "er": case "ec": case "en": case "ev":
+                //case "éc": case "éd": case "ég": case "éj": case "él": case "ém": case "én": case "ép":
+                //case "ér": case "és": case "ét": case "es": case "em":
+                //case "ep": case "er": case "ec": case "en": case "ev":
 
-                case "el" when Exceptions.noDoubleL.Contains(stem + "er"):
-                case "et" when Exceptions.noDoubleT.Contains(stem + "er"):
+                //case "el" when Exceptions.noDoubleL.Contains(stem + "er"):
+                //case "et" when Exceptions.noDoubleT.Contains(stem + "er"):
 
+                case "et":
                     actualStem = ReplaceEwithEGrave(stem, stemEnding);
                     return true;
 
-                case "el":
-                case "et":
+                //case "el":
+                //case "et":
 
                     actualStem = DoubleLastLetter(stem);
                     return true;
