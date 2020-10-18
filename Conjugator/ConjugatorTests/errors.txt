@@ -72,15 +72,6 @@
     "pèseront            peseront"
   ],
   [
-    "raller",
-    "rirai               rallerai",
-    "riras               ralleras",
-    "rira                rallera",
-    "rirons              rallerons",
-    "rirez               rallerez",
-    "riront              ralleront"
-  ],
-  [
     "receper",
     "recèperai           receperai",
     "recèperas           receperas",
