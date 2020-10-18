@@ -48,7 +48,7 @@ namespace ConjugatorLibrary
                 //case "el" when Exceptions.noDoubleL.Contains(stem + "er"):
                 //case "et" when Exceptions.noDoubleT.Contains(stem + "er"):
 
-                case "et":
+                case "et": case "ev":
                     actualStem = ReplaceEwithEGrave(stem, stemEnding);
                     return true;
 
