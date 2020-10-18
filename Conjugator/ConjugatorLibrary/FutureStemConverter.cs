@@ -45,6 +45,7 @@ namespace ConjugatorLibrary
                 //case "ér": case "és": case "ét": case "es": case "em":
                 //case "ep": case "er": case "ec": case "en": case "ev":
                 case "ec":
+                case "er":
                 case "em":
                 case "es":
                 case "el" when Exceptions.noDoubleL.Contains(stem + "er"):

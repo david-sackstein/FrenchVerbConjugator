@@ -9,15 +9,6 @@
     "autosèvreront       autosevreront"
   ],
   [
-    "liserer",
-    "lisèrerai           lisererai",
-    "lisèreras           lisereras",
-    "lisèrera            liserera",
-    "lisèrerons          lisererons",
-    "lisèrerez           lisererez",
-    "lisèreront          lisereront"
-  ],
-  [
     "receper",
     "recèperai           receperai",
     "recèperas           receperas",
