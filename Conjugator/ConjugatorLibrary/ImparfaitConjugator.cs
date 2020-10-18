@@ -5,7 +5,7 @@ namespace ConjugatorLibrary
 {
     public class ImparfaitConjugator
     {
-        public string[] GetErImparfait(string verb)
+        public string[] GetConjugations(string verb)
         {
             Contract.Requires(verb.EndsWith("er"));
             Contract.Requires(verb.Length > 2);

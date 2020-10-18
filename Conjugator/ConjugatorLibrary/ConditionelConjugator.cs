@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace ConjugatorLibrary
 {
-    public class FutureConjugator
+    public class ConditionelConjugator
     {
         public string[] GetConjugations(string verb)
         {

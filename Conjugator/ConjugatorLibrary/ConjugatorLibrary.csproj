@@ -7,9 +7,4 @@
     <ApplicationIcon />
     <StartupObject />
   </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DefineConstants>TRACE;CONTRACTS_FULL</DefineConstants>
-  </PropertyGroup>
-
 </Project>
