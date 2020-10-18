@@ -1,14 +1,5 @@
 [
   [
-    "agneler",
-    "agnellerai          agnelerai",
-    "agnelleras          agneleras",
-    "agnellera           agnelera",
-    "agnellerons         agnelerons",
-    "agnellerez          agnelerez",
-    "agnelleront         agneleront"
-  ],
-  [
     "aiguilleter",
     "aiguilletterai      aiguillèterai",
     "aiguilletteras      aiguillèteras",
@@ -16,42 +7,6 @@
     "aiguilletterons     aiguillèterons",
     "aiguilletterez      aiguillèterez",
     "aiguilletteront     aiguillèteront"
-  ],
-  [
-    "amonceler",
-    "amoncellerai        amoncelerai",
-    "amoncelleras        amonceleras",
-    "amoncellera         amoncelera",
-    "amoncellerons       amoncelerons",
-    "amoncellerez        amoncelerez",
-    "amoncelleront       amonceleront"
-  ],
-  [
-    "anneler",
-    "annellerai          annelerai",
-    "annelleras          anneleras",
-    "annellera           annelera",
-    "annellerons         annelerons",
-    "annellerez          annelerez",
-    "annelleront         anneleront"
-  ],
-  [
-    "appeler",
-    "appellerai          appelerai",
-    "appelleras          appeleras",
-    "appellera           appelera",
-    "appellerons         appelerons",
-    "appellerez          appelerez",
-    "appelleront         appeleront"
-  ],
-  [
-    "atteler",
-    "attellerai          attelerai",
-    "attelleras          atteleras",
-    "attellera           attelera",
-    "attellerons         attelerons",
-    "attellerez          attelerez",
-    "attelleront         atteleront"
   ],
   [
     "autosevrer",
@@ -70,51 +25,6 @@
     "banquetterons       banquèterons",
     "banquetterez        banquèterez",
     "banquetteront       banquèteront"
-  ],
-  [
-    "bateler",
-    "batellerai          batelerai",
-    "batelleras          bateleras",
-    "batellera           batelera",
-    "batellerons         batelerons",
-    "batellerez          batelerez",
-    "batelleront         bateleront"
-  ],
-  [
-    "bosseler",
-    "bossellerai         bosselerai",
-    "bosselleras         bosseleras",
-    "bossellera          bosselera",
-    "bossellerons        bosselerons",
-    "bossellerez         bosselerez",
-    "bosselleront        bosseleront"
-  ],
-  [
-    "botteler",
-    "bottellerai         bottelerai",
-    "bottelleras         botteleras",
-    "bottellera          bottelera",
-    "bottellerons        bottelerons",
-    "bottellerez         bottelerez",
-    "bottelleront        botteleront"
-  ],
-  [
-    "bourreler",
-    "bourrellerai        bourrelerai",
-    "bourrelleras        bourreleras",
-    "bourrellera         bourrelera",
-    "bourrellerons       bourrelerons",
-    "bourrellerez        bourrelerez",
-    "bourrelleront       bourreleront"
-  ],
-  [
-    "bretteler",
-    "brettellerai        brettelerai",
-    "brettelleras        bretteleras",
-    "brettellera         brettelera",
-    "brettellerons       brettelerons",
-    "brettellerez        brettelerez",
-    "brettelleront       bretteleront"
   ],
   [
     "breveter",
@@ -180,24 +90,6 @@
     "caletteront         calèteront"
   ],
   [
-    "canneler",
-    "cannellerai         cannelerai",
-    "cannelleras         canneleras",
-    "cannellera          cannelera",
-    "cannellerons        cannelerons",
-    "cannellerez         cannelerez",
-    "cannelleront        canneleront"
-  ],
-  [
-    "capeler",
-    "capellerai          capelerai",
-    "capelleras          capeleras",
-    "capellera           capelera",
-    "capellerons         capelerons",
-    "capellerez          capelerez",
-    "capelleront         capeleront"
-  ],
-  [
     "caqueter",
     "caquetterai         caquèterai",
     "caquetteras         caquèteras",
@@ -205,24 +97,6 @@
     "caquetterons        caquèterons",
     "caquetterez         caquèterez",
     "caquetteront        caquèteront"
-  ],
-  [
-    "carreler",
-    "carrellerai         carrelerai",
-    "carrelleras         carreleras",
-    "carrellera          carrelera",
-    "carrellerons        carrelerons",
-    "carrellerez         carrelerez",
-    "carrelleront        carreleront"
-  ],
-  [
-    "chanceler",
-    "chancellerai        chancelerai",
-    "chancelleras        chanceleras",
-    "chancellera         chancelera",
-    "chancellerons       chancelerons",
-    "chancellerez        chancelerez",
-    "chancelleront       chanceleront"
   ],
   [
     "chevreter",
@@ -288,33 +162,6 @@
     "coquetteront        coquèteront"
   ],
   [
-    "cordeler",
-    "cordellerai         cordelerai",
-    "cordelleras         cordeleras",
-    "cordellera          cordelera",
-    "cordellerons        cordelerons",
-    "cordellerez         cordelerez",
-    "cordelleront        cordeleront"
-  ],
-  [
-    "craqueler",
-    "craquellerai        craquelerai",
-    "craquelleras        craqueleras",
-    "craquellera         craquelera",
-    "craquellerons       craquelerons",
-    "craquellerez        craquelerez",
-    "craquelleront       craqueleront"
-  ],
-  [
-    "créneler",
-    "crénellerai         crénelerai",
-    "crénelleras         créneleras",
-    "crénellera          crénelera",
-    "crénellerons        crénelerons",
-    "crénellerez         crénelerez",
-    "crénelleront        créneleront"
-  ],
-  [
     "cureter",
     "curetterai          curèterai",
     "curetteras          curèteras",
@@ -322,24 +169,6 @@
     "curetterons         curèterons",
     "curetterez          curèterez",
     "curetteront         curèteront"
-  ],
-  [
-    "cuveler",
-    "cuvellerai          cuvelerai",
-    "cuvelleras          cuveleras",
-    "cuvellera           cuvelera",
-    "cuvellerons         cuvelerons",
-    "cuvellerez          cuvelerez",
-    "cuvelleront         cuveleront"
-  ],
-  [
-    "denteler",
-    "dentellerai         dentelerai",
-    "dentelleras         denteleras",
-    "dentellera          dentelera",
-    "dentellerons        dentelerons",
-    "dentellerez         dentelerez",
-    "dentelleront        denteleront"
   ],
   [
     "duveter",
@@ -351,15 +180,6 @@
     "duvetteront         duvèteront"
   ],
   [
-    "débosseler",
-    "débossellerai       débosselerai",
-    "débosselleras       débosseleras",
-    "débossellera        débosselera",
-    "débossellerons      débosselerons",
-    "débossellerez       débosselerez",
-    "débosselleront      débosseleront"
-  ],
-  [
     "décacheter",
     "décachetterai       décachèterai",
     "décachetteras       décachèteras",
@@ -367,33 +187,6 @@
     "décachetterons      décachèterons",
     "décachetterez       décachèterez",
     "décachetteront      décachèteront"
-  ],
-  [
-    "décapeler",
-    "décapellerai        décapelerai",
-    "décapelleras        décapeleras",
-    "décapellera         décapelera",
-    "décapellerons       décapelerons",
-    "décapellerez        décapelerez",
-    "décapelleront       décapeleront"
-  ],
-  [
-    "décarreler",
-    "décarrellerai       décarrelerai",
-    "décarrelleras       décarreleras",
-    "décarrellera        décarrelera",
-    "décarrellerons      décarrelerons",
-    "décarrellerez       décarrelerez",
-    "décarrelleront      décarreleront"
-  ],
-  [
-    "décerveler",
-    "décervellerai       décervelerai",
-    "décervelleras       décerveleras",
-    "décervellera        décervelera",
-    "décervellerons      décervelerons",
-    "décervellerez       décervelerez",
-    "décervelleront      décerveleront"
   ],
   [
     "déchiqueter",
@@ -423,15 +216,6 @@
     "décolletteront      décollèteront"
   ],
   [
-    "déficeler",
-    "déficellerai        déficelerai",
-    "déficelleras        déficeleras",
-    "déficellera         déficelera",
-    "déficellerons       déficelerons",
-    "déficellerez        déficelerez",
-    "déficelleront       déficeleront"
-  ],
-  [
     "déjeter",
     "déjetterai          déjèterai",
     "déjetteras          déjèteras",
@@ -450,24 +234,6 @@
     "démouchetteront     démouchèteront"
   ],
   [
-    "démuseler",
-    "démusellerai        démuselerai",
-    "démuselleras        démuseleras",
-    "démusellera         démuselera",
-    "démusellerons       démuselerons",
-    "démusellerez        démuselerez",
-    "démuselleront       démuseleront"
-  ],
-  [
-    "déniveler",
-    "dénivellerai        dénivelerai",
-    "dénivelleras        déniveleras",
-    "dénivellera         dénivelera",
-    "dénivellerons       dénivelerons",
-    "dénivellerez        dénivelerez",
-    "dénivelleront       déniveleront"
-  ],
-  [
     "dépecer",
     "dépècerai           dépecerai",
     "dépèceras           dépeceras",
@@ -477,24 +243,6 @@
     "dépèceront          dépeceront"
   ],
   [
-    "désensorceler",
-    "désensorcellerai    désensorcelerai",
-    "désensorcelleras    désensorceleras",
-    "désensorcellera     désensorcelera",
-    "désensorcellerons   désensorcelerons",
-    "désensorcellerez    désensorcelerez",
-    "désensorcelleront   désensorceleront"
-  ],
-  [
-    "dételer",
-    "détellerai          dételerai",
-    "dételleras          dételeras",
-    "détellera           dételera",
-    "détellerons         dételerons",
-    "détellerez          dételerez",
-    "dételleront         dételeront"
-  ],
-  [
     "empeser",
     "empèserai           empeserai",
     "empèseras           empeseras",
@@ -502,42 +250,6 @@
     "empèserons          empeserons",
     "empèserez           empeserez",
     "empèseront          empeseront"
-  ],
-  [
-    "encasteler",
-    "encastellerai       encastelerai",
-    "encastelleras       encasteleras",
-    "encastellera        encastelera",
-    "encastellerons      encastelerons",
-    "encastellerez       encastelerez",
-    "encastelleront      encasteleront"
-  ],
-  [
-    "engrumeler",
-    "engrumellerai       engrumelerai",
-    "engrumelleras       engrumeleras",
-    "engrumellera        engrumelera",
-    "engrumellerons      engrumelerons",
-    "engrumellerez       engrumelerez",
-    "engrumelleront      engrumeleront"
-  ],
-  [
-    "enjaveler",
-    "enjavellerai        enjavelerai",
-    "enjavelleras        enjaveleras",
-    "enjavellera         enjavelera",
-    "enjavellerons       enjavelerons",
-    "enjavellerez        enjavelerez",
-    "enjavelleront       enjaveleront"
-  ],
-  [
-    "ensorceler",
-    "ensorcellerai       ensorcelerai",
-    "ensorcelleras       ensorceleras",
-    "ensorcellera        ensorcelera",
-    "ensorcellerons      ensorcelerons",
-    "ensorcellerez       ensorcelerez",
-    "ensorcelleront      ensorceleront"
   ],
   [
     "envoyer",
@@ -558,15 +270,6 @@
     "feuilletteront      feuillèteront"
   ],
   [
-    "ficeler",
-    "ficellerai          ficelerai",
-    "ficelleras          ficeleras",
-    "ficellera           ficelera",
-    "ficellerons         ficelerons",
-    "ficellerez          ficelerez",
-    "ficelleront         ficeleront"
-  ],
-  [
     "fileter",
     "filetterai          filèterai",
     "filetteras          filèteras",
@@ -583,42 +286,6 @@
     "forjetterons        forjèterons",
     "forjetterez         forjèterez",
     "forjetteront        forjèteront"
-  ],
-  [
-    "fuseler",
-    "fusellerai          fuselerai",
-    "fuselleras          fuseleras",
-    "fusellera           fuselera",
-    "fusellerons         fuselerons",
-    "fusellerez          fuselerez",
-    "fuselleront         fuseleront"
-  ],
-  [
-    "griveler",
-    "grivellerai         grivelerai",
-    "grivelleras         griveleras",
-    "grivellera          grivelera",
-    "grivellerons        grivelerons",
-    "grivellerez         grivelerez",
-    "grivelleront        griveleront"
-  ],
-  [
-    "grommeler",
-    "grommellerai        grommelerai",
-    "grommelleras        grommeleras",
-    "grommellera         grommelera",
-    "grommellerons       grommelerons",
-    "grommellerez        grommelerez",
-    "grommelleront       grommeleront"
-  ],
-  [
-    "grumeler",
-    "grumellerai         grumelerai",
-    "grumelleras         grumeleras",
-    "grumellera          grumelera",
-    "grumellerons        grumelerons",
-    "grumellerez         grumelerez",
-    "grumelleront        grumeleront"
   ],
   [
     "hoqueter",
@@ -648,15 +315,6 @@
     "jarretteront        jarrèteront"
   ],
   [
-    "javeler",
-    "javellerai          javelerai",
-    "javelleras          javeleras",
-    "javellera           javelera",
-    "javellerons         javelerons",
-    "javellerez          javelerez",
-    "javelleront         javeleront"
-  ],
-  [
     "jeter",
     "jetterai            jèterai",
     "jetteras            jèteras",
@@ -664,15 +322,6 @@
     "jetterons           jèterons",
     "jetterez            jèterez",
     "jetteront           jèteront"
-  ],
-  [
-    "jumeler",
-    "jumellerai          jumelerai",
-    "jumelleras          jumeleras",
-    "jumellera           jumelera",
-    "jumellerons         jumelerons",
-    "jumellerez          jumelerez",
-    "jumelleront         jumeleront"
   ],
   [
     "liserer",
@@ -711,15 +360,6 @@
     "moletteront         molèteront"
   ],
   [
-    "morceler",
-    "morcellerai         morcelerai",
-    "morcelleras         morceleras",
-    "morcellera          morcelera",
-    "morcellerons        morcelerons",
-    "morcellerez         morcelerez",
-    "morcelleront        morceleront"
-  ],
-  [
     "moucheter",
     "mouchetterai        mouchèterai",
     "mouchetteras        mouchèteras",
@@ -738,33 +378,6 @@
     "moufetteront        moufèteront"
   ],
   [
-    "museler",
-    "musellerai          muselerai",
-    "muselleras          museleras",
-    "musellera           muselera",
-    "musellerons         muselerons",
-    "musellerez          muselerez",
-    "muselleront         museleront"
-  ],
-  [
-    "niveler",
-    "nivellerai          nivelerai",
-    "nivelleras          niveleras",
-    "nivellera           nivelera",
-    "nivellerons         nivelerons",
-    "nivellerez          nivelerez",
-    "nivelleront         niveleront"
-  ],
-  [
-    "oiseler",
-    "oisellerai          oiselerai",
-    "oiselleras          oiseleras",
-    "oisellera           oiselera",
-    "oisellerons         oiselerons",
-    "oisellerez          oiselerez",
-    "oiselleront         oiseleront"
-  ],
-  [
     "pailleter",
     "pailletterai        paillèterai",
     "pailletteras        paillèteras",
@@ -772,15 +385,6 @@
     "pailletterons       paillèterons",
     "pailletterez        paillèterez",
     "pailletteront       paillèteront"
-  ],
-  [
-    "panteler",
-    "pantellerai         pantelerai",
-    "pantelleras         panteleras",
-    "pantellera          pantelera",
-    "pantellerons        pantelerons",
-    "pantellerez         pantelerez",
-    "pantelleront        panteleront"
   ],
   [
     "parqueter",
@@ -819,15 +423,6 @@
     "pèseront            peseront"
   ],
   [
-    "pommeler",
-    "pommellerai         pommelerai",
-    "pommelleras         pommeleras",
-    "pommellera          pommelera",
-    "pommellerons        pommelerons",
-    "pommellerez         pommelerez",
-    "pommelleront        pommeleront"
-  ],
-  [
     "projeter",
     "projetterai         projèterai",
     "projetteras         projèteras",
@@ -844,15 +439,6 @@
     "rirons              rallerons",
     "rirez               rallerez",
     "riront              ralleront"
-  ],
-  [
-    "rappeler",
-    "rappellerai         rappelerai",
-    "rappelleras         rappeleras",
-    "rappellera          rappelera",
-    "rappellerons        rappelerons",
-    "rappellerez         rappelerez",
-    "rappelleront        rappeleront"
   ],
   [
     "recacheter",
@@ -891,15 +477,6 @@
     "reloquetteront      reloquèteront"
   ],
   [
-    "renouveler",
-    "renouvellerai       renouvelerai",
-    "renouvelleras       renouveleras",
-    "renouvellera        renouvelera",
-    "renouvellerons      renouvelerons",
-    "renouvellerez       renouvelerez",
-    "renouvelleront      renouveleront"
-  ],
-  [
     "renvoyer",
     "renverrai           renvoierai",
     "renverras           renvoieras",
@@ -918,15 +495,6 @@
     "ressèmeront         ressemeront"
   ],
   [
-    "ressemeler",
-    "ressemellerai       ressemelerai",
-    "ressemelleras       ressemeleras",
-    "ressemellera        ressemelera",
-    "ressemellerons      ressemelerons",
-    "ressemellerez       ressemelerez",
-    "ressemelleront      ressemeleront"
-  ],
-  [
     "riveter",
     "rivetterai          rivèterai",
     "rivetteras          rivèteras",
@@ -934,24 +502,6 @@
     "rivetterons         rivèterons",
     "rivetterez          rivèterez",
     "rivetteront         rivèteront"
-  ],
-  [
-    "ruisseler",
-    "ruissellerai        ruisselerai",
-    "ruisselleras        ruisseleras",
-    "ruissellera         ruisselera",
-    "ruissellerons       ruisselerons",
-    "ruissellerez        ruisselerez",
-    "ruisselleront       ruisseleront"
-  ],
-  [
-    "râteler",
-    "râtellerai          râtelerai",
-    "râtelleras          râteleras",
-    "râtellera           râtelera",
-    "râtellerons         râtelerons",
-    "râtellerez          râtelerez",
-    "râtelleront         râteleront"
   ],
   [
     "semer",
@@ -1008,15 +558,6 @@
     "tachetteront        tachèteront"
   ],
   [
-    "taveler",
-    "tavellerai          tavelerai",
-    "tavelleras          taveleras",
-    "tavellera           tavelera",
-    "tavellerons         tavelerons",
-    "tavellerez          tavelerez",
-    "tavelleront         taveleront"
-  ],
-  [
     "trompeter",
     "trompetterai        trompèterai",
     "trompetteras        trompèteras",
@@ -1035,51 +576,6 @@
     "voletteront         volèteront"
   ],
   [
-    "ébiseler",
-    "ébisellerai         ébiselerai",
-    "ébiselleras         ébiseleras",
-    "ébisellera          ébiselera",
-    "ébisellerons        ébiselerons",
-    "ébisellerez         ébiselerez",
-    "ébiselleront        ébiseleront"
-  ],
-  [
-    "écheveler",
-    "échevellerai        échevelerai",
-    "échevelleras        écheveleras",
-    "échevellera         échevelera",
-    "échevellerons       échevelerons",
-    "échevellerez        échevelerez",
-    "échevelleront       écheveleront"
-  ],
-  [
-    "épanneler",
-    "épannellerai        épannelerai",
-    "épannelleras        épanneleras",
-    "épannellera         épannelera",
-    "épannellerons       épannelerons",
-    "épannellerez        épannelerez",
-    "épannelleront       épanneleront"
-  ],
-  [
-    "épeler",
-    "épellerai           épelerai",
-    "épelleras           épeleras",
-    "épellera            épelera",
-    "épellerons          épelerons",
-    "épellerez           épelerez",
-    "épelleront          épeleront"
-  ],
-  [
-    "épinceler",
-    "épincellerai        épincelerai",
-    "épincelleras        épinceleras",
-    "épincellera         épincelera",
-    "épincellerons       épincelerons",
-    "épincellerez        épincelerez",
-    "épincelleront       épinceleront"
-  ],
-  [
     "épinceter",
     "épincetterai        épincèterai",
     "épincetteras        épincèteras",
@@ -1096,15 +592,6 @@
     "époussetterons      époussèterons",
     "époussetterez       époussèterez",
     "époussetteront      époussèteront"
-  ],
-  [
-    "étinceler",
-    "étincellerai        étincelerai",
-    "étincelleras        étinceleras",
-    "étincellera         étincelera",
-    "étincellerons       étincelerons",
-    "étincellerez        étincelerez",
-    "étincelleront       étinceleront"
   ],
   [
     "étiqueter",

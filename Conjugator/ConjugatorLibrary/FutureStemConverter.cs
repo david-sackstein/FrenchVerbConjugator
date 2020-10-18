@@ -52,7 +52,7 @@ namespace ConjugatorLibrary
                     actualStem = ReplaceEwithEGrave(stem, stemEnding);
                     return true;
 
-                //case "el":
+                case "el":
                 //case "et":
 
                     actualStem = DoubleLastLetter(stem);

@@ -12,7 +12,7 @@ namespace ConjugatorLibrary
             Contract.Requires(verb.EndsWith("er"));
             Contract.Requires(verb.Length > 2);
 
-            if (verb == "acheter")
+            if (verb == "agneler")
             {
                 Console.WriteLine();
             }

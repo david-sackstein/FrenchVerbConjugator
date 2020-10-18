@@ -6,7 +6,7 @@ namespace ConjugatorLibrary
 {
     public class ParticipePasseConjugator
     {
-        public string[] GetParticipleParfait(string verb)
+        public string[] GetParticiplePasse(string verb)
         {
             Contract.Requires(verb.EndsWith("er"));
             Contract.Requires(verb.Length > 2);

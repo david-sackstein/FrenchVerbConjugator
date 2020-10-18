@@ -13,7 +13,7 @@ namespace ConjugatorTests
         private static VerbData _verbData;
         private static PresentConjugator _presentConjugator;
         private static ImparfaitConjugator _imparfaitConjugator;
-        private static ParticipePasseConjugator _participeParfaitConjugator;
+        private static ParticipePasseConjugator _participePasseConjugator;
         private static FutureConjugator _futureConjugator;
 
         [ClassInitialize]
@@ -22,7 +22,7 @@ namespace ConjugatorTests
             _verbData = new VerbData(_nodeModulesPath);
             _presentConjugator = new PresentConjugator();
             _imparfaitConjugator = new ImparfaitConjugator();
-            _participeParfaitConjugator = new ParticipePasseConjugator();
+            _participePasseConjugator = new ParticipePasseConjugator();
             _futureConjugator = new FutureConjugator();
         }
 
@@ -39,9 +39,9 @@ namespace ConjugatorTests
         }
 
         [TestMethod]
-        public void TestAllParticipeParfait()
+        public void TestAllParticipePasse()
         {
-            TestAll(v => _verbData.Conjugations[v].ParticipePasse, _participeParfaitConjugator.GetParticipleParfait);
+            TestAll(v => _verbData.Conjugations[v].ParticipePasse, _participePasseConjugator.GetParticiplePasse);
         }
 
         [TestMethod]
