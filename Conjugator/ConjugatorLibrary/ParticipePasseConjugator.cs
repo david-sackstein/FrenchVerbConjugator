@@ -1,16 +1,14 @@
-﻿using System.Linq;
-
-namespace ConjugatorLibrary
+﻿namespace ConjugatorLibrary
 {
     public static class ParticipePasseConjugator
     {
+        public static string[] Endings { get; } = { "é", "és", "ée", "ées" };
+
         public static string[] GetConjugations(string verb)
         {
             string stem = GetStem(verb);
 
-            string[] endings = { "é", "és", "ée", "ées" };
-            string[] withEndings = AddEndings(endings, stem);
-            return withEndings;
+            return stem.AddEndings(Endings);
         }
 
         private static string GetStem(string verb)
@@ -20,11 +18,6 @@ namespace ConjugatorLibrary
                 return "all";
             }
             return verb.Remove(verb.Length - 2);
-        }
-
-        private static string[] AddEndings(string[] endings, string stem)
-        {
-            return endings.Select(ending => stem + ending).ToArray();
         }
     }
 }

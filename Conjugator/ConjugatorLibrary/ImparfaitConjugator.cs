@@ -1,24 +1,21 @@
-﻿using System.Diagnostics.Contracts;
-using System.Linq;
-
-namespace ConjugatorLibrary
+﻿namespace ConjugatorLibrary
 {
     public static class ImparfaitConjugator
     {
+        public static string[] Endings { get; } = {"ais", "ais", "ait", "ions", "iez", "aient"};
+
         public static string[] GetConjugations(string verb)
         {
-            Contract.Requires(verb.EndsWith("er"));
-            Contract.Requires(verb.Length > 2);
-
             string stem = GetStem(verb);
 
-            string[] endings = {"ais", "ais", "ait", "ions", "iez", "aient"};
+            string[] endings = Endings;
+
             if (verb[^3] == 'g')
             {
                 endings = endings.MatchNousVous(s => "e" + s);
             }
 
-            string[] withEndings = AddEndings(endings, stem);
+            string[] withEndings = stem.AddEndings(endings);
 
             // soften the c with a cedilla before an 'a'
             if (verb[^3] == 'c')
@@ -35,12 +32,8 @@ namespace ConjugatorLibrary
             {
                 return "all";
             }
-            return verb.Remove(verb.Length - 2);
-        }
 
-        private static string[] AddEndings(string[] endings, string stem)
-        {
-            return endings.Select(ending => stem + ending).ToArray();
+            return verb.Remove(verb.Length - 2);
         }
     }
 }

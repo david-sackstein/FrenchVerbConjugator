@@ -1,21 +1,20 @@
 ﻿using System;
 using System.Diagnostics.Contracts;
-using System.Linq;
 
 namespace ConjugatorLibrary
 {
     public static class FutureConjugator
     {
-        public static readonly string[] endings = { "ai", "as", "a", "ons", "ez", "ont" };
+        public static string[] Endings { get; } = {"ai", "as", "a", "ons", "ez", "ont"};
 
         public static string[] GetConjugations(string verb)
         {
             string stem = GetStem(verb);
 
-            return AddEndings(endings, stem);
+            return stem.AddEndings(Endings);
         }
 
-        private static string GetStem(string verb)
+        public static string GetStem(string verb)
         {
             switch (verb)
             {
@@ -39,11 +38,6 @@ namespace ConjugatorLibrary
             }
 
             return shortenedStem;
-        }
-
-        private static string[] AddEndings(string[] endings, string stem)
-        {
-            return endings.Select(ending => stem + ending).ToArray();
         }
     }
 }
