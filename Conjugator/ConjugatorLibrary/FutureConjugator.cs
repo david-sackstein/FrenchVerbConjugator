@@ -38,6 +38,10 @@ namespace ConjugatorLibrary
             {
                 return "ir";
             }
+            if (verb == "renvoyer" || verb == "envoyer")
+            {
+                return verb.Replace("voyer", "verr");
+            }
 
             if (FutureStemConverter.GetModifiedStem(verb.Substring(0, verb.Length - 2), out string modifiedStem))
             {

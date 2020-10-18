@@ -9,15 +9,6 @@
     "autosèvreront       autosevreront"
   ],
   [
-    "envoyer",
-    "enverrai            envoierai",
-    "enverras            envoieras",
-    "enverra             envoiera",
-    "enverrons           envoierons",
-    "enverrez            envoierez",
-    "enverront           envoieront"
-  ],
-  [
     "liserer",
     "lisèrerai           lisererai",
     "lisèreras           lisereras",
@@ -34,15 +25,6 @@
     "recèperons          receperons",
     "recèperez           receperez",
     "recèperont          receperont"
-  ],
-  [
-    "renvoyer",
-    "renverrai           renvoierai",
-    "renverras           renvoieras",
-    "renverra            renvoiera",
-    "renverrons          renvoierons",
-    "renverrez           renvoierez",
-    "renverront          renvoieront"
   ],
   [
     "sevrer",
