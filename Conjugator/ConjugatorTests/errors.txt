@@ -9,15 +9,6 @@
     "autosèvreront       autosevreront"
   ],
   [
-    "clairsemer",
-    "clairsèmerai        clairsemerai",
-    "clairsèmeras        clairsemeras",
-    "clairsèmera         clairsemera",
-    "clairsèmerons       clairsemerons",
-    "clairsèmerez        clairsemerez",
-    "clairsèmeront       clairsemeront"
-  ],
-  [
     "envoyer",
     "enverrai            envoierai",
     "enverras            envoieras",
@@ -36,15 +27,6 @@
     "lisèreront          lisereront"
   ],
   [
-    "parsemer",
-    "parsèmerai          parsemerai",
-    "parsèmeras          parsemeras",
-    "parsèmera           parsemera",
-    "parsèmerons         parsemerons",
-    "parsèmerez          parsemerez",
-    "parsèmeront         parsemeront"
-  ],
-  [
     "receper",
     "recèperai           receperai",
     "recèperas           receperas",
@@ -61,24 +43,6 @@
     "renverrons          renvoierons",
     "renverrez           renvoierez",
     "renverront          renvoieront"
-  ],
-  [
-    "ressemer",
-    "ressèmerai          ressemerai",
-    "ressèmeras          ressemeras",
-    "ressèmera           ressemera",
-    "ressèmerons         ressemerons",
-    "ressèmerez          ressemerez",
-    "ressèmeront         ressemeront"
-  ],
-  [
-    "semer",
-    "sèmerai             semerai",
-    "sèmeras             semeras",
-    "sèmera              semera",
-    "sèmerons            semerons",
-    "sèmerez             semerez",
-    "sèmeront            semeront"
   ],
   [
     "sevrer",
