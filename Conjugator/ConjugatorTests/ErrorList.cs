@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.Encodings.Web;
@@ -12,9 +13,9 @@ namespace ConjugatorTests
     {
         private const string errorFileName = @"..\..\..\errors.txt";
 
-        public static void Save(string[] errorVerbs, Dictionary<string, Conjugation> conjugations)
+        public static void Save(string[] errorVerbs, Func<string, string[]> referenceConjugator, Func<string, string[]> conjugator)
         {
-            string[][] errorVerbsWith = errorVerbs.Select(verb => Flatten(verb, conjugations)).ToArray();
+            string[][] errorVerbsWith = errorVerbs.Select(verb => Flatten(verb, referenceConjugator, conjugator)).ToArray();
             Save(errorVerbsWith);
         }
 
@@ -29,9 +30,11 @@ namespace ConjugatorTests
             return JsonSerializer.Deserialize<string[][]>(text);
         }
 
-        private static string[] Flatten(string verb, Dictionary<string, Conjugation> conjugations)
+        private static string[] Flatten(string verb, Func<string, string[]> referenceConjugator, Func<string, string[]> conjugator)
         {
-            string[] conjugation = conjugations[verb].Future ?? new string[0];
+            string[] expected = referenceConjugator(verb);
+            string[] actual = conjugator(verb);
+            IEnumerable<string> conjugation = expected.Zip(actual).Select(tuple => $"{tuple.First, -20}{tuple.Second}");
             return new[] { verb }.Concat(conjugation).ToArray();
         }
 

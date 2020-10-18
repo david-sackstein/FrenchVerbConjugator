@@ -13,10 +13,6 @@ namespace ConjugatorLibrary
             string stem = GetStem(verb);
 
             string[] endings = {"ai", "as", "a", "ons", "ez", "ont"};
-            if (verb[^3] == 'g')
-            {
-                endings = endings.MatchNousVous(s => "e" + s);
-            }
 
             string[] withEndings = AddEndings(endings, stem);
 
