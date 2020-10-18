@@ -8,9 +8,9 @@ namespace ConjugatorLibrary
         public static bool GetModifiedStem(string stem, out string modifiedStem)
         {
             if (
-                BasedOnLastTwoLetters(stem, out modifiedStem)) // ||
-                //BasedOnLastThreeLetters(stem, out modifiedStem) ||
-                //BasedOnLastFourLetters(stem, out modifiedStem))
+                BasedOnLastTwoLetters(stem, out modifiedStem) ||
+                BasedOnLastThreeLetters(stem, out modifiedStem)) // ||
+            //BasedOnLastFourLetters(stem, out modifiedStem))
             {
                 return true;
             }
@@ -85,9 +85,7 @@ namespace ConjugatorLibrary
 
             switch (stemEnding)
             {
-                case "éch": case "égu": case "ébr":case "égl":
-                case "évr": case "étr": case "équ":case "égr":
-                case "égn": case "écr": case "evr":
+                case "evr":
                     actualStem = ReplaceEwithEGrave(stem, stemEnding);
                     return true;
             }
