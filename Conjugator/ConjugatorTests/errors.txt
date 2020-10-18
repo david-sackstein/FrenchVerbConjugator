@@ -1,4034 +1,1712 @@
 [
   [
-    "aboyer",
-    "aboierai",
-    "aboieras",
-    "aboiera",
-    "aboierons",
-    "aboierez",
-    "aboieront"
-  ],
-  [
-    "abroger",
-    "abrogerai",
-    "abrogeras",
-    "abrogera",
-    "abrogerons",
-    "abrogerez",
-    "abrogeront"
-  ],
-  [
-    "abréger",
-    "abrégerai",
-    "abrégeras",
-    "abrégera",
-    "abrégerons",
-    "abrégerez",
-    "abrégeront"
-  ],
-  [
     "acheter",
-    "achèterai",
-    "achèteras",
-    "achètera",
-    "achèterons",
-    "achèterez",
-    "achèteront"
+    "achèterai           acheterai",
+    "achèteras           acheteras",
+    "achètera            achetera",
+    "achèterons          acheterons",
+    "achèterez           acheterez",
+    "achèteront          acheteront"
   ],
   [
     "achever",
-    "achèverai",
-    "achèveras",
-    "achèvera",
-    "achèverons",
-    "achèverez",
-    "achèveront"
-  ],
-  [
-    "adjuger",
-    "adjugerai",
-    "adjugeras",
-    "adjugera",
-    "adjugerons",
-    "adjugerez",
-    "adjugeront"
-  ],
-  [
-    "affliger",
-    "affligerai",
-    "affligeras",
-    "affligera",
-    "affligerons",
-    "affligerez",
-    "affligeront"
-  ],
-  [
-    "affourager",
-    "affouragerai",
-    "affourageras",
-    "affouragera",
-    "affouragerons",
-    "affouragerez",
-    "affourageront"
+    "achèverai           acheverai",
+    "achèveras           acheveras",
+    "achèvera            achevera",
+    "achèverons          acheverons",
+    "achèverez           acheverez",
+    "achèveront          acheveront"
   ],
   [
     "agneler",
-    "agnellerai",
-    "agnelleras",
-    "agnellera",
-    "agnellerons",
-    "agnellerez",
-    "agnelleront"
-  ],
-  [
-    "agréger",
-    "agrégerai",
-    "agrégeras",
-    "agrégera",
-    "agrégerons",
-    "agrégerez",
-    "agrégeront"
+    "agnellerai          agnelerai",
+    "agnelleras          agneleras",
+    "agnellera           agnelera",
+    "agnellerons         agnelerons",
+    "agnellerez          agnelerez",
+    "agnelleront         agneleront"
   ],
   [
     "aiguilleter",
-    "aiguilletterai",
-    "aiguilletteras",
-    "aiguillettera",
-    "aiguilletterons",
-    "aiguilletterez",
-    "aiguilletteront"
-  ],
-  [
-    "allonger",
-    "allongerai",
-    "allongeras",
-    "allongera",
-    "allongerons",
-    "allongerez",
-    "allongeront"
-  ],
-  [
-    "alléger",
-    "allégerai",
-    "allégeras",
-    "allégera",
-    "allégerons",
-    "allégerez",
-    "allégeront"
+    "aiguilletterai      aiguilleterai",
+    "aiguilletteras      aiguilleteras",
+    "aiguillettera       aiguilletera",
+    "aiguilletterons     aiguilleterons",
+    "aiguilletterez      aiguilleterez",
+    "aiguilletteront     aiguilleteront"
   ],
   [
     "amener",
-    "amènerai",
-    "amèneras",
-    "amènera",
-    "amènerons",
-    "amènerez",
-    "amèneront"
+    "amènerai            amenerai",
+    "amèneras            ameneras",
+    "amènera             amenera",
+    "amènerons           amenerons",
+    "amènerez            amenerez",
+    "amèneront           ameneront"
   ],
   [
     "amonceler",
-    "amoncellerai",
-    "amoncelleras",
-    "amoncellera",
-    "amoncellerons",
-    "amoncellerez",
-    "amoncelleront"
-  ],
-  [
-    "aménager",
-    "aménagerai",
-    "aménageras",
-    "aménagera",
-    "aménagerons",
-    "aménagerez",
-    "aménageront"
+    "amoncellerai        amoncelerai",
+    "amoncelleras        amonceleras",
+    "amoncellera         amoncelera",
+    "amoncellerons       amoncelerons",
+    "amoncellerez        amoncelerez",
+    "amoncelleront       amonceleront"
   ],
   [
     "anneler",
-    "annellerai",
-    "annelleras",
-    "annellera",
-    "annellerons",
-    "annellerez",
-    "annelleront"
-  ],
-  [
-    "apanager",
-    "apanagerai",
-    "apanageras",
-    "apanagera",
-    "apanagerons",
-    "apanagerez",
-    "apanageront"
-  ],
-  [
-    "apitoyer",
-    "apitoierai",
-    "apitoieras",
-    "apitoiera",
-    "apitoierons",
-    "apitoierez",
-    "apitoieront"
+    "annellerai          annelerai",
+    "annelleras          anneleras",
+    "annellera           annelera",
+    "annellerons         annelerons",
+    "annellerez          annelerez",
+    "annelleront         anneleront"
   ],
   [
     "appeler",
-    "appellerai",
-    "appelleras",
-    "appellera",
-    "appellerons",
-    "appellerez",
-    "appelleront"
-  ],
-  [
-    "appuyer",
-    "appuierai",
-    "appuieras",
-    "appuiera",
-    "appuierons",
-    "appuierez",
-    "appuieront"
-  ],
-  [
-    "arpéger",
-    "arpégerai",
-    "arpégeras",
-    "arpégera",
-    "arpégerons",
-    "arpégerez",
-    "arpégeront"
-  ],
-  [
-    "arranger",
-    "arrangerai",
-    "arrangeras",
-    "arrangera",
-    "arrangerons",
-    "arrangerez",
-    "arrangeront"
-  ],
-  [
-    "arroger",
-    "arrogerai",
-    "arrogeras",
-    "arrogera",
-    "arrogerons",
-    "arrogerez",
-    "arrogeront"
-  ],
-  [
-    "arrérager",
-    "arréragerai",
-    "arrérageras",
-    "arréragera",
-    "arréragerons",
-    "arréragerez",
-    "arrérageront"
-  ],
-  [
-    "asperger",
-    "aspergerai",
-    "aspergeras",
-    "aspergera",
-    "aspergerons",
-    "aspergerez",
-    "aspergeront"
+    "appellerai          appelerai",
+    "appelleras          appeleras",
+    "appellera           appelera",
+    "appellerons         appelerons",
+    "appellerez          appelerez",
+    "appelleront         appeleront"
   ],
   [
     "assener",
-    "assènerai",
-    "assèneras",
-    "assènera",
-    "assènerons",
-    "assènerez",
-    "assèneront"
-  ],
-  [
-    "assiéger",
-    "assiégerai",
-    "assiégeras",
-    "assiégera",
-    "assiégerons",
-    "assiégerez",
-    "assiégeront"
-  ],
-  [
-    "atermoyer",
-    "atermoierai",
-    "atermoieras",
-    "atermoiera",
-    "atermoierons",
-    "atermoierez",
-    "atermoieront"
+    "assènerai           assenerai",
+    "assèneras           asseneras",
+    "assènera            assenera",
+    "assènerons          assenerons",
+    "assènerez           assenerez",
+    "assèneront          asseneront"
   ],
   [
     "atteler",
-    "attellerai",
-    "attelleras",
-    "attellera",
-    "attellerons",
-    "attellerez",
-    "attelleront"
-  ],
-  [
-    "attiger",
-    "attigerai",
-    "attigeras",
-    "attigera",
-    "attigerons",
-    "attigerez",
-    "attigeront"
-  ],
-  [
-    "autoprotéger",
-    "autoprotégerai",
-    "autoprotégeras",
-    "autoprotégera",
-    "autoprotégerons",
-    "autoprotégerez",
-    "autoprotégeront"
+    "attellerai          attelerai",
+    "attelleras          atteleras",
+    "attellera           attelera",
+    "attellerons         attelerons",
+    "attellerez          attelerez",
+    "attelleront         atteleront"
   ],
   [
     "autosevrer",
-    "autosèvrerai",
-    "autosèvreras",
-    "autosèvrera",
-    "autosèvrerons",
-    "autosèvrerez",
-    "autosèvreront"
-  ],
-  [
-    "avantager",
-    "avantagerai",
-    "avantageras",
-    "avantagera",
-    "avantagerons",
-    "avantagerez",
-    "avantageront"
-  ],
-  [
-    "badger",
-    "badgerai",
-    "badgeras",
-    "badgera",
-    "badgerons",
-    "badgerez",
-    "badgeront"
+    "autosèvrerai        autosevrerai",
+    "autosèvreras        autosevreras",
+    "autosèvrera         autosevrera",
+    "autosèvrerons       autosevrerons",
+    "autosèvrerez        autosevrerez",
+    "autosèvreront       autosevreront"
   ],
   [
     "banqueter",
-    "banquetterai",
-    "banquetteras",
-    "banquettera",
-    "banquetterons",
-    "banquetterez",
-    "banquetteront"
+    "banquetterai        banqueterai",
+    "banquetteras        banqueteras",
+    "banquettera         banquetera",
+    "banquetterons       banqueterons",
+    "banquetterez        banqueterez",
+    "banquetteront       banqueteront"
   ],
   [
     "bateler",
-    "batellerai",
-    "batelleras",
-    "batellera",
-    "batellerons",
-    "batellerez",
-    "batelleront"
-  ],
-  [
-    "bauger",
-    "baugerai",
-    "baugeras",
-    "baugera",
-    "baugerons",
-    "baugerez",
-    "baugeront"
+    "batellerai          batelerai",
+    "batelleras          bateleras",
+    "batellera           batelera",
+    "batellerons         batelerons",
+    "batellerez          batelerez",
+    "batelleront         bateleront"
   ],
   [
     "becqueter",
-    "becquèterai",
-    "becquèteras",
-    "becquètera",
-    "becquèterons",
-    "becquèterez",
-    "becquèteront"
-  ],
-  [
-    "bornoyer",
-    "bornoierai",
-    "bornoieras",
-    "bornoiera",
-    "bornoierons",
-    "bornoierez",
-    "bornoieront"
+    "becquèterai         becqueterai",
+    "becquèteras         becqueteras",
+    "becquètera          becquetera",
+    "becquèterons        becqueterons",
+    "becquèterez         becqueterez",
+    "becquèteront        becqueteront"
   ],
   [
     "bosseler",
-    "bossellerai",
-    "bosselleras",
-    "bossellera",
-    "bossellerons",
-    "bossellerez",
-    "bosselleront"
+    "bossellerai         bosselerai",
+    "bosselleras         bosseleras",
+    "bossellera          bosselera",
+    "bossellerons        bosselerons",
+    "bossellerez         bosselerez",
+    "bosselleront        bosseleront"
   ],
   [
     "botteler",
-    "bottellerai",
-    "bottelleras",
-    "bottellera",
-    "bottellerons",
-    "bottellerez",
-    "bottelleront"
-  ],
-  [
-    "bouger",
-    "bougerai",
-    "bougeras",
-    "bougera",
-    "bougerons",
-    "bougerez",
-    "bougeront"
-  ],
-  [
-    "boulanger",
-    "boulangerai",
-    "boulangeras",
-    "boulangera",
-    "boulangerons",
-    "boulangerez",
-    "boulangeront"
+    "bottellerai         bottelerai",
+    "bottelleras         botteleras",
+    "bottellera          bottelera",
+    "bottellerons        bottelerons",
+    "bottellerez         bottelerez",
+    "bottelleront        botteleront"
   ],
   [
     "bourreler",
-    "bourrellerai",
-    "bourrelleras",
-    "bourrellera",
-    "bourrellerons",
-    "bourrellerez",
-    "bourrelleront"
+    "bourrellerai        bourrelerai",
+    "bourrelleras        bourreleras",
+    "bourrellera         bourrelera",
+    "bourrellerons       bourrelerons",
+    "bourrellerez        bourrelerez",
+    "bourrelleront       bourreleront"
   ],
   [
     "bretteler",
-    "brettellerai",
-    "brettelleras",
-    "brettellera",
-    "brettellerons",
-    "brettellerez",
-    "brettelleront"
+    "brettellerai        brettelerai",
+    "brettelleras        bretteleras",
+    "brettellera         brettelera",
+    "brettellerons       brettelerons",
+    "brettellerez        brettelerez",
+    "brettelleront       bretteleront"
   ],
   [
     "breveter",
-    "brevetterai",
-    "brevetteras",
-    "brevettera",
-    "brevetterons",
-    "brevetterez",
-    "brevetteront"
-  ],
-  [
-    "bridger",
-    "bridgerai",
-    "bridgeras",
-    "bridgera",
-    "bridgerons",
-    "bridgerez",
-    "bridgeront"
+    "brevetterai         breveterai",
+    "brevetteras         breveteras",
+    "brevettera          brevetera",
+    "brevetterons        breveterons",
+    "brevetterez         breveterez",
+    "brevetteront        breveteront"
   ],
   [
     "briqueter",
-    "briquetterai",
-    "briquetteras",
-    "briquettera",
-    "briquetterons",
-    "briquetterez",
-    "briquetteront"
-  ],
-  [
-    "broyer",
-    "broierai",
-    "broieras",
-    "broiera",
-    "broierons",
-    "broierez",
-    "broieront"
+    "briquetterai        briqueterai",
+    "briquetteras        briqueteras",
+    "briquettera         briquetera",
+    "briquetterons       briqueterons",
+    "briquetterez        briqueterez",
+    "briquetteront       briqueteront"
   ],
   [
     "bégueter",
-    "béguetterai",
-    "béguetteras",
-    "béguettera",
-    "béguetterons",
-    "béguetterez",
-    "béguetteront"
+    "béguetterai         bégueterai",
+    "béguetteras         bégueteras",
+    "béguettera          béguetera",
+    "béguetterons        bégueterons",
+    "béguetterez         bégueterez",
+    "béguetteront        bégueteront"
   ],
   [
     "bêcheveter",
-    "bêchevetterai",
-    "bêchevetteras",
-    "bêchevettera",
-    "bêchevetterons",
-    "bêchevetterez",
-    "bêchevetteront"
+    "bêchevetterai       bêcheveterai",
+    "bêchevetteras       bêcheveteras",
+    "bêchevettera        bêchevetera",
+    "bêchevetterons      bêcheveterons",
+    "bêchevetterez       bêcheveterez",
+    "bêchevetteront      bêcheveteront"
   ],
   [
     "cacheter",
-    "cachetterai",
-    "cachetteras",
-    "cachettera",
-    "cachetterons",
-    "cachetterez",
-    "cachetteront"
+    "cachetterai         cacheterai",
+    "cachetteras         cacheteras",
+    "cachettera          cachetera",
+    "cachetterons        cacheterons",
+    "cachetterez         cacheterez",
+    "cachetteront        cacheteront"
   ],
   [
     "cailleter",
-    "cailletterai",
-    "cailletteras",
-    "caillettera",
-    "cailletterons",
-    "cailletterez",
-    "cailletteront"
+    "cailletterai        cailleterai",
+    "cailletteras        cailleteras",
+    "caillettera         cailletera",
+    "cailletterons       cailleterons",
+    "cailletterez        cailleterez",
+    "cailletteront       cailleteront"
   ],
   [
     "caleter",
-    "caletterai",
-    "caletteras",
-    "calettera",
-    "caletterons",
-    "caletterez",
-    "caletteront"
-  ],
-  [
-    "calorifuger",
-    "calorifugerai",
-    "calorifugeras",
-    "calorifugera",
-    "calorifugerons",
-    "calorifugerez",
-    "calorifugeront"
+    "caletterai          caleterai",
+    "caletteras          caleteras",
+    "calettera           caletera",
+    "caletterons         caleterons",
+    "caletterez          caleterez",
+    "caletteront         caleteront"
   ],
   [
     "canneler",
-    "cannellerai",
-    "cannelleras",
-    "cannellera",
-    "cannellerons",
-    "cannellerez",
-    "cannelleront"
+    "cannellerai         cannelerai",
+    "cannelleras         canneleras",
+    "cannellera          cannelera",
+    "cannellerons        cannelerons",
+    "cannellerez         cannelerez",
+    "cannelleront        canneleront"
   ],
   [
     "capeler",
-    "capellerai",
-    "capelleras",
-    "capellera",
-    "capellerons",
-    "capellerez",
-    "capelleront"
+    "capellerai          capelerai",
+    "capelleras          capeleras",
+    "capellera           capelera",
+    "capellerons         capelerons",
+    "capellerez          capelerez",
+    "capelleront         capeleront"
   ],
   [
     "caqueter",
-    "caquetterai",
-    "caquetteras",
-    "caquettera",
-    "caquetterons",
-    "caquetterez",
-    "caquetteront"
+    "caquetterai         caqueterai",
+    "caquetteras         caqueteras",
+    "caquettera          caquetera",
+    "caquetterons        caqueterons",
+    "caquetterez         caqueterez",
+    "caquetteront        caqueteront"
   ],
   [
     "carreler",
-    "carrellerai",
-    "carrelleras",
-    "carrellera",
-    "carrellerons",
-    "carrellerez",
-    "carrelleront"
-  ],
-  [
-    "carroyer",
-    "carroierai",
-    "carroieras",
-    "carroiera",
-    "carroierons",
-    "carroierez",
-    "carroieront"
+    "carrellerai         carrelerai",
+    "carrelleras         carreleras",
+    "carrellera          carrelera",
+    "carrellerons        carrelerons",
+    "carrellerez         carrelerez",
+    "carrelleront        carreleront"
   ],
   [
     "celer",
-    "cèlerai",
-    "cèleras",
-    "cèlera",
-    "cèlerons",
-    "cèlerez",
-    "cèleront"
-  ],
-  [
-    "centrifuger",
-    "centrifugerai",
-    "centrifugeras",
-    "centrifugera",
-    "centrifugerons",
-    "centrifugerez",
-    "centrifugeront"
-  ],
-  [
-    "challenger",
-    "challengerai",
-    "challengeras",
-    "challengera",
-    "challengerons",
-    "challengerez",
-    "challengeront"
+    "cèlerai             celerai",
+    "cèleras             celeras",
+    "cèlera              celera",
+    "cèlerons            celerons",
+    "cèlerez             celerez",
+    "cèleront            celeront"
   ],
   [
     "champlever",
-    "champlèverai",
-    "champlèveras",
-    "champlèvera",
-    "champlèverons",
-    "champlèverez",
-    "champlèveront"
+    "champlèverai        champleverai",
+    "champlèveras        champleveras",
+    "champlèvera         champlevera",
+    "champlèverons       champleverons",
+    "champlèverez        champleverez",
+    "champlèveront       champleveront"
   ],
   [
     "chanceler",
-    "chancellerai",
-    "chancelleras",
-    "chancellera",
-    "chancellerons",
-    "chancellerez",
-    "chancelleront"
-  ],
-  [
-    "changer",
-    "changerai",
-    "changeras",
-    "changera",
-    "changerons",
-    "changerez",
-    "changeront"
-  ],
-  [
-    "charger",
-    "chargerai",
-    "chargeras",
-    "chargera",
-    "chargerons",
-    "chargerez",
-    "chargeront"
-  ],
-  [
-    "charroyer",
-    "charroierai",
-    "charroieras",
-    "charroiera",
-    "charroierons",
-    "charroierez",
-    "charroieront"
-  ],
-  [
-    "chatoyer",
-    "chatoierai",
-    "chatoieras",
-    "chatoiera",
-    "chatoierons",
-    "chatoierez",
-    "chatoieront"
+    "chancellerai        chancelerai",
+    "chancelleras        chanceleras",
+    "chancellera         chancelera",
+    "chancellerons       chancelerons",
+    "chancellerez        chancelerez",
+    "chancelleront       chanceleront"
   ],
   [
     "chevreter",
-    "chevretterai",
-    "chevretteras",
-    "chevrettera",
-    "chevretterons",
-    "chevretterez",
-    "chevretteront"
-  ],
-  [
-    "choyer",
-    "choierai",
-    "choieras",
-    "choiera",
-    "choierons",
-    "choierez",
-    "choieront"
+    "chevretterai        chevreterai",
+    "chevretteras        chevreteras",
+    "chevrettera         chevretera",
+    "chevretterons       chevreterons",
+    "chevretterez        chevreterez",
+    "chevretteront       chevreteront"
   ],
   [
     "ciseler",
-    "cisèlerai",
-    "cisèleras",
-    "cisèlera",
-    "cisèlerons",
-    "cisèlerez",
-    "cisèleront"
+    "cisèlerai           ciselerai",
+    "cisèleras           ciseleras",
+    "cisèlera            ciselera",
+    "cisèlerons          ciselerons",
+    "cisèlerez           ciselerez",
+    "cisèleront          ciseleront"
   ],
   [
     "clairsemer",
-    "clairsèmerai",
-    "clairsèmeras",
-    "clairsèmera",
-    "clairsèmerons",
-    "clairsèmerez",
-    "clairsèmeront"
+    "clairsèmerai        clairsemerai",
+    "clairsèmeras        clairsemeras",
+    "clairsèmera         clairsemera",
+    "clairsèmerons       clairsemerons",
+    "clairsèmerez        clairsemerez",
+    "clairsèmeront       clairsemeront"
   ],
   [
     "claqueter",
-    "claquetterai",
-    "claquetteras",
-    "claquettera",
-    "claquetterons",
-    "claquetterez",
-    "claquetteront"
+    "claquetterai        claqueterai",
+    "claquetteras        claqueteras",
+    "claquettera         claquetera",
+    "claquetterons       claqueterons",
+    "claquetterez        claqueterez",
+    "claquetteront       claqueteront"
   ],
   [
     "claveter",
-    "clavetterai",
-    "clavetteras",
-    "clavettera",
-    "clavetterons",
-    "clavetterez",
-    "clavetteront"
+    "clavetterai         claveterai",
+    "clavetteras         claveteras",
+    "clavettera          clavetera",
+    "clavetterons        claveterons",
+    "clavetterez         claveterez",
+    "clavetteront        claveteront"
   ],
   [
     "cliqueter",
-    "cliquetterai",
-    "cliquetteras",
-    "cliquettera",
-    "cliquetterons",
-    "cliquetterez",
-    "cliquetteront"
-  ],
-  [
-    "codiriger",
-    "codirigerai",
-    "codirigeras",
-    "codirigera",
-    "codirigerons",
-    "codirigerez",
-    "codirigeront"
+    "cliquetterai        cliqueterai",
+    "cliquetteras        cliqueteras",
+    "cliquettera         cliquetera",
+    "cliquetterons       cliqueterons",
+    "cliquetterez        cliqueterez",
+    "cliquetteront       cliqueteront"
   ],
   [
     "colleter",
-    "colletterai",
-    "colletteras",
-    "collettera",
-    "colletterons",
-    "colletterez",
-    "colletteront"
-  ],
-  [
-    "colliger",
-    "colligerai",
-    "colligeras",
-    "colligera",
-    "colligerons",
-    "colligerez",
-    "colligeront"
+    "colletterai         colleterai",
+    "colletteras         colleteras",
+    "collettera          colletera",
+    "colletterons        colleterons",
+    "colletterez         colleterez",
+    "colletteront        colleteront"
   ],
   [
     "congeler",
-    "congèlerai",
-    "congèleras",
-    "congèlera",
-    "congèlerons",
-    "congèlerez",
-    "congèleront"
-  ],
-  [
-    "conjuger",
-    "conjugerai",
-    "conjugeras",
-    "conjugera",
-    "conjugerons",
-    "conjugerez",
-    "conjugeront"
-  ],
-  [
-    "converger",
-    "convergerai",
-    "convergeras",
-    "convergera",
-    "convergerons",
-    "convergerez",
-    "convergeront"
-  ],
-  [
-    "convoyer",
-    "convoierai",
-    "convoieras",
-    "convoiera",
-    "convoierons",
-    "convoierez",
-    "convoieront"
-  ],
-  [
-    "copartager",
-    "copartagerai",
-    "copartageras",
-    "copartagera",
-    "copartagerons",
-    "copartagerez",
-    "copartageront"
+    "congèlerai          congelerai",
+    "congèleras          congeleras",
+    "congèlera           congelera",
+    "congèlerons         congelerons",
+    "congèlerez          congelerez",
+    "congèleront         congeleront"
   ],
   [
     "coqueter",
-    "coquetterai",
-    "coquetteras",
-    "coquettera",
-    "coquetterons",
-    "coquetterez",
-    "coquetteront"
+    "coquetterai         coqueterai",
+    "coquetteras         coqueteras",
+    "coquettera          coquetera",
+    "coquetterons        coqueterons",
+    "coquetterez         coqueterez",
+    "coquetteront        coqueteront"
   ],
   [
     "cordeler",
-    "cordellerai",
-    "cordelleras",
-    "cordellera",
-    "cordellerons",
-    "cordellerez",
-    "cordelleront"
-  ],
-  [
-    "corriger",
-    "corrigerai",
-    "corrigeras",
-    "corrigera",
-    "corrigerons",
-    "corrigerez",
-    "corrigeront"
-  ],
-  [
-    "corroyer",
-    "corroierai",
-    "corroieras",
-    "corroiera",
-    "corroierons",
-    "corroierez",
-    "corroieront"
+    "cordellerai         cordelerai",
+    "cordelleras         cordeleras",
+    "cordellera          cordelera",
+    "cordellerons        cordelerons",
+    "cordellerez         cordelerez",
+    "cordelleront        cordeleront"
   ],
   [
     "corseter",
-    "corsèterai",
-    "corsèteras",
-    "corsètera",
-    "corsèterons",
-    "corsèterez",
-    "corsèteront"
-  ],
-  [
-    "coudoyer",
-    "coudoierai",
-    "coudoieras",
-    "coudoiera",
-    "coudoierons",
-    "coudoierez",
-    "coudoieront"
+    "corsèterai          corseterai",
+    "corsèteras          corseteras",
+    "corsètera           corsetera",
+    "corsèterons         corseterons",
+    "corsèterez          corseterez",
+    "corsèteront         corseteront"
   ],
   [
     "courrieler",
-    "courrièlerai",
-    "courrièleras",
-    "courrièlera",
-    "courrièlerons",
-    "courrièlerez",
-    "courrièleront"
+    "courrièlerai        courrielerai",
+    "courrièleras        courrieleras",
+    "courrièlera         courrielera",
+    "courrièlerons       courrielerons",
+    "courrièlerez        courrielerez",
+    "courrièleront       courrieleront"
   ],
   [
     "craqueler",
-    "craquellerai",
-    "craquelleras",
-    "craquellera",
-    "craquellerons",
-    "craquellerez",
-    "craquelleront"
+    "craquellerai        craquelerai",
+    "craquelleras        craqueleras",
+    "craquellera         craquelera",
+    "craquellerons       craquelerons",
+    "craquellerez        craquelerez",
+    "craquelleront       craqueleront"
   ],
   [
     "craqueter",
-    "craquèterai",
-    "craquèteras",
-    "craquètera",
-    "craquèterons",
-    "craquèterez",
-    "craquèteront"
+    "craquèterai         craqueterai",
+    "craquèteras         craqueteras",
+    "craquètera          craquetera",
+    "craquèterons        craqueterons",
+    "craquèterez         craqueterez",
+    "craquèteront        craqueteront"
   ],
   [
     "crever",
-    "crèverai",
-    "crèveras",
-    "crèvera",
-    "crèverons",
-    "crèverez",
-    "crèveront"
+    "crèverai            creverai",
+    "crèveras            creveras",
+    "crèvera             crevera",
+    "crèverons           creverons",
+    "crèverez            creverez",
+    "crèveront           creveront"
   ],
   [
     "crocheter",
-    "crochèterai",
-    "crochèteras",
-    "crochètera",
-    "crochèterons",
-    "crochèterez",
-    "crochèteront"
+    "crochèterai         crocheterai",
+    "crochèteras         crocheteras",
+    "crochètera          crochetera",
+    "crochèterons        crocheterons",
+    "crochèterez         crocheterez",
+    "crochèteront        crocheteront"
   ],
   [
     "créneler",
-    "crénellerai",
-    "crénelleras",
-    "crénellera",
-    "crénellerons",
-    "crénellerez",
-    "crénelleront"
+    "crénellerai         crénelerai",
+    "crénelleras         créneleras",
+    "crénellera          crénelera",
+    "crénellerons        crénelerons",
+    "crénellerez         crénelerez",
+    "crénelleront        créneleront"
   ],
   [
     "cureter",
-    "curetterai",
-    "curetteras",
-    "curettera",
-    "curetterons",
-    "curetterez",
-    "curetteront"
+    "curetterai          cureterai",
+    "curetteras          cureteras",
+    "curettera           curetera",
+    "curetterons         cureterons",
+    "curetterez          cureterez",
+    "curetteront         cureteront"
   ],
   [
     "cuveler",
-    "cuvellerai",
-    "cuvelleras",
-    "cuvellera",
-    "cuvellerons",
-    "cuvellerez",
-    "cuvelleront"
-  ],
-  [
-    "côtoyer",
-    "côtoierai",
-    "côtoieras",
-    "côtoiera",
-    "côtoierons",
-    "côtoierez",
-    "côtoieront"
+    "cuvellerai          cuvelerai",
+    "cuvelleras          cuveleras",
+    "cuvellera           cuvelera",
+    "cuvellerons         cuvelerons",
+    "cuvellerez          cuvelerez",
+    "cuvelleront         cuveleront"
   ],
   [
     "denteler",
-    "dentellerai",
-    "dentelleras",
-    "dentellera",
-    "dentellerons",
-    "dentellerez",
-    "dentelleront"
-  ],
-  [
-    "diriger",
-    "dirigerai",
-    "dirigeras",
-    "dirigera",
-    "dirigerons",
-    "dirigerez",
-    "dirigeront"
-  ],
-  [
-    "diverger",
-    "divergerai",
-    "divergeras",
-    "divergera",
-    "divergerons",
-    "divergerez",
-    "divergeront"
+    "dentellerai         dentelerai",
+    "dentelleras         denteleras",
+    "dentellera          dentelera",
+    "dentellerons        dentelerons",
+    "dentellerez         dentelerez",
+    "dentelleront        denteleront"
   ],
   [
     "duveter",
-    "duvetterai",
-    "duvetteras",
-    "duvettera",
-    "duvetterons",
-    "duvetterez",
-    "duvetteront"
+    "duvetterai          duveterai",
+    "duvetteras          duveteras",
+    "duvettera           duvetera",
+    "duvetterons         duveterons",
+    "duvetterez          duveterez",
+    "duvetteront         duveteront"
   ],
   [
     "débosseler",
-    "débossellerai",
-    "débosselleras",
-    "débossellera",
-    "débossellerons",
-    "débossellerez",
-    "débosselleront"
+    "débossellerai       débosselerai",
+    "débosselleras       débosseleras",
+    "débossellera        débosselera",
+    "débossellerons      débosselerons",
+    "débossellerez       débosselerez",
+    "débosselleront      débosseleront"
   ],
   [
     "décacheter",
-    "décachetterai",
-    "décachetteras",
-    "décachettera",
-    "décachetterons",
-    "décachetterez",
-    "décachetteront"
+    "décachetterai       décacheterai",
+    "décachetteras       décacheteras",
+    "décachettera        décachetera",
+    "décachetterons      décacheterons",
+    "décachetterez       décacheterez",
+    "décachetteront      décacheteront"
   ],
   [
     "décapeler",
-    "décapellerai",
-    "décapelleras",
-    "décapellera",
-    "décapellerons",
-    "décapellerez",
-    "décapelleront"
+    "décapellerai        décapelerai",
+    "décapelleras        décapeleras",
+    "décapellera         décapelera",
+    "décapellerons       décapelerons",
+    "décapellerez        décapelerez",
+    "décapelleront       décapeleront"
   ],
   [
     "décarreler",
-    "décarrellerai",
-    "décarrelleras",
-    "décarrellera",
-    "décarrellerons",
-    "décarrellerez",
-    "décarrelleront"
+    "décarrellerai       décarrelerai",
+    "décarrelleras       décarreleras",
+    "décarrellera        décarrelera",
+    "décarrellerons      décarrelerons",
+    "décarrellerez       décarrelerez",
+    "décarrelleront      décarreleront"
   ],
   [
     "déceler",
-    "décèlerai",
-    "décèleras",
-    "décèlera",
-    "décèlerons",
-    "décèlerez",
-    "décèleront"
+    "décèlerai           décelerai",
+    "décèleras           déceleras",
+    "décèlera            décelera",
+    "décèlerons          décelerons",
+    "décèlerez           décelerez",
+    "décèleront          déceleront"
   ],
   [
     "décerveler",
-    "décervellerai",
-    "décervelleras",
-    "décervellera",
-    "décervellerons",
-    "décervellerez",
-    "décervelleront"
-  ],
-  [
-    "décharger",
-    "déchargerai",
-    "déchargeras",
-    "déchargera",
-    "déchargerons",
-    "déchargerez",
-    "déchargeront"
+    "décervellerai       décervelerai",
+    "décervelleras       décerveleras",
+    "décervellera        décervelera",
+    "décervellerons      décervelerons",
+    "décervellerez       décervelerez",
+    "décervelleront      décerveleront"
   ],
   [
     "déchiqueter",
-    "déchiquetterai",
-    "déchiquetteras",
-    "déchiquettera",
-    "déchiquetterons",
-    "déchiquetterez",
-    "déchiquetteront"
+    "déchiquetterai      déchiqueterai",
+    "déchiquetteras      déchiqueteras",
+    "déchiquettera       déchiquetera",
+    "déchiquetterons     déchiqueterons",
+    "déchiquetterez      déchiqueterez",
+    "déchiquetteront     déchiqueteront"
   ],
   [
     "déclaveter",
-    "déclavetterai",
-    "déclavetteras",
-    "déclavettera",
-    "déclavetterons",
-    "déclavetterez",
-    "déclavetteront"
+    "déclavetterai       déclaveterai",
+    "déclavetteras       déclaveteras",
+    "déclavettera        déclavetera",
+    "déclavetterons      déclaveterons",
+    "déclavetterez       déclaveterez",
+    "déclavetteront      déclaveteront"
   ],
   [
     "décliqueter",
-    "décliquèterai",
-    "décliquèteras",
-    "décliquètera",
-    "décliquèterons",
-    "décliquèterez",
-    "décliquèteront"
+    "décliquèterai       décliqueterai",
+    "décliquèteras       décliqueteras",
+    "décliquètera        décliquetera",
+    "décliquèterons      décliqueterons",
+    "décliquèterez       décliqueterez",
+    "décliquèteront      décliqueteront"
   ],
   [
     "décolleter",
-    "décolletterai",
-    "décolletteras",
-    "décollettera",
-    "décolletterons",
-    "décolletterez",
-    "décolletteront"
+    "décolletterai       décolleterai",
+    "décolletteras       décolleteras",
+    "décollettera        décolletera",
+    "décolletterons      décolleterons",
+    "décolletterez       décolleterez",
+    "décolletteront      décolleteront"
   ],
   [
     "décongeler",
-    "décongèlerai",
-    "décongèleras",
-    "décongèlera",
-    "décongèlerons",
-    "décongèlerez",
-    "décongèleront"
-  ],
-  [
-    "décourager",
-    "découragerai",
-    "décourageras",
-    "découragera",
-    "découragerons",
-    "découragerez",
-    "décourageront"
-  ],
-  [
-    "dédommager",
-    "dédommagerai",
-    "dédommageras",
-    "dédommagera",
-    "dédommagerons",
-    "dédommagerez",
-    "dédommageront"
+    "décongèlerai        décongelerai",
+    "décongèleras        décongeleras",
+    "décongèlera         décongelera",
+    "décongèlerons       décongelerons",
+    "décongèlerez        décongelerez",
+    "décongèleront       décongeleront"
   ],
   [
     "déficeler",
-    "déficellerai",
-    "déficelleras",
-    "déficellera",
-    "déficellerons",
-    "déficellerez",
-    "déficelleront"
-  ],
-  [
-    "dégager",
-    "dégagerai",
-    "dégageras",
-    "dégagera",
-    "dégagerons",
-    "dégagerez",
-    "dégageront"
+    "déficellerai        déficelerai",
+    "déficelleras        déficeleras",
+    "déficellera         déficelera",
+    "déficellerons       déficelerons",
+    "déficellerez        déficelerez",
+    "déficelleront       déficeleront"
   ],
   [
     "dégeler",
-    "dégèlerai",
-    "dégèleras",
-    "dégèlera",
-    "dégèlerons",
-    "dégèlerez",
-    "dégèleront"
-  ],
-  [
-    "dégorger",
-    "dégorgerai",
-    "dégorgeras",
-    "dégorgera",
-    "dégorgerons",
-    "dégorgerez",
-    "dégorgeront"
-  ],
-  [
-    "dégravoyer",
-    "dégravoierai",
-    "dégravoieras",
-    "dégravoiera",
-    "dégravoierons",
-    "dégravoierez",
-    "dégravoieront"
+    "dégèlerai           dégelerai",
+    "dégèleras           dégeleras",
+    "dégèlera            dégelera",
+    "dégèlerons          dégelerons",
+    "dégèlerez           dégelerez",
+    "dégèleront          dégeleront"
   ],
   [
     "dégrever",
-    "dégrèverai",
-    "dégrèveras",
-    "dégrèvera",
-    "dégrèverons",
-    "dégrèverez",
-    "dégrèveront"
-  ],
-  [
-    "déjauger",
-    "déjaugerai",
-    "déjaugeras",
-    "déjaugera",
-    "déjaugerons",
-    "déjaugerez",
-    "déjaugeront"
+    "dégrèverai          dégreverai",
+    "dégrèveras          dégreveras",
+    "dégrèvera           dégrevera",
+    "dégrèverons         dégreverons",
+    "dégrèverez          dégreverez",
+    "dégrèveront         dégreveront"
   ],
   [
     "déjeter",
-    "déjetterai",
-    "déjetteras",
-    "déjettera",
-    "déjetterons",
-    "déjetterez",
-    "déjetteront"
-  ],
-  [
-    "déjuger",
-    "déjugerai",
-    "déjugeras",
-    "déjugera",
-    "déjugerons",
-    "déjugerez",
-    "déjugeront"
-  ],
-  [
-    "déloger",
-    "délogerai",
-    "délogeras",
-    "délogera",
-    "délogerons",
-    "délogerez",
-    "délogeront"
-  ],
-  [
-    "déluger",
-    null,
-    null,
-    "délugera",
-    null,
-    null,
-    null
-  ],
-  [
-    "démanger",
-    "démangerai",
-    "démangeras",
-    "démangera",
-    "démangerons",
-    "démangerez",
-    "démangeront"
+    "déjetterai          déjeterai",
+    "déjetteras          déjeteras",
+    "déjettera           déjetera",
+    "déjetterons         déjeterons",
+    "déjetterez          déjeterez",
+    "déjetteront         déjeteront"
   ],
   [
     "démanteler",
-    "démantèlerai",
-    "démantèleras",
-    "démantèlera",
-    "démantèlerons",
-    "démantèlerez",
-    "démantèleront"
+    "démantèlerai        démantelerai",
+    "démantèleras        démanteleras",
+    "démantèlera         démantelera",
+    "démantèlerons       démantelerons",
+    "démantèlerez        démantelerez",
+    "démantèleront       démanteleront"
   ],
   [
     "démener",
-    "démènerai",
-    "démèneras",
-    "démènera",
-    "démènerons",
-    "démènerez",
-    "démèneront"
+    "démènerai           démenerai",
+    "démèneras           démeneras",
+    "démènera            démenera",
+    "démènerons          démenerons",
+    "démènerez           démenerez",
+    "démèneront          démeneront"
   ],
   [
     "démoucheter",
-    "démouchetterai",
-    "démouchetteras",
-    "démouchettera",
-    "démouchetterons",
-    "démouchetterez",
-    "démouchetteront"
+    "démouchetterai      démoucheterai",
+    "démouchetteras      démoucheteras",
+    "démouchettera       démouchetera",
+    "démouchetterons     démoucheterons",
+    "démouchetterez      démoucheterez",
+    "démouchetteront     démoucheteront"
   ],
   [
     "démuseler",
-    "démusellerai",
-    "démuselleras",
-    "démusellera",
-    "démusellerons",
-    "démusellerez",
-    "démuselleront"
-  ],
-  [
-    "déménager",
-    "déménagerai",
-    "déménageras",
-    "déménagera",
-    "déménagerons",
-    "déménagerez",
-    "déménageront"
-  ],
-  [
-    "déneiger",
-    "déneigerai",
-    "déneigeras",
-    "déneigera",
-    "déneigerons",
-    "déneigerez",
-    "déneigeront"
+    "démusellerai        démuselerai",
+    "démuselleras        démuseleras",
+    "démusellera         démuselera",
+    "démusellerons       démuselerons",
+    "démusellerez        démuselerez",
+    "démuselleront       démuseleront"
   ],
   [
     "déniveler",
-    "dénivellerai",
-    "dénivelleras",
-    "dénivellera",
-    "dénivellerons",
-    "dénivellerez",
-    "dénivelleront"
+    "dénivellerai        dénivelerai",
+    "dénivelleras        déniveleras",
+    "dénivellera         dénivelera",
+    "dénivellerons       dénivelerons",
+    "dénivellerez        dénivelerez",
+    "dénivelleront       déniveleront"
   ],
   [
     "dépaqueter",
-    "dépaquèterai",
-    "dépaquèteras",
-    "dépaquètera",
-    "dépaquèterons",
-    "dépaquèterez",
-    "dépaquèteront"
-  ],
-  [
-    "départager",
-    "départagerai",
-    "départageras",
-    "départagera",
-    "départagerons",
-    "départagerez",
-    "départageront"
+    "dépaquèterai        dépaqueterai",
+    "dépaquèteras        dépaqueteras",
+    "dépaquètera         dépaquetera",
+    "dépaquèterons       dépaqueterons",
+    "dépaquèterez        dépaqueterez",
+    "dépaquèteront       dépaqueteront"
   ],
   [
     "dépecer",
-    "dépècerai",
-    "dépèceras",
-    "dépècera",
-    "dépècerons",
-    "dépècerez",
-    "dépèceront"
-  ],
-  [
-    "déployer",
-    "déploierai",
-    "déploieras",
-    "déploiera",
-    "déploierons",
-    "déploierez",
-    "déploieront"
+    "dépècerai           dépecerai",
+    "dépèceras           dépeceras",
+    "dépècera            dépecera",
+    "dépècerons          dépecerons",
+    "dépècerez           dépecerez",
+    "dépèceront          dépeceront"
   ],
   [
     "dépuceler",
-    "dépucèlerai",
-    "dépucèleras",
-    "dépucèlera",
-    "dépucèlerons",
-    "dépucèlerez",
-    "dépucèleront"
-  ],
-  [
-    "déranger",
-    "dérangerai",
-    "dérangeras",
-    "dérangera",
-    "dérangerons",
-    "dérangerez",
-    "dérangeront"
-  ],
-  [
-    "déroger",
-    "dérogerai",
-    "dérogeras",
-    "dérogera",
-    "dérogerons",
-    "dérogerez",
-    "dérogeront"
-  ],
-  [
-    "désagréger",
-    "désagrégerai",
-    "désagrégeras",
-    "désagrégera",
-    "désagrégerons",
-    "désagrégerez",
-    "désagrégeront"
-  ],
-  [
-    "désavantager",
-    "désavantagerai",
-    "désavantageras",
-    "désavantagera",
-    "désavantagerons",
-    "désavantagerez",
-    "désavantageront"
-  ],
-  [
-    "désengager",
-    "désengagerai",
-    "désengageras",
-    "désengagera",
-    "désengagerons",
-    "désengagerez",
-    "désengageront"
-  ],
-  [
-    "désengorger",
-    "désengorgerai",
-    "désengorgeras",
-    "désengorgera",
-    "désengorgerons",
-    "désengorgerez",
-    "désengorgeront"
-  ],
-  [
-    "désennuyer",
-    "désennuierai",
-    "désennuieras",
-    "désennuiera",
-    "désennuierons",
-    "désennuierez",
-    "désennuieront"
+    "dépucèlerai         dépucelerai",
+    "dépucèleras         dépuceleras",
+    "dépucèlera          dépucelera",
+    "dépucèlerons        dépucelerons",
+    "dépucèlerez         dépucelerez",
+    "dépucèleront        dépuceleront"
   ],
   [
     "désensorceler",
-    "désensorcellerai",
-    "désensorcelleras",
-    "désensorcellera",
-    "désensorcellerons",
-    "désensorcellerez",
-    "désensorcelleront"
-  ],
-  [
-    "désobliger",
-    "désobligerai",
-    "désobligeras",
-    "désobligera",
-    "désobligerons",
-    "désobligerez",
-    "désobligeront"
+    "désensorcellerai    désensorcelerai",
+    "désensorcelleras    désensorceleras",
+    "désensorcellera     désensorcelera",
+    "désensorcellerons   désensorcelerons",
+    "désensorcellerez    désensorcelerez",
+    "désensorcelleront   désensorceleront"
   ],
   [
     "dételer",
-    "détellerai",
-    "dételleras",
-    "détellera",
-    "détellerons",
-    "détellerez",
-    "dételleront"
-  ],
-  [
-    "déterger",
-    "détergerai",
-    "détergeras",
-    "détergera",
-    "détergerons",
-    "détergerez",
-    "détergeront"
-  ],
-  [
-    "dévisager",
-    "dévisagerai",
-    "dévisageras",
-    "dévisagera",
-    "dévisagerons",
-    "dévisagerez",
-    "dévisageront"
-  ],
-  [
-    "dévoyer",
-    "dévoierai",
-    "dévoieras",
-    "dévoiera",
-    "dévoierons",
-    "dévoierez",
-    "dévoieront"
-  ],
-  [
-    "effranger",
-    "effrangerai",
-    "effrangeras",
-    "effrangera",
-    "effrangerons",
-    "effrangerez",
-    "effrangeront"
+    "détellerai          dételerai",
+    "dételleras          dételeras",
+    "détellera           dételera",
+    "détellerons         dételerons",
+    "détellerez          dételerez",
+    "dételleront         dételeront"
   ],
   [
     "embrever",
-    "embrèverai",
-    "embrèveras",
-    "embrèvera",
-    "embrèverons",
-    "embrèverez",
-    "embrèveront"
+    "embrèverai          embreverai",
+    "embrèveras          embreveras",
+    "embrèvera           embrevera",
+    "embrèverons         embreverons",
+    "embrèverez          embreverez",
+    "embrèveront         embreveront"
   ],
   [
     "emmener",
-    "emmènerai",
-    "emmèneras",
-    "emmènera",
-    "emmènerons",
-    "emmènerez",
-    "emmèneront"
-  ],
-  [
-    "emménager",
-    "emménagerai",
-    "emménageras",
-    "emménagera",
-    "emménagerons",
-    "emménagerez",
-    "emménageront"
+    "emmènerai           emmenerai",
+    "emmèneras           emmeneras",
+    "emmènera            emmenera",
+    "emmènerons          emmenerons",
+    "emmènerez           emmenerez",
+    "emmèneront          emmeneront"
   ],
   [
     "empaqueter",
-    "empaquèterai",
-    "empaquèteras",
-    "empaquètera",
-    "empaquèterons",
-    "empaquèterez",
-    "empaquèteront"
+    "empaquèterai        empaqueterai",
+    "empaquèteras        empaqueteras",
+    "empaquètera         empaquetera",
+    "empaquèterons       empaqueterons",
+    "empaquèterez        empaqueterez",
+    "empaquèteront       empaqueteront"
   ],
   [
     "empeser",
-    "empèserai",
-    "empèseras",
-    "empèsera",
-    "empèserons",
-    "empèserez",
-    "empèseront"
-  ],
-  [
-    "employer",
-    "emploierai",
-    "emploieras",
-    "emploiera",
-    "emploierons",
-    "emploierez",
-    "emploieront"
-  ],
-  [
-    "encager",
-    "encagerai",
-    "encageras",
-    "encagera",
-    "encagerons",
-    "encagerez",
-    "encageront"
+    "empèserai           empeserai",
+    "empèseras           empeseras",
+    "empèsera            empesera",
+    "empèserons          empeserons",
+    "empèserez           empeserez",
+    "empèseront          empeseront"
   ],
   [
     "encasteler",
-    "encastellerai",
-    "encastelleras",
-    "encastellera",
-    "encastellerons",
-    "encastellerez",
-    "encastelleront"
-  ],
-  [
-    "encourager",
-    "encouragerai",
-    "encourageras",
-    "encouragera",
-    "encouragerons",
-    "encouragerez",
-    "encourageront"
-  ],
-  [
-    "endommager",
-    "endommagerai",
-    "endommageras",
-    "endommagera",
-    "endommagerons",
-    "endommagerez",
-    "endommageront"
-  ],
-  [
-    "engager",
-    "engagerai",
-    "engageras",
-    "engagera",
-    "engagerons",
-    "engagerez",
-    "engageront"
-  ],
-  [
-    "engorger",
-    "engorgerai",
-    "engorgeras",
-    "engorgera",
-    "engorgerons",
-    "engorgerez",
-    "engorgeront"
-  ],
-  [
-    "engranger",
-    "engrangerai",
-    "engrangeras",
-    "engrangera",
-    "engrangerons",
-    "engrangerez",
-    "engrangeront"
+    "encastellerai       encastelerai",
+    "encastelleras       encasteleras",
+    "encastellera        encastelera",
+    "encastellerons      encastelerons",
+    "encastellerez       encastelerez",
+    "encastelleront      encasteleront"
   ],
   [
     "engrener",
-    "engrènerai",
-    "engrèneras",
-    "engrènera",
-    "engrènerons",
-    "engrènerez",
-    "engrèneront"
+    "engrènerai          engrenerai",
+    "engrèneras          engreneras",
+    "engrènera           engrenera",
+    "engrènerons         engrenerons",
+    "engrènerez          engrenerez",
+    "engrèneront         engreneront"
   ],
   [
     "engrumeler",
-    "engrumellerai",
-    "engrumelleras",
-    "engrumellera",
-    "engrumellerons",
-    "engrumellerez",
-    "engrumelleront"
+    "engrumellerai       engrumelerai",
+    "engrumelleras       engrumeleras",
+    "engrumellera        engrumelera",
+    "engrumellerons      engrumelerons",
+    "engrumellerez       engrumelerez",
+    "engrumelleront      engrumeleront"
   ],
   [
     "enjaveler",
-    "enjavellerai",
-    "enjavelleras",
-    "enjavellera",
-    "enjavellerons",
-    "enjavellerez",
-    "enjavelleront"
+    "enjavellerai        enjavelerai",
+    "enjavelleras        enjaveleras",
+    "enjavellera         enjavelera",
+    "enjavellerons       enjavelerons",
+    "enjavellerez        enjavelerez",
+    "enjavelleront       enjaveleront"
   ],
   [
     "enlever",
-    "enlèverai",
-    "enlèveras",
-    "enlèvera",
-    "enlèverons",
-    "enlèverez",
-    "enlèveront"
-  ],
-  [
-    "enneiger",
-    "enneigerai",
-    "enneigeras",
-    "enneigera",
-    "enneigerons",
-    "enneigerez",
-    "enneigeront"
-  ],
-  [
-    "ennuager",
-    "ennuagerai",
-    "ennuageras",
-    "ennuagera",
-    "ennuagerons",
-    "ennuagerez",
-    "ennuageront"
-  ],
-  [
-    "ennuyer",
-    "ennuierai",
-    "ennuieras",
-    "ennuiera",
-    "ennuierons",
-    "ennuierez",
-    "ennuieront"
-  ],
-  [
-    "enrager",
-    "enragerai",
-    "enrageras",
-    "enragera",
-    "enragerons",
-    "enragerez",
-    "enrageront"
-  ],
-  [
-    "ensauvager",
-    "ensauvagerai",
-    "ensauvageras",
-    "ensauvagera",
-    "ensauvagerons",
-    "ensauvagerez",
-    "ensauvageront"
+    "enlèverai           enleverai",
+    "enlèveras           enleveras",
+    "enlèvera            enlevera",
+    "enlèverons          enleverons",
+    "enlèverez           enleverez",
+    "enlèveront          enleveront"
   ],
   [
     "ensorceler",
-    "ensorcellerai",
-    "ensorcelleras",
-    "ensorcellera",
-    "ensorcellerons",
-    "ensorcellerez",
-    "ensorcelleront"
+    "ensorcellerai       ensorcelerai",
+    "ensorcelleras       ensorceleras",
+    "ensorcellera        ensorcelera",
+    "ensorcellerons      ensorcelerons",
+    "ensorcellerez       ensorcelerez",
+    "ensorcelleront      ensorceleront"
   ],
   [
     "envoyer",
-    "enverrai",
-    "enverras",
-    "enverra",
-    "enverrons",
-    "enverrez",
-    "enverront"
-  ],
-  [
-    "envisager",
-    "envisagerai",
-    "envisageras",
-    "envisagera",
-    "envisagerons",
-    "envisagerez",
-    "envisageront"
-  ],
-  [
-    "essanger",
-    "essangerai",
-    "essangeras",
-    "essangera",
-    "essangerons",
-    "essangerez",
-    "essangeront"
-  ],
-  [
-    "essuyer",
-    "essuierai",
-    "essuieras",
-    "essuiera",
-    "essuierons",
-    "essuierez",
-    "essuieront"
-  ],
-  [
-    "exiger",
-    "exigerai",
-    "exigeras",
-    "exigera",
-    "exigerons",
-    "exigerez",
-    "exigeront"
-  ],
-  [
-    "expurger",
-    "expurgerai",
-    "expurgeras",
-    "expurgera",
-    "expurgerons",
-    "expurgerez",
-    "expurgeront"
-  ],
-  [
-    "festoyer",
-    "festoierai",
-    "festoieras",
-    "festoiera",
-    "festoierons",
-    "festoierez",
-    "festoieront"
+    "enverrai            envoierai",
+    "enverras            envoieras",
+    "enverra             envoiera",
+    "enverrons           envoierons",
+    "enverrez            envoierez",
+    "enverront           envoieront"
   ],
   [
     "feuilleter",
-    "feuilletterai",
-    "feuilletteras",
-    "feuillettera",
-    "feuilletterons",
-    "feuilletterez",
-    "feuilletteront"
+    "feuilletterai       feuilleterai",
+    "feuilletteras       feuilleteras",
+    "feuillettera        feuilletera",
+    "feuilletterons      feuilleterons",
+    "feuilletterez       feuilleterez",
+    "feuilletteront      feuilleteront"
   ],
   [
     "ficeler",
-    "ficellerai",
-    "ficelleras",
-    "ficellera",
-    "ficellerons",
-    "ficellerez",
-    "ficelleront"
-  ],
-  [
-    "figer",
-    "figerai",
-    "figeras",
-    "figera",
-    "figerons",
-    "figerez",
-    "figeront"
+    "ficellerai          ficelerai",
+    "ficelleras          ficeleras",
+    "ficellera           ficelera",
+    "ficellerons         ficelerons",
+    "ficellerez          ficelerez",
+    "ficelleront         ficeleront"
   ],
   [
     "fileter",
-    "filetterai",
-    "filetteras",
-    "filettera",
-    "filetterons",
-    "filetterez",
-    "filetteront"
-  ],
-  [
-    "flamboyer",
-    "flamboierai",
-    "flamboieras",
-    "flamboiera",
-    "flamboierons",
-    "flamboierez",
-    "flamboieront"
-  ],
-  [
-    "forger",
-    "forgerai",
-    "forgeras",
-    "forgera",
-    "forgerons",
-    "forgerez",
-    "forgeront"
+    "filetterai          fileterai",
+    "filetteras          fileteras",
+    "filettera           filetera",
+    "filetterons         fileterons",
+    "filetterez          fileterez",
+    "filetteront         fileteront"
   ],
   [
     "forjeter",
-    "forjetterai",
-    "forjetteras",
-    "forjettera",
-    "forjetterons",
-    "forjetterez",
-    "forjetteront"
-  ],
-  [
-    "fossoyer",
-    "fossoierai",
-    "fossoieras",
-    "fossoiera",
-    "fossoierons",
-    "fossoierez",
-    "fossoieront"
-  ],
-  [
-    "foudroyer",
-    "foudroierai",
-    "foudroieras",
-    "foudroiera",
-    "foudroierons",
-    "foudroierez",
-    "foudroieront"
-  ],
-  [
-    "fouger",
-    "fougerai",
-    "fougeras",
-    "fougera",
-    "fougerons",
-    "fougerez",
-    "fougeront"
-  ],
-  [
-    "fourrager",
-    "fourragerai",
-    "fourrageras",
-    "fourragera",
-    "fourragerons",
-    "fourragerez",
-    "fourrageront"
-  ],
-  [
-    "fourvoyer",
-    "fourvoierai",
-    "fourvoieras",
-    "fourvoiera",
-    "fourvoierons",
-    "fourvoierez",
-    "fourvoieront"
-  ],
-  [
-    "franger",
-    "frangerai",
-    "frangeras",
-    "frangera",
-    "frangerons",
-    "frangerez",
-    "frangeront"
-  ],
-  [
-    "fumiger",
-    "fumigerai",
-    "fumigeras",
-    "fumigera",
-    "fumigerons",
-    "fumigerez",
-    "fumigeront"
+    "forjetterai         forjeterai",
+    "forjetteras         forjeteras",
+    "forjettera          forjetera",
+    "forjetterons        forjeterons",
+    "forjetterez         forjeterez",
+    "forjetteront        forjeteront"
   ],
   [
     "fureter",
-    "furèterai",
-    "furèteras",
-    "furètera",
-    "furèterons",
-    "furèterez",
-    "furèteront"
+    "furèterai           fureterai",
+    "furèteras           fureteras",
+    "furètera            furetera",
+    "furèterons          fureterons",
+    "furèterez           fureterez",
+    "furèteront          fureteront"
   ],
   [
     "fuseler",
-    "fusellerai",
-    "fuselleras",
-    "fusellera",
-    "fusellerons",
-    "fusellerez",
-    "fuselleront"
-  ],
-  [
-    "fustiger",
-    "fustigerai",
-    "fustigeras",
-    "fustigera",
-    "fustigerons",
-    "fustigerez",
-    "fustigeront"
-  ],
-  [
-    "gager",
-    "gagerai",
-    "gageras",
-    "gagera",
-    "gagerons",
-    "gagerez",
-    "gageront"
-  ],
-  [
-    "gamberger",
-    "gambergerai",
-    "gambergeras",
-    "gambergera",
-    "gambergerons",
-    "gambergerez",
-    "gambergeront"
+    "fusellerai          fuselerai",
+    "fuselleras          fuseleras",
+    "fusellera           fuselera",
+    "fusellerons         fuselerons",
+    "fusellerez          fuselerez",
+    "fuselleront         fuseleront"
   ],
   [
     "gangrener",
-    "gangrènerai",
-    "gangrèneras",
-    "gangrènera",
-    "gangrènerons",
-    "gangrènerez",
-    "gangrèneront"
+    "gangrènerai         gangrenerai",
+    "gangrèneras         gangreneras",
+    "gangrènera          gangrenera",
+    "gangrènerons        gangrenerons",
+    "gangrènerez         gangrenerez",
+    "gangrèneront        gangreneront"
   ],
   [
     "geler",
-    "gèlerai",
-    "gèleras",
-    "gèlera",
-    "gèlerons",
-    "gèlerez",
-    "gèleront"
-  ],
-  [
-    "goberger",
-    "gobergerai",
-    "gobergeras",
-    "gobergera",
-    "gobergerons",
-    "gobergerez",
-    "gobergeront"
-  ],
-  [
-    "gorger",
-    "gorgerai",
-    "gorgeras",
-    "gorgera",
-    "gorgerons",
-    "gorgerez",
-    "gorgeront"
+    "gèlerai             gelerai",
+    "gèleras             geleras",
+    "gèlera              gelera",
+    "gèlerons            gelerons",
+    "gèlerez             gelerez",
+    "gèleront            geleront"
   ],
   [
     "grangrener",
-    "grangrènerai",
-    "grangrèneras",
-    "grangrènera",
-    "grangrènerons",
-    "grangrènerez",
-    "grangrèneront"
+    "grangrènerai        grangrenerai",
+    "grangrèneras        grangreneras",
+    "grangrènera         grangrenera",
+    "grangrènerons       grangrenerons",
+    "grangrènerez        grangrenerez",
+    "grangrèneront       grangreneront"
   ],
   [
     "grener",
-    "grènerai",
-    "grèneras",
-    "grènera",
-    "grènerons",
-    "grènerez",
-    "grèneront"
+    "grènerai            grenerai",
+    "grèneras            greneras",
+    "grènera             grenera",
+    "grènerons           grenerons",
+    "grènerez            grenerez",
+    "grèneront           greneront"
   ],
   [
     "greneler",
-    "grenèlerai",
-    "grenèleras",
-    "grenèlera",
-    "grenèlerons",
-    "grenèlerez",
-    "grenèleront"
+    "grenèlerai          grenelerai",
+    "grenèleras          greneleras",
+    "grenèlera           grenelera",
+    "grenèlerons         grenelerons",
+    "grenèlerez          grenelerez",
+    "grenèleront         greneleront"
   ],
   [
     "grever",
-    "grèverai",
-    "grèveras",
-    "grèvera",
-    "grèverons",
-    "grèverez",
-    "grèveront"
-  ],
-  [
-    "grillager",
-    "grillagerai",
-    "grillageras",
-    "grillagera",
-    "grillagerons",
-    "grillagerez",
-    "grillageront"
+    "grèverai            greverai",
+    "grèveras            greveras",
+    "grèvera             grevera",
+    "grèverons           greverons",
+    "grèverez            greverez",
+    "grèveront           greveront"
   ],
   [
     "griveler",
-    "grivellerai",
-    "grivelleras",
-    "grivellera",
-    "grivellerons",
-    "grivellerez",
-    "grivelleront"
+    "grivellerai         grivelerai",
+    "grivelleras         griveleras",
+    "grivellera          grivelera",
+    "grivellerons        grivelerons",
+    "grivellerez         grivelerez",
+    "grivelleront        griveleront"
   ],
   [
     "grommeler",
-    "grommellerai",
-    "grommelleras",
-    "grommellera",
-    "grommellerons",
-    "grommellerez",
-    "grommelleront"
-  ],
-  [
-    "grossoyer",
-    "grossoierai",
-    "grossoieras",
-    "grossoiera",
-    "grossoierons",
-    "grossoierez",
-    "grossoieront"
-  ],
-  [
-    "gruger",
-    "grugerai",
-    "grugeras",
-    "grugera",
-    "grugerons",
-    "grugerez",
-    "grugeront"
+    "grommellerai        grommelerai",
+    "grommelleras        grommeleras",
+    "grommellera         grommelera",
+    "grommellerons       grommelerons",
+    "grommellerez        grommelerez",
+    "grommelleront       grommeleront"
   ],
   [
     "grumeler",
-    "grumellerai",
-    "grumelleras",
-    "grumellera",
-    "grumellerons",
-    "grumellerez",
-    "grumelleront"
-  ],
-  [
-    "guerroyer",
-    "guerroierai",
-    "guerroieras",
-    "guerroiera",
-    "guerroierons",
-    "guerroierez",
-    "guerroieront"
+    "grumellerai         grumelerai",
+    "grumelleras         grumeleras",
+    "grumellera          grumelera",
+    "grumellerons        grumelerons",
+    "grumellerez         grumelerez",
+    "grumelleront        grumeleront"
   ],
   [
     "guillemeter",
-    "guillemèterai",
-    "guillemèteras",
-    "guillemètera",
-    "guillemèterons",
-    "guillemèterez",
-    "guillemèteront"
+    "guillemèterai       guillemeterai",
+    "guillemèteras       guillemeteras",
+    "guillemètera        guillemetera",
+    "guillemèterons      guillemeterons",
+    "guillemèterez       guillemeterez",
+    "guillemèteront      guillemeteront"
   ],
   [
     "haleter",
-    "halèterai",
-    "halèteras",
-    "halètera",
-    "halèterons",
-    "halèterez",
-    "halèteront"
+    "halèterai           haleterai",
+    "halèteras           haleteras",
+    "halètera            haletera",
+    "halèterons          haleterons",
+    "halèterez           haleterez",
+    "halèteront          haleteront"
   ],
   [
     "harceler",
-    "harcèlerai",
-    "harcèleras",
-    "harcèlera",
-    "harcèlerons",
-    "harcèlerez",
-    "harcèleront"
-  ],
-  [
-    "herbager",
-    "herbagerai",
-    "herbageras",
-    "herbagera",
-    "herbagerons",
-    "herbagerez",
-    "herbageront"
-  ],
-  [
-    "hongroyer",
-    "hongroierai",
-    "hongroieras",
-    "hongroiera",
-    "hongroierons",
-    "hongroierez",
-    "hongroieront"
+    "harcèlerai          harcelerai",
+    "harcèleras          harceleras",
+    "harcèlera           harcelera",
+    "harcèlerons         harcelerons",
+    "harcèlerez          harcelerez",
+    "harcèleront         harceleront"
   ],
   [
     "hoqueter",
-    "hoquetterai",
-    "hoquetteras",
-    "hoquettera",
-    "hoquetterons",
-    "hoquetterez",
-    "hoquetteront"
-  ],
-  [
-    "hydrofuger",
-    "hydrofugerai",
-    "hydrofugeras",
-    "hydrofugera",
-    "hydrofugerons",
-    "hydrofugerez",
-    "hydrofugeront"
-  ],
-  [
-    "héberger",
-    "hébergerai",
-    "hébergeras",
-    "hébergera",
-    "hébergerons",
-    "hébergerez",
-    "hébergeront"
-  ],
-  [
-    "ignifuger",
-    "ignifugerai",
-    "ignifugeras",
-    "ignifugera",
-    "ignifugerons",
-    "ignifugerez",
-    "ignifugeront"
-  ],
-  [
-    "imager",
-    "imagerai",
-    "imageras",
-    "imagera",
-    "imagerons",
-    "imagerez",
-    "imageront"
-  ],
-  [
-    "immerger",
-    "immergerai",
-    "immergeras",
-    "immergera",
-    "immergerons",
-    "immergerez",
-    "immergeront"
-  ],
-  [
-    "infliger",
-    "infligerai",
-    "infligeras",
-    "infligera",
-    "infligerons",
-    "infligerez",
-    "infligeront"
-  ],
-  [
-    "insurger",
-    "insurgerai",
-    "insurgeras",
-    "insurgera",
-    "insurgerons",
-    "insurgerez",
-    "insurgeront"
+    "hoquetterai         hoqueterai",
+    "hoquetteras         hoqueteras",
+    "hoquettera          hoquetera",
+    "hoquetterons        hoqueterons",
+    "hoquetterez         hoqueterez",
+    "hoquetteront        hoqueteront"
   ],
   [
     "interjeter",
-    "interjetterai",
-    "interjetteras",
-    "interjettera",
-    "interjetterons",
-    "interjetterez",
-    "interjetteront"
-  ],
-  [
-    "interroger",
-    "interrogerai",
-    "interrogeras",
-    "interrogera",
-    "interrogerons",
-    "interrogerez",
-    "interrogeront"
+    "interjetterai       interjeterai",
+    "interjetteras       interjeteras",
+    "interjettera        interjetera",
+    "interjetterons      interjeterons",
+    "interjetterez       interjeterez",
+    "interjetteront      interjeteront"
   ],
   [
     "jarreter",
-    "jarretterai",
-    "jarretteras",
-    "jarrettera",
-    "jarretterons",
-    "jarretterez",
-    "jarretteront"
-  ],
-  [
-    "jauger",
-    "jaugerai",
-    "jaugeras",
-    "jaugera",
-    "jaugerons",
-    "jaugerez",
-    "jaugeront"
+    "jarretterai         jarreterai",
+    "jarretteras         jarreteras",
+    "jarrettera          jarretera",
+    "jarretterons        jarreterons",
+    "jarretterez         jarreterez",
+    "jarretteront        jarreteront"
   ],
   [
     "javeler",
-    "javellerai",
-    "javelleras",
-    "javellera",
-    "javellerons",
-    "javellerez",
-    "javelleront"
+    "javellerai          javelerai",
+    "javelleras          javeleras",
+    "javellera           javelera",
+    "javellerons         javelerons",
+    "javellerez          javelerez",
+    "javelleront         javeleront"
   ],
   [
     "jeter",
-    "jetterai",
-    "jetteras",
-    "jettera",
-    "jetterons",
-    "jetterez",
-    "jetteront"
-  ],
-  [
-    "jointoyer",
-    "jointoierai",
-    "jointoieras",
-    "jointoiera",
-    "jointoierons",
-    "jointoierez",
-    "jointoieront"
-  ],
-  [
-    "juger",
-    "jugerai",
-    "jugeras",
-    "jugera",
-    "jugerons",
-    "jugerez",
-    "jugeront"
+    "jetterai            jeterai",
+    "jetteras            jeteras",
+    "jettera             jetera",
+    "jetterons           jeterons",
+    "jetterez            jeterez",
+    "jetteront           jeteront"
   ],
   [
     "jumeler",
-    "jumellerai",
-    "jumelleras",
-    "jumellera",
-    "jumellerons",
-    "jumellerez",
-    "jumelleront"
-  ],
-  [
-    "langer",
-    "langerai",
-    "langeras",
-    "langera",
-    "langerons",
-    "langerez",
-    "langeront"
-  ],
-  [
-    "larmoyer",
-    "larmoierai",
-    "larmoieras",
-    "larmoiera",
-    "larmoierons",
-    "larmoierez",
-    "larmoieront"
+    "jumellerai          jumelerai",
+    "jumelleras          jumeleras",
+    "jumellera           jumelera",
+    "jumellerons         jumelerons",
+    "jumellerez          jumelerez",
+    "jumelleront         jumeleront"
   ],
   [
     "lever",
-    "lèverai",
-    "lèveras",
-    "lèvera",
-    "lèverons",
-    "lèverez",
-    "lèveront"
-  ],
-  [
-    "limoger",
-    "limogerai",
-    "limogeras",
-    "limogera",
-    "limogerons",
-    "limogerez",
-    "limogeront"
-  ],
-  [
-    "linger",
-    "lingerai",
-    "lingeras",
-    "lingera",
-    "lingerons",
-    "lingerez",
-    "lingeront"
+    "lèverai             leverai",
+    "lèveras             leveras",
+    "lèvera              levera",
+    "lèverons            leverons",
+    "lèverez             leverez",
+    "lèveront            leveront"
   ],
   [
     "liserer",
-    "lisèrerai",
-    "lisèreras",
-    "lisèrera",
-    "lisèrerons",
-    "lisèrerez",
-    "lisèreront"
-  ],
-  [
-    "liéger",
-    "liégerai",
-    "liégeras",
-    "liégera",
-    "liégerons",
-    "liégerez",
-    "liégeront"
-  ],
-  [
-    "loger",
-    "logerai",
-    "logeras",
-    "logera",
-    "logerons",
-    "logerez",
-    "logeront"
-  ],
-  [
-    "longer",
-    "longerai",
-    "longeras",
-    "longera",
-    "longerons",
-    "longerez",
-    "longeront"
-  ],
-  [
-    "louanger",
-    "louangerai",
-    "louangeras",
-    "louangera",
-    "louangerons",
-    "louangerez",
-    "louangeront"
+    "lisèrerai           lisererai",
+    "lisèreras           lisereras",
+    "lisèrera            liserera",
+    "lisèrerons          lisererons",
+    "lisèrerez           lisererez",
+    "lisèreront          lisereront"
   ],
   [
     "louveter",
-    "louvetterai",
-    "louvetteras",
-    "louvettera",
-    "louvetterons",
-    "louvetterez",
-    "louvetteront"
-  ],
-  [
-    "louvoyer",
-    "louvoierai",
-    "louvoieras",
-    "louvoiera",
-    "louvoierons",
-    "louvoierez",
-    "louvoieront"
-  ],
-  [
-    "luger",
-    "lugerai",
-    "lugeras",
-    "lugera",
-    "lugerons",
-    "lugerez",
-    "lugeront"
-  ],
-  [
-    "léviger",
-    "lévigerai",
-    "lévigeras",
-    "lévigera",
-    "lévigerons",
-    "lévigerez",
-    "lévigeront"
+    "louvetterai         louveterai",
+    "louvetteras         louveteras",
+    "louvettera          louvetera",
+    "louvetterons        louveterons",
+    "louvetterez         louveterez",
+    "louvetteront        louveteront"
   ],
   [
     "malmener",
-    "malmènerai",
-    "malmèneras",
-    "malmènera",
-    "malmènerons",
-    "malmènerez",
-    "malmèneront"
-  ],
-  [
-    "manager",
-    "managerai",
-    "manageras",
-    "managera",
-    "managerons",
-    "managerez",
-    "manageront"
-  ],
-  [
-    "manger",
-    "mangerai",
-    "mangeras",
-    "mangera",
-    "mangerons",
-    "mangerez",
-    "mangeront"
-  ],
-  [
-    "marger",
-    "margerai",
-    "margeras",
-    "margera",
-    "margerons",
-    "margerez",
-    "margeront"
+    "malmènerai          malmenerai",
+    "malmèneras          malmeneras",
+    "malmènera           malmenera",
+    "malmènerons         malmenerons",
+    "malmènerez          malmenerez",
+    "malmèneront         malmeneront"
   ],
   [
     "marqueter",
-    "marquetterai",
-    "marquetteras",
-    "marquettera",
-    "marquetterons",
-    "marquetterez",
-    "marquetteront"
+    "marquetterai        marqueterai",
+    "marquetteras        marqueteras",
+    "marquettera         marquetera",
+    "marquetterons       marqueterons",
+    "marquetterez        marqueterez",
+    "marquetteront       marqueteront"
   ],
   [
     "marteler",
-    "martèlerai",
-    "martèleras",
-    "martèlera",
-    "martèlerons",
-    "martèlerez",
-    "martèleront"
+    "martèlerai          martelerai",
+    "martèleras          marteleras",
+    "martèlera           martelera",
+    "martèlerons         martelerons",
+    "martèlerez          martelerez",
+    "martèleront         marteleront"
   ],
   [
     "mener",
-    "mènerai",
-    "mèneras",
-    "mènera",
-    "mènerons",
-    "mènerez",
-    "mèneront"
-  ],
-  [
-    "merdoyer",
-    "merdoierai",
-    "merdoieras",
-    "merdoiera",
-    "merdoierons",
-    "merdoierez",
-    "merdoieront"
-  ],
-  [
-    "mitiger",
-    "mitigerai",
-    "mitigeras",
-    "mitigera",
-    "mitigerons",
-    "mitigerez",
-    "mitigeront"
+    "mènerai             menerai",
+    "mèneras             meneras",
+    "mènera              menera",
+    "mènerons            menerons",
+    "mènerez             menerez",
+    "mèneront            meneront"
   ],
   [
     "modeler",
-    "modèlerai",
-    "modèleras",
-    "modèlera",
-    "modèlerons",
-    "modèlerez",
-    "modèleront"
+    "modèlerai           modelerai",
+    "modèleras           modeleras",
+    "modèlera            modelera",
+    "modèlerons          modelerons",
+    "modèlerez           modelerez",
+    "modèleront          modeleront"
   ],
   [
     "moleter",
-    "moletterai",
-    "moletteras",
-    "molettera",
-    "moletterons",
-    "moletterez",
-    "moletteront"
+    "moletterai          moleterai",
+    "moletteras          moleteras",
+    "molettera           moletera",
+    "moletterons         moleterons",
+    "moletterez          moleterez",
+    "moletteront         moleteront"
   ],
   [
     "morceler",
-    "morcellerai",
-    "morcelleras",
-    "morcellera",
-    "morcellerons",
-    "morcellerez",
-    "morcelleront"
+    "morcellerai         morcelerai",
+    "morcelleras         morceleras",
+    "morcellera          morcelera",
+    "morcellerons        morcelerons",
+    "morcellerez         morcelerez",
+    "morcelleront        morceleront"
   ],
   [
     "moucheter",
-    "mouchetterai",
-    "mouchetteras",
-    "mouchettera",
-    "mouchetterons",
-    "mouchetterez",
-    "mouchetteront"
+    "mouchetterai        moucheterai",
+    "mouchetteras        moucheteras",
+    "mouchettera         mouchetera",
+    "mouchetterons       moucheterons",
+    "mouchetterez        moucheterez",
+    "mouchetteront       moucheteront"
   ],
   [
     "moufeter",
-    "moufetterai",
-    "moufetteras",
-    "moufettera",
-    "moufetterons",
-    "moufetterez",
-    "moufetteront"
+    "moufetterai         moufeterai",
+    "moufetteras         moufeteras",
+    "moufettera          moufetera",
+    "moufetterons        moufeterons",
+    "moufetterez         moufeterez",
+    "moufetteront        moufeteront"
   ],
   [
     "museler",
-    "musellerai",
-    "muselleras",
-    "musellera",
-    "musellerons",
-    "musellerez",
-    "muselleront"
-  ],
-  [
-    "méjuger",
-    "méjugerai",
-    "méjugeras",
-    "méjugera",
-    "méjugerons",
-    "méjugerez",
-    "méjugeront"
-  ],
-  [
-    "mélanger",
-    "mélangerai",
-    "mélangeras",
-    "mélangera",
-    "mélangerons",
-    "mélangerez",
-    "mélangeront"
-  ],
-  [
-    "ménager",
-    "ménagerai",
-    "ménageras",
-    "ménagera",
-    "ménagerons",
-    "ménagerez",
-    "ménageront"
-  ],
-  [
-    "nager",
-    "nagerai",
-    "nageras",
-    "nagera",
-    "nagerons",
-    "nagerez",
-    "nageront"
-  ],
-  [
-    "naufrager",
-    "naufragerai",
-    "naufrageras",
-    "naufragera",
-    "naufragerons",
-    "naufragerez",
-    "naufrageront"
-  ],
-  [
-    "neiger",
-    null,
-    null,
-    "neigera",
-    null,
-    null,
-    null
-  ],
-  [
-    "nettoyer",
-    "nettoierai",
-    "nettoieras",
-    "nettoiera",
-    "nettoierons",
-    "nettoierez",
-    "nettoieront"
+    "musellerai          muselerai",
+    "muselleras          museleras",
+    "musellera           muselera",
+    "musellerons         muselerons",
+    "musellerez          muselerez",
+    "muselleront         museleront"
   ],
   [
     "nickeler",
-    "nickèlerai",
-    "nickèleras",
-    "nickèlera",
-    "nickèlerons",
-    "nickèlerez",
-    "nickèleront"
+    "nickèlerai          nickelerai",
+    "nickèleras          nickeleras",
+    "nickèlera           nickelera",
+    "nickèlerons         nickelerons",
+    "nickèlerez          nickelerez",
+    "nickèleront         nickeleront"
   ],
   [
     "niveler",
-    "nivellerai",
-    "nivelleras",
-    "nivellera",
-    "nivellerons",
-    "nivellerez",
-    "nivelleront"
-  ],
-  [
-    "noyer",
-    "noierai",
-    "noieras",
-    "noiera",
-    "noierons",
-    "noierez",
-    "noieront"
-  ],
-  [
-    "négliger",
-    "négligerai",
-    "négligeras",
-    "négligera",
-    "négligerons",
-    "négligerez",
-    "négligeront"
-  ],
-  [
-    "obliger",
-    "obligerai",
-    "obligeras",
-    "obligera",
-    "obligerons",
-    "obligerez",
-    "obligeront"
-  ],
-  [
-    "octroyer",
-    "octroierai",
-    "octroieras",
-    "octroiera",
-    "octroierons",
-    "octroierez",
-    "octroieront"
+    "nivellerai          nivelerai",
+    "nivelleras          niveleras",
+    "nivellera           nivelera",
+    "nivellerons         nivelerons",
+    "nivellerez          nivelerez",
+    "nivelleront         niveleront"
   ],
   [
     "oiseler",
-    "oisellerai",
-    "oiselleras",
-    "oisellera",
-    "oisellerons",
-    "oisellerez",
-    "oiselleront"
-  ],
-  [
-    "ombrager",
-    "ombragerai",
-    "ombrageras",
-    "ombragera",
-    "ombragerons",
-    "ombragerez",
-    "ombrageront"
-  ],
-  [
-    "ondoyer",
-    "ondoierai",
-    "ondoieras",
-    "ondoiera",
-    "ondoierons",
-    "ondoierez",
-    "ondoieront"
-  ],
-  [
-    "oranger",
-    "orangerai",
-    "orangeras",
-    "orangera",
-    "orangerons",
-    "orangerez",
-    "orangeront"
-  ],
-  [
-    "outrager",
-    "outragerai",
-    "outrageras",
-    "outragera",
-    "outragerons",
-    "outragerez",
-    "outrageront"
-  ],
-  [
-    "ouvrager",
-    "ouvragerai",
-    "ouvrageras",
-    "ouvragera",
-    "ouvragerons",
-    "ouvragerez",
-    "ouvrageront"
-  ],
-  [
-    "pacager",
-    "pacagerai",
-    "pacageras",
-    "pacagera",
-    "pacagerons",
-    "pacagerez",
-    "pacageront"
-  ],
-  [
-    "pager",
-    "pagerai",
-    "pageras",
-    "pagera",
-    "pagerons",
-    "pagerez",
-    "pageront"
+    "oisellerai          oiselerai",
+    "oiselleras          oiseleras",
+    "oisellera           oiselera",
+    "oisellerons         oiselerons",
+    "oisellerez          oiselerez",
+    "oiselleront         oiseleront"
   ],
   [
     "pailleter",
-    "pailletterai",
-    "pailletteras",
-    "paillettera",
-    "pailletterons",
-    "pailletterez",
-    "pailletteront"
+    "pailletterai        pailleterai",
+    "pailletteras        pailleteras",
+    "paillettera         pailletera",
+    "pailletterons       pailleterons",
+    "pailletterez        pailleterez",
+    "pailletteront       pailleteront"
   ],
   [
     "panteler",
-    "pantellerai",
-    "pantelleras",
-    "pantellera",
-    "pantellerons",
-    "pantellerez",
-    "pantelleront"
+    "pantellerai         pantelerai",
+    "pantelleras         panteleras",
+    "pantellera          pantelera",
+    "pantellerons        pantelerons",
+    "pantellerez         pantelerez",
+    "pantelleront        panteleront"
   ],
   [
     "parachever",
-    "parachèverai",
-    "parachèveras",
-    "parachèvera",
-    "parachèverons",
-    "parachèverez",
-    "parachèveront"
+    "parachèverai        paracheverai",
+    "parachèveras        paracheveras",
+    "parachèvera         parachevera",
+    "parachèverons       paracheverons",
+    "parachèverez        paracheverez",
+    "parachèveront       paracheveront"
   ],
   [
     "parqueter",
-    "parquetterai",
-    "parquetteras",
-    "parquettera",
-    "parquetterons",
-    "parquetterez",
-    "parquetteront"
+    "parquetterai        parqueterai",
+    "parquetteras        parqueteras",
+    "parquettera         parquetera",
+    "parquetterons       parqueterons",
+    "parquetterez        parqueterez",
+    "parquetteront       parqueteront"
   ],
   [
     "parsemer",
-    "parsèmerai",
-    "parsèmeras",
-    "parsèmera",
-    "parsèmerons",
-    "parsèmerez",
-    "parsèmeront"
-  ],
-  [
-    "partager",
-    "partagerai",
-    "partageras",
-    "partagera",
-    "partagerons",
-    "partagerez",
-    "partageront"
-  ],
-  [
-    "patauger",
-    "pataugerai",
-    "pataugeras",
-    "pataugera",
-    "pataugerons",
-    "pataugerez",
-    "pataugeront"
-  ],
-  [
-    "paumoyer",
-    "paumoierai",
-    "paumoieras",
-    "paumoiera",
-    "paumoierons",
-    "paumoierez",
-    "paumoieront"
-  ],
-  [
-    "paysager",
-    "paysagerai",
-    "paysageras",
-    "paysagera",
-    "paysagerons",
-    "paysagerez",
-    "paysageront"
+    "parsèmerai          parsemerai",
+    "parsèmeras          parsemeras",
+    "parsèmera           parsemera",
+    "parsèmerons         parsemerons",
+    "parsèmerez          parsemerez",
+    "parsèmeront         parsemeront"
   ],
   [
     "peler",
-    "pèlerai",
-    "pèleras",
-    "pèlera",
-    "pèlerons",
-    "pèlerez",
-    "pèleront"
+    "pèlerai             pelerai",
+    "pèleras             peleras",
+    "pèlera              pelera",
+    "pèlerons            pelerons",
+    "pèlerez             pelerez",
+    "pèleront            peleront"
   ],
   [
     "pelleter",
-    "pelletterai",
-    "pelletteras",
-    "pellettera",
-    "pelletterons",
-    "pelletterez",
-    "pelletteront"
+    "pelletterai         pelleterai",
+    "pelletteras         pelleteras",
+    "pellettera          pelletera",
+    "pelletterons        pelleterons",
+    "pelletterez         pelleterez",
+    "pelletteront        pelleteront"
   ],
   [
     "peser",
-    "pèserai",
-    "pèseras",
-    "pèsera",
-    "pèserons",
-    "pèserez",
-    "pèseront"
-  ],
-  [
-    "piger",
-    "pigerai",
-    "pigeras",
-    "pigera",
-    "pigerons",
-    "pigerez",
-    "pigeront"
+    "pèserai             peserai",
+    "pèseras             peseras",
+    "pèsera              pesera",
+    "pèserons            peserons",
+    "pèserez             peserez",
+    "pèseront            peseront"
   ],
   [
     "piqueter",
-    "piquèterai",
-    "piquèteras",
-    "piquètera",
-    "piquèterons",
-    "piquèterez",
-    "piquèteront"
-  ],
-  [
-    "piéger",
-    "piégerai",
-    "piégeras",
-    "piégera",
-    "piégerons",
-    "piégerez",
-    "piégeront"
-  ],
-  [
-    "ployer",
-    "ploierai",
-    "ploieras",
-    "ploiera",
-    "ploierons",
-    "ploierez",
-    "ploieront"
-  ],
-  [
-    "plonger",
-    "plongerai",
-    "plongeras",
-    "plongera",
-    "plongerons",
-    "plongerez",
-    "plongeront"
-  ],
-  [
-    "plussoyer",
-    "plussoierai",
-    "plussoieras",
-    "plussoiera",
-    "plussoierons",
-    "plussoierez",
-    "plussoieront"
+    "piquèterai          piqueterai",
+    "piquèteras          piqueteras",
+    "piquètera           piquetera",
+    "piquèterons         piqueterons",
+    "piquèterez          piqueterez",
+    "piquèteront         piqueteront"
   ],
   [
     "pommeler",
-    "pommellerai",
-    "pommelleras",
-    "pommellera",
-    "pommellerons",
-    "pommellerez",
-    "pommelleront"
-  ],
-  [
-    "poudroyer",
-    "poudroierai",
-    "poudroieras",
-    "poudroiera",
-    "poudroierons",
-    "poudroierez",
-    "poudroieront"
+    "pommellerai         pommelerai",
+    "pommelleras         pommeleras",
+    "pommellera          pommelera",
+    "pommellerons        pommelerons",
+    "pommellerez         pommelerez",
+    "pommelleront        pommeleront"
   ],
   [
     "projeter",
-    "projetterai",
-    "projetteras",
-    "projettera",
-    "projetterons",
-    "projetterez",
-    "projetteront"
-  ],
-  [
-    "prolonger",
-    "prolongerai",
-    "prolongeras",
-    "prolongera",
-    "prolongerons",
-    "prolongerez",
-    "prolongeront"
+    "projetterai         projeterai",
+    "projetteras         projeteras",
+    "projettera          projetera",
+    "projetterons        projeterons",
+    "projetterez         projeterez",
+    "projetteront        projeteront"
   ],
   [
     "promener",
-    "promènerai",
-    "promèneras",
-    "promènera",
-    "promènerons",
-    "promènerez",
-    "promèneront"
-  ],
-  [
-    "propager",
-    "propagerai",
-    "propageras",
-    "propagera",
-    "propagerons",
-    "propagerez",
-    "propageront"
-  ],
-  [
-    "proroger",
-    "prorogerai",
-    "prorogeras",
-    "prorogera",
-    "prorogerons",
-    "prorogerez",
-    "prorogeront"
-  ],
-  [
-    "protéger",
-    "protégerai",
-    "protégeras",
-    "protégera",
-    "protégerons",
-    "protégerez",
-    "protégeront"
+    "promènerai          promenerai",
+    "promèneras          promeneras",
+    "promènera           promenera",
+    "promènerons         promenerons",
+    "promènerez          promenerez",
+    "promèneront         promeneront"
   ],
   [
     "préacheter",
-    "préachèterai",
-    "préachèteras",
-    "préachètera",
-    "préachèterons",
-    "préachèterez",
-    "préachèteront"
-  ],
-  [
-    "précharger",
-    "préchargerai",
-    "préchargeras",
-    "préchargera",
-    "préchargerons",
-    "préchargerez",
-    "préchargeront"
-  ],
-  [
-    "préjuger",
-    "préjugerai",
-    "préjugeras",
-    "préjugera",
-    "préjugerons",
-    "préjugerez",
-    "préjugeront"
+    "préachèterai        préacheterai",
+    "préachèteras        préacheteras",
+    "préachètera         préachetera",
+    "préachèterons       préacheterons",
+    "préachèterez        préacheterez",
+    "préachèteront       préacheteront"
   ],
   [
     "prélever",
-    "prélèverai",
-    "prélèveras",
-    "prélèvera",
-    "prélèverons",
-    "prélèverez",
-    "prélèveront"
-  ],
-  [
-    "présager",
-    "présagerai",
-    "présageras",
-    "présagera",
-    "présagerons",
-    "présagerez",
-    "présageront"
-  ],
-  [
-    "purger",
-    "purgerai",
-    "purgeras",
-    "purgera",
-    "purgerons",
-    "purgerez",
-    "purgeront"
-  ],
-  [
-    "quartager",
-    "quartagerai",
-    "quartageras",
-    "quartagera",
-    "quartagerons",
-    "quartagerez",
-    "quartageront"
+    "prélèverai          préleverai",
+    "prélèveras          préleveras",
+    "prélèvera           prélevera",
+    "prélèverons         préleverons",
+    "prélèverez          préleverez",
+    "prélèveront         préleveront"
   ],
   [
     "racheter",
-    "rachèterai",
-    "rachèteras",
-    "rachètera",
-    "rachèterons",
-    "rachèterez",
-    "rachèteront"
-  ],
-  [
-    "rager",
-    "ragerai",
-    "rageras",
-    "ragera",
-    "ragerons",
-    "ragerez",
-    "rageront"
+    "rachèterai          racheterai",
+    "rachèteras          racheteras",
+    "rachètera           rachetera",
+    "rachèterons         racheterons",
+    "rachèterez          racheterez",
+    "rachèteront         racheteront"
   ],
   [
     "raller",
-    "rirai",
-    "riras",
-    "rira",
-    "rirons",
-    "rirez",
-    "riront"
-  ],
-  [
-    "rallonger",
-    "rallongerai",
-    "rallongeras",
-    "rallongera",
-    "rallongerons",
-    "rallongerez",
-    "rallongeront"
-  ],
-  [
-    "ralléger",
-    "rallégerai",
-    "rallégeras",
-    "rallégera",
-    "rallégerons",
-    "rallégerez",
-    "rallégeront"
-  ],
-  [
-    "ramager",
-    "ramagerai",
-    "ramageras",
-    "ramagera",
-    "ramagerons",
-    "ramagerez",
-    "ramageront"
+    "rirai               rallerai",
+    "riras               ralleras",
+    "rira                rallera",
+    "rirons              rallerons",
+    "rirez               rallerez",
+    "riront              ralleront"
   ],
   [
     "ramener",
-    "ramènerai",
-    "ramèneras",
-    "ramènera",
-    "ramènerons",
-    "ramènerez",
-    "ramèneront"
-  ],
-  [
-    "ranger",
-    "rangerai",
-    "rangeras",
-    "rangera",
-    "rangerons",
-    "rangerez",
-    "rangeront"
+    "ramènerai           ramenerai",
+    "ramèneras           rameneras",
+    "ramènera            ramenera",
+    "ramènerons          ramenerons",
+    "ramènerez           ramenerez",
+    "ramèneront          rameneront"
   ],
   [
     "rappeler",
-    "rappellerai",
-    "rappelleras",
-    "rappellera",
-    "rappellerons",
-    "rappellerez",
-    "rappelleront"
-  ],
-  [
-    "ravager",
-    "ravagerai",
-    "ravageras",
-    "ravagera",
-    "ravagerons",
-    "ravagerez",
-    "ravageront"
+    "rappellerai         rappelerai",
+    "rappelleras         rappeleras",
+    "rappellera          rappelera",
+    "rappellerons        rappelerons",
+    "rappellerez         rappelerez",
+    "rappelleront        rappeleront"
   ],
   [
     "recacheter",
-    "recachetterai",
-    "recachetteras",
-    "recachettera",
-    "recachetterons",
-    "recachetterez",
-    "recachetteront"
+    "recachetterai       recacheterai",
+    "recachetteras       recacheteras",
+    "recachettera        recachetera",
+    "recachetterons      recacheterons",
+    "recachetterez       recacheterez",
+    "recachetteront      recacheteront"
   ],
   [
     "receler",
-    "recèlerai",
-    "recèleras",
-    "recèlera",
-    "recèlerons",
-    "recèlerez",
-    "recèleront"
+    "recèlerai           recelerai",
+    "recèleras           receleras",
+    "recèlera            recelera",
+    "recèlerons          recelerons",
+    "recèlerez           recelerez",
+    "recèleront          receleront"
   ],
   [
     "receper",
-    "recèperai",
-    "recèperas",
-    "recèpera",
-    "recèperons",
-    "recèperez",
-    "recèperont"
-  ],
-  [
-    "rechanger",
-    "rechangerai",
-    "rechangeras",
-    "rechangera",
-    "rechangerons",
-    "rechangerez",
-    "rechangeront"
-  ],
-  [
-    "recharger",
-    "rechargerai",
-    "rechargeras",
-    "rechargera",
-    "rechargerons",
-    "rechargerez",
-    "rechargeront"
-  ],
-  [
-    "recorriger",
-    "recorrigerai",
-    "recorrigeras",
-    "recorrigera",
-    "recorrigerons",
-    "recorrigerez",
-    "recorrigeront"
-  ],
-  [
-    "rediriger",
-    "redirigerai",
-    "redirigeras",
-    "redirigera",
-    "redirigerons",
-    "redirigerez",
-    "redirigeront"
-  ],
-  [
-    "redéployer",
-    "redéploierai",
-    "redéploieras",
-    "redéploiera",
-    "redéploierons",
-    "redéploierez",
-    "redéploieront"
-  ],
-  [
-    "reforger",
-    "reforgerai",
-    "reforgeras",
-    "reforgera",
-    "reforgerons",
-    "reforgerez",
-    "reforgeront"
+    "recèperai           receperai",
+    "recèperas           receperas",
+    "recèpera            recepera",
+    "recèperons          receperons",
+    "recèperez           receperez",
+    "recèperont          receperont"
   ],
   [
     "regeler",
-    "regèlerai",
-    "regèleras",
-    "regèlera",
-    "regèlerons",
-    "regèlerez",
-    "regèleront"
-  ],
-  [
-    "regorger",
-    "regorgerai",
-    "regorgeras",
-    "regorgera",
-    "regorgerons",
-    "regorgerez",
-    "regorgeront"
+    "regèlerai           regelerai",
+    "regèleras           regeleras",
+    "regèlera            regelera",
+    "regèlerons          regelerons",
+    "regèlerez           regelerez",
+    "regèleront          regeleront"
   ],
   [
     "rejeter",
-    "rejetterai",
-    "rejetteras",
-    "rejettera",
-    "rejetterons",
-    "rejetterez",
-    "rejetteront"
-  ],
-  [
-    "rejointoyer",
-    "rejointoierai",
-    "rejointoieras",
-    "rejointoiera",
-    "rejointoierons",
-    "rejointoierez",
-    "rejointoieront"
-  ],
-  [
-    "rejuger",
-    "rejugerai",
-    "rejugeras",
-    "rejugera",
-    "rejugerons",
-    "rejugerez",
-    "rejugeront"
+    "rejetterai          rejeterai",
+    "rejetteras          rejeteras",
+    "rejettera           rejetera",
+    "rejetterons         rejeterons",
+    "rejetterez          rejeterez",
+    "rejetteront         rejeteront"
   ],
   [
     "relever",
-    "relèverai",
-    "relèveras",
-    "relèvera",
-    "relèverons",
-    "relèverez",
-    "relèveront"
-  ],
-  [
-    "reloger",
-    "relogerai",
-    "relogeras",
-    "relogera",
-    "relogerons",
-    "relogerez",
-    "relogeront"
+    "relèverai           releverai",
+    "relèveras           releveras",
+    "relèvera            relevera",
+    "relèverons          releverons",
+    "relèverez           releverez",
+    "relèveront          releveront"
   ],
   [
     "reloqueter",
-    "reloquetterai",
-    "reloquetteras",
-    "reloquettera",
-    "reloquetterons",
-    "reloquetterez",
-    "reloquetteront"
-  ],
-  [
-    "remanger",
-    "remangerai",
-    "remangeras",
-    "remangera",
-    "remangerons",
-    "remangerez",
-    "remangeront"
+    "reloquetterai       reloqueterai",
+    "reloquetteras       reloqueteras",
+    "reloquettera        reloquetera",
+    "reloquetterons      reloqueterons",
+    "reloquetterez       reloqueterez",
+    "reloquetteront      reloqueteront"
   ],
   [
     "remmener",
-    "remmènerai",
-    "remmèneras",
-    "remmènera",
-    "remmènerons",
-    "remmènerez",
-    "remmèneront"
+    "remmènerai          remmenerai",
+    "remmèneras          remmeneras",
+    "remmènera           remmenera",
+    "remmènerons         remmenerons",
+    "remmènerez          remmenerez",
+    "remmèneront         remmeneront"
   ],
   [
     "remodeler",
-    "remodèlerai",
-    "remodèleras",
-    "remodèlera",
-    "remodèlerons",
-    "remodèlerez",
-    "remodèleront"
+    "remodèlerai         remodelerai",
+    "remodèleras         remodeleras",
+    "remodèlera          remodelera",
+    "remodèlerons        remodelerons",
+    "remodèlerez         remodelerez",
+    "remodèleront        remodeleront"
   ],
   [
     "rempaqueter",
-    "rempaquèterai",
-    "rempaquèteras",
-    "rempaquètera",
-    "rempaquèterons",
-    "rempaquèterez",
-    "rempaquèteront"
-  ],
-  [
-    "remployer",
-    "remploierai",
-    "remploieras",
-    "remploiera",
-    "remploierons",
-    "remploierez",
-    "remploieront"
-  ],
-  [
-    "rengager",
-    "rengagerai",
-    "rengageras",
-    "rengagera",
-    "rengagerons",
-    "rengagerez",
-    "rengageront"
-  ],
-  [
-    "rengorger",
-    "rengorgerai",
-    "rengorgeras",
-    "rengorgera",
-    "rengorgerons",
-    "rengorgerez",
-    "rengorgeront"
+    "rempaquèterai       rempaqueterai",
+    "rempaquèteras       rempaqueteras",
+    "rempaquètera        rempaquetera",
+    "rempaquèterons      rempaqueterons",
+    "rempaquèterez       rempaqueterez",
+    "rempaquèteront      rempaqueteront"
   ],
   [
     "rengrener",
-    "rengrènerai",
-    "rengrèneras",
-    "rengrènera",
-    "rengrènerons",
-    "rengrènerez",
-    "rengrèneront"
+    "rengrènerai         rengrenerai",
+    "rengrèneras         rengreneras",
+    "rengrènera          rengrenera",
+    "rengrènerons        rengrenerons",
+    "rengrènerez         rengrenerez",
+    "rengrèneront        rengreneront"
   ],
   [
     "renouveler",
-    "renouvellerai",
-    "renouvelleras",
-    "renouvellera",
-    "renouvellerons",
-    "renouvellerez",
-    "renouvelleront"
+    "renouvellerai       renouvelerai",
+    "renouvelleras       renouveleras",
+    "renouvellera        renouvelera",
+    "renouvellerons      renouvelerons",
+    "renouvellerez       renouvelerez",
+    "renouvelleront      renouveleront"
   ],
   [
     "renvoyer",
-    "renverrai",
-    "renverras",
-    "renverra",
-    "renverrons",
-    "renverrez",
-    "renverront"
-  ],
-  [
-    "repartager",
-    "repartagerai",
-    "repartageras",
-    "repartagera",
-    "repartagerons",
-    "repartagerez",
-    "repartageront"
-  ],
-  [
-    "reployer",
-    "reploierai",
-    "reploieras",
-    "reploiera",
-    "reploierons",
-    "reploierez",
-    "reploieront"
-  ],
-  [
-    "replonger",
-    "replongerai",
-    "replongeras",
-    "replongera",
-    "replongerons",
-    "replongerez",
-    "replongeront"
-  ],
-  [
-    "repurger",
-    "repurgerai",
-    "repurgeras",
-    "repurgera",
-    "repurgerons",
-    "repurgerez",
-    "repurgeront"
+    "renverrai           renvoierai",
+    "renverras           renvoieras",
+    "renverra            renvoiera",
+    "renverrons          renvoierons",
+    "renverrez           renvoierez",
+    "renverront          renvoieront"
   ],
   [
     "ressemer",
-    "ressèmerai",
-    "ressèmeras",
-    "ressèmera",
-    "ressèmerons",
-    "ressèmerez",
-    "ressèmeront"
+    "ressèmerai          ressemerai",
+    "ressèmeras          ressemeras",
+    "ressèmera           ressemera",
+    "ressèmerons         ressemerons",
+    "ressèmerez          ressemerez",
+    "ressèmeront         ressemeront"
   ],
   [
     "ressemeler",
-    "ressemellerai",
-    "ressemelleras",
-    "ressemellera",
-    "ressemellerons",
-    "ressemellerez",
-    "ressemelleront"
+    "ressemellerai       ressemelerai",
+    "ressemelleras       ressemeleras",
+    "ressemellera        ressemelera",
+    "ressemellerons      ressemelerons",
+    "ressemellerez       ressemelerez",
+    "ressemelleront      ressemeleront"
   ],
   [
     "riveter",
-    "rivetterai",
-    "rivetteras",
-    "rivettera",
-    "rivetterons",
-    "rivetterez",
-    "rivetteront"
-  ],
-  [
-    "ronger",
-    "rongerai",
-    "rongeras",
-    "rongera",
-    "rongerons",
-    "rongerez",
-    "rongeront"
-  ],
-  [
-    "rougeoyer",
-    "rougeoierai",
-    "rougeoieras",
-    "rougeoiera",
-    "rougeoierons",
-    "rougeoierez",
-    "rougeoieront"
-  ],
-  [
-    "rudoyer",
-    "rudoierai",
-    "rudoieras",
-    "rudoiera",
-    "rudoierons",
-    "rudoierez",
-    "rudoieront"
+    "rivetterai          riveterai",
+    "rivetteras          riveteras",
+    "rivettera           rivetera",
+    "rivetterons         riveterons",
+    "rivetterez          riveterez",
+    "rivetteront         riveteront"
   ],
   [
     "ruisseler",
-    "ruissellerai",
-    "ruisselleras",
-    "ruissellera",
-    "ruissellerons",
-    "ruissellerez",
-    "ruisselleront"
+    "ruissellerai        ruisselerai",
+    "ruisselleras        ruisseleras",
+    "ruissellera         ruisselera",
+    "ruissellerons       ruisselerons",
+    "ruissellerez        ruisselerez",
+    "ruisselleront       ruisseleront"
   ],
   [
     "râteler",
-    "râtellerai",
-    "râtelleras",
-    "râtellera",
-    "râtellerons",
-    "râtellerez",
-    "râtelleront"
-  ],
-  [
-    "réaménager",
-    "réaménagerai",
-    "réaménageras",
-    "réaménagera",
-    "réaménagerons",
-    "réaménagerez",
-    "réaménageront"
-  ],
-  [
-    "réarranger",
-    "réarrangerai",
-    "réarrangeras",
-    "réarrangera",
-    "réarrangerons",
-    "réarrangerez",
-    "réarrangeront"
-  ],
-  [
-    "rédiger",
-    "rédigerai",
-    "rédigeras",
-    "rédigera",
-    "rédigerons",
-    "rédigerez",
-    "rédigeront"
-  ],
-  [
-    "réemployer",
-    "réemploierai",
-    "réemploieras",
-    "réemploiera",
-    "réemploierons",
-    "réemploierez",
-    "réemploieront"
-  ],
-  [
-    "réengager",
-    "réengagerai",
-    "réengageras",
-    "réengagera",
-    "réengagerons",
-    "réengagerez",
-    "réengageront"
-  ],
-  [
-    "réinterroger",
-    "réinterrogerai",
-    "réinterrogeras",
-    "réinterrogera",
-    "réinterrogerons",
-    "réinterrogerez",
-    "réinterrogeront"
-  ],
-  [
-    "réémerger",
-    "réémergerai",
-    "réémergeras",
-    "réémergera",
-    "réémergerons",
-    "réémergerez",
-    "réémergeront"
-  ],
-  [
-    "réériger",
-    "réérigerai",
-    "réérigeras",
-    "réérigera",
-    "réérigerons",
-    "réérigerez",
-    "réérigeront"
-  ],
-  [
-    "saccager",
-    "saccagerai",
-    "saccageras",
-    "saccagera",
-    "saccagerons",
-    "saccagerez",
-    "saccageront"
+    "râtellerai          râtelerai",
+    "râtelleras          râteleras",
+    "râtellera           râtelera",
+    "râtellerons         râtelerons",
+    "râtellerez          râtelerez",
+    "râtelleront         râteleront"
   ],
   [
     "semer",
-    "sèmerai",
-    "sèmeras",
-    "sèmera",
-    "sèmerons",
-    "sèmerez",
-    "sèmeront"
+    "sèmerai             semerai",
+    "sèmeras             semeras",
+    "sèmera              semera",
+    "sèmerons            semerons",
+    "sèmerez             semerez",
+    "sèmeront            semeront"
   ],
   [
     "sevrer",
-    "sèvrerai",
-    "sèvreras",
-    "sèvrera",
-    "sèvrerons",
-    "sèvrerez",
-    "sèvreront"
-  ],
-  [
-    "singer",
-    "singerai",
-    "singeras",
-    "singera",
-    "singerons",
-    "singerez",
-    "singeront"
-  ],
-  [
-    "siéger",
-    "siégerai",
-    "siégeras",
-    "siégera",
-    "siégerons",
-    "siégerez",
-    "siégeront"
-  ],
-  [
-    "songer",
-    "songerai",
-    "songeras",
-    "songera",
-    "songerons",
-    "songerez",
-    "songeront"
-  ],
-  [
-    "soudoyer",
-    "soudoierai",
-    "soudoieras",
-    "soudoiera",
-    "soudoierons",
-    "soudoierez",
-    "soudoieront"
+    "sèvrerai            sevrerai",
+    "sèvreras            sevreras",
+    "sèvrera             sevrera",
+    "sèvrerons           sevrerons",
+    "sèvrerez            sevrerez",
+    "sèvreront           sevreront"
   ],
   [
     "souffleter",
-    "souffletterai",
-    "souffletteras",
-    "soufflettera",
-    "souffletterons",
-    "souffletterez",
-    "souffletteront"
-  ],
-  [
-    "soulager",
-    "soulagerai",
-    "soulageras",
-    "soulagera",
-    "soulagerons",
-    "soulagerez",
-    "soulageront"
+    "souffletterai       souffleterai",
+    "souffletteras       souffleteras",
+    "soufflettera        souffletera",
+    "souffletterons      souffleterons",
+    "souffletterez       souffleterez",
+    "souffletteront      souffleteront"
   ],
   [
     "soulever",
-    "soulèverai",
-    "soulèveras",
-    "soulèvera",
-    "soulèverons",
-    "soulèverez",
-    "soulèveront"
+    "soulèverai          souleverai",
+    "soulèveras          souleveras",
+    "soulèvera           soulevera",
+    "soulèverons         souleverons",
+    "soulèverez          souleverez",
+    "soulèveront         souleveront"
   ],
   [
     "soupeser",
-    "soupèserai",
-    "soupèseras",
-    "soupèsera",
-    "soupèserons",
-    "soupèserez",
-    "soupèseront"
-  ],
-  [
-    "submerger",
-    "submergerai",
-    "submergeras",
-    "submergera",
-    "submergerons",
-    "submergerez",
-    "submergeront"
-  ],
-  [
-    "subroger",
-    "subrogerai",
-    "subrogeras",
-    "subrogera",
-    "subrogerons",
-    "subrogerez",
-    "subrogeront"
-  ],
-  [
-    "surcharger",
-    "surchargerai",
-    "surchargeras",
-    "surchargera",
-    "surchargerons",
-    "surchargerez",
-    "surchargeront"
+    "soupèserai          soupeserai",
+    "soupèseras          soupeseras",
+    "soupèsera           soupesera",
+    "soupèserons         soupeserons",
+    "soupèserez          soupeserez",
+    "soupèseront         soupeseront"
   ],
   [
     "surgeler",
-    "surgèlerai",
-    "surgèleras",
-    "surgèlera",
-    "surgèlerons",
-    "surgèlerez",
-    "surgèleront"
+    "surgèlerai          surgelerai",
+    "surgèleras          surgeleras",
+    "surgèlera           surgelera",
+    "surgèlerons         surgelerons",
+    "surgèlerez          surgelerez",
+    "surgèleront         surgeleront"
   ],
   [
     "surjeter",
-    "surjetterai",
-    "surjetteras",
-    "surjettera",
-    "surjetterons",
-    "surjetterez",
-    "surjetteront"
+    "surjetterai         surjeterai",
+    "surjetteras         surjeteras",
+    "surjettera          surjetera",
+    "surjetterons        surjeterons",
+    "surjetterez         surjeterez",
+    "surjetteront        surjeteront"
   ],
   [
     "surmener",
-    "surmènerai",
-    "surmèneras",
-    "surmènera",
-    "surmènerons",
-    "surmènerez",
-    "surmèneront"
-  ],
-  [
-    "surnager",
-    "surnagerai",
-    "surnageras",
-    "surnagera",
-    "surnagerons",
-    "surnagerez",
-    "surnageront"
-  ],
-  [
-    "surprotéger",
-    "surprotégerai",
-    "surprotégeras",
-    "surprotégera",
-    "surprotégerons",
-    "surprotégerez",
-    "surprotégeront"
+    "surmènerai          surmenerai",
+    "surmèneras          surmeneras",
+    "surmènera           surmenera",
+    "surmènerons         surmenerons",
+    "surmènerez          surmenerez",
+    "surmèneront         surmeneront"
   ],
   [
     "surélever",
-    "surélèverai",
-    "surélèveras",
-    "surélèvera",
-    "surélèverons",
-    "surélèverez",
-    "surélèveront"
+    "surélèverai         suréleverai",
+    "surélèveras         suréleveras",
+    "surélèvera          surélevera",
+    "surélèverons        suréleverons",
+    "surélèverez         suréleverez",
+    "surélèveront        suréleveront"
   ],
   [
     "tacheter",
-    "tachetterai",
-    "tachetteras",
-    "tachettera",
-    "tachetterons",
-    "tachetterez",
-    "tachetteront"
-  ],
-  [
-    "tapager",
-    "tapagerai",
-    "tapageras",
-    "tapagera",
-    "tapagerons",
-    "tapagerez",
-    "tapageront"
+    "tachetterai         tacheterai",
+    "tachetteras         tacheteras",
+    "tachettera          tachetera",
+    "tachetterons        tacheterons",
+    "tachetterez         tacheterez",
+    "tachetteront        tacheteront"
   ],
   [
     "taveler",
-    "tavellerai",
-    "tavelleras",
-    "tavellera",
-    "tavellerons",
-    "tavellerez",
-    "tavelleront"
-  ],
-  [
-    "tournoyer",
-    "tournoierai",
-    "tournoieras",
-    "tournoiera",
-    "tournoierons",
-    "tournoierez",
-    "tournoieront"
-  ],
-  [
-    "transiger",
-    "transigerai",
-    "transigeras",
-    "transigera",
-    "transigerons",
-    "transigerez",
-    "transigeront"
-  ],
-  [
-    "treillager",
-    "treillagerai",
-    "treillageras",
-    "treillagera",
-    "treillagerons",
-    "treillagerez",
-    "treillageront"
+    "tavellerai          tavelerai",
+    "tavelleras          taveleras",
+    "tavellera           tavelera",
+    "tavellerons         tavelerons",
+    "tavellerez          tavelerez",
+    "tavelleront         taveleront"
   ],
   [
     "trompeter",
-    "trompetterai",
-    "trompetteras",
-    "trompettera",
-    "trompetterons",
-    "trompetterez",
-    "trompetteront"
-  ],
-  [
-    "tutoyer",
-    "tutoierai",
-    "tutoieras",
-    "tutoiera",
-    "tutoierons",
-    "tutoierez",
-    "tutoieront"
-  ],
-  [
-    "télécharger",
-    "téléchargerai",
-    "téléchargeras",
-    "téléchargera",
-    "téléchargerons",
-    "téléchargerez",
-    "téléchargeront"
-  ],
-  [
-    "télédiriger",
-    "télédirigerai",
-    "télédirigeras",
-    "télédirigera",
-    "télédirigerons",
-    "télédirigerez",
-    "télédirigeront"
-  ],
-  [
-    "urger",
-    "urgerai",
-    "urgeras",
-    "urgera",
-    "urgerons",
-    "urgerez",
-    "urgeront"
-  ],
-  [
-    "usager",
-    "usagerai",
-    "usageras",
-    "usagera",
-    "usagerons",
-    "usagerez",
-    "usageront"
-  ],
-  [
-    "vendanger",
-    "vendangerai",
-    "vendangeras",
-    "vendangera",
-    "vendangerons",
-    "vendangerez",
-    "vendangeront"
-  ],
-  [
-    "venger",
-    "vengerai",
-    "vengeras",
-    "vengera",
-    "vengerons",
-    "vengerez",
-    "vengeront"
-  ],
-  [
-    "verbiager",
-    "verbiagerai",
-    "verbiageras",
-    "verbiagera",
-    "verbiagerons",
-    "verbiagerez",
-    "verbiageront"
-  ],
-  [
-    "verdoyer",
-    "verdoierai",
-    "verdoieras",
-    "verdoiera",
-    "verdoierons",
-    "verdoierez",
-    "verdoieront"
-  ],
-  [
-    "vidanger",
-    "vidangerai",
-    "vidangeras",
-    "vidangera",
-    "vidangerons",
-    "vidangerez",
-    "vidangeront"
+    "trompetterai        trompeterai",
+    "trompetteras        trompeteras",
+    "trompettera         trompetera",
+    "trompetterons       trompeterons",
+    "trompetterez        trompeterez",
+    "trompetteront       trompeteront"
   ],
   [
     "voleter",
-    "voletterai",
-    "voletteras",
-    "volettera",
-    "voletterons",
-    "voletterez",
-    "voletteront"
-  ],
-  [
-    "voliger",
-    "voligerai",
-    "voligeras",
-    "voligera",
-    "voligerons",
-    "voligerez",
-    "voligeront"
-  ],
-  [
-    "voltiger",
-    "voltigerai",
-    "voltigeras",
-    "voltigera",
-    "voltigerons",
-    "voltigerez",
-    "voltigeront"
-  ],
-  [
-    "vousoyer",
-    "vousoierai",
-    "vousoieras",
-    "vousoiera",
-    "vousoierons",
-    "vousoierez",
-    "vousoieront"
-  ],
-  [
-    "voussoyer",
-    "voussoierai",
-    "voussoieras",
-    "voussoiera",
-    "voussoierons",
-    "voussoierez",
-    "voussoieront"
-  ],
-  [
-    "vouvoyer",
-    "vouvoierai",
-    "vouvoieras",
-    "vouvoiera",
-    "vouvoierons",
-    "vouvoierez",
-    "vouvoieront"
-  ],
-  [
-    "voyager",
-    "voyagerai",
-    "voyageras",
-    "voyagera",
-    "voyagerons",
-    "voyagerez",
-    "voyageront"
+    "voletterai          voleterai",
+    "voletteras          voleteras",
+    "volettera           voletera",
+    "voletterons         voleterons",
+    "voletterez          voleterez",
+    "voletteront         voleteront"
   ],
   [
     "ébiseler",
-    "ébisellerai",
-    "ébiselleras",
-    "ébisellera",
-    "ébisellerons",
-    "ébisellerez",
-    "ébiselleront"
+    "ébisellerai         ébiselerai",
+    "ébiselleras         ébiseleras",
+    "ébisellera          ébiselera",
+    "ébisellerons        ébiselerons",
+    "ébisellerez         ébiselerez",
+    "ébiselleront        ébiseleront"
   ],
   [
     "écarteler",
-    "écartèlerai",
-    "écartèleras",
-    "écartèlera",
-    "écartèlerons",
-    "écartèlerez",
-    "écartèleront"
-  ],
-  [
-    "échanger",
-    "échangerai",
-    "échangeras",
-    "échangera",
-    "échangerons",
-    "échangerez",
-    "échangeront"
+    "écartèlerai         écartelerai",
+    "écartèleras         écarteleras",
+    "écartèlera          écartelera",
+    "écartèlerons        écartelerons",
+    "écartèlerez         écartelerez",
+    "écartèleront        écarteleront"
   ],
   [
     "écheveler",
-    "échevellerai",
-    "échevelleras",
-    "échevellera",
-    "échevellerons",
-    "échevellerez",
-    "échevelleront"
-  ],
-  [
-    "égorger",
-    "égorgerai",
-    "égorgeras",
-    "égorgera",
-    "égorgerons",
-    "égorgerez",
-    "égorgeront"
+    "échevellerai        échevelerai",
+    "échevelleras        écheveleras",
+    "échevellera         échevelera",
+    "échevellerons       échevelerons",
+    "échevellerez        échevelerez",
+    "échevelleront       écheveleront"
   ],
   [
     "égrener",
-    "égrènerai",
-    "égrèneras",
-    "égrènera",
-    "égrènerons",
-    "égrènerez",
-    "égrèneront"
-  ],
-  [
-    "égruger",
-    "égrugerai",
-    "égrugeras",
-    "égrugera",
-    "égrugerons",
-    "égrugerez",
-    "égrugeront"
+    "égrènerai           égrenerai",
+    "égrèneras           égreneras",
+    "égrènera            égrenera",
+    "égrènerons          égrenerons",
+    "égrènerez           égrenerez",
+    "égrèneront          égreneront"
   ],
   [
     "élever",
-    "élèverai",
-    "élèveras",
-    "élèvera",
-    "élèverons",
-    "élèverez",
-    "élèveront"
-  ],
-  [
-    "élonger",
-    "élongerai",
-    "élongeras",
-    "élongera",
-    "élongerons",
-    "élongerez",
-    "élongeront"
-  ],
-  [
-    "émarger",
-    "émargerai",
-    "émargeras",
-    "émargera",
-    "émargerons",
-    "émargerez",
-    "émargeront"
-  ],
-  [
-    "émerger",
-    "émergerai",
-    "émergeras",
-    "émergera",
-    "émergerons",
-    "émergerez",
-    "émergeront"
+    "élèverai            éleverai",
+    "élèveras            éleveras",
+    "élèvera             élevera",
+    "élèverons           éleverons",
+    "élèverez            éleverez",
+    "élèveront           éleveront"
   ],
   [
     "épanneler",
-    "épannellerai",
-    "épannelleras",
-    "épannellera",
-    "épannellerons",
-    "épannellerez",
-    "épannelleront"
+    "épannellerai        épannelerai",
+    "épannelleras        épanneleras",
+    "épannellera         épannelera",
+    "épannellerons       épannelerons",
+    "épannellerez        épannelerez",
+    "épannelleront       épanneleront"
   ],
   [
     "épeler",
-    "épellerai",
-    "épelleras",
-    "épellera",
-    "épellerons",
-    "épellerez",
-    "épelleront"
+    "épellerai           épelerai",
+    "épelleras           épeleras",
+    "épellera            épelera",
+    "épellerons          épelerons",
+    "épellerez           épelerez",
+    "épelleront          épeleront"
   ],
   [
     "épinceler",
-    "épincellerai",
-    "épincelleras",
-    "épincellera",
-    "épincellerons",
-    "épincellerez",
-    "épincelleront"
+    "épincellerai        épincelerai",
+    "épincelleras        épinceleras",
+    "épincellera         épincelera",
+    "épincellerons       épincelerons",
+    "épincellerez        épincelerez",
+    "épincelleront       épinceleront"
   ],
   [
     "épinceter",
-    "épincetterai",
-    "épincetteras",
-    "épincettera",
-    "épincetterons",
-    "épincetterez",
-    "épincetteront"
-  ],
-  [
-    "éponger",
-    "épongerai",
-    "épongeras",
-    "épongera",
-    "épongerons",
-    "épongerez",
-    "épongeront"
+    "épincetterai        épinceterai",
+    "épincetteras        épinceteras",
+    "épincettera         épincetera",
+    "épincetterons       épinceterons",
+    "épincetterez        épinceterez",
+    "épincetteront       épinceteront"
   ],
   [
     "épousseter",
-    "époussetterai",
-    "époussetteras",
-    "époussettera",
-    "époussetterons",
-    "époussetterez",
-    "époussetteront"
-  ],
-  [
-    "ériger",
-    "érigerai",
-    "érigeras",
-    "érigera",
-    "érigerons",
-    "érigerez",
-    "érigeront"
-  ],
-  [
-    "étager",
-    "étagerai",
-    "étageras",
-    "étagera",
-    "étagerons",
-    "étagerez",
-    "étageront"
-  ],
-  [
-    "étalager",
-    "étalagerai",
-    "étalageras",
-    "étalagera",
-    "étalagerons",
-    "étalagerez",
-    "étalageront"
+    "époussetterai       épousseterai",
+    "époussetteras       épousseteras",
+    "époussettera        époussetera",
+    "époussetterons      épousseterons",
+    "époussetterez       épousseterez",
+    "époussetteront      épousseteront"
   ],
   [
     "étinceler",
-    "étincellerai",
-    "étincelleras",
-    "étincellera",
-    "étincellerons",
-    "étincellerez",
-    "étincelleront"
+    "étincellerai        étincelerai",
+    "étincelleras        étinceleras",
+    "étincellera         étincelera",
+    "étincellerons       étincelerons",
+    "étincellerez        étincelerez",
+    "étincelleront       étinceleront"
   ],
   [
     "étiqueter",
-    "étiquetterai",
-    "étiquetteras",
-    "étiquettera",
-    "étiquetterons",
-    "étiquetterez",
-    "étiquetteront"
+    "étiquetterai        étiqueterai",
+    "étiquetteras        étiqueteras",
+    "étiquettera         étiquetera",
+    "étiquetterons       étiqueterons",
+    "étiquetterez        étiqueterez",
+    "étiquetteront       étiqueteront"
   ]
 ]

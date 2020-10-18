@@ -1,4 +1,6 @@
-﻿using System.Diagnostics.Contracts;
+﻿using System;
+using System.Data;
+using System.Diagnostics.Contracts;
 using System.Linq;
 
 namespace ConjugatorLibrary
@@ -9,6 +11,11 @@ namespace ConjugatorLibrary
         {
             Contract.Requires(verb.EndsWith("er"));
             Contract.Requires(verb.Length > 2);
+
+            if (verb == "aboyer")
+            {
+                Console.WriteLine();
+            }
 
             string stem = GetStem(verb);
 
@@ -30,6 +37,11 @@ namespace ConjugatorLibrary
             if (verb == "aller")
             {
                 return "ir";
+            }
+
+            if (verb.EndsWith("oyer") || verb.EndsWith("uyer"))
+            {
+                return verb.ReplaceAt(-3, 'i');
             }
             return verb;
         }
