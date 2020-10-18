@@ -66,7 +66,7 @@ namespace ConjugatorTests
             //Assert.IsTrue(!newErrors.Any());
 
             Console.WriteLine($"{actualErrors.Length} errors");
-            //ErrorList.Save(actualErrors, referenceConjugator, conjugator);
+            ErrorList.Save(actualErrors, referenceConjugator, conjugator);
         }
 
         private static bool IsCorrect(
