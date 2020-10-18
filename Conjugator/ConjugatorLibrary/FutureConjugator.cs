@@ -21,15 +21,7 @@ namespace ConjugatorLibrary
 
             string[] endings = {"ai", "as", "a", "ons", "ez", "ont"};
 
-            string[] withEndings = AddEndings(endings, stem);
-
-            //// soften the c with a cedilla before an 'a'
-            //if (verb[^3] == 'c')
-            //{
-            //    withEndings = withEndings.MatchNousVous(s => s.ReplaceAt(stem.Length - 1, 'ç'));
-            //}
-
-            return withEndings;
+            return AddEndings(endings, stem);
         }
 
         private static string GetStem(string verb)

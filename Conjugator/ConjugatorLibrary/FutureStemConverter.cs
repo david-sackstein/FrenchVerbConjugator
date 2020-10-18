@@ -4,13 +4,12 @@ namespace ConjugatorLibrary
 {
     public static class FutureStemConverter
     {
-        // The base stem is used for je, tu, il, ils but not for nous and vous
+        // The modified stem is used for all forms
         public static bool GetModifiedStem(string stem, out string modifiedStem)
         {
             if (
                 BasedOnLastTwoLetters(stem, out modifiedStem) ||
-                BasedOnLastThreeLetters(stem, out modifiedStem)) // ||
-            //BasedOnLastFourLetters(stem, out modifiedStem))
+                BasedOnLastThreeLetters(stem, out modifiedStem))
             {
                 return true;
             }
@@ -41,18 +40,11 @@ namespace ConjugatorLibrary
                     actualStem = stem.ReplaceAt(stem.Length - 1, 'i');
                     return true;
                 }
-                //case "éc": case "éd": case "ég": case "éj": case "él": case "ém": case "én": case "ép":
-                //case "ér": case "és": case "ét": case "es": case "em":
-                //case "ep": case "er": case "ec": case "en": case "ev":
-                case "ec":
-                case "ep":
-                case "er":
-                case "em":
-                case "es":
+                case "es": case "em":
+                case "ep": case "er": case "ec": case "en": case "ev":
                 case "el" when Exceptions.noDoubleL.Contains(stem + "er"):
                 case "et" when Exceptions.noDoubleT.Contains(stem + "er"):
 
-                case "ev": case "en":
                     actualStem = ReplaceEwithEGrave(stem, stemEnding);
                     return true;
 
@@ -91,27 +83,6 @@ namespace ConjugatorLibrary
             }
 
             // @formatter:on
-            return false;
-        }
-
-        private static bool BasedOnLastFourLetters(string stem, out string actualStem)
-        {
-            const int endingLength = 4;
-
-            actualStem = stem;
-
-            if (stem.Length < endingLength)
-            {
-                return false;
-            }
-
-            string stemEnding = stem.Substring(stem.Length - endingLength);
-            if (stemEnding == "mour")
-            {
-                actualStem = stem.ReplaceAt(stem.Length - 3, 'e');
-                return true;
-            }
-
             return false;
         }
 
