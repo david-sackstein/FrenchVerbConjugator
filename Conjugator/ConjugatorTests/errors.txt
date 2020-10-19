@@ -1440,15 +1440,6 @@
     "aillent             aillent"
   ],
   [
-    "aller",
-    "aille               vais",
-    "ailles              vas",
-    "aille               va",
-    "allions             allons",
-    "alliez              allez",
-    "aillent             vont"
-  ],
-  [
     "ailloliser",
     "aillolise           aillolise",
     "aillolises          aillolises",

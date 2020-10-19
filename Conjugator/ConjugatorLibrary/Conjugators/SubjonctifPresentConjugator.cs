@@ -8,7 +8,7 @@ namespace ConjugatorLibrary
         {
             if (verb == "aller")
             {
-                return new[] {"vais", "vas", "va", "allons", "allez", "vont"};
+                return new[] {"aille", "ailles", "aille", "allions", "alliez", "aillent" };
             }
 
             // soften the g before an 'o'
