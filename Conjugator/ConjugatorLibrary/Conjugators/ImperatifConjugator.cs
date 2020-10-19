@@ -7,10 +7,12 @@
             var present = PresentConjugator.GetConjugations(verb);
             return new[]
             {
-                "NA",
+                null,
                 present[1].TrimEnd('s'), // tu
-                "NA",
-                present[3] // nous
+                null,
+                present[3], // nous
+                present[4], // vous
+                null
             };
         }
     }

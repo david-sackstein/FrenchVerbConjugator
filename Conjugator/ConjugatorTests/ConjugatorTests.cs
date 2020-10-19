@@ -70,26 +70,35 @@ namespace ConjugatorTests
             string[] expectedErrors = ErrorList.Load();
             string[] actualErrors = grades.ContainsKey(false) ? grades[false] : new string[0];
 
-            var newErrors = actualErrors.Except(expectedErrors).ToArray();
-            var newFixes = expectedErrors.Except(actualErrors).ToArray();
+            string[] newErrors = actualErrors.Except(expectedErrors).ToArray();
+            string[] newFixes = expectedErrors.Except(actualErrors).ToArray();
 
-            //Assert.IsTrue(!newErrors.Any());
+            Assert.IsTrue(!newErrors.Any());
 
-            Console.WriteLine($"{actualErrors.Length} errors");
-            ErrorList.Save(actualErrors, referenceConjugator, conjugator);
+            //Console.WriteLine($"{actualErrors.Length} errors");
+            //ErrorList.Save(actualErrors, referenceConjugator, conjugator);
         }
 
         private static bool IsCorrect(
-            string verb, 
-            Func<string, string[]> referenceConjugator, 
+            string verb,
+            Func<string, string[]> referenceConjugator,
             Func<string, string[]> conjugator)
         {
             string[] expected = referenceConjugator(verb);
             string[] actual = conjugator(verb);
+            if (expected == null)
+            {
+                // reference doesn't know
+                return true;
+            }
+
             return
-                expected == null ||
+                expected.Length == actual.Length &&
                 expected.Zip(actual)
-                    .All(tuple => tuple.First == null || tuple.First == tuple.Second);
+                    .All(
+                         tuple => tuple.First == null
+                      || tuple.First == "NA"
+                      || tuple.First == tuple.Second);
         }
     }
 }
