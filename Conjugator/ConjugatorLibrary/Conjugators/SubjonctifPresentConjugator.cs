@@ -12,9 +12,8 @@ namespace ConjugatorLibrary
             }
 
             string[] endings = {"e", "es", "e", "ions", "iez", "ent"};
-            string[] withEndings = ApplyEndings(endings, verb);
 
-            return withEndings;
+            return ApplyEndings(endings, verb);
         }
 
         private static string[] ApplyEndings(string[] endings, string verb)
