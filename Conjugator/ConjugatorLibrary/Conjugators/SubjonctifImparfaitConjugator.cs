@@ -4,16 +4,9 @@
     {
         public static string[] GetConjugations(string verb)
         {
-            var present = PresentConjugator.GetConjugations(verb);
-            return new[]
-            {
-                null,
-                present[1].TrimEnd('s'), // tu
-                null,
-                present[3], // nous
-                present[4], // vous
-                null
-            };
+            var stem = verb.Remove(verb.Length - 2);
+            var endings = new[] {"asse", "asses", "ât", "assions", "assiez", "assent" };
+            return stem.AddEndings(endings);
         }
     }
 }
