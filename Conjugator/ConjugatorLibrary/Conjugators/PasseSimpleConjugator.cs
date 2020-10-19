@@ -1,4 +1,6 @@
-﻿namespace ConjugatorLibrary
+﻿using System.Linq;
+
+namespace ConjugatorLibrary
 {
     public static class PasseSimpleConjugator
     {
@@ -8,22 +10,15 @@
         {
             string stem = GetStem(verb);
 
-            string[] endings = Endings;
+            var endings = Endings;
 
-            //if (verb[^3] == 'g')
-            //{
-            //    endings = endings.MatchNousVous(s => "e" + s);
-            //}
+            // soften the g before the 'a' by adding an e
+            if (verb[^3] == 'g')
+            {
+                endings = Endings.Select((ending, i) => i != 5 ? "e" + ending : ending).ToArray();
+            }
 
-            string[] withEndings = stem.AddEndings(endings);
-
-            // soften the c with a cedilla before an 'a'
-            //if (verb[^3] == 'c')
-            //{
-            //    withEndings = withEndings.MatchNousVous(s => s.ReplaceAt(stem.Length - 1, 'ç'));
-            //}
-
-            return withEndings;
+            return stem.AddEndings(endings);
         }
 
         private static string GetStem(string verb)

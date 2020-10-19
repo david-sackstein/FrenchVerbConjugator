@@ -1,23 +1,5 @@
 [
   [
-    "abroger",
-    "abrogeai            abrogai",
-    "abrogeas            abrogas",
-    "abrogea             abroga",
-    "abrogeâmes          abrogâmes",
-    "abrogeâtes          abrogâtes",
-    "abrogèrent          abrogèrent"
-  ],
-  [
-    "abréger",
-    "abrégeai            abrégai",
-    "abrégeas            abrégas",
-    "abrégea             abréga",
-    "abrégeâmes          abrégâmes",
-    "abrégeâtes          abrégâtes",
-    "abrégèrent          abrégèrent"
-  ],
-  [
     "acquiescer",
     "acquiesçai          acquiescai",
     "acquiesças          acquiescas",
@@ -25,33 +7,6 @@
     "acquiesçâmes        acquiescâmes",
     "acquiesçâtes        acquiescâtes",
     "acquiescèrent       acquiescèrent"
-  ],
-  [
-    "adjuger",
-    "adjugeai            adjugai",
-    "adjugeas            adjugas",
-    "adjugea             adjuga",
-    "adjugeâmes          adjugâmes",
-    "adjugeâtes          adjugâtes",
-    "adjugèrent          adjugèrent"
-  ],
-  [
-    "affliger",
-    "affligeai           affligai",
-    "affligeas           affligas",
-    "affligea            affliga",
-    "affligeâmes         affligâmes",
-    "affligeâtes         affligâtes",
-    "affligèrent         affligèrent"
-  ],
-  [
-    "affourager",
-    "affourageai         affouragai",
-    "affourageas         affouragas",
-    "affouragea          affouraga",
-    "affourageâmes       affouragâmes",
-    "affourageâtes       affouragâtes",
-    "affouragèrent       affouragèrent"
   ],
   [
     "agacer",
@@ -72,33 +27,6 @@
     "agencèrent          agencèrent"
   ],
   [
-    "agréger",
-    "agrégeai            agrégai",
-    "agrégeas            agrégas",
-    "agrégea             agréga",
-    "agrégeâmes          agrégâmes",
-    "agrégeâtes          agrégâtes",
-    "agrégèrent          agrégèrent"
-  ],
-  [
-    "allonger",
-    "allongeai           allongai",
-    "allongeas           allongas",
-    "allongea            allonga",
-    "allongeâmes         allongâmes",
-    "allongeâtes         allongâtes",
-    "allongèrent         allongèrent"
-  ],
-  [
-    "alléger",
-    "allégeai            allégai",
-    "allégeas            allégas",
-    "allégea             alléga",
-    "allégeâmes          allégâmes",
-    "allégeâtes          allégâtes",
-    "allégèrent          allégèrent"
-  ],
-  [
     "amorcer",
     "amorçai             amorcai",
     "amorças             amorcas",
@@ -108,15 +36,6 @@
     "amorcèrent          amorcèrent"
   ],
   [
-    "aménager",
-    "aménageai           aménagai",
-    "aménageas           aménagas",
-    "aménagea            aménaga",
-    "aménageâmes         aménagâmes",
-    "aménageâtes         aménagâtes",
-    "aménagèrent         aménagèrent"
-  ],
-  [
     "annoncer",
     "annonçai            annoncai",
     "annonças            annoncas",
@@ -124,78 +43,6 @@
     "annonçâmes          annoncâmes",
     "annonçâtes          annoncâtes",
     "annoncèrent         annoncèrent"
-  ],
-  [
-    "apanager",
-    "apanageai           apanagai",
-    "apanageas           apanagas",
-    "apanagea            apanaga",
-    "apanageâmes         apanagâmes",
-    "apanageâtes         apanagâtes",
-    "apanagèrent         apanagèrent"
-  ],
-  [
-    "arpéger",
-    "arpégeai            arpégai",
-    "arpégeas            arpégas",
-    "arpégea             arpéga",
-    "arpégeâmes          arpégâmes",
-    "arpégeâtes          arpégâtes",
-    "arpégèrent          arpégèrent"
-  ],
-  [
-    "arranger",
-    "arrangeai           arrangai",
-    "arrangeas           arrangas",
-    "arrangea            arranga",
-    "arrangeâmes         arrangâmes",
-    "arrangeâtes         arrangâtes",
-    "arrangèrent         arrangèrent"
-  ],
-  [
-    "arroger",
-    "arrogeai            arrogai",
-    "arrogeas            arrogas",
-    "arrogea             arroga",
-    "arrogeâmes          arrogâmes",
-    "arrogeâtes          arrogâtes",
-    "arrogèrent          arrogèrent"
-  ],
-  [
-    "arrérager",
-    "arrérageai          arréragai",
-    "arrérageas          arréragas",
-    "arréragea           arréraga",
-    "arrérageâmes        arréragâmes",
-    "arrérageâtes        arréragâtes",
-    "arréragèrent        arréragèrent"
-  ],
-  [
-    "asperger",
-    "aspergeai           aspergai",
-    "aspergeas           aspergas",
-    "aspergea            asperga",
-    "aspergeâmes         aspergâmes",
-    "aspergeâtes         aspergâtes",
-    "aspergèrent         aspergèrent"
-  ],
-  [
-    "assiéger",
-    "assiégeai           assiégai",
-    "assiégeas           assiégas",
-    "assiégea            assiéga",
-    "assiégeâmes         assiégâmes",
-    "assiégeâtes         assiégâtes",
-    "assiégèrent         assiégèrent"
-  ],
-  [
-    "attiger",
-    "attigeai            attigai",
-    "attigeas            attigas",
-    "attigea             attiga",
-    "attigeâmes          attigâmes",
-    "attigeâtes          attigâtes",
-    "attigèrent          attigèrent"
   ],
   [
     "autodénoncer",
@@ -216,15 +63,6 @@
     "autofinancèrent     autofinancèrent"
   ],
   [
-    "autoprotéger",
-    "autoprotégeai       autoprotégai",
-    "autoprotégeas       autoprotégas",
-    "autoprotégea        autoprotéga",
-    "autoprotégeâmes     autoprotégâmes",
-    "autoprotégeâtes     autoprotégâtes",
-    "autoprotégèrent     autoprotégèrent"
-  ],
-  [
     "autorenforcer",
     "autorenforçai       autorenforcai",
     "autorenforças       autorenforcas",
@@ -243,24 +81,6 @@
     "avancèrent          avancèrent"
   ],
   [
-    "avantager",
-    "avantageai          avantagai",
-    "avantageas          avantagas",
-    "avantagea           avantaga",
-    "avantageâmes        avantagâmes",
-    "avantageâtes        avantagâtes",
-    "avantagèrent        avantagèrent"
-  ],
-  [
-    "badger",
-    "badgeai             badgai",
-    "badgeas             badgas",
-    "badgea              badga",
-    "badgeâmes           badgâmes",
-    "badgeâtes           badgâtes",
-    "badgèrent           badgèrent"
-  ],
-  [
     "balancer",
     "balançai            balancai",
     "balanças            balancas",
@@ -268,15 +88,6 @@
     "balançâmes          balancâmes",
     "balançâtes          balancâtes",
     "balancèrent         balancèrent"
-  ],
-  [
-    "bauger",
-    "baugeai             baugai",
-    "baugeas             baugas",
-    "baugea              bauga",
-    "baugeâmes           baugâmes",
-    "baugeâtes           baugâtes",
-    "baugèrent           baugèrent"
   ],
   [
     "bercer",
@@ -288,33 +99,6 @@
     "bercèrent           bercèrent"
   ],
   [
-    "bouger",
-    "bougeai             bougai",
-    "bougeas             bougas",
-    "bougea              bouga",
-    "bougeâmes           bougâmes",
-    "bougeâtes           bougâtes",
-    "bougèrent           bougèrent"
-  ],
-  [
-    "boulanger",
-    "boulangeai          boulangai",
-    "boulangeas          boulangas",
-    "boulangea           boulanga",
-    "boulangeâmes        boulangâmes",
-    "boulangeâtes        boulangâtes",
-    "boulangèrent        boulangèrent"
-  ],
-  [
-    "bridger",
-    "bridgeai            bridgai",
-    "bridgeas            bridgas",
-    "bridgea             bridga",
-    "bridgeâmes          bridgâmes",
-    "bridgeâtes          bridgâtes",
-    "bridgèrent          bridgèrent"
-  ],
-  [
     "cadencer",
     "cadençai            cadencai",
     "cadenças            cadencas",
@@ -324,15 +108,6 @@
     "cadencèrent         cadencèrent"
   ],
   [
-    "calorifuger",
-    "calorifugeai        calorifugai",
-    "calorifugeas        calorifugas",
-    "calorifugea         calorifuga",
-    "calorifugeâmes      calorifugâmes",
-    "calorifugeâtes      calorifugâtes",
-    "calorifugèrent      calorifugèrent"
-  ],
-  [
     "carencer",
     "carençai            carencai",
     "carenças            carencas",
@@ -340,51 +115,6 @@
     "carençâmes          carencâmes",
     "carençâtes          carencâtes",
     "carencèrent         carencèrent"
-  ],
-  [
-    "centrifuger",
-    "centrifugeai        centrifugai",
-    "centrifugeas        centrifugas",
-    "centrifugea         centrifuga",
-    "centrifugeâmes      centrifugâmes",
-    "centrifugeâtes      centrifugâtes",
-    "centrifugèrent      centrifugèrent"
-  ],
-  [
-    "challenger",
-    "challengeai         challengai",
-    "challengeas         challengas",
-    "challengea          challenga",
-    "challengeâmes       challengâmes",
-    "challengeâtes       challengâtes",
-    "challengèrent       challengèrent"
-  ],
-  [
-    "changer",
-    "changeai            changai",
-    "changeas            changas",
-    "changea             changa",
-    "changeâmes          changâmes",
-    "changeâtes          changâtes",
-    "changèrent          changèrent"
-  ],
-  [
-    "charger",
-    "chargeai            chargai",
-    "chargeas            chargas",
-    "chargea             charga",
-    "chargeâmes          chargâmes",
-    "chargeâtes          chargâtes",
-    "chargèrent          chargèrent"
-  ],
-  [
-    "codiriger",
-    "codirigeai          codirigai",
-    "codirigeas          codirigas",
-    "codirigea           codiriga",
-    "codirigeâmes        codirigâmes",
-    "codirigeâtes        codirigâtes",
-    "codirigèrent        codirigèrent"
   ],
   [
     "cofinancer",
@@ -403,15 +133,6 @@
     "coinçâmes           coincâmes",
     "coinçâtes           coincâtes",
     "coincèrent          coincèrent"
-  ],
-  [
-    "colliger",
-    "colligeai           colligai",
-    "colligeas           colligas",
-    "colligea            colliga",
-    "colligeâmes         colligâmes",
-    "colligeâtes         colligâtes",
-    "colligèrent         colligèrent"
   ],
   [
     "commencer",
@@ -441,15 +162,6 @@
     "concurrencèrent     concurrencèrent"
   ],
   [
-    "conjuger",
-    "conjugeai           conjugai",
-    "conjugeas           conjugas",
-    "conjugea            conjuga",
-    "conjugeâmes         conjugâmes",
-    "conjugeâtes         conjugâtes",
-    "conjugèrent         conjugèrent"
-  ],
-  [
     "contrebalancer",
     "contrebalançai      contrebalancai",
     "contrebalanças      contrebalancas",
@@ -457,33 +169,6 @@
     "contrebalançâmes    contrebalancâmes",
     "contrebalançâtes    contrebalancâtes",
     "contrebalancèrent   contrebalancèrent"
-  ],
-  [
-    "converger",
-    "convergeai          convergai",
-    "convergeas          convergas",
-    "convergea           converga",
-    "convergeâmes        convergâmes",
-    "convergeâtes        convergâtes",
-    "convergèrent        convergèrent"
-  ],
-  [
-    "copartager",
-    "copartageai         copartagai",
-    "copartageas         copartagas",
-    "copartagea          copartaga",
-    "copartageâmes       copartagâmes",
-    "copartageâtes       copartagâtes",
-    "copartagèrent       copartagèrent"
-  ],
-  [
-    "corriger",
-    "corrigeai           corrigai",
-    "corrigeas           corrigas",
-    "corrigea            corriga",
-    "corrigeâmes         corrigâmes",
-    "corrigeâtes         corrigâtes",
-    "corrigèrent         corrigèrent"
   ],
   [
     "courroucer",
@@ -504,15 +189,6 @@
     "devancèrent         devancèrent"
   ],
   [
-    "diriger",
-    "dirigeai            dirigai",
-    "dirigeas            dirigas",
-    "dirigea             diriga",
-    "dirigeâmes          dirigâmes",
-    "dirigeâtes          dirigâtes",
-    "dirigèrent          dirigèrent"
-  ],
-  [
     "distancer",
     "distançai           distancai",
     "distanças           distancas",
@@ -522,15 +198,6 @@
     "distancèrent        distancèrent"
   ],
   [
-    "diverger",
-    "divergeai           divergai",
-    "divergeas           divergas",
-    "divergea            diverga",
-    "divergeâmes         divergâmes",
-    "divergeâtes         divergâtes",
-    "divergèrent         divergèrent"
-  ],
-  [
     "divorcer",
     "divorçai            divorcai",
     "divorças            divorcas",
@@ -538,15 +205,6 @@
     "divorçâmes          divorcâmes",
     "divorçâtes          divorcâtes",
     "divorcèrent         divorcèrent"
-  ],
-  [
-    "décharger",
-    "déchargeai          déchargai",
-    "déchargeas          déchargas",
-    "déchargea           décharga",
-    "déchargeâmes        déchargâmes",
-    "déchargeâtes        déchargâtes",
-    "déchargèrent        déchargèrent"
   ],
   [
     "décoincer",
@@ -567,15 +225,6 @@
     "décontenancèrent    décontenancèrent"
   ],
   [
-    "décourager",
-    "décourageai         découragai",
-    "décourageas         découragas",
-    "découragea          découraga",
-    "décourageâmes       découragâmes",
-    "décourageâtes       découragâtes",
-    "découragèrent       découragèrent"
-  ],
-  [
     "dédicacer",
     "dédicaçai           dédicacai",
     "dédicaças           dédicacas",
@@ -583,15 +232,6 @@
     "dédicaçâmes         dédicacâmes",
     "dédicaçâtes         dédicacâtes",
     "dédicacèrent        dédicacèrent"
-  ],
-  [
-    "dédommager",
-    "dédommageai         dédommagai",
-    "dédommageas         dédommagas",
-    "dédommagea          dédommaga",
-    "dédommageâmes       dédommagâmes",
-    "dédommageâtes       dédommagâtes",
-    "dédommagèrent       dédommagèrent"
   ],
   [
     "défoncer",
@@ -612,15 +252,6 @@
     "défroncèrent        défroncèrent"
   ],
   [
-    "dégager",
-    "dégageai            dégagai",
-    "dégageas            dégagas",
-    "dégagea             dégaga",
-    "dégageâmes          dégagâmes",
-    "dégageâtes          dégagâtes",
-    "dégagèrent          dégagèrent"
-  ],
-  [
     "déglacer",
     "déglaçai            déglacai",
     "déglaças            déglacas",
@@ -628,33 +259,6 @@
     "déglaçâmes          déglacâmes",
     "déglaçâtes          déglacâtes",
     "déglacèrent         déglacèrent"
-  ],
-  [
-    "dégorger",
-    "dégorgeai           dégorgai",
-    "dégorgeas           dégorgas",
-    "dégorgea            dégorga",
-    "dégorgeâmes         dégorgâmes",
-    "dégorgeâtes         dégorgâtes",
-    "dégorgèrent         dégorgèrent"
-  ],
-  [
-    "déjauger",
-    "déjaugeai           déjaugai",
-    "déjaugeas           déjaugas",
-    "déjaugea            déjauga",
-    "déjaugeâmes         déjaugâmes",
-    "déjaugeâtes         déjaugâtes",
-    "déjaugèrent         déjaugèrent"
-  ],
-  [
-    "déjuger",
-    "déjugeai            déjugai",
-    "déjugeas            déjugas",
-    "déjugea             déjuga",
-    "déjugeâmes          déjugâmes",
-    "déjugeâtes          déjugâtes",
-    "déjugèrent          déjugèrent"
   ],
   [
     "délacer",
@@ -666,51 +270,6 @@
     "délacèrent          délacèrent"
   ],
   [
-    "déloger",
-    "délogeai            délogai",
-    "délogeas            délogas",
-    "délogea             déloga",
-    "délogeâmes          délogâmes",
-    "délogeâtes          délogâtes",
-    "délogèrent          délogèrent"
-  ],
-  [
-    "déluger",
-    "                    délugai",
-    "                    délugas",
-    "délugea             déluga",
-    "                    délugâmes",
-    "                    délugâtes",
-    "                    délugèrent"
-  ],
-  [
-    "démanger",
-    "démangeai           démangai",
-    "démangeas           démangas",
-    "démangea            démanga",
-    "démangeâmes         démangâmes",
-    "démangeâtes         démangâtes",
-    "démangèrent         démangèrent"
-  ],
-  [
-    "déménager",
-    "déménageai          déménagai",
-    "déménageas          déménagas",
-    "déménagea           déménaga",
-    "déménageâmes        déménagâmes",
-    "déménageâtes        déménagâtes",
-    "déménagèrent        déménagèrent"
-  ],
-  [
-    "déneiger",
-    "déneigeai           déneigai",
-    "déneigeas           déneigas",
-    "déneigea            déneiga",
-    "déneigeâmes         déneigâmes",
-    "déneigeâtes         déneigâtes",
-    "déneigèrent         déneigèrent"
-  ],
-  [
     "dénoncer",
     "dénonçai            dénoncai",
     "dénonças            dénoncas",
@@ -718,15 +277,6 @@
     "dénonçâmes          dénoncâmes",
     "dénonçâtes          dénoncâtes",
     "dénoncèrent         dénoncèrent"
-  ],
-  [
-    "départager",
-    "départageai         départagai",
-    "départageas         départagas",
-    "départagea          départaga",
-    "départageâmes       départagâmes",
-    "départageâtes       départagâtes",
-    "départagèrent       départagèrent"
   ],
   [
     "dépecer",
@@ -747,33 +297,6 @@
     "déplacèrent         déplacèrent"
   ],
   [
-    "déranger",
-    "dérangeai           dérangai",
-    "dérangeas           dérangas",
-    "dérangea            déranga",
-    "dérangeâmes         dérangâmes",
-    "dérangeâtes         dérangâtes",
-    "dérangèrent         dérangèrent"
-  ],
-  [
-    "déroger",
-    "dérogeai            dérogai",
-    "dérogeas            dérogas",
-    "dérogea             déroga",
-    "dérogeâmes          dérogâmes",
-    "dérogeâtes          dérogâtes",
-    "dérogèrent          dérogèrent"
-  ],
-  [
-    "désagréger",
-    "désagrégeai         désagrégai",
-    "désagrégeas         désagrégas",
-    "désagrégea          désagréga",
-    "désagrégeâmes       désagrégâmes",
-    "désagrégeâtes       désagrégâtes",
-    "désagrégèrent       désagrégèrent"
-  ],
-  [
     "désamorcer",
     "désamorçai          désamorcai",
     "désamorças          désamorcas",
@@ -790,60 +313,6 @@
     "désarmorçâmes       désarmorcâmes",
     "désarmorçâtes       désarmorcâtes",
     "désarmorcèrent      désarmorcèrent"
-  ],
-  [
-    "désavantager",
-    "désavantageai       désavantagai",
-    "désavantageas       désavantagas",
-    "désavantagea        désavantaga",
-    "désavantageâmes     désavantagâmes",
-    "désavantageâtes     désavantagâtes",
-    "désavantagèrent     désavantagèrent"
-  ],
-  [
-    "désengager",
-    "désengageai         désengagai",
-    "désengageas         désengagas",
-    "désengagea          désengaga",
-    "désengageâmes       désengagâmes",
-    "désengageâtes       désengagâtes",
-    "désengagèrent       désengagèrent"
-  ],
-  [
-    "désengorger",
-    "désengorgeai        désengorgai",
-    "désengorgeas        désengorgas",
-    "désengorgea         désengorga",
-    "désengorgeâmes      désengorgâmes",
-    "désengorgeâtes      désengorgâtes",
-    "désengorgèrent      désengorgèrent"
-  ],
-  [
-    "désobliger",
-    "désobligeai         désobligai",
-    "désobligeas         désobligas",
-    "désobligea          désobliga",
-    "désobligeâmes       désobligâmes",
-    "désobligeâtes       désobligâtes",
-    "désobligèrent       désobligèrent"
-  ],
-  [
-    "déterger",
-    "détergeai           détergai",
-    "détergeas           détergas",
-    "détergea            déterga",
-    "détergeâmes         détergâmes",
-    "détergeâtes         détergâtes",
-    "détergèrent         détergèrent"
-  ],
-  [
-    "dévisager",
-    "dévisageai          dévisagai",
-    "dévisageas          dévisagas",
-    "dévisagea           dévisaga",
-    "dévisageâmes        dévisagâmes",
-    "dévisageâtes        dévisagâtes",
-    "dévisagèrent        dévisagèrent"
   ],
   [
     "effacer",
@@ -864,51 +333,6 @@
     "efforcèrent         efforcèrent"
   ],
   [
-    "effranger",
-    "effrangeai          effrangai",
-    "effrangeas          effrangas",
-    "effrangea           effranga",
-    "effrangeâmes        effrangâmes",
-    "effrangeâtes        effrangâtes",
-    "effrangèrent        effrangèrent"
-  ],
-  [
-    "emménager",
-    "emménageai          emménagai",
-    "emménageas          emménagas",
-    "emménagea           emménaga",
-    "emménageâmes        emménagâmes",
-    "emménageâtes        emménagâtes",
-    "emménagèrent        emménagèrent"
-  ],
-  [
-    "encager",
-    "encageai            encagai",
-    "encageas            encagas",
-    "encagea             encaga",
-    "encageâmes          encagâmes",
-    "encageâtes          encagâtes",
-    "encagèrent          encagèrent"
-  ],
-  [
-    "encourager",
-    "encourageai         encouragai",
-    "encourageas         encouragas",
-    "encouragea          encouraga",
-    "encourageâmes       encouragâmes",
-    "encourageâtes       encouragâtes",
-    "encouragèrent       encouragèrent"
-  ],
-  [
-    "endommager",
-    "endommageai         endommagai",
-    "endommageas         endommagas",
-    "endommagea          endommaga",
-    "endommageâmes       endommagâmes",
-    "endommageâtes       endommagâtes",
-    "endommagèrent       endommagèrent"
-  ],
-  [
     "enfoncer",
     "enfonçai            enfoncai",
     "enfonças            enfoncas",
@@ -916,15 +340,6 @@
     "enfonçâmes          enfoncâmes",
     "enfonçâtes          enfoncâtes",
     "enfoncèrent         enfoncèrent"
-  ],
-  [
-    "engager",
-    "engageai            engagai",
-    "engageas            engagas",
-    "engagea             engaga",
-    "engageâmes          engagâmes",
-    "engageâtes          engagâtes",
-    "engagèrent          engagèrent"
   ],
   [
     "engoncer",
@@ -936,24 +351,6 @@
     "engoncèrent         engoncèrent"
   ],
   [
-    "engorger",
-    "engorgeai           engorgai",
-    "engorgeas           engorgas",
-    "engorgea            engorga",
-    "engorgeâmes         engorgâmes",
-    "engorgeâtes         engorgâtes",
-    "engorgèrent         engorgèrent"
-  ],
-  [
-    "engranger",
-    "engrangeai          engrangai",
-    "engrangeas          engrangas",
-    "engrangea           engranga",
-    "engrangeâmes        engrangâmes",
-    "engrangeâtes        engrangâtes",
-    "engrangèrent        engrangèrent"
-  ],
-  [
     "enlacer",
     "enlaçai             enlacai",
     "enlaças             enlacas",
@@ -961,42 +358,6 @@
     "enlaçâmes           enlacâmes",
     "enlaçâtes           enlacâtes",
     "enlacèrent          enlacèrent"
-  ],
-  [
-    "enneiger",
-    "enneigeai           enneigai",
-    "enneigeas           enneigas",
-    "enneigea            enneiga",
-    "enneigeâmes         enneigâmes",
-    "enneigeâtes         enneigâtes",
-    "enneigèrent         enneigèrent"
-  ],
-  [
-    "ennuager",
-    "ennuageai           ennuagai",
-    "ennuageas           ennuagas",
-    "ennuagea            ennuaga",
-    "ennuageâmes         ennuagâmes",
-    "ennuageâtes         ennuagâtes",
-    "ennuagèrent         ennuagèrent"
-  ],
-  [
-    "enrager",
-    "enrageai            enragai",
-    "enrageas            enragas",
-    "enragea             enraga",
-    "enrageâmes          enragâmes",
-    "enrageâtes          enragâtes",
-    "enragèrent          enragèrent"
-  ],
-  [
-    "ensauvager",
-    "ensauvageai         ensauvagai",
-    "ensauvageas         ensauvagas",
-    "ensauvagea          ensauvaga",
-    "ensauvageâmes       ensauvagâmes",
-    "ensauvageâtes       ensauvagâtes",
-    "ensauvagèrent       ensauvagèrent"
   ],
   [
     "ensemencer",
@@ -1017,15 +378,6 @@
     "entrelacèrent       entrelacèrent"
   ],
   [
-    "envisager",
-    "envisageai          envisagai",
-    "envisageas          envisagas",
-    "envisagea           envisaga",
-    "envisageâmes        envisagâmes",
-    "envisageâtes        envisagâtes",
-    "envisagèrent        envisagèrent"
-  ],
-  [
     "espacer",
     "espaçai             espacai",
     "espaças             espacas",
@@ -1033,15 +385,6 @@
     "espaçâmes           espacâmes",
     "espaçâtes           espacâtes",
     "espacèrent          espacèrent"
-  ],
-  [
-    "essanger",
-    "essangeai           essangai",
-    "essangeas           essangas",
-    "essangea            essanga",
-    "essangeâmes         essangâmes",
-    "essangeâtes         essangâtes",
-    "essangèrent         essangèrent"
   ],
   [
     "exaucer",
@@ -1062,24 +405,6 @@
     "exercèrent          exercèrent"
   ],
   [
-    "exiger",
-    "exigeai             exigai",
-    "exigeas             exigas",
-    "exigea              exiga",
-    "exigeâmes           exigâmes",
-    "exigeâtes           exigâtes",
-    "exigèrent           exigèrent"
-  ],
-  [
-    "expurger",
-    "expurgeai           expurgai",
-    "expurgeas           expurgas",
-    "expurgea            expurga",
-    "expurgeâmes         expurgâmes",
-    "expurgeâtes         expurgâtes",
-    "expurgèrent         expurgèrent"
-  ],
-  [
     "fiancer",
     "fiançai             fiancai",
     "fianças             fiancas",
@@ -1087,15 +412,6 @@
     "fiançâmes           fiancâmes",
     "fiançâtes           fiancâtes",
     "fiancèrent          fiancèrent"
-  ],
-  [
-    "figer",
-    "figeai              figai",
-    "figeas              figas",
-    "figea               figa",
-    "figeâmes            figâmes",
-    "figeâtes            figâtes",
-    "figèrent            figèrent"
   ],
   [
     "financer",
@@ -1125,15 +441,6 @@
     "forcèrent           forcèrent"
   ],
   [
-    "forger",
-    "forgeai             forgai",
-    "forgeas             forgas",
-    "forgea              forga",
-    "forgeâmes           forgâmes",
-    "forgeâtes           forgâtes",
-    "forgèrent           forgèrent"
-  ],
-  [
     "forlancer",
     "forlançai           forlancai",
     "forlanças           forlancas",
@@ -1143,33 +450,6 @@
     "forlancèrent        forlancèrent"
   ],
   [
-    "fouger",
-    "fougeai             fougai",
-    "fougeas             fougas",
-    "fougea              fouga",
-    "fougeâmes           fougâmes",
-    "fougeâtes           fougâtes",
-    "fougèrent           fougèrent"
-  ],
-  [
-    "fourrager",
-    "fourrageai          fourragai",
-    "fourrageas          fourragas",
-    "fourragea           fourraga",
-    "fourrageâmes        fourragâmes",
-    "fourrageâtes        fourragâtes",
-    "fourragèrent        fourragèrent"
-  ],
-  [
-    "franger",
-    "frangeai            frangai",
-    "frangeas            frangas",
-    "frangea             franga",
-    "frangeâmes          frangâmes",
-    "frangeâtes          frangâtes",
-    "frangèrent          frangèrent"
-  ],
-  [
     "froncer",
     "fronçai             froncai",
     "fronças             froncas",
@@ -1177,42 +457,6 @@
     "fronçâmes           froncâmes",
     "fronçâtes           froncâtes",
     "froncèrent          froncèrent"
-  ],
-  [
-    "fumiger",
-    "fumigeai            fumigai",
-    "fumigeas            fumigas",
-    "fumigea             fumiga",
-    "fumigeâmes          fumigâmes",
-    "fumigeâtes          fumigâtes",
-    "fumigèrent          fumigèrent"
-  ],
-  [
-    "fustiger",
-    "fustigeai           fustigai",
-    "fustigeas           fustigas",
-    "fustigea            fustiga",
-    "fustigeâmes         fustigâmes",
-    "fustigeâtes         fustigâtes",
-    "fustigèrent         fustigèrent"
-  ],
-  [
-    "gager",
-    "gageai              gagai",
-    "gageas              gagas",
-    "gagea               gaga",
-    "gageâmes            gagâmes",
-    "gageâtes            gagâtes",
-    "gagèrent            gagèrent"
-  ],
-  [
-    "gamberger",
-    "gambergeai          gambergai",
-    "gambergeas          gambergas",
-    "gambergea           gamberga",
-    "gambergeâmes        gambergâmes",
-    "gambergeâtes        gambergâtes",
-    "gambergèrent        gambergèrent"
   ],
   [
     "garancer",
@@ -1242,33 +486,6 @@
     "glacèrent           glacèrent"
   ],
   [
-    "goberger",
-    "gobergeai           gobergai",
-    "gobergeas           gobergas",
-    "gobergea            goberga",
-    "gobergeâmes         gobergâmes",
-    "gobergeâtes         gobergâtes",
-    "gobergèrent         gobergèrent"
-  ],
-  [
-    "gorger",
-    "gorgeai             gorgai",
-    "gorgeas             gorgas",
-    "gorgea              gorga",
-    "gorgeâmes           gorgâmes",
-    "gorgeâtes           gorgâtes",
-    "gorgèrent           gorgèrent"
-  ],
-  [
-    "grillager",
-    "grillageai          grillagai",
-    "grillageas          grillagas",
-    "grillagea           grillaga",
-    "grillageâmes        grillagâmes",
-    "grillageâtes        grillagâtes",
-    "grillagèrent        grillagèrent"
-  ],
-  [
     "grimacer",
     "grimaçai            grimacai",
     "grimaças            grimacas",
@@ -1285,69 +502,6 @@
     "grinçâmes           grincâmes",
     "grinçâtes           grincâtes",
     "grincèrent          grincèrent"
-  ],
-  [
-    "gruger",
-    "grugeai             grugai",
-    "grugeas             grugas",
-    "grugea              gruga",
-    "grugeâmes           grugâmes",
-    "grugeâtes           grugâtes",
-    "grugèrent           grugèrent"
-  ],
-  [
-    "herbager",
-    "herbageai           herbagai",
-    "herbageas           herbagas",
-    "herbagea            herbaga",
-    "herbageâmes         herbagâmes",
-    "herbageâtes         herbagâtes",
-    "herbagèrent         herbagèrent"
-  ],
-  [
-    "hydrofuger",
-    "hydrofugeai         hydrofugai",
-    "hydrofugeas         hydrofugas",
-    "hydrofugea          hydrofuga",
-    "hydrofugeâmes       hydrofugâmes",
-    "hydrofugeâtes       hydrofugâtes",
-    "hydrofugèrent       hydrofugèrent"
-  ],
-  [
-    "héberger",
-    "hébergeai           hébergai",
-    "hébergeas           hébergas",
-    "hébergea            héberga",
-    "hébergeâmes         hébergâmes",
-    "hébergeâtes         hébergâtes",
-    "hébergèrent         hébergèrent"
-  ],
-  [
-    "ignifuger",
-    "ignifugeai          ignifugai",
-    "ignifugeas          ignifugas",
-    "ignifugea           ignifuga",
-    "ignifugeâmes        ignifugâmes",
-    "ignifugeâtes        ignifugâtes",
-    "ignifugèrent        ignifugèrent"
-  ],
-  [
-    "imager",
-    "imageai             imagai",
-    "imageas             imagas",
-    "imagea              imaga",
-    "imageâmes           imagâmes",
-    "imageâtes           imagâtes",
-    "imagèrent           imagèrent"
-  ],
-  [
-    "immerger",
-    "immergeai           immergai",
-    "immergeas           immergas",
-    "immergea            immerga",
-    "immergeâmes         immergâmes",
-    "immergeâtes         immergâtes",
-    "immergèrent         immergèrent"
   ],
   [
     "immiscer",
@@ -1368,15 +522,6 @@
     "indicèrent          indicèrent"
   ],
   [
-    "infliger",
-    "infligeai           infligai",
-    "infligeas           infligas",
-    "infligea            infliga",
-    "infligeâmes         infligâmes",
-    "infligeâtes         infligâtes",
-    "infligèrent         infligèrent"
-  ],
-  [
     "influencer",
     "influençai          influencai",
     "influenças          influencas",
@@ -1386,15 +531,6 @@
     "influencèrent       influencèrent"
   ],
   [
-    "insurger",
-    "insurgeai           insurgai",
-    "insurgeas           insurgas",
-    "insurgea            insurga",
-    "insurgeâmes         insurgâmes",
-    "insurgeâtes         insurgâtes",
-    "insurgèrent         insurgèrent"
-  ],
-  [
     "interfacer",
     "interfaçai          interfacai",
     "interfaças          interfacas",
@@ -1402,33 +538,6 @@
     "interfaçâmes        interfacâmes",
     "interfaçâtes        interfacâtes",
     "interfacèrent       interfacèrent"
-  ],
-  [
-    "interroger",
-    "interrogeai         interrogai",
-    "interrogeas         interrogas",
-    "interrogea          interroga",
-    "interrogeâmes       interrogâmes",
-    "interrogeâtes       interrogâtes",
-    "interrogèrent       interrogèrent"
-  ],
-  [
-    "jauger",
-    "jaugeai             jaugai",
-    "jaugeas             jaugas",
-    "jaugea              jauga",
-    "jaugeâmes           jaugâmes",
-    "jaugeâtes           jaugâtes",
-    "jaugèrent           jaugèrent"
-  ],
-  [
-    "juger",
-    "jugeai              jugai",
-    "jugeas              jugas",
-    "jugea               juga",
-    "jugeâmes            jugâmes",
-    "jugeâtes            jugâtes",
-    "jugèrent            jugèrent"
   ],
   [
     "lacer",
@@ -1449,105 +558,6 @@
     "lancèrent           lancèrent"
   ],
   [
-    "langer",
-    "langeai             langai",
-    "langeas             langas",
-    "langea              langa",
-    "langeâmes           langâmes",
-    "langeâtes           langâtes",
-    "langèrent           langèrent"
-  ],
-  [
-    "limoger",
-    "limogeai            limogai",
-    "limogeas            limogas",
-    "limogea             limoga",
-    "limogeâmes          limogâmes",
-    "limogeâtes          limogâtes",
-    "limogèrent          limogèrent"
-  ],
-  [
-    "linger",
-    "lingeai             lingai",
-    "lingeas             lingas",
-    "lingea              linga",
-    "lingeâmes           lingâmes",
-    "lingeâtes           lingâtes",
-    "lingèrent           lingèrent"
-  ],
-  [
-    "liéger",
-    "liégeai             liégai",
-    "liégeas             liégas",
-    "liégea              liéga",
-    "liégeâmes           liégâmes",
-    "liégeâtes           liégâtes",
-    "liégèrent           liégèrent"
-  ],
-  [
-    "loger",
-    "logeai              logai",
-    "logeas              logas",
-    "logea               loga",
-    "logeâmes            logâmes",
-    "logeâtes            logâtes",
-    "logèrent            logèrent"
-  ],
-  [
-    "longer",
-    "longeai             longai",
-    "longeas             longas",
-    "longea              longa",
-    "longeâmes           longâmes",
-    "longeâtes           longâtes",
-    "longèrent           longèrent"
-  ],
-  [
-    "louanger",
-    "louangeai           louangai",
-    "louangeas           louangas",
-    "louangea            louanga",
-    "louangeâmes         louangâmes",
-    "louangeâtes         louangâtes",
-    "louangèrent         louangèrent"
-  ],
-  [
-    "luger",
-    "lugeai              lugai",
-    "lugeas              lugas",
-    "lugea               luga",
-    "lugeâmes            lugâmes",
-    "lugeâtes            lugâtes",
-    "lugèrent            lugèrent"
-  ],
-  [
-    "léviger",
-    "lévigeai            lévigai",
-    "lévigeas            lévigas",
-    "lévigea             léviga",
-    "lévigeâmes          lévigâmes",
-    "lévigeâtes          lévigâtes",
-    "lévigèrent          lévigèrent"
-  ],
-  [
-    "manager",
-    "manageai            managai",
-    "manageas            managas",
-    "managea             managa",
-    "manageâmes          managâmes",
-    "manageâtes          managâtes",
-    "managèrent          managèrent"
-  ],
-  [
-    "manger",
-    "mangeai             mangai",
-    "mangeas             mangas",
-    "mangea              manga",
-    "mangeâmes           mangâmes",
-    "mangeâtes           mangâtes",
-    "mangèrent           mangèrent"
-  ],
-  [
     "manigancer",
     "manigançai          manigancai",
     "maniganças          manigancas",
@@ -1555,15 +565,6 @@
     "manigançâmes        manigancâmes",
     "manigançâtes        manigancâtes",
     "manigancèrent       manigancèrent"
-  ],
-  [
-    "marger",
-    "margeai             margai",
-    "margeas             margas",
-    "margea              marga",
-    "margeâmes           margâmes",
-    "margeâtes           margâtes",
-    "margèrent           margèrent"
   ],
   [
     "matricer",
@@ -1584,15 +585,6 @@
     "menacèrent          menacèrent"
   ],
   [
-    "mitiger",
-    "mitigeai            mitigai",
-    "mitigeas            mitigas",
-    "mitigea             mitiga",
-    "mitigeâmes          mitigâmes",
-    "mitigeâtes          mitigâtes",
-    "mitigèrent          mitigèrent"
-  ],
-  [
     "mordancer",
     "mordançai           mordancai",
     "mordanças           mordancas",
@@ -1600,60 +592,6 @@
     "mordançâmes         mordancâmes",
     "mordançâtes         mordancâtes",
     "mordancèrent        mordancèrent"
-  ],
-  [
-    "méjuger",
-    "méjugeai            méjugai",
-    "méjugeas            méjugas",
-    "méjugea             méjuga",
-    "méjugeâmes          méjugâmes",
-    "méjugeâtes          méjugâtes",
-    "méjugèrent          méjugèrent"
-  ],
-  [
-    "mélanger",
-    "mélangeai           mélangai",
-    "mélangeas           mélangas",
-    "mélangea            mélanga",
-    "mélangeâmes         mélangâmes",
-    "mélangeâtes         mélangâtes",
-    "mélangèrent         mélangèrent"
-  ],
-  [
-    "ménager",
-    "ménageai            ménagai",
-    "ménageas            ménagas",
-    "ménagea             ménaga",
-    "ménageâmes          ménagâmes",
-    "ménageâtes          ménagâtes",
-    "ménagèrent          ménagèrent"
-  ],
-  [
-    "nager",
-    "nageai              nagai",
-    "nageas              nagas",
-    "nagea               naga",
-    "nageâmes            nagâmes",
-    "nageâtes            nagâtes",
-    "nagèrent            nagèrent"
-  ],
-  [
-    "naufrager",
-    "naufrageai          naufragai",
-    "naufrageas          naufragas",
-    "naufragea           naufraga",
-    "naufrageâmes        naufragâmes",
-    "naufrageâtes        naufragâtes",
-    "naufragèrent        naufragèrent"
-  ],
-  [
-    "neiger",
-    "                    neigai",
-    "                    neigas",
-    "neigea              neiga",
-    "                    neigâmes",
-    "                    neigâtes",
-    "                    neigèrent"
   ],
   [
     "nuancer",
@@ -1665,24 +603,6 @@
     "nuancèrent          nuancèrent"
   ],
   [
-    "négliger",
-    "négligeai           négligai",
-    "négligeas           négligas",
-    "négligea            négliga",
-    "négligeâmes         négligâmes",
-    "négligeâtes         négligâtes",
-    "négligèrent         négligèrent"
-  ],
-  [
-    "obliger",
-    "obligeai            obligai",
-    "obligeas            obligas",
-    "obligea             obliga",
-    "obligeâmes          obligâmes",
-    "obligeâtes          obligâtes",
-    "obligèrent          obligèrent"
-  ],
-  [
     "officer",
     "offiçai             officai",
     "offiças             officas",
@@ -1690,15 +610,6 @@
     "offiçâmes           officâmes",
     "offiçâtes           officâtes",
     "officèrent          officèrent"
-  ],
-  [
-    "ombrager",
-    "ombrageai           ombragai",
-    "ombrageas           ombragas",
-    "ombragea            ombraga",
-    "ombrageâmes         ombragâmes",
-    "ombrageâtes         ombragâtes",
-    "ombragèrent         ombragèrent"
   ],
   [
     "opiacer",
@@ -1710,15 +621,6 @@
     "opiacèrent          opiacèrent"
   ],
   [
-    "oranger",
-    "orangeai            orangai",
-    "orangeas            orangas",
-    "orangea             oranga",
-    "orangeâmes          orangâmes",
-    "orangeâtes          orangâtes",
-    "orangèrent          orangèrent"
-  ],
-  [
     "ordonnancer",
     "ordonnançai         ordonnancai",
     "ordonnanças         ordonnancas",
@@ -1728,69 +630,6 @@
     "ordonnancèrent      ordonnancèrent"
   ],
   [
-    "outrager",
-    "outrageai           outragai",
-    "outrageas           outragas",
-    "outragea            outraga",
-    "outrageâmes         outragâmes",
-    "outrageâtes         outragâtes",
-    "outragèrent         outragèrent"
-  ],
-  [
-    "ouvrager",
-    "ouvrageai           ouvragai",
-    "ouvrageas           ouvragas",
-    "ouvragea            ouvraga",
-    "ouvrageâmes         ouvragâmes",
-    "ouvrageâtes         ouvragâtes",
-    "ouvragèrent         ouvragèrent"
-  ],
-  [
-    "pacager",
-    "pacageai            pacagai",
-    "pacageas            pacagas",
-    "pacagea             pacaga",
-    "pacageâmes          pacagâmes",
-    "pacageâtes          pacagâtes",
-    "pacagèrent          pacagèrent"
-  ],
-  [
-    "pager",
-    "pageai              pagai",
-    "pageas              pagas",
-    "pagea               paga",
-    "pageâmes            pagâmes",
-    "pageâtes            pagâtes",
-    "pagèrent            pagèrent"
-  ],
-  [
-    "partager",
-    "partageai           partagai",
-    "partageas           partagas",
-    "partagea            partaga",
-    "partageâmes         partagâmes",
-    "partageâtes         partagâtes",
-    "partagèrent         partagèrent"
-  ],
-  [
-    "patauger",
-    "pataugeai           pataugai",
-    "pataugeas           pataugas",
-    "pataugea            patauga",
-    "pataugeâmes         pataugâmes",
-    "pataugeâtes         pataugâtes",
-    "pataugèrent         pataugèrent"
-  ],
-  [
-    "paysager",
-    "paysageai           paysagai",
-    "paysageas           paysagas",
-    "paysagea            paysaga",
-    "paysageâmes         paysagâmes",
-    "paysageâtes         paysagâtes",
-    "paysagèrent         paysagèrent"
-  ],
-  [
     "percer",
     "perçai              percai",
     "perças              percas",
@@ -1798,15 +637,6 @@
     "perçâmes            percâmes",
     "perçâtes            percâtes",
     "percèrent           percèrent"
-  ],
-  [
-    "piger",
-    "pigeai              pigai",
-    "pigeas              pigas",
-    "pigea               piga",
-    "pigeâmes            pigâmes",
-    "pigeâtes            pigâtes",
-    "pigèrent            pigèrent"
   ],
   [
     "pincer",
@@ -1827,15 +657,6 @@
     "pioncèrent          pioncèrent"
   ],
   [
-    "piéger",
-    "piégeai             piégai",
-    "piégeas             piégas",
-    "piégea              piéga",
-    "piégeâmes           piégâmes",
-    "piégeâtes           piégâtes",
-    "piégèrent           piégèrent"
-  ],
-  [
     "placer",
     "plaçai              placai",
     "plaças              placas",
@@ -1843,15 +664,6 @@
     "plaçâmes            placâmes",
     "plaçâtes            placâtes",
     "placèrent           placèrent"
-  ],
-  [
-    "plonger",
-    "plongeai            plongai",
-    "plongeas            plongas",
-    "plongea             plonga",
-    "plongeâmes          plongâmes",
-    "plongeâtes          plongâtes",
-    "plongèrent          plongèrent"
   ],
   [
     "policer",
@@ -1872,15 +684,6 @@
     "poncèrent           poncèrent"
   ],
   [
-    "prolonger",
-    "prolongeai          prolongai",
-    "prolongeas          prolongas",
-    "prolongea           prolonga",
-    "prolongeâmes        prolongâmes",
-    "prolongeâtes        prolongâtes",
-    "prolongèrent        prolongèrent"
-  ],
-  [
     "prononcer",
     "prononçai           prononcai",
     "prononças           prononcas",
@@ -1888,42 +691,6 @@
     "prononçâmes         prononcâmes",
     "prononçâtes         prononcâtes",
     "prononcèrent        prononcèrent"
-  ],
-  [
-    "propager",
-    "propageai           propagai",
-    "propageas           propagas",
-    "propagea            propaga",
-    "propageâmes         propagâmes",
-    "propageâtes         propagâtes",
-    "propagèrent         propagèrent"
-  ],
-  [
-    "proroger",
-    "prorogeai           prorogai",
-    "prorogeas           prorogas",
-    "prorogea            proroga",
-    "prorogeâmes         prorogâmes",
-    "prorogeâtes         prorogâtes",
-    "prorogèrent         prorogèrent"
-  ],
-  [
-    "protéger",
-    "protégeai           protégai",
-    "protégeas           protégas",
-    "protégea            protéga",
-    "protégeâmes         protégâmes",
-    "protégeâtes         protégâtes",
-    "protégèrent         protégèrent"
-  ],
-  [
-    "précharger",
-    "préchargeai         préchargai",
-    "préchargeas         préchargas",
-    "préchargea          précharga",
-    "préchargeâmes       préchargâmes",
-    "préchargeâtes       préchargâtes",
-    "préchargèrent       préchargèrent"
   ],
   [
     "préfacer",
@@ -1944,42 +711,6 @@
     "préfinancèrent      préfinancèrent"
   ],
   [
-    "préjuger",
-    "préjugeai           préjugai",
-    "préjugeas           préjugas",
-    "préjugea            préjuga",
-    "préjugeâmes         préjugâmes",
-    "préjugeâtes         préjugâtes",
-    "préjugèrent         préjugèrent"
-  ],
-  [
-    "présager",
-    "présageai           présagai",
-    "présageas           présagas",
-    "présagea            présaga",
-    "présageâmes         présagâmes",
-    "présageâtes         présagâtes",
-    "présagèrent         présagèrent"
-  ],
-  [
-    "purger",
-    "purgeai             purgai",
-    "purgeas             purgas",
-    "purgea              purga",
-    "purgeâmes           purgâmes",
-    "purgeâtes           purgâtes",
-    "purgèrent           purgèrent"
-  ],
-  [
-    "quartager",
-    "quartageai          quartagai",
-    "quartageas          quartagas",
-    "quartagea           quartaga",
-    "quartageâmes        quartagâmes",
-    "quartageâtes        quartagâtes",
-    "quartagèrent        quartagèrent"
-  ],
-  [
     "quittancer",
     "quittançai          quittancai",
     "quittanças          quittancas",
@@ -1987,51 +718,6 @@
     "quittançâmes        quittancâmes",
     "quittançâtes        quittancâtes",
     "quittancèrent       quittancèrent"
-  ],
-  [
-    "rager",
-    "rageai              ragai",
-    "rageas              ragas",
-    "ragea               raga",
-    "rageâmes            ragâmes",
-    "rageâtes            ragâtes",
-    "ragèrent            ragèrent"
-  ],
-  [
-    "rallonger",
-    "rallongeai          rallongai",
-    "rallongeas          rallongas",
-    "rallongea           rallonga",
-    "rallongeâmes        rallongâmes",
-    "rallongeâtes        rallongâtes",
-    "rallongèrent        rallongèrent"
-  ],
-  [
-    "ralléger",
-    "rallégeai           rallégai",
-    "rallégeas           rallégas",
-    "rallégea            ralléga",
-    "rallégeâmes         rallégâmes",
-    "rallégeâtes         rallégâtes",
-    "rallégèrent         rallégèrent"
-  ],
-  [
-    "ramager",
-    "ramageai            ramagai",
-    "ramageas            ramagas",
-    "ramagea             ramaga",
-    "ramageâmes          ramagâmes",
-    "ramageâtes          ramagâtes",
-    "ramagèrent          ramagèrent"
-  ],
-  [
-    "ranger",
-    "rangeai             rangai",
-    "rangeas             rangas",
-    "rangea              ranga",
-    "rangeâmes           rangâmes",
-    "rangeâtes           rangâtes",
-    "rangèrent           rangèrent"
   ],
   [
     "rapiécer",
@@ -2043,33 +729,6 @@
     "rapiécèrent         rapiécèrent"
   ],
   [
-    "ravager",
-    "ravageai            ravagai",
-    "ravageas            ravagas",
-    "ravagea             ravaga",
-    "ravageâmes          ravagâmes",
-    "ravageâtes          ravagâtes",
-    "ravagèrent          ravagèrent"
-  ],
-  [
-    "rechanger",
-    "rechangeai          rechangai",
-    "rechangeas          rechangas",
-    "rechangea           rechanga",
-    "rechangeâmes        rechangâmes",
-    "rechangeâtes        rechangâtes",
-    "rechangèrent        rechangèrent"
-  ],
-  [
-    "recharger",
-    "rechargeai          rechargai",
-    "rechargeas          rechargas",
-    "rechargea           recharga",
-    "rechargeâmes        rechargâmes",
-    "rechargeâtes        rechargâtes",
-    "rechargèrent        rechargèrent"
-  ],
-  [
     "recommencer",
     "recommençai         recommencai",
     "recommenças         recommencas",
@@ -2079,24 +738,6 @@
     "recommencèrent      recommencèrent"
   ],
   [
-    "recorriger",
-    "recorrigeai         recorrigai",
-    "recorrigeas         recorrigas",
-    "recorrigea          recorriga",
-    "recorrigeâmes       recorrigâmes",
-    "recorrigeâtes       recorrigâtes",
-    "recorrigèrent       recorrigèrent"
-  ],
-  [
-    "rediriger",
-    "redirigeai          redirigai",
-    "redirigeas          redirigas",
-    "redirigea           rediriga",
-    "redirigeâmes        redirigâmes",
-    "redirigeâtes        redirigâtes",
-    "redirigèrent        redirigèrent"
-  ],
-  [
     "refinancer",
     "refinançai          refinancai",
     "refinanças          refinancas",
@@ -2104,33 +745,6 @@
     "refinançâmes        refinancâmes",
     "refinançâtes        refinancâtes",
     "refinancèrent       refinancèrent"
-  ],
-  [
-    "reforger",
-    "reforgeai           reforgai",
-    "reforgeas           reforgas",
-    "reforgea            reforga",
-    "reforgeâmes         reforgâmes",
-    "reforgeâtes         reforgâtes",
-    "reforgèrent         reforgèrent"
-  ],
-  [
-    "regorger",
-    "regorgeai           regorgai",
-    "regorgeas           regorgas",
-    "regorgea            regorga",
-    "regorgeâmes         regorgâmes",
-    "regorgeâtes         regorgâtes",
-    "regorgèrent         regorgèrent"
-  ],
-  [
-    "rejuger",
-    "rejugeai            rejugai",
-    "rejugeas            rejugas",
-    "rejugea             rejuga",
-    "rejugeâmes          rejugâmes",
-    "rejugeâtes          rejugâtes",
-    "rejugèrent          rejugèrent"
   ],
   [
     "relacer",
@@ -2149,24 +763,6 @@
     "relançâmes          relancâmes",
     "relançâtes          relancâtes",
     "relancèrent         relancèrent"
-  ],
-  [
-    "reloger",
-    "relogeai            relogai",
-    "relogeas            relogas",
-    "relogea             reloga",
-    "relogeâmes          relogâmes",
-    "relogeâtes          relogâtes",
-    "relogèrent          relogèrent"
-  ],
-  [
-    "remanger",
-    "remangeai           remangai",
-    "remangeas           remangas",
-    "remangea            remanga",
-    "remangeâmes         remangâmes",
-    "remangeâtes         remangâtes",
-    "remangèrent         remangèrent"
   ],
   [
     "remplacer",
@@ -2196,24 +792,6 @@
     "renforcèrent        renforcèrent"
   ],
   [
-    "rengager",
-    "rengageai           rengagai",
-    "rengageas           rengagas",
-    "rengagea            rengaga",
-    "rengageâmes         rengagâmes",
-    "rengageâtes         rengagâtes",
-    "rengagèrent         rengagèrent"
-  ],
-  [
-    "rengorger",
-    "rengorgeai          rengorgai",
-    "rengorgeas          rengorgas",
-    "rengorgea           rengorga",
-    "rengorgeâmes        rengorgâmes",
-    "rengorgeâtes        rengorgâtes",
-    "rengorgèrent        rengorgèrent"
-  ],
-  [
     "renoncer",
     "renonçai            renoncai",
     "renonças            renoncas",
@@ -2221,15 +799,6 @@
     "renonçâmes          renoncâmes",
     "renonçâtes          renoncâtes",
     "renoncèrent         renoncèrent"
-  ],
-  [
-    "repartager",
-    "repartageai         repartagai",
-    "repartageas         repartagas",
-    "repartagea          repartaga",
-    "repartageâmes       repartagâmes",
-    "repartageâtes       repartagâtes",
-    "repartagèrent       repartagèrent"
   ],
   [
     "repercer",
@@ -2248,24 +817,6 @@
     "replaçâmes          replacâmes",
     "replaçâtes          replacâtes",
     "replacèrent         replacèrent"
-  ],
-  [
-    "replonger",
-    "replongeai          replongai",
-    "replongeas          replongas",
-    "replongea           replonga",
-    "replongeâmes        replongâmes",
-    "replongeâtes        replongâtes",
-    "replongèrent        replongèrent"
-  ],
-  [
-    "repurger",
-    "repurgeai           repurgai",
-    "repurgeas           repurgas",
-    "repurgea            repurga",
-    "repurgeâmes         repurgâmes",
-    "repurgeâtes         repurgâtes",
-    "repurgèrent         repurgèrent"
   ],
   [
     "ressourcer",
@@ -2313,15 +864,6 @@
     "romancèrent         romancèrent"
   ],
   [
-    "ronger",
-    "rongeai             rongai",
-    "rongeas             rongas",
-    "rongea              ronga",
-    "rongeâmes           rongâmes",
-    "rongeâtes           rongâtes",
-    "rongèrent           rongèrent"
-  ],
-  [
     "réagencer",
     "réagençai           réagencai",
     "réagenças           réagencas",
@@ -2338,42 +880,6 @@
     "réamorçâmes         réamorcâmes",
     "réamorçâtes         réamorcâtes",
     "réamorcèrent        réamorcèrent"
-  ],
-  [
-    "réaménager",
-    "réaménageai         réaménagai",
-    "réaménageas         réaménagas",
-    "réaménagea          réaménaga",
-    "réaménageâmes       réaménagâmes",
-    "réaménageâtes       réaménagâtes",
-    "réaménagèrent       réaménagèrent"
-  ],
-  [
-    "réarranger",
-    "réarrangeai         réarrangai",
-    "réarrangeas         réarrangas",
-    "réarrangea          réarranga",
-    "réarrangeâmes       réarrangâmes",
-    "réarrangeâtes       réarrangâtes",
-    "réarrangèrent       réarrangèrent"
-  ],
-  [
-    "rédiger",
-    "rédigeai            rédigai",
-    "rédigeas            rédigas",
-    "rédigea             rédiga",
-    "rédigeâmes          rédigâmes",
-    "rédigeâtes          rédigâtes",
-    "rédigèrent          rédigèrent"
-  ],
-  [
-    "réengager",
-    "réengageai          réengagai",
-    "réengageas          réengagas",
-    "réengagea           réengaga",
-    "réengageâmes        réengagâmes",
-    "réengageâtes        réengagâtes",
-    "réengagèrent        réengagèrent"
   ],
   [
     "réensemencer",
@@ -2394,42 +900,6 @@
     "référencèrent       référencèrent"
   ],
   [
-    "réinterroger",
-    "réinterrogeai       réinterrogai",
-    "réinterrogeas       réinterrogas",
-    "réinterrogea        réinterroga",
-    "réinterrogeâmes     réinterrogâmes",
-    "réinterrogeâtes     réinterrogâtes",
-    "réinterrogèrent     réinterrogèrent"
-  ],
-  [
-    "réémerger",
-    "réémergeai          réémergai",
-    "réémergeas          réémergas",
-    "réémergea           réémerga",
-    "réémergeâmes        réémergâmes",
-    "réémergeâtes        réémergâtes",
-    "réémergèrent        réémergèrent"
-  ],
-  [
-    "réériger",
-    "réérigeai           réérigai",
-    "réérigeas           réérigas",
-    "réérigea            réériga",
-    "réérigeâmes         réérigâmes",
-    "réérigeâtes         réérigâtes",
-    "réérigèrent         réérigèrent"
-  ],
-  [
-    "saccager",
-    "saccageai           saccagai",
-    "saccageas           saccagas",
-    "saccagea            saccaga",
-    "saccageâmes         saccagâmes",
-    "saccageâtes         saccagâtes",
-    "saccagèrent         saccagèrent"
-  ],
-  [
     "saucer",
     "sauçai              saucai",
     "sauças              saucas",
@@ -2448,60 +918,6 @@
     "semoncèrent         semoncèrent"
   ],
   [
-    "singer",
-    "singeai             singai",
-    "singeas             singas",
-    "singea              singa",
-    "singeâmes           singâmes",
-    "singeâtes           singâtes",
-    "singèrent           singèrent"
-  ],
-  [
-    "siéger",
-    "siégeai             siégai",
-    "siégeas             siégas",
-    "siégea              siéga",
-    "siégeâmes           siégâmes",
-    "siégeâtes           siégâtes",
-    "siégèrent           siégèrent"
-  ],
-  [
-    "songer",
-    "songeai             songai",
-    "songeas             songas",
-    "songea              songa",
-    "songeâmes           songâmes",
-    "songeâtes           songâtes",
-    "songèrent           songèrent"
-  ],
-  [
-    "soulager",
-    "soulageai           soulagai",
-    "soulageas           soulagas",
-    "soulagea            soulaga",
-    "soulageâmes         soulagâmes",
-    "soulageâtes         soulagâtes",
-    "soulagèrent         soulagèrent"
-  ],
-  [
-    "submerger",
-    "submergeai          submergai",
-    "submergeas          submergas",
-    "submergea           submerga",
-    "submergeâmes        submergâmes",
-    "submergeâtes        submergâtes",
-    "submergèrent        submergèrent"
-  ],
-  [
-    "subroger",
-    "subrogeai           subrogai",
-    "subrogeas           subrogas",
-    "subrogea            subroga",
-    "subrogeâmes         subrogâmes",
-    "subrogeâtes         subrogâtes",
-    "subrogèrent         subrogèrent"
-  ],
-  [
     "sucer",
     "suçai               sucai",
     "suças               sucas",
@@ -2511,15 +927,6 @@
     "sucèrent            sucèrent"
   ],
   [
-    "surcharger",
-    "surchargeai         surchargai",
-    "surchargeas         surchargas",
-    "surchargea          surcharga",
-    "surchargeâmes       surchargâmes",
-    "surchargeâtes       surchargâtes",
-    "surchargèrent       surchargèrent"
-  ],
-  [
     "surfacer",
     "surfaçai            surfacai",
     "surfaças            surfacas",
@@ -2527,24 +934,6 @@
     "surfaçâmes          surfacâmes",
     "surfaçâtes          surfacâtes",
     "surfacèrent         surfacèrent"
-  ],
-  [
-    "surnager",
-    "surnageai           surnagai",
-    "surnageas           surnagas",
-    "surnagea            surnaga",
-    "surnageâmes         surnagâmes",
-    "surnageâtes         surnagâtes",
-    "surnagèrent         surnagèrent"
-  ],
-  [
-    "surprotéger",
-    "surprotégeai        surprotégai",
-    "surprotégeas        surprotégas",
-    "surprotégea         surprotéga",
-    "surprotégeâmes      surprotégâmes",
-    "surprotégeâtes      surprotégâtes",
-    "surprotégèrent      surprotégèrent"
   ],
   [
     "séquencer",
@@ -2574,15 +963,6 @@
     "tancèrent           tancèrent"
   ],
   [
-    "tapager",
-    "tapageai            tapagai",
-    "tapageas            tapagas",
-    "tapagea             tapaga",
-    "tapageâmes          tapagâmes",
-    "tapageâtes          tapagâtes",
-    "tapagèrent          tapagèrent"
-  ],
-  [
     "tercer",
     "terçai              tercai",
     "terças              tercas",
@@ -2610,15 +990,6 @@
     "tracèrent           tracèrent"
   ],
   [
-    "transiger",
-    "transigeai          transigai",
-    "transigeas          transigas",
-    "transigea           transiga",
-    "transigeâmes        transigâmes",
-    "transigeâtes        transigâtes",
-    "transigèrent        transigèrent"
-  ],
-  [
     "transpercer",
     "transperçai         transpercai",
     "transperças         transpercas",
@@ -2626,78 +997,6 @@
     "transperçâmes       transpercâmes",
     "transperçâtes       transpercâtes",
     "transpercèrent      transpercèrent"
-  ],
-  [
-    "treillager",
-    "treillageai         treillagai",
-    "treillageas         treillagas",
-    "treillagea          treillaga",
-    "treillageâmes       treillagâmes",
-    "treillageâtes       treillagâtes",
-    "treillagèrent       treillagèrent"
-  ],
-  [
-    "télécharger",
-    "téléchargeai        téléchargai",
-    "téléchargeas        téléchargas",
-    "téléchargea         télécharga",
-    "téléchargeâmes      téléchargâmes",
-    "téléchargeâtes      téléchargâtes",
-    "téléchargèrent      téléchargèrent"
-  ],
-  [
-    "télédiriger",
-    "télédirigeai        télédirigai",
-    "télédirigeas        télédirigas",
-    "télédirigea         télédiriga",
-    "télédirigeâmes      télédirigâmes",
-    "télédirigeâtes      télédirigâtes",
-    "télédirigèrent      télédirigèrent"
-  ],
-  [
-    "urger",
-    "urgeai              urgai",
-    "urgeas              urgas",
-    "urgea               urga",
-    "urgeâmes            urgâmes",
-    "urgeâtes            urgâtes",
-    "urgèrent            urgèrent"
-  ],
-  [
-    "usager",
-    "usageai             usagai",
-    "usageas             usagas",
-    "usagea              usaga",
-    "usageâmes           usagâmes",
-    "usageâtes           usagâtes",
-    "usagèrent           usagèrent"
-  ],
-  [
-    "vendanger",
-    "vendangeai          vendangai",
-    "vendangeas          vendangas",
-    "vendangea           vendanga",
-    "vendangeâmes        vendangâmes",
-    "vendangeâtes        vendangâtes",
-    "vendangèrent        vendangèrent"
-  ],
-  [
-    "venger",
-    "vengeai             vengai",
-    "vengeas             vengas",
-    "vengea              venga",
-    "vengeâmes           vengâmes",
-    "vengeâtes           vengâtes",
-    "vengèrent           vengèrent"
-  ],
-  [
-    "verbiager",
-    "verbiageai          verbiagai",
-    "verbiageas          verbiagas",
-    "verbiagea           verbiaga",
-    "verbiageâmes        verbiagâmes",
-    "verbiageâtes        verbiagâtes",
-    "verbiagèrent        verbiagèrent"
   ],
   [
     "verglacer",
@@ -2709,15 +1008,6 @@
     "verglacèrent        verglacèrent"
   ],
   [
-    "vidanger",
-    "vidangeai           vidangai",
-    "vidangeas           vidangas",
-    "vidangea            vidanga",
-    "vidangeâmes         vidangâmes",
-    "vidangeâtes         vidangâtes",
-    "vidangèrent         vidangèrent"
-  ],
-  [
     "violacer",
     "violaçai            violacai",
     "violaças            violacas",
@@ -2725,42 +1015,6 @@
     "violaçâmes          violacâmes",
     "violaçâtes          violacâtes",
     "violacèrent         violacèrent"
-  ],
-  [
-    "voliger",
-    "voligeai            voligai",
-    "voligeas            voligas",
-    "voligea             voliga",
-    "voligeâmes          voligâmes",
-    "voligeâtes          voligâtes",
-    "voligèrent          voligèrent"
-  ],
-  [
-    "voltiger",
-    "voltigeai           voltigai",
-    "voltigeas           voltigas",
-    "voltigea            voltiga",
-    "voltigeâmes         voltigâmes",
-    "voltigeâtes         voltigâtes",
-    "voltigèrent         voltigèrent"
-  ],
-  [
-    "voyager",
-    "voyageai            voyagai",
-    "voyageas            voyagas",
-    "voyagea             voyaga",
-    "voyageâmes          voyagâmes",
-    "voyageâtes          voyagâtes",
-    "voyagèrent          voyagèrent"
-  ],
-  [
-    "échanger",
-    "échangeai           échangai",
-    "échangeas           échangas",
-    "échangea            échanga",
-    "échangeâmes         échangâmes",
-    "échangeâtes         échangâtes",
-    "échangèrent         échangèrent"
   ],
   [
     "écorcer",
@@ -2772,24 +1026,6 @@
     "écorcèrent          écorcèrent"
   ],
   [
-    "égorger",
-    "égorgeai            égorgai",
-    "égorgeas            égorgas",
-    "égorgea             égorga",
-    "égorgeâmes          égorgâmes",
-    "égorgeâtes          égorgâtes",
-    "égorgèrent          égorgèrent"
-  ],
-  [
-    "égruger",
-    "égrugeai            égrugai",
-    "égrugeas            égrugas",
-    "égrugea             égruga",
-    "égrugeâmes          égrugâmes",
-    "égrugeâtes          égrugâtes",
-    "égrugèrent          égrugèrent"
-  ],
-  [
     "élancer",
     "élançai             élancai",
     "élanças             élancas",
@@ -2797,33 +1033,6 @@
     "élançâmes           élancâmes",
     "élançâtes           élancâtes",
     "élancèrent          élancèrent"
-  ],
-  [
-    "élonger",
-    "élongeai            élongai",
-    "élongeas            élongas",
-    "élongea             élonga",
-    "élongeâmes          élongâmes",
-    "élongeâtes          élongâtes",
-    "élongèrent          élongèrent"
-  ],
-  [
-    "émarger",
-    "émargeai            émargai",
-    "émargeas            émargas",
-    "émargea             émarga",
-    "émargeâmes          émargâmes",
-    "émargeâtes          émargâtes",
-    "émargèrent          émargèrent"
-  ],
-  [
-    "émerger",
-    "émergeai            émergai",
-    "émergeas            émergas",
-    "émergea             émerga",
-    "émergeâmes          émergâmes",
-    "émergeâtes          émergâtes",
-    "émergèrent          émergèrent"
   ],
   [
     "émincer",
@@ -2862,15 +1071,6 @@
     "épincèrent          épincèrent"
   ],
   [
-    "éponger",
-    "épongeai            épongai",
-    "épongeas            épongas",
-    "épongea             éponga",
-    "épongeâmes          épongâmes",
-    "épongeâtes          épongâtes",
-    "épongèrent          épongèrent"
-  ],
-  [
     "épucer",
     "épuçai              épucai",
     "épuças              épucas",
@@ -2878,33 +1078,6 @@
     "épuçâmes            épucâmes",
     "épuçâtes            épucâtes",
     "épucèrent           épucèrent"
-  ],
-  [
-    "ériger",
-    "érigeai             érigai",
-    "érigeas             érigas",
-    "érigea              ériga",
-    "érigeâmes           érigâmes",
-    "érigeâtes           érigâtes",
-    "érigèrent           érigèrent"
-  ],
-  [
-    "étager",
-    "étageai             étagai",
-    "étageas             étagas",
-    "étagea              étaga",
-    "étageâmes           étagâmes",
-    "étageâtes           étagâtes",
-    "étagèrent           étagèrent"
-  ],
-  [
-    "étalager",
-    "étalageai           étalagai",
-    "étalageas           étalagas",
-    "étalagea            étalaga",
-    "étalageâmes         étalagâmes",
-    "étalageâtes         étalagâtes",
-    "étalagèrent         étalagèrent"
   ],
   [
     "évincer",
