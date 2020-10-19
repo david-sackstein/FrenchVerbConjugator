@@ -4,6 +4,8 @@ namespace ConjugatorLibrary
 {
     public static class SubjonctifImparfaitConjugator
     {
+        private static readonly string[] Endings = { "asse", "asses", "ât", "assions", "assiez", "assent" };
+
         public static string[] GetConjugations(string verb)
         {
             var stem = verb.Remove(verb.Length - 2);
@@ -13,12 +15,12 @@ namespace ConjugatorLibrary
             {
                 stem = stem.ReplaceAt(-1, 'ç');
             }
-            
-            var endings = new[] {"asse", "asses", "ât", "assions", "assiez", "assent" };
+
+            var endings = Endings;
             // soften the g before the 'a' by adding an e
             if (verb[^3] == 'g')
             {
-                endings = endings.Select(ending => "e" + ending).ToArray();
+                endings = Endings.Select(ending => "e" + ending).ToArray();
             }
 
             return stem.AddEndings(endings);

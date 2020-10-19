@@ -2,7 +2,7 @@
 {
     public static class PasseSimpleConjugator
     {
-        public static string[] Endings { get; } = {"ais", "ais", "ait", "ions", "iez", "aient"};
+        static string[] Endings { get; } = {"ai", "as", "a", "âmes", "âtes", "èrent" };
 
         public static string[] GetConjugations(string verb)
         {
@@ -10,18 +10,18 @@
 
             string[] endings = Endings;
 
-            if (verb[^3] == 'g')
-            {
-                endings = endings.MatchNousVous(s => "e" + s);
-            }
+            //if (verb[^3] == 'g')
+            //{
+            //    endings = endings.MatchNousVous(s => "e" + s);
+            //}
 
             string[] withEndings = stem.AddEndings(endings);
 
             // soften the c with a cedilla before an 'a'
-            if (verb[^3] == 'c')
-            {
-                withEndings = withEndings.MatchNousVous(s => s.ReplaceAt(stem.Length - 1, 'ç'));
-            }
+            //if (verb[^3] == 'c')
+            //{
+            //    withEndings = withEndings.MatchNousVous(s => s.ReplaceAt(stem.Length - 1, 'ç'));
+            //}
 
             return withEndings;
         }
