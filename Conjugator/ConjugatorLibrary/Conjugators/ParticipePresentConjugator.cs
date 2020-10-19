@@ -4,12 +4,18 @@
     {
         public static string[] GetConjugations(string verb)
         {
-            string stem = GetStem(verb);
+            string stem = GetStem1(verb);
+            return new[] {stem + "ant"};
+        }
+
+        private static string GetStem1(string verb)
+        {
+            string stem = verb.Remove(verb.Length - 2);
             if (verb[^3] == 'g')
             {
-                stem = stem + "e";
+                return stem + "e";
             }
-            return new[] {stem + "ant"};
+            return stem;
         }
 
         private static string GetStem(string verb)
