@@ -9,7 +9,6 @@ namespace ConjugatorLibrary
         public static string[] GetConjugations(string verb)
         {
             string stem = GetStem(verb);
-
             var endings = Endings;
 
             // soften the g before the 'a' by adding an e
@@ -18,7 +17,15 @@ namespace ConjugatorLibrary
                 endings = Endings.Select((ending, i) => i != 5 ? "e" + ending : ending).ToArray();
             }
 
-            return stem.AddEndings(endings);
+            string[] withEndings = stem.AddEndings(endings);
+
+            // soften the c with a cedilla
+            if (verb[^3] == 'c')
+            {
+                withEndings = withEndings.Select((withEnding, i) => i != 5 ? withEnding.ReplaceAt(stem.Length-1, 'ç') : withEnding).ToArray();
+            }
+
+            return withEndings;
         }
 
         private static string GetStem(string verb)
