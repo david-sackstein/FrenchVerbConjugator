@@ -1,23 +1,5 @@
 [
   [
-    "abroger",
-    "abrogeasse          abrogasse",
-    "abrogeasses         abrogasses",
-    "abrogeât            abrogât",
-    "abrogeassions       abrogassions",
-    "abrogeassiez        abrogassiez",
-    "abrogeassent        abrogassent"
-  ],
-  [
-    "abréger",
-    "abrégeasse          abrégasse",
-    "abrégeasses         abrégasses",
-    "abrégeât            abrégât",
-    "abrégeassions       abrégassions",
-    "abrégeassiez        abrégassiez",
-    "abrégeassent        abrégassent"
-  ],
-  [
     "acquiescer",
     "acquiesçasse        acquiescasse",
     "acquiesçasses       acquiescasses",
@@ -25,33 +7,6 @@
     "acquiesçassions     acquiescassions",
     "acquiesçassiez      acquiescassiez",
     "acquiesçassent      acquiescassent"
-  ],
-  [
-    "adjuger",
-    "adjugeasse          adjugasse",
-    "adjugeasses         adjugasses",
-    "adjugeât            adjugât",
-    "adjugeassions       adjugassions",
-    "adjugeassiez        adjugassiez",
-    "adjugeassent        adjugassent"
-  ],
-  [
-    "affliger",
-    "affligeasse         affligasse",
-    "affligeasses        affligasses",
-    "affligeât           affligât",
-    "affligeassions      affligassions",
-    "affligeassiez       affligassiez",
-    "affligeassent       affligassent"
-  ],
-  [
-    "affourager",
-    "affourageasse       affouragasse",
-    "affourageasses      affouragasses",
-    "affourageât         affouragât",
-    "affourageassions    affouragassions",
-    "affourageassiez     affouragassiez",
-    "affourageassent     affouragassent"
   ],
   [
     "agacer",
@@ -72,33 +27,6 @@
     "agençassent         agencassent"
   ],
   [
-    "agréger",
-    "agrégeasse          agrégasse",
-    "agrégeasses         agrégasses",
-    "agrégeât            agrégât",
-    "agrégeassions       agrégassions",
-    "agrégeassiez        agrégassiez",
-    "agrégeassent        agrégassent"
-  ],
-  [
-    "allonger",
-    "allongeasse         allongasse",
-    "allongeasses        allongasses",
-    "allongeât           allongât",
-    "allongeassions      allongassions",
-    "allongeassiez       allongassiez",
-    "allongeassent       allongassent"
-  ],
-  [
-    "alléger",
-    "allégeasse          allégasse",
-    "allégeasses         allégasses",
-    "allégeât            allégât",
-    "allégeassions       allégassions",
-    "allégeassiez        allégassiez",
-    "allégeassent        allégassent"
-  ],
-  [
     "amorcer",
     "amorçasse           amorcasse",
     "amorçasses          amorcasses",
@@ -108,15 +36,6 @@
     "amorçassent         amorcassent"
   ],
   [
-    "aménager",
-    "aménageasse         aménagasse",
-    "aménageasses        aménagasses",
-    "aménageât           aménagât",
-    "aménageassions      aménagassions",
-    "aménageassiez       aménagassiez",
-    "aménageassent       aménagassent"
-  ],
-  [
     "annoncer",
     "annonçasse          annoncasse",
     "annonçasses         annoncasses",
@@ -124,78 +43,6 @@
     "annonçassions       annoncassions",
     "annonçassiez        annoncassiez",
     "annonçassent        annoncassent"
-  ],
-  [
-    "apanager",
-    "apanageasse         apanagasse",
-    "apanageasses        apanagasses",
-    "apanageât           apanagât",
-    "apanageassions      apanagassions",
-    "apanageassiez       apanagassiez",
-    "apanageassent       apanagassent"
-  ],
-  [
-    "arpéger",
-    "arpégeasse          arpégasse",
-    "arpégeasses         arpégasses",
-    "arpégeât            arpégât",
-    "arpégeassions       arpégassions",
-    "arpégeassiez        arpégassiez",
-    "arpégeassent        arpégassent"
-  ],
-  [
-    "arranger",
-    "arrangeasse         arrangasse",
-    "arrangeasses        arrangasses",
-    "arrangeât           arrangât",
-    "arrangeassions      arrangassions",
-    "arrangeassiez       arrangassiez",
-    "arrangeassent       arrangassent"
-  ],
-  [
-    "arroger",
-    "arrogeasse          arrogasse",
-    "arrogeasses         arrogasses",
-    "arrogeât            arrogât",
-    "arrogeassions       arrogassions",
-    "arrogeassiez        arrogassiez",
-    "arrogeassent        arrogassent"
-  ],
-  [
-    "arrérager",
-    "arrérageasse        arréragasse",
-    "arrérageasses       arréragasses",
-    "arrérageât          arréragât",
-    "arrérageassions     arréragassions",
-    "arrérageassiez      arréragassiez",
-    "arrérageassent      arréragassent"
-  ],
-  [
-    "asperger",
-    "aspergeasse         aspergasse",
-    "aspergeasses        aspergasses",
-    "aspergeât           aspergât",
-    "aspergeassions      aspergassions",
-    "aspergeassiez       aspergassiez",
-    "aspergeassent       aspergassent"
-  ],
-  [
-    "assiéger",
-    "assiégeasse         assiégasse",
-    "assiégeasses        assiégasses",
-    "assiégeât           assiégât",
-    "assiégeassions      assiégassions",
-    "assiégeassiez       assiégassiez",
-    "assiégeassent       assiégassent"
-  ],
-  [
-    "attiger",
-    "attigeasse          attigasse",
-    "attigeasses         attigasses",
-    "attigeât            attigât",
-    "attigeassions       attigassions",
-    "attigeassiez        attigassiez",
-    "attigeassent        attigassent"
   ],
   [
     "autodénoncer",
@@ -216,15 +63,6 @@
     "autofinançassent    autofinancassent"
   ],
   [
-    "autoprotéger",
-    "autoprotégeasse     autoprotégasse",
-    "autoprotégeasses    autoprotégasses",
-    "autoprotégeât       autoprotégât",
-    "autoprotégeassions  autoprotégassions",
-    "autoprotégeassiez   autoprotégassiez",
-    "autoprotégeassent   autoprotégassent"
-  ],
-  [
     "autorenforcer",
     "autorenforçasse     autorenforcasse",
     "autorenforçasses    autorenforcasses",
@@ -243,24 +81,6 @@
     "avançassent         avancassent"
   ],
   [
-    "avantager",
-    "avantageasse        avantagasse",
-    "avantageasses       avantagasses",
-    "avantageât          avantagât",
-    "avantageassions     avantagassions",
-    "avantageassiez      avantagassiez",
-    "avantageassent      avantagassent"
-  ],
-  [
-    "badger",
-    "badgeasse           badgasse",
-    "badgeasses          badgasses",
-    "badgeât             badgât",
-    "badgeassions        badgassions",
-    "badgeassiez         badgassiez",
-    "badgeassent         badgassent"
-  ],
-  [
     "balancer",
     "balançasse          balancasse",
     "balançasses         balancasses",
@@ -268,15 +88,6 @@
     "balançassions       balancassions",
     "balançassiez        balancassiez",
     "balançassent        balancassent"
-  ],
-  [
-    "bauger",
-    "baugeasse           baugasse",
-    "baugeasses          baugasses",
-    "baugeât             baugât",
-    "baugeassions        baugassions",
-    "baugeassiez         baugassiez",
-    "baugeassent         baugassent"
   ],
   [
     "bercer",
@@ -288,33 +99,6 @@
     "berçassent          bercassent"
   ],
   [
-    "bouger",
-    "bougeasse           bougasse",
-    "bougeasses          bougasses",
-    "bougeât             bougât",
-    "bougeassions        bougassions",
-    "bougeassiez         bougassiez",
-    "bougeassent         bougassent"
-  ],
-  [
-    "boulanger",
-    "boulangeasse        boulangasse",
-    "boulangeasses       boulangasses",
-    "boulangeât          boulangât",
-    "boulangeassions     boulangassions",
-    "boulangeassiez      boulangassiez",
-    "boulangeassent      boulangassent"
-  ],
-  [
-    "bridger",
-    "bridgeasse          bridgasse",
-    "bridgeasses         bridgasses",
-    "bridgeât            bridgât",
-    "bridgeassions       bridgassions",
-    "bridgeassiez        bridgassiez",
-    "bridgeassent        bridgassent"
-  ],
-  [
     "cadencer",
     "cadençasse          cadencasse",
     "cadençasses         cadencasses",
@@ -324,15 +108,6 @@
     "cadençassent        cadencassent"
   ],
   [
-    "calorifuger",
-    "calorifugeasse      calorifugasse",
-    "calorifugeasses     calorifugasses",
-    "calorifugeât        calorifugât",
-    "calorifugeassions   calorifugassions",
-    "calorifugeassiez    calorifugassiez",
-    "calorifugeassent    calorifugassent"
-  ],
-  [
     "carencer",
     "carençasse          carencasse",
     "carençasses         carencasses",
@@ -340,51 +115,6 @@
     "carençassions       carencassions",
     "carençassiez        carencassiez",
     "carençassent        carencassent"
-  ],
-  [
-    "centrifuger",
-    "centrifugeasse      centrifugasse",
-    "centrifugeasses     centrifugasses",
-    "centrifugeât        centrifugât",
-    "centrifugeassions   centrifugassions",
-    "centrifugeassiez    centrifugassiez",
-    "centrifugeassent    centrifugassent"
-  ],
-  [
-    "challenger",
-    "challengeasse       challengasse",
-    "challengeasses      challengasses",
-    "challengeât         challengât",
-    "challengeassions    challengassions",
-    "challengeassiez     challengassiez",
-    "challengeassent     challengassent"
-  ],
-  [
-    "changer",
-    "changeasse          changasse",
-    "changeasses         changasses",
-    "changeât            changât",
-    "changeassions       changassions",
-    "changeassiez        changassiez",
-    "changeassent        changassent"
-  ],
-  [
-    "charger",
-    "chargeasse          chargasse",
-    "chargeasses         chargasses",
-    "chargeât            chargât",
-    "chargeassions       chargassions",
-    "chargeassiez        chargassiez",
-    "chargeassent        chargassent"
-  ],
-  [
-    "codiriger",
-    "codirigeasse        codirigasse",
-    "codirigeasses       codirigasses",
-    "codirigeât          codirigât",
-    "codirigeassions     codirigassions",
-    "codirigeassiez      codirigassiez",
-    "codirigeassent      codirigassent"
   ],
   [
     "cofinancer",
@@ -403,15 +133,6 @@
     "coinçassions        coincassions",
     "coinçassiez         coincassiez",
     "coinçassent         coincassent"
-  ],
-  [
-    "colliger",
-    "colligeasse         colligasse",
-    "colligeasses        colligasses",
-    "colligeât           colligât",
-    "colligeassions      colligassions",
-    "colligeassiez       colligassiez",
-    "colligeassent       colligassent"
   ],
   [
     "commencer",
@@ -441,15 +162,6 @@
     "concurrençassent    concurrencassent"
   ],
   [
-    "conjuger",
-    "conjugeasse         conjugasse",
-    "conjugeasses        conjugasses",
-    "conjugeât           conjugât",
-    "conjugeassions      conjugassions",
-    "conjugeassiez       conjugassiez",
-    "conjugeassent       conjugassent"
-  ],
-  [
     "contrebalancer",
     "contrebalançasse    contrebalancasse",
     "contrebalançasses   contrebalancasses",
@@ -457,33 +169,6 @@
     "contrebalançassions contrebalancassions",
     "contrebalançassiez  contrebalancassiez",
     "contrebalançassent  contrebalancassent"
-  ],
-  [
-    "converger",
-    "convergeasse        convergasse",
-    "convergeasses       convergasses",
-    "convergeât          convergât",
-    "convergeassions     convergassions",
-    "convergeassiez      convergassiez",
-    "convergeassent      convergassent"
-  ],
-  [
-    "copartager",
-    "copartageasse       copartagasse",
-    "copartageasses      copartagasses",
-    "copartageât         copartagât",
-    "copartageassions    copartagassions",
-    "copartageassiez     copartagassiez",
-    "copartageassent     copartagassent"
-  ],
-  [
-    "corriger",
-    "corrigeasse         corrigasse",
-    "corrigeasses        corrigasses",
-    "corrigeât           corrigât",
-    "corrigeassions      corrigassions",
-    "corrigeassiez       corrigassiez",
-    "corrigeassent       corrigassent"
   ],
   [
     "courroucer",
@@ -504,15 +189,6 @@
     "devançassent        devancassent"
   ],
   [
-    "diriger",
-    "dirigeasse          dirigasse",
-    "dirigeasses         dirigasses",
-    "dirigeât            dirigât",
-    "dirigeassions       dirigassions",
-    "dirigeassiez        dirigassiez",
-    "dirigeassent        dirigassent"
-  ],
-  [
     "distancer",
     "distançasse         distancasse",
     "distançasses        distancasses",
@@ -522,15 +198,6 @@
     "distançassent       distancassent"
   ],
   [
-    "diverger",
-    "divergeasse         divergasse",
-    "divergeasses        divergasses",
-    "divergeât           divergât",
-    "divergeassions      divergassions",
-    "divergeassiez       divergassiez",
-    "divergeassent       divergassent"
-  ],
-  [
     "divorcer",
     "divorçasse          divorcasse",
     "divorçasses         divorcasses",
@@ -538,15 +205,6 @@
     "divorçassions       divorcassions",
     "divorçassiez        divorcassiez",
     "divorçassent        divorcassent"
-  ],
-  [
-    "décharger",
-    "déchargeasse        déchargasse",
-    "déchargeasses       déchargasses",
-    "déchargeât          déchargât",
-    "déchargeassions     déchargassions",
-    "déchargeassiez      déchargassiez",
-    "déchargeassent      déchargassent"
   ],
   [
     "décoincer",
@@ -567,15 +225,6 @@
     "décontenançassent   décontenancassent"
   ],
   [
-    "décourager",
-    "décourageasse       découragasse",
-    "décourageasses      découragasses",
-    "décourageât         découragât",
-    "décourageassions    découragassions",
-    "décourageassiez     découragassiez",
-    "décourageassent     découragassent"
-  ],
-  [
     "dédicacer",
     "dédicaçasse         dédicacasse",
     "dédicaçasses        dédicacasses",
@@ -583,15 +232,6 @@
     "dédicaçassions      dédicacassions",
     "dédicaçassiez       dédicacassiez",
     "dédicaçassent       dédicacassent"
-  ],
-  [
-    "dédommager",
-    "dédommageasse       dédommagasse",
-    "dédommageasses      dédommagasses",
-    "dédommageât         dédommagât",
-    "dédommageassions    dédommagassions",
-    "dédommageassiez     dédommagassiez",
-    "dédommageassent     dédommagassent"
   ],
   [
     "défoncer",
@@ -612,15 +252,6 @@
     "défronçassent       défroncassent"
   ],
   [
-    "dégager",
-    "dégageasse          dégagasse",
-    "dégageasses         dégagasses",
-    "dégageât            dégagât",
-    "dégageassions       dégagassions",
-    "dégageassiez        dégagassiez",
-    "dégageassent        dégagassent"
-  ],
-  [
     "déglacer",
     "déglaçasse          déglacasse",
     "déglaçasses         déglacasses",
@@ -628,33 +259,6 @@
     "déglaçassions       déglacassions",
     "déglaçassiez        déglacassiez",
     "déglaçassent        déglacassent"
-  ],
-  [
-    "dégorger",
-    "dégorgeasse         dégorgasse",
-    "dégorgeasses        dégorgasses",
-    "dégorgeât           dégorgât",
-    "dégorgeassions      dégorgassions",
-    "dégorgeassiez       dégorgassiez",
-    "dégorgeassent       dégorgassent"
-  ],
-  [
-    "déjauger",
-    "déjaugeasse         déjaugasse",
-    "déjaugeasses        déjaugasses",
-    "déjaugeât           déjaugât",
-    "déjaugeassions      déjaugassions",
-    "déjaugeassiez       déjaugassiez",
-    "déjaugeassent       déjaugassent"
-  ],
-  [
-    "déjuger",
-    "déjugeasse          déjugasse",
-    "déjugeasses         déjugasses",
-    "déjugeât            déjugât",
-    "déjugeassions       déjugassions",
-    "déjugeassiez        déjugassiez",
-    "déjugeassent        déjugassent"
   ],
   [
     "délacer",
@@ -666,51 +270,6 @@
     "délaçassent         délacassent"
   ],
   [
-    "déloger",
-    "délogeasse          délogasse",
-    "délogeasses         délogasses",
-    "délogeât            délogât",
-    "délogeassions       délogassions",
-    "délogeassiez        délogassiez",
-    "délogeassent        délogassent"
-  ],
-  [
-    "déluger",
-    "                    délugasse",
-    "                    délugasses",
-    "délugeât            délugât",
-    "                    délugassions",
-    "                    délugassiez",
-    "                    délugassent"
-  ],
-  [
-    "démanger",
-    "démangeasse         démangasse",
-    "démangeasses        démangasses",
-    "démangeât           démangât",
-    "démangeassions      démangassions",
-    "démangeassiez       démangassiez",
-    "démangeassent       démangassent"
-  ],
-  [
-    "déménager",
-    "déménageasse        déménagasse",
-    "déménageasses       déménagasses",
-    "déménageât          déménagât",
-    "déménageassions     déménagassions",
-    "déménageassiez      déménagassiez",
-    "déménageassent      déménagassent"
-  ],
-  [
-    "déneiger",
-    "déneigeasse         déneigasse",
-    "déneigeasses        déneigasses",
-    "déneigeât           déneigât",
-    "déneigeassions      déneigassions",
-    "déneigeassiez       déneigassiez",
-    "déneigeassent       déneigassent"
-  ],
-  [
     "dénoncer",
     "dénonçasse          dénoncasse",
     "dénonçasses         dénoncasses",
@@ -718,15 +277,6 @@
     "dénonçassions       dénoncassions",
     "dénonçassiez        dénoncassiez",
     "dénonçassent        dénoncassent"
-  ],
-  [
-    "départager",
-    "départageasse       départagasse",
-    "départageasses      départagasses",
-    "départageât         départagât",
-    "départageassions    départagassions",
-    "départageassiez     départagassiez",
-    "départageassent     départagassent"
   ],
   [
     "dépecer",
@@ -747,33 +297,6 @@
     "déplaçassent        déplacassent"
   ],
   [
-    "déranger",
-    "dérangeasse         dérangasse",
-    "dérangeasses        dérangasses",
-    "dérangeât           dérangât",
-    "dérangeassions      dérangassions",
-    "dérangeassiez       dérangassiez",
-    "dérangeassent       dérangassent"
-  ],
-  [
-    "déroger",
-    "dérogeasse          dérogasse",
-    "dérogeasses         dérogasses",
-    "dérogeât            dérogât",
-    "dérogeassions       dérogassions",
-    "dérogeassiez        dérogassiez",
-    "dérogeassent        dérogassent"
-  ],
-  [
-    "désagréger",
-    "désagrégeasse       désagrégasse",
-    "désagrégeasses      désagrégasses",
-    "désagrégeât         désagrégât",
-    "désagrégeassions    désagrégassions",
-    "désagrégeassiez     désagrégassiez",
-    "désagrégeassent     désagrégassent"
-  ],
-  [
     "désamorcer",
     "désamorçasse        désamorcasse",
     "désamorçasses       désamorcasses",
@@ -790,60 +313,6 @@
     "désarmorçassions    désarmorcassions",
     "désarmorçassiez     désarmorcassiez",
     "désarmorçassent     désarmorcassent"
-  ],
-  [
-    "désavantager",
-    "désavantageasse     désavantagasse",
-    "désavantageasses    désavantagasses",
-    "désavantageât       désavantagât",
-    "désavantageassions  désavantagassions",
-    "désavantageassiez   désavantagassiez",
-    "désavantageassent   désavantagassent"
-  ],
-  [
-    "désengager",
-    "désengageasse       désengagasse",
-    "désengageasses      désengagasses",
-    "désengageât         désengagât",
-    "désengageassions    désengagassions",
-    "désengageassiez     désengagassiez",
-    "désengageassent     désengagassent"
-  ],
-  [
-    "désengorger",
-    "désengorgeasse      désengorgasse",
-    "désengorgeasses     désengorgasses",
-    "désengorgeât        désengorgât",
-    "désengorgeassions   désengorgassions",
-    "désengorgeassiez    désengorgassiez",
-    "désengorgeassent    désengorgassent"
-  ],
-  [
-    "désobliger",
-    "désobligeasse       désobligasse",
-    "désobligeasses      désobligasses",
-    "désobligeât         désobligât",
-    "désobligeassions    désobligassions",
-    "désobligeassiez     désobligassiez",
-    "désobligeassent     désobligassent"
-  ],
-  [
-    "déterger",
-    "détergeasse         détergasse",
-    "détergeasses        détergasses",
-    "détergeât           détergât",
-    "détergeassions      détergassions",
-    "détergeassiez       détergassiez",
-    "détergeassent       détergassent"
-  ],
-  [
-    "dévisager",
-    "dévisageasse        dévisagasse",
-    "dévisageasses       dévisagasses",
-    "dévisageât          dévisagât",
-    "dévisageassions     dévisagassions",
-    "dévisageassiez      dévisagassiez",
-    "dévisageassent      dévisagassent"
   ],
   [
     "effacer",
@@ -864,51 +333,6 @@
     "efforçassent        efforcassent"
   ],
   [
-    "effranger",
-    "effrangeasse        effrangasse",
-    "effrangeasses       effrangasses",
-    "effrangeât          effrangât",
-    "effrangeassions     effrangassions",
-    "effrangeassiez      effrangassiez",
-    "effrangeassent      effrangassent"
-  ],
-  [
-    "emménager",
-    "emménageasse        emménagasse",
-    "emménageasses       emménagasses",
-    "emménageât          emménagât",
-    "emménageassions     emménagassions",
-    "emménageassiez      emménagassiez",
-    "emménageassent      emménagassent"
-  ],
-  [
-    "encager",
-    "encageasse          encagasse",
-    "encageasses         encagasses",
-    "encageât            encagât",
-    "encageassions       encagassions",
-    "encageassiez        encagassiez",
-    "encageassent        encagassent"
-  ],
-  [
-    "encourager",
-    "encourageasse       encouragasse",
-    "encourageasses      encouragasses",
-    "encourageât         encouragât",
-    "encourageassions    encouragassions",
-    "encourageassiez     encouragassiez",
-    "encourageassent     encouragassent"
-  ],
-  [
-    "endommager",
-    "endommageasse       endommagasse",
-    "endommageasses      endommagasses",
-    "endommageât         endommagât",
-    "endommageassions    endommagassions",
-    "endommageassiez     endommagassiez",
-    "endommageassent     endommagassent"
-  ],
-  [
     "enfoncer",
     "enfonçasse          enfoncasse",
     "enfonçasses         enfoncasses",
@@ -916,15 +340,6 @@
     "enfonçassions       enfoncassions",
     "enfonçassiez        enfoncassiez",
     "enfonçassent        enfoncassent"
-  ],
-  [
-    "engager",
-    "engageasse          engagasse",
-    "engageasses         engagasses",
-    "engageât            engagât",
-    "engageassions       engagassions",
-    "engageassiez        engagassiez",
-    "engageassent        engagassent"
   ],
   [
     "engoncer",
@@ -936,24 +351,6 @@
     "engonçassent        engoncassent"
   ],
   [
-    "engorger",
-    "engorgeasse         engorgasse",
-    "engorgeasses        engorgasses",
-    "engorgeât           engorgât",
-    "engorgeassions      engorgassions",
-    "engorgeassiez       engorgassiez",
-    "engorgeassent       engorgassent"
-  ],
-  [
-    "engranger",
-    "engrangeasse        engrangasse",
-    "engrangeasses       engrangasses",
-    "engrangeât          engrangât",
-    "engrangeassions     engrangassions",
-    "engrangeassiez      engrangassiez",
-    "engrangeassent      engrangassent"
-  ],
-  [
     "enlacer",
     "enlaçasse           enlacasse",
     "enlaçasses          enlacasses",
@@ -961,42 +358,6 @@
     "enlaçassions        enlacassions",
     "enlaçassiez         enlacassiez",
     "enlaçassent         enlacassent"
-  ],
-  [
-    "enneiger",
-    "enneigeasse         enneigasse",
-    "enneigeasses        enneigasses",
-    "enneigeât           enneigât",
-    "enneigeassions      enneigassions",
-    "enneigeassiez       enneigassiez",
-    "enneigeassent       enneigassent"
-  ],
-  [
-    "ennuager",
-    "ennuageasse         ennuagasse",
-    "ennuageasses        ennuagasses",
-    "ennuageât           ennuagât",
-    "ennuageassions      ennuagassions",
-    "ennuageassiez       ennuagassiez",
-    "ennuageassent       ennuagassent"
-  ],
-  [
-    "enrager",
-    "enrageasse          enragasse",
-    "enrageasses         enragasses",
-    "enrageât            enragât",
-    "enrageassions       enragassions",
-    "enrageassiez        enragassiez",
-    "enrageassent        enragassent"
-  ],
-  [
-    "ensauvager",
-    "ensauvageasse       ensauvagasse",
-    "ensauvageasses      ensauvagasses",
-    "ensauvageât         ensauvagât",
-    "ensauvageassions    ensauvagassions",
-    "ensauvageassiez     ensauvagassiez",
-    "ensauvageassent     ensauvagassent"
   ],
   [
     "ensemencer",
@@ -1017,15 +378,6 @@
     "entrelaçassent      entrelacassent"
   ],
   [
-    "envisager",
-    "envisageasse        envisagasse",
-    "envisageasses       envisagasses",
-    "envisageât          envisagât",
-    "envisageassions     envisagassions",
-    "envisageassiez      envisagassiez",
-    "envisageassent      envisagassent"
-  ],
-  [
     "espacer",
     "espaçasse           espacasse",
     "espaçasses          espacasses",
@@ -1033,15 +385,6 @@
     "espaçassions        espacassions",
     "espaçassiez         espacassiez",
     "espaçassent         espacassent"
-  ],
-  [
-    "essanger",
-    "essangeasse         essangasse",
-    "essangeasses        essangasses",
-    "essangeât           essangât",
-    "essangeassions      essangassions",
-    "essangeassiez       essangassiez",
-    "essangeassent       essangassent"
   ],
   [
     "exaucer",
@@ -1062,24 +405,6 @@
     "exerçassent         exercassent"
   ],
   [
-    "exiger",
-    "exigeasse           exigasse",
-    "exigeasses          exigasses",
-    "exigeât             exigât",
-    "exigeassions        exigassions",
-    "exigeassiez         exigassiez",
-    "exigeassent         exigassent"
-  ],
-  [
-    "expurger",
-    "expurgeasse         expurgasse",
-    "expurgeasses        expurgasses",
-    "expurgeât           expurgât",
-    "expurgeassions      expurgassions",
-    "expurgeassiez       expurgassiez",
-    "expurgeassent       expurgassent"
-  ],
-  [
     "fiancer",
     "fiançasse           fiancasse",
     "fiançasses          fiancasses",
@@ -1087,15 +412,6 @@
     "fiançassions        fiancassions",
     "fiançassiez         fiancassiez",
     "fiançassent         fiancassent"
-  ],
-  [
-    "figer",
-    "figeasse            figasse",
-    "figeasses           figasses",
-    "figeât              figât",
-    "figeassions         figassions",
-    "figeassiez          figassiez",
-    "figeassent          figassent"
   ],
   [
     "financer",
@@ -1125,15 +441,6 @@
     "forçassent          forcassent"
   ],
   [
-    "forger",
-    "forgeasse           forgasse",
-    "forgeasses          forgasses",
-    "forgeât             forgât",
-    "forgeassions        forgassions",
-    "forgeassiez         forgassiez",
-    "forgeassent         forgassent"
-  ],
-  [
     "forlancer",
     "forlançasse         forlancasse",
     "forlançasses        forlancasses",
@@ -1143,33 +450,6 @@
     "forlançassent       forlancassent"
   ],
   [
-    "fouger",
-    "fougeasse           fougasse",
-    "fougeasses          fougasses",
-    "fougeât             fougât",
-    "fougeassions        fougassions",
-    "fougeassiez         fougassiez",
-    "fougeassent         fougassent"
-  ],
-  [
-    "fourrager",
-    "fourrageasse        fourragasse",
-    "fourrageasses       fourragasses",
-    "fourrageât          fourragât",
-    "fourrageassions     fourragassions",
-    "fourrageassiez      fourragassiez",
-    "fourrageassent      fourragassent"
-  ],
-  [
-    "franger",
-    "frangeasse          frangasse",
-    "frangeasses         frangasses",
-    "frangeât            frangât",
-    "frangeassions       frangassions",
-    "frangeassiez        frangassiez",
-    "frangeassent        frangassent"
-  ],
-  [
     "froncer",
     "fronçasse           froncasse",
     "fronçasses          froncasses",
@@ -1177,42 +457,6 @@
     "fronçassions        froncassions",
     "fronçassiez         froncassiez",
     "fronçassent         froncassent"
-  ],
-  [
-    "fumiger",
-    "fumigeasse          fumigasse",
-    "fumigeasses         fumigasses",
-    "fumigeât            fumigât",
-    "fumigeassions       fumigassions",
-    "fumigeassiez        fumigassiez",
-    "fumigeassent        fumigassent"
-  ],
-  [
-    "fustiger",
-    "fustigeasse         fustigasse",
-    "fustigeasses        fustigasses",
-    "fustigeât           fustigât",
-    "fustigeassions      fustigassions",
-    "fustigeassiez       fustigassiez",
-    "fustigeassent       fustigassent"
-  ],
-  [
-    "gager",
-    "gageasse            gagasse",
-    "gageasses           gagasses",
-    "gageât              gagât",
-    "gageassions         gagassions",
-    "gageassiez          gagassiez",
-    "gageassent          gagassent"
-  ],
-  [
-    "gamberger",
-    "gambergeasse        gambergasse",
-    "gambergeasses       gambergasses",
-    "gambergeât          gambergât",
-    "gambergeassions     gambergassions",
-    "gambergeassiez      gambergassiez",
-    "gambergeassent      gambergassent"
   ],
   [
     "garancer",
@@ -1242,33 +486,6 @@
     "glaçassent          glacassent"
   ],
   [
-    "goberger",
-    "gobergeasse         gobergasse",
-    "gobergeasses        gobergasses",
-    "gobergeât           gobergât",
-    "gobergeassions      gobergassions",
-    "gobergeassiez       gobergassiez",
-    "gobergeassent       gobergassent"
-  ],
-  [
-    "gorger",
-    "gorgeasse           gorgasse",
-    "gorgeasses          gorgasses",
-    "gorgeât             gorgât",
-    "gorgeassions        gorgassions",
-    "gorgeassiez         gorgassiez",
-    "gorgeassent         gorgassent"
-  ],
-  [
-    "grillager",
-    "grillageasse        grillagasse",
-    "grillageasses       grillagasses",
-    "grillageât          grillagât",
-    "grillageassions     grillagassions",
-    "grillageassiez      grillagassiez",
-    "grillageassent      grillagassent"
-  ],
-  [
     "grimacer",
     "grimaçasse          grimacasse",
     "grimaçasses         grimacasses",
@@ -1285,69 +502,6 @@
     "grinçassions        grincassions",
     "grinçassiez         grincassiez",
     "grinçassent         grincassent"
-  ],
-  [
-    "gruger",
-    "grugeasse           grugasse",
-    "grugeasses          grugasses",
-    "grugeât             grugât",
-    "grugeassions        grugassions",
-    "grugeassiez         grugassiez",
-    "grugeassent         grugassent"
-  ],
-  [
-    "herbager",
-    "herbageasse         herbagasse",
-    "herbageasses        herbagasses",
-    "herbageât           herbagât",
-    "herbageassions      herbagassions",
-    "herbageassiez       herbagassiez",
-    "herbageassent       herbagassent"
-  ],
-  [
-    "hydrofuger",
-    "hydrofugeasse       hydrofugasse",
-    "hydrofugeasses      hydrofugasses",
-    "hydrofugeât         hydrofugât",
-    "hydrofugeassions    hydrofugassions",
-    "hydrofugeassiez     hydrofugassiez",
-    "hydrofugeassent     hydrofugassent"
-  ],
-  [
-    "héberger",
-    "hébergeasse         hébergasse",
-    "hébergeasses        hébergasses",
-    "hébergeât           hébergât",
-    "hébergeassions      hébergassions",
-    "hébergeassiez       hébergassiez",
-    "hébergeassent       hébergassent"
-  ],
-  [
-    "ignifuger",
-    "ignifugeasse        ignifugasse",
-    "ignifugeasses       ignifugasses",
-    "ignifugeât          ignifugât",
-    "ignifugeassions     ignifugassions",
-    "ignifugeassiez      ignifugassiez",
-    "ignifugeassent      ignifugassent"
-  ],
-  [
-    "imager",
-    "imageasse           imagasse",
-    "imageasses          imagasses",
-    "imageât             imagât",
-    "imageassions        imagassions",
-    "imageassiez         imagassiez",
-    "imageassent         imagassent"
-  ],
-  [
-    "immerger",
-    "immergeasse         immergasse",
-    "immergeasses        immergasses",
-    "immergeât           immergât",
-    "immergeassions      immergassions",
-    "immergeassiez       immergassiez",
-    "immergeassent       immergassent"
   ],
   [
     "immiscer",
@@ -1368,15 +522,6 @@
     "indiçassent         indicassent"
   ],
   [
-    "infliger",
-    "infligeasse         infligasse",
-    "infligeasses        infligasses",
-    "infligeât           infligât",
-    "infligeassions      infligassions",
-    "infligeassiez       infligassiez",
-    "infligeassent       infligassent"
-  ],
-  [
     "influencer",
     "influençasse        influencasse",
     "influençasses       influencasses",
@@ -1386,15 +531,6 @@
     "influençassent      influencassent"
   ],
   [
-    "insurger",
-    "insurgeasse         insurgasse",
-    "insurgeasses        insurgasses",
-    "insurgeât           insurgât",
-    "insurgeassions      insurgassions",
-    "insurgeassiez       insurgassiez",
-    "insurgeassent       insurgassent"
-  ],
-  [
     "interfacer",
     "interfaçasse        interfacasse",
     "interfaçasses       interfacasses",
@@ -1402,33 +538,6 @@
     "interfaçassions     interfacassions",
     "interfaçassiez      interfacassiez",
     "interfaçassent      interfacassent"
-  ],
-  [
-    "interroger",
-    "interrogeasse       interrogasse",
-    "interrogeasses      interrogasses",
-    "interrogeât         interrogât",
-    "interrogeassions    interrogassions",
-    "interrogeassiez     interrogassiez",
-    "interrogeassent     interrogassent"
-  ],
-  [
-    "jauger",
-    "jaugeasse           jaugasse",
-    "jaugeasses          jaugasses",
-    "jaugeât             jaugât",
-    "jaugeassions        jaugassions",
-    "jaugeassiez         jaugassiez",
-    "jaugeassent         jaugassent"
-  ],
-  [
-    "juger",
-    "jugeasse            jugasse",
-    "jugeasses           jugasses",
-    "jugeât              jugât",
-    "jugeassions         jugassions",
-    "jugeassiez          jugassiez",
-    "jugeassent          jugassent"
   ],
   [
     "lacer",
@@ -1449,105 +558,6 @@
     "lançassent          lancassent"
   ],
   [
-    "langer",
-    "langeasse           langasse",
-    "langeasses          langasses",
-    "langeât             langât",
-    "langeassions        langassions",
-    "langeassiez         langassiez",
-    "langeassent         langassent"
-  ],
-  [
-    "limoger",
-    "limogeasse          limogasse",
-    "limogeasses         limogasses",
-    "limogeât            limogât",
-    "limogeassions       limogassions",
-    "limogeassiez        limogassiez",
-    "limogeassent        limogassent"
-  ],
-  [
-    "linger",
-    "lingeasse           lingasse",
-    "lingeasses          lingasses",
-    "lingeât             lingât",
-    "lingeassions        lingassions",
-    "lingeassiez         lingassiez",
-    "lingeassent         lingassent"
-  ],
-  [
-    "liéger",
-    "liégeasse           liégasse",
-    "liégeasses          liégasses",
-    "liégeât             liégât",
-    "liégeassions        liégassions",
-    "liégeassiez         liégassiez",
-    "liégeassent         liégassent"
-  ],
-  [
-    "loger",
-    "logeasse            logasse",
-    "logeasses           logasses",
-    "logeât              logât",
-    "logeassions         logassions",
-    "logeassiez          logassiez",
-    "logeassent          logassent"
-  ],
-  [
-    "longer",
-    "longeasse           longasse",
-    "longeasses          longasses",
-    "longeât             longât",
-    "longeassions        longassions",
-    "longeassiez         longassiez",
-    "longeassent         longassent"
-  ],
-  [
-    "louanger",
-    "louangeasse         louangasse",
-    "louangeasses        louangasses",
-    "louangeât           louangât",
-    "louangeassions      louangassions",
-    "louangeassiez       louangassiez",
-    "louangeassent       louangassent"
-  ],
-  [
-    "luger",
-    "lugeasse            lugasse",
-    "lugeasses           lugasses",
-    "lugeât              lugât",
-    "lugeassions         lugassions",
-    "lugeassiez          lugassiez",
-    "lugeassent          lugassent"
-  ],
-  [
-    "léviger",
-    "lévigeasse          lévigasse",
-    "lévigeasses         lévigasses",
-    "lévigeât            lévigât",
-    "lévigeassions       lévigassions",
-    "lévigeassiez        lévigassiez",
-    "lévigeassent        lévigassent"
-  ],
-  [
-    "manager",
-    "manageasse          managasse",
-    "manageasses         managasses",
-    "manageât            managât",
-    "manageassions       managassions",
-    "manageassiez        managassiez",
-    "manageassent        managassent"
-  ],
-  [
-    "manger",
-    "mangeasse           mangasse",
-    "mangeasses          mangasses",
-    "mangeât             mangât",
-    "mangeassions        mangassions",
-    "mangeassiez         mangassiez",
-    "mangeassent         mangassent"
-  ],
-  [
     "manigancer",
     "manigançasse        manigancasse",
     "manigançasses       manigancasses",
@@ -1555,15 +565,6 @@
     "manigançassions     manigancassions",
     "manigançassiez      manigancassiez",
     "manigançassent      manigancassent"
-  ],
-  [
-    "marger",
-    "margeasse           margasse",
-    "margeasses          margasses",
-    "margeât             margât",
-    "margeassions        margassions",
-    "margeassiez         margassiez",
-    "margeassent         margassent"
   ],
   [
     "matricer",
@@ -1584,15 +585,6 @@
     "menaçassent         menacassent"
   ],
   [
-    "mitiger",
-    "mitigeasse          mitigasse",
-    "mitigeasses         mitigasses",
-    "mitigeât            mitigât",
-    "mitigeassions       mitigassions",
-    "mitigeassiez        mitigassiez",
-    "mitigeassent        mitigassent"
-  ],
-  [
     "mordancer",
     "mordançasse         mordancasse",
     "mordançasses        mordancasses",
@@ -1600,60 +592,6 @@
     "mordançassions      mordancassions",
     "mordançassiez       mordancassiez",
     "mordançassent       mordancassent"
-  ],
-  [
-    "méjuger",
-    "méjugeasse          méjugasse",
-    "méjugeasses         méjugasses",
-    "méjugeât            méjugât",
-    "méjugeassions       méjugassions",
-    "méjugeassiez        méjugassiez",
-    "méjugeassent        méjugassent"
-  ],
-  [
-    "mélanger",
-    "mélangeasse         mélangasse",
-    "mélangeasses        mélangasses",
-    "mélangeât           mélangât",
-    "mélangeassions      mélangassions",
-    "mélangeassiez       mélangassiez",
-    "mélangeassent       mélangassent"
-  ],
-  [
-    "ménager",
-    "ménageasse          ménagasse",
-    "ménageasses         ménagasses",
-    "ménageât            ménagât",
-    "ménageassions       ménagassions",
-    "ménageassiez        ménagassiez",
-    "ménageassent        ménagassent"
-  ],
-  [
-    "nager",
-    "nageasse            nagasse",
-    "nageasses           nagasses",
-    "nageât              nagât",
-    "nageassions         nagassions",
-    "nageassiez          nagassiez",
-    "nageassent          nagassent"
-  ],
-  [
-    "naufrager",
-    "naufrageasse        naufragasse",
-    "naufrageasses       naufragasses",
-    "naufrageât          naufragât",
-    "naufrageassions     naufragassions",
-    "naufrageassiez      naufragassiez",
-    "naufrageassent      naufragassent"
-  ],
-  [
-    "neiger",
-    "                    neigasse",
-    "                    neigasses",
-    "neigeât             neigât",
-    "                    neigassions",
-    "                    neigassiez",
-    "                    neigassent"
   ],
   [
     "nuancer",
@@ -1665,24 +603,6 @@
     "nuançassent         nuancassent"
   ],
   [
-    "négliger",
-    "négligeasse         négligasse",
-    "négligeasses        négligasses",
-    "négligeât           négligât",
-    "négligeassions      négligassions",
-    "négligeassiez       négligassiez",
-    "négligeassent       négligassent"
-  ],
-  [
-    "obliger",
-    "obligeasse          obligasse",
-    "obligeasses         obligasses",
-    "obligeât            obligât",
-    "obligeassions       obligassions",
-    "obligeassiez        obligassiez",
-    "obligeassent        obligassent"
-  ],
-  [
     "officer",
     "offiçasse           officasse",
     "offiçasses          officasses",
@@ -1690,15 +610,6 @@
     "offiçassions        officassions",
     "offiçassiez         officassiez",
     "offiçassent         officassent"
-  ],
-  [
-    "ombrager",
-    "ombrageasse         ombragasse",
-    "ombrageasses        ombragasses",
-    "ombrageât           ombragât",
-    "ombrageassions      ombragassions",
-    "ombrageassiez       ombragassiez",
-    "ombrageassent       ombragassent"
   ],
   [
     "opiacer",
@@ -1710,15 +621,6 @@
     "opiaçassent         opiacassent"
   ],
   [
-    "oranger",
-    "orangeasse          orangasse",
-    "orangeasses         orangasses",
-    "orangeât            orangât",
-    "orangeassions       orangassions",
-    "orangeassiez        orangassiez",
-    "orangeassent        orangassent"
-  ],
-  [
     "ordonnancer",
     "ordonnançasse       ordonnancasse",
     "ordonnançasses      ordonnancasses",
@@ -1728,69 +630,6 @@
     "ordonnançassent     ordonnancassent"
   ],
   [
-    "outrager",
-    "outrageasse         outragasse",
-    "outrageasses        outragasses",
-    "outrageât           outragât",
-    "outrageassions      outragassions",
-    "outrageassiez       outragassiez",
-    "outrageassent       outragassent"
-  ],
-  [
-    "ouvrager",
-    "ouvrageasse         ouvragasse",
-    "ouvrageasses        ouvragasses",
-    "ouvrageât           ouvragât",
-    "ouvrageassions      ouvragassions",
-    "ouvrageassiez       ouvragassiez",
-    "ouvrageassent       ouvragassent"
-  ],
-  [
-    "pacager",
-    "pacageasse          pacagasse",
-    "pacageasses         pacagasses",
-    "pacageât            pacagât",
-    "pacageassions       pacagassions",
-    "pacageassiez        pacagassiez",
-    "pacageassent        pacagassent"
-  ],
-  [
-    "pager",
-    "pageasse            pagasse",
-    "pageasses           pagasses",
-    "pageât              pagât",
-    "pageassions         pagassions",
-    "pageassiez          pagassiez",
-    "pageassent          pagassent"
-  ],
-  [
-    "partager",
-    "partageasse         partagasse",
-    "partageasses        partagasses",
-    "partageât           partagât",
-    "partageassions      partagassions",
-    "partageassiez       partagassiez",
-    "partageassent       partagassent"
-  ],
-  [
-    "patauger",
-    "pataugeasse         pataugasse",
-    "pataugeasses        pataugasses",
-    "pataugeât           pataugât",
-    "pataugeassions      pataugassions",
-    "pataugeassiez       pataugassiez",
-    "pataugeassent       pataugassent"
-  ],
-  [
-    "paysager",
-    "paysageasse         paysagasse",
-    "paysageasses        paysagasses",
-    "paysageât           paysagât",
-    "paysageassions      paysagassions",
-    "paysageassiez       paysagassiez",
-    "paysageassent       paysagassent"
-  ],
-  [
     "percer",
     "perçasse            percasse",
     "perçasses           percasses",
@@ -1798,15 +637,6 @@
     "perçassions         percassions",
     "perçassiez          percassiez",
     "perçassent          percassent"
-  ],
-  [
-    "piger",
-    "pigeasse            pigasse",
-    "pigeasses           pigasses",
-    "pigeât              pigât",
-    "pigeassions         pigassions",
-    "pigeassiez          pigassiez",
-    "pigeassent          pigassent"
   ],
   [
     "pincer",
@@ -1827,15 +657,6 @@
     "pionçassent         pioncassent"
   ],
   [
-    "piéger",
-    "piégeasse           piégasse",
-    "piégeasses          piégasses",
-    "piégeât             piégât",
-    "piégeassions        piégassions",
-    "piégeassiez         piégassiez",
-    "piégeassent         piégassent"
-  ],
-  [
     "placer",
     "plaçasse            placasse",
     "plaçasses           placasses",
@@ -1843,15 +664,6 @@
     "plaçassions         placassions",
     "plaçassiez          placassiez",
     "plaçassent          placassent"
-  ],
-  [
-    "plonger",
-    "plongeasse          plongasse",
-    "plongeasses         plongasses",
-    "plongeât            plongât",
-    "plongeassions       plongassions",
-    "plongeassiez        plongassiez",
-    "plongeassent        plongassent"
   ],
   [
     "policer",
@@ -1872,15 +684,6 @@
     "ponçassent          poncassent"
   ],
   [
-    "prolonger",
-    "prolongeasse        prolongasse",
-    "prolongeasses       prolongasses",
-    "prolongeât          prolongât",
-    "prolongeassions     prolongassions",
-    "prolongeassiez      prolongassiez",
-    "prolongeassent      prolongassent"
-  ],
-  [
     "prononcer",
     "prononçasse         prononcasse",
     "prononçasses        prononcasses",
@@ -1888,42 +691,6 @@
     "prononçassions      prononcassions",
     "prononçassiez       prononcassiez",
     "prononçassent       prononcassent"
-  ],
-  [
-    "propager",
-    "propageasse         propagasse",
-    "propageasses        propagasses",
-    "propageât           propagât",
-    "propageassions      propagassions",
-    "propageassiez       propagassiez",
-    "propageassent       propagassent"
-  ],
-  [
-    "proroger",
-    "prorogeasse         prorogasse",
-    "prorogeasses        prorogasses",
-    "prorogeât           prorogât",
-    "prorogeassions      prorogassions",
-    "prorogeassiez       prorogassiez",
-    "prorogeassent       prorogassent"
-  ],
-  [
-    "protéger",
-    "protégeasse         protégasse",
-    "protégeasses        protégasses",
-    "protégeât           protégât",
-    "protégeassions      protégassions",
-    "protégeassiez       protégassiez",
-    "protégeassent       protégassent"
-  ],
-  [
-    "précharger",
-    "préchargeasse       préchargasse",
-    "préchargeasses      préchargasses",
-    "préchargeât         préchargât",
-    "préchargeassions    préchargassions",
-    "préchargeassiez     préchargassiez",
-    "préchargeassent     préchargassent"
   ],
   [
     "préfacer",
@@ -1944,42 +711,6 @@
     "préfinançassent     préfinancassent"
   ],
   [
-    "préjuger",
-    "préjugeasse         préjugasse",
-    "préjugeasses        préjugasses",
-    "préjugeât           préjugât",
-    "préjugeassions      préjugassions",
-    "préjugeassiez       préjugassiez",
-    "préjugeassent       préjugassent"
-  ],
-  [
-    "présager",
-    "présageasse         présagasse",
-    "présageasses        présagasses",
-    "présageât           présagât",
-    "présageassions      présagassions",
-    "présageassiez       présagassiez",
-    "présageassent       présagassent"
-  ],
-  [
-    "purger",
-    "purgeasse           purgasse",
-    "purgeasses          purgasses",
-    "purgeât             purgât",
-    "purgeassions        purgassions",
-    "purgeassiez         purgassiez",
-    "purgeassent         purgassent"
-  ],
-  [
-    "quartager",
-    "quartageasse        quartagasse",
-    "quartageasses       quartagasses",
-    "quartageât          quartagât",
-    "quartageassions     quartagassions",
-    "quartageassiez      quartagassiez",
-    "quartageassent      quartagassent"
-  ],
-  [
     "quittancer",
     "quittançasse        quittancasse",
     "quittançasses       quittancasses",
@@ -1987,51 +718,6 @@
     "quittançassions     quittancassions",
     "quittançassiez      quittancassiez",
     "quittançassent      quittancassent"
-  ],
-  [
-    "rager",
-    "rageasse            ragasse",
-    "rageasses           ragasses",
-    "rageât              ragât",
-    "rageassions         ragassions",
-    "rageassiez          ragassiez",
-    "rageassent          ragassent"
-  ],
-  [
-    "rallonger",
-    "rallongeasse        rallongasse",
-    "rallongeasses       rallongasses",
-    "rallongeât          rallongât",
-    "rallongeassions     rallongassions",
-    "rallongeassiez      rallongassiez",
-    "rallongeassent      rallongassent"
-  ],
-  [
-    "ralléger",
-    "rallégeasse         rallégasse",
-    "rallégeasses        rallégasses",
-    "rallégeât           rallégât",
-    "rallégeassions      rallégassions",
-    "rallégeassiez       rallégassiez",
-    "rallégeassent       rallégassent"
-  ],
-  [
-    "ramager",
-    "ramageasse          ramagasse",
-    "ramageasses         ramagasses",
-    "ramageât            ramagât",
-    "ramageassions       ramagassions",
-    "ramageassiez        ramagassiez",
-    "ramageassent        ramagassent"
-  ],
-  [
-    "ranger",
-    "rangeasse           rangasse",
-    "rangeasses          rangasses",
-    "rangeât             rangât",
-    "rangeassions        rangassions",
-    "rangeassiez         rangassiez",
-    "rangeassent         rangassent"
   ],
   [
     "rapiécer",
@@ -2043,33 +729,6 @@
     "rapiéçassent        rapiécassent"
   ],
   [
-    "ravager",
-    "ravageasse          ravagasse",
-    "ravageasses         ravagasses",
-    "ravageât            ravagât",
-    "ravageassions       ravagassions",
-    "ravageassiez        ravagassiez",
-    "ravageassent        ravagassent"
-  ],
-  [
-    "rechanger",
-    "rechangeasse        rechangasse",
-    "rechangeasses       rechangasses",
-    "rechangeât          rechangât",
-    "rechangeassions     rechangassions",
-    "rechangeassiez      rechangassiez",
-    "rechangeassent      rechangassent"
-  ],
-  [
-    "recharger",
-    "rechargeasse        rechargasse",
-    "rechargeasses       rechargasses",
-    "rechargeât          rechargât",
-    "rechargeassions     rechargassions",
-    "rechargeassiez      rechargassiez",
-    "rechargeassent      rechargassent"
-  ],
-  [
     "recommencer",
     "recommençasse       recommencasse",
     "recommençasses      recommencasses",
@@ -2079,24 +738,6 @@
     "recommençassent     recommencassent"
   ],
   [
-    "recorriger",
-    "recorrigeasse       recorrigasse",
-    "recorrigeasses      recorrigasses",
-    "recorrigeât         recorrigât",
-    "recorrigeassions    recorrigassions",
-    "recorrigeassiez     recorrigassiez",
-    "recorrigeassent     recorrigassent"
-  ],
-  [
-    "rediriger",
-    "redirigeasse        redirigasse",
-    "redirigeasses       redirigasses",
-    "redirigeât          redirigât",
-    "redirigeassions     redirigassions",
-    "redirigeassiez      redirigassiez",
-    "redirigeassent      redirigassent"
-  ],
-  [
     "refinancer",
     "refinançasse        refinancasse",
     "refinançasses       refinancasses",
@@ -2104,33 +745,6 @@
     "refinançassions     refinancassions",
     "refinançassiez      refinancassiez",
     "refinançassent      refinancassent"
-  ],
-  [
-    "reforger",
-    "reforgeasse         reforgasse",
-    "reforgeasses        reforgasses",
-    "reforgeât           reforgât",
-    "reforgeassions      reforgassions",
-    "reforgeassiez       reforgassiez",
-    "reforgeassent       reforgassent"
-  ],
-  [
-    "regorger",
-    "regorgeasse         regorgasse",
-    "regorgeasses        regorgasses",
-    "regorgeât           regorgât",
-    "regorgeassions      regorgassions",
-    "regorgeassiez       regorgassiez",
-    "regorgeassent       regorgassent"
-  ],
-  [
-    "rejuger",
-    "rejugeasse          rejugasse",
-    "rejugeasses         rejugasses",
-    "rejugeât            rejugât",
-    "rejugeassions       rejugassions",
-    "rejugeassiez        rejugassiez",
-    "rejugeassent        rejugassent"
   ],
   [
     "relacer",
@@ -2149,24 +763,6 @@
     "relançassions       relancassions",
     "relançassiez        relancassiez",
     "relançassent        relancassent"
-  ],
-  [
-    "reloger",
-    "relogeasse          relogasse",
-    "relogeasses         relogasses",
-    "relogeât            relogât",
-    "relogeassions       relogassions",
-    "relogeassiez        relogassiez",
-    "relogeassent        relogassent"
-  ],
-  [
-    "remanger",
-    "remangeasse         remangasse",
-    "remangeasses        remangasses",
-    "remangeât           remangât",
-    "remangeassions      remangassions",
-    "remangeassiez       remangassiez",
-    "remangeassent       remangassent"
   ],
   [
     "remplacer",
@@ -2196,24 +792,6 @@
     "renforçassent       renforcassent"
   ],
   [
-    "rengager",
-    "rengageasse         rengagasse",
-    "rengageasses        rengagasses",
-    "rengageât           rengagât",
-    "rengageassions      rengagassions",
-    "rengageassiez       rengagassiez",
-    "rengageassent       rengagassent"
-  ],
-  [
-    "rengorger",
-    "rengorgeasse        rengorgasse",
-    "rengorgeasses       rengorgasses",
-    "rengorgeât          rengorgât",
-    "rengorgeassions     rengorgassions",
-    "rengorgeassiez      rengorgassiez",
-    "rengorgeassent      rengorgassent"
-  ],
-  [
     "renoncer",
     "renonçasse          renoncasse",
     "renonçasses         renoncasses",
@@ -2221,15 +799,6 @@
     "renonçassions       renoncassions",
     "renonçassiez        renoncassiez",
     "renonçassent        renoncassent"
-  ],
-  [
-    "repartager",
-    "repartageasse       repartagasse",
-    "repartageasses      repartagasses",
-    "repartageât         repartagât",
-    "repartageassions    repartagassions",
-    "repartageassiez     repartagassiez",
-    "repartageassent     repartagassent"
   ],
   [
     "repercer",
@@ -2248,24 +817,6 @@
     "replaçassions       replacassions",
     "replaçassiez        replacassiez",
     "replaçassent        replacassent"
-  ],
-  [
-    "replonger",
-    "replongeasse        replongasse",
-    "replongeasses       replongasses",
-    "replongeât          replongât",
-    "replongeassions     replongassions",
-    "replongeassiez      replongassiez",
-    "replongeassent      replongassent"
-  ],
-  [
-    "repurger",
-    "repurgeasse         repurgasse",
-    "repurgeasses        repurgasses",
-    "repurgeât           repurgât",
-    "repurgeassions      repurgassions",
-    "repurgeassiez       repurgassiez",
-    "repurgeassent       repurgassent"
   ],
   [
     "ressourcer",
@@ -2313,15 +864,6 @@
     "romançassent        romancassent"
   ],
   [
-    "ronger",
-    "rongeasse           rongasse",
-    "rongeasses          rongasses",
-    "rongeât             rongât",
-    "rongeassions        rongassions",
-    "rongeassiez         rongassiez",
-    "rongeassent         rongassent"
-  ],
-  [
     "réagencer",
     "réagençasse         réagencasse",
     "réagençasses        réagencasses",
@@ -2338,42 +880,6 @@
     "réamorçassions      réamorcassions",
     "réamorçassiez       réamorcassiez",
     "réamorçassent       réamorcassent"
-  ],
-  [
-    "réaménager",
-    "réaménageasse       réaménagasse",
-    "réaménageasses      réaménagasses",
-    "réaménageât         réaménagât",
-    "réaménageassions    réaménagassions",
-    "réaménageassiez     réaménagassiez",
-    "réaménageassent     réaménagassent"
-  ],
-  [
-    "réarranger",
-    "réarrangeasse       réarrangasse",
-    "réarrangeasses      réarrangasses",
-    "réarrangeât         réarrangât",
-    "réarrangeassions    réarrangassions",
-    "réarrangeassiez     réarrangassiez",
-    "réarrangeassent     réarrangassent"
-  ],
-  [
-    "rédiger",
-    "rédigeasse          rédigasse",
-    "rédigeasses         rédigasses",
-    "rédigeât            rédigât",
-    "rédigeassions       rédigassions",
-    "rédigeassiez        rédigassiez",
-    "rédigeassent        rédigassent"
-  ],
-  [
-    "réengager",
-    "réengageasse        réengagasse",
-    "réengageasses       réengagasses",
-    "réengageât          réengagât",
-    "réengageassions     réengagassions",
-    "réengageassiez      réengagassiez",
-    "réengageassent      réengagassent"
   ],
   [
     "réensemencer",
@@ -2394,42 +900,6 @@
     "référençassent      référencassent"
   ],
   [
-    "réinterroger",
-    "réinterrogeasse     réinterrogasse",
-    "réinterrogeasses    réinterrogasses",
-    "réinterrogeât       réinterrogât",
-    "réinterrogeassions  réinterrogassions",
-    "réinterrogeassiez   réinterrogassiez",
-    "réinterrogeassent   réinterrogassent"
-  ],
-  [
-    "réémerger",
-    "réémergeasse        réémergasse",
-    "réémergeasses       réémergasses",
-    "réémergeât          réémergât",
-    "réémergeassions     réémergassions",
-    "réémergeassiez      réémergassiez",
-    "réémergeassent      réémergassent"
-  ],
-  [
-    "réériger",
-    "réérigeasse         réérigasse",
-    "réérigeasses        réérigasses",
-    "réérigeât           réérigât",
-    "réérigeassions      réérigassions",
-    "réérigeassiez       réérigassiez",
-    "réérigeassent       réérigassent"
-  ],
-  [
-    "saccager",
-    "saccageasse         saccagasse",
-    "saccageasses        saccagasses",
-    "saccageât           saccagât",
-    "saccageassions      saccagassions",
-    "saccageassiez       saccagassiez",
-    "saccageassent       saccagassent"
-  ],
-  [
     "saucer",
     "sauçasse            saucasse",
     "sauçasses           saucasses",
@@ -2448,60 +918,6 @@
     "semonçassent        semoncassent"
   ],
   [
-    "singer",
-    "singeasse           singasse",
-    "singeasses          singasses",
-    "singeât             singât",
-    "singeassions        singassions",
-    "singeassiez         singassiez",
-    "singeassent         singassent"
-  ],
-  [
-    "siéger",
-    "siégeasse           siégasse",
-    "siégeasses          siégasses",
-    "siégeât             siégât",
-    "siégeassions        siégassions",
-    "siégeassiez         siégassiez",
-    "siégeassent         siégassent"
-  ],
-  [
-    "songer",
-    "songeasse           songasse",
-    "songeasses          songasses",
-    "songeât             songât",
-    "songeassions        songassions",
-    "songeassiez         songassiez",
-    "songeassent         songassent"
-  ],
-  [
-    "soulager",
-    "soulageasse         soulagasse",
-    "soulageasses        soulagasses",
-    "soulageât           soulagât",
-    "soulageassions      soulagassions",
-    "soulageassiez       soulagassiez",
-    "soulageassent       soulagassent"
-  ],
-  [
-    "submerger",
-    "submergeasse        submergasse",
-    "submergeasses       submergasses",
-    "submergeât          submergât",
-    "submergeassions     submergassions",
-    "submergeassiez      submergassiez",
-    "submergeassent      submergassent"
-  ],
-  [
-    "subroger",
-    "subrogeasse         subrogasse",
-    "subrogeasses        subrogasses",
-    "subrogeât           subrogât",
-    "subrogeassions      subrogassions",
-    "subrogeassiez       subrogassiez",
-    "subrogeassent       subrogassent"
-  ],
-  [
     "sucer",
     "suçasse             sucasse",
     "suçasses            sucasses",
@@ -2511,15 +927,6 @@
     "suçassent           sucassent"
   ],
   [
-    "surcharger",
-    "surchargeasse       surchargasse",
-    "surchargeasses      surchargasses",
-    "surchargeât         surchargât",
-    "surchargeassions    surchargassions",
-    "surchargeassiez     surchargassiez",
-    "surchargeassent     surchargassent"
-  ],
-  [
     "surfacer",
     "surfaçasse          surfacasse",
     "surfaçasses         surfacasses",
@@ -2527,24 +934,6 @@
     "surfaçassions       surfacassions",
     "surfaçassiez        surfacassiez",
     "surfaçassent        surfacassent"
-  ],
-  [
-    "surnager",
-    "surnageasse         surnagasse",
-    "surnageasses        surnagasses",
-    "surnageât           surnagât",
-    "surnageassions      surnagassions",
-    "surnageassiez       surnagassiez",
-    "surnageassent       surnagassent"
-  ],
-  [
-    "surprotéger",
-    "surprotégeasse      surprotégasse",
-    "surprotégeasses     surprotégasses",
-    "surprotégeât        surprotégât",
-    "surprotégeassions   surprotégassions",
-    "surprotégeassiez    surprotégassiez",
-    "surprotégeassent    surprotégassent"
   ],
   [
     "séquencer",
@@ -2574,15 +963,6 @@
     "tançassent          tancassent"
   ],
   [
-    "tapager",
-    "tapageasse          tapagasse",
-    "tapageasses         tapagasses",
-    "tapageât            tapagât",
-    "tapageassions       tapagassions",
-    "tapageassiez        tapagassiez",
-    "tapageassent        tapagassent"
-  ],
-  [
     "tercer",
     "terçasse            tercasse",
     "terçasses           tercasses",
@@ -2610,15 +990,6 @@
     "traçassent          tracassent"
   ],
   [
-    "transiger",
-    "transigeasse        transigasse",
-    "transigeasses       transigasses",
-    "transigeât          transigât",
-    "transigeassions     transigassions",
-    "transigeassiez      transigassiez",
-    "transigeassent      transigassent"
-  ],
-  [
     "transpercer",
     "transperçasse       transpercasse",
     "transperçasses      transpercasses",
@@ -2626,78 +997,6 @@
     "transperçassions    transpercassions",
     "transperçassiez     transpercassiez",
     "transperçassent     transpercassent"
-  ],
-  [
-    "treillager",
-    "treillageasse       treillagasse",
-    "treillageasses      treillagasses",
-    "treillageât         treillagât",
-    "treillageassions    treillagassions",
-    "treillageassiez     treillagassiez",
-    "treillageassent     treillagassent"
-  ],
-  [
-    "télécharger",
-    "téléchargeasse      téléchargasse",
-    "téléchargeasses     téléchargasses",
-    "téléchargeât        téléchargât",
-    "téléchargeassions   téléchargassions",
-    "téléchargeassiez    téléchargassiez",
-    "téléchargeassent    téléchargassent"
-  ],
-  [
-    "télédiriger",
-    "télédirigeasse      télédirigasse",
-    "télédirigeasses     télédirigasses",
-    "télédirigeât        télédirigât",
-    "télédirigeassions   télédirigassions",
-    "télédirigeassiez    télédirigassiez",
-    "télédirigeassent    télédirigassent"
-  ],
-  [
-    "urger",
-    "urgeasse            urgasse",
-    "urgeasses           urgasses",
-    "urgeât              urgât",
-    "urgeassions         urgassions",
-    "urgeassiez          urgassiez",
-    "urgeassent          urgassent"
-  ],
-  [
-    "usager",
-    "usageasse           usagasse",
-    "usageasses          usagasses",
-    "usageât             usagât",
-    "usageassions        usagassions",
-    "usageassiez         usagassiez",
-    "usageassent         usagassent"
-  ],
-  [
-    "vendanger",
-    "vendangeasse        vendangasse",
-    "vendangeasses       vendangasses",
-    "vendangeât          vendangât",
-    "vendangeassions     vendangassions",
-    "vendangeassiez      vendangassiez",
-    "vendangeassent      vendangassent"
-  ],
-  [
-    "venger",
-    "vengeasse           vengasse",
-    "vengeasses          vengasses",
-    "vengeât             vengât",
-    "vengeassions        vengassions",
-    "vengeassiez         vengassiez",
-    "vengeassent         vengassent"
-  ],
-  [
-    "verbiager",
-    "verbiageasse        verbiagasse",
-    "verbiageasses       verbiagasses",
-    "verbiageât          verbiagât",
-    "verbiageassions     verbiagassions",
-    "verbiageassiez      verbiagassiez",
-    "verbiageassent      verbiagassent"
   ],
   [
     "verglacer",
@@ -2709,15 +1008,6 @@
     "verglaçassent       verglacassent"
   ],
   [
-    "vidanger",
-    "vidangeasse         vidangasse",
-    "vidangeasses        vidangasses",
-    "vidangeât           vidangât",
-    "vidangeassions      vidangassions",
-    "vidangeassiez       vidangassiez",
-    "vidangeassent       vidangassent"
-  ],
-  [
     "violacer",
     "violaçasse          violacasse",
     "violaçasses         violacasses",
@@ -2725,42 +1015,6 @@
     "violaçassions       violacassions",
     "violaçassiez        violacassiez",
     "violaçassent        violacassent"
-  ],
-  [
-    "voliger",
-    "voligeasse          voligasse",
-    "voligeasses         voligasses",
-    "voligeât            voligât",
-    "voligeassions       voligassions",
-    "voligeassiez        voligassiez",
-    "voligeassent        voligassent"
-  ],
-  [
-    "voltiger",
-    "voltigeasse         voltigasse",
-    "voltigeasses        voltigasses",
-    "voltigeât           voltigât",
-    "voltigeassions      voltigassions",
-    "voltigeassiez       voltigassiez",
-    "voltigeassent       voltigassent"
-  ],
-  [
-    "voyager",
-    "voyageasse          voyagasse",
-    "voyageasses         voyagasses",
-    "voyageât            voyagât",
-    "voyageassions       voyagassions",
-    "voyageassiez        voyagassiez",
-    "voyageassent        voyagassent"
-  ],
-  [
-    "échanger",
-    "échangeasse         échangasse",
-    "échangeasses        échangasses",
-    "échangeât           échangât",
-    "échangeassions      échangassions",
-    "échangeassiez       échangassiez",
-    "échangeassent       échangassent"
   ],
   [
     "écorcer",
@@ -2772,24 +1026,6 @@
     "écorçassent         écorcassent"
   ],
   [
-    "égorger",
-    "égorgeasse          égorgasse",
-    "égorgeasses         égorgasses",
-    "égorgeât            égorgât",
-    "égorgeassions       égorgassions",
-    "égorgeassiez        égorgassiez",
-    "égorgeassent        égorgassent"
-  ],
-  [
-    "égruger",
-    "égrugeasse          égrugasse",
-    "égrugeasses         égrugasses",
-    "égrugeât            égrugât",
-    "égrugeassions       égrugassions",
-    "égrugeassiez        égrugassiez",
-    "égrugeassent        égrugassent"
-  ],
-  [
     "élancer",
     "élançasse           élancasse",
     "élançasses          élancasses",
@@ -2797,33 +1033,6 @@
     "élançassions        élancassions",
     "élançassiez         élancassiez",
     "élançassent         élancassent"
-  ],
-  [
-    "élonger",
-    "élongeasse          élongasse",
-    "élongeasses         élongasses",
-    "élongeât            élongât",
-    "élongeassions       élongassions",
-    "élongeassiez        élongassiez",
-    "élongeassent        élongassent"
-  ],
-  [
-    "émarger",
-    "émargeasse          émargasse",
-    "émargeasses         émargasses",
-    "émargeât            émargât",
-    "émargeassions       émargassions",
-    "émargeassiez        émargassiez",
-    "émargeassent        émargassent"
-  ],
-  [
-    "émerger",
-    "émergeasse          émergasse",
-    "émergeasses         émergasses",
-    "émergeât            émergât",
-    "émergeassions       émergassions",
-    "émergeassiez        émergassiez",
-    "émergeassent        émergassent"
   ],
   [
     "émincer",
@@ -2862,15 +1071,6 @@
     "épinçassent         épincassent"
   ],
   [
-    "éponger",
-    "épongeasse          épongasse",
-    "épongeasses         épongasses",
-    "épongeât            épongât",
-    "épongeassions       épongassions",
-    "épongeassiez        épongassiez",
-    "épongeassent        épongassent"
-  ],
-  [
     "épucer",
     "épuçasse            épucasse",
     "épuçasses           épucasses",
@@ -2878,33 +1078,6 @@
     "épuçassions         épucassions",
     "épuçassiez          épucassiez",
     "épuçassent          épucassent"
-  ],
-  [
-    "ériger",
-    "érigeasse           érigasse",
-    "érigeasses          érigasses",
-    "érigeât             érigât",
-    "érigeassions        érigassions",
-    "érigeassiez         érigassiez",
-    "érigeassent         érigassent"
-  ],
-  [
-    "étager",
-    "étageasse           étagasse",
-    "étageasses          étagasses",
-    "étageât             étagât",
-    "étageassions        étagassions",
-    "étageassiez         étagassiez",
-    "étageassent         étagassent"
-  ],
-  [
-    "étalager",
-    "étalageasse         étalagasse",
-    "étalageasses        étalagasses",
-    "étalageât           étalagât",
-    "étalageassions      étalagassions",
-    "étalageassiez       étalagassiez",
-    "étalageassent       étalagassent"
   ],
   [
     "évincer",

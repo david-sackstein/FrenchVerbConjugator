@@ -11,7 +11,7 @@ namespace ConjugatorLibrary
                 return new[] {"vais", "vas", "va", "allons", "allez", "vont"};
             }
 
-            // soften the g before an 'o'
+            // soften the g before an 'o' by adding an e
             string nousEnding = "ons";
             if (verb[^3] == 'g')
             {
