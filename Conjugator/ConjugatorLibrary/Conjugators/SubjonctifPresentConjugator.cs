@@ -11,14 +11,7 @@ namespace ConjugatorLibrary
                 return new[] {"aille", "ailles", "aille", "allions", "alliez", "aillent" };
             }
 
-            // soften the g before an 'o'
-            string nousEnding = "ons";
-            if (verb[^3] == 'g')
-            {
-                nousEnding = "e" + nousEnding;
-            }
-
-            string[] endings = {"e", "es", "e", nousEnding, "ez", "ent"};
+            string[] endings = {"e", "es", "e", "ions", "iez", "ent"};
             string[] withEndings = ApplyEndings(endings, verb);
 
             // soften the c with a cedilla before an 'o' for nous (at index 3)
