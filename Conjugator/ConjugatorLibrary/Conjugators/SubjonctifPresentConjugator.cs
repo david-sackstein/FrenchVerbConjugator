@@ -14,12 +14,6 @@ namespace ConjugatorLibrary
             string[] endings = {"e", "es", "e", "ions", "iez", "ent"};
             string[] withEndings = ApplyEndings(endings, verb);
 
-            // soften the c with a cedilla before an 'o' for nous (at index 3)
-            if (verb[^3] == 'c')
-            {
-                withEndings[3] = withEndings[3].ReplaceAt(-4, 'ç');
-            }
-
             return withEndings;
         }
 
