@@ -9,7 +9,7 @@ namespace ConjugatorLibrary
 
         [JsonPropertyName("second_group")]
         public string[] SecondGroup { get; set; }
-        
+
         [JsonPropertyName("third_group")]
         public string[] ThirdGroup { get; set; }
     }

@@ -13,11 +13,13 @@ namespace ConjugatorLibrary
             {
                 Console.WriteLine();
             }
+
             int positiveIndex = index > 0 ? index : inString.Length + index;
             return new StringBuilder(inString) {[positiveIndex] = c}.ToString();
         }
 
-        public static IEnumerable<string> SelectExceptFor(this IEnumerable<string> source, int index, Func<string, string> selector)
+        public static IEnumerable<string> SelectExceptFor(this IEnumerable<string> source, int index,
+            Func<string, string> selector)
         {
             return source.Select((s, i) => i != 5 ? selector(s) : s);
         }

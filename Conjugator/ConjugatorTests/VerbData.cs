@@ -7,7 +7,7 @@ using ConjugatorLibrary;
 
 namespace ConjugatorTests
 {
-    class VerbData
+    internal class VerbData
     {
         public Verbs Verbs { get; }
         public Dictionary<string, Conjugation> Conjugations { get; }
@@ -16,12 +16,12 @@ namespace ConjugatorTests
         {
             string verbsFileName = Path.Combine(
                 nodeModulesPath, @"french-verbs-list\verbs.json");
-            
+
             string conjugationsFileName = Path.Combine(
                 nodeModulesPath, @"french-verbs-lefff\dist\conjugations-fixed.json");
 
             Conjugations = LoadConjugations(conjugationsFileName);
-            
+
             var verbList = JsonSerializer.Deserialize<VerbList>(
                 File.ReadAllText(verbsFileName));
 
@@ -36,7 +36,7 @@ namespace ConjugatorTests
 
         public static void SaveConjugations(string nodeModulesPath, Dictionary<string, Conjugation> conjugations)
         {
-            var text = JsonSerializer.Serialize(conjugations, new JsonSerializerOptions
+            string text = JsonSerializer.Serialize(conjugations, new JsonSerializerOptions
             {
                 Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
                 WriteIndented = true

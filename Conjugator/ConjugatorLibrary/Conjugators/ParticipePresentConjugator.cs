@@ -15,10 +15,12 @@
             {
                 return stem + "e";
             }
+
             if (verb[^3] == 'c')
             {
                 return stem.ReplaceAt(-1, 'ç');
             }
+
             return stem;
         }
 

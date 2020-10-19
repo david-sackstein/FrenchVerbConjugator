@@ -1,8 +1,9 @@
 ﻿namespace ConjugatorLibrary
 {
-    static class Exceptions
+    internal static class Exceptions
     {
-        public static readonly string[] noDoubleL = {
+        public static readonly string[] noDoubleL =
+        {
             "celer",
             "ciseler",
             "congeler",
@@ -26,7 +27,8 @@
             "écarteler"
         };
 
-        public static readonly string[] noDoubleT = {
+        public static readonly string[] noDoubleT =
+        {
             "acheter",
             "becqueter",
             "corseter",

@@ -63,7 +63,7 @@ namespace ConjugatorLibrary
         private static bool BasedOnLastThreeLetters(string stem, out string actualStem)
         {
             const int endingLength = 3;
-            
+
             actualStem = stem;
 
             if (stem.Length < endingLength)

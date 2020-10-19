@@ -69,7 +69,8 @@ namespace ConjugatorTests
         [TestMethod]
         public void TestErSubjonctifImparfaitConjugator()
         {
-            TestErVerbs(v => _verbData.Conjugations[v].SubjonctifImparfait, SubjonctifImparfaitConjugator.GetConjugations);
+            TestErVerbs(v => _verbData.Conjugations[v].SubjonctifImparfait,
+                SubjonctifImparfaitConjugator.GetConjugations);
         }
 
         [TestMethod]

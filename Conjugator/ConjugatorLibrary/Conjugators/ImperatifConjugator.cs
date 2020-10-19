@@ -4,7 +4,7 @@
     {
         public static string[] GetConjugations(string verb)
         {
-            var present = PresentConjugator.GetConjugations(verb);
+            string[] present = PresentConjugator.GetConjugations(verb);
             return new[]
             {
                 null,

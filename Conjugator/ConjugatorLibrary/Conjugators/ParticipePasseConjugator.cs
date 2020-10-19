@@ -2,7 +2,7 @@
 {
     public static class ParticipePasseConjugator
     {
-        public static string[] Endings { get; } = { "é", "és", "ée", "ées" };
+        public static string[] Endings { get; } = {"é", "és", "ée", "ées"};
 
         public static string[] GetConjugations(string verb)
         {
@@ -17,6 +17,7 @@
             {
                 return "all";
             }
+
             return verb.Remove(verb.Length - 2);
         }
     }

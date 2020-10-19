@@ -14,7 +14,7 @@ namespace ConjugatorLibrary
                     : forNonNousVous(s))
                 .ToArray();
         }
-        
+
         public static string[] AddEndings(this string stem, string[] endings)
         {
             return endings.Select(ending => stem + ending).ToArray();

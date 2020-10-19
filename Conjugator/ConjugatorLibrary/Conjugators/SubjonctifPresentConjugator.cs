@@ -8,7 +8,7 @@ namespace ConjugatorLibrary
         {
             if (verb == "aller")
             {
-                return new[] {"aille", "ailles", "aille", "allions", "alliez", "aillent" };
+                return new[] {"aille", "ailles", "aille", "allions", "alliez", "aillent"};
             }
 
             string[] endings = {"e", "es", "e", "ions", "iez", "ent"};
@@ -23,8 +23,8 @@ namespace ConjugatorLibrary
             // determine the stem for je, tu, il, ils ("modifiedStem") which may
             // not be the same as for nous and vous
 
-            return PresentStemModifier.GetModifiedStem(stem, out string modifiedStem) 
-                ? AddEndings(endings, modifiedStem, stem) 
+            return PresentStemModifier.GetModifiedStem(stem, out string modifiedStem)
+                ? AddEndings(endings, modifiedStem, stem)
                 : AddEndings(endings, stem);
         }
 
