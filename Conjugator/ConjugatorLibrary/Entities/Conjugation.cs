@@ -11,7 +11,7 @@ namespace ConjugatorLibrary
         public string[] SubjonctifPresent { get; set; }
         
         [JsonPropertyName("Y")]
-        public string[] Imperative { get; set; }
+        public string[] Imperatif { get; set; }
         
         [JsonPropertyName("I")]
         public string[] Imparfait { get; set; }

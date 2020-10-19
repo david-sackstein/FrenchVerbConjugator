@@ -37,6 +37,12 @@ namespace ConjugatorTests
         }
 
         [TestMethod]
+        public void TestErParticipePresent()
+        {
+            TestErVerbs(v => _verbData.Conjugations[v].ParticipePresent, ParticipePresentConjugator.GetConjugations);
+        }
+
+        [TestMethod]
         public void TestErFuture()
         {
             TestErVerbs(v => _verbData.Conjugations[v].Future, FutureConjugator.GetConjugations);
@@ -49,9 +55,9 @@ namespace ConjugatorTests
         }
 
         [TestMethod]
-        public void TestErParticipePresent()
+        public void TestErImperatif()
         {
-            TestErVerbs(v => _verbData.Conjugations[v].ParticipePresent, ParticipePresentConjugator.GetConjugations);
+            TestErVerbs(v => _verbData.Conjugations[v].Imperatif, ImperatifConjugator.GetConjugations);
         }
 
         private static void TestErVerbs(Func<string, string[]> referenceConjugator, Func<string, string[]> conjugator)
