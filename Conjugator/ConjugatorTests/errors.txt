@@ -1,27 +1,7 @@
 [
   [
-    "abroger",
-    "abrogeant           abrogant"
-  ],
-  [
-    "abréger",
-    "abrégeant           abrégant"
-  ],
-  [
     "acquiescer",
     "acquiesçant         acquiescant"
-  ],
-  [
-    "adjuger",
-    "adjugeant           adjugant"
-  ],
-  [
-    "affliger",
-    "affligeant          affligant"
-  ],
-  [
-    "affourager",
-    "affourageant        affouragant"
   ],
   [
     "agacer",
@@ -32,60 +12,12 @@
     "agençant            agencant"
   ],
   [
-    "agréger",
-    "agrégeant           agrégant"
-  ],
-  [
-    "allonger",
-    "allongeant          allongant"
-  ],
-  [
-    "alléger",
-    "allégeant           allégant"
-  ],
-  [
     "amorcer",
     "amorçant            amorcant"
   ],
   [
-    "aménager",
-    "aménageant          aménagant"
-  ],
-  [
     "annoncer",
     "annonçant           annoncant"
-  ],
-  [
-    "apanager",
-    "apanageant          apanagant"
-  ],
-  [
-    "arpéger",
-    "arpégeant           arpégant"
-  ],
-  [
-    "arranger",
-    "arrangeant          arrangant"
-  ],
-  [
-    "arroger",
-    "arrogeant           arrogant"
-  ],
-  [
-    "arrérager",
-    "arrérageant         arréragant"
-  ],
-  [
-    "asperger",
-    "aspergeant          aspergant"
-  ],
-  [
-    "assiéger",
-    "assiégeant          assiégant"
-  ],
-  [
-    "attiger",
-    "attigeant           attigant"
   ],
   [
     "autodénoncer",
@@ -96,10 +28,6 @@
     "autofinançant       autofinancant"
   ],
   [
-    "autoprotéger",
-    "autoprotégeant      autoprotégant"
-  ],
-  [
     "autorenforcer",
     "autorenforçant      autorenforcant"
   ],
@@ -108,68 +36,20 @@
     "avançant            avancant"
   ],
   [
-    "avantager",
-    "avantageant         avantagant"
-  ],
-  [
-    "badger",
-    "badgeant            badgant"
-  ],
-  [
     "balancer",
     "balançant           balancant"
-  ],
-  [
-    "bauger",
-    "baugeant            baugant"
   ],
   [
     "bercer",
     "berçant             bercant"
   ],
   [
-    "bouger",
-    "bougeant            bougant"
-  ],
-  [
-    "boulanger",
-    "boulangeant         boulangant"
-  ],
-  [
-    "bridger",
-    "bridgeant           bridgant"
-  ],
-  [
     "cadencer",
     "cadençant           cadencant"
   ],
   [
-    "calorifuger",
-    "calorifugeant       calorifugant"
-  ],
-  [
     "carencer",
     "carençant           carencant"
-  ],
-  [
-    "centrifuger",
-    "centrifugeant       centrifugant"
-  ],
-  [
-    "challenger",
-    "challengeant        challengant"
-  ],
-  [
-    "changer",
-    "changeant           changant"
-  ],
-  [
-    "charger",
-    "chargeant           chargant"
-  ],
-  [
-    "codiriger",
-    "codirigeant         codirigant"
   ],
   [
     "cofinancer",
@@ -178,10 +58,6 @@
   [
     "coincer",
     "coinçant            coincant"
-  ],
-  [
-    "colliger",
-    "colligeant          colligant"
   ],
   [
     "commencer",
@@ -196,24 +72,8 @@
     "concurrençant       concurrencant"
   ],
   [
-    "conjuger",
-    "conjugeant          conjugant"
-  ],
-  [
     "contrebalancer",
     "contrebalançant     contrebalancant"
-  ],
-  [
-    "converger",
-    "convergeant         convergant"
-  ],
-  [
-    "copartager",
-    "copartageant        copartagant"
-  ],
-  [
-    "corriger",
-    "corrigeant          corrigant"
   ],
   [
     "courroucer",
@@ -224,24 +84,12 @@
     "devançant           devancant"
   ],
   [
-    "diriger",
-    "dirigeant           dirigant"
-  ],
-  [
     "distancer",
     "distançant          distancant"
   ],
   [
-    "diverger",
-    "divergeant          divergant"
-  ],
-  [
     "divorcer",
     "divorçant           divorcant"
-  ],
-  [
-    "décharger",
-    "déchargeant         déchargant"
   ],
   [
     "décoincer",
@@ -252,16 +100,8 @@
     "décontenançant      décontenancant"
   ],
   [
-    "décourager",
-    "décourageant        découragant"
-  ],
-  [
     "dédicacer",
     "dédicaçant          dédicacant"
-  ],
-  [
-    "dédommager",
-    "dédommageant        dédommagant"
   ],
   [
     "défoncer",
@@ -272,52 +112,16 @@
     "défronçant          défroncant"
   ],
   [
-    "dégager",
-    "dégageant           dégagant"
-  ],
-  [
     "déglacer",
     "déglaçant           déglacant"
-  ],
-  [
-    "dégorger",
-    "dégorgeant          dégorgant"
-  ],
-  [
-    "déjauger",
-    "déjaugeant          déjaugant"
-  ],
-  [
-    "déjuger",
-    "déjugeant           déjugant"
   ],
   [
     "délacer",
     "délaçant            délacant"
   ],
   [
-    "déloger",
-    "délogeant           délogant"
-  ],
-  [
-    "démanger",
-    "démangeant          démangant"
-  ],
-  [
-    "déménager",
-    "déménageant         déménagant"
-  ],
-  [
-    "déneiger",
-    "déneigeant          déneigant"
-  ],
-  [
     "dénoncer",
     "dénonçant           dénoncant"
-  ],
-  [
-    "départager",
-    "départageant        départagant"
   ],
   [
     "dépecer",
@@ -328,48 +132,12 @@
     "déplaçant           déplacant"
   ],
   [
-    "déranger",
-    "dérangeant          dérangant"
-  ],
-  [
-    "déroger",
-    "dérogeant           dérogant"
-  ],
-  [
-    "désagréger",
-    "désagrégeant        désagrégant"
-  ],
-  [
     "désamorcer",
     "désamorçant         désamorcant"
   ],
   [
     "désarmorcer",
     "désarmorçant        désarmorcant"
-  ],
-  [
-    "désavantager",
-    "désavantageant      désavantagant"
-  ],
-  [
-    "désengager",
-    "désengageant        désengagant"
-  ],
-  [
-    "désengorger",
-    "désengorgeant       désengorgant"
-  ],
-  [
-    "désobliger",
-    "désobligeant        désobligant"
-  ],
-  [
-    "déterger",
-    "détergeant          détergant"
-  ],
-  [
-    "dévisager",
-    "dévisageant         dévisagant"
   ],
   [
     "effacer",
@@ -380,64 +148,16 @@
     "efforçant           efforcant"
   ],
   [
-    "effranger",
-    "effrangeant         effrangant"
-  ],
-  [
-    "emménager",
-    "emménageant         emménagant"
-  ],
-  [
-    "encager",
-    "encageant           encagant"
-  ],
-  [
-    "encourager",
-    "encourageant        encouragant"
-  ],
-  [
-    "endommager",
-    "endommageant        endommagant"
-  ],
-  [
     "enfoncer",
     "enfonçant           enfoncant"
-  ],
-  [
-    "engager",
-    "engageant           engagant"
   ],
   [
     "engoncer",
     "engonçant           engoncant"
   ],
   [
-    "engorger",
-    "engorgeant          engorgant"
-  ],
-  [
-    "engranger",
-    "engrangeant         engrangant"
-  ],
-  [
     "enlacer",
     "enlaçant            enlacant"
-  ],
-  [
-    "enneiger",
-    "enneigeant          enneigant"
-  ],
-  [
-    "ennuager",
-    "ennuageant          ennuagant"
-  ],
-  [
-    "enrager",
-    "enrageant           enragant"
-  ],
-  [
-    "ensauvager",
-    "ensauvageant        ensauvagant"
   ],
   [
     "ensemencer",
@@ -448,16 +168,8 @@
     "entrelaçant         entrelacant"
   ],
   [
-    "envisager",
-    "envisageant         envisagant"
-  ],
-  [
     "espacer",
     "espaçant            espacant"
-  ],
-  [
-    "essanger",
-    "essangeant          essangant"
   ],
   [
     "exaucer",
@@ -468,20 +180,8 @@
     "exerçant            exercant"
   ],
   [
-    "exiger",
-    "exigeant            exigant"
-  ],
-  [
-    "expurger",
-    "expurgeant          expurgant"
-  ],
-  [
     "fiancer",
     "fiançant            fiancant"
-  ],
-  [
-    "figer",
-    "figeant             figant"
   ],
   [
     "financer",
@@ -496,44 +196,12 @@
     "forçant             forcant"
   ],
   [
-    "forger",
-    "forgeant            forgant"
-  ],
-  [
     "forlancer",
     "forlançant          forlancant"
   ],
   [
-    "fouger",
-    "fougeant            fougant"
-  ],
-  [
-    "fourrager",
-    "fourrageant         fourragant"
-  ],
-  [
-    "franger",
-    "frangeant           frangant"
-  ],
-  [
     "froncer",
     "fronçant            froncant"
-  ],
-  [
-    "fumiger",
-    "fumigeant           fumigant"
-  ],
-  [
-    "fustiger",
-    "fustigeant          fustigant"
-  ],
-  [
-    "gager",
-    "gageant             gagant"
-  ],
-  [
-    "gamberger",
-    "gambergeant         gambergant"
   ],
   [
     "garancer",
@@ -548,52 +216,12 @@
     "glaçant             glacant"
   ],
   [
-    "goberger",
-    "gobergeant          gobergant"
-  ],
-  [
-    "gorger",
-    "gorgeant            gorgant"
-  ],
-  [
-    "grillager",
-    "grillageant         grillagant"
-  ],
-  [
     "grimacer",
     "grimaçant           grimacant"
   ],
   [
     "grincer",
     "grinçant            grincant"
-  ],
-  [
-    "gruger",
-    "grugeant            grugant"
-  ],
-  [
-    "herbager",
-    "herbageant          herbagant"
-  ],
-  [
-    "hydrofuger",
-    "hydrofugeant        hydrofugant"
-  ],
-  [
-    "héberger",
-    "hébergeant          hébergant"
-  ],
-  [
-    "ignifuger",
-    "ignifugeant         ignifugant"
-  ],
-  [
-    "imager",
-    "imageant            imagant"
-  ],
-  [
-    "immerger",
-    "immergeant          immergant"
   ],
   [
     "immiscer",
@@ -604,32 +232,12 @@
     "indiçant            indicant"
   ],
   [
-    "infliger",
-    "infligeant          infligant"
-  ],
-  [
     "influencer",
     "influençant         influencant"
   ],
   [
-    "insurger",
-    "insurgeant          insurgant"
-  ],
-  [
     "interfacer",
     "interfaçant         interfacant"
-  ],
-  [
-    "interroger",
-    "interrogeant        interrogant"
-  ],
-  [
-    "jauger",
-    "jaugeant            jaugant"
-  ],
-  [
-    "juger",
-    "jugeant             jugant"
   ],
   [
     "lacer",
@@ -640,56 +248,8 @@
     "lançant             lancant"
   ],
   [
-    "langer",
-    "langeant            langant"
-  ],
-  [
-    "limoger",
-    "limogeant           limogant"
-  ],
-  [
-    "linger",
-    "lingeant            lingant"
-  ],
-  [
-    "liéger",
-    "liégeant            liégant"
-  ],
-  [
-    "loger",
-    "logeant             logant"
-  ],
-  [
-    "longer",
-    "longeant            longant"
-  ],
-  [
-    "louanger",
-    "louangeant          louangant"
-  ],
-  [
-    "luger",
-    "lugeant             lugant"
-  ],
-  [
-    "léviger",
-    "lévigeant           lévigant"
-  ],
-  [
-    "manager",
-    "manageant           managant"
-  ],
-  [
-    "manger",
-    "mangeant            mangant"
-  ],
-  [
     "manigancer",
     "manigançant         manigancant"
-  ],
-  [
-    "marger",
-    "margeant            margant"
   ],
   [
     "matricer",
@@ -700,100 +260,28 @@
     "menaçant            menacant"
   ],
   [
-    "mitiger",
-    "mitigeant           mitigant"
-  ],
-  [
     "mordancer",
     "mordançant          mordancant"
-  ],
-  [
-    "méjuger",
-    "méjugeant           méjugant"
-  ],
-  [
-    "mélanger",
-    "mélangeant          mélangant"
-  ],
-  [
-    "ménager",
-    "ménageant           ménagant"
-  ],
-  [
-    "nager",
-    "nageant             nagant"
-  ],
-  [
-    "naufrager",
-    "naufrageant         naufragant"
   ],
   [
     "nuancer",
     "nuançant            nuancant"
   ],
   [
-    "négliger",
-    "négligeant          négligant"
-  ],
-  [
-    "obliger",
-    "obligeant           obligant"
-  ],
-  [
     "officer",
     "offiçant            officant"
-  ],
-  [
-    "ombrager",
-    "ombrageant          ombragant"
   ],
   [
     "opiacer",
     "opiaçant            opiacant"
   ],
   [
-    "oranger",
-    "orangeant           orangant"
-  ],
-  [
     "ordonnancer",
     "ordonnançant        ordonnancant"
   ],
   [
-    "outrager",
-    "outrageant          outragant"
-  ],
-  [
-    "ouvrager",
-    "ouvrageant          ouvragant"
-  ],
-  [
-    "pacager",
-    "pacageant           pacagant"
-  ],
-  [
-    "pager",
-    "pageant             pagant"
-  ],
-  [
-    "partager",
-    "partageant          partagant"
-  ],
-  [
-    "patauger",
-    "pataugeant          pataugant"
-  ],
-  [
-    "paysager",
-    "paysageant          paysagant"
-  ],
-  [
     "percer",
     "perçant             percant"
-  ],
-  [
-    "piger",
-    "pigeant             pigant"
   ],
   [
     "pincer",
@@ -804,16 +292,8 @@
     "pionçant            pioncant"
   ],
   [
-    "piéger",
-    "piégeant            piégant"
-  ],
-  [
     "placer",
     "plaçant             placant"
-  ],
-  [
-    "plonger",
-    "plongeant           plongant"
   ],
   [
     "policer",
@@ -824,28 +304,8 @@
     "ponçant             poncant"
   ],
   [
-    "prolonger",
-    "prolongeant         prolongant"
-  ],
-  [
     "prononcer",
     "prononçant          prononcant"
-  ],
-  [
-    "propager",
-    "propageant          propagant"
-  ],
-  [
-    "proroger",
-    "prorogeant          prorogant"
-  ],
-  [
-    "protéger",
-    "protégeant          protégant"
-  ],
-  [
-    "précharger",
-    "préchargeant        préchargant"
   ],
   [
     "préfacer",
@@ -856,88 +316,20 @@
     "préfinançant        préfinancant"
   ],
   [
-    "préjuger",
-    "préjugeant          préjugant"
-  ],
-  [
-    "présager",
-    "présageant          présagant"
-  ],
-  [
-    "purger",
-    "purgeant            purgant"
-  ],
-  [
-    "quartager",
-    "quartageant         quartagant"
-  ],
-  [
     "quittancer",
     "quittançant         quittancant"
-  ],
-  [
-    "rager",
-    "rageant             ragant"
-  ],
-  [
-    "rallonger",
-    "rallongeant         rallongant"
-  ],
-  [
-    "ralléger",
-    "rallégeant          rallégant"
-  ],
-  [
-    "ramager",
-    "ramageant           ramagant"
-  ],
-  [
-    "ranger",
-    "rangeant            rangant"
   ],
   [
     "rapiécer",
     "rapiéçant           rapiécant"
   ],
   [
-    "ravager",
-    "ravageant           ravagant"
-  ],
-  [
-    "rechanger",
-    "rechangeant         rechangant"
-  ],
-  [
-    "recharger",
-    "rechargeant         rechargant"
-  ],
-  [
     "recommencer",
     "recommençant        recommencant"
   ],
   [
-    "recorriger",
-    "recorrigeant        recorrigant"
-  ],
-  [
-    "rediriger",
-    "redirigeant         redirigant"
-  ],
-  [
     "refinancer",
     "refinançant         refinancant"
-  ],
-  [
-    "reforger",
-    "reforgeant          reforgant"
-  ],
-  [
-    "regorger",
-    "regorgeant          regorgant"
-  ],
-  [
-    "rejuger",
-    "rejugeant           rejugant"
   ],
   [
     "relacer",
@@ -946,14 +338,6 @@
   [
     "relancer",
     "relançant           relancant"
-  ],
-  [
-    "reloger",
-    "relogeant           relogant"
-  ],
-  [
-    "remanger",
-    "remangeant          remangant"
   ],
   [
     "remplacer",
@@ -968,20 +352,8 @@
     "renforçant          renforcant"
   ],
   [
-    "rengager",
-    "rengageant          rengagant"
-  ],
-  [
-    "rengorger",
-    "rengorgeant         rengorgant"
-  ],
-  [
     "renoncer",
     "renonçant           renoncant"
-  ],
-  [
-    "repartager",
-    "repartageant        repartagant"
   ],
   [
     "repercer",
@@ -990,14 +362,6 @@
   [
     "replacer",
     "replaçant           replacant"
-  ],
-  [
-    "replonger",
-    "replongeant         replongant"
-  ],
-  [
-    "repurger",
-    "repurgeant          repurgant"
   ],
   [
     "ressourcer",
@@ -1020,32 +384,12 @@
     "romançant           romancant"
   ],
   [
-    "ronger",
-    "rongeant            rongant"
-  ],
-  [
     "réagencer",
     "réagençant          réagencant"
   ],
   [
     "réamorcer",
     "réamorçant          réamorcant"
-  ],
-  [
-    "réaménager",
-    "réaménageant        réaménagant"
-  ],
-  [
-    "réarranger",
-    "réarrangeant        réarrangant"
-  ],
-  [
-    "rédiger",
-    "rédigeant           rédigant"
-  ],
-  [
-    "réengager",
-    "réengageant         réengagant"
   ],
   [
     "réensemencer",
@@ -1056,22 +400,6 @@
     "référençant         référencant"
   ],
   [
-    "réinterroger",
-    "réinterrogeant      réinterrogant"
-  ],
-  [
-    "réémerger",
-    "réémergeant         réémergant"
-  ],
-  [
-    "réériger",
-    "réérigeant          réérigant"
-  ],
-  [
-    "saccager",
-    "saccageant          saccagant"
-  ],
-  [
     "saucer",
     "sauçant             saucant"
   ],
@@ -1080,48 +408,12 @@
     "semonçant           semoncant"
   ],
   [
-    "singer",
-    "singeant            singant"
-  ],
-  [
-    "siéger",
-    "siégeant            siégant"
-  ],
-  [
-    "songer",
-    "songeant            songant"
-  ],
-  [
-    "soulager",
-    "soulageant          soulagant"
-  ],
-  [
-    "submerger",
-    "submergeant         submergant"
-  ],
-  [
-    "subroger",
-    "subrogeant          subrogant"
-  ],
-  [
     "sucer",
     "suçant              sucant"
   ],
   [
-    "surcharger",
-    "surchargeant        surchargant"
-  ],
-  [
     "surfacer",
     "surfaçant           surfacant"
-  ],
-  [
-    "surnager",
-    "surnageant          surnagant"
-  ],
-  [
-    "surprotéger",
-    "surprotégeant       surprotégant"
   ],
   [
     "séquencer",
@@ -1136,10 +428,6 @@
     "tançant             tancant"
   ],
   [
-    "tapager",
-    "tapageant           tapagant"
-  ],
-  [
     "tercer",
     "terçant             tercant"
   ],
@@ -1152,100 +440,24 @@
     "traçant             tracant"
   ],
   [
-    "transiger",
-    "transigeant         transigant"
-  ],
-  [
     "transpercer",
     "transperçant        transpercant"
-  ],
-  [
-    "treillager",
-    "treillageant        treillagant"
-  ],
-  [
-    "télécharger",
-    "téléchargeant       téléchargant"
-  ],
-  [
-    "télédiriger",
-    "télédirigeant       télédirigant"
-  ],
-  [
-    "urger",
-    "urgeant             urgant"
-  ],
-  [
-    "usager",
-    "usageant            usagant"
-  ],
-  [
-    "vendanger",
-    "vendangeant         vendangant"
-  ],
-  [
-    "venger",
-    "vengeant            vengant"
-  ],
-  [
-    "verbiager",
-    "verbiageant         verbiagant"
   ],
   [
     "verglacer",
     "verglaçant          verglacant"
   ],
   [
-    "vidanger",
-    "vidangeant          vidangant"
-  ],
-  [
     "violacer",
     "violaçant           violacant"
-  ],
-  [
-    "voliger",
-    "voligeant           voligant"
-  ],
-  [
-    "voltiger",
-    "voltigeant          voltigant"
-  ],
-  [
-    "voyager",
-    "voyageant           voyagant"
-  ],
-  [
-    "échanger",
-    "échangeant          échangant"
   ],
   [
     "écorcer",
     "écorçant            écorcant"
   ],
   [
-    "égorger",
-    "égorgeant           égorgant"
-  ],
-  [
-    "égruger",
-    "égrugeant           égrugant"
-  ],
-  [
     "élancer",
     "élançant            élancant"
-  ],
-  [
-    "élonger",
-    "élongeant           élongant"
-  ],
-  [
-    "émarger",
-    "émargeant           émargant"
-  ],
-  [
-    "émerger",
-    "émergeant           émergant"
   ],
   [
     "émincer",
@@ -1264,24 +476,8 @@
     "épinçant            épincant"
   ],
   [
-    "éponger",
-    "épongeant           épongant"
-  ],
-  [
     "épucer",
     "épuçant             épucant"
-  ],
-  [
-    "ériger",
-    "érigeant            érigant"
-  ],
-  [
-    "étager",
-    "étageant            étagant"
-  ],
-  [
-    "étalager",
-    "étalageant          étalagant"
   ],
   [
     "évincer",
