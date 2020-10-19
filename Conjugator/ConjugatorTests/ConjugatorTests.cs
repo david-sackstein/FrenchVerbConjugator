@@ -19,36 +19,42 @@ namespace ConjugatorTests
         }
 
         [TestMethod]
-        public void TestAllErPresent()
+        public void TestErPresent()
         {
-            TestAll(v => _verbData.Conjugations[v].Present, PresentConjugator.GetConjugations);
+            TestErVerbs(v => _verbData.Conjugations[v].Present, PresentConjugator.GetConjugations);
         }
 
         [TestMethod]
-        public void TestAllErImparfait()
+        public void TestErImparfait()
         {
-            TestAll(v => _verbData.Conjugations[v].Imparfait, ImparfaitConjugator.GetConjugations);
+            TestErVerbs(v => _verbData.Conjugations[v].Imparfait, ImparfaitConjugator.GetConjugations);
         }
 
         [TestMethod]
-        public void TestAllParticipePasse()
+        public void TestErParticipePasse()
         {
-            TestAll(v => _verbData.Conjugations[v].ParticipePasse, ParticipePasseConjugator.GetConjugations);
+            TestErVerbs(v => _verbData.Conjugations[v].ParticipePasse, ParticipePasseConjugator.GetConjugations);
         }
 
         [TestMethod]
-        public void TestAllFuture()
+        public void TestErFuture()
         {
-            TestAll(v => _verbData.Conjugations[v].Future, FutureConjugator.GetConjugations);
+            TestErVerbs(v => _verbData.Conjugations[v].Future, FutureConjugator.GetConjugations);
         }
 
         [TestMethod]
-        public void TestAllConditional()
+        public void TestErConditional()
         {
-            TestAll(v => _verbData.Conjugations[v].Conditional, ConditionelConjugator.GetConjugations);
+            TestErVerbs(v => _verbData.Conjugations[v].Conditional, ConditionelConjugator.GetConjugations);
         }
 
-        private static void TestAll(Func<string, string[]> referenceConjugator, Func<string, string[]> conjugator)
+        [TestMethod]
+        public void TestErParticipePresent()
+        {
+            TestErVerbs(v => _verbData.Conjugations[v].ParticipePresent, ParticipePresentConjugator.GetConjugations);
+        }
+
+        private static void TestErVerbs(Func<string, string[]> referenceConjugator, Func<string, string[]> conjugator)
         {
             Dictionary<bool, string[]> grades = _verbData.Conjugations.Keys
                 .Where(v => v.EndsWith("er"))
