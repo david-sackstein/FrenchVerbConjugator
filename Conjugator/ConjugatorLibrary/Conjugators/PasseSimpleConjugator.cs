@@ -1,4 +1,6 @@
-﻿using System.Linq;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ConjugatorLibrary
 {
@@ -14,15 +16,15 @@ namespace ConjugatorLibrary
             // soften the g before the 'a' by adding an e
             if (verb[^3] == 'g')
             {
-                endings = Endings.Select((ending, i) => i != 5 ? "e" + ending : ending).ToArray();
+                endings = Endings.SelectExceptFor(5, s => "e" + s).ToArray();
             }
 
             string[] withEndings = stem.AddEndings(endings);
 
             // soften the c with a cedilla
             if (verb[^3] == 'c')
-            {
-                withEndings = withEndings.Select((withEnding, i) => i != 5 ? withEnding.ReplaceAt(stem.Length-1, 'ç') : withEnding).ToArray();
+            { 
+                return withEndings.SelectExceptFor(5, s => s.ReplaceAt(stem.Length - 1, 'ç')).ToArray(); 
             }
 
             return withEndings;
