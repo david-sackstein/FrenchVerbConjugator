@@ -2,7 +2,7 @@
 
 namespace ConjugatorLibrary
 {
-    public static class FutureStemConverter
+    public static class FutureStemModifier
     {
         // The modified stem is used for all forms
         public static bool GetModifiedStem(string stem, out string modifiedStem)

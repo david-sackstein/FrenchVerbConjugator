@@ -7,7 +7,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ConjugatorTests
 {
     [TestClass]
-    public class UnitTest1
+    public class ConjugatorTests
     {
         private const string _nodeModulesPath = @"..\..\..\..\..\node_modules";
         private static VerbData _verbData;

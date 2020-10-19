@@ -1,7 +1,4 @@
-﻿using System;
-using System.Diagnostics.Contracts;
-
-namespace ConjugatorLibrary
+﻿namespace ConjugatorLibrary
 {
     public static class FutureConjugator
     {
@@ -32,7 +29,7 @@ namespace ConjugatorLibrary
         {
             string shortenedStem = verb[..^2];
 
-            if (FutureStemConverter.GetModifiedStem(shortenedStem, out string modifiedStem))
+            if (FutureStemModifier.GetModifiedStem(shortenedStem, out string modifiedStem))
             {
                 return modifiedStem;
             }

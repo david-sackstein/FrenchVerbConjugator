@@ -1,5 +1,4 @@
-﻿using System.Diagnostics.Contracts;
-using System.Linq;
+﻿using System.Linq;
 
 namespace ConjugatorLibrary
 {
@@ -7,8 +6,6 @@ namespace ConjugatorLibrary
     {
         public static string[] GetConjugations(string verb)
         {
-            Contract.Requires(verb != null && verb.Length > 2 && verb.EndsWith("er"));
-
             if (verb == "aller")
             {
                 return new[] {"vais", "vas", "va", "allons", "allez", "vont"};
@@ -40,7 +37,7 @@ namespace ConjugatorLibrary
             // determine the stem for je, tu, il, ils ("modifiedStem") which may
             // not be the same as for nous and vous
 
-            return PresentStemConverter.GetModifiedStem(stem, out string modifiedStem) 
+            return PresentStemModifier.GetModifiedStem(stem, out string modifiedStem) 
                 ? AddEndings(endings, modifiedStem, stem) 
                 : AddEndings(endings, stem);
         }

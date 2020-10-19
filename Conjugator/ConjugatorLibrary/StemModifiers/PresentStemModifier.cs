@@ -2,7 +2,7 @@
 
 namespace ConjugatorLibrary
 {
-    public static class PresentStemConverter
+    public static class PresentStemModifier
     {
         // The modified stem is used for je, tu, il, ils but not for nous and vous
         public static bool GetModifiedStem(string stem, out string modifiedStem)
