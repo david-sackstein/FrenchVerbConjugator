@@ -85,10 +85,10 @@ namespace ConjugatorTests
             string[] newErrors = actualErrors.Except(expectedErrors).ToArray();
             string[] newFixes = expectedErrors.Except(actualErrors).ToArray();
 
-            //Assert.IsTrue(!newErrors.Any());
+            Assert.IsTrue(!newErrors.Any());
 
-            Console.WriteLine($"{actualErrors.Length} errors");
-            ErrorList.Save(actualErrors, referenceConjugator, conjugator);
+            //Console.WriteLine($"{actualErrors.Length} errors");
+            //ErrorList.Save(actualErrors, referenceConjugator, conjugator);
         }
 
         private static bool IsCorrect(
