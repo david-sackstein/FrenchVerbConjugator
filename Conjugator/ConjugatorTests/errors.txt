@@ -1,11 +1,1 @@
-[
-  [
-    "raller",
-    "raille              ralle",
-    "railles             ralles",
-    "raille              ralle",
-    "rallions            rallions",
-    "ralliez             ralliez",
-    "raillent            rallent"
-  ]
-]
+[]
