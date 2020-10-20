@@ -37,6 +37,15 @@ namespace ConjugatorLibrary.SecondGroup
                 var endings = new[] { "e", "es", "e", "ons", "ez", "ent" };
                 return endings.AddEndings(stem);
             }
+
+            if (stem.EndsWith("quér"))
+            {
+                string modifiedStem = stem[..^2] + "ier";
+                var endings = new[] { "s", "s", "t", "ons", "ez", "ent" };
+                var modified = endings.AddEndings(modifiedStem, stem);
+                modified[5] = modified[5].ReplaceAt(-5, 'è');
+                return modified;
+            }
             return Endings.AddEndings(stem);
         }
     }

@@ -1,14 +1,5 @@
 [
   [
-    "acquérir",
-    "acquiers            acquéris",
-    "acquiers            acquéris",
-    "acquiert            acquérit",
-    "acquérons           acquérissons",
-    "acquérez            acquérissez",
-    "acquièrent          acquérissent"
-  ],
-  [
     "apercevoir",
     "aperçois            apercevois",
     "aperçois            apercevois",
@@ -70,15 +61,6 @@
     "concevons           concevoissons",
     "concevez            concevoissez",
     "conçoivent          concevoissent"
-  ],
-  [
-    "conquérir",
-    "conquiers           conquéris",
-    "conquiers           conquéris",
-    "conquiert           conquérit",
-    "conquérons          conquérissons",
-    "conquérez           conquérissez",
-    "conquièrent         conquérissent"
   ],
   [
     "consentir",
@@ -223,15 +205,6 @@
     "enfuyons            enfuissons",
     "enfuyez             enfuissez",
     "enfuient            enfuissent"
-  ],
-  [
-    "enquérir",
-    "enquiers            enquéris",
-    "enquiers            enquéris",
-    "enquiert            enquérit",
-    "enquérons           enquérissons",
-    "enquérez            enquérissez",
-    "enquièrent          enquérissent"
   ],
   [
     "entrapercevoir",
@@ -459,15 +432,6 @@
     "reçoivent           recevoissent"
   ],
   [
-    "reconquérir",
-    "reconquiers         reconquéris",
-    "reconquiers         reconquéris",
-    "reconquiert         reconquérit",
-    "reconquérons        reconquérissons",
-    "reconquérez         reconquérissez",
-    "reconquièrent       reconquérissent"
-  ],
-  [
     "recouvrir",
     "recouvre            recouvris",
     "recouvres           recouvris",
@@ -529,15 +493,6 @@
     "repentons           repentissons",
     "repentez            repentissez",
     "repentent           repentissent"
-  ],
-  [
-    "requérir",
-    "requiers            requéris",
-    "requiers            requéris",
-    "requiert            requérit",
-    "requérons           requérissons",
-    "requérez            requérissez",
-    "requièrent          requérissent"
   ],
   [
     "ressentir",
