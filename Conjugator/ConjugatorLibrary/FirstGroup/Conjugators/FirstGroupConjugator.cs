@@ -5,6 +5,11 @@ namespace ConjugatorLibrary.FirstGroup
 {
     public class FirstGroupConjugator : IConjugator
     {
+        public bool IsInGroup(string verb)
+        {
+            return verb.EndsWith("er");
+        }
+
         public Func<string, string[]> Conditionel => ConditionelConjugator.GetConjugations;
         public Func<string, string[]> Future => FutureConjugator.GetConjugations;
         public Func<string, string[]> Imparfait => ImparfaitConjugator.GetConjugations;

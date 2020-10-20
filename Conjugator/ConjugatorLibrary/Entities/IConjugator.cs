@@ -4,6 +4,7 @@ namespace ConjugatorLibrary.Conjugators
 {
     public interface IConjugator
     {
+        bool IsInGroup(string verb);
         Func<string, string[]> Conditionel { get; }
         Func<string, string[]> Future { get; }
         Func<string, string[]> Imparfait { get; }
