@@ -1,14 +1,5 @@
 [
   [
-    "avoir",
-    "ai                  avois",
-    "as                  avois",
-    "a                   avoit",
-    "avons               avoissons",
-    "avez                avoissez",
-    "ont                 avoissent"
-  ],
-  [
     "abstenir",
     "abstiens            abstenis",
     "abstiens            abstenis",
