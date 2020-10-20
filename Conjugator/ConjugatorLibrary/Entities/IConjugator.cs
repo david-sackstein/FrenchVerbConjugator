@@ -2,7 +2,7 @@
 
 namespace ConjugatorLibrary.Conjugators
 {
-    interface IConjugator
+    public interface IConjugator
     {
         Func<string, string[]> Conditionel { get; }
         Func<string, string[]> Future { get; }

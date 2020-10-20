@@ -3,7 +3,7 @@ using ConjugatorLibrary.Conjugators;
 
 namespace ConjugatorLibrary.FirstGroup
 {
-    class FirstGroupConjugator : IConjugator
+    public class FirstGroupConjugator : IConjugator
     {
         public Func<string, string[]> Conditionel => ConditionelConjugator.GetConjugations;
         public Func<string, string[]> Future => FutureConjugator.GetConjugations;
