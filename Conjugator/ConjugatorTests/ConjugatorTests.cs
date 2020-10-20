@@ -19,13 +19,7 @@ namespace ConjugatorTests
         public static void SetUp(TestContext context)
         {
             _verbData = new VerbData(_nodeModulesPath);
-            _conjugator = new FirstGroupConjugator();
-        }
-
-        [TestMethod]
-        public void TestPresent()
-        {
-            TestConjugator(v => _verbData.Conjugations[v].Present, _conjugator.Present);
+            _conjugator = new SecondGroupConjugator();
         }
 
         [TestMethod]
@@ -82,6 +76,12 @@ namespace ConjugatorTests
             TestConjugator(v => _verbData.Conjugations[v].PasseSimple, _conjugator.PasseSimple);
         }
 
+        [TestMethod]
+        public void TestPresent()
+        {
+            TestConjugator(v => _verbData.Conjugations[v].Present, _conjugator.Present);
+        }
+
         private static void TestConjugator(Func<string, string[]> referenceConjugator, Func<string, string[]> conjugator)
         {
             Dictionary<bool, string[]> grades = _verbData.Conjugations.Keys
@@ -95,10 +95,10 @@ namespace ConjugatorTests
             string[] newErrors = actualErrors.Except(expectedErrors).ToArray();
             string[] newFixes = expectedErrors.Except(actualErrors).ToArray();
 
-            Assert.IsTrue(!newErrors.Any());
+            //Assert.IsTrue(!newErrors.Any());
 
-            //Console.WriteLine($"{actualErrors.Length} errors");
-            //ErrorList.Save(actualErrors, referenceConjugator, conjugator);
+            Console.WriteLine($"{actualErrors.Length} errors");
+            ErrorList.Save(actualErrors, referenceConjugator, conjugator);
         }
 
         private static bool IsCorrect(
