@@ -1,14 +1,5 @@
 [
   [
-    "accourir",
-    "accours             accouris",
-    "accours             accouris",
-    "accourt             accourit",
-    "accourons           accourissons",
-    "accourez            accourissez",
-    "accourent           accourissent"
-  ],
-  [
     "accueillir",
     "accueille           accueillis",
     "accueilles          accueillis",
@@ -90,15 +81,6 @@
     "conçoivent          concevoissent"
   ],
   [
-    "concourir",
-    "concours            concouris",
-    "concours            concouris",
-    "concourt            concourit",
-    "concourons          concourissons",
-    "concourez           concourissez",
-    "concourent          concourissent"
-  ],
-  [
     "conquérir",
     "conquiers           conquéris",
     "conquiers           conquéris",
@@ -115,15 +97,6 @@
     "consentons          consentissons",
     "consentez           consentissez",
     "consentent          consentissent"
-  ],
-  [
-    "courir",
-    "cours               couris",
-    "cours               couris",
-    "court               courit",
-    "courons             courissons",
-    "courez              courissez",
-    "courent             courissent"
   ],
   [
     "couvrir",
@@ -160,15 +133,6 @@
     "devons              devoissons",
     "devez               devoissez",
     "doivent             devoissent"
-  ],
-  [
-    "discourir",
-    "discours            discouris",
-    "discours            discouris",
-    "discourt            discourit",
-    "discourons          discourissons",
-    "discourez           discourissez",
-    "discourent          discourissent"
   ],
   [
     "dormir",
@@ -259,15 +223,6 @@
     "dévêtons            dévêtissons",
     "dévêtez             dévêtissez",
     "dévêtent            dévêtissent"
-  ],
-  [
-    "encourir",
-    "encours             encouris",
-    "encours             encouris",
-    "encourt             encourit",
-    "encourons           encourissons",
-    "encourez            encourissez",
-    "encourent           encourissent"
   ],
   [
     "endormir",
@@ -414,15 +369,6 @@
     "ouvrent             ouvrissent"
   ],
   [
-    "parcourir",
-    "parcours            parcouris",
-    "parcours            parcouris",
-    "parcourt            parcourit",
-    "parcourons          parcourissons",
-    "parcourez           parcourissez",
-    "parcourent          parcourissent"
-  ],
-  [
     "partir",
     "pars                partis",
     "pars                partis",
@@ -540,15 +486,6 @@
     "reconquièrent       reconquérissent"
   ],
   [
-    "recourir",
-    "recours             recouris",
-    "recours             recouris",
-    "recourt             recourit",
-    "recourons           recourissons",
-    "recourez            recourissez",
-    "recourent           recourissent"
-  ],
-  [
     "recouvrir",
     "recouvre            recouvris",
     "recouvres           recouvris",
@@ -601,15 +538,6 @@
     "rendormons          rendormissons",
     "rendormez           rendormissez",
     "rendorment          rendormissent"
-  ],
-  [
-    "reparcourir",
-    "reparcours          reparcouris",
-    "reparcours          reparcouris",
-    "reparcourt          reparcourit",
-    "reparcourons        reparcourissons",
-    "reparcourez         reparcourissez",
-    "reparcourent        reparcourissent"
   ],
   [
     "repartir",
@@ -727,15 +655,6 @@
     "saillons            saillissons",
     "saillissez          saillissez",
     "saillissent         saillissent"
-  ],
-  [
-    "secourir",
-    "secours             secouris",
-    "secours             secouris",
-    "secourt             secourit",
-    "secourons           secourissons",
-    "secourez            secourissez",
-    "secourent           secourissent"
   ],
   [
     "sentir",

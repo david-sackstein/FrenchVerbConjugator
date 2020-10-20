@@ -13,10 +13,6 @@ namespace ConjugatorLibrary.SecondGroup
                 return new[] {"ai", "as", "a", "avons", "avez", "ont"};
             }
 
-            if (verb == "maintenir")
-            {
-                Console.WriteLine();
-            }
             var stem = verb[..^2];
 
             if (stem.EndsWith("en"))
@@ -24,6 +20,12 @@ namespace ConjugatorLibrary.SecondGroup
                 string modifiedStem = stem[..^2] + "ien";
                 var endings = new[] {"s", "s", "t" , "ons" , "ez" , "nent" };
                 return endings.AddEndings(modifiedStem, stem);
+            }
+
+            if (stem.EndsWith("cour"))
+            {
+                var endings = new[] { "s", "s", "t", "ons", "ez", "ent" };
+                return endings.AddEndings(stem);
             }
             return Endings.AddEndings(stem);
         }
