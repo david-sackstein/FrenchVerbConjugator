@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using ConjugatorLibrary;
+using ConjugatorLibrary.FirstGroup;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ConjugatorTests

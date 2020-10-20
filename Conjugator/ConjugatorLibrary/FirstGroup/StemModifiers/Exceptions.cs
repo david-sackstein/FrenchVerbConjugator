@@ -1,4 +1,4 @@
-﻿namespace ConjugatorLibrary
+﻿namespace ConjugatorLibrary.FirstGroup
 {
     internal static class Exceptions
     {
