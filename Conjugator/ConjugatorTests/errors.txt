@@ -1,14 +1,5 @@
 [
   [
-    "accueillir",
-    "accueille           accueillis",
-    "accueilles          accueillis",
-    "accueille           accueillit",
-    "accueillons         accueillissons",
-    "accueillez          accueillissez",
-    "accueillent         accueillissent"
-  ],
-  [
     "acquérir",
     "acquiers            acquéris",
     "acquiers            acquéris",
@@ -106,15 +97,6 @@
     "couvrons            couvrissons",
     "couvrez             couvrissez",
     "couvrent            couvrissent"
-  ],
-  [
-    "cueillir",
-    "cueille             cueillis",
-    "cueilles            cueillis",
-    "cueille             cueillit",
-    "cueillons           cueillissons",
-    "cueillez            cueillissez",
-    "cueillent           cueillissent"
   ],
   [
     "desservir",
@@ -493,15 +475,6 @@
     "recouvrons          recouvrissons",
     "recouvrez           recouvrissez",
     "recouvrent          recouvrissent"
-  ],
-  [
-    "recueillir",
-    "recueille           recueillis",
-    "recueilles          recueillis",
-    "recueille           recueillit",
-    "recueillons         recueillissons",
-    "recueillez          recueillissez",
-    "recueillent         recueillissent"
   ],
   [
     "redevoir",

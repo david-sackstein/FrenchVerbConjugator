@@ -13,6 +13,10 @@ namespace ConjugatorLibrary.SecondGroup
                 return new[] {"ai", "as", "a", "avons", "avez", "ont"};
             }
 
+            if (verb == "enorgueillir")
+            {
+                Console.WriteLine();
+            }
             var stem = verb[..^2];
 
             if (stem.EndsWith("en"))
@@ -25,6 +29,12 @@ namespace ConjugatorLibrary.SecondGroup
             if (stem.EndsWith("cour"))
             {
                 var endings = new[] { "s", "s", "t", "ons", "ez", "ent" };
+                return endings.AddEndings(stem);
+            }
+
+            if (stem.EndsWith("cueill"))
+            {
+                var endings = new[] { "e", "es", "e", "ons", "ez", "ent" };
                 return endings.AddEndings(stem);
             }
             return Endings.AddEndings(stem);
