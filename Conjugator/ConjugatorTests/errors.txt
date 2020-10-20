@@ -1,14 +1,5 @@
 [
   [
-    "abstenir",
-    "abstiens            abstenis",
-    "abstiens            abstenis",
-    "abstient            abstenit",
-    "abstenons           abstenissons",
-    "abstenez            abstenissez",
-    "abstiennent         abstenissent"
-  ],
-  [
     "accourir",
     "accours             accouris",
     "accours             accouris",
@@ -36,15 +27,6 @@
     "acquièrent          acquérissent"
   ],
   [
-    "advenir",
-    "adviens             advenis",
-    "adviens             advenis",
-    "advient             advenit",
-    "advenons            advenissons",
-    "advenez             advenissez",
-    "adviennent          advenissent"
-  ],
-  [
     "apercevoir",
     "aperçois            apercevois",
     "aperçois            apercevois",
@@ -52,15 +34,6 @@
     "apercevons          apercevoissons",
     "apercevez           apercevoissez",
     "aperçoivent         apercevoissent"
-  ],
-  [
-    "appartenir",
-    "appartiens          appartenis",
-    "appartiens          appartenis",
-    "appartient          appartenit",
-    "appartenons         appartenissons",
-    "appartenez          appartenissez",
-    "appartiennent       appartenissent"
   ],
   [
     "assaillir",
@@ -108,15 +81,6 @@
     "choient             choissent"
   ],
   [
-    "circonvenir",
-    "circonviens         circonvenis",
-    "circonviens         circonvenis",
-    "circonvient         circonvenit",
-    "circonvenons        circonvenissons",
-    "circonvenez         circonvenissez",
-    "circonviennent      circonvenissent"
-  ],
-  [
     "concevoir",
     "conçois             concevois",
     "conçois             concevois",
@@ -151,33 +115,6 @@
     "consentons          consentissons",
     "consentez           consentissez",
     "consentent          consentissent"
-  ],
-  [
-    "contenir",
-    "contiens            contenis",
-    "contiens            contenis",
-    "contient            contenit",
-    "contenons           contenissons",
-    "contenez            contenissez",
-    "contiennent         contenissent"
-  ],
-  [
-    "contrevenir",
-    "contreviens         contrevenis",
-    "contreviens         contrevenis",
-    "contrevient         contrevenit",
-    "contrevenons        contrevenissons",
-    "contrevenez         contrevenissez",
-    "contreviennent      contrevenissent"
-  ],
-  [
-    "convenir",
-    "conviens            convenis",
-    "conviens            convenis",
-    "convient            convenit",
-    "convenons           convenissons",
-    "convenez            convenissez",
-    "conviennent         convenissent"
   ],
   [
     "courir",
@@ -223,24 +160,6 @@
     "devons              devoissons",
     "devez               devoissez",
     "doivent             devoissent"
-  ],
-  [
-    "devenir",
-    "deviens             devenis",
-    "deviens             devenis",
-    "devient             devenit",
-    "devenons            devenissons",
-    "devenez             devenissez",
-    "deviennent          devenissent"
-  ],
-  [
-    "disconvenir",
-    "disconviens         disconvenis",
-    "disconviens         disconvenis",
-    "disconvient         disconvenit",
-    "disconvenons        disconvenissons",
-    "disconvenez         disconvenissez",
-    "disconviennent      disconvenissent"
   ],
   [
     "discourir",
@@ -333,15 +252,6 @@
     "dépourvoient        dépourvoissent"
   ],
   [
-    "détenir",
-    "détiens             détenis",
-    "détiens             détenis",
-    "détient             détenit",
-    "détenons            détenissons",
-    "détenez             détenissez",
-    "détiennent          détenissent"
-  ],
-  [
     "dévêtir",
     "dévêts              dévêtis",
     "dévêts              dévêtis",
@@ -394,15 +304,6 @@
     "entrapercevons      entrapercevoissons",
     "entrapercevez       entrapercevoissez",
     "entraperçoivent     entrapercevoissent"
-  ],
-  [
-    "entretenir",
-    "entretiens          entretenis",
-    "entretiens          entretenis",
-    "entretient          entretenit",
-    "entretenons         entretenissons",
-    "entretenez          entretenissez",
-    "entretiennent       entretenissent"
   ],
   [
     "entrevoir",
@@ -459,24 +360,6 @@
     "                    gésissent"
   ],
   [
-    "intervenir",
-    "interviens          intervenis",
-    "interviens          intervenis",
-    "intervient          intervenit",
-    "intervenons         intervenissons",
-    "intervenez          intervenissez",
-    "interviennent       intervenissent"
-  ],
-  [
-    "maintenir",
-    "maintiens           maintenis",
-    "maintiens           maintenis",
-    "maintient           maintenit",
-    "maintenons          maintenissons",
-    "maintenez           maintenissez",
-    "maintiennent        maintenissent"
-  ],
-  [
     "mentir",
     "mens                mentis",
     "mens                mentis",
@@ -513,24 +396,6 @@
     "meuvent             mouvoissent"
   ],
   [
-    "obtenir",
-    "obtiens             obtenis",
-    "obtiens             obtenis",
-    "obtient             obtenit",
-    "obtenons            obtenissons",
-    "obtenez             obtenissez",
-    "obtiennent          obtenissent"
-  ],
-  [
-    "obvenir",
-    "obviens             obvenis",
-    "obviens             obvenis",
-    "obvient             obvenit",
-    "obvenons            obvenissons",
-    "obvenez             obvenissez",
-    "obviennent          obvenissent"
-  ],
-  [
     "offrir",
     "offre               offris",
     "offres              offris",
@@ -565,15 +430,6 @@
     "partons             partissons",
     "partez              partissez",
     "partent             partissent"
-  ],
-  [
-    "parvenir",
-    "parviens            parvenis",
-    "parviens            parvenis",
-    "parvient            parvenit",
-    "parvenons           parvenissons",
-    "parvenez            parvenissez",
-    "parviennent         parvenissent"
   ],
   [
     "percevoir",
@@ -630,15 +486,6 @@
     "promeuvent          promouvoissent"
   ],
   [
-    "provenir",
-    "proviens            provenis",
-    "proviens            provenis",
-    "provient            provenit",
-    "provenons           provenissons",
-    "provenez            provenissez",
-    "proviennent         provenissent"
-  ],
-  [
     "préconcevoir",
     "préconçois          préconcevois",
     "préconçois          préconcevois",
@@ -655,15 +502,6 @@
     "prévalons           prévaloissons",
     "prévalez            prévaloissez",
     "prévalent           prévaloissent"
-  ],
-  [
-    "prévenir",
-    "préviens            prévenis",
-    "préviens            prévenis",
-    "prévient            prévenit",
-    "prévenons           prévenissons",
-    "prévenez            prévenissez",
-    "préviennent         prévenissent"
   ],
   [
     "prévoir",
@@ -736,15 +574,6 @@
     "redevons            redevoissons",
     "redevez             redevoissez",
     "redoivent           redevoissent"
-  ],
-  [
-    "redevenir",
-    "redeviens           redevenis",
-    "redeviens           redevenis",
-    "redevient           redevenit",
-    "redevenons          redevenissons",
-    "redevenez           redevenissez",
-    "redeviennent        redevenissent"
   ],
   [
     "redormir",
@@ -837,24 +666,6 @@
     "ressortissent       ressortissent"
   ],
   [
-    "ressouvenir",
-    "ressouviens         ressouvenis",
-    "ressouviens         ressouvenis",
-    "ressouvient         ressouvenit",
-    "ressouvenons        ressouvenissons",
-    "ressouvenez         ressouvenissez",
-    "ressouviennent      ressouvenissent"
-  ],
-  [
-    "retenir",
-    "retiens             retenis",
-    "retiens             retenis",
-    "retient             retenit",
-    "retenons            retenissons",
-    "retenez             retenissez",
-    "retiennent          retenissent"
-  ],
-  [
     "revaloir",
     "revaux              revalois",
     "revaux              revalois",
@@ -862,15 +673,6 @@
     "revalons            revaloissons",
     "revalez             revaloissez",
     "revalent            revaloissent"
-  ],
-  [
-    "revenir",
-    "reviens             revenis",
-    "reviens             revenis",
-    "revient             revenit",
-    "revenons            revenissons",
-    "revenez             revenissez",
-    "reviennent          revenissent"
   ],
   [
     "revoir",
@@ -981,33 +783,6 @@
     "souffrent           souffrissent"
   ],
   [
-    "soutenir",
-    "soutiens            soutenis",
-    "soutiens            soutenis",
-    "soutient            soutenit",
-    "soutenons           soutenissons",
-    "soutenez            soutenissez",
-    "soutiennent         soutenissent"
-  ],
-  [
-    "souvenir",
-    "souviens            souvenis",
-    "souviens            souvenis",
-    "souvient            souvenit",
-    "souvenons           souvenissons",
-    "souvenez            souvenissez",
-    "souviennent         souvenissent"
-  ],
-  [
-    "subvenir",
-    "subviens            subvenis",
-    "subviens            subvenis",
-    "subvient            subvenit",
-    "subvenons           subvenissons",
-    "subvenez            subvenissez",
-    "subviennent         subvenissent"
-  ],
-  [
     "surseoir",
     "sursois             surseois",
     "sursois             surseois",
@@ -1015,24 +790,6 @@
     "                    surseoissons",
     "                    surseoissez",
     "                    surseoissent"
-  ],
-  [
-    "survenir",
-    "surviens            survenis",
-    "surviens            survenis",
-    "survient            survenit",
-    "survenons           survenissons",
-    "survenez            survenissez",
-    "surviennent         survenissent"
-  ],
-  [
-    "tenir",
-    "tiens               tenis",
-    "tiens               tenis",
-    "tient               tenit",
-    "tenons              tenissons",
-    "tenez               tenissez",
-    "tiennent            tenissent"
   ],
   [
     "tressaillir",
@@ -1051,15 +808,6 @@
     "valons              valoissons",
     "valez               valoissez",
     "valent              valoissent"
-  ],
-  [
-    "venir",
-    "viens               venis",
-    "viens               venis",
-    "vient               venit",
-    "venons              venissons",
-    "venez               venissez",
-    "viennent            venissent"
   ],
   [
     "voir",

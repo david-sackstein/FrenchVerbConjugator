@@ -15,7 +15,7 @@
                 endings = endings.MatchNousVous(s => "e" + s);
             }
 
-            string[] withEndings = stem.AddEndings(endings);
+            string[] withEndings = endings.AddEndings(stem);
 
             // soften the c with a cedilla before an 'a'
             if (verb[^3] == 'c')

@@ -15,11 +15,18 @@ namespace ConjugatorLibrary
                 .ToArray();
         }
 
-        public static string[] AddEndings(this string stem, string[] endings)
+        public static string[] AddEndings(this string[] endings, string stem)
         {
             return endings.Select(ending => stem + ending).ToArray();
         }
 
+        public static string[] AddEndings(this string[] endings, string stem, string nousVousStem)
+        {
+            return endings.MatchNousVous(
+                e => nousVousStem + e,
+                e => stem + e
+            );
+        }
 
         public static string[] MatchNousVous(
             this string[] conjugations, Func<string, string> forNonNousVous)

@@ -8,7 +8,7 @@
         {
             string stem = GetStem(verb);
 
-            return stem.AddEndings(Endings);
+            return Endings.AddEndings(stem);
         }
 
         public static string GetStem(string verb)

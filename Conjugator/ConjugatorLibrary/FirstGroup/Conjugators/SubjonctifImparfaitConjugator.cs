@@ -23,7 +23,7 @@ namespace ConjugatorLibrary.FirstGroup
                 endings = Endings.Select(ending => "e" + ending).ToArray();
             }
 
-            return stem.AddEndings(endings);
+            return endings.AddEndings(stem);
         }
     }
 }

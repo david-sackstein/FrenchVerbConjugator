@@ -8,7 +8,7 @@
 
             string[] endings = ImparfaitConjugator.Endings;
 
-            return stem.AddEndings(endings);
+            return endings.AddEndings(stem);
         }
     }
 }

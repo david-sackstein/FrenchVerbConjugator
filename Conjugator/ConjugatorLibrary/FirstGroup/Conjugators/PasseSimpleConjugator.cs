@@ -17,7 +17,7 @@ namespace ConjugatorLibrary.FirstGroup
                 endings = Endings.SelectExceptFor(5, s => "e" + s).ToArray();
             }
 
-            string[] withEndings = stem.AddEndings(endings);
+            string[] withEndings = endings.AddEndings(stem);
 
             // soften the c with a cedilla
             if (verb[^3] == 'c')
