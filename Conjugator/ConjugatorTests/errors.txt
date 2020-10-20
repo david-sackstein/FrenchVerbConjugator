@@ -1,1313 +1,1127 @@
 [
   [
-    "avoir"
-  ],
-  [
-    "abasourdir"
-  ],
-  [
-    "abolir"
-  ],
-  [
-    "abonnir"
-  ],
-  [
-    "aboutir"
-  ],
-  [
-    "abrutir"
-  ],
-  [
-    "abstenir"
-  ],
-  [
-    "abâtardir"
-  ],
-  [
-    "abêtir"
-  ],
-  [
-    "accomplir"
-  ],
-  [
-    "accourir"
-  ],
-  [
-    "accourcir"
-  ],
-  [
-    "accroupir"
-  ],
-  [
-    "accueillir"
-  ],
-  [
-    "acquérir"
-  ],
-  [
-    "adoucir"
-  ],
-  [
-    "advenir"
-  ],
-  [
-    "affadir"
-  ],
-  [
-    "affaiblir"
-  ],
-  [
-    "affermir"
-  ],
-  [
-    "affranchir"
-  ],
-  [
-    "agir"
-  ],
-  [
-    "agonir"
-  ],
-  [
-    "agrandir"
-  ],
-  [
-    "aguerrir"
-  ],
-  [
-    "ahurir"
-  ],
-  [
-    "aigrir"
-  ],
-  [
-    "alanguir"
-  ],
-  [
-    "alourdir"
-  ],
-  [
-    "alunir"
-  ],
-  [
-    "amaigrir"
-  ],
-  [
-    "amatir"
-  ],
-  [
-    "amerrir"
-  ],
-  [
-    "ameublir"
-  ],
-  [
-    "amincir"
-  ],
-  [
-    "amoindrir"
-  ],
-  [
-    "amollir"
-  ],
-  [
-    "amortir"
-  ],
-  [
-    "anoblir"
-  ],
-  [
-    "anordir"
-  ],
-  [
-    "anéantir"
-  ],
-  [
-    "apercevoir"
-  ],
-  [
-    "aplanir"
-  ],
-  [
-    "aplatir"
-  ],
-  [
-    "appartenir"
-  ],
-  [
-    "appauvrir"
-  ],
-  [
-    "appesantir"
-  ],
-  [
-    "applaudir"
-  ],
-  [
-    "approfondir"
-  ],
-  [
-    "arrondir"
-  ],
-  [
-    "assagir"
-  ],
-  [
-    "assaillir"
-  ],
-  [
-    "assainir"
-  ],
-  [
-    "asseoir"
-  ],
-  [
-    "asservir"
-  ],
-  [
-    "assombrir"
-  ],
-  [
-    "assortir"
-  ],
-  [
-    "assoupir"
-  ],
-  [
-    "assouplir"
-  ],
-  [
-    "assourdir"
-  ],
-  [
-    "assouvir"
-  ],
-  [
-    "assujettir"
-  ],
-  [
-    "attendrir"
-  ],
-  [
-    "atterrir"
-  ],
-  [
-    "attiédir"
-  ],
-  [
-    "automaintenir"
-  ],
-  [
-    "autosaisir"
-  ],
-  [
-    "avachir"
-  ],
-  [
-    "avertir"
-  ],
-  [
-    "aveulir"
-  ],
-  [
-    "avilir"
-  ],
-  [
-    "bannir"
-  ],
-  [
-    "barrir"
-  ],
-  [
-    "blanchir"
-  ],
-  [
-    "blettir"
-  ],
-  [
-    "bleuir"
-  ],
-  [
-    "blondir"
-  ],
-  [
-    "blottir"
-  ],
-  [
-    "blêmir"
-  ],
-  [
-    "bondir"
-  ],
-  [
-    "bouffir"
-  ],
-  [
-    "bouillir"
-  ],
-  [
-    "brandir"
-  ],
-  [
-    "brunir"
-  ],
-  [
-    "bâtir"
-  ],
-  [
-    "bénir"
-  ],
-  [
-    "calmir"
-  ],
-  [
-    "candir"
-  ],
-  [
-    "catir"
-  ],
-  [
-    "chaloir"
-  ],
-  [
-    "chancir"
-  ],
-  [
-    "chauvir"
-  ],
-  [
-    "choir"
-  ],
-  [
-    "choisir"
-  ],
-  [
-    "chérir"
-  ],
-  [
-    "circonvenir"
-  ],
-  [
-    "clapir"
-  ],
-  [
-    "compatir"
-  ],
-  [
-    "concevoir"
-  ],
-  [
-    "concourir"
-  ],
-  [
-    "conquérir"
-  ],
-  [
-    "consentir"
-  ],
-  [
-    "contenir"
-  ],
-  [
-    "contrevenir"
-  ],
-  [
-    "convenir"
-  ],
-  [
-    "convertir"
-  ],
-  [
-    "cotir"
-  ],
-  [
-    "courir"
-  ],
-  [
-    "couvrir"
-  ],
-  [
-    "croupir"
-  ],
-  [
-    "crépir"
-  ],
-  [
-    "cueillir"
-  ],
-  [
-    "dessaisir"
-  ],
-  [
-    "desservir"
-  ],
-  [
-    "dessertir"
-  ],
-  [
-    "devoir"
-  ],
-  [
-    "devenir"
-  ],
-  [
-    "disconvenir"
-  ],
-  [
-    "discourir"
-  ],
-  [
-    "divertir"
-  ],
-  [
-    "dormir"
-  ],
-  [
-    "doucir"
-  ],
-  [
-    "durcir"
-  ],
-  [
-    "débouillir"
-  ],
-  [
-    "décatir"
-  ],
-  [
-    "décevoir"
-  ],
-  [
-    "déchoir"
-  ],
-  [
-    "découvrir"
-  ],
-  [
-    "décrépir"
-  ],
-  [
-    "défaillir"
-  ],
-  [
-    "définir"
-  ],
-  [
-    "défleurir"
-  ],
-  [
-    "défléchir"
-  ],
-  [
-    "défraîchir"
-  ],
-  [
-    "dégarnir"
-  ],
-  [
-    "dégauchir"
-  ],
-  [
-    "déglutir"
-  ],
-  [
-    "dégourdir"
-  ],
-  [
-    "dégrossir"
-  ],
-  [
-    "déguerpir"
-  ],
-  [
-    "démaigrir"
-  ],
-  [
-    "démentir"
-  ],
-  [
-    "démolir"
-  ],
-  [
-    "démunir"
-  ],
-  [
-    "dénantir"
-  ],
-  [
-    "départir"
-  ],
-  [
-    "dépolir"
-  ],
-  [
-    "dépourvoir"
-  ],
-  [
-    "dépérir"
-  ],
-  [
-    "déraidir"
-  ],
-  [
-    "dérougir"
-  ],
-  [
-    "désaisir"
-  ],
-  [
-    "désassortir"
-  ],
-  [
-    "désemplir"
-  ],
-  [
-    "désenfouir"
-  ],
-  [
-    "désengourdir"
-  ],
-  [
-    "désinvestir"
-  ],
-  [
-    "désobéir"
-  ],
-  [
-    "désunir"
-  ],
-  [
-    "détenir"
-  ],
-  [
-    "dévernir"
-  ],
-  [
-    "dévêtir"
-  ],
-  [
-    "effleurir"
-  ],
-  [
-    "embellir"
-  ],
-  [
-    "emboutir"
-  ],
-  [
-    "emplir"
-  ],
-  [
-    "empuantir"
-  ],
-  [
-    "enchérir"
-  ],
-  [
-    "encourir"
-  ],
-  [
-    "endolorir"
-  ],
-  [
-    "endormir"
-  ],
-  [
-    "endurcir"
-  ],
-  [
-    "enfouir"
-  ],
-  [
-    "enfuir"
-  ],
-  [
-    "engloutir"
-  ],
-  [
-    "engourdir"
-  ],
-  [
-    "enhardir"
-  ],
-  [
-    "enlaidir"
-  ],
-  [
-    "ennoblir"
-  ],
-  [
-    "enorgueillir"
-  ],
-  [
-    "enquérir"
-  ],
-  [
-    "enrichir"
-  ],
-  [
-    "ensevelir"
-  ],
-  [
-    "entrapercevoir"
-  ],
-  [
-    "entretenir"
-  ],
-  [
-    "entrevoir"
-  ],
-  [
-    "entrouvrir"
-  ],
-  [
-    "envahir"
-  ],
-  [
-    "esbaudir"
-  ],
-  [
-    "estourbir"
-  ],
-  [
-    "extravertir"
-  ],
-  [
-    "faiblir"
-  ],
-  [
-    "faillir"
-  ],
-  [
-    "falloir"
-  ],
-  [
-    "farcir"
-  ],
-  [
-    "finir"
-  ],
-  [
-    "fleurir"
-  ],
-  [
-    "florir"
-  ],
-  [
-    "fléchir"
-  ],
-  [
-    "flétrir"
-  ],
-  [
-    "forcir"
-  ],
-  [
-    "fouir"
-  ],
-  [
-    "fourbir"
-  ],
-  [
-    "fournir"
-  ],
-  [
-    "franchir"
-  ],
-  [
-    "fraîchir"
-  ],
-  [
-    "frémir"
-  ],
-  [
-    "fuir"
-  ],
-  [
-    "garantir"
-  ],
-  [
-    "garnir"
-  ],
-  [
-    "gauchir"
-  ],
-  [
-    "gésir"
-  ],
-  [
-    "glapir"
-  ],
-  [
-    "glatir"
-  ],
-  [
-    "grandir"
-  ],
-  [
-    "gravir"
-  ],
-  [
-    "grossir"
-  ],
-  [
-    "guérir"
-  ],
-  [
-    "gémir"
-  ],
-  [
-    "hennir"
-  ],
-  [
-    "honnir"
-  ],
-  [
-    "impartir"
-  ],
-  [
-    "infléchir"
-  ],
-  [
-    "interagir"
-  ],
-  [
-    "intervenir"
-  ],
-  [
-    "intervertir"
-  ],
-  [
-    "invertir"
-  ],
-  [
-    "investir"
-  ],
-  [
-    "jaillir"
-  ],
-  [
-    "jaunir"
-  ],
-  [
-    "jouir"
-  ],
-  [
-    "languir"
-  ],
-  [
-    "lotir"
-  ],
-  [
-    "maigrir"
-  ],
-  [
-    "maintenir"
-  ],
-  [
-    "matir"
-  ],
-  [
-    "mentir"
-  ],
-  [
-    "messeoir"
-  ],
-  [
-    "mourir"
-  ],
-  [
-    "meurtrir"
-  ],
-  [
-    "mouvoir"
-  ],
-  [
-    "mincir"
-  ],
-  [
-    "moisir"
-  ],
-  [
-    "moitir"
-  ],
-  [
-    "mollir"
-  ],
-  [
-    "mugir"
-  ],
-  [
-    "munir"
-  ],
-  [
-    "mégir"
-  ],
-  [
-    "mûrir"
-  ],
-  [
-    "nantir"
-  ],
-  [
-    "noircir"
-  ],
-  [
-    "nordir"
-  ],
-  [
-    "nourrir"
-  ],
-  [
-    "obscurcir"
-  ],
-  [
-    "obtenir"
-  ],
-  [
-    "obvenir"
-  ],
-  [
-    "obéir"
-  ],
-  [
-    "offrir"
-  ],
-  [
-    "ourdir"
-  ],
-  [
-    "ouvrir"
-  ],
-  [
-    "parcourir"
-  ],
-  [
-    "partir"
-  ],
-  [
-    "parvenir"
-  ],
-  [
-    "percevoir"
-  ],
-  [
-    "pervertir"
-  ],
-  [
-    "pouvoir"
-  ],
-  [
-    "pleuvoir"
-  ],
-  [
-    "polir"
-  ],
-  [
-    "pourrir"
-  ],
-  [
-    "pourvoir"
-  ],
-  [
-    "pressentir"
-  ],
-  [
-    "promouvoir"
-  ],
-  [
-    "provenir"
-  ],
-  [
-    "préconcevoir"
-  ],
-  [
-    "prémunir"
-  ],
-  [
-    "prévaloir"
-  ],
-  [
-    "prévenir"
-  ],
-  [
-    "prévoir"
-  ],
-  [
-    "préétablir"
-  ],
-  [
-    "punir"
-  ],
-  [
-    "pâlir"
-  ],
-  [
-    "pâtir"
-  ],
-  [
-    "périr"
-  ],
-  [
-    "pétrir"
-  ],
-  [
-    "rabonnir"
-  ],
-  [
-    "rabougrir"
-  ],
-  [
-    "raccourcir"
-  ],
-  [
-    "racornir"
-  ],
-  [
-    "radoucir"
-  ],
-  [
-    "raffermir"
-  ],
-  [
-    "rafraîchir"
-  ],
-  [
-    "ragaillardir"
-  ],
-  [
-    "raidir"
-  ],
-  [
-    "rajeunir"
-  ],
-  [
-    "ralentir"
-  ],
-  [
-    "ramollir"
-  ],
-  [
-    "rancir"
-  ],
-  [
-    "raplatir"
-  ],
-  [
-    "rasseoir"
-  ],
-  [
-    "rassortir"
-  ],
-  [
-    "ravir"
-  ],
-  [
-    "ravilir"
-  ],
-  [
-    "reblanchir"
-  ],
-  [
-    "rebondir"
-  ],
-  [
-    "rebâtir"
-  ],
-  [
-    "recevoir"
-  ],
-  [
-    "rechampir"
-  ],
-  [
-    "reconquérir"
-  ],
-  [
-    "reconvertir"
-  ],
-  [
-    "recourir"
-  ],
-  [
-    "recouvrir"
-  ],
-  [
-    "recrépir"
-  ],
-  [
-    "recueillir"
-  ],
-  [
-    "redevoir"
-  ],
-  [
-    "redevenir"
-  ],
-  [
-    "redormir"
-  ],
-  [
-    "redécouvrir"
-  ],
-  [
-    "redéfinir"
-  ],
-  [
-    "refleurir"
-  ],
-  [
-    "refroidir"
-  ],
-  [
-    "regarnir"
-  ],
-  [
-    "rejaillir"
-  ],
-  [
-    "rembrunir"
-  ],
-  [
-    "remplir"
-  ],
-  [
-    "renchérir"
-  ],
-  [
-    "rendormir"
-  ],
-  [
-    "renformir"
-  ],
-  [
-    "reparcourir"
-  ],
-  [
-    "repartir"
-  ],
-  [
-    "repentir"
-  ],
-  [
-    "repolir"
-  ],
-  [
-    "requérir"
-  ],
-  [
-    "resalir"
-  ],
-  [
-    "resplendir"
-  ],
-  [
-    "ressaisir"
-  ],
-  [
-    "ressentir"
-  ],
-  [
-    "resservir"
-  ],
-  [
-    "ressortir"
-  ],
-  [
-    "ressouvenir"
-  ],
-  [
-    "ressurgir"
-  ],
-  [
-    "resurgir"
-  ],
-  [
-    "retenir"
-  ],
-  [
-    "retentir"
-  ],
-  [
-    "revaloir"
-  ],
-  [
-    "revenir"
-  ],
-  [
-    "reverdir"
-  ],
-  [
-    "revernir"
-  ],
-  [
-    "revoir"
-  ],
-  [
-    "revêtir"
-  ],
-  [
-    "rosir"
-  ],
-  [
-    "rougir"
-  ],
-  [
-    "rouir"
-  ],
-  [
-    "roussir"
-  ],
-  [
-    "roustir"
-  ],
-  [
-    "rouvrir"
-  ],
-  [
-    "rugir"
-  ],
-  [
-    "réagir"
-  ],
-  [
-    "réasservir"
-  ],
-  [
-    "réassortir"
-  ],
-  [
-    "réchampir"
-  ],
-  [
-    "réfléchir"
-  ],
-  [
-    "régir"
-  ],
-  [
-    "réinvestir"
-  ],
-  [
-    "réjouir"
-  ],
-  [
-    "rélargir"
-  ],
-  [
-    "réouvrir"
-  ],
-  [
-    "répartir"
-  ],
-  [
-    "rétablir"
-  ],
-  [
-    "rétroagir"
-  ],
-  [
-    "rétrécir"
-  ],
-  [
-    "réunir"
-  ],
-  [
-    "réussir"
-  ],
-  [
-    "rôtir"
-  ],
-  [
-    "savoir"
-  ],
-  [
-    "saillir"
-  ],
-  [
-    "saisir"
-  ],
-  [
-    "salir"
-  ],
-  [
-    "secourir"
-  ],
-  [
-    "sentir"
-  ],
-  [
-    "seoir"
-  ],
-  [
-    "serfouir"
-  ],
-  [
-    "servir"
-  ],
-  [
-    "sertir"
-  ],
-  [
-    "sortir"
-  ],
-  [
-    "souffrir"
-  ],
-  [
-    "soutenir"
-  ],
-  [
-    "souvenir"
-  ],
-  [
-    "subir"
-  ],
-  [
-    "subvenir"
-  ],
-  [
-    "subvertir"
-  ],
-  [
-    "surenchérir"
-  ],
-  [
-    "surgir"
-  ],
-  [
-    "surir"
-  ],
-  [
-    "surinvestir"
-  ],
-  [
-    "surnourrir"
-  ],
-  [
-    "surseoir"
-  ],
-  [
-    "survenir"
-  ],
-  [
-    "sévir"
-  ],
-  [
-    "tapir"
-  ],
-  [
-    "tarir"
-  ],
-  [
-    "tartir"
-  ],
-  [
-    "tenir"
-  ],
-  [
-    "ternir"
-  ],
-  [
-    "terrir"
-  ],
-  [
-    "tiédir"
-  ],
-  [
-    "trahir"
-  ],
-  [
-    "transir"
-  ],
-  [
-    "travestir"
-  ],
-  [
-    "tressaillir"
-  ],
-  [
-    "unir"
-  ],
-  [
-    "vagir"
-  ],
-  [
-    "valoir"
-  ],
-  [
-    "venir"
-  ],
-  [
-    "verdir"
-  ],
-  [
-    "vernir"
-  ],
-  [
-    "voir"
-  ],
-  [
-    "vouloir"
-  ],
-  [
-    "vieillir"
-  ],
-  [
-    "vomir"
-  ],
-  [
-    "vrombir"
-  ],
-  [
-    "vêtir"
-  ],
-  [
-    "ébahir"
-  ],
-  [
-    "ébaudir"
-  ],
-  [
-    "éblouir"
-  ],
-  [
-    "échoir"
-  ],
-  [
-    "éclaircir"
-  ],
-  [
-    "écrouir"
-  ],
-  [
-    "élargir"
-  ],
-  [
-    "émouvoir"
-  ],
-  [
-    "épaissir"
-  ],
-  [
-    "épanouir"
-  ],
-  [
-    "équarrir"
-  ],
-  [
-    "équivaloir"
-  ],
-  [
-    "établir"
-  ],
-  [
-    "étourdir"
-  ],
-  [
-    "étrécir"
-  ],
-  [
-    "évanouir"
+    "avoir",
+    "ai                  avois",
+    "as                  avois",
+    "a                   avoit",
+    "avons               avoissons",
+    "avez                avoissez",
+    "ont                 avoissent"
+  ],
+  [
+    "abstenir",
+    "abstiens            abstenis",
+    "abstiens            abstenis",
+    "abstient            abstenit",
+    "abstenons           abstenissons",
+    "abstenez            abstenissez",
+    "abstiennent         abstenissent"
+  ],
+  [
+    "accourir",
+    "accours             accouris",
+    "accours             accouris",
+    "accourt             accourit",
+    "accourons           accourissons",
+    "accourez            accourissez",
+    "accourent           accourissent"
+  ],
+  [
+    "accueillir",
+    "accueille           accueillis",
+    "accueilles          accueillis",
+    "accueille           accueillit",
+    "accueillons         accueillissons",
+    "accueillez          accueillissez",
+    "accueillent         accueillissent"
+  ],
+  [
+    "acquérir",
+    "acquiers            acquéris",
+    "acquiers            acquéris",
+    "acquiert            acquérit",
+    "acquérons           acquérissons",
+    "acquérez            acquérissez",
+    "acquièrent          acquérissent"
+  ],
+  [
+    "advenir",
+    "adviens             advenis",
+    "adviens             advenis",
+    "advient             advenit",
+    "advenons            advenissons",
+    "advenez             advenissez",
+    "adviennent          advenissent"
+  ],
+  [
+    "apercevoir",
+    "aperçois            apercevois",
+    "aperçois            apercevois",
+    "aperçoit            apercevoit",
+    "apercevons          apercevoissons",
+    "apercevez           apercevoissez",
+    "aperçoivent         apercevoissent"
+  ],
+  [
+    "appartenir",
+    "appartiens          appartenis",
+    "appartiens          appartenis",
+    "appartient          appartenit",
+    "appartenons         appartenissons",
+    "appartenez          appartenissez",
+    "appartiennent       appartenissent"
+  ],
+  [
+    "assaillir",
+    "assaille            assaillis",
+    "assailles           assaillis",
+    "assaille            assaillit",
+    "assaillons          assaillissons",
+    "assaillez           assaillissez",
+    "assaillent          assaillissent"
+  ],
+  [
+    "asseoir",
+    "assois              asseois",
+    "assois              asseois",
+    "assoit              asseoit",
+    "assoyons            asseoissons",
+    "assoyez             asseoissez",
+    "assoient            asseoissent"
+  ],
+  [
+    "bouillir",
+    "bous                bouillis",
+    "bous                bouillis",
+    "bout                bouillit",
+    "bouillons           bouillissons",
+    "bouillez            bouillissez",
+    "bouillent           bouillissent"
+  ],
+  [
+    "chaloir",
+    "                    chalois",
+    "                    chalois",
+    "chaut               chaloit",
+    "                    chaloissons",
+    "                    chaloissez",
+    "                    chaloissent"
+  ],
+  [
+    "choir",
+    "chois               chois",
+    "chois               chois",
+    "choit               choit",
+    "choyons             choissons",
+    "choyez              choissez",
+    "choient             choissent"
+  ],
+  [
+    "circonvenir",
+    "circonviens         circonvenis",
+    "circonviens         circonvenis",
+    "circonvient         circonvenit",
+    "circonvenons        circonvenissons",
+    "circonvenez         circonvenissez",
+    "circonviennent      circonvenissent"
+  ],
+  [
+    "concevoir",
+    "conçois             concevois",
+    "conçois             concevois",
+    "conçoit             concevoit",
+    "concevons           concevoissons",
+    "concevez            concevoissez",
+    "conçoivent          concevoissent"
+  ],
+  [
+    "concourir",
+    "concours            concouris",
+    "concours            concouris",
+    "concourt            concourit",
+    "concourons          concourissons",
+    "concourez           concourissez",
+    "concourent          concourissent"
+  ],
+  [
+    "conquérir",
+    "conquiers           conquéris",
+    "conquiers           conquéris",
+    "conquiert           conquérit",
+    "conquérons          conquérissons",
+    "conquérez           conquérissez",
+    "conquièrent         conquérissent"
+  ],
+  [
+    "consentir",
+    "consens             consentis",
+    "consens             consentis",
+    "consent             consentit",
+    "consentons          consentissons",
+    "consentez           consentissez",
+    "consentent          consentissent"
+  ],
+  [
+    "contenir",
+    "contiens            contenis",
+    "contiens            contenis",
+    "contient            contenit",
+    "contenons           contenissons",
+    "contenez            contenissez",
+    "contiennent         contenissent"
+  ],
+  [
+    "contrevenir",
+    "contreviens         contrevenis",
+    "contreviens         contrevenis",
+    "contrevient         contrevenit",
+    "contrevenons        contrevenissons",
+    "contrevenez         contrevenissez",
+    "contreviennent      contrevenissent"
+  ],
+  [
+    "convenir",
+    "conviens            convenis",
+    "conviens            convenis",
+    "convient            convenit",
+    "convenons           convenissons",
+    "convenez            convenissez",
+    "conviennent         convenissent"
+  ],
+  [
+    "courir",
+    "cours               couris",
+    "cours               couris",
+    "court               courit",
+    "courons             courissons",
+    "courez              courissez",
+    "courent             courissent"
+  ],
+  [
+    "couvrir",
+    "couvre              couvris",
+    "couvres             couvris",
+    "couvre              couvrit",
+    "couvrons            couvrissons",
+    "couvrez             couvrissez",
+    "couvrent            couvrissent"
+  ],
+  [
+    "cueillir",
+    "cueille             cueillis",
+    "cueilles            cueillis",
+    "cueille             cueillit",
+    "cueillons           cueillissons",
+    "cueillez            cueillissez",
+    "cueillent           cueillissent"
+  ],
+  [
+    "desservir",
+    "dessers             desservis",
+    "dessers             desservis",
+    "dessert             desservit",
+    "desservons          desservissons",
+    "desservez           desservissez",
+    "desservent          desservissent"
+  ],
+  [
+    "devoir",
+    "dois                devois",
+    "dois                devois",
+    "doit                devoit",
+    "devons              devoissons",
+    "devez               devoissez",
+    "doivent             devoissent"
+  ],
+  [
+    "devenir",
+    "deviens             devenis",
+    "deviens             devenis",
+    "devient             devenit",
+    "devenons            devenissons",
+    "devenez             devenissez",
+    "deviennent          devenissent"
+  ],
+  [
+    "disconvenir",
+    "disconviens         disconvenis",
+    "disconviens         disconvenis",
+    "disconvient         disconvenit",
+    "disconvenons        disconvenissons",
+    "disconvenez         disconvenissez",
+    "disconviennent      disconvenissent"
+  ],
+  [
+    "discourir",
+    "discours            discouris",
+    "discours            discouris",
+    "discourt            discourit",
+    "discourons          discourissons",
+    "discourez           discourissez",
+    "discourent          discourissent"
+  ],
+  [
+    "dormir",
+    "dors                dormis",
+    "dors                dormis",
+    "dort                dormit",
+    "dormons             dormissons",
+    "dormez              dormissez",
+    "dorment             dormissent"
+  ],
+  [
+    "débouillir",
+    "débous              débouillis",
+    "débous              débouillis",
+    "débout              débouillit",
+    "débouillons         débouillissons",
+    "débouillez          débouillissez",
+    "débouillent         débouillissent"
+  ],
+  [
+    "décevoir",
+    "déçois              décevois",
+    "déçois              décevois",
+    "déçoit              décevoit",
+    "décevons            décevoissons",
+    "décevez             décevoissez",
+    "déçoivent           décevoissent"
+  ],
+  [
+    "déchoir",
+    "déchois             déchois",
+    "déchois             déchois",
+    "déchoit             déchoit",
+    "déchoyons           déchoissons",
+    "déchoyez            déchoissez",
+    "déchoient           déchoissent"
+  ],
+  [
+    "découvrir",
+    "découvre            découvris",
+    "découvres           découvris",
+    "découvre            découvrit",
+    "découvrons          découvrissons",
+    "découvrez           découvrissez",
+    "découvrent          découvrissent"
+  ],
+  [
+    "défaillir",
+    "défaille            défaillis",
+    "défailles           défaillis",
+    "défaille            défaillit",
+    "défaillons          défaillissons",
+    "défaillez           défaillissez",
+    "défaillent          défaillissent"
+  ],
+  [
+    "démentir",
+    "démens              démentis",
+    "démens              démentis",
+    "dément              démentit",
+    "démentons           démentissons",
+    "démentez            démentissez",
+    "démentent           démentissent"
+  ],
+  [
+    "départir",
+    "dépars              départis",
+    "dépars              départis",
+    "départ              départit",
+    "départons           départissons",
+    "départez            départissez",
+    "départent           départissent"
+  ],
+  [
+    "dépourvoir",
+    "dépourvois          dépourvois",
+    "dépourvois          dépourvois",
+    "dépourvoit          dépourvoit",
+    "dépourvoyons        dépourvoissons",
+    "dépourvoyez         dépourvoissez",
+    "dépourvoient        dépourvoissent"
+  ],
+  [
+    "détenir",
+    "détiens             détenis",
+    "détiens             détenis",
+    "détient             détenit",
+    "détenons            détenissons",
+    "détenez             détenissez",
+    "détiennent          détenissent"
+  ],
+  [
+    "dévêtir",
+    "dévêts              dévêtis",
+    "dévêts              dévêtis",
+    "dévêtit             dévêtit",
+    "dévêtons            dévêtissons",
+    "dévêtez             dévêtissez",
+    "dévêtent            dévêtissent"
+  ],
+  [
+    "encourir",
+    "encours             encouris",
+    "encours             encouris",
+    "encourt             encourit",
+    "encourons           encourissons",
+    "encourez            encourissez",
+    "encourent           encourissent"
+  ],
+  [
+    "endormir",
+    "endors              endormis",
+    "endors              endormis",
+    "endort              endormit",
+    "endormons           endormissons",
+    "endormez            endormissez",
+    "endorment           endormissent"
+  ],
+  [
+    "enfuir",
+    "enfuis              enfuis",
+    "enfuis              enfuis",
+    "enfuit              enfuit",
+    "enfuyons            enfuissons",
+    "enfuyez             enfuissez",
+    "enfuient            enfuissent"
+  ],
+  [
+    "enquérir",
+    "enquiers            enquéris",
+    "enquiers            enquéris",
+    "enquiert            enquérit",
+    "enquérons           enquérissons",
+    "enquérez            enquérissez",
+    "enquièrent          enquérissent"
+  ],
+  [
+    "entrapercevoir",
+    "entraperçois        entrapercevois",
+    "entraperçois        entrapercevois",
+    "entraperçoit        entrapercevoit",
+    "entrapercevons      entrapercevoissons",
+    "entrapercevez       entrapercevoissez",
+    "entraperçoivent     entrapercevoissent"
+  ],
+  [
+    "entretenir",
+    "entretiens          entretenis",
+    "entretiens          entretenis",
+    "entretient          entretenit",
+    "entretenons         entretenissons",
+    "entretenez          entretenissez",
+    "entretiennent       entretenissent"
+  ],
+  [
+    "entrevoir",
+    "entrevois           entrevois",
+    "entrevois           entrevois",
+    "entrevoit           entrevoit",
+    "entrevoyons         entrevoissons",
+    "entrevoyez          entrevoissez",
+    "entrevoient         entrevoissent"
+  ],
+  [
+    "entrouvrir",
+    "entrouvre           entrouvris",
+    "entrouvres          entrouvris",
+    "entrouvre           entrouvrit",
+    "entrouvrons         entrouvrissons",
+    "entrouvrez          entrouvrissez",
+    "entrouvrent         entrouvrissent"
+  ],
+  [
+    "faillir",
+    "faux                faillis",
+    "faux                faillis",
+    "faut                faillit",
+    "faillons            faillissons",
+    "faillez             faillissez",
+    "faillent            faillissent"
+  ],
+  [
+    "falloir",
+    "                    fallois",
+    "                    fallois",
+    "faut                falloit",
+    "                    falloissons",
+    "                    falloissez",
+    "                    falloissent"
+  ],
+  [
+    "fuir",
+    "fuis                fuis",
+    "fuis                fuis",
+    "fuit                fuit",
+    "fuyons              fuissons",
+    "fuyez               fuissez",
+    "fuient              fuissent"
+  ],
+  [
+    "gésir",
+    "gisons              gésis",
+    "gisons              gésis",
+    "gît                 gésit",
+    "                    gésissons",
+    "                    gésissez",
+    "                    gésissent"
+  ],
+  [
+    "intervenir",
+    "interviens          intervenis",
+    "interviens          intervenis",
+    "intervient          intervenit",
+    "intervenons         intervenissons",
+    "intervenez          intervenissez",
+    "interviennent       intervenissent"
+  ],
+  [
+    "maintenir",
+    "maintiens           maintenis",
+    "maintiens           maintenis",
+    "maintient           maintenit",
+    "maintenons          maintenissons",
+    "maintenez           maintenissez",
+    "maintiennent        maintenissent"
+  ],
+  [
+    "mentir",
+    "mens                mentis",
+    "mens                mentis",
+    "ment                mentit",
+    "mentons             mentissons",
+    "mentez              mentissez",
+    "mentent             mentissent"
+  ],
+  [
+    "messeoir",
+    "                    messeois",
+    "                    messeois",
+    "messied             messeoit",
+    "                    messeoissons",
+    "                    messeoissez",
+    "messiéent           messeoissent"
+  ],
+  [
+    "mourir",
+    "meurs               mouris",
+    "meurs               mouris",
+    "meurt               mourit",
+    "mourons             mourissons",
+    "mourez              mourissez",
+    "meurent             mourissent"
+  ],
+  [
+    "mouvoir",
+    "meus                mouvois",
+    "meus                mouvois",
+    "meut                mouvoit",
+    "mouvons             mouvoissons",
+    "mouvez              mouvoissez",
+    "meuvent             mouvoissent"
+  ],
+  [
+    "obtenir",
+    "obtiens             obtenis",
+    "obtiens             obtenis",
+    "obtient             obtenit",
+    "obtenons            obtenissons",
+    "obtenez             obtenissez",
+    "obtiennent          obtenissent"
+  ],
+  [
+    "obvenir",
+    "obviens             obvenis",
+    "obviens             obvenis",
+    "obvient             obvenit",
+    "obvenons            obvenissons",
+    "obvenez             obvenissez",
+    "obviennent          obvenissent"
+  ],
+  [
+    "offrir",
+    "offre               offris",
+    "offres              offris",
+    "offre               offrit",
+    "offrons             offrissons",
+    "offrez              offrissez",
+    "offrent             offrissent"
+  ],
+  [
+    "ouvrir",
+    "ouvre               ouvris",
+    "ouvres              ouvris",
+    "ouvre               ouvrit",
+    "ouvrons             ouvrissons",
+    "ouvrez              ouvrissez",
+    "ouvrent             ouvrissent"
+  ],
+  [
+    "parcourir",
+    "parcours            parcouris",
+    "parcours            parcouris",
+    "parcourt            parcourit",
+    "parcourons          parcourissons",
+    "parcourez           parcourissez",
+    "parcourent          parcourissent"
+  ],
+  [
+    "partir",
+    "pars                partis",
+    "pars                partis",
+    "part                partit",
+    "partons             partissons",
+    "partez              partissez",
+    "partent             partissent"
+  ],
+  [
+    "parvenir",
+    "parviens            parvenis",
+    "parviens            parvenis",
+    "parvient            parvenit",
+    "parvenons           parvenissons",
+    "parvenez            parvenissez",
+    "parviennent         parvenissent"
+  ],
+  [
+    "percevoir",
+    "perçois             percevois",
+    "perçois             percevois",
+    "perçoit             percevoit",
+    "percevons           percevoissons",
+    "percevez            percevoissez",
+    "perçoivent          percevoissent"
+  ],
+  [
+    "pouvoir",
+    "puis                pouvois",
+    "peux                pouvois",
+    "peut                pouvoit",
+    "pouvons             pouvoissons",
+    "pouvez              pouvoissez",
+    "peuvent             pouvoissent"
+  ],
+  [
+    "pleuvoir",
+    "                    pleuvois",
+    "                    pleuvois",
+    "pleut               pleuvoit",
+    "                    pleuvoissons",
+    "                    pleuvoissez",
+    "pleuvent            pleuvoissent"
+  ],
+  [
+    "pourvoir",
+    "pourvois            pourvois",
+    "pourvois            pourvois",
+    "pourvoit            pourvoit",
+    "pourvoyons          pourvoissons",
+    "pourvoyez           pourvoissez",
+    "pourvoient          pourvoissent"
+  ],
+  [
+    "pressentir",
+    "pressens            pressentis",
+    "pressens            pressentis",
+    "pressent            pressentit",
+    "pressentons         pressentissons",
+    "pressentez          pressentissez",
+    "pressentent         pressentissent"
+  ],
+  [
+    "promouvoir",
+    "promeus             promouvois",
+    "promeus             promouvois",
+    "promeut             promouvoit",
+    "promouvons          promouvoissons",
+    "promouvez           promouvoissez",
+    "promeuvent          promouvoissent"
+  ],
+  [
+    "provenir",
+    "proviens            provenis",
+    "proviens            provenis",
+    "provient            provenit",
+    "provenons           provenissons",
+    "provenez            provenissez",
+    "proviennent         provenissent"
+  ],
+  [
+    "préconcevoir",
+    "préconçois          préconcevois",
+    "préconçois          préconcevois",
+    "préconçoit          préconcevoit",
+    "préconcevons        préconcevoissons",
+    "préconcevez         préconcevoissez",
+    "préconçoivent       préconcevoissent"
+  ],
+  [
+    "prévaloir",
+    "prévaux             prévalois",
+    "prévaux             prévalois",
+    "prévaut             prévaloit",
+    "prévalons           prévaloissons",
+    "prévalez            prévaloissez",
+    "prévalent           prévaloissent"
+  ],
+  [
+    "prévenir",
+    "préviens            prévenis",
+    "préviens            prévenis",
+    "prévient            prévenit",
+    "prévenons           prévenissons",
+    "prévenez            prévenissez",
+    "préviennent         prévenissent"
+  ],
+  [
+    "prévoir",
+    "prévois             prévois",
+    "prévois             prévois",
+    "prévoit             prévoit",
+    "prévoyons           prévoissons",
+    "prévoyez            prévoissez",
+    "prévoient           prévoissent"
+  ],
+  [
+    "rasseoir",
+    "rassois             rasseois",
+    "rassois             rasseois",
+    "rassoit             rasseoit",
+    "rassoyons           rasseoissons",
+    "rassoyez            rasseoissez",
+    "rassoient           rasseoissent"
+  ],
+  [
+    "recevoir",
+    "reçois              recevois",
+    "reçois              recevois",
+    "reçoit              recevoit",
+    "recevons            recevoissons",
+    "recevez             recevoissez",
+    "reçoivent           recevoissent"
+  ],
+  [
+    "reconquérir",
+    "reconquiers         reconquéris",
+    "reconquiers         reconquéris",
+    "reconquiert         reconquérit",
+    "reconquérons        reconquérissons",
+    "reconquérez         reconquérissez",
+    "reconquièrent       reconquérissent"
+  ],
+  [
+    "recourir",
+    "recours             recouris",
+    "recours             recouris",
+    "recourt             recourit",
+    "recourons           recourissons",
+    "recourez            recourissez",
+    "recourent           recourissent"
+  ],
+  [
+    "recouvrir",
+    "recouvre            recouvris",
+    "recouvres           recouvris",
+    "recouvre            recouvrit",
+    "recouvrons          recouvrissons",
+    "recouvrez           recouvrissez",
+    "recouvrent          recouvrissent"
+  ],
+  [
+    "recueillir",
+    "recueille           recueillis",
+    "recueilles          recueillis",
+    "recueille           recueillit",
+    "recueillons         recueillissons",
+    "recueillez          recueillissez",
+    "recueillent         recueillissent"
+  ],
+  [
+    "redevoir",
+    "redois              redevois",
+    "redois              redevois",
+    "redoit              redevoit",
+    "redevons            redevoissons",
+    "redevez             redevoissez",
+    "redoivent           redevoissent"
+  ],
+  [
+    "redevenir",
+    "redeviens           redevenis",
+    "redeviens           redevenis",
+    "redevient           redevenit",
+    "redevenons          redevenissons",
+    "redevenez           redevenissez",
+    "redeviennent        redevenissent"
+  ],
+  [
+    "redormir",
+    "redors              redormis",
+    "redors              redormis",
+    "redort              redormit",
+    "redormons           redormissons",
+    "redormez            redormissez",
+    "redorment           redormissent"
+  ],
+  [
+    "redécouvrir",
+    "redécouvre          redécouvris",
+    "redécouvres         redécouvris",
+    "redécouvre          redécouvrit",
+    "redécouvrons        redécouvrissons",
+    "redécouvrez         redécouvrissez",
+    "redécouvrent        redécouvrissent"
+  ],
+  [
+    "rendormir",
+    "rendors             rendormis",
+    "rendors             rendormis",
+    "rendort             rendormit",
+    "rendormons          rendormissons",
+    "rendormez           rendormissez",
+    "rendorment          rendormissent"
+  ],
+  [
+    "reparcourir",
+    "reparcours          reparcouris",
+    "reparcours          reparcouris",
+    "reparcourt          reparcourit",
+    "reparcourons        reparcourissons",
+    "reparcourez         reparcourissez",
+    "reparcourent        reparcourissent"
+  ],
+  [
+    "repartir",
+    "repars              repartis",
+    "repars              repartis",
+    "repart              repartit",
+    "repartons           repartissons",
+    "repartez            repartissez",
+    "repartent           repartissent"
+  ],
+  [
+    "repentir",
+    "repens              repentis",
+    "repens              repentis",
+    "repent              repentit",
+    "repentons           repentissons",
+    "repentez            repentissez",
+    "repentent           repentissent"
+  ],
+  [
+    "requérir",
+    "requiers            requéris",
+    "requiers            requéris",
+    "requiert            requérit",
+    "requérons           requérissons",
+    "requérez            requérissez",
+    "requièrent          requérissent"
+  ],
+  [
+    "ressentir",
+    "ressens             ressentis",
+    "ressens             ressentis",
+    "ressent             ressentit",
+    "ressentons          ressentissons",
+    "ressentez           ressentissez",
+    "ressentent          ressentissent"
+  ],
+  [
+    "resservir",
+    "ressers             resservis",
+    "ressers             resservis",
+    "ressert             resservit",
+    "resservons          resservissons",
+    "resservez           resservissez",
+    "resservent          resservissent"
+  ],
+  [
+    "ressortir",
+    "ressortis           ressortis",
+    "ressortis           ressortis",
+    "ressortit           ressortit",
+    "ressortons          ressortissons",
+    "ressortissez        ressortissez",
+    "ressortissent       ressortissent"
+  ],
+  [
+    "ressouvenir",
+    "ressouviens         ressouvenis",
+    "ressouviens         ressouvenis",
+    "ressouvient         ressouvenit",
+    "ressouvenons        ressouvenissons",
+    "ressouvenez         ressouvenissez",
+    "ressouviennent      ressouvenissent"
+  ],
+  [
+    "retenir",
+    "retiens             retenis",
+    "retiens             retenis",
+    "retient             retenit",
+    "retenons            retenissons",
+    "retenez             retenissez",
+    "retiennent          retenissent"
+  ],
+  [
+    "revaloir",
+    "revaux              revalois",
+    "revaux              revalois",
+    "revaut              revaloit",
+    "revalons            revaloissons",
+    "revalez             revaloissez",
+    "revalent            revaloissent"
+  ],
+  [
+    "revenir",
+    "reviens             revenis",
+    "reviens             revenis",
+    "revient             revenit",
+    "revenons            revenissons",
+    "revenez             revenissez",
+    "reviennent          revenissent"
+  ],
+  [
+    "revoir",
+    "revois              revois",
+    "revois              revois",
+    "revoit              revoit",
+    "revoyons            revoissons",
+    "revoyez             revoissez",
+    "revoient            revoissent"
+  ],
+  [
+    "revêtir",
+    "revêts              revêtis",
+    "revêts              revêtis",
+    "revêtit             revêtit",
+    "revêtons            revêtissons",
+    "revêtez             revêtissez",
+    "revêtent            revêtissent"
+  ],
+  [
+    "rouvrir",
+    "rouvre              rouvris",
+    "rouvres             rouvris",
+    "rouvre              rouvrit",
+    "rouvrons            rouvrissons",
+    "rouvrez             rouvrissez",
+    "rouvrent            rouvrissent"
+  ],
+  [
+    "réouvrir",
+    "réouvre             réouvris",
+    "réouvres            réouvris",
+    "réouvre             réouvrit",
+    "réouvrons           réouvrissons",
+    "réouvrez            réouvrissez",
+    "réouvrent           réouvrissent"
+  ],
+  [
+    "savoir",
+    "sais                savois",
+    "sais                savois",
+    "sait                savoit",
+    "savons              savoissons",
+    "savez               savoissez",
+    "savent              savoissent"
+  ],
+  [
+    "saillir",
+    "saillis             saillis",
+    "saillis             saillis",
+    "saillit             saillit",
+    "saillons            saillissons",
+    "saillissez          saillissez",
+    "saillissent         saillissent"
+  ],
+  [
+    "secourir",
+    "secours             secouris",
+    "secours             secouris",
+    "secourt             secourit",
+    "secourons           secourissons",
+    "secourez            secourissez",
+    "secourent           secourissent"
+  ],
+  [
+    "sentir",
+    "sens                sentis",
+    "sens                sentis",
+    "sent                sentit",
+    "sentons             sentissons",
+    "sentez              sentissez",
+    "sentent             sentissent"
+  ],
+  [
+    "seoir",
+    "                    seois",
+    "                    seois",
+    "sied                seoit",
+    "                    seoissons",
+    "                    seoissez",
+    "siéent              seoissent"
+  ],
+  [
+    "servir",
+    "sers                servis",
+    "sers                servis",
+    "sert                servit",
+    "servons             servissons",
+    "servez              servissez",
+    "servent             servissent"
+  ],
+  [
+    "sortir",
+    "sors                sortis",
+    "sors                sortis",
+    "sort                sortit",
+    "sortons             sortissons",
+    "sortez              sortissez",
+    "sortent             sortissent"
+  ],
+  [
+    "souffrir",
+    "souffre             souffris",
+    "souffres            souffris",
+    "souffre             souffrit",
+    "souffrons           souffrissons",
+    "souffrez            souffrissez",
+    "souffrent           souffrissent"
+  ],
+  [
+    "soutenir",
+    "soutiens            soutenis",
+    "soutiens            soutenis",
+    "soutient            soutenit",
+    "soutenons           soutenissons",
+    "soutenez            soutenissez",
+    "soutiennent         soutenissent"
+  ],
+  [
+    "souvenir",
+    "souviens            souvenis",
+    "souviens            souvenis",
+    "souvient            souvenit",
+    "souvenons           souvenissons",
+    "souvenez            souvenissez",
+    "souviennent         souvenissent"
+  ],
+  [
+    "subvenir",
+    "subviens            subvenis",
+    "subviens            subvenis",
+    "subvient            subvenit",
+    "subvenons           subvenissons",
+    "subvenez            subvenissez",
+    "subviennent         subvenissent"
+  ],
+  [
+    "surseoir",
+    "sursois             surseois",
+    "sursois             surseois",
+    "sursoit             surseoit",
+    "                    surseoissons",
+    "                    surseoissez",
+    "                    surseoissent"
+  ],
+  [
+    "survenir",
+    "surviens            survenis",
+    "surviens            survenis",
+    "survient            survenit",
+    "survenons           survenissons",
+    "survenez            survenissez",
+    "surviennent         survenissent"
+  ],
+  [
+    "tenir",
+    "tiens               tenis",
+    "tiens               tenis",
+    "tient               tenit",
+    "tenons              tenissons",
+    "tenez               tenissez",
+    "tiennent            tenissent"
+  ],
+  [
+    "tressaillir",
+    "tressaille          tressaillis",
+    "tressailles         tressaillis",
+    "tressaille          tressaillit",
+    "tressaillons        tressaillissons",
+    "tressaillez         tressaillissez",
+    "tressaillent        tressaillissent"
+  ],
+  [
+    "valoir",
+    "vaux                valois",
+    "vaux                valois",
+    "vaut                valoit",
+    "valons              valoissons",
+    "valez               valoissez",
+    "valent              valoissent"
+  ],
+  [
+    "venir",
+    "viens               venis",
+    "viens               venis",
+    "vient               venit",
+    "venons              venissons",
+    "venez               venissez",
+    "viennent            venissent"
+  ],
+  [
+    "voir",
+    "vois                vois",
+    "vois                vois",
+    "voit                voit",
+    "voyons              voissons",
+    "voyez               voissez",
+    "voient              voissent"
+  ],
+  [
+    "vouloir",
+    "veux                voulois",
+    "veux                voulois",
+    "veut                vouloit",
+    "voulons             vouloissons",
+    "voulez              vouloissez",
+    "veulent             vouloissent"
+  ],
+  [
+    "vêtir",
+    "vêts                vêtis",
+    "vêts                vêtis",
+    "vêtit               vêtit",
+    "vêtons              vêtissons",
+    "vêtez               vêtissez",
+    "vêtent              vêtissent"
+  ],
+  [
+    "échoir",
+    "échois              échois",
+    "échois              échois",
+    "échoit              échoit",
+    "échoyons            échoissons",
+    "échoyez             échoissez",
+    "échoient            échoissent"
+  ],
+  [
+    "émouvoir",
+    "émeus               émouvois",
+    "émeus               émouvois",
+    "émeut               émouvoit",
+    "émouvons            émouvoissons",
+    "émouvez             émouvoissez",
+    "émeuvent            émouvoissent"
+  ],
+  [
+    "équivaloir",
+    "équivaux            équivalois",
+    "équivaux            équivalois",
+    "équivaut            équivaloit",
+    "équivalons          équivaloissons",
+    "équivalez           équivaloissez",
+    "équivalent          équivaloissent"
   ]
 ]
