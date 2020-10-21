@@ -71,13 +71,16 @@ namespace ConjugatorLibrary.SecondGroup
                 return modified;
             }
 
-            if (verb.EndsWithAnyOf("dormir", "mentir", "ervir", "sentir") && 
-                ! verb.IsOneOf("asservir", "réasservir"))
+            if (verb.EndsWithAnyOf("dormir", "mentir", "ervir", "sentir") || 
+                verb.IsOneOf("départir", "repartir", "partir") )
             {
-                var lastLetter = stem[^1];
-                var endings = new[] {"s", "s", "t", lastLetter + "ons", lastLetter + "ez", lastLetter + "ent" };
-                string[] modified = endings.AddEndings(verb.TrimEnd(lastLetter + "ir"));
-                return modified;
+                if (! verb.IsOneOf("asservir", "réasservir"))
+                {
+                    var lastLetter = stem[^1];
+                    var endings = new[] {"s", "s", "t", lastLetter + "ons", lastLetter + "ez", lastLetter + "ent" };
+                    string[] modified = endings.AddEndings(verb.TrimEnd(lastLetter + "ir"));
+                    return modified;
+                }
             }
 
             return Endings.AddEndings(stem);

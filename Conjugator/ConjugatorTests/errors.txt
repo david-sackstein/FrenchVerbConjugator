@@ -45,15 +45,6 @@
     "débouillent         débouillissent"
   ],
   [
-    "départir",
-    "dépars              départis",
-    "dépars              départis",
-    "départ              départit",
-    "départons           départissons",
-    "départez            départissez",
-    "départent           départissent"
-  ],
-  [
     "dévêtir",
     "dévêts              dévêtis",
     "dévêts              dévêtis",
@@ -144,15 +135,6 @@
     "offrent             offrissent"
   ],
   [
-    "partir",
-    "pars                partis",
-    "pars                partis",
-    "part                partit",
-    "partons             partissons",
-    "partez              partissez",
-    "partent             partissent"
-  ],
-  [
     "pouvoir",
     "puis                pouvois",
     "peux                pouvois",
@@ -196,15 +178,6 @@
     "redevons            redevoyons",
     "redevez             redevoyez",
     "redoivent           redevoient"
-  ],
-  [
-    "repartir",
-    "repars              repartis",
-    "repars              repartis",
-    "repart              repartit",
-    "repartons           repartissons",
-    "repartez            repartissez",
-    "repartent           repartissent"
   ],
   [
     "repentir",
