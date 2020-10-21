@@ -50,7 +50,7 @@ namespace ConjugatorLibrary.SecondGroup
                 return modified;
             }
 
-            if (verb.EndsWith("voir"))
+            if (verb.EndsWith("voir") || verb.EndsWith("choir"))
             {
                 var endings = new[] { "is", "is", "it", "yons", "yez", "ient" };
                 var modified = endings.AddEndings(stem);

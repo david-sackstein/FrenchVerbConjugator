@@ -27,15 +27,6 @@
     "                    chaloissent"
   ],
   [
-    "choir",
-    "chois               chois",
-    "chois               chois",
-    "choit               choit",
-    "choyons             choissons",
-    "choyez              choissez",
-    "choient             choissent"
-  ],
-  [
     "consentir",
     "consens             consentis",
     "consens             consentis",
@@ -88,15 +79,6 @@
     "débouillons         débouillissons",
     "débouillez          débouillissez",
     "débouillent         débouillissent"
-  ],
-  [
-    "déchoir",
-    "déchois             déchois",
-    "déchois             déchois",
-    "déchoit             déchoit",
-    "déchoyons           déchoissons",
-    "déchoyez            déchoissez",
-    "déchoient           déchoissent"
   ],
   [
     "découvrir",
@@ -511,15 +493,6 @@
     "vêtons              vêtissons",
     "vêtez               vêtissez",
     "vêtent              vêtissent"
-  ],
-  [
-    "échoir",
-    "échois              échois",
-    "échois              échois",
-    "échoit              échoit",
-    "échoyons            échoissons",
-    "échoyez             échoissez",
-    "échoient            échoissent"
   ],
   [
     "émouvoir",
