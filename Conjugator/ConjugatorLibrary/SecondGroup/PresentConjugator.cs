@@ -17,7 +17,7 @@ namespace ConjugatorLibrary.SecondGroup
 
             if (verb.EndsWith("enir"))
             {
-                string modifiedStem = stem[..^2] + "ien";
+                string modifiedStem = stem.TrimEnd("en") + "ien";
                 var endings = new[] {"s", "s", "t" , "ons" , "ez" , "nent" };
                 return endings.AddEndings(modifiedStem, stem);
             }
@@ -36,8 +36,8 @@ namespace ConjugatorLibrary.SecondGroup
 
             if (verb.EndsWith("quérir"))
             {
-                string modifiedStem = stem[..^2] + "ier";
-                string ilsStem = stem[..^2] + "ièr";
+                string modifiedStem = stem.TrimEnd("ér") + "ier";
+                string ilsStem = stem.TrimEnd("ér") + "ièr";
                 var endings = new[] { "s", "s", "t", "ons", "ez", "ent" };
                 var modified = endings.AddEndings(modifiedStem, stem, ilsStem);
                 return modified;
@@ -46,7 +46,7 @@ namespace ConjugatorLibrary.SecondGroup
             if (verb.EndsWith("cevoir"))
             {
                 var endings = new[] { "çois", "çois", "çoit", "cevons", "cevez", "çoivent" };
-                var modified = endings.AddEndings(stem[..^4]);
+                var modified = endings.AddEndings(verb.TrimEnd("cevoir"));
                 return modified;
             }
 
@@ -60,7 +60,7 @@ namespace ConjugatorLibrary.SecondGroup
             if (verb.EndsWith("valoir"))
             {
                 var endings = new[] { "aux", "aux", "aut", "alons", "alez", "alent" };
-                var modified = endings.AddEndings(stem[..^3]);
+                var modified = endings.AddEndings(verb.TrimEnd("aloir"));
                 return modified;
             }
 
@@ -74,7 +74,7 @@ namespace ConjugatorLibrary.SecondGroup
             if (verb.EndsWith("sentir"))
             {
                 var endings = new[] { "s", "s", "t", "tons", "tez", "tent" };
-                var modified = endings.AddEndings(stem[..^1]);
+                var modified = endings.AddEndings(verb.TrimEnd("tir"));
                 return modified;
             }
 

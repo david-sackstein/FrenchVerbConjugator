@@ -7,6 +7,15 @@ namespace ConjugatorLibrary
 {
     public static class StringExtensions
     {
+        public static string TrimEnd(this string inString, string suffix)
+        {
+            if (!inString.EndsWith(suffix))
+            {
+                throw new ArgumentException("Bad suffix");
+            }
+            return inString[..^suffix.Length];
+        }
+
         public static string ReplaceAt(this string inString, int index, char c)
         {
             if (index < 0)
