@@ -60,6 +60,13 @@ namespace ConjugatorLibrary.SecondGroup
                 var modified = endings.AddEndings(stem);
                 return modified;
             }
+
+            if (stem.EndsWith("valo"))
+            {
+                var endings = new[] { "aux", "aux", "aut", "alons", "alez", "alent" };
+                var modified = endings.AddEndings(stem[..^3]);
+                return modified;
+            }
             return Endings.AddEndings(stem);
         }
     }

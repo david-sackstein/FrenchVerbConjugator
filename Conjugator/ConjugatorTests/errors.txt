@@ -315,15 +315,6 @@
     "promeuvent          promouvoient"
   ],
   [
-    "prévaloir",
-    "prévaux             prévalois",
-    "prévaux             prévalois",
-    "prévaut             prévaloit",
-    "prévalons           prévaloissons",
-    "prévalez            prévaloissez",
-    "prévalent           prévaloissent"
-  ],
-  [
     "rasseoir",
     "rassois             rasseois",
     "rassois             rasseois",
@@ -421,15 +412,6 @@
     "ressortons          ressortissons",
     "ressortissez        ressortissez",
     "ressortissent       ressortissent"
-  ],
-  [
-    "revaloir",
-    "revaux              revalois",
-    "revaux              revalois",
-    "revaut              revaloit",
-    "revalons            revaloissons",
-    "revalez             revaloissez",
-    "revalent            revaloissent"
   ],
   [
     "revêtir",
@@ -540,15 +522,6 @@
     "tressaillent        tressaillissent"
   ],
   [
-    "valoir",
-    "vaux                valois",
-    "vaux                valois",
-    "vaut                valoit",
-    "valons              valoissons",
-    "valez               valoissez",
-    "valent              valoissent"
-  ],
-  [
     "vouloir",
     "veux                voulois",
     "veux                voulois",
@@ -583,14 +556,5 @@
     "émouvons            émouvoyons",
     "émouvez             émouvoyez",
     "émeuvent            émouvoient"
-  ],
-  [
-    "équivaloir",
-    "équivaux            équivalois",
-    "équivaux            équivalois",
-    "équivaut            équivaloit",
-    "équivalons          équivaloissons",
-    "équivalez           équivaloissez",
-    "équivalent          équivaloissent"
   ]
 ]
