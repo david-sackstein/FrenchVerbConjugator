@@ -225,15 +225,6 @@
     "siéent              seoissent"
   ],
   [
-    "sortir",
-    "sors                sortis",
-    "sors                sortis",
-    "sort                sortit",
-    "sortons             sortissons",
-    "sortez              sortissez",
-    "sortent             sortissent"
-  ],
-  [
     "souffrir",
     "souffre             souffris",
     "souffres            souffris",

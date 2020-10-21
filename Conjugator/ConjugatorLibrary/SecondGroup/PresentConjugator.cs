@@ -72,7 +72,7 @@ namespace ConjugatorLibrary.SecondGroup
             }
 
             if (verb.EndsWithAnyOf("dormir", "mentir", "ervir", "sentir") || 
-                verb.IsOneOf("départir", "repartir", "partir", "repentir") )
+                verb.IsOneOf("départir", "repartir", "partir", "repentir", "sortir") )
             {
                 if (! verb.IsOneOf("asservir", "réasservir"))
                 {
