@@ -45,15 +45,6 @@
     "débouillent         débouillissent"
   ],
   [
-    "démentir",
-    "démens              démentis",
-    "démens              démentis",
-    "dément              démentit",
-    "démentons           démentissons",
-    "démentez            démentissez",
-    "démentent           démentissent"
-  ],
-  [
     "départir",
     "dépars              départis",
     "dépars              départis",
@@ -115,15 +106,6 @@
     "                    gésissons",
     "                    gésissez",
     "                    gésissent"
-  ],
-  [
-    "mentir",
-    "mens                mentis",
-    "mens                mentis",
-    "ment                mentit",
-    "mentons             mentissons",
-    "mentez              mentissez",
-    "mentent             mentissent"
   ],
   [
     "messeoir",

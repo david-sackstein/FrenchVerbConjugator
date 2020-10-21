@@ -92,6 +92,13 @@ namespace ConjugatorLibrary.SecondGroup
                 return modified;
             }
 
+            if (verb.EndsWith("mentir"))
+            {
+                var endings = new[] { "s", "s", "t", "tons", "tez", "tent" };
+                string[] modified = endings.AddEndings(verb.TrimEnd("tir"));
+                return modified;
+            }
+            
             return Endings.AddEndings(stem);
         }
     }
