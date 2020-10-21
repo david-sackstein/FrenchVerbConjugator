@@ -46,6 +46,13 @@ namespace ConjugatorLibrary.SecondGroup
                 var modified = endings.AddEndings(modifiedStem, stem, ilsStem);
                 return modified;
             }
+
+            if (stem.EndsWith("vo"))
+            {
+                var endings = new[] { "is", "is", "it", "yons", "yez", "ient" };
+                var modified = endings.AddEndings(stem);
+                return modified;
+            }
             return Endings.AddEndings(stem);
         }
     }

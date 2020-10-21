@@ -4,9 +4,9 @@
     "aperçois            apercevois",
     "aperçois            apercevois",
     "aperçoit            apercevoit",
-    "apercevons          apercevoissons",
-    "apercevez           apercevoissez",
-    "aperçoivent         apercevoissent"
+    "apercevons          apercevoyons",
+    "apercevez           apercevoyez",
+    "aperçoivent         apercevoient"
   ],
   [
     "assaillir",
@@ -58,9 +58,9 @@
     "conçois             concevois",
     "conçois             concevois",
     "conçoit             concevoit",
-    "concevons           concevoissons",
-    "concevez            concevoissez",
-    "conçoivent          concevoissent"
+    "concevons           concevoyons",
+    "concevez            concevoyez",
+    "conçoivent          concevoient"
   ],
   [
     "consentir",
@@ -94,9 +94,9 @@
     "dois                devois",
     "dois                devois",
     "doit                devoit",
-    "devons              devoissons",
-    "devez               devoissez",
-    "doivent             devoissent"
+    "devons              devoyons",
+    "devez               devoyez",
+    "doivent             devoient"
   ],
   [
     "dormir",
@@ -121,9 +121,9 @@
     "déçois              décevois",
     "déçois              décevois",
     "déçoit              décevoit",
-    "décevons            décevoissons",
-    "décevez             décevoissez",
-    "déçoivent           décevoissent"
+    "décevons            décevoyons",
+    "décevez             décevoyez",
+    "déçoivent           décevoient"
   ],
   [
     "déchoir",
@@ -171,15 +171,6 @@
     "départent           départissent"
   ],
   [
-    "dépourvoir",
-    "dépourvois          dépourvois",
-    "dépourvois          dépourvois",
-    "dépourvoit          dépourvoit",
-    "dépourvoyons        dépourvoissons",
-    "dépourvoyez         dépourvoissez",
-    "dépourvoient        dépourvoissent"
-  ],
-  [
     "dévêtir",
     "dévêts              dévêtis",
     "dévêts              dévêtis",
@@ -211,18 +202,9 @@
     "entraperçois        entrapercevois",
     "entraperçois        entrapercevois",
     "entraperçoit        entrapercevoit",
-    "entrapercevons      entrapercevoissons",
-    "entrapercevez       entrapercevoissez",
-    "entraperçoivent     entrapercevoissent"
-  ],
-  [
-    "entrevoir",
-    "entrevois           entrevois",
-    "entrevois           entrevois",
-    "entrevoit           entrevoit",
-    "entrevoyons         entrevoissons",
-    "entrevoyez          entrevoissez",
-    "entrevoient         entrevoissent"
+    "entrapercevons      entrapercevoyons",
+    "entrapercevez       entrapercevoyez",
+    "entraperçoivent     entrapercevoient"
   ],
   [
     "entrouvrir",
@@ -301,9 +283,9 @@
     "meus                mouvois",
     "meus                mouvois",
     "meut                mouvoit",
-    "mouvons             mouvoissons",
-    "mouvez              mouvoissez",
-    "meuvent             mouvoissent"
+    "mouvons             mouvoyons",
+    "mouvez              mouvoyez",
+    "meuvent             mouvoient"
   ],
   [
     "offrir",
@@ -337,36 +319,27 @@
     "perçois             percevois",
     "perçois             percevois",
     "perçoit             percevoit",
-    "percevons           percevoissons",
-    "percevez            percevoissez",
-    "perçoivent          percevoissent"
+    "percevons           percevoyons",
+    "percevez            percevoyez",
+    "perçoivent          percevoient"
   ],
   [
     "pouvoir",
     "puis                pouvois",
     "peux                pouvois",
     "peut                pouvoit",
-    "pouvons             pouvoissons",
-    "pouvez              pouvoissez",
-    "peuvent             pouvoissent"
+    "pouvons             pouvoyons",
+    "pouvez              pouvoyez",
+    "peuvent             pouvoient"
   ],
   [
     "pleuvoir",
     "                    pleuvois",
     "                    pleuvois",
     "pleut               pleuvoit",
-    "                    pleuvoissons",
-    "                    pleuvoissez",
-    "pleuvent            pleuvoissent"
-  ],
-  [
-    "pourvoir",
-    "pourvois            pourvois",
-    "pourvois            pourvois",
-    "pourvoit            pourvoit",
-    "pourvoyons          pourvoissons",
-    "pourvoyez           pourvoissez",
-    "pourvoient          pourvoissent"
+    "                    pleuvoyons",
+    "                    pleuvoyez",
+    "pleuvent            pleuvoient"
   ],
   [
     "pressentir",
@@ -382,18 +355,18 @@
     "promeus             promouvois",
     "promeus             promouvois",
     "promeut             promouvoit",
-    "promouvons          promouvoissons",
-    "promouvez           promouvoissez",
-    "promeuvent          promouvoissent"
+    "promouvons          promouvoyons",
+    "promouvez           promouvoyez",
+    "promeuvent          promouvoient"
   ],
   [
     "préconcevoir",
     "préconçois          préconcevois",
     "préconçois          préconcevois",
     "préconçoit          préconcevoit",
-    "préconcevons        préconcevoissons",
-    "préconcevez         préconcevoissez",
-    "préconçoivent       préconcevoissent"
+    "préconcevons        préconcevoyons",
+    "préconcevez         préconcevoyez",
+    "préconçoivent       préconcevoient"
   ],
   [
     "prévaloir",
@@ -403,15 +376,6 @@
     "prévalons           prévaloissons",
     "prévalez            prévaloissez",
     "prévalent           prévaloissent"
-  ],
-  [
-    "prévoir",
-    "prévois             prévois",
-    "prévois             prévois",
-    "prévoit             prévoit",
-    "prévoyons           prévoissons",
-    "prévoyez            prévoissez",
-    "prévoient           prévoissent"
   ],
   [
     "rasseoir",
@@ -427,9 +391,9 @@
     "reçois              recevois",
     "reçois              recevois",
     "reçoit              recevoit",
-    "recevons            recevoissons",
-    "recevez             recevoissez",
-    "reçoivent           recevoissent"
+    "recevons            recevoyons",
+    "recevez             recevoyez",
+    "reçoivent           recevoient"
   ],
   [
     "recouvrir",
@@ -445,9 +409,9 @@
     "redois              redevois",
     "redois              redevois",
     "redoit              redevoit",
-    "redevons            redevoissons",
-    "redevez             redevoissez",
-    "redoivent           redevoissent"
+    "redevons            redevoyons",
+    "redevez             redevoyez",
+    "redoivent           redevoient"
   ],
   [
     "redormir",
@@ -531,15 +495,6 @@
     "revalent            revaloissent"
   ],
   [
-    "revoir",
-    "revois              revois",
-    "revois              revois",
-    "revoit              revoit",
-    "revoyons            revoissons",
-    "revoyez             revoissez",
-    "revoient            revoissent"
-  ],
-  [
     "revêtir",
     "revêts              revêtis",
     "revêts              revêtis",
@@ -571,9 +526,9 @@
     "sais                savois",
     "sais                savois",
     "sait                savoit",
-    "savons              savoissons",
-    "savez               savoissez",
-    "savent              savoissent"
+    "savons              savoyons",
+    "savez               savoyez",
+    "savent              savoient"
   ],
   [
     "saillir",
@@ -657,15 +612,6 @@
     "valent              valoissent"
   ],
   [
-    "voir",
-    "vois                vois",
-    "vois                vois",
-    "voit                voit",
-    "voyons              voissons",
-    "voyez               voissez",
-    "voient              voissent"
-  ],
-  [
     "vouloir",
     "veux                voulois",
     "veux                voulois",
@@ -697,9 +643,9 @@
     "émeus               émouvois",
     "émeus               émouvois",
     "émeut               émouvoit",
-    "émouvons            émouvoissons",
-    "émouvez             émouvoissez",
-    "émeuvent            émouvoissent"
+    "émouvons            émouvoyons",
+    "émouvez             émouvoyez",
+    "émeuvent            émouvoient"
   ],
   [
     "équivaloir",
