@@ -27,15 +27,6 @@
     "                    chaloissent"
   ],
   [
-    "devoir",
-    "dois                devois",
-    "dois                devois",
-    "doit                devoit",
-    "devons              devoyons",
-    "devez               devoyez",
-    "doivent             devoient"
-  ],
-  [
     "débouillir",
     "débous              débouillis",
     "débous              débouillis",
@@ -169,15 +160,6 @@
     "rassoyons           rasseoissons",
     "rassoyez            rasseoissez",
     "rassoient           rasseoissent"
-  ],
-  [
-    "redevoir",
-    "redois              redevois",
-    "redois              redevois",
-    "redoit              redevoit",
-    "redevons            redevoyons",
-    "redevez             redevoyez",
-    "redoivent           redevoient"
   ],
   [
     "revêtir",

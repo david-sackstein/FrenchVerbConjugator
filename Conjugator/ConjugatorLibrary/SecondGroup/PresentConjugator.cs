@@ -21,6 +21,12 @@ namespace ConjugatorLibrary.SecondGroup
 
             string stem = verb[..^2];
 
+            if (verb.EndsWith("devoir"))
+            {
+                var endings = new[] { "dois", "dois", "doit", "devons", "devez", "doivent" };
+                return endings.AddEndings(verb.TrimEnd("devoir"));
+            }
+
             if (verb.EndsWith("enir"))
             {
                 string modifiedStem = stem.ReplaceEnd("en", "ien");
