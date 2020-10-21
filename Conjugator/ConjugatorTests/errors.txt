@@ -27,15 +27,6 @@
     "                    chaloissent"
   ],
   [
-    "couvrir",
-    "couvre              couvris",
-    "couvres             couvris",
-    "couvre              couvrit",
-    "couvrons            couvrissons",
-    "couvrez             couvrissez",
-    "couvrent            couvrissent"
-  ],
-  [
     "desservir",
     "dessers             desservis",
     "dessers             desservis",
@@ -70,15 +61,6 @@
     "débouillons         débouillissons",
     "débouillez          débouillissez",
     "débouillent         débouillissent"
-  ],
-  [
-    "découvrir",
-    "découvre            découvris",
-    "découvres           découvris",
-    "découvre            découvrit",
-    "découvrons          découvrissons",
-    "découvrez           découvrissez",
-    "découvrent          découvrissent"
   ],
   [
     "démentir",
@@ -124,15 +106,6 @@
     "enfuyons            enfuissons",
     "enfuyez             enfuissez",
     "enfuient            enfuissent"
-  ],
-  [
-    "entrouvrir",
-    "entrouvre           entrouvris",
-    "entrouvres          entrouvris",
-    "entrouvre           entrouvrit",
-    "entrouvrons         entrouvrissons",
-    "entrouvrez          entrouvrissez",
-    "entrouvrent         entrouvrissent"
   ],
   [
     "faillir",
@@ -216,15 +189,6 @@
     "offrent             offrissent"
   ],
   [
-    "ouvrir",
-    "ouvre               ouvris",
-    "ouvres              ouvris",
-    "ouvre               ouvrit",
-    "ouvrons             ouvrissons",
-    "ouvrez              ouvrissez",
-    "ouvrent             ouvrissent"
-  ],
-  [
     "partir",
     "pars                partis",
     "pars                partis",
@@ -270,15 +234,6 @@
     "rassoient           rasseoissent"
   ],
   [
-    "recouvrir",
-    "recouvre            recouvris",
-    "recouvres           recouvris",
-    "recouvre            recouvrit",
-    "recouvrons          recouvrissons",
-    "recouvrez           recouvrissez",
-    "recouvrent          recouvrissent"
-  ],
-  [
     "redevoir",
     "redois              redevois",
     "redois              redevois",
@@ -295,15 +250,6 @@
     "redormons           redormissons",
     "redormez            redormissez",
     "redorment           redormissent"
-  ],
-  [
-    "redécouvrir",
-    "redécouvre          redécouvris",
-    "redécouvres         redécouvris",
-    "redécouvre          redécouvrit",
-    "redécouvrons        redécouvrissons",
-    "redécouvrez         redécouvrissez",
-    "redécouvrent        redécouvrissent"
   ],
   [
     "rendormir",
@@ -358,24 +304,6 @@
     "revêtons            revêtissons",
     "revêtez             revêtissez",
     "revêtent            revêtissent"
-  ],
-  [
-    "rouvrir",
-    "rouvre              rouvris",
-    "rouvres             rouvris",
-    "rouvre              rouvrit",
-    "rouvrons            rouvrissons",
-    "rouvrez             rouvrissez",
-    "rouvrent            rouvrissent"
-  ],
-  [
-    "réouvrir",
-    "réouvre             réouvris",
-    "réouvres            réouvris",
-    "réouvre             réouvrit",
-    "réouvrons           réouvrissons",
-    "réouvrez            réouvrissez",
-    "réouvrent           réouvrissent"
   ],
   [
     "savoir",

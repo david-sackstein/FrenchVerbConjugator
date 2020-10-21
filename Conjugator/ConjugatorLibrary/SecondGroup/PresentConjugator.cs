@@ -64,7 +64,7 @@ namespace ConjugatorLibrary.SecondGroup
                 return modified;
             }
 
-            if (verb.EndsWith("aillir") && !verb.EndsWith("jaillir"))
+            if (verb.EndsWith("aillir") && !verb.EndsWith("jaillir") || verb.EndsWith("ouvrir"))
             {
                 var endings = new[] { "e", "es", "e", "ons", "ez", "ent" };
                 var modified = endings.AddEndings(stem);
