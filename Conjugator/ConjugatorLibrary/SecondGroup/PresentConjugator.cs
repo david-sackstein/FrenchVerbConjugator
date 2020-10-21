@@ -24,6 +24,11 @@ namespace ConjugatorLibrary.SecondGroup
                 return new[] { "peux", "peux", "peut", "pouvons", "pouvez", "peuvent" };
             }
 
+            if (verb == "pleuvoir")
+            {
+                return new[] { "", "", "pleut", "", "", "pleuvent" };
+            }
+
             string stem = verb[..^2];
 
             if (verb.EndsWith("devoir"))

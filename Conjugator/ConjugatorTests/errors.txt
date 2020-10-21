@@ -117,15 +117,6 @@
     "meuvent             mouvoient"
   ],
   [
-    "pleuvoir",
-    "                    pleuvois",
-    "                    pleuvois",
-    "pleut               pleuvoit",
-    "                    pleuvoyons",
-    "                    pleuvoyez",
-    "pleuvent            pleuvoient"
-  ],
-  [
     "promouvoir",
     "promeus             promouvois",
     "promeus             promouvois",
