@@ -117,15 +117,6 @@
     "meuvent             mouvoient"
   ],
   [
-    "offrir",
-    "offre               offris",
-    "offres              offris",
-    "offre               offrit",
-    "offrons             offrissons",
-    "offrez              offrissez",
-    "offrent             offrissent"
-  ],
-  [
     "pouvoir",
     "puis                pouvois",
     "peux                pouvois",

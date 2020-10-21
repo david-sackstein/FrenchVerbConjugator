@@ -40,7 +40,7 @@ namespace ConjugatorLibrary.SecondGroup
                 return endings.AddEndings(stem);
             }
 
-            if (verb.EndsWith("cueillir"))
+            if (verb.EndsWith("cueillir") || verb =="offrir")
             {
                 var endings = new[] {"e", "es", "e", "ons", "ez", "ent"};
                 return endings.AddEndings(stem);
