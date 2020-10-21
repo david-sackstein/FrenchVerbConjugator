@@ -180,19 +180,10 @@
     "redoivent           redevoient"
   ],
   [
-    "ressortir",
-    "ressortis           ressortis",
-    "ressortis           ressortis",
-    "ressortit           ressortit",
-    "ressortons          ressortissons",
-    "ressortissez        ressortissez",
-    "ressortissent       ressortissent"
-  ],
-  [
     "revêtir",
     "revêts              revêtis",
     "revêts              revêtis",
-    "revêtit             revêtit",
+    "revêt               revêtit",
     "revêtons            revêtissons",
     "revêtez             revêtissez",
     "revêtent            revêtissent"
