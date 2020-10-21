@@ -47,6 +47,13 @@ namespace ConjugatorLibrary.SecondGroup
                 return modified;
             }
 
+            if (stem.EndsWith("cevo"))
+            {
+                var endings = new[] { "çois", "çois", "çoit", "cevons", "cevez", "çoivent" };
+                var modified = endings.AddEndings(stem[..^4]);
+                return modified;
+            }
+
             if (stem.EndsWith("vo"))
             {
                 var endings = new[] { "is", "is", "it", "yons", "yez", "ient" };

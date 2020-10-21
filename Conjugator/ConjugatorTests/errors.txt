@@ -1,14 +1,5 @@
 [
   [
-    "apercevoir",
-    "aperçois            apercevois",
-    "aperçois            apercevois",
-    "aperçoit            apercevoit",
-    "apercevons          apercevoyons",
-    "apercevez           apercevoyez",
-    "aperçoivent         apercevoient"
-  ],
-  [
     "assaillir",
     "assaille            assaillis",
     "assailles           assaillis",
@@ -52,15 +43,6 @@
     "choyons             choissons",
     "choyez              choissez",
     "choient             choissent"
-  ],
-  [
-    "concevoir",
-    "conçois             concevois",
-    "conçois             concevois",
-    "conçoit             concevoit",
-    "concevons           concevoyons",
-    "concevez            concevoyez",
-    "conçoivent          concevoient"
   ],
   [
     "consentir",
@@ -115,15 +97,6 @@
     "débouillons         débouillissons",
     "débouillez          débouillissez",
     "débouillent         débouillissent"
-  ],
-  [
-    "décevoir",
-    "déçois              décevois",
-    "déçois              décevois",
-    "déçoit              décevoit",
-    "décevons            décevoyons",
-    "décevez             décevoyez",
-    "déçoivent           décevoient"
   ],
   [
     "déchoir",
@@ -196,15 +169,6 @@
     "enfuyons            enfuissons",
     "enfuyez             enfuissez",
     "enfuient            enfuissent"
-  ],
-  [
-    "entrapercevoir",
-    "entraperçois        entrapercevois",
-    "entraperçois        entrapercevois",
-    "entraperçoit        entrapercevoit",
-    "entrapercevons      entrapercevoyons",
-    "entrapercevez       entrapercevoyez",
-    "entraperçoivent     entrapercevoient"
   ],
   [
     "entrouvrir",
@@ -315,15 +279,6 @@
     "partent             partissent"
   ],
   [
-    "percevoir",
-    "perçois             percevois",
-    "perçois             percevois",
-    "perçoit             percevoit",
-    "percevons           percevoyons",
-    "percevez            percevoyez",
-    "perçoivent          percevoient"
-  ],
-  [
     "pouvoir",
     "puis                pouvois",
     "peux                pouvois",
@@ -360,15 +315,6 @@
     "promeuvent          promouvoient"
   ],
   [
-    "préconcevoir",
-    "préconçois          préconcevois",
-    "préconçois          préconcevois",
-    "préconçoit          préconcevoit",
-    "préconcevons        préconcevoyons",
-    "préconcevez         préconcevoyez",
-    "préconçoivent       préconcevoient"
-  ],
-  [
     "prévaloir",
     "prévaux             prévalois",
     "prévaux             prévalois",
@@ -385,15 +331,6 @@
     "rassoyons           rasseoissons",
     "rassoyez            rasseoissez",
     "rassoient           rasseoissent"
-  ],
-  [
-    "recevoir",
-    "reçois              recevois",
-    "reçois              recevois",
-    "reçoit              recevoit",
-    "recevons            recevoyons",
-    "recevez             recevoyez",
-    "reçoivent           recevoient"
   ],
   [
     "recouvrir",
