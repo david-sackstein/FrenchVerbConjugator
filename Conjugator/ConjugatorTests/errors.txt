@@ -99,15 +99,6 @@
     "messiéent           messeoissent"
   ],
   [
-    "mourir",
-    "meurs               mouris",
-    "meurs               mouris",
-    "meurt               mourit",
-    "mourons             mourissons",
-    "mourez              mourissez",
-    "meurent             mourissent"
-  ],
-  [
     "rasseoir",
     "rassois             rasseois",
     "rassois             rasseois",

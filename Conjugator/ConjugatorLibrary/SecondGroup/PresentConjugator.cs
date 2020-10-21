@@ -31,6 +31,12 @@ namespace ConjugatorLibrary.SecondGroup
 
             string stem = verb[..^2];
 
+            if (verb.EndsWith("mourir"))
+            {
+                var endings = new[] { "meurs", "meurs", "meurt", "mourons", "mourez", "meurent" };
+                return endings.AddEndings(verb.TrimEnd("mourir"));
+            }
+
             if (verb.EndsWith("mouvoir"))
             {
                 var endings = new[] { "meus", "meus", "meut", "mouvons", "mouvez", "meuvent" };
