@@ -27,15 +27,6 @@
     "                    chaloissent"
   ],
   [
-    "desservir",
-    "dessers             desservis",
-    "dessers             desservis",
-    "dessert             desservit",
-    "desservons          desservissons",
-    "desservez           desservissez",
-    "desservent          desservissent"
-  ],
-  [
     "devoir",
     "dois                devois",
     "dois                devois",
@@ -279,15 +270,6 @@
     "repentent           repentissent"
   ],
   [
-    "resservir",
-    "ressers             resservis",
-    "ressers             resservis",
-    "ressert             resservit",
-    "resservons          resservissons",
-    "resservez           resservissez",
-    "resservent          resservissent"
-  ],
-  [
     "ressortir",
     "ressortis           ressortis",
     "ressortis           ressortis",
@@ -331,15 +313,6 @@
     "                    seoissons",
     "                    seoissez",
     "siéent              seoissent"
-  ],
-  [
-    "servir",
-    "sers                servis",
-    "sers                servis",
-    "sert                servit",
-    "servons             servissons",
-    "servez              servissez",
-    "servent             servissent"
   ],
   [
     "sortir",
