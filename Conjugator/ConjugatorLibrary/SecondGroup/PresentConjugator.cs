@@ -13,32 +13,28 @@ namespace ConjugatorLibrary.SecondGroup
                 return new[] {"ai", "as", "a", "avons", "avez", "ont"};
             }
 
-            if (verb == "enorgueillir")
-            {
-                Console.WriteLine();
-            }
             var stem = verb[..^2];
 
-            if (stem.EndsWith("en"))
+            if (verb.EndsWith("enir"))
             {
                 string modifiedStem = stem[..^2] + "ien";
                 var endings = new[] {"s", "s", "t" , "ons" , "ez" , "nent" };
                 return endings.AddEndings(modifiedStem, stem);
             }
 
-            if (stem.EndsWith("cour"))
+            if (verb.EndsWith("courir"))
             {
                 var endings = new[] { "s", "s", "t", "ons", "ez", "ent" };
                 return endings.AddEndings(stem);
             }
 
-            if (stem.EndsWith("cueill"))
+            if (verb.EndsWith("cueillir"))
             {
                 var endings = new[] { "e", "es", "e", "ons", "ez", "ent" };
                 return endings.AddEndings(stem);
             }
 
-            if (stem.EndsWith("quér"))
+            if (verb.EndsWith("quérir"))
             {
                 string modifiedStem = stem[..^2] + "ier";
                 string ilsStem = stem[..^2] + "ièr";
@@ -47,26 +43,34 @@ namespace ConjugatorLibrary.SecondGroup
                 return modified;
             }
 
-            if (stem.EndsWith("cevo"))
+            if (verb.EndsWith("cevoir"))
             {
                 var endings = new[] { "çois", "çois", "çoit", "cevons", "cevez", "çoivent" };
                 var modified = endings.AddEndings(stem[..^4]);
                 return modified;
             }
 
-            if (stem.EndsWith("vo"))
+            if (verb.EndsWith("voir"))
             {
                 var endings = new[] { "is", "is", "it", "yons", "yez", "ient" };
                 var modified = endings.AddEndings(stem);
                 return modified;
             }
 
-            if (stem.EndsWith("valo"))
+            if (verb.EndsWith("valoir"))
             {
                 var endings = new[] { "aux", "aux", "aut", "alons", "alez", "alent" };
                 var modified = endings.AddEndings(stem[..^3]);
                 return modified;
             }
+
+            if (verb.EndsWith("aillir") && !verb.EndsWith("jaillir"))
+            {
+                var endings = new[] { "e", "es", "e", "ons", "ez", "ent" };
+                var modified = endings.AddEndings(stem);
+                return modified;
+            }
+
             return Endings.AddEndings(stem);
         }
     }

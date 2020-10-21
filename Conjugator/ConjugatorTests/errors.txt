@@ -1,14 +1,5 @@
 [
   [
-    "assaillir",
-    "assaille            assaillis",
-    "assailles           assaillis",
-    "assaille            assaillit",
-    "assaillons          assaillissons",
-    "assaillez           assaillissez",
-    "assaillent          assaillissent"
-  ],
-  [
     "asseoir",
     "assois              asseois",
     "assois              asseois",
@@ -117,15 +108,6 @@
     "découvrent          découvrissent"
   ],
   [
-    "défaillir",
-    "défaille            défaillis",
-    "défailles           défaillis",
-    "défaille            défaillit",
-    "défaillons          défaillissons",
-    "défaillez           défaillissez",
-    "défaillent          défaillissent"
-  ],
-  [
     "démentir",
     "démens              démentis",
     "démens              démentis",
@@ -181,12 +163,12 @@
   ],
   [
     "faillir",
-    "faux                faillis",
-    "faux                faillis",
-    "faut                faillit",
-    "faillons            faillissons",
-    "faillez             faillissez",
-    "faillent            faillissent"
+    "faux                faille",
+    "faux                failles",
+    "faut                faille",
+    "faillons            faillons",
+    "faillez             faillez",
+    "faillent            faillent"
   ],
   [
     "falloir",
@@ -451,12 +433,12 @@
   ],
   [
     "saillir",
-    "saillis             saillis",
-    "saillis             saillis",
-    "saillit             saillit",
-    "saillons            saillissons",
-    "saillissez          saillissez",
-    "saillissent         saillissent"
+    "saillis             saille",
+    "saillis             sailles",
+    "saillit             saille",
+    "saillons            saillons",
+    "saillissez          saillez",
+    "saillissent         saillent"
   ],
   [
     "sentir",
@@ -511,15 +493,6 @@
     "                    surseoissons",
     "                    surseoissez",
     "                    surseoissent"
-  ],
-  [
-    "tressaillir",
-    "tressaille          tressaillis",
-    "tressailles         tressaillis",
-    "tressaille          tressaillit",
-    "tressaillons        tressaillissons",
-    "tressaillez         tressaillissez",
-    "tressaillent        tressaillissent"
   ],
   [
     "vouloir",
