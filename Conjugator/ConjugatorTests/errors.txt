@@ -180,15 +180,6 @@
     "redoivent           redevoient"
   ],
   [
-    "repentir",
-    "repens              repentis",
-    "repens              repentis",
-    "repent              repentit",
-    "repentons           repentissons",
-    "repentez            repentissez",
-    "repentent           repentissent"
-  ],
-  [
     "ressortir",
     "ressortis           ressortis",
     "ressortis           ressortis",
