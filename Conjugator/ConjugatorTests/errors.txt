@@ -36,15 +36,6 @@
     "doivent             devoient"
   ],
   [
-    "dormir",
-    "dors                dormis",
-    "dors                dormis",
-    "dort                dormit",
-    "dormons             dormissons",
-    "dormez              dormissez",
-    "dorment             dormissent"
-  ],
-  [
     "débouillir",
     "débous              débouillis",
     "débous              débouillis",
@@ -79,15 +70,6 @@
     "dévêtons            dévêtissons",
     "dévêtez             dévêtissez",
     "dévêtent            dévêtissent"
-  ],
-  [
-    "endormir",
-    "endors              endormis",
-    "endors              endormis",
-    "endort              endormit",
-    "endormons           endormissons",
-    "endormez            endormissez",
-    "endorment           endormissent"
   ],
   [
     "enfuir",
@@ -232,24 +214,6 @@
     "redevons            redevoyons",
     "redevez             redevoyez",
     "redoivent           redevoient"
-  ],
-  [
-    "redormir",
-    "redors              redormis",
-    "redors              redormis",
-    "redort              redormit",
-    "redormons           redormissons",
-    "redormez            redormissez",
-    "redorment           redormissent"
-  ],
-  [
-    "rendormir",
-    "rendors             rendormis",
-    "rendors             rendormis",
-    "rendort             rendormit",
-    "rendormons          rendormissons",
-    "rendormez           rendormissez",
-    "rendorment          rendormissent"
   ],
   [
     "repartir",

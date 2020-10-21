@@ -85,6 +85,13 @@ namespace ConjugatorLibrary.SecondGroup
                 return modified;
             }
 
+            if (verb.EndsWith("dormir"))
+            {
+                var endings = new[] { "s", "s", "t", "mons", "mez", "ment" };
+                string[] modified = endings.AddEndings(verb.TrimEnd("mir"));
+                return modified;
+            }
+
             return Endings.AddEndings(stem);
         }
     }
