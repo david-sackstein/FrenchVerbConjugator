@@ -14,6 +14,11 @@ namespace ConjugatorLibrary.SecondGroup
                 return new[] {"ai", "as", "a", "avons", "avez", "ont"};
             }
 
+            if (verb == "vouloir")
+            {
+                return new[] { "veux", "veux", "veut", "voulons", "voulez", "veulent" };
+            }
+
             string stem = verb[..^2];
 
             if (verb.EndsWith("enir"))

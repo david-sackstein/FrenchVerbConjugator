@@ -234,15 +234,6 @@
     "                    surseoissent"
   ],
   [
-    "vouloir",
-    "veux                voulois",
-    "veux                voulois",
-    "veut                vouloit",
-    "voulons             vouloissons",
-    "voulez              vouloissez",
-    "veulent             vouloissent"
-  ],
-  [
     "vêtir",
     "vêts                vêtis",
     "vêts                vêtis",
