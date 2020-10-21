@@ -31,6 +31,12 @@ namespace ConjugatorLibrary.SecondGroup
 
             string stem = verb[..^2];
 
+            if (verb.EndsWith("mouvoir"))
+            {
+                var endings = new[] { "meus", "meus", "meut", "mouvons", "mouvez", "meuvent" };
+                return endings.AddEndings(verb.TrimEnd("mouvoir"));
+            }
+
             if (verb.EndsWith("devoir"))
             {
                 var endings = new[] { "dois", "dois", "doit", "devons", "devez", "doivent" };

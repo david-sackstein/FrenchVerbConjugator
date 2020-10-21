@@ -108,24 +108,6 @@
     "meurent             mourissent"
   ],
   [
-    "mouvoir",
-    "meus                mouvois",
-    "meus                mouvois",
-    "meut                mouvoit",
-    "mouvons             mouvoyons",
-    "mouvez              mouvoyez",
-    "meuvent             mouvoient"
-  ],
-  [
-    "promouvoir",
-    "promeus             promouvois",
-    "promeus             promouvois",
-    "promeut             promouvoit",
-    "promouvons          promouvoyons",
-    "promouvez           promouvoyez",
-    "promeuvent          promouvoient"
-  ],
-  [
     "rasseoir",
     "rassois             rasseois",
     "rassois             rasseois",
@@ -196,14 +178,5 @@
     "vêtons              vêtissons",
     "vêtez               vêtissez",
     "vêtent              vêtissent"
-  ],
-  [
-    "émouvoir",
-    "émeus               émouvois",
-    "émeus               émouvois",
-    "émeut               émouvoit",
-    "émouvons            émouvoyons",
-    "émouvez             émouvoyez",
-    "émeuvent            émouvoient"
   ]
 ]
