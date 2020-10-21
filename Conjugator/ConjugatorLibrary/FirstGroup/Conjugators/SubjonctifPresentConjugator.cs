@@ -30,10 +30,7 @@ namespace ConjugatorLibrary.FirstGroup
 
         private static string[] AddEndings(string[] endings, string modifiedStem, string nousVousStem)
         {
-            return endings.MatchNousVous(
-                s => nousVousStem + s,
-                s => modifiedStem + s
-            );
+            return endings.MatchNousVous(s => modifiedStem + s, s => nousVousStem + s);
         }
 
         private static string[] AddEndings(string[] endings, string modifiedStem)

@@ -41,9 +41,9 @@ namespace ConjugatorLibrary.SecondGroup
             if (stem.EndsWith("quér"))
             {
                 string modifiedStem = stem[..^2] + "ier";
+                string ilsStem = stem[..^2] + "ièr";
                 var endings = new[] { "s", "s", "t", "ons", "ez", "ent" };
-                var modified = endings.AddEndings(modifiedStem, stem);
-                modified[5] = modified[5].ReplaceAt(-5, 'è');
+                var modified = endings.AddEndings(modifiedStem, stem, ilsStem);
                 return modified;
             }
             return Endings.AddEndings(stem);
