@@ -17,7 +17,7 @@ namespace ConjugatorLibrary.SecondGroup
 
             if (verb.EndsWith("enir"))
             {
-                string modifiedStem = stem.TrimEnd("en") + "ien";
+                string modifiedStem = stem.ReplaceEnd("en", "ien");
                 var endings = new[] {"s", "s", "t", "ons", "ez", "nent"};
                 return endings.AddEndings(modifiedStem, stem);
             }
@@ -71,34 +71,15 @@ namespace ConjugatorLibrary.SecondGroup
                 return modified;
             }
 
-            if (verb.EndsWith("sentir"))
+            if (verb.EndsWithAnyOf("dormir", "mentir", "ervir", "sentir") && 
+                ! verb.IsOneOf("asservir", "réasservir"))
             {
-                var endings = new[] {"s", "s", "t", "tons", "tez", "tent"};
-                string[] modified = endings.AddEndings(verb.TrimEnd("tir"));
+                var lastLetter = stem[^1];
+                var endings = new[] {"s", "s", "t", lastLetter + "ons", lastLetter + "ez", lastLetter + "ent" };
+                string[] modified = endings.AddEndings(verb.TrimEnd(lastLetter + "ir"));
                 return modified;
             }
 
-            if (verb.EndsWith("ervir") && !new[] {"asservir", "réasservir"}.Contains(verb))
-            {
-                var endings = new[] {"s", "s", "t", "vons", "vez", "vent"};
-                string[] modified = endings.AddEndings(verb.TrimEnd("vir"));
-                return modified;
-            }
-
-            if (verb.EndsWith("dormir"))
-            {
-                var endings = new[] { "s", "s", "t", "mons", "mez", "ment" };
-                string[] modified = endings.AddEndings(verb.TrimEnd("mir"));
-                return modified;
-            }
-
-            if (verb.EndsWith("mentir"))
-            {
-                var endings = new[] { "s", "s", "t", "tons", "tez", "tent" };
-                string[] modified = endings.AddEndings(verb.TrimEnd("tir"));
-                return modified;
-            }
-            
             return Endings.AddEndings(stem);
         }
     }
