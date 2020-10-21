@@ -117,15 +117,6 @@
     "meuvent             mouvoient"
   ],
   [
-    "pouvoir",
-    "puis                pouvois",
-    "peux                pouvois",
-    "peut                pouvoit",
-    "pouvons             pouvoyons",
-    "pouvez              pouvoyez",
-    "peuvent             pouvoient"
-  ],
-  [
     "pleuvoir",
     "                    pleuvois",
     "                    pleuvois",
