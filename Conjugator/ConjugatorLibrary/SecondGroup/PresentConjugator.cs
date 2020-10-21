@@ -71,6 +71,13 @@ namespace ConjugatorLibrary.SecondGroup
                 return modified;
             }
 
+            if (verb.EndsWith("sentir"))
+            {
+                var endings = new[] { "s", "s", "t", "tons", "tez", "tent" };
+                var modified = endings.AddEndings(stem[..^1]);
+                return modified;
+            }
+
             return Endings.AddEndings(stem);
         }
     }

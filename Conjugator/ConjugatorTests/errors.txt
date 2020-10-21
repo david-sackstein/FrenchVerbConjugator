@@ -27,15 +27,6 @@
     "                    chaloissent"
   ],
   [
-    "consentir",
-    "consens             consentis",
-    "consens             consentis",
-    "consent             consentit",
-    "consentons          consentissons",
-    "consentez           consentissez",
-    "consentent          consentissent"
-  ],
-  [
     "couvrir",
     "couvre              couvris",
     "couvres             couvris",
@@ -261,15 +252,6 @@
     "pleuvent            pleuvoient"
   ],
   [
-    "pressentir",
-    "pressens            pressentis",
-    "pressens            pressentis",
-    "pressent            pressentit",
-    "pressentons         pressentissons",
-    "pressentez          pressentissez",
-    "pressentent         pressentissent"
-  ],
-  [
     "promouvoir",
     "promeus             promouvois",
     "promeus             promouvois",
@@ -351,15 +333,6 @@
     "repentent           repentissent"
   ],
   [
-    "ressentir",
-    "ressens             ressentis",
-    "ressens             ressentis",
-    "ressent             ressentit",
-    "ressentons          ressentissons",
-    "ressentez           ressentissez",
-    "ressentent          ressentissent"
-  ],
-  [
     "resservir",
     "ressers             resservis",
     "ressers             resservis",
@@ -421,15 +394,6 @@
     "saillons            saillons",
     "saillissez          saillez",
     "saillissent         saillent"
-  ],
-  [
-    "sentir",
-    "sens                sentis",
-    "sens                sentis",
-    "sent                sentit",
-    "sentons             sentissons",
-    "sentez              sentissez",
-    "sentent             sentissent"
   ],
   [
     "seoir",
