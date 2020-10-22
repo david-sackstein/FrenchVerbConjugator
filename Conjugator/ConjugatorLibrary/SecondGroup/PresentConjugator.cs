@@ -1,5 +1,4 @@
-﻿using System;
-using System.Linq;
+﻿using System.Data;
 
 namespace ConjugatorLibrary.SecondGroup
 {
@@ -14,27 +13,12 @@ namespace ConjugatorLibrary.SecondGroup
 
             if (verb == "vouloir")
             {
-                return new[] { "veux", "veux", "veut", "voulons", "voulez", "veulent" };
+                return new[] {"veux", "veux", "veut", "voulons", "voulez", "veulent"};
             }
-
+            
             if (verb == "pouvoir")
             {
-                return new[] { "peux", "peux", "peut", "pouvons", "pouvez", "peuvent" };
-            }
-
-            if (verb == "pleuvoir")
-            {
-                return new[] { "", "", "pleut", "", "", "pleuvent" };
-            }
-
-            if (verb == "falloir")
-            {
-                return new[] { "", "", "faut", "", "", "" };
-            }
-
-            if (verb == "chaloir")
-            {
-                return new[] { "", "", "chaut", "", "", "" };
+                return new[] {"peux", "peux", "peut", "pouvons", "pouvez", "peuvent"};
             }
 
             if (verb == "faillir")
@@ -42,20 +26,35 @@ namespace ConjugatorLibrary.SecondGroup
                 return new[] { "faux", "faux", "faut", "faillons", "faillez", "faillent" };
             }
 
+            if (verb == "pleuvoir")
+            {
+                return new[] {"", "", "pleut", "", "", "pleuvent"};
+            }
+            
+            if (verb == "falloir")
+            {
+                return new[] {"", "", "faut", "", "", ""};
+            }
+            
+            if (verb == "chaloir")
+            {
+                return new[] {"", "", "chaut", "", "", ""};
+            }
+            
             if (verb == "savoir")
             {
-                return new[] { "sais", "sais", "sait", "savons", "savez", "savent" };
+                return AddSstEndings("sai", "sav", "sav");
             }
-
+            
             if (verb == "gésir")
             {
-                return new[] { "gis", "gis", "gît", "gisons", "gisez", "gisent" };
+                return new[] {"gis", "gis", "gît", "gisons", "gisez", "gisent"};
             }
 
             if (verb == "seoir" || verb == "messeoir")
             {
                 var modifiedStem = verb.TrimEnd("seoir");
-                return new[] { "", "", modifiedStem + "sied", "", "", modifiedStem + "siéent" };
+                return new[] {"", "", modifiedStem + "sied", "", "", modifiedStem + "siéent"};
             }
 
             if (verb.EndsWith("mouvoir"))
@@ -70,17 +69,17 @@ namespace ConjugatorLibrary.SecondGroup
                 return endings.AddEndings(verb.TrimEnd("mourir"));
             }
 
-            string stem = verb.TrimEnd("ir");
+            string regularStem = verb.TrimEnd("ir");
 
             if (verb.EndsWith("sseoir") || verb.EndsWith("rseoir"))
             {
-                string modifiedStem = stem.TrimEnd("eo") + "o";
+                string modifiedStem = regularStem.TrimEnd("eo") + "o";
                 return AddYonsEndings(modifiedStem);
             }
 
             if (verb.EndsWith("fuir"))
             {
-                return AddYonsEndings(stem);
+                return AddYonsEndings(regularStem);
             }
 
             if (verb.EndsWith("devoir"))
@@ -89,11 +88,17 @@ namespace ConjugatorLibrary.SecondGroup
                 return endings.AddEndings(verb.TrimEnd("devoir"));
             }
 
+            if (verb.EndsWith("cevoir"))
+            {
+                string prefix = verb.TrimEnd("cevoir");
+                return AddSstEndings(prefix + "çoi", prefix + "cev", prefix + "çoiv");
+            }
+
             if (verb.EndsWith("enir"))
             {
-                string modifiedStem = stem.ReplaceEnd("en", "ien");
+                string modifiedStem = regularStem.ReplaceEnd("en", "ien");
                 var endings = new[] {"s", "s", "t", "ons", "ez", "nent"};
-                return endings.AddEndings(modifiedStem, stem);
+                return endings.AddEndings(modifiedStem, regularStem);
             }
 
             if (verb.EndsWith("bouillir"))
@@ -104,20 +109,20 @@ namespace ConjugatorLibrary.SecondGroup
 
             if (verb.EndsWith("vêtir"))
             {
-                return AddSstEndings(stem);
+                return AddSstEndings(regularStem);
             }
 
             if (verb.EndsWith("quérir"))
             {
-                string singularStem = stem.TrimEnd("ér") + "ier";
-                string ilsStem = stem.TrimEnd("ér") + "ièr";
+                string singularStem = regularStem.TrimEnd("ér") + "ier";
+                string ilsStem = regularStem.TrimEnd("ér") + "ièr";
                 
-                return AddSstEndings(singularStem, stem, ilsStem);
+                return AddSstEndings(singularStem, regularStem, ilsStem);
             }
 
             if (verb.EndsWith("courir"))
             {
-                return AddSstEndings(stem);
+                return AddSstEndings(regularStem);
             }
 
             if (verb.EndsWithAnyOf("dormir", "mentir", "ervir", "sentir") ||
@@ -125,23 +130,16 @@ namespace ConjugatorLibrary.SecondGroup
             {
                 if (!verb.IsOneOf("asservir", "réasservir")) // these two are regular
                 {
-                    var lastLetter = stem[^1];
+                    var lastLetter = regularStem[^1];
                     var endings = new[] { "s", "s", "t", lastLetter + "ons", lastLetter + "ez", lastLetter + "ent" };
                     return endings.AddEndings(verb.TrimEnd(lastLetter + "ir"));
                 }
             }
 
-            if (verb.EndsWith("cevoir"))
-            {
-                var endings = new[] {"çois", "çois", "çoit", "cevons", "cevez", "çoivent"};
-                string[] modified = endings.AddEndings(verb.TrimEnd("cevoir"));
-                return modified;
-            }
-
             if (verb.EndsWith("voir") || verb.EndsWith("choir"))
             {
                 var endings = new[] {"is", "is", "it", "yons", "yez", "ient"};
-                string[] modified = endings.AddEndings(stem);
+                string[] modified = endings.AddEndings(regularStem);
                 return modified;
             }
 
@@ -160,12 +158,12 @@ namespace ConjugatorLibrary.SecondGroup
                 if (!verb.EndsWith("jaillir") && verb != "saillir")
                 {
                     var endings = new[] {"e", "es", "e", "ons", "ez", "ent"};
-                    string[] modified = endings.AddEndings(stem);
+                    string[] modified = endings.AddEndings(regularStem);
                     return modified;
                 }
             }
 
-            return AddRegularEndings(stem);
+            return AddRegularEndings(regularStem);
         }
 
         private static string[] AddSstEndings(string singularStem, string nousVousStem, string ilsStem)
