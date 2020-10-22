@@ -105,8 +105,7 @@ namespace ConjugatorLibrary.SecondGroup
 
             if (verb.EndsWith("vêtir"))
             {
-                var endings = new[] { "s", "s", "", "ons", "ez", "ent" };
-                return endings.AddEndings(verb.TrimEnd("ir"));
+                return AddSstEndings(stem);
             }
 
             if (verb.EndsWith("quérir"))
@@ -120,8 +119,7 @@ namespace ConjugatorLibrary.SecondGroup
 
             if (verb.EndsWith("courir"))
             {
-                var endings = new[] { "s", "s", "t", "ons", "ez", "ent" };
-                return endings.AddEndings(stem);
+                return AddSstEndings(stem);
             }
 
             if (verb.EndsWithAnyOf("dormir", "mentir", "ervir", "sentir") ||
@@ -170,6 +168,13 @@ namespace ConjugatorLibrary.SecondGroup
             }
 
             return AddRegularEndings(stem);
+        }
+
+        private static string[] AddSstEndings(string stem)
+        {
+            var il = stem[^1] == 't' ? "" : "t";
+            var endings = new[] {"s", "s", il, "ons", "ez", "ent"};
+            return endings.AddEndings(stem);
         }
 
         private static string[] AddRegularEndings(string stem)
