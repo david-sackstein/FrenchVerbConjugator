@@ -45,15 +45,6 @@
     "dévêtent            dévêtissent"
   ],
   [
-    "enfuir",
-    "enfuis              enfuis",
-    "enfuis              enfuis",
-    "enfuit              enfuit",
-    "enfuyons            enfuissons",
-    "enfuyez             enfuissez",
-    "enfuient            enfuissent"
-  ],
-  [
     "faillir",
     "faux                faille",
     "faux                failles",
@@ -70,15 +61,6 @@
     "                    falloissons",
     "                    falloissez",
     "                    falloissent"
-  ],
-  [
-    "fuir",
-    "fuis                fuis",
-    "fuis                fuis",
-    "fuit                fuit",
-    "fuyons              fuissons",
-    "fuyez               fuissez",
-    "fuient              fuissent"
   ],
   [
     "gésir",

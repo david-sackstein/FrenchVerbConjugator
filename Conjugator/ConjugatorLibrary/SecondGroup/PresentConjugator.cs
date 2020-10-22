@@ -29,12 +29,18 @@ namespace ConjugatorLibrary.SecondGroup
                 return new[] { "", "", "pleut", "", "", "pleuvent" };
             }
 
-            string stem = verb[..^2];
+            string stem = verb.TrimEnd("ir");
 
             if (verb.EndsWith("mourir"))
             {
                 var endings = new[] { "meurs", "meurs", "meurt", "mourons", "mourez", "meurent" };
                 return endings.AddEndings(verb.TrimEnd("mourir"));
+            }
+
+            if (verb.EndsWith("fuir"))
+            {
+                var endings = new[] { "fuis", "fuis", "fuit", "fuyons", "fuyez", "fuient" };
+                return endings.AddEndings(verb.TrimEnd("fuir"));
             }
 
             if (verb.EndsWith("mouvoir"))
