@@ -34,14 +34,5 @@
     "                    soyons",
     "                    soyez",
     "siéent              soient"
-  ],
-  [
-    "vêtir",
-    "vêts                vêts",
-    "vêts                vêts",
-    "vêtit               vêt",
-    "vêtons              vêtons",
-    "vêtez               vêtez",
-    "vêtent              vêtent"
   ]
 ]
