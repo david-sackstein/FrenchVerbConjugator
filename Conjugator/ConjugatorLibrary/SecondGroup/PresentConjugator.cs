@@ -99,18 +99,6 @@ namespace ConjugatorLibrary.SecondGroup
                 return endings.AddEndings(modifiedStem, stem);
             }
 
-            if (verb.EndsWith("courir"))
-            {
-                var endings = new[] {"s", "s", "t", "ons", "ez", "ent"};
-                return endings.AddEndings(stem);
-            }
-
-            if (verb.EndsWith("cueillir") || verb.EndsWith("ffrir"))
-            {
-                var endings = new[] {"e", "es", "e", "ons", "ez", "ent"};
-                return endings.AddEndings(stem);
-            }
-
             if (verb.EndsWith("bouillir"))
             {
                 var endings = new[] { "bous", "bous", "bout", "bouillons", "bouillez", "bouillent" };
@@ -121,6 +109,12 @@ namespace ConjugatorLibrary.SecondGroup
             {
                 var endings = new[] { "s", "s", "", "ons", "ez", "ent" };
                 return endings.AddEndings(verb.TrimEnd("ir"));
+            }
+
+            if (verb.EndsWith("courir"))
+            {
+                var endings = new[] { "s", "s", "t", "ons", "ez", "ent" };
+                return endings.AddEndings(stem);
             }
 
             if (verb.EndsWith("quérir"))
@@ -153,14 +147,17 @@ namespace ConjugatorLibrary.SecondGroup
                 return modified;
             }
 
-            // if (verb != "saillir") is the ons form irregular? ressortir is also a mahloket
-            // revêtir is tough
-
-            if (verb.EndsWith("aillir") && !verb.EndsWith("jaillir") && (verb != "saillir") || verb.EndsWith("ouvrir"))
+            if (verb.EndsWith("cueillir") 
+                || verb.EndsWith("ffrir") 
+                || verb.EndsWith("aillir") 
+                || verb.EndsWith("ouvrir"))
             {
-                var endings = new[] { "e", "es", "e", "ons", "ez", "ent" };
-                string[] modified = endings.AddEndings(stem);
-                return modified;
+                if (!verb.EndsWith("jaillir") && verb != "saillir")
+                {
+                    var endings = new[] {"e", "es", "e", "ons", "ez", "ent"};
+                    string[] modified = endings.AddEndings(stem);
+                    return modified;
+                }
             }
 
             if (verb.EndsWithAnyOf("dormir", "mentir", "ervir", "sentir") || 
@@ -175,12 +172,12 @@ namespace ConjugatorLibrary.SecondGroup
                 }
             }
 
-            if (verb.IsOneOf("ressortir"))
-            {
-                var endings = new[] { "is", "is", "it", "ons", "issez", "issent" };
-                string[] modified = endings.AddEndings(stem);
-                return modified;
-            }
+            //if (verb.IsOneOf("ressortir"))
+            //{
+            //    var endings = new[] { "is", "is", "it", "ons", "issez", "issent" };
+            //    string[] modified = endings.AddEndings(stem);
+            //    return modified;
+            //}
 
             return Endings.AddEndings(stem);
         }
