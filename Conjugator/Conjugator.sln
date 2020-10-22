@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConjugatorTests", "Conjugat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConjugatorLibrary", "ConjugatorLibrary\ConjugatorLibrary.csproj", "{220482BB-BE37-4495-BC10-925833AFCF6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools", "Tools\Tools.csproj", "{7A001308-ACF8-4809-BB76-607987DB8E67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{220482BB-BE37-4495-BC10-925833AFCF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{220482BB-BE37-4495-BC10-925833AFCF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{220482BB-BE37-4495-BC10-925833AFCF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A001308-ACF8-4809-BB76-607987DB8E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A001308-ACF8-4809-BB76-607987DB8E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A001308-ACF8-4809-BB76-607987DB8E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A001308-ACF8-4809-BB76-607987DB8E67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using ConjugatorLibrary;
+using ConjugatorLibrary.Conjugators;
+using ConjugatorLibrary.FirstGroup;
+using ConjugatorLibrary.SecondGroup;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ConjugatorTests
@@ -11,78 +13,80 @@ namespace ConjugatorTests
     {
         private const string _nodeModulesPath = @"..\..\..\..\..\node_modules";
         private static VerbData _verbData;
+        private static IConjugator _conjugator;
 
         [ClassInitialize]
         public static void SetUp(TestContext context)
         {
             _verbData = new VerbData(_nodeModulesPath);
+            _conjugator = new SecondGroupConjugator();
+            //_conjugator = new FirstGroupConjugator();
         }
 
         [TestMethod]
-        public void TestErPresent()
+        public void TestImparfait()
         {
-            TestErVerbs(v => _verbData.Conjugations[v].Present, PresentConjugator.GetConjugations);
+            TestConjugator(v => _verbData.Conjugations[v].Imparfait, _conjugator.Imparfait);
         }
 
         [TestMethod]
-        public void TestErImparfait()
+        public void TestParticipePasse()
         {
-            TestErVerbs(v => _verbData.Conjugations[v].Imparfait, ImparfaitConjugator.GetConjugations);
+            TestConjugator(v => _verbData.Conjugations[v].ParticipePasse, _conjugator.ParticipePasse);
         }
 
         [TestMethod]
-        public void TestErParticipePasse()
+        public void TestParticipePresent()
         {
-            TestErVerbs(v => _verbData.Conjugations[v].ParticipePasse, ParticipePasseConjugator.GetConjugations);
+            TestConjugator(v => _verbData.Conjugations[v].ParticipePresent, _conjugator.ParticipePresent);
         }
 
         [TestMethod]
-        public void TestErParticipePresent()
+        public void TestFuture()
         {
-            TestErVerbs(v => _verbData.Conjugations[v].ParticipePresent, ParticipePresentConjugator.GetConjugations);
+            TestConjugator(v => _verbData.Conjugations[v].Future, _conjugator.Future);
         }
 
         [TestMethod]
-        public void TestErFuture()
+        public void TestConditional()
         {
-            TestErVerbs(v => _verbData.Conjugations[v].Future, FutureConjugator.GetConjugations);
+            TestConjugator(v => _verbData.Conjugations[v].Conditional, _conjugator.Conditionel);
         }
 
         [TestMethod]
-        public void TestErConditional()
+        public void TestImperatif()
         {
-            TestErVerbs(v => _verbData.Conjugations[v].Conditional, ConditionelConjugator.GetConjugations);
+            TestConjugator(v => _verbData.Conjugations[v].Imperatif, _conjugator.Imperatif);
         }
 
         [TestMethod]
-        public void TestErImperatif()
+        public void TestSubjonctifPresentConjugator()
         {
-            TestErVerbs(v => _verbData.Conjugations[v].Imperatif, ImperatifConjugator.GetConjugations);
+            TestConjugator(v => _verbData.Conjugations[v].SubjonctifPresent, _conjugator.SubjonctifPresent);
         }
 
         [TestMethod]
-        public void TestErSubjonctifPresentConjugator()
+        public void TestSubjonctifImparfaitConjugator()
         {
-            TestErVerbs(v => _verbData.Conjugations[v].SubjonctifPresent, SubjonctifPresentConjugator.GetConjugations);
+            TestConjugator(v => _verbData.Conjugations[v].SubjonctifImparfait, _conjugator.SubjonctifImparfait);
         }
 
         [TestMethod]
-        public void TestErSubjonctifImparfaitConjugator()
+        public void TestPasseSimpleConjugator()
         {
-            TestErVerbs(v => _verbData.Conjugations[v].SubjonctifImparfait,
-                SubjonctifImparfaitConjugator.GetConjugations);
+            TestConjugator(v => _verbData.Conjugations[v].PasseSimple, _conjugator.PasseSimple);
         }
 
         [TestMethod]
-        public void TestErPasseSimpleConjugator()
+        public void TestPresent()
         {
-            TestErVerbs(v => _verbData.Conjugations[v].PasseSimple, PasseSimpleConjugator.GetConjugations);
+            TestConjugator(v => _verbData.Conjugations[v].Present, _conjugator.Present);
         }
 
-        private static void TestErVerbs(Func<string, string[]> referenceConjugator, Func<string, string[]> conjugator)
+        private static void TestConjugator(Func<string, string[]> referenceConjugator, Func<string, string[]> conjugator)
         {
             Dictionary<bool, string[]> grades = _verbData.Conjugations.Keys
-                .Where(v => v.EndsWith("er"))
+                .Where(_conjugator.IsInGroup)
                 .GroupBy(v => IsCorrect(v, referenceConjugator, conjugator))
                 .ToDictionary(g => g.Key, g => g.ToArray());
 
@@ -94,8 +98,8 @@ namespace ConjugatorTests
 
             Assert.IsTrue(!newErrors.Any());
 
-            //Console.WriteLine($"{actualErrors.Length} errors");
-            //ErrorList.Save(actualErrors, referenceConjugator, conjugator);
+            Console.WriteLine($"{actualErrors.Length} errors");
+            ErrorList.Save(actualErrors, referenceConjugator, conjugator);
         }
 
         private static bool IsCorrect(

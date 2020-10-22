@@ -1,1 +1,596 @@
-[]
+[
+  [
+    "assaillir",
+    "assaille            assaillis",
+    "assailles           assaillis",
+    "assaille            assaillit",
+    "assaillons          assaillissons",
+    "assaillez           assaillissez",
+    "assaillent          assaillissent"
+  ],
+  [
+    "asseoir",
+    "assois              asseois",
+    "assois              asseois",
+    "assoit              asseoit",
+    "assoyons            asseoissons",
+    "assoyez             asseoissez",
+    "assoient            asseoissent"
+  ],
+  [
+    "bouillir",
+    "bous                bouillis",
+    "bous                bouillis",
+    "bout                bouillit",
+    "bouillons           bouillissons",
+    "bouillez            bouillissez",
+    "bouillent           bouillissent"
+  ],
+  [
+    "chaloir",
+    "                    chalois",
+    "                    chalois",
+    "chaut               chaloit",
+    "                    chaloissons",
+    "                    chaloissez",
+    "                    chaloissent"
+  ],
+  [
+    "choir",
+    "chois               chois",
+    "chois               chois",
+    "choit               choit",
+    "choyons             choissons",
+    "choyez              choissez",
+    "choient             choissent"
+  ],
+  [
+    "consentir",
+    "consens             consentis",
+    "consens             consentis",
+    "consent             consentit",
+    "consentons          consentissons",
+    "consentez           consentissez",
+    "consentent          consentissent"
+  ],
+  [
+    "couvrir",
+    "couvre              couvris",
+    "couvres             couvris",
+    "couvre              couvrit",
+    "couvrons            couvrissons",
+    "couvrez             couvrissez",
+    "couvrent            couvrissent"
+  ],
+  [
+    "desservir",
+    "dessers             desservis",
+    "dessers             desservis",
+    "dessert             desservit",
+    "desservons          desservissons",
+    "desservez           desservissez",
+    "desservent          desservissent"
+  ],
+  [
+    "devoir",
+    "dois                devois",
+    "dois                devois",
+    "doit                devoit",
+    "devons              devoyons",
+    "devez               devoyez",
+    "doivent             devoient"
+  ],
+  [
+    "dormir",
+    "dors                dormis",
+    "dors                dormis",
+    "dort                dormit",
+    "dormons             dormissons",
+    "dormez              dormissez",
+    "dorment             dormissent"
+  ],
+  [
+    "débouillir",
+    "débous              débouillis",
+    "débous              débouillis",
+    "débout              débouillit",
+    "débouillons         débouillissons",
+    "débouillez          débouillissez",
+    "débouillent         débouillissent"
+  ],
+  [
+    "déchoir",
+    "déchois             déchois",
+    "déchois             déchois",
+    "déchoit             déchoit",
+    "déchoyons           déchoissons",
+    "déchoyez            déchoissez",
+    "déchoient           déchoissent"
+  ],
+  [
+    "découvrir",
+    "découvre            découvris",
+    "découvres           découvris",
+    "découvre            découvrit",
+    "découvrons          découvrissons",
+    "découvrez           découvrissez",
+    "découvrent          découvrissent"
+  ],
+  [
+    "défaillir",
+    "défaille            défaillis",
+    "défailles           défaillis",
+    "défaille            défaillit",
+    "défaillons          défaillissons",
+    "défaillez           défaillissez",
+    "défaillent          défaillissent"
+  ],
+  [
+    "démentir",
+    "démens              démentis",
+    "démens              démentis",
+    "dément              démentit",
+    "démentons           démentissons",
+    "démentez            démentissez",
+    "démentent           démentissent"
+  ],
+  [
+    "départir",
+    "dépars              départis",
+    "dépars              départis",
+    "départ              départit",
+    "départons           départissons",
+    "départez            départissez",
+    "départent           départissent"
+  ],
+  [
+    "dévêtir",
+    "dévêts              dévêtis",
+    "dévêts              dévêtis",
+    "dévêtit             dévêtit",
+    "dévêtons            dévêtissons",
+    "dévêtez             dévêtissez",
+    "dévêtent            dévêtissent"
+  ],
+  [
+    "endormir",
+    "endors              endormis",
+    "endors              endormis",
+    "endort              endormit",
+    "endormons           endormissons",
+    "endormez            endormissez",
+    "endorment           endormissent"
+  ],
+  [
+    "enfuir",
+    "enfuis              enfuis",
+    "enfuis              enfuis",
+    "enfuit              enfuit",
+    "enfuyons            enfuissons",
+    "enfuyez             enfuissez",
+    "enfuient            enfuissent"
+  ],
+  [
+    "entrouvrir",
+    "entrouvre           entrouvris",
+    "entrouvres          entrouvris",
+    "entrouvre           entrouvrit",
+    "entrouvrons         entrouvrissons",
+    "entrouvrez          entrouvrissez",
+    "entrouvrent         entrouvrissent"
+  ],
+  [
+    "faillir",
+    "faux                faillis",
+    "faux                faillis",
+    "faut                faillit",
+    "faillons            faillissons",
+    "faillez             faillissez",
+    "faillent            faillissent"
+  ],
+  [
+    "falloir",
+    "                    fallois",
+    "                    fallois",
+    "faut                falloit",
+    "                    falloissons",
+    "                    falloissez",
+    "                    falloissent"
+  ],
+  [
+    "fuir",
+    "fuis                fuis",
+    "fuis                fuis",
+    "fuit                fuit",
+    "fuyons              fuissons",
+    "fuyez               fuissez",
+    "fuient              fuissent"
+  ],
+  [
+    "gésir",
+    "gisons              gésis",
+    "gisons              gésis",
+    "gît                 gésit",
+    "                    gésissons",
+    "                    gésissez",
+    "                    gésissent"
+  ],
+  [
+    "mentir",
+    "mens                mentis",
+    "mens                mentis",
+    "ment                mentit",
+    "mentons             mentissons",
+    "mentez              mentissez",
+    "mentent             mentissent"
+  ],
+  [
+    "messeoir",
+    "                    messeois",
+    "                    messeois",
+    "messied             messeoit",
+    "                    messeoissons",
+    "                    messeoissez",
+    "messiéent           messeoissent"
+  ],
+  [
+    "mourir",
+    "meurs               mouris",
+    "meurs               mouris",
+    "meurt               mourit",
+    "mourons             mourissons",
+    "mourez              mourissez",
+    "meurent             mourissent"
+  ],
+  [
+    "mouvoir",
+    "meus                mouvois",
+    "meus                mouvois",
+    "meut                mouvoit",
+    "mouvons             mouvoyons",
+    "mouvez              mouvoyez",
+    "meuvent             mouvoient"
+  ],
+  [
+    "offrir",
+    "offre               offris",
+    "offres              offris",
+    "offre               offrit",
+    "offrons             offrissons",
+    "offrez              offrissez",
+    "offrent             offrissent"
+  ],
+  [
+    "ouvrir",
+    "ouvre               ouvris",
+    "ouvres              ouvris",
+    "ouvre               ouvrit",
+    "ouvrons             ouvrissons",
+    "ouvrez              ouvrissez",
+    "ouvrent             ouvrissent"
+  ],
+  [
+    "partir",
+    "pars                partis",
+    "pars                partis",
+    "part                partit",
+    "partons             partissons",
+    "partez              partissez",
+    "partent             partissent"
+  ],
+  [
+    "pouvoir",
+    "puis                pouvois",
+    "peux                pouvois",
+    "peut                pouvoit",
+    "pouvons             pouvoyons",
+    "pouvez              pouvoyez",
+    "peuvent             pouvoient"
+  ],
+  [
+    "pleuvoir",
+    "                    pleuvois",
+    "                    pleuvois",
+    "pleut               pleuvoit",
+    "                    pleuvoyons",
+    "                    pleuvoyez",
+    "pleuvent            pleuvoient"
+  ],
+  [
+    "pressentir",
+    "pressens            pressentis",
+    "pressens            pressentis",
+    "pressent            pressentit",
+    "pressentons         pressentissons",
+    "pressentez          pressentissez",
+    "pressentent         pressentissent"
+  ],
+  [
+    "promouvoir",
+    "promeus             promouvois",
+    "promeus             promouvois",
+    "promeut             promouvoit",
+    "promouvons          promouvoyons",
+    "promouvez           promouvoyez",
+    "promeuvent          promouvoient"
+  ],
+  [
+    "prévaloir",
+    "prévaux             prévalois",
+    "prévaux             prévalois",
+    "prévaut             prévaloit",
+    "prévalons           prévaloissons",
+    "prévalez            prévaloissez",
+    "prévalent           prévaloissent"
+  ],
+  [
+    "rasseoir",
+    "rassois             rasseois",
+    "rassois             rasseois",
+    "rassoit             rasseoit",
+    "rassoyons           rasseoissons",
+    "rassoyez            rasseoissez",
+    "rassoient           rasseoissent"
+  ],
+  [
+    "recouvrir",
+    "recouvre            recouvris",
+    "recouvres           recouvris",
+    "recouvre            recouvrit",
+    "recouvrons          recouvrissons",
+    "recouvrez           recouvrissez",
+    "recouvrent          recouvrissent"
+  ],
+  [
+    "redevoir",
+    "redois              redevois",
+    "redois              redevois",
+    "redoit              redevoit",
+    "redevons            redevoyons",
+    "redevez             redevoyez",
+    "redoivent           redevoient"
+  ],
+  [
+    "redormir",
+    "redors              redormis",
+    "redors              redormis",
+    "redort              redormit",
+    "redormons           redormissons",
+    "redormez            redormissez",
+    "redorment           redormissent"
+  ],
+  [
+    "redécouvrir",
+    "redécouvre          redécouvris",
+    "redécouvres         redécouvris",
+    "redécouvre          redécouvrit",
+    "redécouvrons        redécouvrissons",
+    "redécouvrez         redécouvrissez",
+    "redécouvrent        redécouvrissent"
+  ],
+  [
+    "rendormir",
+    "rendors             rendormis",
+    "rendors             rendormis",
+    "rendort             rendormit",
+    "rendormons          rendormissons",
+    "rendormez           rendormissez",
+    "rendorment          rendormissent"
+  ],
+  [
+    "repartir",
+    "repars              repartis",
+    "repars              repartis",
+    "repart              repartit",
+    "repartons           repartissons",
+    "repartez            repartissez",
+    "repartent           repartissent"
+  ],
+  [
+    "repentir",
+    "repens              repentis",
+    "repens              repentis",
+    "repent              repentit",
+    "repentons           repentissons",
+    "repentez            repentissez",
+    "repentent           repentissent"
+  ],
+  [
+    "ressentir",
+    "ressens             ressentis",
+    "ressens             ressentis",
+    "ressent             ressentit",
+    "ressentons          ressentissons",
+    "ressentez           ressentissez",
+    "ressentent          ressentissent"
+  ],
+  [
+    "resservir",
+    "ressers             resservis",
+    "ressers             resservis",
+    "ressert             resservit",
+    "resservons          resservissons",
+    "resservez           resservissez",
+    "resservent          resservissent"
+  ],
+  [
+    "ressortir",
+    "ressortis           ressortis",
+    "ressortis           ressortis",
+    "ressortit           ressortit",
+    "ressortons          ressortissons",
+    "ressortissez        ressortissez",
+    "ressortissent       ressortissent"
+  ],
+  [
+    "revaloir",
+    "revaux              revalois",
+    "revaux              revalois",
+    "revaut              revaloit",
+    "revalons            revaloissons",
+    "revalez             revaloissez",
+    "revalent            revaloissent"
+  ],
+  [
+    "revêtir",
+    "revêts              revêtis",
+    "revêts              revêtis",
+    "revêtit             revêtit",
+    "revêtons            revêtissons",
+    "revêtez             revêtissez",
+    "revêtent            revêtissent"
+  ],
+  [
+    "rouvrir",
+    "rouvre              rouvris",
+    "rouvres             rouvris",
+    "rouvre              rouvrit",
+    "rouvrons            rouvrissons",
+    "rouvrez             rouvrissez",
+    "rouvrent            rouvrissent"
+  ],
+  [
+    "réouvrir",
+    "réouvre             réouvris",
+    "réouvres            réouvris",
+    "réouvre             réouvrit",
+    "réouvrons           réouvrissons",
+    "réouvrez            réouvrissez",
+    "réouvrent           réouvrissent"
+  ],
+  [
+    "savoir",
+    "sais                savois",
+    "sais                savois",
+    "sait                savoit",
+    "savons              savoyons",
+    "savez               savoyez",
+    "savent              savoient"
+  ],
+  [
+    "saillir",
+    "saillis             saillis",
+    "saillis             saillis",
+    "saillit             saillit",
+    "saillons            saillissons",
+    "saillissez          saillissez",
+    "saillissent         saillissent"
+  ],
+  [
+    "sentir",
+    "sens                sentis",
+    "sens                sentis",
+    "sent                sentit",
+    "sentons             sentissons",
+    "sentez              sentissez",
+    "sentent             sentissent"
+  ],
+  [
+    "seoir",
+    "                    seois",
+    "                    seois",
+    "sied                seoit",
+    "                    seoissons",
+    "                    seoissez",
+    "siéent              seoissent"
+  ],
+  [
+    "servir",
+    "sers                servis",
+    "sers                servis",
+    "sert                servit",
+    "servons             servissons",
+    "servez              servissez",
+    "servent             servissent"
+  ],
+  [
+    "sortir",
+    "sors                sortis",
+    "sors                sortis",
+    "sort                sortit",
+    "sortons             sortissons",
+    "sortez              sortissez",
+    "sortent             sortissent"
+  ],
+  [
+    "souffrir",
+    "souffre             souffris",
+    "souffres            souffris",
+    "souffre             souffrit",
+    "souffrons           souffrissons",
+    "souffrez            souffrissez",
+    "souffrent           souffrissent"
+  ],
+  [
+    "surseoir",
+    "sursois             surseois",
+    "sursois             surseois",
+    "sursoit             surseoit",
+    "                    surseoissons",
+    "                    surseoissez",
+    "                    surseoissent"
+  ],
+  [
+    "tressaillir",
+    "tressaille          tressaillis",
+    "tressailles         tressaillis",
+    "tressaille          tressaillit",
+    "tressaillons        tressaillissons",
+    "tressaillez         tressaillissez",
+    "tressaillent        tressaillissent"
+  ],
+  [
+    "valoir",
+    "vaux                valois",
+    "vaux                valois",
+    "vaut                valoit",
+    "valons              valoissons",
+    "valez               valoissez",
+    "valent              valoissent"
+  ],
+  [
+    "vouloir",
+    "veux                voulois",
+    "veux                voulois",
+    "veut                vouloit",
+    "voulons             vouloissons",
+    "voulez              vouloissez",
+    "veulent             vouloissent"
+  ],
+  [
+    "vêtir",
+    "vêts                vêtis",
+    "vêts                vêtis",
+    "vêtit               vêtit",
+    "vêtons              vêtissons",
+    "vêtez               vêtissez",
+    "vêtent              vêtissent"
+  ],
+  [
+    "échoir",
+    "échois              échois",
+    "échois              échois",
+    "échoit              échoit",
+    "échoyons            échoissons",
+    "échoyez             échoissez",
+    "échoient            échoissent"
+  ],
+  [
+    "émouvoir",
+    "émeus               émouvois",
+    "émeus               émouvois",
+    "émeut               émouvoit",
+    "émouvons            émouvoyons",
+    "émouvez             émouvoyez",
+    "émeuvent            émouvoient"
+  ],
+  [
+    "équivaloir",
+    "équivaux            équivalois",
+    "équivaux            équivalois",
+    "équivaut            équivaloit",
+    "équivalons          équivaloissons",
+    "équivalez           équivaloissez",
+    "équivalent          équivaloissent"
+  ]
+]
