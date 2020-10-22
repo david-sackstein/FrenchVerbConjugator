@@ -29,6 +29,11 @@ namespace ConjugatorLibrary.SecondGroup
                 return new[] { "", "", "pleut", "", "", "pleuvent" };
             }
 
+            if (verb == "falloir")
+            {
+                return new[] { "", "", "faut", "", "", "" };
+            }
+
             string stem = verb.TrimEnd("ir");
 
             if (verb.EndsWith("mourir"))

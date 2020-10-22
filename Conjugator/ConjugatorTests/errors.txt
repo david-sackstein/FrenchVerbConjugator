@@ -45,15 +45,6 @@
     "faillent            faillent"
   ],
   [
-    "falloir",
-    "                    fallois",
-    "                    fallois",
-    "faut                falloit",
-    "                    falloissons",
-    "                    falloissez",
-    "                    falloissent"
-  ],
-  [
     "gésir",
     "gisons              gésis",
     "gisons              gésis",
