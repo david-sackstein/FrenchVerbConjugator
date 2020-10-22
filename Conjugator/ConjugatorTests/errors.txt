@@ -1,14 +1,5 @@
 [
   [
-    "bouillir",
-    "bous                bouillis",
-    "bous                bouillis",
-    "bout                bouillit",
-    "bouillons           bouillissons",
-    "bouillez            bouillissez",
-    "bouillent           bouillissent"
-  ],
-  [
     "chaloir",
     "                    chalois",
     "                    chalois",
@@ -16,15 +7,6 @@
     "                    chaloissons",
     "                    chaloissez",
     "                    chaloissent"
-  ],
-  [
-    "débouillir",
-    "débous              débouillis",
-    "débous              débouillis",
-    "débout              débouillit",
-    "débouillons         débouillissons",
-    "débouillez          débouillissez",
-    "débouillent         débouillissent"
   ],
   [
     "dévêtir",

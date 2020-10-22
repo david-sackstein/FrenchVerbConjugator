@@ -95,6 +95,12 @@ namespace ConjugatorLibrary.SecondGroup
                 return endings.AddEndings(stem);
             }
 
+            if (verb.EndsWith("bouillir"))
+            {
+                var endings = new[] { "bous", "bous", "bout", "bouillons", "bouillez", "bouillent" };
+                return endings.AddEndings(verb.TrimEnd("bouillir"));
+            }
+
             if (verb.EndsWith("quérir"))
             {
                 string modifiedStem = stem.TrimEnd("ér") + "ier";
