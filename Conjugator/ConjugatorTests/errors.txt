@@ -1,14 +1,5 @@
 [
   [
-    "asseoir",
-    "assois              asseois",
-    "assois              asseois",
-    "assoit              asseoit",
-    "assoyons            asseoissons",
-    "assoyez             asseoissez",
-    "assoient            asseoissent"
-  ],
-  [
     "bouillir",
     "bous                bouillis",
     "bous                bouillis",
@@ -73,21 +64,12 @@
   ],
   [
     "messeoir",
-    "                    messeois",
-    "                    messeois",
-    "messied             messeoit",
-    "                    messeoissons",
-    "                    messeoissez",
-    "messiéent           messeoissent"
-  ],
-  [
-    "rasseoir",
-    "rassois             rasseois",
-    "rassois             rasseois",
-    "rassoit             rasseoit",
-    "rassoyons           rasseoissons",
-    "rassoyez            rasseoissez",
-    "rassoient           rasseoissent"
+    "                    messois",
+    "                    messois",
+    "messied             messoit",
+    "                    messoyons",
+    "                    messoyez",
+    "messiéent           messoient"
   ],
   [
     "revêtir",
@@ -118,12 +100,12 @@
   ],
   [
     "seoir",
-    "                    seois",
-    "                    seois",
-    "sied                seoit",
-    "                    seoissons",
-    "                    seoissez",
-    "siéent              seoissent"
+    "                    sois",
+    "                    sois",
+    "sied                soit",
+    "                    soyons",
+    "                    soyez",
+    "siéent              soient"
   ],
   [
     "souffrir",
@@ -133,15 +115,6 @@
     "souffrons           souffrissons",
     "souffrez            souffrissez",
     "souffrent           souffrissent"
-  ],
-  [
-    "surseoir",
-    "sursois             surseois",
-    "sursois             surseois",
-    "sursoit             surseoit",
-    "                    surseoissons",
-    "                    surseoissez",
-    "                    surseoissent"
   ],
   [
     "vêtir",

@@ -43,6 +43,12 @@ namespace ConjugatorLibrary.SecondGroup
                 return endings.AddEndings(verb.TrimEnd("fuir"));
             }
 
+            if (verb.EndsWith("eoir"))
+            {
+                var endings = new[] { "ois", "ois", "oit", "oyons", "oyez", "oient" };
+                return endings.AddEndings(verb.TrimEnd("eoir"));
+            }
+            
             if (verb.EndsWith("mouvoir"))
             {
                 var endings = new[] { "meus", "meus", "meut", "mouvons", "mouvez", "meuvent" };
