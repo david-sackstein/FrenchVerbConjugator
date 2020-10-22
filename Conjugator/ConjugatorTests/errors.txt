@@ -63,15 +63,6 @@
     "revêtent            revêtissent"
   ],
   [
-    "saillir",
-    "saillis             saille",
-    "saillis             sailles",
-    "saillit             saille",
-    "saillons            saillons",
-    "saillissez          saillez",
-    "saillissent         saillent"
-  ],
-  [
     "seoir",
     "                    sois",
     "                    sois",

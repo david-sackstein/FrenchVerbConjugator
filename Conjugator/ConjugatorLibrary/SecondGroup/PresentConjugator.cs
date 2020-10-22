@@ -128,7 +128,7 @@ namespace ConjugatorLibrary.SecondGroup
             // if (verb != "saillir") is the ons form irregular? ressortir is also a mahloket
             // revêtir is tough
 
-            if (verb.EndsWith("aillir") && !verb.EndsWith("jaillir") || verb.EndsWith("ouvrir"))
+            if (verb.EndsWith("aillir") && !verb.EndsWith("jaillir") && (verb != "saillir") || verb.EndsWith("ouvrir"))
             {
                 var endings = new[] { "e", "es", "e", "ons", "ez", "ent" };
                 string[] modified = endings.AddEndings(stem);
