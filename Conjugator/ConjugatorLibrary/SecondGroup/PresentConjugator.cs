@@ -34,6 +34,11 @@ namespace ConjugatorLibrary.SecondGroup
                 return new[] { "", "", "faut", "", "", "" };
             }
 
+            if (verb == "chaloir")
+            {
+                return new[] { "", "", "chaut", "", "", "" };
+            }
+
             if (verb == "faillir")
             {
                 return new[] { "faux", "faux", "faut", "faillons", "faillez", "faillent" };

@@ -1,14 +1,5 @@
 [
   [
-    "chaloir",
-    "                    chalois",
-    "                    chalois",
-    "chaut               chaloit",
-    "                    chaloissons",
-    "                    chaloissez",
-    "                    chaloissent"
-  ],
-  [
     "gésir",
     "gisons              gésis",
     "gisons              gésis",
