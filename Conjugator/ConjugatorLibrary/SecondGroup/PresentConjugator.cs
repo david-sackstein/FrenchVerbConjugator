@@ -5,8 +5,6 @@ namespace ConjugatorLibrary.SecondGroup
 {
     internal static class PresentConjugator
     {
-        private static readonly string[] Endings = {"is", "is", "it", "issons", "issez", "issent"};
-
         public static string[] GetConjugations(string verb)
         {
             if (verb == "avoir")
@@ -62,12 +60,6 @@ namespace ConjugatorLibrary.SecondGroup
                 return endings.AddEndings(verb.TrimEnd("mourir"));
             }
 
-            if (verb.EndsWith("fuir"))
-            {
-                var endings = new[] { "fuis", "fuis", "fuit", "fuyons", "fuyez", "fuient" };
-                return endings.AddEndings(verb.TrimEnd("fuir"));
-            }
-
             if (verb == "seoir" || verb == "messeoir")
             {
                 var stem1 = verb.TrimEnd("seoir");
@@ -76,8 +68,14 @@ namespace ConjugatorLibrary.SecondGroup
 
             if (verb.EndsWith("sseoir") || verb.EndsWith("rseoir"))
             {
-                var endings = new[] { "ois", "ois", "oit", "oyons", "oyez", "oient" };
-                return endings.AddEndings(verb.TrimEnd("eoir"));
+                string stem1 = stem.TrimEnd("eo") + "o";
+                return AddYonsEndings(stem1);
+            }
+
+            if (verb.EndsWith("fuir"))
+            {
+                var endings = new[] { "is", "is", "it", "yons", "yez", "ient" };
+                return endings.AddEndings(stem);
             }
 
             if (verb.EndsWith("mouvoir"))
@@ -111,12 +109,6 @@ namespace ConjugatorLibrary.SecondGroup
                 return endings.AddEndings(verb.TrimEnd("ir"));
             }
 
-            if (verb.EndsWith("courir"))
-            {
-                var endings = new[] { "s", "s", "t", "ons", "ez", "ent" };
-                return endings.AddEndings(stem);
-            }
-
             if (verb.EndsWith("quérir"))
             {
                 string modifiedStem = stem.TrimEnd("ér") + "ier";
@@ -124,6 +116,23 @@ namespace ConjugatorLibrary.SecondGroup
                 var endings = new[] {"s", "s", "t", "ons", "ez", "ent"};
                 string[] modified = endings.AddEndings(modifiedStem, stem, ilsStem);
                 return modified;
+            }
+
+            if (verb.EndsWith("courir"))
+            {
+                var endings = new[] { "s", "s", "t", "ons", "ez", "ent" };
+                return endings.AddEndings(stem);
+            }
+
+            if (verb.EndsWithAnyOf("dormir", "mentir", "ervir", "sentir") ||
+                verb.IsOneOf("départir", "repartir", "partir", "repentir", "sortir"))
+            {
+                if (!verb.IsOneOf("asservir", "réasservir")) // these two are regular
+                {
+                    var lastLetter = stem[^1];
+                    var endings = new[] { "s", "s", "t", lastLetter + "ons", lastLetter + "ez", lastLetter + "ent" };
+                    return endings.AddEndings(verb.TrimEnd(lastLetter + "ir"));
+                }
             }
 
             if (verb.EndsWith("cevoir"))
@@ -160,26 +169,19 @@ namespace ConjugatorLibrary.SecondGroup
                 }
             }
 
-            if (verb.EndsWithAnyOf("dormir", "mentir", "ervir", "sentir") || 
-                verb.IsOneOf("départir", "repartir", "partir", "repentir", "sortir") )
-            {
-                if (! verb.IsOneOf("asservir", "réasservir"))
-                {
-                    var lastLetter = stem[^1];
-                    var endings = new[] {"s", "s", "t", lastLetter + "ons", lastLetter + "ez", lastLetter + "ent" };
-                    string[] modified = endings.AddEndings(verb.TrimEnd(lastLetter + "ir"));
-                    return modified;
-                }
-            }
+            return AddRegularEndings(stem);
+        }
 
-            //if (verb.IsOneOf("ressortir"))
-            //{
-            //    var endings = new[] { "is", "is", "it", "ons", "issez", "issent" };
-            //    string[] modified = endings.AddEndings(stem);
-            //    return modified;
-            //}
+        private static string[] AddRegularEndings(string stem)
+        {
+            var endings = new[] { "is", "is", "it", "issons", "issez", "issent" };
+            return endings.AddEndings(stem);
+        }
 
-            return Endings.AddEndings(stem);
+        private static string[] AddYonsEndings(string stem)
+        {
+            var endings = new[] {"is", "is", "it", "yons", "yez", "ient"};
+            return endings.AddEndings(stem);
         }
     }
 }
