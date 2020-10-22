@@ -63,15 +63,6 @@
     "revêtent            revêtissent"
   ],
   [
-    "savoir",
-    "sais                savois",
-    "sais                savois",
-    "sait                savoit",
-    "savons              savoyons",
-    "savez               savoyez",
-    "savent              savoient"
-  ],
-  [
     "saillir",
     "saillis             saille",
     "saillis             sailles",

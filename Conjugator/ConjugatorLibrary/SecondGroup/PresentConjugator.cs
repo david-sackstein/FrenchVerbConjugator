@@ -39,6 +39,11 @@ namespace ConjugatorLibrary.SecondGroup
                 return new[] { "faux", "faux", "faut", "faillons", "faillez", "faillent" };
             }
 
+            if (verb == "savoir")
+            {
+                return new[] { "sais", "sais", "sait", "savons", "savez", "savent" };
+            }
+
             string stem = verb.TrimEnd("ir");
 
             if (verb.EndsWith("mourir"))
