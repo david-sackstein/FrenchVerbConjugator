@@ -108,15 +108,6 @@
     "siéent              soient"
   ],
   [
-    "souffrir",
-    "souffre             souffris",
-    "souffres            souffris",
-    "souffre             souffrit",
-    "souffrons           souffrissons",
-    "souffrez            souffrissez",
-    "souffrent           souffrissent"
-  ],
-  [
     "vêtir",
     "vêts                vêtis",
     "vêts                vêtis",
