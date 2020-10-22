@@ -9,15 +9,6 @@
     "                    chaloissent"
   ],
   [
-    "dévêtir",
-    "dévêts              dévêtis",
-    "dévêts              dévêtis",
-    "dévêtit             dévêtit",
-    "dévêtons            dévêtissons",
-    "dévêtez             dévêtissez",
-    "dévêtent            dévêtissent"
-  ],
-  [
     "gésir",
     "gisons              gésis",
     "gisons              gésis",
@@ -36,15 +27,6 @@
     "messiéent           messoient"
   ],
   [
-    "revêtir",
-    "revêts              revêtis",
-    "revêts              revêtis",
-    "revêt               revêtit",
-    "revêtons            revêtissons",
-    "revêtez             revêtissez",
-    "revêtent            revêtissent"
-  ],
-  [
     "seoir",
     "                    sois",
     "                    sois",
@@ -55,11 +37,11 @@
   ],
   [
     "vêtir",
-    "vêts                vêtis",
-    "vêts                vêtis",
-    "vêtit               vêtit",
-    "vêtons              vêtissons",
-    "vêtez               vêtissez",
-    "vêtent              vêtissent"
+    "vêts                vêts",
+    "vêts                vêts",
+    "vêtit               vêt",
+    "vêtons              vêtons",
+    "vêtez               vêtez",
+    "vêtent              vêtent"
   ]
 ]

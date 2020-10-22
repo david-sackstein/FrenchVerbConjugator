@@ -101,6 +101,12 @@ namespace ConjugatorLibrary.SecondGroup
                 return endings.AddEndings(verb.TrimEnd("bouillir"));
             }
 
+            if (verb.EndsWith("vêtir"))
+            {
+                var endings = new[] { "s", "s", "", "ons", "ez", "ent" };
+                return endings.AddEndings(verb.TrimEnd("ir"));
+            }
+
             if (verb.EndsWith("quérir"))
             {
                 string modifiedStem = stem.TrimEnd("ér") + "ier";
