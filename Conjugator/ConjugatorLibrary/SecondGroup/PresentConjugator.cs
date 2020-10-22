@@ -51,8 +51,18 @@ namespace ConjugatorLibrary.SecondGroup
             {
                 return new[] { "gis", "gis", "gît", "gisons", "gisez", "gisent" };
             }
-            
-            string stem = verb.TrimEnd("ir");
+
+            if (verb == "seoir" || verb == "messeoir")
+            {
+                var modifiedStem = verb.TrimEnd("seoir");
+                return new[] { "", "", modifiedStem + "sied", "", "", modifiedStem + "siéent" };
+            }
+
+            if (verb.EndsWith("mouvoir"))
+            {
+                var endings = new[] { "meus", "meus", "meut", "mouvons", "mouvez", "meuvent" };
+                return endings.AddEndings(verb.TrimEnd("mouvoir"));
+            }
 
             if (verb.EndsWith("mourir"))
             {
@@ -60,28 +70,17 @@ namespace ConjugatorLibrary.SecondGroup
                 return endings.AddEndings(verb.TrimEnd("mourir"));
             }
 
-            if (verb == "seoir" || verb == "messeoir")
-            {
-                var stem1 = verb.TrimEnd("seoir");
-                return new[] { "", "", stem1 + "sied", "", "", stem1 + "siéent" };
-            }
+            string stem = verb.TrimEnd("ir");
 
             if (verb.EndsWith("sseoir") || verb.EndsWith("rseoir"))
             {
-                string stem1 = stem.TrimEnd("eo") + "o";
-                return AddYonsEndings(stem1);
+                string modifiedStem = stem.TrimEnd("eo") + "o";
+                return AddYonsEndings(modifiedStem);
             }
 
             if (verb.EndsWith("fuir"))
             {
-                var endings = new[] { "is", "is", "it", "yons", "yez", "ient" };
-                return endings.AddEndings(stem);
-            }
-
-            if (verb.EndsWith("mouvoir"))
-            {
-                var endings = new[] { "meus", "meus", "meut", "mouvons", "mouvez", "meuvent" };
-                return endings.AddEndings(verb.TrimEnd("mouvoir"));
+                return AddYonsEndings(stem);
             }
 
             if (verb.EndsWith("devoir"))
@@ -110,11 +109,10 @@ namespace ConjugatorLibrary.SecondGroup
 
             if (verb.EndsWith("quérir"))
             {
-                string modifiedStem = stem.TrimEnd("ér") + "ier";
+                string singularStem = stem.TrimEnd("ér") + "ier";
                 string ilsStem = stem.TrimEnd("ér") + "ièr";
-                var endings = new[] {"s", "s", "t", "ons", "ez", "ent"};
-                string[] modified = endings.AddEndings(modifiedStem, stem, ilsStem);
-                return modified;
+                
+                return AddSstEndings(singularStem, stem, ilsStem);
             }
 
             if (verb.EndsWith("courir"))
@@ -168,6 +166,12 @@ namespace ConjugatorLibrary.SecondGroup
             }
 
             return AddRegularEndings(stem);
+        }
+
+        private static string[] AddSstEndings(string singularStem, string nousVousStem, string ilsStem)
+        {
+            var endings = new[] {"s", "s", "t", "ons", "ez", "ent"};
+            return endings.AddEndings(singularStem, nousVousStem, ilsStem);
         }
 
         private static string[] AddSstEndings(string stem)
