@@ -84,8 +84,8 @@ namespace ConjugatorLibrary.SecondGroup
 
             if (verb.EndsWith("devoir"))
             {
-                var endings = new[] { "dois", "dois", "doit", "devons", "devez", "doivent" };
-                return endings.AddEndings(verb.TrimEnd("devoir"));
+                string prefix = verb.TrimEnd("devoir");
+                return AddSstEndings(prefix + "doi", prefix + "dev", prefix + "doiv");
             }
 
             if (verb.EndsWith("cevoir"))
@@ -97,14 +97,13 @@ namespace ConjugatorLibrary.SecondGroup
             if (verb.EndsWith("enir"))
             {
                 string modifiedStem = regularStem.ReplaceEnd("en", "ien");
-                var endings = new[] {"s", "s", "t", "ons", "ez", "nent"};
-                return endings.AddEndings(modifiedStem, regularStem);
+                return AddSstEndings(modifiedStem, regularStem, modifiedStem + 'n');
             }
 
             if (verb.EndsWith("bouillir"))
             {
-                var endings = new[] { "bous", "bous", "bout", "bouillons", "bouillez", "bouillent" };
-                return endings.AddEndings(verb.TrimEnd("bouillir"));
+                var singularStem = regularStem.TrimEnd("ill");
+                return AddSstEndings(singularStem, regularStem, regularStem);
             }
 
             if (verb.EndsWith("vêtir"))
@@ -130,9 +129,8 @@ namespace ConjugatorLibrary.SecondGroup
             {
                 if (!verb.IsOneOf("asservir", "réasservir")) // these two are regular
                 {
-                    var lastLetter = regularStem[^1];
-                    var endings = new[] { "s", "s", "t", lastLetter + "ons", lastLetter + "ez", lastLetter + "ent" };
-                    return endings.AddEndings(verb.TrimEnd(lastLetter + "ir"));
+                    var singularStem = regularStem[..^1];
+                    return AddSstEndings(singularStem, regularStem, regularStem);
                 }
             }
 
