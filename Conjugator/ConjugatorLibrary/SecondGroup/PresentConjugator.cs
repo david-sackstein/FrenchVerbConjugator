@@ -1,14 +1,22 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 
 namespace ConjugatorLibrary.SecondGroup
 {
     internal static class PresentConjugator
     {
-        private static readonly string[] verbsWithErEndings =
+        private static readonly string[] verbsWithSstEndings =
         {
             "départir", "repartir", "partir", "repentir", "sortir", "consentir", "desservir",
             "dormir", "démentir", "endormir", "mentir", "pressentir", "redormir", "rendormir",
             "ressentir", "resservir", "sentir", "servir"
+        };
+
+        private static readonly string[] verbsWithErEndings =
+        {
+            "accueillir", "assaillir", "couvrir", "cueillir", "découvrir", "défaillir", "entrouvrir",
+            "offrir", "ouvrir", "recouvrir", "recueillir", "redécouvrir", "rouvrir", "réouvrir",
+            "souffrir", "tressaillir"
         };
 
         private static readonly string[] verbsWithYonsEndings =
@@ -17,12 +25,31 @@ namespace ConjugatorLibrary.SecondGroup
             "voir", "échoir", "enfuir", "fuir"
         };
 
+        private static readonly string[] cevoirVerbs =
+        {
+            "apercevoir", "concevoir", "décevoir", "entrapercevoir", "percevoir", "recevoir", "préconcevoir"
+        };
+
+        private static readonly string[] devoirVerbs =
+        {
+            "devoir", "redevoir"
+        };
+
         public static string[] GetConjugations(string verb)
         {
+            string regularStem = verb.TrimEnd("ir");
+
             string[] conjugations = IsExplicitIrregular(verb);
+
             if (conjugations != null)
             {
                 return conjugations;
+            }
+
+            if (verb.EndsWith("sseoir") || verb.EndsWith("rseoir"))
+            {
+                string modifiedStem = regularStem.TrimEnd("eo") + "o";
+                return AddYonsEndings(modifiedStem);
             }
 
             if (verb.EndsWith("mouvoir"))
@@ -42,27 +69,18 @@ namespace ConjugatorLibrary.SecondGroup
                 return AddSstEndings("sai", "sav", "sav");
             }
 
-            string regularStem = verb.TrimEnd("ir");
-
-            if (verb.EndsWith("sseoir") || verb.EndsWith("rseoir"))
-            {
-                string modifiedStem = regularStem.TrimEnd("eo") + "o";
-                return AddYonsEndings(modifiedStem);
-            }
-
             if (verbsWithYonsEndings.Contains(verb))
             {
                 return AddYonsEndings(regularStem);
             }
 
-            if (verb.IsOneOf("devoir", "redevoir"))
+            if (devoirVerbs.Contains(verb))
             {
                 string prefix = verb.TrimEnd("devoir");
                 return AddSstEndings(prefix + "doi", prefix + "dev", prefix + "doiv");
             }
 
-            if (verb.IsOneOf("apercevoir", "concevoir", "décevoir", "entrapercevoir", "percevoir", "recevoir",
-                "préconcevoir"))
+            if (cevoirVerbs.Contains(verb))
             {
                 string prefix = verb.TrimEnd("cevoir");
                 return AddSstEndings(prefix + "çoi", prefix + "cev", prefix + "çoiv");
@@ -98,10 +116,15 @@ namespace ConjugatorLibrary.SecondGroup
                 return AddSstEndings(regularStem);
             }
 
-            if (verbsWithErEndings.Contains(verb))
+            if (verbsWithSstEndings.Contains(verb))
             {
                 string singularStem = regularStem[..^1];
                 return AddSstEndings(singularStem, regularStem, regularStem);
+            }
+
+            if (verbsWithErEndings.Contains(verb))
+            {
+                return AddErEndings(regularStem);
             }
 
             if (verb.EndsWith("valoir"))
@@ -110,43 +133,25 @@ namespace ConjugatorLibrary.SecondGroup
                 return endings.AddEndings(verb.TrimEnd("aloir"));
             }
 
-            if (verb.IsOneOf("accueillir", "assaillir", "couvrir", "cueillir", "découvrir", "défaillir", "entrouvrir",
-                "offrir", "ouvrir", "recouvrir", "recueillir", "redécouvrir", "rouvrir", "réouvrir",
-                "souffrir", "tressaillir"))
-            {
-                return AddErEndings(regularStem);
-            }
-
             return AddRegularEndings(regularStem);
         }
 
         private static string[] IsExplicitIrregular(string verb)
         {
-            switch (verb)
+            return verb switch
             {
-                case "avoir":
-                    return new[] {"ai", "as", "a", "avons", "avez", "ont"};
-                case "vouloir":
-                    return new[] {"veux", "veux", "veut", "voulons", "voulez", "veulent"};
-                case "pouvoir":
-                    return new[] {"peux", "peux", "peut", "pouvons", "pouvez", "peuvent"};
-                case "faillir":
-                    return new[] {"faux", "faux", "faut", "faillons", "faillez", "faillent"};
-                case "gésir":
-                    return new[] {"gis", "gis", "gît", "gisons", "gisez", "gisent"};
-                case "seoir":
-                    return new[] { "", "", "sied", "", "", "siéent" };
-                case "messeoir":
-                    return new[] {"", "", "messied", "", "", "messiéent" };
-                case "pleuvoir":
-                    return new[] { "", "", "pleut", "", "", "pleuvent" };
-                case "falloir":
-                    return new[] { "", "", "faut", "", "", "" };
-                case "chaloir":
-                    return new[] { "", "", "chaut", "", "", "" };
-            }
-
-            return null;
+                "avoir" => new[] {"ai", "as", "a", "avons", "avez", "ont"},
+                "vouloir" => new[] {"veux", "veux", "veut", "voulons", "voulez", "veulent"},
+                "pouvoir" => new[] {"peux", "peux", "peut", "pouvons", "pouvez", "peuvent"},
+                "faillir" => new[] {"faux", "faux", "faut", "faillons", "faillez", "faillent"},
+                "gésir" => new[] {"gis", "gis", "gît", "gisons", "gisez", "gisent"},
+                "seoir" => new[] {"", "", "sied", "", "", "siéent"},
+                "messeoir" => new[] {"", "", "messied", "", "", "messiéent"},
+                "pleuvoir" => new[] {"", "", "pleut", "", "", "pleuvent"},
+                "falloir" => new[] {"", "", "faut", "", "", ""},
+                "chaloir" => new[] {"", "", "chaut", "", "", ""},
+                _ => null
+            };
         }
 
         private static string[] AddErEndings(string regularStem)
