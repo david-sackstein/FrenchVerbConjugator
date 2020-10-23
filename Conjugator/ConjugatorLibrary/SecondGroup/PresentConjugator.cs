@@ -1,188 +1,157 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 
 namespace ConjugatorLibrary.SecondGroup
 {
     internal static class PresentConjugator
     {
-        private static readonly string[] Endings = {"is", "is", "it", "issons", "issez", "issent"};
-
         public static string[] GetConjugations(string verb)
         {
-            if (verb == "avoir")
-            {
-                return new[] {"ai", "as", "a", "avons", "avez", "ont"};
-            }
+            string[] explicitIrregular = IsExplicitIrregular(verb);
 
-            if (verb == "vouloir")
+            if (explicitIrregular != null)
             {
-                return new[] { "veux", "veux", "veut", "voulons", "voulez", "veulent" };
-            }
-
-            if (verb == "pouvoir")
-            {
-                return new[] { "peux", "peux", "peut", "pouvons", "pouvez", "peuvent" };
-            }
-
-            if (verb == "pleuvoir")
-            {
-                return new[] { "", "", "pleut", "", "", "pleuvent" };
-            }
-
-            if (verb == "falloir")
-            {
-                return new[] { "", "", "faut", "", "", "" };
-            }
-
-            if (verb == "chaloir")
-            {
-                return new[] { "", "", "chaut", "", "", "" };
-            }
-
-            if (verb == "faillir")
-            {
-                return new[] { "faux", "faux", "faut", "faillons", "faillez", "faillent" };
-            }
-
-            if (verb == "savoir")
-            {
-                return new[] { "sais", "sais", "sait", "savons", "savez", "savent" };
-            }
-
-            if (verb == "gésir")
-            {
-                return new[] { "gis", "gis", "gît", "gisons", "gisez", "gisent" };
-            }
-            
-            string stem = verb.TrimEnd("ir");
-
-            if (verb.EndsWith("mourir"))
-            {
-                var endings = new[] { "meurs", "meurs", "meurt", "mourons", "mourez", "meurent" };
-                return endings.AddEndings(verb.TrimEnd("mourir"));
-            }
-
-            if (verb.EndsWith("fuir"))
-            {
-                var endings = new[] { "fuis", "fuis", "fuit", "fuyons", "fuyez", "fuient" };
-                return endings.AddEndings(verb.TrimEnd("fuir"));
-            }
-
-            if (verb == "seoir" || verb == "messeoir")
-            {
-                var stem1 = verb.TrimEnd("seoir");
-                return new[] { "", "", stem1 + "sied", "", "", stem1 + "siéent" };
-            }
-
-            if (verb.EndsWith("sseoir") || verb.EndsWith("rseoir"))
-            {
-                var endings = new[] { "ois", "ois", "oit", "oyons", "oyez", "oient" };
-                return endings.AddEndings(verb.TrimEnd("eoir"));
+                return explicitIrregular;
             }
 
             if (verb.EndsWith("mouvoir"))
             {
-                var endings = new[] { "meus", "meus", "meut", "mouvons", "mouvez", "meuvent" };
+                var endings = new[] {"meus", "meus", "meut", "mouvons", "mouvez", "meuvent"};
                 return endings.AddEndings(verb.TrimEnd("mouvoir"));
             }
 
-            if (verb.EndsWith("devoir"))
+            if (verb.EndsWith("mourir"))
             {
-                var endings = new[] { "dois", "dois", "doit", "devons", "devez", "doivent" };
-                return endings.AddEndings(verb.TrimEnd("devoir"));
-            }
-
-            if (verb.EndsWith("enir"))
-            {
-                string modifiedStem = stem.ReplaceEnd("en", "ien");
-                var endings = new[] {"s", "s", "t", "ons", "ez", "nent"};
-                return endings.AddEndings(modifiedStem, stem);
-            }
-
-            if (verb.EndsWith("courir"))
-            {
-                var endings = new[] {"s", "s", "t", "ons", "ez", "ent"};
-                return endings.AddEndings(stem);
-            }
-
-            if (verb.EndsWith("cueillir") || verb.EndsWith("ffrir"))
-            {
-                var endings = new[] {"e", "es", "e", "ons", "ez", "ent"};
-                return endings.AddEndings(stem);
-            }
-
-            if (verb.EndsWith("bouillir"))
-            {
-                var endings = new[] { "bous", "bous", "bout", "bouillons", "bouillez", "bouillent" };
-                return endings.AddEndings(verb.TrimEnd("bouillir"));
-            }
-
-            if (verb.EndsWith("vêtir"))
-            {
-                var endings = new[] { "s", "s", "", "ons", "ez", "ent" };
-                return endings.AddEndings(verb.TrimEnd("ir"));
-            }
-
-            if (verb.EndsWith("quérir"))
-            {
-                string modifiedStem = stem.TrimEnd("ér") + "ier";
-                string ilsStem = stem.TrimEnd("ér") + "ièr";
-                var endings = new[] {"s", "s", "t", "ons", "ez", "ent"};
-                string[] modified = endings.AddEndings(modifiedStem, stem, ilsStem);
-                return modified;
-            }
-
-            if (verb.EndsWith("cevoir"))
-            {
-                var endings = new[] {"çois", "çois", "çoit", "cevons", "cevez", "çoivent"};
-                string[] modified = endings.AddEndings(verb.TrimEnd("cevoir"));
-                return modified;
-            }
-
-            if (verb.EndsWith("voir") || verb.EndsWith("choir"))
-            {
-                var endings = new[] {"is", "is", "it", "yons", "yez", "ient"};
-                string[] modified = endings.AddEndings(stem);
-                return modified;
+                var endings = new[] {"meurs", "meurs", "meurt", "mourons", "mourez", "meurent"};
+                return endings.AddEndings(verb.TrimEnd("mourir"));
             }
 
             if (verb.EndsWith("valoir"))
             {
                 var endings = new[] {"aux", "aux", "aut", "alons", "alez", "alent"};
-                string[] modified = endings.AddEndings(verb.TrimEnd("aloir"));
-                return modified;
+                return endings.AddEndings(verb.TrimEnd("aloir"));
             }
 
-            // if (verb != "saillir") is the ons form irregular? ressortir is also a mahloket
-            // revêtir is tough
+            string regularStem = verb.TrimEnd("ir");
 
-            if (verb.EndsWith("aillir") && !verb.EndsWith("jaillir") && (verb != "saillir") || verb.EndsWith("ouvrir"))
+            if (verb.EndsWith("courir"))
             {
-                var endings = new[] { "e", "es", "e", "ons", "ez", "ent" };
-                string[] modified = endings.AddEndings(stem);
-                return modified;
+                return AddSstEndings(regularStem);
             }
 
-            if (verb.EndsWithAnyOf("dormir", "mentir", "ervir", "sentir") || 
-                verb.IsOneOf("départir", "repartir", "partir", "repentir", "sortir") )
+            if (verb.EndsWith("enir"))
             {
-                if (! verb.IsOneOf("asservir", "réasservir"))
-                {
-                    var lastLetter = stem[^1];
-                    var endings = new[] {"s", "s", "t", lastLetter + "ons", lastLetter + "ez", lastLetter + "ent" };
-                    string[] modified = endings.AddEndings(verb.TrimEnd(lastLetter + "ir"));
-                    return modified;
-                }
+                string modifiedStem = regularStem.ReplaceEnd("en", "ien");
+                return AddSstEndings(modifiedStem, regularStem, modifiedStem + 'n');
             }
 
-            if (verb.IsOneOf("ressortir"))
+            if (verb.EndsWith("bouillir"))
             {
-                var endings = new[] { "is", "is", "it", "ons", "issez", "issent" };
-                string[] modified = endings.AddEndings(stem);
-                return modified;
+                string singularStem = regularStem.TrimEnd("ill");
+                return AddSstEndings(singularStem, regularStem, regularStem);
             }
 
-            return Endings.AddEndings(stem);
+            if (verb.EndsWith("sseoir") || verb.EndsWith("rseoir"))
+            {
+                string modifiedStem = regularStem.TrimEnd("eo") + "o";
+                return AddYonsEndings(modifiedStem);
+            }
+
+            if (verb.EndsWith("vêtir"))
+            {
+                return AddSstEndings(regularStem);
+            }
+
+            if (verb.EndsWith("quérir"))
+            {
+                string singularStem = regularStem.TrimEnd("ér") + "ier";
+                string ilsStem = regularStem.TrimEnd("ér") + "ièr";
+
+                return AddSstEndings(singularStem, regularStem, ilsStem);
+            }
+
+            if (Exceptions.verbsWithYonsEndings.Contains(verb))
+            {
+                return AddYonsEndings(regularStem);
+            }
+
+            if (verb == "savoir")
+            {
+                return AddSstEndings("sai", "sav", "sav");
+            }
+
+            if (Exceptions.devoirVerbs.Contains(verb))
+            {
+                string prefix = verb.TrimEnd("devoir");
+                return AddSstEndings(prefix + "doi", prefix + "dev", prefix + "doiv");
+            }
+
+            if (Exceptions.cevoirVerbs.Contains(verb))
+            {
+                string prefix = verb.TrimEnd("cevoir");
+                return AddSstEndings(prefix + "çoi", prefix + "cev", prefix + "çoiv");
+            }
+
+            if (Exceptions.verbsWithSstEndings.Contains(verb))
+            {
+                string singularStem = regularStem[..^1];
+                return AddSstEndings(singularStem, regularStem, regularStem);
+            }
+
+            if (Exceptions.verbsWithErEndings.Contains(verb))
+            {
+                return AddErEndings(regularStem);
+            }
+
+            return AddRegularEndings(regularStem);
+        }
+
+        private static string[] IsExplicitIrregular(string verb)
+        {
+            return verb switch
+            {
+                "avoir" => new[] {"ai", "as", "a", "avons", "avez", "ont"},
+                "vouloir" => new[] {"veux", "veux", "veut", "voulons", "voulez", "veulent"},
+                "pouvoir" => new[] {"peux", "peux", "peut", "pouvons", "pouvez", "peuvent"},
+                "faillir" => new[] {"faux", "faux", "faut", "faillons", "faillez", "faillent"},
+                "gésir" => new[] {"gis", "gis", "gît", "gisons", "gisez", "gisent"},
+                "seoir" => new[] {"", "", "sied", "", "", "siéent"},
+                "messeoir" => new[] {"", "", "messied", "", "", "messiéent"},
+                "pleuvoir" => new[] {"", "", "pleut", "", "", "pleuvent"},
+                "falloir" => new[] {"", "", "faut", "", "", ""},
+                "chaloir" => new[] {"", "", "chaut", "", "", ""},
+                _ => null
+            };
+        }
+
+        private static string[] AddRegularEndings(string stem)
+        {
+            var endings = new[] {"is", "is", "it", "issons", "issez", "issent"};
+            return endings.AddEndings(stem);
+        }
+
+        private static string[] AddYonsEndings(string stem)
+        {
+            var endings = new[] {"is", "is", "it", "yons", "yez", "ient"};
+            return endings.AddEndings(stem);
+        }
+
+        private static string[] AddErEndings(string regularStem)
+        {
+            var endings = new[] {"e", "es", "e", "ons", "ez", "ent"};
+            return endings.AddEndings(regularStem);
+        }
+
+        private static string[] AddSstEndings(string singularStem, string nousVousStem, string ilsStem)
+        {
+            var endings = new[] {"s", "s", "t", "ons", "ez", "ent"};
+            return endings.AddEndings(singularStem, nousVousStem, ilsStem);
+        }
+
+        private static string[] AddSstEndings(string stem)
+        {
+            string ilEnding = stem[^1] == 't' ? "" : "t";
+            string[] endings = {"s", "s", ilEnding, "ons", "ez", "ent"};
+            return endings.AddEndings(stem);
         }
     }
 }

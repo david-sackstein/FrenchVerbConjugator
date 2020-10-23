@@ -21,18 +21,18 @@ namespace ConjugatorLibrary
         }
 
         public static string[] AddEndings(this string[] conjugations, 
-            string nonNousVousStem, 
+            string singularStem, 
             string nousVousStem, 
             string ilsStem)
         {
             return conjugations.MatchNousVousIls(
-                e => nonNousVousStem + e,
+                e => singularStem + e,
                 e => nousVousStem + e, 
                 e => ilsStem + e);
         }
 
         public static string[] MatchNousVousIls(this string[] conjugations,
-            Func<string, string> forNonNousVous,
+            Func<string, string> forSingular,
             Func<string, string> forNousVous,
             Func<string, string> forIls)
         {
@@ -47,7 +47,7 @@ namespace ConjugatorLibrary
                     {
                         return forIls(s);
                     }
-                    return forNonNousVous(s);
+                    return forSingular(s);
                 })
                 .ToArray();
         }
