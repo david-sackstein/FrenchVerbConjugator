@@ -19,7 +19,7 @@ namespace ConjugatorLibrary.SecondGroup
 
         public static string[] GetConjugations(string verb)
         {
-            string[] conjugations = Irregular(verb);
+            string[] conjugations = IsExplicitIrregular(verb);
             if (conjugations != null)
             {
                 return conjugations;
@@ -120,7 +120,7 @@ namespace ConjugatorLibrary.SecondGroup
             return AddRegularEndings(regularStem);
         }
 
-        private static string[] Irregular(string verb)
+        private static string[] IsExplicitIrregular(string verb)
         {
             switch (verb)
             {
@@ -135,9 +135,9 @@ namespace ConjugatorLibrary.SecondGroup
                 case "gésir":
                     return new[] {"gis", "gis", "gît", "gisons", "gisez", "gisent"};
                 case "seoir":
+                    return new[] { "", "", "sied", "", "", "siéent" };
                 case "messeoir":
-                    string modifiedStem = verb.TrimEnd("seoir");
-                    return new[] {"", "", modifiedStem + "sied", "", "", modifiedStem + "siéent"};
+                    return new[] {"", "", "messied", "", "", "messiéent" };
                 case "pleuvoir":
                     return new[] { "", "", "pleut", "", "", "pleuvent" };
                 case "falloir":
