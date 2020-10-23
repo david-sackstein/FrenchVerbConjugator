@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using ConjugatorLibrary.Conjugators;
-using ConjugatorLibrary.FirstGroup;
 using ConjugatorLibrary.SecondGroup;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -21,12 +20,6 @@ namespace ConjugatorTests
             _verbData = new VerbData(_nodeModulesPath);
             _conjugator = new SecondGroupConjugator();
             //_conjugator = new FirstGroupConjugator();
-        }
-
-        [TestMethod]
-        public void TestImparfait()
-        {
-            TestConjugator(v => _verbData.Conjugations[v].Imparfait, _conjugator.Imparfait);
         }
 
         [TestMethod]
@@ -83,7 +76,14 @@ namespace ConjugatorTests
             TestConjugator(v => _verbData.Conjugations[v].Present, _conjugator.Present);
         }
 
-        private static void TestConjugator(Func<string, string[]> referenceConjugator, Func<string, string[]> conjugator)
+        [TestMethod]
+        public void TestImparfait()
+        {
+            TestConjugator(v => _verbData.Conjugations[v].Imparfait, _conjugator.Imparfait);
+        }
+
+        private static void TestConjugator(Func<string, string[]> referenceConjugator,
+            Func<string, string[]> conjugator)
         {
             Dictionary<bool, string[]> grades = _verbData.Conjugations.Keys
                 .Where(_conjugator.IsInGroup)
@@ -96,10 +96,12 @@ namespace ConjugatorTests
             string[] newErrors = actualErrors.Except(expectedErrors).ToArray();
             string[] newFixes = expectedErrors.Except(actualErrors).ToArray();
 
-            Assert.IsTrue(!newErrors.Any());
-
-            Console.WriteLine($"{actualErrors.Length} errors");
-            ErrorList.Save(actualErrors, referenceConjugator, conjugator);
+            if (newErrors.Any())
+            {
+                Console.WriteLine($"{actualErrors.Length} errors");
+                ErrorList.Save(actualErrors, referenceConjugator, conjugator);
+                Assert.Fail();
+            }
         }
 
         private static bool IsCorrect(

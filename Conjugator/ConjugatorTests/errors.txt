@@ -1,1 +1,56 @@
-[]
+[
+  [
+    "automaintenir",
+    "automaintenissais   automaintenais",
+    "automaintenissais   automaintenais",
+    "automaintenissait   automaintenait",
+    "automaintenissions  automaintenions",
+    "automaintenissiez   automainteniez",
+    "automaintenissaient automaintenaient"
+  ],
+  [
+    "falloir",
+    "                    ",
+    "                    ",
+    "fallait             faut",
+    "                    ",
+    "                    ",
+    "                    "
+  ],
+  [
+    "gésir",
+    "gisions             gisais",
+    "gisions             gisais",
+    "gisait              gisait",
+    "                    gisions",
+    "                    gisiez",
+    "                    gisaient"
+  ],
+  [
+    "messeoir",
+    "                    ",
+    "                    ",
+    "messeyait           messied",
+    "                    ",
+    "                    ",
+    "messeyaient         messiéent"
+  ],
+  [
+    "pleuvoir",
+    "                    ",
+    "                    ",
+    "pleuvait            pleut",
+    "                    ",
+    "                    ",
+    "pleuvaient          pleuvent"
+  ],
+  [
+    "seoir",
+    "                    ",
+    "                    ",
+    "seyait              sied",
+    "                    ",
+    "                    ",
+    "seyaient            siéent"
+  ]
+]

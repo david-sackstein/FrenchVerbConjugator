@@ -12,7 +12,7 @@ namespace ConjugatorLibrary.SecondGroup
 
         public Func<string, string[]> Conditionel => EmptyConjugator.GetConjugations;
         public Func<string, string[]> Future => EmptyConjugator.GetConjugations;
-        public Func<string, string[]> Imparfait => EmptyConjugator.GetConjugations;
+        public Func<string, string[]> Imparfait => ImparfaitConjugator.GetConjugations;
         public Func<string, string[]> Imperatif => EmptyConjugator.GetConjugations;
         public Func<string, string[]> ParticipePasse => EmptyConjugator.GetConjugations;
         public Func<string, string[]> ParticipePresent => EmptyConjugator.GetConjugations;
