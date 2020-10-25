@@ -82,7 +82,8 @@ namespace ConjugatorTests
             TestConjugator(v => _verbData.Conjugations[v].Imparfait, _conjugator.Imparfait);
         }
 
-        private static void TestConjugator(Func<string, string[]> referenceConjugator,
+        private static void TestConjugator(
+            Func<string, string[]> referenceConjugator,
             Func<string, string[]> conjugator)
         {
             Dictionary<bool, string[]> grades = _verbData.Conjugations.Keys
@@ -114,7 +115,9 @@ namespace ConjugatorTests
 
             bool Equal((string expected, string actual) tuple)
             {
-                return tuple.expected == null || tuple.expected == "NA" || tuple.expected == tuple.actual;
+                return tuple.expected == null || 
+                       tuple.expected == "NA" || 
+                       tuple.expected == tuple.actual;
             }
 
             return expected == null ||
