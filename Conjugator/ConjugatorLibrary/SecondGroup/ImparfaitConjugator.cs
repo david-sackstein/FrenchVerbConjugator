@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-﻿using System;
-
 namespace ConjugatorLibrary.SecondGroup
-=======
-﻿namespace ConjugatorLibrary.SecondGroup
->>>>>>> Second Group
 {
     internal static class ImparfaitConjugator
     {

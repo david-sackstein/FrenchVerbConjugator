@@ -23,15 +23,6 @@ namespace ConjugatorTests
         }
 
         [TestMethod]
-<<<<<<< HEAD
-        public void TestParticipePasse()
-        {
-            TestConjugator(v => _verbData.Conjugations[v].ParticipePasse, _conjugator.ParticipePasse);
-        }
-
-        [TestMethod]
-=======
->>>>>>> Second Group
         public void TestParticipePresent()
         {
             TestConjugator(v => _verbData.Conjugations[v].ParticipePresent, _conjugator.ParticipePresent);

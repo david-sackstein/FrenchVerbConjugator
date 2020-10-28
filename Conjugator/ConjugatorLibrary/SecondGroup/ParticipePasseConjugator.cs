@@ -33,14 +33,7 @@ namespace ConjugatorLibrary.SecondGroup
             {
                 string[] endings = { "t", "ts", "te", "tes" };
 
-                return endings.AddEndings("mour");
-            }
-
-            if (verb == "mourir")
-            {
-                string[] endings = { "t", "ts", "te", "tes" };
-
-                return endings.AddEndings("mour");
+                return endings.AddEndings("mor");
             }
 
             if (verb == "mouvoir")
