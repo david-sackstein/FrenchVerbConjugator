@@ -49,28 +49,28 @@ namespace ConjugatorLibrary.SecondGroup
         {
             string[] endings = { "u", "us", "ue", "ues" };
 
-            if (verb == "savoir")
-            {
-                string shortenedStem = verb.TrimEnd("avoir");
-                return (true, endings.AddEndings(shortenedStem));
-            }
-
-            if (verb.EndsWith("devoir"))
+            if (Exceptions.devoirVerbs.Contains(verb))
             {
                 string shortenedStem = verb.TrimEnd("evoir");
                 string[] endings1 = { "û", "us", "ue", "ues" };
                 return (true, endings1.AddEndings(shortenedStem));
             }
 
-            if (verb.EndsWith("ouvoir"))
+            if (Exceptions.cevoirVerbs.Contains(verb))
             {
-                string shortenedStem = verb.TrimEnd("ouvoir");
+                string shortenedStem = verb.TrimEnd("cevoir") + "ç";
                 return (true, endings.AddEndings(shortenedStem));
             }
 
-            if (verb.EndsWith("cevoir"))
+            if (verb == "savoir")
             {
-                string shortenedStem = verb.TrimEnd("cevoir") + "ç";
+                string shortenedStem = verb.TrimEnd("avoir");
+                return (true, endings.AddEndings(shortenedStem));
+            }
+
+            if (verb.EndsWith("ouvoir"))
+            {
+                string shortenedStem = verb.TrimEnd("ouvoir");
                 return (true, endings.AddEndings(shortenedStem));
             }
 
@@ -97,7 +97,7 @@ namespace ConjugatorLibrary.SecondGroup
 
         private static (bool, string[]) WithErtEndings(string verb)
         {
-            if (verb.EndsWith("ouvrir") || verb == "offrir" || verb == "souffrir")
+            if (Exceptions.verbsWithErtEndings.Contains(verb))
             {
                 string shortenedStem = verb.TrimEnd("rir");
                 string[] endings = {"ert", "erts", "erte", "ertes"};
