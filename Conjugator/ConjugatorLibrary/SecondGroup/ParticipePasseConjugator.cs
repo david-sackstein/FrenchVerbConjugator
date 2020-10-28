@@ -24,6 +24,11 @@ namespace ConjugatorLibrary.SecondGroup
                 return Enumerable.Repeat("plu", 4).ToArray();
             }
 
+            if (verb == "falloir")
+            {
+                return Enumerable.Repeat("fallu", 4).ToArray();
+            }
+
             string stem = GetStem(verb);
 
             if (verb.EndsWith("eoir"))

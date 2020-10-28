@@ -1,12 +1,5 @@
 [
   [
-    "falloir",
-    "fallu               fallu",
-    "fallu               fallus",
-    "fallu               fallue",
-    "fallu               fallues"
-  ],
-  [
     "mourir",
     "mort                mouru",
     "morts               mourus",
