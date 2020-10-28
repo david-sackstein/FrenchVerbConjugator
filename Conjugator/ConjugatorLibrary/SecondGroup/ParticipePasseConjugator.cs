@@ -9,16 +9,19 @@ namespace ConjugatorLibrary.SecondGroup
 
         public static string[] GetConjugations(string verb)
         {
-            Func<string, (bool, string[])>[] array = {
-                ExplicitExceptions, WithIsEndings, WithErtEndings, AddUEndings
+            Func<string, (bool, string[])>[] exceptionHandlers = {
+                ExplicitExceptions, 
+                WithIsEndings, 
+                WithErtEndings, 
+                AddUEndings
             };
 
-            foreach (var a in array)
+            foreach (var exceptionHandler in exceptionHandlers)
             {
-                (bool ok11, string[] conjugations1) = a(verb);
-                if (ok11)
+                (bool isHandled, string[] conjugations) = exceptionHandler(verb);
+                if (isHandled)
                 {
-                    return conjugations1;
+                    return conjugations;
                 }
             }
 
