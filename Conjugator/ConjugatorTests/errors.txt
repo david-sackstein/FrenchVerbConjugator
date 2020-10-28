@@ -1,1 +1,16 @@
-[]
+[
+  [
+    "devoir",
+    "dû                  du",
+    "dus                 dus",
+    "due                 due",
+    "dues                dues"
+  ],
+  [
+    "redevoir",
+    "redû                redu",
+    "redus               redus",
+    "redue               redue",
+    "redues              redues"
+  ]
+]

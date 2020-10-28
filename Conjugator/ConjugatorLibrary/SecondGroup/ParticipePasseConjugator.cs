@@ -47,62 +47,48 @@ namespace ConjugatorLibrary.SecondGroup
 
         private static (bool, string[]) AddUEndings(string verb)
         {
+            string[] endings = { "u", "us", "ue", "ues" };
+
             if (verb == "savoir")
             {
                 string shortenedStem = verb.TrimEnd("avoir");
-                string[] endings = {"u", "us", "ue", "ues"};
-                {
-                    return (true, endings.AddEndings(shortenedStem));
-                }
+                return (true, endings.AddEndings(shortenedStem));
             }
 
             if (verb.EndsWith("devoir"))
             {
                 string shortenedStem = verb.TrimEnd("evoir");
-                string[] endings = { "û", "us", "ue", "ues" };
-
-                return (true, endings.AddEndings(shortenedStem));
+                string[] endings1 = { "û", "us", "ue", "ues" };
+                return (true, endings1.AddEndings(shortenedStem));
             }
 
             if (verb.EndsWith("ouvoir"))
             {
                 string shortenedStem = verb.TrimEnd("ouvoir");
-                string[] endings = {"u", "us", "ue", "ues"};
-                {
-                    return (true, endings.AddEndings(shortenedStem));
-                }
+                return (true, endings.AddEndings(shortenedStem));
             }
 
             if (verb.EndsWith("cevoir"))
             {
                 string shortenedStem = verb.TrimEnd("cevoir") + "ç";
-                string[] endings = {"u", "us", "ue", "ues"};
-
                 return (true, endings.AddEndings(shortenedStem));
             }
 
             if (verb == "dévêtir" || verb == "férir" || verb == "revêtir" || verb == "vêtir" || verb == "issir")
             {
-                string[] endings = {"u", "us", "ue", "ues"};
-                {
-                    string stem = verb.TrimEnd("ir");
-                    return (true, endings.AddEndings(stem));
-                }
+                string stem = verb.TrimEnd("ir");
+                return (true, endings.AddEndings(stem));
             }
 
             if (verb.EndsWith("oir"))
             {
                 string shortenedStem = verb.TrimEnd("oir");
-                string[] endings = {"u", "us", "ue", "ues"};
-                {
-                    return (true, endings.AddEndings(shortenedStem));
-                }
+                return (true, endings.AddEndings(shortenedStem));
             }
 
             if (verb.EndsWith("enir") || verb.EndsWith("ourir"))
             {
                 string stem = verb.TrimEnd("ir");
-                string[] endings = {"u", "us", "ue", "ues"};
                 return (true, endings.AddEndings(stem));
             }
 
@@ -115,9 +101,7 @@ namespace ConjugatorLibrary.SecondGroup
             {
                 string shortenedStem = verb.TrimEnd("rir");
                 string[] endings = {"ert", "erts", "erte", "ertes"};
-                {
-                    return (true, endings.AddEndings(shortenedStem));
-                }
+                return (true, endings.AddEndings(shortenedStem));
             }
 
             return (false, null);
@@ -129,9 +113,7 @@ namespace ConjugatorLibrary.SecondGroup
             {
                 string shortenedStem = verb.TrimEnd("eoir");
                 string[] endings = {"is", "is", "ise", "ises"};
-                {
-                    return (true, endings.AddEndings(shortenedStem));
-                }
+                return (true, endings.AddEndings(shortenedStem));
             }
 
             if (verb.EndsWith("uérir") && verb != "guérir")
