@@ -29,6 +29,27 @@ namespace ConjugatorLibrary.SecondGroup
                 return Enumerable.Repeat("fallu", 4).ToArray();
             }
 
+            if (verb == "mourir")
+            {
+                string[] endings = { "t", "ts", "te", "tes" };
+
+                return endings.AddEndings("mour");
+            }
+
+            if (verb == "mourir")
+            {
+                string[] endings = { "t", "ts", "te", "tes" };
+
+                return endings.AddEndings("mour");
+            }
+
+            if (verb == "mouvoir")
+            {
+                // dubious because devoir doesnt work like this
+                string[] endings = { "û", "ûs", "ûe", "ûes" };
+                return endings.AddEndings("m");
+            }
+
             string stem = GetStem(verb);
 
             if (verb.EndsWith("eoir"))
