@@ -52,6 +52,19 @@ namespace ConjugatorLibrary.SecondGroup
                 return endings.AddEndings(shortenedStem);
             }
 
+            if (verb.EndsWith("uérir") && verb != "guérir")
+            {
+                string shortenedStem = verb.TrimEnd("érir");
+                string[] endings = { "is", "is", "ise", "ises" };
+                return endings.AddEndings(shortenedStem);
+            }
+
+            if (verb == "rassir")
+            {
+                string[] endings = { "is", "is", "ise", "ises" };
+                return endings.AddEndings(stem);
+            }
+
             if (verb.EndsWith("ouvrir") || verb == "offrir" || verb == "souffrir")
             {
                 string shortenedStem = verb.TrimEnd("rir");
@@ -92,19 +105,6 @@ namespace ConjugatorLibrary.SecondGroup
             if (verb == "dévêtir" || verb == "férir" || verb == "revêtir" || verb == "vêtir" || verb == "issir")
             {
                 string[] endings = { "u", "us", "ue", "ues" };
-                return endings.AddEndings(stem);
-            }
-
-            if (verb.EndsWith("uérir") && verb != "guérir")
-            {
-                string shortenedStem = verb.TrimEnd("érir");
-                string[] endings = { "is", "is", "ise", "ises" };
-                return endings.AddEndings(shortenedStem);
-            }
-
-            if (verb == "rassir")
-            {
-                string[] endings = { "is", "is", "ise", "ises" };
                 return endings.AddEndings(stem);
             }
 
