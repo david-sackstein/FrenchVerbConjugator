@@ -9,32 +9,17 @@ namespace ConjugatorLibrary.SecondGroup
 
         public static string[] GetConjugations(string verb)
         {
-            if (verb.EndsWith("mourir"))
-            {
-                Console.WriteLine();
-            }
-            (bool ok, string[] array) = ExplicitExceptions(verb);
-            if (ok)
-            {
-                return array;
-            }
+            Func<string, (bool, string[])>[] array = {
+                ExplicitExceptions, WithIsEndings, WithErtEndings, AddUEndings
+            };
 
-            (bool ok1, string[] conjugations) = WithIsEndings(verb);
-            if (ok1)
+            foreach (var a in array)
             {
-                return conjugations;
-            }
-
-            (bool ok2, string[] strings) = WithErtEndings(verb);
-            if (ok2)
-            {
-                return strings;
-            }
-
-            (bool ok3, string[] addEndings1) = AddUEndings(verb);
-            if (ok3)
-            {
-                return addEndings1;
+                (bool ok11, string[] conjugations1) = a(verb);
+                if (ok11)
+                {
+                    return conjugations1;
+                }
             }
 
             string stem = GetStem(verb);
