@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using ConjugatorLibrary.Conjugators;
-using ConjugatorLibrary.FirstGroup;
 using ConjugatorLibrary.SecondGroup;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -24,18 +23,15 @@ namespace ConjugatorTests
         }
 
         [TestMethod]
-        public void TestImparfait()
-        {
-            TestConjugator(v => _verbData.Conjugations[v].Imparfait, _conjugator.Imparfait);
-        }
-
-        [TestMethod]
+<<<<<<< HEAD
         public void TestParticipePasse()
         {
             TestConjugator(v => _verbData.Conjugations[v].ParticipePasse, _conjugator.ParticipePasse);
         }
 
         [TestMethod]
+=======
+>>>>>>> Second Group
         public void TestParticipePresent()
         {
             TestConjugator(v => _verbData.Conjugations[v].ParticipePresent, _conjugator.ParticipePresent);
@@ -83,7 +79,21 @@ namespace ConjugatorTests
             TestConjugator(v => _verbData.Conjugations[v].Present, _conjugator.Present);
         }
 
-        private static void TestConjugator(Func<string, string[]> referenceConjugator, Func<string, string[]> conjugator)
+        [TestMethod]
+        public void TestImparfait()
+        {
+            TestConjugator(v => _verbData.Conjugations[v].Imparfait, _conjugator.Imparfait);
+        }
+
+        [TestMethod]
+        public void TestParticipePasse()
+        {
+            TestConjugator(v => _verbData.Conjugations[v].ParticipePasse, _conjugator.ParticipePasse);
+        }
+
+        private static void TestConjugator(
+            Func<string, string[]> referenceConjugator,
+            Func<string, string[]> conjugator)
         {
             Dictionary<bool, string[]> grades = _verbData.Conjugations.Keys
                 .Where(_conjugator.IsInGroup)
@@ -96,10 +106,12 @@ namespace ConjugatorTests
             string[] newErrors = actualErrors.Except(expectedErrors).ToArray();
             string[] newFixes = expectedErrors.Except(actualErrors).ToArray();
 
-            Assert.IsTrue(!newErrors.Any());
-
-            Console.WriteLine($"{actualErrors.Length} errors");
-            ErrorList.Save(actualErrors, referenceConjugator, conjugator);
+            if (actualErrors.Any())
+            {
+                Console.WriteLine($"{actualErrors.Length} errors");
+                ErrorList.Save(actualErrors, referenceConjugator, conjugator);
+                Assert.Fail();
+            }
         }
 
         private static bool IsCorrect(
@@ -112,12 +124,16 @@ namespace ConjugatorTests
 
             bool Equal((string expected, string actual) tuple)
             {
-                return tuple.expected == null || tuple.expected == "NA" || tuple.expected == tuple.actual;
+                return tuple.expected == null || 
+                       tuple.expected == "NA" || 
+                       tuple.expected == tuple.actual;
             }
 
-            return expected == null ||
-                   expected.Length == actual.Length &&
-                   expected.Zip(actual).All(Equal);
+            bool isCorrect = expected == null ||
+                 expected.Length == actual.Length &&
+                 expected.Zip(actual).All(Equal);
+
+            return isCorrect;
         }
     }
 }

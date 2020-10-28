@@ -1,1 +1,16 @@
-[]
+[
+  [
+    "mourir",
+    "mort                mouru",
+    "morts               mourus",
+    "morte               mourue",
+    "mortes              mourues"
+  ],
+  [
+    "mouvoir",
+    "mû                  mu",
+    "mûs                 mus",
+    "mûe                 mue",
+    "mûes                mues"
+  ]
+]

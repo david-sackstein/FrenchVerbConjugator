@@ -9,23 +9,14 @@ namespace ConjugatorTests
 {
     internal class VerbData
     {
-        public Verbs Verbs { get; }
         public Dictionary<string, Conjugation> Conjugations { get; }
 
         public VerbData(string nodeModulesPath)
         {
-            string verbsFileName = Path.Combine(
-                nodeModulesPath, @"french-verbs-list\verbs.json");
-
             string conjugationsFileName = Path.Combine(
                 nodeModulesPath, @"french-verbs-lefff\dist\conjugations-fixed.json");
 
             Conjugations = LoadConjugations(conjugationsFileName);
-
-            var verbList = JsonSerializer.Deserialize<VerbList>(
-                File.ReadAllText(verbsFileName));
-
-            Verbs = verbList.Verbs;
         }
 
         private static Dictionary<string, Conjugation> LoadConjugations(string fileName)
