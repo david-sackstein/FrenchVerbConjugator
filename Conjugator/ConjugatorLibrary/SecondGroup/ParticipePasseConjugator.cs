@@ -47,7 +47,11 @@ namespace ConjugatorLibrary.SecondGroup
 
         private static (bool, string[]) AddUEndings(string verb)
         {
-            string[] endings = { "u", "us", "ue", "ues" };
+            (bool, string[]) _AddUEndings(string stem)
+            {
+                string[] uEndings = { "u", "us", "ue", "ues" };
+                return (true, uEndings.AddEndings(stem));
+            }
 
             if (Exceptions.devoirVerbs.Contains(verb))
             {
@@ -59,37 +63,37 @@ namespace ConjugatorLibrary.SecondGroup
             if (Exceptions.cevoirVerbs.Contains(verb))
             {
                 string shortenedStem = verb.TrimEnd("cevoir") + "ç";
-                return (true, endings.AddEndings(shortenedStem));
+                return _AddUEndings(shortenedStem);
             }
 
             if (verb == "savoir")
             {
                 string shortenedStem = verb.TrimEnd("avoir");
-                return (true, endings.AddEndings(shortenedStem));
+                return _AddUEndings(shortenedStem);
             }
 
             if (verb == "promouvoir" || verb == "émouvoir")
             {
                 string shortenedStem = verb.TrimEnd("ouvoir");
-                return (true, endings.AddEndings(shortenedStem));
+                return _AddUEndings(shortenedStem);
             }
 
             if (new[] {"dévêtir", "férir", "revêtir", "vêtir", "issir"}.Contains(verb))
             {
                 string stem = verb.TrimEnd("ir");
-                return (true, endings.AddEndings(stem));
+                return _AddUEndings(stem);
             }
 
             if (verb.EndsWith("oir"))
             {
                 string shortenedStem = verb.TrimEnd("oir");
-                return (true, endings.AddEndings(shortenedStem));
+                return _AddUEndings(shortenedStem);
             }
 
             if (verb.EndsWith("enir") || verb.EndsWith("ourir"))
             {
                 string stem = verb.TrimEnd("ir");
-                return (true, endings.AddEndings(stem));
+                return _AddUEndings(stem);
             }
 
             return (false, null);

@@ -1,9 +1,16 @@
 [
   [
-    "abêtir",
-    "abêti               abêtu",
-    "abêtis              abêtus",
-    "abêtie              abêtue",
-    "abêties             abêtues"
+    "devoir",
+    "dû                  devu",
+    "dus                 devus",
+    "due                 devue",
+    "dues                devues"
+  ],
+  [
+    "redevoir",
+    "redû                redevu",
+    "redus               redevus",
+    "redue               redevue",
+    "redues              redevues"
   ]
 ]
