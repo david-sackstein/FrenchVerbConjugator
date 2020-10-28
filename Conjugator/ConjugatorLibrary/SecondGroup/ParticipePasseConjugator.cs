@@ -109,16 +109,15 @@ namespace ConjugatorLibrary.SecondGroup
 
         private static (bool, string[]) WithIsEndings(string verb)
         {
+            string[] endings = { "is", "is", "ise", "ises" };
             if (verb.EndsWith("eoir"))
             {
                 string shortenedStem = verb.TrimEnd("eoir");
-                string[] endings = {"is", "is", "ise", "ises"};
                 return (true, endings.AddEndings(shortenedStem));
             }
 
             if (verb.EndsWith("uérir") && verb != "guérir")
             {
-                string[] endings = { "is", "is", "ise", "ises" };
                 string shortenedStem = verb.TrimEnd("érir");
                 return (true, endings.AddEndings(shortenedStem));
             }
@@ -126,7 +125,6 @@ namespace ConjugatorLibrary.SecondGroup
             if (verb == "rassir")
             {
                 string stem = verb.TrimEnd("ir");
-                string[] endings = {"is", "is", "ise", "ises"};
                 return (true, endings.AddEndings(stem));
             }
 
@@ -135,11 +133,6 @@ namespace ConjugatorLibrary.SecondGroup
 
         private static string GetStem(string verb)
         {
-            if (verb == "aller")
-            {
-                return "all";
-            }
-
             return verb.Remove(verb.Length - 2);
         }
     }
