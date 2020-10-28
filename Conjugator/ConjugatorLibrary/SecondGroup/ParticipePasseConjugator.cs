@@ -52,8 +52,8 @@ namespace ConjugatorLibrary.SecondGroup
             if (Exceptions.devoirVerbs.Contains(verb))
             {
                 string shortenedStem = verb.TrimEnd("evoir");
-                string[] endings1 = { "û", "us", "ue", "ues" };
-                return (true, endings1.AddEndings(shortenedStem));
+                string[] withCircumflex = { "û", "us", "ue", "ues" };
+                return (true, withCircumflex.AddEndings(shortenedStem));
             }
 
             if (Exceptions.cevoirVerbs.Contains(verb))
@@ -68,13 +68,13 @@ namespace ConjugatorLibrary.SecondGroup
                 return (true, endings.AddEndings(shortenedStem));
             }
 
-            if (verb.EndsWith("ouvoir"))
+            if (verb == "promouvoir" || verb == "émouvoir")
             {
                 string shortenedStem = verb.TrimEnd("ouvoir");
                 return (true, endings.AddEndings(shortenedStem));
             }
 
-            if (verb == "dévêtir" || verb == "férir" || verb == "revêtir" || verb == "vêtir" || verb == "issir")
+            if (new[] {"dévêtir", "férir", "revêtir", "vêtir", "issir"}.Contains(verb))
             {
                 string stem = verb.TrimEnd("ir");
                 return (true, endings.AddEndings(stem));

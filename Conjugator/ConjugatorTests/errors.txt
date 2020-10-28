@@ -1,72 +1,9 @@
 [
   [
-    "acquérir",
-    "acquis              acqui",
-    "acquis              acquis",
-    "acquise             acquie",
-    "acquises            acquies"
-  ],
-  [
-    "asseoir",
-    "assis               assi",
-    "assis               assis",
-    "assise              assie",
-    "assises             assies"
-  ],
-  [
-    "conquérir",
-    "conquis             conqui",
-    "conquis             conquis",
-    "conquise            conquie",
-    "conquises           conquies"
-  ],
-  [
-    "enquérir",
-    "enquis              enqui",
-    "enquis              enquis",
-    "enquise             enquie",
-    "enquises            enquies"
-  ],
-  [
-    "messeoir",
-    "messis              messi",
-    "messis              messis",
-    "messise             messie",
-    "messises            messies"
-  ],
-  [
-    "rasseoir",
-    "rassis              rassi",
-    "rassis              rassis",
-    "rassise             rassie",
-    "rassises            rassies"
-  ],
-  [
-    "rassir",
-    "rassis              rassi",
-    "rassis              rassis",
-    "rassise             rassie",
-    "rassises            rassies"
-  ],
-  [
-    "reconquérir",
-    "reconquis           reconqui",
-    "reconquis           reconquis",
-    "reconquise          reconquie",
-    "reconquises         reconquies"
-  ],
-  [
-    "requérir",
-    "requis              requi",
-    "requis              requis",
-    "requise             requie",
-    "requises            requies"
-  ],
-  [
-    "seoir",
-    "sis                 si",
-    "sis                 sis",
-    "sise                sie",
-    "sises               sies"
+    "abêtir",
+    "abêti               abêtu",
+    "abêtis              abêtus",
+    "abêtie              abêtue",
+    "abêties             abêtues"
   ]
 ]
