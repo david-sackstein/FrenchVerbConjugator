@@ -5,29 +5,29 @@ namespace ConjugatorLibrary.SecondGroup
 {
     public static class ParticipePasseConjugator
     {
-        public static string[] Endings { get; } = {"i", "is", "ie", "ies"};
+        private static string[] Endings { get; } = {"i", "is", "ie", "ies"};
 
         public static string[] GetConjugations(string verb)
         {
-            Func<string, (bool, string[])>[] exceptionHandlers = {
+            Func<string, (bool, string[])>[] irregularHandlers = {
                 ExplicitExceptions, 
                 WithIsEndings, 
                 WithErtEndings, 
                 AddUEndings
             };
 
-            foreach (var exceptionHandler in exceptionHandlers)
+            foreach (var handler in irregularHandlers)
             {
-                (bool isHandled, string[] conjugations) = exceptionHandler(verb);
+                (bool isHandled, string[] conjugations) = handler(verb);
                 if (isHandled)
                 {
                     return conjugations;
                 }
             }
 
-            string stem = GetStem(verb);
-
             // regular
+
+            string stem = GetStem(verb);
             return Endings.AddEndings(stem);
         }
 
@@ -110,6 +110,7 @@ namespace ConjugatorLibrary.SecondGroup
         private static (bool, string[]) WithIsEndings(string verb)
         {
             string[] endings = { "is", "is", "ise", "ises" };
+
             if (verb.EndsWith("eoir"))
             {
                 string shortenedStem = verb.TrimEnd("eoir");
