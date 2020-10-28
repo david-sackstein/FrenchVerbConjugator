@@ -23,12 +23,15 @@ namespace ConjugatorTests
         }
 
         [TestMethod]
+<<<<<<< HEAD
         public void TestParticipePasse()
         {
             TestConjugator(v => _verbData.Conjugations[v].ParticipePasse, _conjugator.ParticipePasse);
         }
 
         [TestMethod]
+=======
+>>>>>>> Second Group
         public void TestParticipePresent()
         {
             TestConjugator(v => _verbData.Conjugations[v].ParticipePresent, _conjugator.ParticipePresent);
@@ -82,6 +85,12 @@ namespace ConjugatorTests
             TestConjugator(v => _verbData.Conjugations[v].Imparfait, _conjugator.Imparfait);
         }
 
+        [TestMethod]
+        public void TestParticipePasse()
+        {
+            TestConjugator(v => _verbData.Conjugations[v].ParticipePasse, _conjugator.ParticipePasse);
+        }
+
         private static void TestConjugator(
             Func<string, string[]> referenceConjugator,
             Func<string, string[]> conjugator)
@@ -97,7 +106,7 @@ namespace ConjugatorTests
             string[] newErrors = actualErrors.Except(expectedErrors).ToArray();
             string[] newFixes = expectedErrors.Except(actualErrors).ToArray();
 
-            if (newErrors.Any())
+            if (actualErrors.Any())
             {
                 Console.WriteLine($"{actualErrors.Length} errors");
                 ErrorList.Save(actualErrors, referenceConjugator, conjugator);
@@ -120,9 +129,11 @@ namespace ConjugatorTests
                        tuple.expected == tuple.actual;
             }
 
-            return expected == null ||
-                   expected.Length == actual.Length &&
-                   expected.Zip(actual).All(Equal);
+            bool isCorrect = expected == null ||
+                 expected.Length == actual.Length &&
+                 expected.Zip(actual).All(Equal);
+
+            return isCorrect;
         }
     }
 }

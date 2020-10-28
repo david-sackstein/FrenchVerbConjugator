@@ -1,1 +1,23 @@
-[]
+[
+  [
+    "falloir",
+    "fallu               fallu",
+    "fallu               fallus",
+    "fallu               fallue",
+    "fallu               fallues"
+  ],
+  [
+    "mourir",
+    "mort                mouru",
+    "morts               mourus",
+    "morte               mourue",
+    "mortes              mourues"
+  ],
+  [
+    "mouvoir",
+    "mû                  mu",
+    "mûs                 mus",
+    "mûe                 mue",
+    "mûes                mues"
+  ]
+]
