@@ -33,39 +33,16 @@ namespace ConjugatorLibrary.SecondGroup
 
         private static (bool, string[]) ExplicitExceptions(string verb)
         {
-            if (verb == "avoir")
+            return verb switch
             {
-                return (true, new[] {"eu", "eus", "eue", "eues"});
-            }
-
-            if (verb == "pouvoir")
-            {
-                return (true, Enumerable.Repeat("pu", 4).ToArray());
-            }
-
-            if (verb == "pleuvoir")
-            {
-                return (true, Enumerable.Repeat("plu", 4).ToArray());
-            }
-
-            if (verb == "falloir")
-            {
-                return (true, Enumerable.Repeat("fallu", 4).ToArray());
-            }
-
-            if (verb == "mourir")
-            {
-                return (true, new [] {"mort", "morts", "morte", "mortes" });
-            }
-
-            if (verb == "mouvoir")
-            {
-                // dubious because devoir doesnt work like this
-                string[] endings = {"û", "ûs", "ûe", "ûes"};
-                return (true, endings.AddEndings("m"));
-            }
-
-            return (false, null);
+                "avoir" => (true, new[] {"eu", "eus", "eue", "eues"}),
+                "pouvoir" => (true, Enumerable.Repeat("pu", 4).ToArray()),
+                "pleuvoir" => (true, Enumerable.Repeat("plu", 4).ToArray()),
+                "falloir" => (true, Enumerable.Repeat("fallu", 4).ToArray()),
+                "mourir" => (true, new[] {"mort", "morts", "morte", "mortes"}),
+                "mouvoir" => (true, new[] {"mû", "mûs", "mûe", "mûes"}), // dubious because devoir doesnt work like this
+                _ => (false, null)
+            };
         }
 
         private static (bool, string[]) AddUEndings(string verb)
