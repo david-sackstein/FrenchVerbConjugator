@@ -1,14 +1,5 @@
 [
   [
-    "acquérir",
-    "acquerrai           acquérirai",
-    "acquerras           acquériras",
-    "acquerra            acquérira",
-    "acquerrons          acquérirons",
-    "acquerrez           acquérirez",
-    "acquerront          acquériront"
-  ],
-  [
     "asseoir",
     "assoirai            asseoirai",
     "assoiras            asseoiras",
@@ -16,24 +7,6 @@
     "assoirons           asseoirons",
     "assoirez            asseoirez",
     "assoiront           asseoiront"
-  ],
-  [
-    "conquérir",
-    "conquerrai          conquérirai",
-    "conquerras          conquériras",
-    "conquerra           conquérira",
-    "conquerrons         conquérirons",
-    "conquerrez          conquérirez",
-    "conquerront         conquériront"
-  ],
-  [
-    "enquérir",
-    "enquerrai           enquérirai",
-    "enquerras           enquériras",
-    "enquerra            enquérira",
-    "enquerrons          enquérirons",
-    "enquerrez           enquérirez",
-    "enquerront          enquériront"
   ],
   [
     "entrevoir",
@@ -106,24 +79,6 @@
     "rassoirons          rasseoirons",
     "rassoirez           rasseoirez",
     "rassoiront          rasseoiront"
-  ],
-  [
-    "reconquérir",
-    "reconquerrai        reconquérirai",
-    "reconquerras        reconquériras",
-    "reconquerra         reconquérira",
-    "reconquerrons       reconquérirons",
-    "reconquerrez        reconquérirez",
-    "reconquerront       reconquériront"
-  ],
-  [
-    "requérir",
-    "requerrai           requérirai",
-    "requerras           requériras",
-    "requerra            requérira",
-    "requerrons          requérirons",
-    "requerrez           requérirez",
-    "requerront          requériront"
   ],
   [
     "revaloir",
