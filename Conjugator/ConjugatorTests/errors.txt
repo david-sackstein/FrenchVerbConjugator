@@ -72,15 +72,6 @@
     "mouvront            mouvoiront"
   ],
   [
-    "pouvoir",
-    "pourrai             pouvoirai",
-    "pourras             pouvoiras",
-    "pourra              pouvoira",
-    "pourrons            pouvoirons",
-    "pourrez             pouvoirez",
-    "pourront            pouvoiront"
-  ],
-  [
     "pleuvoir",
     "                    pleuvoirai",
     "                    pleuvoiras",

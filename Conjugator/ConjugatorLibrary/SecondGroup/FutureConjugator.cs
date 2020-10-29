@@ -12,6 +12,12 @@
                 return Endings.AddEndings(stem);
             }
 
+            if (verb == "pouvoir")
+            {
+                string stem = "pourr";
+                return Endings.AddEndings(stem);
+            }
+
             if (verb.EndsWith("evoir"))
             {
                 string stem = verb.TrimEnd("evoir") + "evr";
