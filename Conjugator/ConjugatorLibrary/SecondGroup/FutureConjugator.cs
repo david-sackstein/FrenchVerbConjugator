@@ -6,9 +6,9 @@
 
         public static string[] GetConjugations(string verb)
         {
-            if (verb == "avoir")
+            if (verb.EndsWith("avoir"))
             {
-                string stem = "aur";
+                string stem = verb.TrimEnd("avoir") + "aur";
                 return Endings.AddEndings(stem);
             }
 

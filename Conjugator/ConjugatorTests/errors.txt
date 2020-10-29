@@ -45,15 +45,6 @@
     "promouvront         promouvoiront"
   ],
   [
-    "savoir",
-    "saurai              savoirai",
-    "sauras              savoiras",
-    "saura               savoira",
-    "saurons             savoirons",
-    "saurez              savoirez",
-    "sauront             savoiront"
-  ],
-  [
     "seoir",
     "                    seoirai",
     "                    seoiras",
