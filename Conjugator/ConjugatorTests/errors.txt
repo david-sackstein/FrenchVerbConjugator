@@ -9,15 +9,6 @@
     "auront              avoiront"
   ],
   [
-    "abstenir",
-    "abstiendrai         abstenirai",
-    "abstiendras         absteniras",
-    "abstiendra          abstenira",
-    "abstiendrons        abstenirons",
-    "abstiendrez         abstenirez",
-    "abstiendront        absteniront"
-  ],
-  [
     "accourir",
     "accourrai           accourirai",
     "accourras           accouriras",
@@ -63,15 +54,6 @@
     "apercevront         apercevoiront"
   ],
   [
-    "appartenir",
-    "appartiendrai       appartenirai",
-    "appartiendras       apparteniras",
-    "appartiendra        appartenira",
-    "appartiendrons      appartenirons",
-    "appartiendrez       appartenirez",
-    "appartiendront      apparteniront"
-  ],
-  [
     "asseoir",
     "assoirai            asseoirai",
     "assoiras            asseoiras",
@@ -115,15 +97,6 @@
     "conquerrons         conquérirons",
     "conquerrez          conquérirez",
     "conquerront         conquériront"
-  ],
-  [
-    "contenir",
-    "contiendrai         contenirai",
-    "contiendras         conteniras",
-    "contiendra          contenira",
-    "contiendrons        contenirons",
-    "contiendrez         contenirez",
-    "contiendront        conteniront"
   ],
   [
     "contrevenir",
@@ -207,15 +180,6 @@
     "décevront           décevoiront"
   ],
   [
-    "détenir",
-    "détiendrai          détenirai",
-    "détiendras          déteniras",
-    "détiendra           détenira",
-    "détiendrons         détenirons",
-    "détiendrez          détenirez",
-    "détiendront         déteniront"
-  ],
-  [
     "encourir",
     "encourrai           encourirai",
     "encourras           encouriras",
@@ -241,15 +205,6 @@
     "entrapercevrons     entrapercevoirons",
     "entrapercevrez      entrapercevoirez",
     "entrapercevront     entrapercevoiront"
-  ],
-  [
-    "entretenir",
-    "entretiendrai       entretenirai",
-    "entretiendras       entreteniras",
-    "entretiendra        entretenira",
-    "entretiendrons      entretenirons",
-    "entretiendrez       entretenirez",
-    "entretiendront      entreteniront"
   ],
   [
     "entrevoir",
@@ -279,15 +234,6 @@
     "interviendront      interveniront"
   ],
   [
-    "maintenir",
-    "maintiendrai        maintenirai",
-    "maintiendras        mainteniras",
-    "maintiendra         maintenira",
-    "maintiendrons       maintenirons",
-    "maintiendrez        maintenirez",
-    "maintiendront       mainteniront"
-  ],
-  [
     "messeoir",
     "                    messeoirai",
     "                    messeoiras",
@@ -313,15 +259,6 @@
     "mouvrons            mouvoirons",
     "mouvrez             mouvoirez",
     "mouvront            mouvoiront"
-  ],
-  [
-    "obtenir",
-    "obtiendrai          obtenirai",
-    "obtiendras          obteniras",
-    "obtiendra           obtenira",
-    "obtiendrons         obtenirons",
-    "obtiendrez          obtenirez",
-    "obtiendront         obteniront"
   ],
   [
     "obvenir",
@@ -513,15 +450,6 @@
     "ressouviendront     ressouveniront"
   ],
   [
-    "retenir",
-    "retiendrai          retenirai",
-    "retiendras          reteniras",
-    "retiendra           retenira",
-    "retiendrons         retenirons",
-    "retiendrez          retenirez",
-    "retiendront         reteniront"
-  ],
-  [
     "revaloir",
     "revaudrai           revaloirai",
     "revaudras           revaloiras",
@@ -576,15 +504,6 @@
     "siéront             seoiront"
   ],
   [
-    "soutenir",
-    "soutiendrai         soutenirai",
-    "soutiendras         souteniras",
-    "soutiendra          soutenira",
-    "soutiendrons        soutenirons",
-    "soutiendrez         soutenirez",
-    "soutiendront        souteniront"
-  ],
-  [
     "souvenir",
     "souviendrai         souvenirai",
     "souviendras         souveniras",
@@ -610,15 +529,6 @@
     "surviendrons        survenirons",
     "surviendrez         survenirez",
     "surviendront        surveniront"
-  ],
-  [
-    "tenir",
-    "tiendrai            tenirai",
-    "tiendras            teniras",
-    "tiendra             tenira",
-    "tiendrons           tenirons",
-    "tiendrez            tenirez",
-    "tiendront           teniront"
   ],
   [
     "valoir",

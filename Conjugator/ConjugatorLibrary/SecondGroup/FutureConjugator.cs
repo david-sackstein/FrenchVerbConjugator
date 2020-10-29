@@ -6,9 +6,15 @@
 
         public static string[] GetConjugations(string verb)
         {
-            string stem = GetStem(verb);
+            if (verb.EndsWith("tenir"))
+            {
+                string stem = verb.TrimEnd("tenir") + "tiendr";
+                return Endings.AddEndings(stem);
 
-            return Endings.AddEndings(stem);
+            }
+            string regularStem = GetStem(verb);
+
+            return Endings.AddEndings(regularStem);
         }
 
         public static string GetStem(string verb)
