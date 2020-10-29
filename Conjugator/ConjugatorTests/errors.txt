@@ -1,14 +1,5 @@
 [
   [
-    "asseoir",
-    "assoirai            asseoirai",
-    "assoiras            asseoiras",
-    "assoira             asseoira",
-    "assoirons           asseoirons",
-    "assoirez            asseoirez",
-    "assoiront           asseoiront"
-  ],
-  [
     "falloir",
     "                    falloirai",
     "                    falloiras",
@@ -52,15 +43,6 @@
     "promouvrons         promouvoirons",
     "promouvrez          promouvoirez",
     "promouvront         promouvoiront"
-  ],
-  [
-    "rasseoir",
-    "rassoirai           rasseoirai",
-    "rassoiras           rasseoiras",
-    "rassoira            rasseoira",
-    "rassoirons          rasseoirons",
-    "rassoirez           rasseoirez",
-    "rassoiront          rasseoiront"
   ],
   [
     "savoir",
