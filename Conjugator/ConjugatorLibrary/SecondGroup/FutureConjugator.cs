@@ -6,6 +6,12 @@
 
         public static string[] GetConjugations(string verb)
         {
+            if (verb == "avoir")
+            {
+                string stem = "aur";
+                return Endings.AddEndings(stem);
+            }
+
             if (verb.EndsWith("tenir"))
             {
                 string stem = verb.TrimEnd("tenir") + "tiendr";

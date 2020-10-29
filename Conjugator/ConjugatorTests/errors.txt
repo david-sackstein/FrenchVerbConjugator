@@ -1,14 +1,5 @@
 [
   [
-    "avoir",
-    "aurai               avoirai",
-    "auras               avoiras",
-    "aura                avoira",
-    "aurons              avoirons",
-    "aurez               avoirez",
-    "auront              avoiront"
-  ],
-  [
     "acquérir",
     "acquerrai           acquérirai",
     "acquerras           acquériras",
