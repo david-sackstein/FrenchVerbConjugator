@@ -27,15 +27,6 @@
     "conquerront         conquériront"
   ],
   [
-    "devoir",
-    "devrai              devoirai",
-    "devras              devoiras",
-    "devra               devoira",
-    "devrons             devoirons",
-    "devrez              devoirez",
-    "devront             devoiront"
-  ],
-  [
     "enquérir",
     "enquerrai           enquérirai",
     "enquerras           enquériras",
@@ -46,12 +37,12 @@
   ],
   [
     "entrevoir",
-    "entreverrai         entrevoirai",
-    "entreverras         entrevoiras",
-    "entreverra          entrevoira",
-    "entreverrons        entrevoirons",
-    "entreverrez         entrevoirez",
-    "entreverront        entrevoiront"
+    "entreverrai         entrevrai",
+    "entreverras         entrevras",
+    "entreverra          entrevra",
+    "entreverrons        entrevrons",
+    "entreverrez         entrevrez",
+    "entreverront        entrevront"
   ],
   [
     "falloir",
@@ -135,15 +126,6 @@
     "reconquerront       reconquériront"
   ],
   [
-    "redevoir",
-    "redevrai            redevoirai",
-    "redevras            redevoiras",
-    "redevra             redevoira",
-    "redevrons           redevoirons",
-    "redevrez            redevoirez",
-    "redevront           redevoiront"
-  ],
-  [
     "requérir",
     "requerrai           requérirai",
     "requerras           requériras",
@@ -163,12 +145,12 @@
   ],
   [
     "revoir",
-    "reverrai            revoirai",
-    "reverras            revoiras",
-    "reverra             revoira",
-    "reverrons           revoirons",
-    "reverrez            revoirez",
-    "reverront           revoiront"
+    "reverrai            revrai",
+    "reverras            revras",
+    "reverra             revra",
+    "reverrons           revrons",
+    "reverrez            revrez",
+    "reverront           revront"
   ],
   [
     "savoir",
