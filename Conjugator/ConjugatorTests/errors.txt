@@ -9,15 +9,6 @@
     "auront              avoiront"
   ],
   [
-    "accueillir",
-    "accueillerai        accueillirai",
-    "accueilleras        accueilliras",
-    "accueillera         accueillira",
-    "accueillerons       accueillirons",
-    "accueillerez        accueillirez",
-    "accueilleront       accueilliront"
-  ],
-  [
     "acquérir",
     "acquerrai           acquérirai",
     "acquerras           acquériras",
@@ -97,15 +88,6 @@
     "conviendrons        convenirons",
     "conviendrez         convenirez",
     "conviendront        conveniront"
-  ],
-  [
-    "cueillir",
-    "cueillerai          cueillirai",
-    "cueilleras          cueilliras",
-    "cueillera           cueillira",
-    "cueillerons         cueillirons",
-    "cueillerez          cueillirez",
-    "cueilleront         cueilliront"
   ],
   [
     "devoir",
@@ -322,15 +304,6 @@
     "reconquerrons       reconquérirons",
     "reconquerrez        reconquérirez",
     "reconquerront       reconquériront"
-  ],
-  [
-    "recueillir",
-    "recueillerai        recueillirai",
-    "recueilleras        recueilliras",
-    "recueillera         recueillira",
-    "recueillerons       recueillirons",
-    "recueillerez        recueillirez",
-    "recueilleront       recueilliront"
   ],
   [
     "redevoir",

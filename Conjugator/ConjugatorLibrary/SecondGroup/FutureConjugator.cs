@@ -18,6 +18,12 @@
                 return Endings.AddEndings(stem);
             }
 
+            if (verb.EndsWith("cueillir"))
+            {
+                string stem = verb.TrimEnd("ir") + "er";
+                return Endings.AddEndings(stem);
+            }
+
             string regularStem = GetStem(verb);
 
             return Endings.AddEndings(regularStem);
