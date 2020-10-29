@@ -1,16 +1,1 @@
-[
-  [
-    "devoir",
-    "dû                  devu",
-    "dus                 devus",
-    "due                 devue",
-    "dues                devues"
-  ],
-  [
-    "redevoir",
-    "redû                redevu",
-    "redus               redevus",
-    "redue               redevue",
-    "redues              redevues"
-  ]
-]
+[]
