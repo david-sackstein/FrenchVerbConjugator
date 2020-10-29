@@ -1,1 +1,677 @@
-[]
+[
+  [
+    "avoir",
+    "aurai               avoirai",
+    "auras               avoiras",
+    "aura                avoira",
+    "aurons              avoirons",
+    "aurez               avoirez",
+    "auront              avoiront"
+  ],
+  [
+    "abstenir",
+    "abstiendrai         abstenirai",
+    "abstiendras         absteniras",
+    "abstiendra          abstenira",
+    "abstiendrons        abstenirons",
+    "abstiendrez         abstenirez",
+    "abstiendront        absteniront"
+  ],
+  [
+    "accourir",
+    "accourrai           accourirai",
+    "accourras           accouriras",
+    "accourra            accourira",
+    "accourrons          accourirons",
+    "accourrez           accourirez",
+    "accourront          accouriront"
+  ],
+  [
+    "accueillir",
+    "accueillerai        accueillirai",
+    "accueilleras        accueilliras",
+    "accueillera         accueillira",
+    "accueillerons       accueillirons",
+    "accueillerez        accueillirez",
+    "accueilleront       accueilliront"
+  ],
+  [
+    "acquérir",
+    "acquerrai           acquérirai",
+    "acquerras           acquériras",
+    "acquerra            acquérira",
+    "acquerrons          acquérirons",
+    "acquerrez           acquérirez",
+    "acquerront          acquériront"
+  ],
+  [
+    "advenir",
+    "adviendrai          advenirai",
+    "adviendras          adveniras",
+    "adviendra           advenira",
+    "adviendrons         advenirons",
+    "adviendrez          advenirez",
+    "adviendront         adveniront"
+  ],
+  [
+    "apercevoir",
+    "apercevrai          apercevoirai",
+    "apercevras          apercevoiras",
+    "apercevra           apercevoira",
+    "apercevrons         apercevoirons",
+    "apercevrez          apercevoirez",
+    "apercevront         apercevoiront"
+  ],
+  [
+    "appartenir",
+    "appartiendrai       appartenirai",
+    "appartiendras       apparteniras",
+    "appartiendra        appartenira",
+    "appartiendrons      appartenirons",
+    "appartiendrez       appartenirez",
+    "appartiendront      apparteniront"
+  ],
+  [
+    "asseoir",
+    "assoirai            asseoirai",
+    "assoiras            asseoiras",
+    "assoira             asseoira",
+    "assoirons           asseoirons",
+    "assoirez            asseoirez",
+    "assoiront           asseoiront"
+  ],
+  [
+    "circonvenir",
+    "circonviendrai      circonvenirai",
+    "circonviendras      circonveniras",
+    "circonviendra       circonvenira",
+    "circonviendrons     circonvenirons",
+    "circonviendrez      circonvenirez",
+    "circonviendront     circonveniront"
+  ],
+  [
+    "concevoir",
+    "concevrai           concevoirai",
+    "concevras           concevoiras",
+    "concevra            concevoira",
+    "concevrons          concevoirons",
+    "concevrez           concevoirez",
+    "concevront          concevoiront"
+  ],
+  [
+    "concourir",
+    "concourrai          concourirai",
+    "concourras          concouriras",
+    "concourra           concourira",
+    "concourrons         concourirons",
+    "concourrez          concourirez",
+    "concourront         concouriront"
+  ],
+  [
+    "conquérir",
+    "conquerrai          conquérirai",
+    "conquerras          conquériras",
+    "conquerra           conquérira",
+    "conquerrons         conquérirons",
+    "conquerrez          conquérirez",
+    "conquerront         conquériront"
+  ],
+  [
+    "contenir",
+    "contiendrai         contenirai",
+    "contiendras         conteniras",
+    "contiendra          contenira",
+    "contiendrons        contenirons",
+    "contiendrez         contenirez",
+    "contiendront        conteniront"
+  ],
+  [
+    "contrevenir",
+    "contreviendrai      contrevenirai",
+    "contreviendras      contreveniras",
+    "contreviendra       contrevenira",
+    "contreviendrons     contrevenirons",
+    "contreviendrez      contrevenirez",
+    "contreviendront     contreveniront"
+  ],
+  [
+    "convenir",
+    "conviendrai         convenirai",
+    "conviendras         conveniras",
+    "conviendra          convenira",
+    "conviendrons        convenirons",
+    "conviendrez         convenirez",
+    "conviendront        conveniront"
+  ],
+  [
+    "courir",
+    "courrai             courirai",
+    "courras             couriras",
+    "courra              courira",
+    "courrons            courirons",
+    "courrez             courirez",
+    "courront            couriront"
+  ],
+  [
+    "cueillir",
+    "cueillerai          cueillirai",
+    "cueilleras          cueilliras",
+    "cueillera           cueillira",
+    "cueillerons         cueillirons",
+    "cueillerez          cueillirez",
+    "cueilleront         cueilliront"
+  ],
+  [
+    "devoir",
+    "devrai              devoirai",
+    "devras              devoiras",
+    "devra               devoira",
+    "devrons             devoirons",
+    "devrez              devoirez",
+    "devront             devoiront"
+  ],
+  [
+    "devenir",
+    "deviendrai          devenirai",
+    "deviendras          deveniras",
+    "deviendra           devenira",
+    "deviendrons         devenirons",
+    "deviendrez          devenirez",
+    "deviendront         deveniront"
+  ],
+  [
+    "disconvenir",
+    "disconviendrai      disconvenirai",
+    "disconviendras      disconveniras",
+    "disconviendra       disconvenira",
+    "disconviendrons     disconvenirons",
+    "disconviendrez      disconvenirez",
+    "disconviendront     disconveniront"
+  ],
+  [
+    "discourir",
+    "discourrai          discourirai",
+    "discourras          discouriras",
+    "discourra           discourira",
+    "discourrons         discourirons",
+    "discourrez          discourirez",
+    "discourront         discouriront"
+  ],
+  [
+    "décevoir",
+    "décevrai            décevoirai",
+    "décevras            décevoiras",
+    "décevra             décevoira",
+    "décevrons           décevoirons",
+    "décevrez            décevoirez",
+    "décevront           décevoiront"
+  ],
+  [
+    "détenir",
+    "détiendrai          détenirai",
+    "détiendras          déteniras",
+    "détiendra           détenira",
+    "détiendrons         détenirons",
+    "détiendrez          détenirez",
+    "détiendront         déteniront"
+  ],
+  [
+    "encourir",
+    "encourrai           encourirai",
+    "encourras           encouriras",
+    "encourra            encourira",
+    "encourrons          encourirons",
+    "encourrez           encourirez",
+    "encourront          encouriront"
+  ],
+  [
+    "enquérir",
+    "enquerrai           enquérirai",
+    "enquerras           enquériras",
+    "enquerra            enquérira",
+    "enquerrons          enquérirons",
+    "enquerrez           enquérirez",
+    "enquerront          enquériront"
+  ],
+  [
+    "entrapercevoir",
+    "entrapercevrai      entrapercevoirai",
+    "entrapercevras      entrapercevoiras",
+    "entrapercevra       entrapercevoira",
+    "entrapercevrons     entrapercevoirons",
+    "entrapercevrez      entrapercevoirez",
+    "entrapercevront     entrapercevoiront"
+  ],
+  [
+    "entretenir",
+    "entretiendrai       entretenirai",
+    "entretiendras       entreteniras",
+    "entretiendra        entretenira",
+    "entretiendrons      entretenirons",
+    "entretiendrez       entretenirez",
+    "entretiendront      entreteniront"
+  ],
+  [
+    "entrevoir",
+    "entreverrai         entrevoirai",
+    "entreverras         entrevoiras",
+    "entreverra          entrevoira",
+    "entreverrons        entrevoirons",
+    "entreverrez         entrevoirez",
+    "entreverront        entrevoiront"
+  ],
+  [
+    "falloir",
+    "                    falloirai",
+    "                    falloiras",
+    "faudra              falloira",
+    "                    falloirons",
+    "                    falloirez",
+    "                    falloiront"
+  ],
+  [
+    "intervenir",
+    "interviendrai       intervenirai",
+    "interviendras       interveniras",
+    "interviendra        intervenira",
+    "interviendrons      intervenirons",
+    "interviendrez       intervenirez",
+    "interviendront      interveniront"
+  ],
+  [
+    "maintenir",
+    "maintiendrai        maintenirai",
+    "maintiendras        mainteniras",
+    "maintiendra         maintenira",
+    "maintiendrons       maintenirons",
+    "maintiendrez        maintenirez",
+    "maintiendront       mainteniront"
+  ],
+  [
+    "messeoir",
+    "                    messeoirai",
+    "                    messeoiras",
+    "messiéra            messeoira",
+    "                    messeoirons",
+    "                    messeoirez",
+    "messiéront          messeoiront"
+  ],
+  [
+    "mourir",
+    "mourrai             mourirai",
+    "mourras             mouriras",
+    "mourra              mourira",
+    "mourrons            mourirons",
+    "mourrez             mourirez",
+    "mourront            mouriront"
+  ],
+  [
+    "mouvoir",
+    "mouvrai             mouvoirai",
+    "mouvras             mouvoiras",
+    "mouvra              mouvoira",
+    "mouvrons            mouvoirons",
+    "mouvrez             mouvoirez",
+    "mouvront            mouvoiront"
+  ],
+  [
+    "obtenir",
+    "obtiendrai          obtenirai",
+    "obtiendras          obteniras",
+    "obtiendra           obtenira",
+    "obtiendrons         obtenirons",
+    "obtiendrez          obtenirez",
+    "obtiendront         obteniront"
+  ],
+  [
+    "obvenir",
+    "obviendrai          obvenirai",
+    "obviendras          obveniras",
+    "obviendra           obvenira",
+    "obviendrons         obvenirons",
+    "obviendrez          obvenirez",
+    "obviendront         obveniront"
+  ],
+  [
+    "parcourir",
+    "parcourrai          parcourirai",
+    "parcourras          parcouriras",
+    "parcourra           parcourira",
+    "parcourrons         parcourirons",
+    "parcourrez          parcourirez",
+    "parcourront         parcouriront"
+  ],
+  [
+    "parvenir",
+    "parviendrai         parvenirai",
+    "parviendras         parveniras",
+    "parviendra          parvenira",
+    "parviendrons        parvenirons",
+    "parviendrez         parvenirez",
+    "parviendront        parveniront"
+  ],
+  [
+    "percevoir",
+    "percevrai           percevoirai",
+    "percevras           percevoiras",
+    "percevra            percevoira",
+    "percevrons          percevoirons",
+    "percevrez           percevoirez",
+    "percevront          percevoiront"
+  ],
+  [
+    "pouvoir",
+    "pourrai             pouvoirai",
+    "pourras             pouvoiras",
+    "pourra              pouvoira",
+    "pourrons            pouvoirons",
+    "pourrez             pouvoirez",
+    "pourront            pouvoiront"
+  ],
+  [
+    "pleuvoir",
+    "                    pleuvoirai",
+    "                    pleuvoiras",
+    "pleuvra             pleuvoira",
+    "                    pleuvoirons",
+    "                    pleuvoirez",
+    "pleuvront           pleuvoiront"
+  ],
+  [
+    "promouvoir",
+    "promouvrai          promouvoirai",
+    "promouvras          promouvoiras",
+    "promouvra           promouvoira",
+    "promouvrons         promouvoirons",
+    "promouvrez          promouvoirez",
+    "promouvront         promouvoiront"
+  ],
+  [
+    "provenir",
+    "proviendrai         provenirai",
+    "proviendras         proveniras",
+    "proviendra          provenira",
+    "proviendrons        provenirons",
+    "proviendrez         provenirez",
+    "proviendront        proveniront"
+  ],
+  [
+    "préconcevoir",
+    "préconcevrai        préconcevoirai",
+    "préconcevras        préconcevoiras",
+    "préconcevra         préconcevoira",
+    "préconcevrons       préconcevoirons",
+    "préconcevrez        préconcevoirez",
+    "préconcevront       préconcevoiront"
+  ],
+  [
+    "prévaloir",
+    "prévaudrai          prévaloirai",
+    "prévaudras          prévaloiras",
+    "prévaudra           prévaloira",
+    "prévaudrons         prévaloirons",
+    "prévaudrez          prévaloirez",
+    "prévaudront         prévaloiront"
+  ],
+  [
+    "prévenir",
+    "préviendrai         prévenirai",
+    "préviendras         préveniras",
+    "préviendra          prévenira",
+    "préviendrons        prévenirons",
+    "préviendrez         prévenirez",
+    "préviendront        préveniront"
+  ],
+  [
+    "rasseoir",
+    "rassoirai           rasseoirai",
+    "rassoiras           rasseoiras",
+    "rassoira            rasseoira",
+    "rassoirons          rasseoirons",
+    "rassoirez           rasseoirez",
+    "rassoiront          rasseoiront"
+  ],
+  [
+    "recevoir",
+    "recevrai            recevoirai",
+    "recevras            recevoiras",
+    "recevra             recevoira",
+    "recevrons           recevoirons",
+    "recevrez            recevoirez",
+    "recevront           recevoiront"
+  ],
+  [
+    "reconquérir",
+    "reconquerrai        reconquérirai",
+    "reconquerras        reconquériras",
+    "reconquerra         reconquérira",
+    "reconquerrons       reconquérirons",
+    "reconquerrez        reconquérirez",
+    "reconquerront       reconquériront"
+  ],
+  [
+    "recourir",
+    "recourrai           recourirai",
+    "recourras           recouriras",
+    "recourra            recourira",
+    "recourrons          recourirons",
+    "recourrez           recourirez",
+    "recourront          recouriront"
+  ],
+  [
+    "recueillir",
+    "recueillerai        recueillirai",
+    "recueilleras        recueilliras",
+    "recueillera         recueillira",
+    "recueillerons       recueillirons",
+    "recueillerez        recueillirez",
+    "recueilleront       recueilliront"
+  ],
+  [
+    "redevoir",
+    "redevrai            redevoirai",
+    "redevras            redevoiras",
+    "redevra             redevoira",
+    "redevrons           redevoirons",
+    "redevrez            redevoirez",
+    "redevront           redevoiront"
+  ],
+  [
+    "redevenir",
+    "redeviendrai        redevenirai",
+    "redeviendras        redeveniras",
+    "redeviendra         redevenira",
+    "redeviendrons       redevenirons",
+    "redeviendrez        redevenirez",
+    "redeviendront       redeveniront"
+  ],
+  [
+    "reparcourir",
+    "reparcourrai        reparcourirai",
+    "reparcourras        reparcouriras",
+    "reparcourra         reparcourira",
+    "reparcourrons       reparcourirons",
+    "reparcourrez        reparcourirez",
+    "reparcourront       reparcouriront"
+  ],
+  [
+    "requérir",
+    "requerrai           requérirai",
+    "requerras           requériras",
+    "requerra            requérira",
+    "requerrons          requérirons",
+    "requerrez           requérirez",
+    "requerront          requériront"
+  ],
+  [
+    "ressouvenir",
+    "ressouviendrai      ressouvenirai",
+    "ressouviendras      ressouveniras",
+    "ressouviendra       ressouvenira",
+    "ressouviendrons     ressouvenirons",
+    "ressouviendrez      ressouvenirez",
+    "ressouviendront     ressouveniront"
+  ],
+  [
+    "retenir",
+    "retiendrai          retenirai",
+    "retiendras          reteniras",
+    "retiendra           retenira",
+    "retiendrons         retenirons",
+    "retiendrez          retenirez",
+    "retiendront         reteniront"
+  ],
+  [
+    "revaloir",
+    "revaudrai           revaloirai",
+    "revaudras           revaloiras",
+    "revaudra            revaloira",
+    "revaudrons          revaloirons",
+    "revaudrez           revaloirez",
+    "revaudront          revaloiront"
+  ],
+  [
+    "revenir",
+    "reviendrai          revenirai",
+    "reviendras          reveniras",
+    "reviendra           revenira",
+    "reviendrons         revenirons",
+    "reviendrez          revenirez",
+    "reviendront         reveniront"
+  ],
+  [
+    "revoir",
+    "reverrai            revoirai",
+    "reverras            revoiras",
+    "reverra             revoira",
+    "reverrons           revoirons",
+    "reverrez            revoirez",
+    "reverront           revoiront"
+  ],
+  [
+    "savoir",
+    "saurai              savoirai",
+    "sauras              savoiras",
+    "saura               savoira",
+    "saurons             savoirons",
+    "saurez              savoirez",
+    "sauront             savoiront"
+  ],
+  [
+    "secourir",
+    "secourrai           secourirai",
+    "secourras           secouriras",
+    "secourra            secourira",
+    "secourrons          secourirons",
+    "secourrez           secourirez",
+    "secourront          secouriront"
+  ],
+  [
+    "seoir",
+    "                    seoirai",
+    "                    seoiras",
+    "siéra               seoira",
+    "                    seoirons",
+    "                    seoirez",
+    "siéront             seoiront"
+  ],
+  [
+    "soutenir",
+    "soutiendrai         soutenirai",
+    "soutiendras         souteniras",
+    "soutiendra          soutenira",
+    "soutiendrons        soutenirons",
+    "soutiendrez         soutenirez",
+    "soutiendront        souteniront"
+  ],
+  [
+    "souvenir",
+    "souviendrai         souvenirai",
+    "souviendras         souveniras",
+    "souviendra          souvenira",
+    "souviendrons        souvenirons",
+    "souviendrez         souvenirez",
+    "souviendront        souveniront"
+  ],
+  [
+    "subvenir",
+    "subviendrai         subvenirai",
+    "subviendras         subveniras",
+    "subviendra          subvenira",
+    "subviendrons        subvenirons",
+    "subviendrez         subvenirez",
+    "subviendront        subveniront"
+  ],
+  [
+    "survenir",
+    "surviendrai         survenirai",
+    "surviendras         surveniras",
+    "surviendra          survenira",
+    "surviendrons        survenirons",
+    "surviendrez         survenirez",
+    "surviendront        surveniront"
+  ],
+  [
+    "tenir",
+    "tiendrai            tenirai",
+    "tiendras            teniras",
+    "tiendra             tenira",
+    "tiendrons           tenirons",
+    "tiendrez            tenirez",
+    "tiendront           teniront"
+  ],
+  [
+    "valoir",
+    "vaudrai             valoirai",
+    "vaudras             valoiras",
+    "vaudra              valoira",
+    "vaudrons            valoirons",
+    "vaudrez             valoirez",
+    "vaudront            valoiront"
+  ],
+  [
+    "venir",
+    "viendrai            venirai",
+    "viendras            veniras",
+    "viendra             venira",
+    "viendrons           venirons",
+    "viendrez            venirez",
+    "viendront           veniront"
+  ],
+  [
+    "voir",
+    "verrai              voirai",
+    "verras              voiras",
+    "verra               voira",
+    "verrons             voirons",
+    "verrez              voirez",
+    "verront             voiront"
+  ],
+  [
+    "vouloir",
+    "voudrai             vouloirai",
+    "voudras             vouloiras",
+    "voudra              vouloira",
+    "voudrons            vouloirons",
+    "voudrez             vouloirez",
+    "voudront            vouloiront"
+  ],
+  [
+    "émouvoir",
+    "émouvrai            émouvoirai",
+    "émouvras            émouvoiras",
+    "émouvra             émouvoira",
+    "émouvrons           émouvoirons",
+    "émouvrez            émouvoirez",
+    "émouvront           émouvoiront"
+  ],
+  [
+    "équivaloir",
+    "équivaudrai         équivaloirai",
+    "équivaudras         équivaloiras",
+    "équivaudra          équivaloira",
+    "équivaudrons        équivaloirons",
+    "équivaudrez         équivaloirez",
+    "équivaudront        équivaloiront"
+  ]
+]

@@ -23,12 +23,6 @@ namespace ConjugatorTests
         }
 
         [TestMethod]
-        public void TestFuture()
-        {
-            TestConjugator(v => _verbData.Conjugations[v].Future, _conjugator.Future);
-        }
-
-        [TestMethod]
         public void TestConditional()
         {
             TestConjugator(v => _verbData.Conjugations[v].Conditional, _conjugator.Conditionel);
@@ -80,6 +74,12 @@ namespace ConjugatorTests
         public void TestParticipePresent()
         {
             TestConjugator(v => _verbData.Conjugations[v].ParticipePresent, _conjugator.ParticipePresent);
+        }
+
+        [TestMethod]
+        public void TestFuture()
+        {
+            TestConjugator(v => _verbData.Conjugations[v].Future, _conjugator.Future);
         }
 
         private static void TestConjugator(
