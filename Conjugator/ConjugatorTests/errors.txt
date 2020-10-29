@@ -27,15 +27,6 @@
     "adviendront         adveniront"
   ],
   [
-    "apercevoir",
-    "apercevrai          apercevoirai",
-    "apercevras          apercevoiras",
-    "apercevra           apercevoira",
-    "apercevrons         apercevoirons",
-    "apercevrez          apercevoirez",
-    "apercevront         apercevoiront"
-  ],
-  [
     "asseoir",
     "assoirai            asseoirai",
     "assoiras            asseoiras",
@@ -52,15 +43,6 @@
     "circonviendrons     circonvenirons",
     "circonviendrez      circonvenirez",
     "circonviendront     circonveniront"
-  ],
-  [
-    "concevoir",
-    "concevrai           concevoirai",
-    "concevras           concevoiras",
-    "concevra            concevoira",
-    "concevrons          concevoirons",
-    "concevrez           concevoirez",
-    "concevront          concevoiront"
   ],
   [
     "conquérir",
@@ -117,15 +99,6 @@
     "disconviendront     disconveniront"
   ],
   [
-    "décevoir",
-    "décevrai            décevoirai",
-    "décevras            décevoiras",
-    "décevra             décevoira",
-    "décevrons           décevoirons",
-    "décevrez            décevoirez",
-    "décevront           décevoiront"
-  ],
-  [
     "enquérir",
     "enquerrai           enquérirai",
     "enquerras           enquériras",
@@ -133,15 +106,6 @@
     "enquerrons          enquérirons",
     "enquerrez           enquérirez",
     "enquerront          enquériront"
-  ],
-  [
-    "entrapercevoir",
-    "entrapercevrai      entrapercevoirai",
-    "entrapercevras      entrapercevoiras",
-    "entrapercevra       entrapercevoira",
-    "entrapercevrons     entrapercevoirons",
-    "entrapercevrez      entrapercevoirez",
-    "entrapercevront     entrapercevoiront"
   ],
   [
     "entrevoir",
@@ -207,15 +171,6 @@
     "parviendront        parveniront"
   ],
   [
-    "percevoir",
-    "percevrai           percevoirai",
-    "percevras           percevoiras",
-    "percevra            percevoira",
-    "percevrons          percevoirons",
-    "percevrez           percevoirez",
-    "percevront          percevoiront"
-  ],
-  [
     "pouvoir",
     "pourrai             pouvoirai",
     "pourras             pouvoiras",
@@ -252,15 +207,6 @@
     "proviendront        proveniront"
   ],
   [
-    "préconcevoir",
-    "préconcevrai        préconcevoirai",
-    "préconcevras        préconcevoiras",
-    "préconcevra         préconcevoira",
-    "préconcevrons       préconcevoirons",
-    "préconcevrez        préconcevoirez",
-    "préconcevront       préconcevoiront"
-  ],
-  [
     "prévaloir",
     "prévaudrai          prévaloirai",
     "prévaudras          prévaloiras",
@@ -286,15 +232,6 @@
     "rassoirons          rasseoirons",
     "rassoirez           rasseoirez",
     "rassoiront          rasseoiront"
-  ],
-  [
-    "recevoir",
-    "recevrai            recevoirai",
-    "recevras            recevoiras",
-    "recevra             recevoira",
-    "recevrons           recevoirons",
-    "recevrez            recevoirez",
-    "recevront           recevoiront"
   ],
   [
     "reconquérir",

@@ -24,6 +24,12 @@
                 return Endings.AddEndings(stem);
             }
 
+            if (verb.EndsWith("cevoir"))
+            {
+                string stem = verb.TrimEnd("cevoir") + "cevr";
+                return Endings.AddEndings(stem);
+            }
+
             string regularStem = GetStem(verb);
 
             return Endings.AddEndings(regularStem);
