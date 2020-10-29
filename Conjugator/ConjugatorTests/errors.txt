@@ -9,15 +9,6 @@
     "auront              avoiront"
   ],
   [
-    "accourir",
-    "accourrai           accourirai",
-    "accourras           accouriras",
-    "accourra            accourira",
-    "accourrons          accourirons",
-    "accourrez           accourirez",
-    "accourront          accouriront"
-  ],
-  [
     "accueillir",
     "accueillerai        accueillirai",
     "accueilleras        accueilliras",
@@ -81,15 +72,6 @@
     "concevront          concevoiront"
   ],
   [
-    "concourir",
-    "concourrai          concourirai",
-    "concourras          concouriras",
-    "concourra           concourira",
-    "concourrons         concourirons",
-    "concourrez          concourirez",
-    "concourront         concouriront"
-  ],
-  [
     "conquérir",
     "conquerrai          conquérirai",
     "conquerras          conquériras",
@@ -115,15 +97,6 @@
     "conviendrons        convenirons",
     "conviendrez         convenirez",
     "conviendront        conveniront"
-  ],
-  [
-    "courir",
-    "courrai             courirai",
-    "courras             couriras",
-    "courra              courira",
-    "courrons            courirons",
-    "courrez             courirez",
-    "courront            couriront"
   ],
   [
     "cueillir",
@@ -162,15 +135,6 @@
     "disconviendront     disconveniront"
   ],
   [
-    "discourir",
-    "discourrai          discourirai",
-    "discourras          discouriras",
-    "discourra           discourira",
-    "discourrons         discourirons",
-    "discourrez          discourirez",
-    "discourront         discouriront"
-  ],
-  [
     "décevoir",
     "décevrai            décevoirai",
     "décevras            décevoiras",
@@ -178,15 +142,6 @@
     "décevrons           décevoirons",
     "décevrez            décevoirez",
     "décevront           décevoiront"
-  ],
-  [
-    "encourir",
-    "encourrai           encourirai",
-    "encourras           encouriras",
-    "encourra            encourira",
-    "encourrons          encourirons",
-    "encourrez           encourirez",
-    "encourront          encouriront"
   ],
   [
     "enquérir",
@@ -243,15 +198,6 @@
     "messiéront          messeoiront"
   ],
   [
-    "mourir",
-    "mourrai             mourirai",
-    "mourras             mouriras",
-    "mourra              mourira",
-    "mourrons            mourirons",
-    "mourrez             mourirez",
-    "mourront            mouriront"
-  ],
-  [
     "mouvoir",
     "mouvrai             mouvoirai",
     "mouvras             mouvoiras",
@@ -268,15 +214,6 @@
     "obviendrons         obvenirons",
     "obviendrez          obvenirez",
     "obviendront         obveniront"
-  ],
-  [
-    "parcourir",
-    "parcourrai          parcourirai",
-    "parcourras          parcouriras",
-    "parcourra           parcourira",
-    "parcourrons         parcourirons",
-    "parcourrez          parcourirez",
-    "parcourront         parcouriront"
   ],
   [
     "parvenir",
@@ -387,15 +324,6 @@
     "reconquerront       reconquériront"
   ],
   [
-    "recourir",
-    "recourrai           recourirai",
-    "recourras           recouriras",
-    "recourra            recourira",
-    "recourrons          recourirons",
-    "recourrez           recourirez",
-    "recourront          recouriront"
-  ],
-  [
     "recueillir",
     "recueillerai        recueillirai",
     "recueilleras        recueilliras",
@@ -421,15 +349,6 @@
     "redeviendrons       redevenirons",
     "redeviendrez        redevenirez",
     "redeviendront       redeveniront"
-  ],
-  [
-    "reparcourir",
-    "reparcourrai        reparcourirai",
-    "reparcourras        reparcouriras",
-    "reparcourra         reparcourira",
-    "reparcourrons       reparcourirons",
-    "reparcourrez        reparcourirez",
-    "reparcourront       reparcouriront"
   ],
   [
     "requérir",
@@ -484,15 +403,6 @@
     "saurons             savoirons",
     "saurez              savoirez",
     "sauront             savoiront"
-  ],
-  [
-    "secourir",
-    "secourrai           secourirai",
-    "secourras           secouriras",
-    "secourra            secourira",
-    "secourrons          secourirons",
-    "secourrez           secourirez",
-    "secourront          secouriront"
   ],
   [
     "seoir",

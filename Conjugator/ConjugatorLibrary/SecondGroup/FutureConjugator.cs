@@ -10,8 +10,14 @@
             {
                 string stem = verb.TrimEnd("tenir") + "tiendr";
                 return Endings.AddEndings(stem);
-
             }
+
+            if (verb.EndsWith("ourir"))
+            {
+                string stem = verb.TrimEnd("ir") + "r";
+                return Endings.AddEndings(stem);
+            }
+
             string regularStem = GetStem(verb);
 
             return Endings.AddEndings(regularStem);
