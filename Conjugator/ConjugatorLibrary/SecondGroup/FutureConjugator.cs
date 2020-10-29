@@ -18,6 +18,12 @@
                 return Endings.AddEndings(stem);
             }
 
+            if (verb.EndsWith("revoir"))
+            {
+                string stem = verb.TrimEnd("revoir") + "reverr";
+                return Endings.AddEndings(stem);
+            }
+
             if (verb.EndsWith("quérir"))
             {
                 string stem = verb.TrimEnd("quérir") + "querr";

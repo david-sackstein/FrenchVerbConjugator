@@ -9,15 +9,6 @@
     "assoiront           asseoiront"
   ],
   [
-    "entrevoir",
-    "entreverrai         entrevrai",
-    "entreverras         entrevras",
-    "entreverra          entrevra",
-    "entreverrons        entrevrons",
-    "entreverrez         entrevrez",
-    "entreverront        entrevront"
-  ],
-  [
     "falloir",
     "                    falloirai",
     "                    falloiras",
@@ -88,15 +79,6 @@
     "revaudrons          revaloirons",
     "revaudrez           revaloirez",
     "revaudront          revaloiront"
-  ],
-  [
-    "revoir",
-    "reverrai            revrai",
-    "reverras            revras",
-    "reverra             revra",
-    "reverrons           revrons",
-    "reverrez            revrez",
-    "reverront           revront"
   ],
   [
     "savoir",
