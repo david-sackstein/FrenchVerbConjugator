@@ -18,15 +18,6 @@
     "messiéront          messeoiront"
   ],
   [
-    "mouvoir",
-    "mouvrai             mouvoirai",
-    "mouvras             mouvoiras",
-    "mouvra              mouvoira",
-    "mouvrons            mouvoirons",
-    "mouvrez             mouvoirez",
-    "mouvront            mouvoiront"
-  ],
-  [
     "pleuvoir",
     "                    pleuvoirai",
     "                    pleuvoiras",
@@ -34,15 +25,6 @@
     "                    pleuvoirons",
     "                    pleuvoirez",
     "pleuvront           pleuvoiront"
-  ],
-  [
-    "promouvoir",
-    "promouvrai          promouvoirai",
-    "promouvras          promouvoiras",
-    "promouvra           promouvoira",
-    "promouvrons         promouvoirons",
-    "promouvrez          promouvoirez",
-    "promouvront         promouvoiront"
   ],
   [
     "seoir",
@@ -70,14 +52,5 @@
     "voudrons            vouloirons",
     "voudrez             vouloirez",
     "voudront            vouloiront"
-  ],
-  [
-    "émouvoir",
-    "émouvrai            émouvoirai",
-    "émouvras            émouvoiras",
-    "émouvra             émouvoira",
-    "émouvrons           émouvoirons",
-    "émouvrez            émouvoirez",
-    "émouvront           émouvoiront"
   ]
 ]
