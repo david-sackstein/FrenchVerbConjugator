@@ -12,6 +12,12 @@
                 return Endings.AddEndings(stem);
             }
 
+            if (verb.EndsWith("venir"))
+            {
+                string stem = verb.TrimEnd("venir") + "viendr";
+                return Endings.AddEndings(stem);
+            }
+
             if (verb.EndsWith("tenir"))
             {
                 string stem = verb.TrimEnd("tenir") + "tiendr";

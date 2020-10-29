@@ -9,15 +9,6 @@
     "acquerront          acquériront"
   ],
   [
-    "advenir",
-    "adviendrai          advenirai",
-    "adviendras          adveniras",
-    "adviendra           advenira",
-    "adviendrons         advenirons",
-    "adviendrez          advenirez",
-    "adviendront         adveniront"
-  ],
-  [
     "asseoir",
     "assoirai            asseoirai",
     "assoiras            asseoiras",
@@ -25,15 +16,6 @@
     "assoirons           asseoirons",
     "assoirez            asseoirez",
     "assoiront           asseoiront"
-  ],
-  [
-    "circonvenir",
-    "circonviendrai      circonvenirai",
-    "circonviendras      circonveniras",
-    "circonviendra       circonvenira",
-    "circonviendrons     circonvenirons",
-    "circonviendrez      circonvenirez",
-    "circonviendront     circonveniront"
   ],
   [
     "conquérir",
@@ -45,24 +27,6 @@
     "conquerront         conquériront"
   ],
   [
-    "contrevenir",
-    "contreviendrai      contrevenirai",
-    "contreviendras      contreveniras",
-    "contreviendra       contrevenira",
-    "contreviendrons     contrevenirons",
-    "contreviendrez      contrevenirez",
-    "contreviendront     contreveniront"
-  ],
-  [
-    "convenir",
-    "conviendrai         convenirai",
-    "conviendras         conveniras",
-    "conviendra          convenira",
-    "conviendrons        convenirons",
-    "conviendrez         convenirez",
-    "conviendront        conveniront"
-  ],
-  [
     "devoir",
     "devrai              devoirai",
     "devras              devoiras",
@@ -70,24 +34,6 @@
     "devrons             devoirons",
     "devrez              devoirez",
     "devront             devoiront"
-  ],
-  [
-    "devenir",
-    "deviendrai          devenirai",
-    "deviendras          deveniras",
-    "deviendra           devenira",
-    "deviendrons         devenirons",
-    "deviendrez          devenirez",
-    "deviendront         deveniront"
-  ],
-  [
-    "disconvenir",
-    "disconviendrai      disconvenirai",
-    "disconviendras      disconveniras",
-    "disconviendra       disconvenira",
-    "disconviendrons     disconvenirons",
-    "disconviendrez      disconvenirez",
-    "disconviendront     disconveniront"
   ],
   [
     "enquérir",
@@ -117,15 +63,6 @@
     "                    falloiront"
   ],
   [
-    "intervenir",
-    "interviendrai       intervenirai",
-    "interviendras       interveniras",
-    "interviendra        intervenira",
-    "interviendrons      intervenirons",
-    "interviendrez       intervenirez",
-    "interviendront      interveniront"
-  ],
-  [
     "messeoir",
     "                    messeoirai",
     "                    messeoiras",
@@ -142,24 +79,6 @@
     "mouvrons            mouvoirons",
     "mouvrez             mouvoirez",
     "mouvront            mouvoiront"
-  ],
-  [
-    "obvenir",
-    "obviendrai          obvenirai",
-    "obviendras          obveniras",
-    "obviendra           obvenira",
-    "obviendrons         obvenirons",
-    "obviendrez          obvenirez",
-    "obviendront         obveniront"
-  ],
-  [
-    "parvenir",
-    "parviendrai         parvenirai",
-    "parviendras         parveniras",
-    "parviendra          parvenira",
-    "parviendrons        parvenirons",
-    "parviendrez         parvenirez",
-    "parviendront        parveniront"
   ],
   [
     "pouvoir",
@@ -189,15 +108,6 @@
     "promouvront         promouvoiront"
   ],
   [
-    "provenir",
-    "proviendrai         provenirai",
-    "proviendras         proveniras",
-    "proviendra          provenira",
-    "proviendrons        provenirons",
-    "proviendrez         provenirez",
-    "proviendront        proveniront"
-  ],
-  [
     "prévaloir",
     "prévaudrai          prévaloirai",
     "prévaudras          prévaloiras",
@@ -205,15 +115,6 @@
     "prévaudrons         prévaloirons",
     "prévaudrez          prévaloirez",
     "prévaudront         prévaloiront"
-  ],
-  [
-    "prévenir",
-    "préviendrai         prévenirai",
-    "préviendras         préveniras",
-    "préviendra          prévenira",
-    "préviendrons        prévenirons",
-    "préviendrez         prévenirez",
-    "préviendront        préveniront"
   ],
   [
     "rasseoir",
@@ -243,15 +144,6 @@
     "redevront           redevoiront"
   ],
   [
-    "redevenir",
-    "redeviendrai        redevenirai",
-    "redeviendras        redeveniras",
-    "redeviendra         redevenira",
-    "redeviendrons       redevenirons",
-    "redeviendrez        redevenirez",
-    "redeviendront       redeveniront"
-  ],
-  [
     "requérir",
     "requerrai           requérirai",
     "requerras           requériras",
@@ -261,15 +153,6 @@
     "requerront          requériront"
   ],
   [
-    "ressouvenir",
-    "ressouviendrai      ressouvenirai",
-    "ressouviendras      ressouveniras",
-    "ressouviendra       ressouvenira",
-    "ressouviendrons     ressouvenirons",
-    "ressouviendrez      ressouvenirez",
-    "ressouviendront     ressouveniront"
-  ],
-  [
     "revaloir",
     "revaudrai           revaloirai",
     "revaudras           revaloiras",
@@ -277,15 +160,6 @@
     "revaudrons          revaloirons",
     "revaudrez           revaloirez",
     "revaudront          revaloiront"
-  ],
-  [
-    "revenir",
-    "reviendrai          revenirai",
-    "reviendras          reveniras",
-    "reviendra           revenira",
-    "reviendrons         revenirons",
-    "reviendrez          revenirez",
-    "reviendront         reveniront"
   ],
   [
     "revoir",
@@ -315,33 +189,6 @@
     "siéront             seoiront"
   ],
   [
-    "souvenir",
-    "souviendrai         souvenirai",
-    "souviendras         souveniras",
-    "souviendra          souvenira",
-    "souviendrons        souvenirons",
-    "souviendrez         souvenirez",
-    "souviendront        souveniront"
-  ],
-  [
-    "subvenir",
-    "subviendrai         subvenirai",
-    "subviendras         subveniras",
-    "subviendra          subvenira",
-    "subviendrons        subvenirons",
-    "subviendrez         subvenirez",
-    "subviendront        subveniront"
-  ],
-  [
-    "survenir",
-    "surviendrai         survenirai",
-    "surviendras         surveniras",
-    "surviendra          survenira",
-    "surviendrons        survenirons",
-    "surviendrez         survenirez",
-    "surviendront        surveniront"
-  ],
-  [
     "valoir",
     "vaudrai             valoirai",
     "vaudras             valoiras",
@@ -349,15 +196,6 @@
     "vaudrons            valoirons",
     "vaudrez             valoirez",
     "vaudront            valoiront"
-  ],
-  [
-    "venir",
-    "viendrai            venirai",
-    "viendras            veniras",
-    "viendra             venira",
-    "viendrons           venirons",
-    "viendrez            venirez",
-    "viendront           veniront"
   ],
   [
     "voir",
