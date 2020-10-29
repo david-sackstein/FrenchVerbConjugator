@@ -18,6 +18,12 @@
                 return Endings.AddEndings(stem);
             }
 
+            if (verb.EndsWith("valoir"))
+            {
+                string stem = verb.TrimEnd("valoir") + "vaudr";
+                return Endings.AddEndings(stem);
+            }
+
             if (verb.EndsWith("revoir"))
             {
                 string stem = verb.TrimEnd("revoir") + "reverr";

@@ -54,15 +54,6 @@
     "promouvront         promouvoiront"
   ],
   [
-    "prévaloir",
-    "prévaudrai          prévaloirai",
-    "prévaudras          prévaloiras",
-    "prévaudra           prévaloira",
-    "prévaudrons         prévaloirons",
-    "prévaudrez          prévaloirez",
-    "prévaudront         prévaloiront"
-  ],
-  [
     "rasseoir",
     "rassoirai           rasseoirai",
     "rassoiras           rasseoiras",
@@ -70,15 +61,6 @@
     "rassoirons          rasseoirons",
     "rassoirez           rasseoirez",
     "rassoiront          rasseoiront"
-  ],
-  [
-    "revaloir",
-    "revaudrai           revaloirai",
-    "revaudras           revaloiras",
-    "revaudra            revaloira",
-    "revaudrons          revaloirons",
-    "revaudrez           revaloirez",
-    "revaudront          revaloiront"
   ],
   [
     "savoir",
@@ -97,15 +79,6 @@
     "                    seoirons",
     "                    seoirez",
     "siéront             seoiront"
-  ],
-  [
-    "valoir",
-    "vaudrai             valoirai",
-    "vaudras             valoiras",
-    "vaudra              valoira",
-    "vaudrons            valoirons",
-    "vaudrez             valoirez",
-    "vaudront            valoiront"
   ],
   [
     "voir",
@@ -133,14 +106,5 @@
     "émouvrons           émouvoirons",
     "émouvrez            émouvoirez",
     "émouvront           émouvoiront"
-  ],
-  [
-    "équivaloir",
-    "équivaudrai         équivaloirai",
-    "équivaudras         équivaloiras",
-    "équivaudra          équivaloira",
-    "équivaudrons        équivaloirons",
-    "équivaudrez         équivaloirez",
-    "équivaudront        équivaloiront"
   ]
 ]
