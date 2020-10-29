@@ -24,6 +24,12 @@
                 return Endings.AddEndings(stem);
             }
 
+            if (verb == "voir")
+            {
+                string stem = "verr";
+                return Endings.AddEndings(stem);
+            }
+
             if (verb.EndsWith("asseoir"))
             {
                 string stem = verb.TrimEnd("asseoir") + "assoir";

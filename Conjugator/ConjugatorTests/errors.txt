@@ -36,15 +36,6 @@
     "siéront             seoiront"
   ],
   [
-    "voir",
-    "verrai              voirai",
-    "verras              voiras",
-    "verra               voira",
-    "verrons             voirons",
-    "verrez              voirez",
-    "verront             voiront"
-  ],
-  [
     "vouloir",
     "voudrai             vouloirai",
     "voudras             vouloiras",
