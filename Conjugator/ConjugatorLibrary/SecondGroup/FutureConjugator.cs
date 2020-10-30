@@ -23,6 +23,10 @@
                 case "messeoir":
                 case "seoir":
                     return verb.TrimEnd("seoir") + "siér";
+                case "pouvoir":
+                    return "pourr";
+                case "voir":
+                    return "verr";
             }
 
             if (verb.EndsWith("avoir"))
@@ -33,16 +37,6 @@
             if (verb.EndsWith("mouvoir"))
             {
                 return verb.TrimEnd("mouvoir") + "mouvr";
-            }
-
-            if (verb == "pouvoir")
-            {
-                return "pourr";
-            }
-
-            if (verb == "voir")
-            {
-                return "verr";
             }
 
             if (verb.EndsWith("asseoir"))
