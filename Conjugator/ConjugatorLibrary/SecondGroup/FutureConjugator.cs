@@ -6,6 +6,11 @@
 
         public static string[] GetConjugations(string verb)
         {
+            if (verb == "falloir")
+            {
+                return new[] { "", "", "faudra", "", "", ""};
+            }
+
             if (verb.EndsWith("avoir"))
             {
                 string stem = verb.TrimEnd("avoir") + "aur";

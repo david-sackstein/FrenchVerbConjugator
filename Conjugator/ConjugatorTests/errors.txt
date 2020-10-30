@@ -1,14 +1,5 @@
 [
   [
-    "falloir",
-    "                    falloirai",
-    "                    falloiras",
-    "faudra              falloira",
-    "                    falloirons",
-    "                    falloirez",
-    "                    falloiront"
-  ],
-  [
     "messeoir",
     "                    messeoirai",
     "                    messeoiras",
