@@ -11,6 +11,12 @@
                 return new[] { "", "", "faudra", "", "", ""};
             }
 
+            if (verb == "pleuvoir")
+            {
+                string stem = "pleuvr";
+                return Endings.AddEndings(stem);
+            }
+
             if (verb == "vouloir")
             {
                 string stem = "voudr";

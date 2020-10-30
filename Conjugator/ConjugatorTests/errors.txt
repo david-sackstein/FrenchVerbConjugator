@@ -9,15 +9,6 @@
     "messiéront          messeoiront"
   ],
   [
-    "pleuvoir",
-    "                    pleuvoirai",
-    "                    pleuvoiras",
-    "pleuvra             pleuvoira",
-    "                    pleuvoirons",
-    "                    pleuvoirez",
-    "pleuvront           pleuvoiront"
-  ],
-  [
     "seoir",
     "                    seoirai",
     "                    seoiras",
