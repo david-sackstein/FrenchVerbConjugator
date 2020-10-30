@@ -5,132 +5,139 @@ namespace ConjugatorLibrary.SecondGroup
 {
     public static class ParticipePasseConjugator
     {
-        public static string[] Endings { get; } = {"i", "is", "ie", "ies"};
+        private static string[] Endings { get; } = {"i", "is", "ie", "ies"};
 
         public static string[] GetConjugations(string verb)
         {
-            if (verb == "avoir")
+            Func<string, (bool, string[])>[] irregularHandlers = {
+                ExplicitExceptions, 
+                WithIsEndings, 
+                WithErtEndings, 
+                AddUEndings
+            };
+
+            foreach (var handler in irregularHandlers)
             {
-                return new[] { "eu",  "eus",  "eue",  "eues"};
+                (bool isHandled, string[] conjugations) = handler(verb);
+                if (isHandled)
+                {
+                    return conjugations;
+                }
             }
 
-            if (verb == "pouvoir")
-            {
-                return Enumerable.Repeat("pu", 4).ToArray();
-            }
-
-            if (verb == "pleuvoir")
-            {
-                return Enumerable.Repeat("plu", 4).ToArray();
-            }
-
-            if (verb == "falloir")
-            {
-                return Enumerable.Repeat("fallu", 4).ToArray();
-            }
-
-            if (verb == "mourir")
-            {
-                string[] endings = { "t", "ts", "te", "tes" };
-
-                return endings.AddEndings("mor");
-            }
-
-            if (verb == "mouvoir")
-            {
-                // dubious because devoir doesnt work like this
-                string[] endings = { "û", "ûs", "ûe", "ûes" };
-                return endings.AddEndings("m");
-            }
+            // regular
 
             string stem = GetStem(verb);
+            return Endings.AddEndings(stem);
+        }
 
-            if (verb.EndsWith("eoir"))
+        private static (bool, string[]) ExplicitExceptions(string verb)
+        {
+            return verb switch
             {
-                string shortenedStem = verb.TrimEnd("eoir");
-                string[] endings = { "is", "is", "ise", "ises" };
-                return endings.AddEndings(shortenedStem);
+                "avoir" => (true, new[] {"eu", "eus", "eue", "eues"}),
+                "pouvoir" => (true, Enumerable.Repeat("pu", 4).ToArray()),
+                "pleuvoir" => (true, Enumerable.Repeat("plu", 4).ToArray()),
+                "falloir" => (true, Enumerable.Repeat("fallu", 4).ToArray()),
+                "mourir" => (true, new[] {"mort", "morts", "morte", "mortes"}),
+                "mouvoir" => (true, new[] {"mû", "mûs", "mûe", "mûes"}), // dubious because devoir doesnt work like this
+                _ => (false, null)
+            };
+        }
+
+        private static (bool, string[]) AddUEndings(string verb)
+        {
+            (bool, string[]) _AddUEndings(string stem)
+            {
+                string[] uEndings = { "u", "us", "ue", "ues" };
+                return (true, uEndings.AddEndings(stem));
             }
 
-            if (verb.EndsWith("ouvrir") || verb == "offrir" || verb == "souffrir")
+            if (Exceptions.devoirVerbs.Contains(verb))
             {
-                string shortenedStem = verb.TrimEnd("rir");
-                string[] endings = { "ert", "erts", "erte", "ertes" };
-                return endings.AddEndings(shortenedStem);
+                string shortenedStem = verb.TrimEnd("evoir");
+                string[] withCircumflex = { "û", "us", "ue", "ues" };
+                return (true, withCircumflex.AddEndings(shortenedStem));
+            }
+
+            if (Exceptions.cevoirVerbs.Contains(verb))
+            {
+                string shortenedStem = verb.TrimEnd("cevoir") + "ç";
+                return _AddUEndings(shortenedStem);
             }
 
             if (verb == "savoir")
             {
                 string shortenedStem = verb.TrimEnd("avoir");
-                string[] endings = { "u", "us", "ue", "ues" };
-                return endings.AddEndings(shortenedStem);
+                return _AddUEndings(shortenedStem);
             }
 
-            if (verb.EndsWith("devoir"))
-            {
-                string shortenedStem = verb.TrimEnd("evoir");
-                string[] endings = { "û", "us", "ue", "ues" };
-
-                return endings.AddEndings(shortenedStem);
-            }
-
-            if (verb.EndsWith("ouvoir"))
+            if (verb == "promouvoir" || verb == "émouvoir")
             {
                 string shortenedStem = verb.TrimEnd("ouvoir");
-                string[] endings = { "u", "us", "ue", "ues" };
-                return endings.AddEndings(shortenedStem);
+                return _AddUEndings(shortenedStem);
             }
 
-            if (verb.EndsWith("cevoir"))
+            if (new[] {"dévêtir", "férir", "revêtir", "vêtir", "issir"}.Contains(verb))
             {
-                string shortenedStem = verb.TrimEnd("cevoir") + "ç";
-                string[] endings = { "u", "us", "ue", "ues" };
-
-                return endings.AddEndings(shortenedStem);
-            }
-
-            if (verb == "dévêtir" || verb == "férir" || verb == "revêtir" || verb == "vêtir" || verb == "issir")
-            {
-                string[] endings = { "u", "us", "ue", "ues" };
-                return endings.AddEndings(stem);
-            }
-
-            if (verb.EndsWith("uérir") && verb != "guérir")
-            {
-                string shortenedStem = verb.TrimEnd("érir");
-                string[] endings = { "is", "is", "ise", "ises" };
-                return endings.AddEndings(shortenedStem);
-            }
-
-            if (verb == "rassir")
-            {
-                string[] endings = { "is", "is", "ise", "ises" };
-                return endings.AddEndings(stem);
+                string stem = verb.TrimEnd("ir");
+                return _AddUEndings(stem);
             }
 
             if (verb.EndsWith("oir"))
             {
                 string shortenedStem = verb.TrimEnd("oir");
-                string[] endings = { "u", "us", "ue", "ues" };
-                return endings.AddEndings(shortenedStem);
+                return _AddUEndings(shortenedStem);
             }
 
             if (verb.EndsWith("enir") || verb.EndsWith("ourir"))
             {
-                string[] endings = {"u", "us", "ue", "ues"};
-                return endings.AddEndings(stem);
+                string stem = verb.TrimEnd("ir");
+                return _AddUEndings(stem);
             }
 
-            return Endings.AddEndings(stem);
+            return (false, null);
+        }
+
+        private static (bool, string[]) WithErtEndings(string verb)
+        {
+            if (Exceptions.verbsWithErtEndings.Contains(verb))
+            {
+                string shortenedStem = verb.TrimEnd("rir");
+                string[] endings = {"ert", "erts", "erte", "ertes"};
+                return (true, endings.AddEndings(shortenedStem));
+            }
+
+            return (false, null);
+        }
+
+        private static (bool, string[]) WithIsEndings(string verb)
+        {
+            string[] endings = { "is", "is", "ise", "ises" };
+
+            if (verb.EndsWith("eoir"))
+            {
+                string shortenedStem = verb.TrimEnd("eoir");
+                return (true, endings.AddEndings(shortenedStem));
+            }
+
+            if (verb.EndsWith("uérir") && verb != "guérir")
+            {
+                string shortenedStem = verb.TrimEnd("érir");
+                return (true, endings.AddEndings(shortenedStem));
+            }
+
+            if (verb == "rassir")
+            {
+                string stem = verb.TrimEnd("ir");
+                return (true, endings.AddEndings(stem));
+            }
+
+            return (false, null);
         }
 
         private static string GetStem(string verb)
         {
-            if (verb == "aller")
-            {
-                return "all";
-            }
-
             return verb.Remove(verb.Length - 2);
         }
     }

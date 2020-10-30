@@ -1,9 +1,1 @@
-[
-  [
-    "mourir",
-    "mort                mourt",
-    "morts               mourts",
-    "morte               mourte",
-    "mortes              mourtes"
-  ]
-]
+[]

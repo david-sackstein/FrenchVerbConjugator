@@ -1,4 +1,6 @@
-﻿namespace ConjugatorLibrary.SecondGroup
+﻿using System.Linq;
+
+namespace ConjugatorLibrary.SecondGroup
 {
     static class Exceptions
     {
@@ -10,13 +12,17 @@
             "rendormir", "ressentir", "resservir", "sentir", "servir"
         };
 
-        public static readonly string[] verbsWithErEndings =
-        {
-            "accueillir", "assaillir", "couvrir", "cueillir", 
-            "découvrir", "défaillir", "entrouvrir", "offrir", 
-            "ouvrir", "recouvrir", "recueillir", "redécouvrir", 
-            "rouvrir", "réouvrir", "souffrir", "tressaillir"
+        public static readonly string[] verbsWithErtEndings = {
+            "offrir", "souffrir",
+            "couvrir", "découvrir", "entrouvrir", "ouvrir", 
+            "recouvrir", "redécouvrir", "rouvrir", "réouvrir",
         };
+
+        public static readonly string[] verbsWithErEndings = verbsWithErtEndings.Concat(new[]
+        {
+            "accueillir", "assaillir", "recueillir", "cueillir", 
+            "défaillir", "tressaillir"
+        }).ToArray();
 
         public static readonly string[] verbsWithYonsEndings =
         {
@@ -28,7 +34,7 @@
         public static readonly string[] cevoirVerbs =
         {
             "apercevoir", "concevoir", "décevoir", "entrapercevoir", 
-            "percevoir", "recevoir", "préconcevoir"
+            "percevoir", "préconcevoir", "recevoir"
         };
 
         public static readonly string[] devoirVerbs =
