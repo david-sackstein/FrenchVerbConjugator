@@ -6,7 +6,7 @@
 
         public static string[] GetConjugations(string verb)
         {
-            var stem = GetStem(verb);
+            string stem = GetStem(verb);
             return Endings.AddEndings(stem);
         }
 
@@ -22,7 +22,7 @@
                     return "voudr";
                 case "messeoir":
                 case "seoir":
-                    return verb.TrimEnd("seoir") + "siér";
+                    return verb.ReplaceEnd("seoir", "siér");
                 case "pouvoir":
                     return "pourr";
                 case "voir":
@@ -31,62 +31,62 @@
 
             if (verb.EndsWith("avoir"))
             {
-                return verb.TrimEnd("avoir") + "aur";
+                return verb.ReplaceEnd("avoir", "aur");
             }
 
             if (verb.EndsWith("mouvoir"))
             {
-                return verb.TrimEnd("mouvoir") + "mouvr";
+                return verb.ReplaceEnd("mouvoir", "mouvr");
             }
 
             if (verb.EndsWith("asseoir"))
             {
-                return verb.TrimEnd("asseoir") + "assoir";
+                return verb.ReplaceEnd("asseoir", "assoir");
             }
 
             if (verb.EndsWith("valoir"))
             {
-                return verb.TrimEnd("valoir") + "vaudr";
+                return verb.ReplaceEnd("valoir", "vaudr");
             }
 
             if (verb.EndsWith("revoir"))
             {
-                return verb.TrimEnd("revoir") + "reverr";
+                return verb.ReplaceEnd("revoir", "reverr");
             }
 
             if (verb.EndsWith("quérir"))
             {
-                return verb.TrimEnd("quérir") + "querr";
+                return verb.ReplaceEnd("quérir", "querr");
             }
 
             if (verb.EndsWith("evoir"))
             {
-                return verb.TrimEnd("evoir") + "evr";
+                return verb.ReplaceEnd("evoir", "evr");
             }
 
             if (verb.EndsWith("venir"))
             {
-                return verb.TrimEnd("venir") + "viendr";
+                return verb.ReplaceEnd("venir", "viendr");
             }
 
             if (verb.EndsWith("tenir"))
             {
-                return verb.TrimEnd("tenir") + "tiendr";
+                return verb.ReplaceEnd("tenir", "tiendr");
             }
 
             if (verb.EndsWith("ourir"))
             {
-                return verb.TrimEnd("ir") + "r";
+                return verb.ReplaceEnd("ir", "r");
             }
 
             if (verb.EndsWith("cueillir"))
             {
-                return verb.TrimEnd("ir") + "er";
+                return verb.ReplaceEnd("ir", "er");
             }
 
             if (verb.EndsWith("cevoir"))
             {
-                return verb.TrimEnd("cevoir") + "cevr";
+                return verb.ReplaceEnd("cevoir", "cevr");
             }
 
             return verb;
