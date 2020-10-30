@@ -25,14 +25,5 @@
     "                    seoirons",
     "                    seoirez",
     "siéront             seoiront"
-  ],
-  [
-    "vouloir",
-    "voudrai             vouloirai",
-    "voudras             vouloiras",
-    "voudra              vouloira",
-    "voudrons            vouloirons",
-    "voudrez             vouloirez",
-    "voudront            vouloiront"
   ]
 ]

@@ -11,6 +11,12 @@
                 return new[] { "", "", "faudra", "", "", ""};
             }
 
+            if (verb == "vouloir")
+            {
+                string stem = "voudr";
+                return Endings.AddEndings(stem);
+            }
+
             if (verb.EndsWith("avoir"))
             {
                 string stem = verb.TrimEnd("avoir") + "aur";
