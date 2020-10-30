@@ -8,7 +8,8 @@
         {
             if (verb == "falloir")
             {
-                return new[] { "", "", "faudra", "", "", ""};
+                string stem = "faudr";
+                return Endings.AddEndings(stem);
             }
 
             if (verb == "pleuvoir")
@@ -20,6 +21,12 @@
             if (verb == "vouloir")
             {
                 string stem = "voudr";
+                return Endings.AddEndings(stem);
+            }
+
+            if (verb == "messeoir" || verb == "seoir")
+            {
+                string stem = verb.TrimEnd("seoir") + "siér";
                 return Endings.AddEndings(stem);
             }
 
