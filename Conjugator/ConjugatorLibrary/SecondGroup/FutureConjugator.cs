@@ -29,64 +29,27 @@
                     return "verr";
             }
 
-            if (verb.EndsWith("avoir"))
-            {
-                return verb.ReplaceEnd("avoir", "aur");
-            }
+            (string, string)[] a = {
+                ("avoir", "aur"),
+                ("mouvoir", "mouvr"),
+                ("asseoir", "assoir"),
+                ("valoir", "vaudr"),
+                ("revoir", "reverr"),
+                ("quérir", "querr"),
+                ("evoir", "evr"),
+                ("venir", "viendr"),
+                ("tenir", "tiendr"),
+                ("cevoir", "cevr"),
+                ("ourir", "ourr"),
+                ("cueillir", "cueiller")
+            };
 
-            if (verb.EndsWith("mouvoir"))
+            foreach(var aa in a)
             {
-                return verb.ReplaceEnd("mouvoir", "mouvr");
-            }
-
-            if (verb.EndsWith("asseoir"))
-            {
-                return verb.ReplaceEnd("asseoir", "assoir");
-            }
-
-            if (verb.EndsWith("valoir"))
-            {
-                return verb.ReplaceEnd("valoir", "vaudr");
-            }
-
-            if (verb.EndsWith("revoir"))
-            {
-                return verb.ReplaceEnd("revoir", "reverr");
-            }
-
-            if (verb.EndsWith("quérir"))
-            {
-                return verb.ReplaceEnd("quérir", "querr");
-            }
-
-            if (verb.EndsWith("evoir"))
-            {
-                return verb.ReplaceEnd("evoir", "evr");
-            }
-
-            if (verb.EndsWith("venir"))
-            {
-                return verb.ReplaceEnd("venir", "viendr");
-            }
-
-            if (verb.EndsWith("tenir"))
-            {
-                return verb.ReplaceEnd("tenir", "tiendr");
-            }
-
-            if (verb.EndsWith("ourir"))
-            {
-                return verb.ReplaceEnd("ir", "r");
-            }
-
-            if (verb.EndsWith("cueillir"))
-            {
-                return verb.ReplaceEnd("ir", "er");
-            }
-
-            if (verb.EndsWith("cevoir"))
-            {
-                return verb.ReplaceEnd("cevoir", "cevr");
+                if (verb.EndsWith(aa.Item1))
+                {
+                    return verb.ReplaceEnd(aa.Item1, aa.Item2);
+                }
             }
 
             return verb;
