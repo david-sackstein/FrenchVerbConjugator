@@ -6,9 +6,9 @@ namespace ConjugatorLibrary.SecondGroup
     {
         public static string[] GetConjugations(string verb)
         {
-            if (verb == "aller")
+            if (verb == "avoir")
             {
-                return new[] {"aille", "ailles", "aille", "allions", "alliez", "aillent"};
+                return new[] { "aie", "aies", "ait", "ayons", "ayez", "aient"};
             }
 
             string[] endings = {"e", "es", "e", "ions", "iez", "ent"};
