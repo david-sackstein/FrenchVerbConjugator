@@ -7,10 +7,16 @@ namespace ConjugatorLibrary.SecondGroup
     {
         public static string[] GetConjugations(string verb)
         {
-            if (verb == "accueillir")
+            if (verb == "savoir")
             {
-                Console.WriteLine();
+                return new[] {"", "sache", "" , "sachons", "sachez", ""  };
             }
+
+            if (verb == "faillir")
+            {
+                return new[] {"", "faille", "" , "faillons", "faillez", ""  };
+            }
+
             if (verb == "avoir")
             {
                 return new[] {"", "aie", "" , "ayons", "ayez", ""  };
