@@ -12,18 +12,24 @@ namespace ConjugatorLibrary.SecondGroup
             }
 
             string[] endings = {"e", "es", "e", "ions", "iez", "ent"};
-
             return ApplyEndings(endings, verb);
         }
 
         private static string[] ApplyEndings(string[] endings, string verb)
         {
-            string stem = verb.Remove(verb.Length - 2);
+            try
+            {
+                string stem = PresentConjugator.GetConjugations(verb)[3].TrimEnd("ons"); //verb.Remove(verb.Length - 2);
 
-            // determine the stem for je, tu, il, ils ("modifiedStem") which may
-            // not be the same as for nous and vous
+                // determine the stem for je, tu, il, ils ("modifiedStem") which may
+                // not be the same as for nous and vous
 
-            return AddEndings(endings, stem);
+                return AddEndings(endings, stem);
+            }
+            catch
+            {
+                return AddEndings(endings, verb);
+            }
         }
 
         private static string[] AddEndings(string[] endings, string modifiedStem, string nousVousStem)
