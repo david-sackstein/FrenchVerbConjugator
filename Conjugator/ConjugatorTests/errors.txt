@@ -1,68 +1,5 @@
 [
   [
-    "accueillir",
-    "NA                  ",
-    "accueille           accueilles",
-    "NA                  ",
-    "accueillons         accueillons",
-    "accueillez          accueillez",
-    "NA                  "
-  ],
-  [
-    "assaillir",
-    "NA                  ",
-    "assaille            assailles",
-    "NA                  ",
-    "assaillons          assaillons",
-    "assaillez           assaillez",
-    "NA                  "
-  ],
-  [
-    "couvrir",
-    "NA                  ",
-    "couvre              couvres",
-    "NA                  ",
-    "couvrons            couvrons",
-    "couvrez             couvrez",
-    "NA                  "
-  ],
-  [
-    "cueillir",
-    "NA                  ",
-    "cueille             cueilles",
-    "NA                  ",
-    "cueillons           cueillons",
-    "cueillez            cueillez",
-    "NA                  "
-  ],
-  [
-    "découvrir",
-    "NA                  ",
-    "découvre            découvres",
-    "NA                  ",
-    "découvrons          découvrons",
-    "découvrez           découvrez",
-    "NA                  "
-  ],
-  [
-    "défaillir",
-    "NA                  ",
-    "défaille            défailles",
-    "NA                  ",
-    "défaillons          défaillons",
-    "défaillez           défaillez",
-    "NA                  "
-  ],
-  [
-    "entrouvrir",
-    "NA                  ",
-    "entrouvre           entrouvres",
-    "NA                  ",
-    "entrouvrons         entrouvrons",
-    "entrouvrez          entrouvrez",
-    "NA                  "
-  ],
-  [
     "faillir",
     "NA                  ",
     "faille              faux",
@@ -72,75 +9,12 @@
     "NA                  "
   ],
   [
-    "offrir",
-    "NA                  ",
-    "offre               offres",
-    "NA                  ",
-    "offrons             offrons",
-    "offrez              offrez",
-    "NA                  "
-  ],
-  [
-    "ouvrir",
-    "NA                  ",
-    "ouvre               ouvres",
-    "NA                  ",
-    "ouvrons             ouvrons",
-    "ouvrez              ouvrez",
-    "NA                  "
-  ],
-  [
-    "recouvrir",
-    "NA                  ",
-    "recouvre            recouvres",
-    "NA                  ",
-    "recouvrons          recouvrons",
-    "recouvrez           recouvrez",
-    "NA                  "
-  ],
-  [
-    "recueillir",
-    "NA                  ",
-    "recueille           recueilles",
-    "NA                  ",
-    "recueillons         recueillons",
-    "recueillez          recueillez",
-    "NA                  "
-  ],
-  [
-    "redécouvrir",
-    "NA                  ",
-    "redécouvre          redécouvres",
-    "NA                  ",
-    "redécouvrons        redécouvrons",
-    "redécouvrez         redécouvrez",
-    "NA                  "
-  ],
-  [
     "ressortir",
     "NA                  ",
     "ressortis           ressortis",
     "NA                  ",
     "ressortons          ressortissons",
     "ressortissez        ressortissez",
-    "NA                  "
-  ],
-  [
-    "rouvrir",
-    "NA                  ",
-    "rouvre              rouvres",
-    "NA                  ",
-    "rouvrons            rouvrons",
-    "rouvrez             rouvrez",
-    "NA                  "
-  ],
-  [
-    "réouvrir",
-    "NA                  ",
-    "réouvre             réouvres",
-    "NA                  ",
-    "réouvrons           réouvrons",
-    "réouvrez            réouvrez",
     "NA                  "
   ],
   [
@@ -159,24 +33,6 @@
     "NA                  ",
     "saillons            saillissons",
     "saillissez          saillissez",
-    "NA                  "
-  ],
-  [
-    "souffrir",
-    "NA                  ",
-    "souffre             souffres",
-    "NA                  ",
-    "souffrons           souffrons",
-    "souffrez            souffrez",
-    "NA                  "
-  ],
-  [
-    "tressaillir",
-    "NA                  ",
-    "tressaille          tressailles",
-    "NA                  ",
-    "tressaillons        tressaillons",
-    "tressaillez         tressaillez",
     "NA                  "
   ]
 ]
