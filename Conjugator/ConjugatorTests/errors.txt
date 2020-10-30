@@ -1,1 +1,3458 @@
-[]
+[
+  [
+    "avoir",
+    "aie                 avoe",
+    "aies                avoes",
+    "ait                 avoe",
+    "ayons               avoions",
+    "ayez                avoiez",
+    "aient               avoent"
+  ],
+  [
+    "abasourdir",
+    "abasourdisse        abasourde",
+    "abasourdisses       abasourdes",
+    "abasourdisse        abasourde",
+    "abasourdissions     abasourdions",
+    "abasourdissiez      abasourdiez",
+    "abasourdissent      abasourdent"
+  ],
+  [
+    "abolir",
+    "abolisse            abole",
+    "abolisses           aboles",
+    "abolisse            abole",
+    "abolissions         abolions",
+    "abolissiez          aboliez",
+    "abolissent          abolent"
+  ],
+  [
+    "abonnir",
+    "abonnisse           abonne",
+    "abonnisses          abonnes",
+    "abonnisse           abonne",
+    "abonnissions        abonnions",
+    "abonnissiez         abonniez",
+    "abonnissent         abonnent"
+  ],
+  [
+    "aboutir",
+    "aboutisse           aboute",
+    "aboutisses          aboutes",
+    "aboutisse           aboute",
+    "aboutissions        aboutions",
+    "aboutissiez         aboutiez",
+    "aboutissent         aboutent"
+  ],
+  [
+    "abrutir",
+    "abrutisse           abrute",
+    "abrutisses          abrutes",
+    "abrutisse           abrute",
+    "abrutissions        abrutions",
+    "abrutissiez         abrutiez",
+    "abrutissent         abrutent"
+  ],
+  [
+    "abstenir",
+    "abstienne           abstene",
+    "abstiennes          abstenes",
+    "abstienne           abstene",
+    "abstenions          abstenions",
+    "absteniez           absteniez",
+    "abstiennent         abstenent"
+  ],
+  [
+    "abâtardir",
+    "abâtardisse         abâtarde",
+    "abâtardisses        abâtardes",
+    "abâtardisse         abâtarde",
+    "abâtardissions      abâtardions",
+    "abâtardissiez       abâtardiez",
+    "abâtardissent       abâtardent"
+  ],
+  [
+    "abêtir",
+    "abêtisse            abête",
+    "abêtisses           abêtes",
+    "abêtisse            abête",
+    "abêtissions         abêtions",
+    "abêtissiez          abêtiez",
+    "abêtissent          abêtent"
+  ],
+  [
+    "accomplir",
+    "accomplisse         accomple",
+    "accomplisses        accomples",
+    "accomplisse         accomple",
+    "accomplissions      accomplions",
+    "accomplissiez       accompliez",
+    "accomplissent       accomplent"
+  ],
+  [
+    "accourcir",
+    "accourcisse         accource",
+    "accourcisses        accources",
+    "accourcisse         accource",
+    "accourcissions      accourcions",
+    "accourcissiez       accourciez",
+    "accourcissent       accourcent"
+  ],
+  [
+    "accroupir",
+    "accroupisse         accroupe",
+    "accroupisses        accroupes",
+    "accroupisse         accroupe",
+    "accroupissions      accroupions",
+    "accroupissiez       accroupiez",
+    "accroupissent       accroupent"
+  ],
+  [
+    "acquérir",
+    "acquière            acquére",
+    "acquières           acquéres",
+    "acquière            acquére",
+    "acquérions          acquérions",
+    "acquériez           acquériez",
+    "acquièrent          acquérent"
+  ],
+  [
+    "adoucir",
+    "adoucisse           adouce",
+    "adoucisses          adouces",
+    "adoucisse           adouce",
+    "adoucissions        adoucions",
+    "adoucissiez         adouciez",
+    "adoucissent         adoucent"
+  ],
+  [
+    "advenir",
+    "advienne            advene",
+    "adviennes           advenes",
+    "advienne            advene",
+    "advenions           advenions",
+    "adveniez            adveniez",
+    "adviennent          advenent"
+  ],
+  [
+    "affadir",
+    "affadisse           affade",
+    "affadisses          affades",
+    "affadisse           affade",
+    "affadissions        affadions",
+    "affadissiez         affadiez",
+    "affadissent         affadent"
+  ],
+  [
+    "affaiblir",
+    "affaiblisse         affaible",
+    "affaiblisses        affaibles",
+    "affaiblisse         affaible",
+    "affaiblissions      affaiblions",
+    "affaiblissiez       affaibliez",
+    "affaiblissent       affaiblent"
+  ],
+  [
+    "affermir",
+    "affermisse          afferme",
+    "affermisses         affermes",
+    "affermisse          afferme",
+    "affermissions       affermions",
+    "affermissiez        affermiez",
+    "affermissent        afferment"
+  ],
+  [
+    "affranchir",
+    "affranchisse        affranche",
+    "affranchisses       affranches",
+    "affranchisse        affranche",
+    "affranchissions     affranchions",
+    "affranchissiez      affranchiez",
+    "affranchissent      affranchent"
+  ],
+  [
+    "agir",
+    "agisse              age",
+    "agisses             ages",
+    "agisse              age",
+    "agissions           agions",
+    "agissiez            agiez",
+    "agissent            agent"
+  ],
+  [
+    "agonir",
+    "agonisse            agone",
+    "agonisses           agones",
+    "agonisse            agone",
+    "agonissions         agonions",
+    "agonissiez          agoniez",
+    "agonissent          agonent"
+  ],
+  [
+    "agrandir",
+    "agrandisse          agrande",
+    "agrandisses         agrandes",
+    "agrandisse          agrande",
+    "agrandissions       agrandions",
+    "agrandissiez        agrandiez",
+    "agrandissent        agrandent"
+  ],
+  [
+    "aguerrir",
+    "aguerrisse          aguerre",
+    "aguerrisses         aguerres",
+    "aguerrisse          aguerre",
+    "aguerrissions       aguerrions",
+    "aguerrissiez        aguerriez",
+    "aguerrissent        aguerrent"
+  ],
+  [
+    "ahurir",
+    "ahurisse            ahure",
+    "ahurisses           ahures",
+    "ahurisse            ahure",
+    "ahurissions         ahurions",
+    "ahurissiez          ahuriez",
+    "ahurissent          ahurent"
+  ],
+  [
+    "aigrir",
+    "aigrisse            aigre",
+    "aigrisses           aigres",
+    "aigrisse            aigre",
+    "aigrissions         aigrions",
+    "aigrissiez          aigriez",
+    "aigrissent          aigrent"
+  ],
+  [
+    "alanguir",
+    "alanguisse          alangue",
+    "alanguisses         alangues",
+    "alanguisse          alangue",
+    "alanguissions       alanguions",
+    "alanguissiez        alanguiez",
+    "alanguissent        alanguent"
+  ],
+  [
+    "alourdir",
+    "alourdisse          alourde",
+    "alourdisses         alourdes",
+    "alourdisse          alourde",
+    "alourdissions       alourdions",
+    "alourdissiez        alourdiez",
+    "alourdissent        alourdent"
+  ],
+  [
+    "alunir",
+    "alunisse            alune",
+    "alunisses           alunes",
+    "alunisse            alune",
+    "alunissions         alunions",
+    "alunissiez          aluniez",
+    "alunissent          alunent"
+  ],
+  [
+    "amaigrir",
+    "amaigrisse          amaigre",
+    "amaigrisses         amaigres",
+    "amaigrisse          amaigre",
+    "amaigrissions       amaigrions",
+    "amaigrissiez        amaigriez",
+    "amaigrissent        amaigrent"
+  ],
+  [
+    "amatir",
+    "amatisse            amate",
+    "amatisses           amates",
+    "amatisse            amate",
+    "amatissions         amations",
+    "amatissiez          amatiez",
+    "amatissent          amatent"
+  ],
+  [
+    "amerrir",
+    "amerrisse           amerre",
+    "amerrisses          amerres",
+    "amerrisse           amerre",
+    "amerrissions        amerrions",
+    "amerrissiez         amerriez",
+    "amerrissent         amerrent"
+  ],
+  [
+    "ameublir",
+    "ameublisse          ameuble",
+    "ameublisses         ameubles",
+    "ameublisse          ameuble",
+    "ameublissions       ameublions",
+    "ameublissiez        ameubliez",
+    "ameublissent        ameublent"
+  ],
+  [
+    "amincir",
+    "amincisse           amince",
+    "amincisses          aminces",
+    "amincisse           amince",
+    "amincissions        amincions",
+    "amincissiez         aminciez",
+    "amincissent         amincent"
+  ],
+  [
+    "amoindrir",
+    "amoindrisse         amoindre",
+    "amoindrisses        amoindres",
+    "amoindrisse         amoindre",
+    "amoindrissions      amoindrions",
+    "amoindrissiez       amoindriez",
+    "amoindrissent       amoindrent"
+  ],
+  [
+    "amollir",
+    "amollisse           amolle",
+    "amollisses          amolles",
+    "amollisse           amolle",
+    "amollissions        amollions",
+    "amollissiez         amolliez",
+    "amollissent         amollent"
+  ],
+  [
+    "amortir",
+    "amortisse           amorte",
+    "amortisses          amortes",
+    "amortisse           amorte",
+    "amortissions        amortions",
+    "amortissiez         amortiez",
+    "amortissent         amortent"
+  ],
+  [
+    "anoblir",
+    "anoblisse           anoble",
+    "anoblisses          anobles",
+    "anoblisse           anoble",
+    "anoblissions        anoblions",
+    "anoblissiez         anobliez",
+    "anoblissent         anoblent"
+  ],
+  [
+    "anordir",
+    "anordisse           anorde",
+    "anordisses          anordes",
+    "anordisse           anorde",
+    "anordissions        anordions",
+    "anordissiez         anordiez",
+    "anordissent         anordent"
+  ],
+  [
+    "anéantir",
+    "anéantisse          anéante",
+    "anéantisses         anéantes",
+    "anéantisse          anéante",
+    "anéantissions       anéantions",
+    "anéantissiez        anéantiez",
+    "anéantissent        anéantent"
+  ],
+  [
+    "apercevoir",
+    "aperçoive           apercevoe",
+    "aperçoives          apercevoes",
+    "aperçoive           apercevoe",
+    "apercevions         apercevoions",
+    "aperceviez          apercevoiez",
+    "aperçoivent         apercevoent"
+  ],
+  [
+    "aplanir",
+    "aplanisse           aplane",
+    "aplanisses          aplanes",
+    "aplanisse           aplane",
+    "aplanissions        aplanions",
+    "aplanissiez         aplaniez",
+    "aplanissent         aplanent"
+  ],
+  [
+    "aplatir",
+    "aplatisse           aplate",
+    "aplatisses          aplates",
+    "aplatisse           aplate",
+    "aplatissions        aplations",
+    "aplatissiez         aplatiez",
+    "aplatissent         aplatent"
+  ],
+  [
+    "appartenir",
+    "appartienne         appartene",
+    "appartiennes        appartenes",
+    "appartienne         appartene",
+    "appartenions        appartenions",
+    "apparteniez         apparteniez",
+    "appartiennent       appartenent"
+  ],
+  [
+    "appauvrir",
+    "appauvrisse         appauvre",
+    "appauvrisses        appauvres",
+    "appauvrisse         appauvre",
+    "appauvrissions      appauvrions",
+    "appauvrissiez       appauvriez",
+    "appauvrissent       appauvrent"
+  ],
+  [
+    "appesantir",
+    "appesantisse        appesante",
+    "appesantisses       appesantes",
+    "appesantisse        appesante",
+    "appesantissions     appesantions",
+    "appesantissiez      appesantiez",
+    "appesantissent      appesantent"
+  ],
+  [
+    "applaudir",
+    "applaudisse         applaude",
+    "applaudisses        applaudes",
+    "applaudisse         applaude",
+    "applaudissions      applaudions",
+    "applaudissiez       applaudiez",
+    "applaudissent       applaudent"
+  ],
+  [
+    "approfondir",
+    "approfondisse       approfonde",
+    "approfondisses      approfondes",
+    "approfondisse       approfonde",
+    "approfondissions    approfondions",
+    "approfondissiez     approfondiez",
+    "approfondissent     approfondent"
+  ],
+  [
+    "arrondir",
+    "arrondisse          arronde",
+    "arrondisses         arrondes",
+    "arrondisse          arronde",
+    "arrondissions       arrondions",
+    "arrondissiez        arrondiez",
+    "arrondissent        arrondent"
+  ],
+  [
+    "assagir",
+    "assagisse           assage",
+    "assagisses          assages",
+    "assagisse           assage",
+    "assagissions        assagions",
+    "assagissiez         assagiez",
+    "assagissent         assagent"
+  ],
+  [
+    "assainir",
+    "assainisse          assaine",
+    "assainisses         assaines",
+    "assainisse          assaine",
+    "assainissions       assainions",
+    "assainissiez        assainiez",
+    "assainissent        assainent"
+  ],
+  [
+    "asseoir",
+    "assoie              asseoe",
+    "assoies             asseoes",
+    "assoie              asseoe",
+    "assoyions           asseoions",
+    "assoyiez            asseoiez",
+    "assoient            asseoent"
+  ],
+  [
+    "asservir",
+    "asservisse          asserve",
+    "asservisses         asserves",
+    "asservisse          asserve",
+    "asservissions       asservions",
+    "asservissiez        asserviez",
+    "asservissent        asservent"
+  ],
+  [
+    "assombrir",
+    "assombrisse         assombre",
+    "assombrisses        assombres",
+    "assombrisse         assombre",
+    "assombrissions      assombrions",
+    "assombrissiez       assombriez",
+    "assombrissent       assombrent"
+  ],
+  [
+    "assortir",
+    "assortisse          assorte",
+    "assortisses         assortes",
+    "assortisse          assorte",
+    "assortissions       assortions",
+    "assortissiez        assortiez",
+    "assortissent        assortent"
+  ],
+  [
+    "assoupir",
+    "assoupisse          assoupe",
+    "assoupisses         assoupes",
+    "assoupisse          assoupe",
+    "assoupissions       assoupions",
+    "assoupissiez        assoupiez",
+    "assoupissent        assoupent"
+  ],
+  [
+    "assouplir",
+    "assouplisse         assouple",
+    "assouplisses        assouples",
+    "assouplisse         assouple",
+    "assouplissions      assouplions",
+    "assouplissiez       assoupliez",
+    "assouplissent       assouplent"
+  ],
+  [
+    "assourdir",
+    "assourdisse         assourde",
+    "assourdisses        assourdes",
+    "assourdisse         assourde",
+    "assourdissions      assourdions",
+    "assourdissiez       assourdiez",
+    "assourdissent       assourdent"
+  ],
+  [
+    "assouvir",
+    "assouvisse          assouve",
+    "assouvisses         assouves",
+    "assouvisse          assouve",
+    "assouvissions       assouvions",
+    "assouvissiez        assouviez",
+    "assouvissent        assouvent"
+  ],
+  [
+    "assujettir",
+    "assujettisse        assujette",
+    "assujettisses       assujettes",
+    "assujettisse        assujette",
+    "assujettissions     assujettions",
+    "assujettissiez      assujettiez",
+    "assujettissent      assujettent"
+  ],
+  [
+    "attendrir",
+    "attendrisse         attendre",
+    "attendrisses        attendres",
+    "attendrisse         attendre",
+    "attendrissions      attendrions",
+    "attendrissiez       attendriez",
+    "attendrissent       attendrent"
+  ],
+  [
+    "atterrir",
+    "atterrisse          atterre",
+    "atterrisses         atterres",
+    "atterrisse          atterre",
+    "atterrissions       atterrions",
+    "atterrissiez        atterriez",
+    "atterrissent        atterrent"
+  ],
+  [
+    "attiédir",
+    "attiédisse          attiéde",
+    "attiédisses         attiédes",
+    "attiédisse          attiéde",
+    "attiédissions       attiédions",
+    "attiédissiez        attiédiez",
+    "attiédissent        attiédent"
+  ],
+  [
+    "autosaisir",
+    "autosaisisse        autosaise",
+    "autosaisisses       autosaises",
+    "autosaisisse        autosaise",
+    "autosaisissions     autosaisions",
+    "autosaisissiez      autosaisiez",
+    "autosaisissent      autosaisent"
+  ],
+  [
+    "avachir",
+    "avachisse           avache",
+    "avachisses          avaches",
+    "avachisse           avache",
+    "avachissions        avachions",
+    "avachissiez         avachiez",
+    "avachissent         avachent"
+  ],
+  [
+    "avertir",
+    "avertisse           averte",
+    "avertisses          avertes",
+    "avertisse           averte",
+    "avertissions        avertions",
+    "avertissiez         avertiez",
+    "avertissent         avertent"
+  ],
+  [
+    "aveulir",
+    "aveulisse           aveule",
+    "aveulisses          aveules",
+    "aveulisse           aveule",
+    "aveulissions        aveulions",
+    "aveulissiez         aveuliez",
+    "aveulissent         aveulent"
+  ],
+  [
+    "avilir",
+    "avilisse            avile",
+    "avilisses           aviles",
+    "avilisse            avile",
+    "avilissions         avilions",
+    "avilissiez          aviliez",
+    "avilissent          avilent"
+  ],
+  [
+    "bannir",
+    "bannisse            banne",
+    "bannisses           bannes",
+    "bannisse            banne",
+    "bannissions         bannions",
+    "bannissiez          banniez",
+    "bannissent          bannent"
+  ],
+  [
+    "barrir",
+    "barrisse            barre",
+    "barrisses           barres",
+    "barrisse            barre",
+    "barrissions         barrions",
+    "barrissiez          barriez",
+    "barrissent          barrent"
+  ],
+  [
+    "blanchir",
+    "blanchisse          blanche",
+    "blanchisses         blanches",
+    "blanchisse          blanche",
+    "blanchissions       blanchions",
+    "blanchissiez        blanchiez",
+    "blanchissent        blanchent"
+  ],
+  [
+    "blettir",
+    "blettisse           blette",
+    "blettisses          blettes",
+    "blettisse           blette",
+    "blettissions        blettions",
+    "blettissiez         blettiez",
+    "blettissent         blettent"
+  ],
+  [
+    "bleuir",
+    "bleuisse            bleue",
+    "bleuisses           bleues",
+    "bleuisse            bleue",
+    "bleuissions         bleuions",
+    "bleuissiez          bleuiez",
+    "bleuissent          bleuent"
+  ],
+  [
+    "blondir",
+    "blondisse           blonde",
+    "blondisses          blondes",
+    "blondisse           blonde",
+    "blondissions        blondions",
+    "blondissiez         blondiez",
+    "blondissent         blondent"
+  ],
+  [
+    "blottir",
+    "blottisse           blotte",
+    "blottisses          blottes",
+    "blottisse           blotte",
+    "blottissions        blottions",
+    "blottissiez         blottiez",
+    "blottissent         blottent"
+  ],
+  [
+    "blêmir",
+    "blêmisse            blême",
+    "blêmisses           blêmes",
+    "blêmisse            blême",
+    "blêmissions         blêmions",
+    "blêmissiez          blêmiez",
+    "blêmissent          blêment"
+  ],
+  [
+    "bondir",
+    "bondisse            bonde",
+    "bondisses           bondes",
+    "bondisse            bonde",
+    "bondissions         bondions",
+    "bondissiez          bondiez",
+    "bondissent          bondent"
+  ],
+  [
+    "bouffir",
+    "bouffisse           bouffe",
+    "bouffisses          bouffes",
+    "bouffisse           bouffe",
+    "bouffissions        bouffions",
+    "bouffissiez         bouffiez",
+    "bouffissent         bouffent"
+  ],
+  [
+    "brandir",
+    "brandisse           brande",
+    "brandisses          brandes",
+    "brandisse           brande",
+    "brandissions        brandions",
+    "brandissiez         brandiez",
+    "brandissent         brandent"
+  ],
+  [
+    "brunir",
+    "brunisse            brune",
+    "brunisses           brunes",
+    "brunisse            brune",
+    "brunissions         brunions",
+    "brunissiez          bruniez",
+    "brunissent          brunent"
+  ],
+  [
+    "bâtir",
+    "bâtisse             bâte",
+    "bâtisses            bâtes",
+    "bâtisse             bâte",
+    "bâtissions          bâtions",
+    "bâtissiez           bâtiez",
+    "bâtissent           bâtent"
+  ],
+  [
+    "bénir",
+    "bénisse             béne",
+    "bénisses            bénes",
+    "bénisse             béne",
+    "bénissions          bénions",
+    "bénissiez           béniez",
+    "bénissent           bénent"
+  ],
+  [
+    "calmir",
+    "calmisse            calme",
+    "calmisses           calmes",
+    "calmisse            calme",
+    "calmissions         calmions",
+    "calmissiez          calmiez",
+    "calmissent          calment"
+  ],
+  [
+    "candir",
+    "candisse            cande",
+    "candisses           candes",
+    "candisse            cande",
+    "candissions         candions",
+    "candissiez          candiez",
+    "candissent          candent"
+  ],
+  [
+    "catir",
+    "catisse             cate",
+    "catisses            cates",
+    "catisse             cate",
+    "catissions          cations",
+    "catissiez           catiez",
+    "catissent           catent"
+  ],
+  [
+    "chancir",
+    "chancisse           chance",
+    "chancisses          chances",
+    "chancisse           chance",
+    "chancissions        chancions",
+    "chancissiez         chanciez",
+    "chancissent         chancent"
+  ],
+  [
+    "chauvir",
+    "chauvisse           chauve",
+    "chauvisses          chauves",
+    "chauvisse           chauve",
+    "chauvissions        chauvions",
+    "chauvissiez         chauviez",
+    "chauvissent         chauvent"
+  ],
+  [
+    "choir",
+    "choie               choe",
+    "choies              choes",
+    "choie               choe",
+    "choyions            choions",
+    "choyiez             choiez",
+    "choient             choent"
+  ],
+  [
+    "choisir",
+    "choisisse           choise",
+    "choisisses          choises",
+    "choisisse           choise",
+    "choisissions        choisions",
+    "choisissiez         choisiez",
+    "choisissent         choisent"
+  ],
+  [
+    "chérir",
+    "chérisse            chére",
+    "chérisses           chéres",
+    "chérisse            chére",
+    "chérissions         chérions",
+    "chérissiez          chériez",
+    "chérissent          chérent"
+  ],
+  [
+    "circonvenir",
+    "circonvienne        circonvene",
+    "circonviennes       circonvenes",
+    "circonvienne        circonvene",
+    "circonvenions       circonvenions",
+    "circonveniez        circonveniez",
+    "circonviennent      circonvenent"
+  ],
+  [
+    "clapir",
+    "clapisse            clape",
+    "clapisses           clapes",
+    "clapisse            clape",
+    "clapissions         clapions",
+    "clapissiez          clapiez",
+    "clapissent          clapent"
+  ],
+  [
+    "compatir",
+    "compatisse          compate",
+    "compatisses         compates",
+    "compatisse          compate",
+    "compatissions       compations",
+    "compatissiez        compatiez",
+    "compatissent        compatent"
+  ],
+  [
+    "concevoir",
+    "conçoive            concevoe",
+    "conçoives           concevoes",
+    "conçoive            concevoe",
+    "concevions          concevoions",
+    "conceviez           concevoiez",
+    "conçoivent          concevoent"
+  ],
+  [
+    "conquérir",
+    "conquière           conquére",
+    "conquières          conquéres",
+    "conquière           conquére",
+    "conquérions         conquérions",
+    "conquériez          conquériez",
+    "conquièrent         conquérent"
+  ],
+  [
+    "contenir",
+    "contienne           contene",
+    "contiennes          contenes",
+    "contienne           contene",
+    "contenions          contenions",
+    "conteniez           conteniez",
+    "contiennent         contenent"
+  ],
+  [
+    "contrevenir",
+    "contrevienne        contrevene",
+    "contreviennes       contrevenes",
+    "contrevienne        contrevene",
+    "contrevenions       contrevenions",
+    "contreveniez        contreveniez",
+    "contreviennent      contrevenent"
+  ],
+  [
+    "convenir",
+    "convienne           convene",
+    "conviennes          convenes",
+    "convienne           convene",
+    "convenions          convenions",
+    "conveniez           conveniez",
+    "conviennent         convenent"
+  ],
+  [
+    "convertir",
+    "convertisse         converte",
+    "convertisses        convertes",
+    "convertisse         converte",
+    "convertissions      convertions",
+    "convertissiez       convertiez",
+    "convertissent       convertent"
+  ],
+  [
+    "cotir",
+    "cotisse             cote",
+    "cotisses            cotes",
+    "cotisse             cote",
+    "cotissions          cotions",
+    "cotissiez           cotiez",
+    "cotissent           cotent"
+  ],
+  [
+    "croupir",
+    "croupisse           croupe",
+    "croupisses          croupes",
+    "croupisse           croupe",
+    "croupissions        croupions",
+    "croupissiez         croupiez",
+    "croupissent         croupent"
+  ],
+  [
+    "crépir",
+    "crépisse            crépe",
+    "crépisses           crépes",
+    "crépisse            crépe",
+    "crépissions         crépions",
+    "crépissiez          crépiez",
+    "crépissent          crépent"
+  ],
+  [
+    "dessaisir",
+    "dessaisisse         dessaise",
+    "dessaisisses        dessaises",
+    "dessaisisse         dessaise",
+    "dessaisissions      dessaisions",
+    "dessaisissiez       dessaisiez",
+    "dessaisissent       dessaisent"
+  ],
+  [
+    "dessertir",
+    "dessertisse         desserte",
+    "dessertisses        dessertes",
+    "dessertisse         desserte",
+    "dessertissions      dessertions",
+    "dessertissiez       dessertiez",
+    "dessertissent       dessertent"
+  ],
+  [
+    "devoir",
+    "doive               devoe",
+    "doives              devoes",
+    "doive               devoe",
+    "devions             devoions",
+    "deviez              devoiez",
+    "doivent             devoent"
+  ],
+  [
+    "devenir",
+    "devienne            devene",
+    "deviennes           devenes",
+    "devienne            devene",
+    "devenions           devenions",
+    "deveniez            deveniez",
+    "deviennent          devenent"
+  ],
+  [
+    "disconvenir",
+    "disconvienne        disconvene",
+    "disconviennes       disconvenes",
+    "disconvienne        disconvene",
+    "disconvenions       disconvenions",
+    "disconveniez        disconveniez",
+    "disconviennent      disconvenent"
+  ],
+  [
+    "divertir",
+    "divertisse          diverte",
+    "divertisses         divertes",
+    "divertisse          diverte",
+    "divertissions       divertions",
+    "divertissiez        divertiez",
+    "divertissent        divertent"
+  ],
+  [
+    "doucir",
+    "doucisse            douce",
+    "doucisses           douces",
+    "doucisse            douce",
+    "doucissions         doucions",
+    "doucissiez          douciez",
+    "doucissent          doucent"
+  ],
+  [
+    "durcir",
+    "durcisse            durce",
+    "durcisses           durces",
+    "durcisse            durce",
+    "durcissions         durcions",
+    "durcissiez          durciez",
+    "durcissent          durcent"
+  ],
+  [
+    "décatir",
+    "décatisse           décate",
+    "décatisses          décates",
+    "décatisse           décate",
+    "décatissions        décations",
+    "décatissiez         décatiez",
+    "décatissent         décatent"
+  ],
+  [
+    "décevoir",
+    "déçoive             décevoe",
+    "déçoives            décevoes",
+    "déçoive             décevoe",
+    "décevions           décevoions",
+    "déceviez            décevoiez",
+    "déçoivent           décevoent"
+  ],
+  [
+    "déchoir",
+    "déchoie             déchoe",
+    "déchoies            déchoes",
+    "déchoie             déchoe",
+    "déchoyions          déchoions",
+    "déchoyiez           déchoiez",
+    "déchoient           déchoent"
+  ],
+  [
+    "décrépir",
+    "décrépisse          décrépe",
+    "décrépisses         décrépes",
+    "décrépisse          décrépe",
+    "décrépissions       décrépions",
+    "décrépissiez        décrépiez",
+    "décrépissent        décrépent"
+  ],
+  [
+    "définir",
+    "définisse           défine",
+    "définisses          défines",
+    "définisse           défine",
+    "définissions        définions",
+    "définissiez         définiez",
+    "définissent         définent"
+  ],
+  [
+    "défleurir",
+    "défleurisse         défleure",
+    "défleurisses        défleures",
+    "défleurisse         défleure",
+    "défleurissions      défleurions",
+    "défleurissiez       défleuriez",
+    "défleurissent       défleurent"
+  ],
+  [
+    "défléchir",
+    "défléchisse         défléche",
+    "défléchisses        défléches",
+    "défléchisse         défléche",
+    "défléchissions      défléchions",
+    "défléchissiez       défléchiez",
+    "défléchissent       défléchent"
+  ],
+  [
+    "défraîchir",
+    "défraîchisse        défraîche",
+    "défraîchisses       défraîches",
+    "défraîchisse        défraîche",
+    "défraîchissions     défraîchions",
+    "défraîchissiez      défraîchiez",
+    "défraîchissent      défraîchent"
+  ],
+  [
+    "dégarnir",
+    "dégarnisse          dégarne",
+    "dégarnisses         dégarnes",
+    "dégarnisse          dégarne",
+    "dégarnissions       dégarnions",
+    "dégarnissiez        dégarniez",
+    "dégarnissent        dégarnent"
+  ],
+  [
+    "dégauchir",
+    "dégauchisse         dégauche",
+    "dégauchisses        dégauches",
+    "dégauchisse         dégauche",
+    "dégauchissions      dégauchions",
+    "dégauchissiez       dégauchiez",
+    "dégauchissent       dégauchent"
+  ],
+  [
+    "déglutir",
+    "déglutisse          déglute",
+    "déglutisses         déglutes",
+    "déglutisse          déglute",
+    "déglutissions       déglutions",
+    "déglutissiez        déglutiez",
+    "déglutissent        déglutent"
+  ],
+  [
+    "dégourdir",
+    "dégourdisse         dégourde",
+    "dégourdisses        dégourdes",
+    "dégourdisse         dégourde",
+    "dégourdissions      dégourdions",
+    "dégourdissiez       dégourdiez",
+    "dégourdissent       dégourdent"
+  ],
+  [
+    "dégrossir",
+    "dégrossisse         dégrosse",
+    "dégrossisses        dégrosses",
+    "dégrossisse         dégrosse",
+    "dégrossissions      dégrossions",
+    "dégrossissiez       dégrossiez",
+    "dégrossissent       dégrossent"
+  ],
+  [
+    "déguerpir",
+    "déguerpisse         déguerpe",
+    "déguerpisses        déguerpes",
+    "déguerpisse         déguerpe",
+    "déguerpissions      déguerpions",
+    "déguerpissiez       déguerpiez",
+    "déguerpissent       déguerpent"
+  ],
+  [
+    "démaigrir",
+    "démaigrisse         démaigre",
+    "démaigrisses        démaigres",
+    "démaigrisse         démaigre",
+    "démaigrissions      démaigrions",
+    "démaigrissiez       démaigriez",
+    "démaigrissent       démaigrent"
+  ],
+  [
+    "démolir",
+    "démolisse           démole",
+    "démolisses          démoles",
+    "démolisse           démole",
+    "démolissions        démolions",
+    "démolissiez         démoliez",
+    "démolissent         démolent"
+  ],
+  [
+    "démunir",
+    "démunisse           démune",
+    "démunisses          démunes",
+    "démunisse           démune",
+    "démunissions        démunions",
+    "démunissiez         démuniez",
+    "démunissent         démunent"
+  ],
+  [
+    "dénantir",
+    "dénantisse          dénante",
+    "dénantisses         dénantes",
+    "dénantisse          dénante",
+    "dénantissions       dénantions",
+    "dénantissiez        dénantiez",
+    "dénantissent        dénantent"
+  ],
+  [
+    "dépolir",
+    "dépolisse           dépole",
+    "dépolisses          dépoles",
+    "dépolisse           dépole",
+    "dépolissions        dépolions",
+    "dépolissiez         dépoliez",
+    "dépolissent         dépolent"
+  ],
+  [
+    "dépourvoir",
+    "dépourvoie          dépourvoe",
+    "dépourvoies         dépourvoes",
+    "dépourvoie          dépourvoe",
+    "dépourvoyions       dépourvoions",
+    "dépourvoyiez        dépourvoiez",
+    "dépourvoient        dépourvoent"
+  ],
+  [
+    "dépérir",
+    "dépérisse           dépére",
+    "dépérisses          dépéres",
+    "dépérisse           dépére",
+    "dépérissions        dépérions",
+    "dépérissiez         dépériez",
+    "dépérissent         dépérent"
+  ],
+  [
+    "déraidir",
+    "déraidisse          déraide",
+    "déraidisses         déraides",
+    "déraidisse          déraide",
+    "déraidissions       déraidions",
+    "déraidissiez        déraidiez",
+    "déraidissent        déraident"
+  ],
+  [
+    "dérougir",
+    "dérougisse          dérouge",
+    "dérougisses         dérouges",
+    "dérougisse          dérouge",
+    "dérougissions       dérougions",
+    "dérougissiez        dérougiez",
+    "dérougissent        dérougent"
+  ],
+  [
+    "désaisir",
+    "désaisisse          désaise",
+    "désaisisses         désaises",
+    "désaisisse          désaise",
+    "désaisissions       désaisions",
+    "désaisissiez        désaisiez",
+    "désaisissent        désaisent"
+  ],
+  [
+    "désassortir",
+    "désassortisse       désassorte",
+    "désassortisses      désassortes",
+    "désassortisse       désassorte",
+    "désassortissions    désassortions",
+    "désassortissiez     désassortiez",
+    "désassortissent     désassortent"
+  ],
+  [
+    "désemplir",
+    "désemplisse         désemple",
+    "désemplisses        désemples",
+    "désemplisse         désemple",
+    "désemplissions      désemplions",
+    "désemplissiez       désempliez",
+    "désemplissent       désemplent"
+  ],
+  [
+    "désenfouir",
+    "désenfouisse        désenfoue",
+    "désenfouisses       désenfoues",
+    "désenfouisse        désenfoue",
+    "désenfouissions     désenfouions",
+    "désenfouissiez      désenfouiez",
+    "désenfouissent      désenfouent"
+  ],
+  [
+    "désengourdir",
+    "désengourdisse      désengourde",
+    "désengourdisses     désengourdes",
+    "désengourdisse      désengourde",
+    "désengourdissions   désengourdions",
+    "désengourdissiez    désengourdiez",
+    "désengourdissent    désengourdent"
+  ],
+  [
+    "désinvestir",
+    "désinvestisse       désinveste",
+    "désinvestisses      désinvestes",
+    "désinvestisse       désinveste",
+    "désinvestissions    désinvestions",
+    "désinvestissiez     désinvestiez",
+    "désinvestissent     désinvestent"
+  ],
+  [
+    "désobéir",
+    "désobéisse          désobée",
+    "désobéisses         désobées",
+    "désobéisse          désobée",
+    "désobéissions       désobéions",
+    "désobéissiez        désobéiez",
+    "désobéissent        désobéent"
+  ],
+  [
+    "désunir",
+    "désunisse           désune",
+    "désunisses          désunes",
+    "désunisse           désune",
+    "désunissions        désunions",
+    "désunissiez         désuniez",
+    "désunissent         désunent"
+  ],
+  [
+    "détenir",
+    "détienne            détene",
+    "détiennes           détenes",
+    "détienne            détene",
+    "détenions           détenions",
+    "déteniez            déteniez",
+    "détiennent          détenent"
+  ],
+  [
+    "dévernir",
+    "dévernisse          déverne",
+    "dévernisses         dévernes",
+    "dévernisse          déverne",
+    "dévernissions       dévernions",
+    "dévernissiez        déverniez",
+    "dévernissent        dévernent"
+  ],
+  [
+    "effleurir",
+    "effleurisse         effleure",
+    "effleurisses        effleures",
+    "effleurisse         effleure",
+    "effleurissions      effleurions",
+    "effleurissiez       effleuriez",
+    "effleurissent       effleurent"
+  ],
+  [
+    "embellir",
+    "embellisse          embelle",
+    "embellisses         embelles",
+    "embellisse          embelle",
+    "embellissions       embellions",
+    "embellissiez        embelliez",
+    "embellissent        embellent"
+  ],
+  [
+    "emboutir",
+    "emboutisse          emboute",
+    "emboutisses         emboutes",
+    "emboutisse          emboute",
+    "emboutissions       emboutions",
+    "emboutissiez        emboutiez",
+    "emboutissent        emboutent"
+  ],
+  [
+    "emplir",
+    "emplisse            emple",
+    "emplisses           emples",
+    "emplisse            emple",
+    "emplissions         emplions",
+    "emplissiez          empliez",
+    "emplissent          emplent"
+  ],
+  [
+    "empuantir",
+    "empuantisse         empuante",
+    "empuantisses        empuantes",
+    "empuantisse         empuante",
+    "empuantissions      empuantions",
+    "empuantissiez       empuantiez",
+    "empuantissent       empuantent"
+  ],
+  [
+    "enchérir",
+    "enchérisse          enchére",
+    "enchérisses         enchéres",
+    "enchérisse          enchére",
+    "enchérissions       enchérions",
+    "enchérissiez        enchériez",
+    "enchérissent        enchérent"
+  ],
+  [
+    "endolorir",
+    "endolorisse         endolore",
+    "endolorisses        endolores",
+    "endolorisse         endolore",
+    "endolorissions      endolorions",
+    "endolorissiez       endoloriez",
+    "endolorissent       endolorent"
+  ],
+  [
+    "endurcir",
+    "endurcisse          endurce",
+    "endurcisses         endurces",
+    "endurcisse          endurce",
+    "endurcissions       endurcions",
+    "endurcissiez        endurciez",
+    "endurcissent        endurcent"
+  ],
+  [
+    "enfouir",
+    "enfouisse           enfoue",
+    "enfouisses          enfoues",
+    "enfouisse           enfoue",
+    "enfouissions        enfouions",
+    "enfouissiez         enfouiez",
+    "enfouissent         enfouent"
+  ],
+  [
+    "enfuir",
+    "enfuie              enfue",
+    "enfuies             enfues",
+    "enfuie              enfue",
+    "enfuyions           enfuions",
+    "enfuyiez            enfuiez",
+    "enfuient            enfuent"
+  ],
+  [
+    "engloutir",
+    "engloutisse         engloute",
+    "engloutisses        engloutes",
+    "engloutisse         engloute",
+    "engloutissions      engloutions",
+    "engloutissiez       engloutiez",
+    "engloutissent       engloutent"
+  ],
+  [
+    "engourdir",
+    "engourdisse         engourde",
+    "engourdisses        engourdes",
+    "engourdisse         engourde",
+    "engourdissions      engourdions",
+    "engourdissiez       engourdiez",
+    "engourdissent       engourdent"
+  ],
+  [
+    "enhardir",
+    "enhardisse          enharde",
+    "enhardisses         enhardes",
+    "enhardisse          enharde",
+    "enhardissions       enhardions",
+    "enhardissiez        enhardiez",
+    "enhardissent        enhardent"
+  ],
+  [
+    "enlaidir",
+    "enlaidisse          enlaide",
+    "enlaidisses         enlaides",
+    "enlaidisse          enlaide",
+    "enlaidissions       enlaidions",
+    "enlaidissiez        enlaidiez",
+    "enlaidissent        enlaident"
+  ],
+  [
+    "ennoblir",
+    "ennoblisse          ennoble",
+    "ennoblisses         ennobles",
+    "ennoblisse          ennoble",
+    "ennoblissions       ennoblions",
+    "ennoblissiez        ennobliez",
+    "ennoblissent        ennoblent"
+  ],
+  [
+    "enorgueillir",
+    "enorgueillisse      enorgueille",
+    "enorgueillisses     enorgueilles",
+    "enorgueillisse      enorgueille",
+    "enorgueillissions   enorgueillions",
+    "enorgueillissiez    enorgueilliez",
+    "enorgueillissent    enorgueillent"
+  ],
+  [
+    "enquérir",
+    "enquière            enquére",
+    "enquières           enquéres",
+    "enquière            enquére",
+    "enquérions          enquérions",
+    "enquériez           enquériez",
+    "enquièrent          enquérent"
+  ],
+  [
+    "enrichir",
+    "enrichisse          enriche",
+    "enrichisses         enriches",
+    "enrichisse          enriche",
+    "enrichissions       enrichions",
+    "enrichissiez        enrichiez",
+    "enrichissent        enrichent"
+  ],
+  [
+    "ensevelir",
+    "ensevelisse         ensevele",
+    "ensevelisses        enseveles",
+    "ensevelisse         ensevele",
+    "ensevelissions      ensevelions",
+    "ensevelissiez       enseveliez",
+    "ensevelissent       ensevelent"
+  ],
+  [
+    "entrapercevoir",
+    "entraperçoive       entrapercevoe",
+    "entraperçoives      entrapercevoes",
+    "entraperçoive       entrapercevoe",
+    "entrapercevions     entrapercevoions",
+    "entraperceviez      entrapercevoiez",
+    "entraperçoivent     entrapercevoent"
+  ],
+  [
+    "entretenir",
+    "entretienne         entretene",
+    "entretiennes        entretenes",
+    "entretienne         entretene",
+    "entretenions        entretenions",
+    "entreteniez         entreteniez",
+    "entretiennent       entretenent"
+  ],
+  [
+    "entrevoir",
+    "entrevoie           entrevoe",
+    "entrevoies          entrevoes",
+    "entrevoie           entrevoe",
+    "entrevoyions        entrevoions",
+    "entrevoyiez         entrevoiez",
+    "entrevoient         entrevoent"
+  ],
+  [
+    "envahir",
+    "envahisse           envahe",
+    "envahisses          envahes",
+    "envahisse           envahe",
+    "envahissions        envahions",
+    "envahissiez         envahiez",
+    "envahissent         envahent"
+  ],
+  [
+    "esbaudir",
+    "esbaudisse          esbaude",
+    "esbaudisses         esbaudes",
+    "esbaudisse          esbaude",
+    "esbaudissions       esbaudions",
+    "esbaudissiez        esbaudiez",
+    "esbaudissent        esbaudent"
+  ],
+  [
+    "estourbir",
+    "estourbisse         estourbe",
+    "estourbisses        estourbes",
+    "estourbisse         estourbe",
+    "estourbissions      estourbions",
+    "estourbissiez       estourbiez",
+    "estourbissent       estourbent"
+  ],
+  [
+    "extravertir",
+    "extravertisse       extraverte",
+    "extravertisses      extravertes",
+    "extravertisse       extraverte",
+    "extravertissions    extravertions",
+    "extravertissiez     extravertiez",
+    "extravertissent     extravertent"
+  ],
+  [
+    "faiblir",
+    "faiblisse           faible",
+    "faiblisses          faibles",
+    "faiblisse           faible",
+    "faiblissions        faiblions",
+    "faiblissiez         faibliez",
+    "faiblissent         faiblent"
+  ],
+  [
+    "falloir",
+    "                    falloe",
+    "                    falloes",
+    "faille              falloe",
+    "                    falloions",
+    "                    falloiez",
+    "                    falloent"
+  ],
+  [
+    "farcir",
+    "farcisse            farce",
+    "farcisses           farces",
+    "farcisse            farce",
+    "farcissions         farcions",
+    "farcissiez          farciez",
+    "farcissent          farcent"
+  ],
+  [
+    "finir",
+    "finisse             fine",
+    "finisses            fines",
+    "finisse             fine",
+    "finissions          finions",
+    "finissiez           finiez",
+    "finissent           finent"
+  ],
+  [
+    "fleurir",
+    "fleurisse           fleure",
+    "fleurisses          fleures",
+    "fleurisse           fleure",
+    "fleurissions        fleurions",
+    "fleurissiez         fleuriez",
+    "fleurissent         fleurent"
+  ],
+  [
+    "florir",
+    "florisse            flore",
+    "florisses           flores",
+    "florisse            flore",
+    "florissions         florions",
+    "florissiez          floriez",
+    "florissent          florent"
+  ],
+  [
+    "fléchir",
+    "fléchisse           fléche",
+    "fléchisses          fléches",
+    "fléchisse           fléche",
+    "fléchissions        fléchions",
+    "fléchissiez         fléchiez",
+    "fléchissent         fléchent"
+  ],
+  [
+    "flétrir",
+    "flétrisse           flétre",
+    "flétrisses          flétres",
+    "flétrisse           flétre",
+    "flétrissions        flétrions",
+    "flétrissiez         flétriez",
+    "flétrissent         flétrent"
+  ],
+  [
+    "forcir",
+    "forcisse            force",
+    "forcisses           forces",
+    "forcisse            force",
+    "forcissions         forcions",
+    "forcissiez          forciez",
+    "forcissent          forcent"
+  ],
+  [
+    "fouir",
+    "fouisse             foue",
+    "fouisses            foues",
+    "fouisse             foue",
+    "fouissions          fouions",
+    "fouissiez           fouiez",
+    "fouissent           fouent"
+  ],
+  [
+    "fourbir",
+    "fourbisse           fourbe",
+    "fourbisses          fourbes",
+    "fourbisse           fourbe",
+    "fourbissions        fourbions",
+    "fourbissiez         fourbiez",
+    "fourbissent         fourbent"
+  ],
+  [
+    "fournir",
+    "fournisse           fourne",
+    "fournisses          fournes",
+    "fournisse           fourne",
+    "fournissions        fournions",
+    "fournissiez         fourniez",
+    "fournissent         fournent"
+  ],
+  [
+    "franchir",
+    "franchisse          franche",
+    "franchisses         franches",
+    "franchisse          franche",
+    "franchissions       franchions",
+    "franchissiez        franchiez",
+    "franchissent        franchent"
+  ],
+  [
+    "fraîchir",
+    "fraîchisse          fraîche",
+    "fraîchisses         fraîches",
+    "fraîchisse          fraîche",
+    "fraîchissions       fraîchions",
+    "fraîchissiez        fraîchiez",
+    "fraîchissent        fraîchent"
+  ],
+  [
+    "frémir",
+    "frémisse            fréme",
+    "frémisses           frémes",
+    "frémisse            fréme",
+    "frémissions         frémions",
+    "frémissiez          frémiez",
+    "frémissent          frément"
+  ],
+  [
+    "fuir",
+    "fuie                fue",
+    "fuies               fues",
+    "fuie                fue",
+    "fuyions             fuions",
+    "fuyiez              fuiez",
+    "fuient              fuent"
+  ],
+  [
+    "garantir",
+    "garantisse          garante",
+    "garantisses         garantes",
+    "garantisse          garante",
+    "garantissions       garantions",
+    "garantissiez        garantiez",
+    "garantissent        garantent"
+  ],
+  [
+    "garnir",
+    "garnisse            garne",
+    "garnisses           garnes",
+    "garnisse            garne",
+    "garnissions         garnions",
+    "garnissiez          garniez",
+    "garnissent          garnent"
+  ],
+  [
+    "gauchir",
+    "gauchisse           gauche",
+    "gauchisses          gauches",
+    "gauchisse           gauche",
+    "gauchissions        gauchions",
+    "gauchissiez         gauchiez",
+    "gauchissent         gauchent"
+  ],
+  [
+    "glapir",
+    "glapisse            glape",
+    "glapisses           glapes",
+    "glapisse            glape",
+    "glapissions         glapions",
+    "glapissiez          glapiez",
+    "glapissent          glapent"
+  ],
+  [
+    "glatir",
+    "glatisse            glate",
+    "glatisses           glates",
+    "glatisse            glate",
+    "glatissions         glations",
+    "glatissiez          glatiez",
+    "glatissent          glatent"
+  ],
+  [
+    "grandir",
+    "grandisse           grande",
+    "grandisses          grandes",
+    "grandisse           grande",
+    "grandissions        grandions",
+    "grandissiez         grandiez",
+    "grandissent         grandent"
+  ],
+  [
+    "gravir",
+    "gravisse            grave",
+    "gravisses           graves",
+    "gravisse            grave",
+    "gravissions         gravions",
+    "gravissiez          graviez",
+    "gravissent          gravent"
+  ],
+  [
+    "grossir",
+    "grossisse           grosse",
+    "grossisses          grosses",
+    "grossisse           grosse",
+    "grossissions        grossions",
+    "grossissiez         grossiez",
+    "grossissent         grossent"
+  ],
+  [
+    "guérir",
+    "guérisse            guére",
+    "guérisses           guéres",
+    "guérisse            guére",
+    "guérissions         guérions",
+    "guérissiez          guériez",
+    "guérissent          guérent"
+  ],
+  [
+    "gémir",
+    "gémisse             géme",
+    "gémisses            gémes",
+    "gémisse             géme",
+    "gémissions          gémions",
+    "gémissiez           gémiez",
+    "gémissent           gément"
+  ],
+  [
+    "hennir",
+    "hennisse            henne",
+    "hennisses           hennes",
+    "hennisse            henne",
+    "hennissions         hennions",
+    "hennissiez          henniez",
+    "hennissent          hennent"
+  ],
+  [
+    "honnir",
+    "honnisse            honne",
+    "honnisses           honnes",
+    "honnisse            honne",
+    "honnissions         honnions",
+    "honnissiez          honniez",
+    "honnissent          honnent"
+  ],
+  [
+    "impartir",
+    "impartisse          imparte",
+    "impartisses         impartes",
+    "impartisse          imparte",
+    "impartissions       impartions",
+    "impartissiez        impartiez",
+    "impartissent        impartent"
+  ],
+  [
+    "infléchir",
+    "infléchisse         infléche",
+    "infléchisses        infléches",
+    "infléchisse         infléche",
+    "infléchissions      infléchions",
+    "infléchissiez       infléchiez",
+    "infléchissent       infléchent"
+  ],
+  [
+    "interagir",
+    "interagisse         interage",
+    "interagisses        interages",
+    "interagisse         interage",
+    "interagissions      interagions",
+    "interagissiez       interagiez",
+    "interagissent       interagent"
+  ],
+  [
+    "intervenir",
+    "intervienne         intervene",
+    "interviennes        intervenes",
+    "intervienne         intervene",
+    "intervenions        intervenions",
+    "interveniez         interveniez",
+    "interviennent       intervenent"
+  ],
+  [
+    "intervertir",
+    "intervertisse       interverte",
+    "intervertisses      intervertes",
+    "intervertisse       interverte",
+    "intervertissions    intervertions",
+    "intervertissiez     intervertiez",
+    "intervertissent     intervertent"
+  ],
+  [
+    "invertir",
+    "invertisse          inverte",
+    "invertisses         invertes",
+    "invertisse          inverte",
+    "invertissions       invertions",
+    "invertissiez        invertiez",
+    "invertissent        invertent"
+  ],
+  [
+    "investir",
+    "investisse          investe",
+    "investisses         investes",
+    "investisse          investe",
+    "investissions       investions",
+    "investissiez        investiez",
+    "investissent        investent"
+  ],
+  [
+    "jaillir",
+    "jaillisse           jaille",
+    "jaillisses          jailles",
+    "jaillisse           jaille",
+    "jaillissions        jaillions",
+    "jaillissiez         jailliez",
+    "jaillissent         jaillent"
+  ],
+  [
+    "jaunir",
+    "jaunisse            jaune",
+    "jaunisses           jaunes",
+    "jaunisse            jaune",
+    "jaunissions         jaunions",
+    "jaunissiez          jauniez",
+    "jaunissent          jaunent"
+  ],
+  [
+    "jouir",
+    "jouisse             joue",
+    "jouisses            joues",
+    "jouisse             joue",
+    "jouissions          jouions",
+    "jouissiez           jouiez",
+    "jouissent           jouent"
+  ],
+  [
+    "languir",
+    "languisse           langue",
+    "languisses          langues",
+    "languisse           langue",
+    "languissions        languions",
+    "languissiez         languiez",
+    "languissent         languent"
+  ],
+  [
+    "lotir",
+    "lotisse             lote",
+    "lotisses            lotes",
+    "lotisse             lote",
+    "lotissions          lotions",
+    "lotissiez           lotiez",
+    "lotissent           lotent"
+  ],
+  [
+    "maigrir",
+    "maigrisse           maigre",
+    "maigrisses          maigres",
+    "maigrisse           maigre",
+    "maigrissions        maigrions",
+    "maigrissiez         maigriez",
+    "maigrissent         maigrent"
+  ],
+  [
+    "maintenir",
+    "maintienne          maintene",
+    "maintiennes         maintenes",
+    "maintienne          maintene",
+    "maintenions         maintenions",
+    "mainteniez          mainteniez",
+    "maintiennent        maintenent"
+  ],
+  [
+    "matir",
+    "matisse             mate",
+    "matisses            mates",
+    "matisse             mate",
+    "matissions          mations",
+    "matissiez           matiez",
+    "matissent           matent"
+  ],
+  [
+    "messeoir",
+    "                    messeoe",
+    "                    messeoes",
+    "messiée             messeoe",
+    "                    messeoions",
+    "                    messeoiez",
+    "messiéent           messeoent"
+  ],
+  [
+    "mourir",
+    "meure               moure",
+    "meures              moures",
+    "meure               moure",
+    "mourions            mourions",
+    "mouriez             mouriez",
+    "meurent             mourent"
+  ],
+  [
+    "meurtrir",
+    "meurtrisse          meurtre",
+    "meurtrisses         meurtres",
+    "meurtrisse          meurtre",
+    "meurtrissions       meurtrions",
+    "meurtrissiez        meurtriez",
+    "meurtrissent        meurtrent"
+  ],
+  [
+    "mouvoir",
+    "meuve               mouvoe",
+    "meuves              mouvoes",
+    "meuve               mouvoe",
+    "mouvions            mouvoions",
+    "mouviez             mouvoiez",
+    "meuvent             mouvoent"
+  ],
+  [
+    "mincir",
+    "mincisse            mince",
+    "mincisses           minces",
+    "mincisse            mince",
+    "mincissions         mincions",
+    "mincissiez          minciez",
+    "mincissent          mincent"
+  ],
+  [
+    "moisir",
+    "moisisse            moise",
+    "moisisses           moises",
+    "moisisse            moise",
+    "moisissions         moisions",
+    "moisissiez          moisiez",
+    "moisissent          moisent"
+  ],
+  [
+    "moitir",
+    "moitisse            moite",
+    "moitisses           moites",
+    "moitisse            moite",
+    "moitissions         moitions",
+    "moitissiez          moitiez",
+    "moitissent          moitent"
+  ],
+  [
+    "mollir",
+    "mollisse            molle",
+    "mollisses           molles",
+    "mollisse            molle",
+    "mollissions         mollions",
+    "mollissiez          molliez",
+    "mollissent          mollent"
+  ],
+  [
+    "mugir",
+    "mugisse             muge",
+    "mugisses            muges",
+    "mugisse             muge",
+    "mugissions          mugions",
+    "mugissiez           mugiez",
+    "mugissent           mugent"
+  ],
+  [
+    "munir",
+    "munisse             mune",
+    "munisses            munes",
+    "munisse             mune",
+    "munissions          munions",
+    "munissiez           muniez",
+    "munissent           munent"
+  ],
+  [
+    "mégir",
+    "mégisse             mége",
+    "mégisses            méges",
+    "mégisse             mége",
+    "mégissions          mégions",
+    "mégissiez           mégiez",
+    "mégissent           mégent"
+  ],
+  [
+    "mûrir",
+    "mûrisse             mûre",
+    "mûrisses            mûres",
+    "mûrisse             mûre",
+    "mûrissions          mûrions",
+    "mûrissiez           mûriez",
+    "mûrissent           mûrent"
+  ],
+  [
+    "nantir",
+    "nantisse            nante",
+    "nantisses           nantes",
+    "nantisse            nante",
+    "nantissions         nantions",
+    "nantissiez          nantiez",
+    "nantissent          nantent"
+  ],
+  [
+    "noircir",
+    "noircisse           noirce",
+    "noircisses          noirces",
+    "noircisse           noirce",
+    "noircissions        noircions",
+    "noircissiez         noirciez",
+    "noircissent         noircent"
+  ],
+  [
+    "nordir",
+    "nordisse            norde",
+    "nordisses           nordes",
+    "nordisse            norde",
+    "nordissions         nordions",
+    "nordissiez          nordiez",
+    "nordissent          nordent"
+  ],
+  [
+    "nourrir",
+    "nourrisse           nourre",
+    "nourrisses          nourres",
+    "nourrisse           nourre",
+    "nourrissions        nourrions",
+    "nourrissiez         nourriez",
+    "nourrissent         nourrent"
+  ],
+  [
+    "obscurcir",
+    "obscurcisse         obscurce",
+    "obscurcisses        obscurces",
+    "obscurcisse         obscurce",
+    "obscurcissions      obscurcions",
+    "obscurcissiez       obscurciez",
+    "obscurcissent       obscurcent"
+  ],
+  [
+    "obtenir",
+    "obtienne            obtene",
+    "obtiennes           obtenes",
+    "obtienne            obtene",
+    "obtenions           obtenions",
+    "obteniez            obteniez",
+    "obtiennent          obtenent"
+  ],
+  [
+    "obvenir",
+    "obvienne            obvene",
+    "obviennes           obvenes",
+    "obvienne            obvene",
+    "obvenions           obvenions",
+    "obveniez            obveniez",
+    "obviennent          obvenent"
+  ],
+  [
+    "obéir",
+    "obéisse             obée",
+    "obéisses            obées",
+    "obéisse             obée",
+    "obéissions          obéions",
+    "obéissiez           obéiez",
+    "obéissent           obéent"
+  ],
+  [
+    "ourdir",
+    "ourdisse            ourde",
+    "ourdisses           ourdes",
+    "ourdisse            ourde",
+    "ourdissions         ourdions",
+    "ourdissiez          ourdiez",
+    "ourdissent          ourdent"
+  ],
+  [
+    "parvenir",
+    "parvienne           parvene",
+    "parviennes          parvenes",
+    "parvienne           parvene",
+    "parvenions          parvenions",
+    "parveniez           parveniez",
+    "parviennent         parvenent"
+  ],
+  [
+    "percevoir",
+    "perçoive            percevoe",
+    "perçoives           percevoes",
+    "perçoive            percevoe",
+    "percevions          percevoions",
+    "perceviez           percevoiez",
+    "perçoivent          percevoent"
+  ],
+  [
+    "pervertir",
+    "pervertisse         perverte",
+    "pervertisses        pervertes",
+    "pervertisse         perverte",
+    "pervertissions      pervertions",
+    "pervertissiez       pervertiez",
+    "pervertissent       pervertent"
+  ],
+  [
+    "pouvoir",
+    "puisse              pouvoe",
+    "puisses             pouvoes",
+    "puisse              pouvoe",
+    "puissions           pouvoions",
+    "puissiez            pouvoiez",
+    "puissent            pouvoent"
+  ],
+  [
+    "pleuvoir",
+    "                    pleuvoe",
+    "                    pleuvoes",
+    "pleuve              pleuvoe",
+    "                    pleuvoions",
+    "                    pleuvoiez",
+    "pleuvent            pleuvoent"
+  ],
+  [
+    "polir",
+    "polisse             pole",
+    "polisses            poles",
+    "polisse             pole",
+    "polissions          polions",
+    "polissiez           poliez",
+    "polissent           polent"
+  ],
+  [
+    "pourrir",
+    "pourrisse           pourre",
+    "pourrisses          pourres",
+    "pourrisse           pourre",
+    "pourrissions        pourrions",
+    "pourrissiez         pourriez",
+    "pourrissent         pourrent"
+  ],
+  [
+    "pourvoir",
+    "pourvoie            pourvoe",
+    "pourvoies           pourvoes",
+    "pourvoie            pourvoe",
+    "pourvoyions         pourvoions",
+    "pourvoyiez          pourvoiez",
+    "pourvoient          pourvoent"
+  ],
+  [
+    "promouvoir",
+    "promeuve            promouvoe",
+    "promeuves           promouvoes",
+    "promeuve            promouvoe",
+    "promouvions         promouvoions",
+    "promouviez          promouvoiez",
+    "promeuvent          promouvoent"
+  ],
+  [
+    "provenir",
+    "provienne           provene",
+    "proviennes          provenes",
+    "provienne           provene",
+    "provenions          provenions",
+    "proveniez           proveniez",
+    "proviennent         provenent"
+  ],
+  [
+    "préconcevoir",
+    "préconçoive         préconcevoe",
+    "préconçoives        préconcevoes",
+    "préconçoive         préconcevoe",
+    "préconcevions       préconcevoions",
+    "préconceviez        préconcevoiez",
+    "préconçoivent       préconcevoent"
+  ],
+  [
+    "prémunir",
+    "prémunisse          prémune",
+    "prémunisses         prémunes",
+    "prémunisse          prémune",
+    "prémunissions       prémunions",
+    "prémunissiez        prémuniez",
+    "prémunissent        prémunent"
+  ],
+  [
+    "prévaloir",
+    "prévale             prévaloe",
+    "prévales            prévaloes",
+    "prévale             prévaloe",
+    "prévalions          prévaloions",
+    "prévaliez           prévaloiez",
+    "prévalent           prévaloent"
+  ],
+  [
+    "prévenir",
+    "prévienne           prévene",
+    "préviennes          prévenes",
+    "prévienne           prévene",
+    "prévenions          prévenions",
+    "préveniez           préveniez",
+    "préviennent         prévenent"
+  ],
+  [
+    "prévoir",
+    "prévoie             prévoe",
+    "prévoies            prévoes",
+    "prévoie             prévoe",
+    "prévoyions          prévoions",
+    "prévoyiez           prévoiez",
+    "prévoient           prévoent"
+  ],
+  [
+    "préétablir",
+    "préétablisse        préétable",
+    "préétablisses       préétables",
+    "préétablisse        préétable",
+    "préétablissions     préétablions",
+    "préétablissiez      préétabliez",
+    "préétablissent      préétablent"
+  ],
+  [
+    "punir",
+    "punisse             pune",
+    "punisses            punes",
+    "punisse             pune",
+    "punissions          punions",
+    "punissiez           puniez",
+    "punissent           punent"
+  ],
+  [
+    "pâlir",
+    "pâlisse             pâle",
+    "pâlisses            pâles",
+    "pâlisse             pâle",
+    "pâlissions          pâlions",
+    "pâlissiez           pâliez",
+    "pâlissent           pâlent"
+  ],
+  [
+    "pâtir",
+    "pâtisse             pâte",
+    "pâtisses            pâtes",
+    "pâtisse             pâte",
+    "pâtissions          pâtions",
+    "pâtissiez           pâtiez",
+    "pâtissent           pâtent"
+  ],
+  [
+    "périr",
+    "périsse             pére",
+    "périsses            péres",
+    "périsse             pére",
+    "périssions          périons",
+    "périssiez           périez",
+    "périssent           pérent"
+  ],
+  [
+    "pétrir",
+    "pétrisse            pétre",
+    "pétrisses           pétres",
+    "pétrisse            pétre",
+    "pétrissions         pétrions",
+    "pétrissiez          pétriez",
+    "pétrissent          pétrent"
+  ],
+  [
+    "rabonnir",
+    "rabonnisse          rabonne",
+    "rabonnisses         rabonnes",
+    "rabonnisse          rabonne",
+    "rabonnissions       rabonnions",
+    "rabonnissiez        rabonniez",
+    "rabonnissent        rabonnent"
+  ],
+  [
+    "rabougrir",
+    "rabougrisse         rabougre",
+    "rabougrisses        rabougres",
+    "rabougrisse         rabougre",
+    "rabougrissions      rabougrions",
+    "rabougrissiez       rabougriez",
+    "rabougrissent       rabougrent"
+  ],
+  [
+    "raccourcir",
+    "raccourcisse        raccource",
+    "raccourcisses       raccources",
+    "raccourcisse        raccource",
+    "raccourcissions     raccourcions",
+    "raccourcissiez      raccourciez",
+    "raccourcissent      raccourcent"
+  ],
+  [
+    "racornir",
+    "racornisse          racorne",
+    "racornisses         racornes",
+    "racornisse          racorne",
+    "racornissions       racornions",
+    "racornissiez        racorniez",
+    "racornissent        racornent"
+  ],
+  [
+    "radoucir",
+    "radoucisse          radouce",
+    "radoucisses         radouces",
+    "radoucisse          radouce",
+    "radoucissions       radoucions",
+    "radoucissiez        radouciez",
+    "radoucissent        radoucent"
+  ],
+  [
+    "raffermir",
+    "raffermisse         rafferme",
+    "raffermisses        raffermes",
+    "raffermisse         rafferme",
+    "raffermissions      raffermions",
+    "raffermissiez       raffermiez",
+    "raffermissent       rafferment"
+  ],
+  [
+    "rafraîchir",
+    "rafraîchisse        rafraîche",
+    "rafraîchisses       rafraîches",
+    "rafraîchisse        rafraîche",
+    "rafraîchissions     rafraîchions",
+    "rafraîchissiez      rafraîchiez",
+    "rafraîchissent      rafraîchent"
+  ],
+  [
+    "ragaillardir",
+    "ragaillardisse      ragaillarde",
+    "ragaillardisses     ragaillardes",
+    "ragaillardisse      ragaillarde",
+    "ragaillardissions   ragaillardions",
+    "ragaillardissiez    ragaillardiez",
+    "ragaillardissent    ragaillardent"
+  ],
+  [
+    "raidir",
+    "raidisse            raide",
+    "raidisses           raides",
+    "raidisse            raide",
+    "raidissions         raidions",
+    "raidissiez          raidiez",
+    "raidissent          raident"
+  ],
+  [
+    "rajeunir",
+    "rajeunisse          rajeune",
+    "rajeunisses         rajeunes",
+    "rajeunisse          rajeune",
+    "rajeunissions       rajeunions",
+    "rajeunissiez        rajeuniez",
+    "rajeunissent        rajeunent"
+  ],
+  [
+    "ralentir",
+    "ralentisse          ralente",
+    "ralentisses         ralentes",
+    "ralentisse          ralente",
+    "ralentissions       ralentions",
+    "ralentissiez        ralentiez",
+    "ralentissent        ralentent"
+  ],
+  [
+    "ramollir",
+    "ramollisse          ramolle",
+    "ramollisses         ramolles",
+    "ramollisse          ramolle",
+    "ramollissions       ramollions",
+    "ramollissiez        ramolliez",
+    "ramollissent        ramollent"
+  ],
+  [
+    "rancir",
+    "rancisse            rance",
+    "rancisses           rances",
+    "rancisse            rance",
+    "rancissions         rancions",
+    "rancissiez          ranciez",
+    "rancissent          rancent"
+  ],
+  [
+    "raplatir",
+    "raplatisse          raplate",
+    "raplatisses         raplates",
+    "raplatisse          raplate",
+    "raplatissions       raplations",
+    "raplatissiez        raplatiez",
+    "raplatissent        raplatent"
+  ],
+  [
+    "rasseoir",
+    "rassoie             rasseoe",
+    "rassoies            rasseoes",
+    "rassoie             rasseoe",
+    "rassoyions          rasseoions",
+    "rassoyiez           rasseoiez",
+    "rassoient           rasseoent"
+  ],
+  [
+    "rassortir",
+    "rassortisse         rassorte",
+    "rassortisses        rassortes",
+    "rassortisse         rassorte",
+    "rassortissions      rassortions",
+    "rassortissiez       rassortiez",
+    "rassortissent       rassortent"
+  ],
+  [
+    "ravir",
+    "ravisse             rave",
+    "ravisses            raves",
+    "ravisse             rave",
+    "ravissions          ravions",
+    "ravissiez           raviez",
+    "ravissent           ravent"
+  ],
+  [
+    "ravilir",
+    "ravilisse           ravile",
+    "ravilisses          raviles",
+    "ravilisse           ravile",
+    "ravilissions        ravilions",
+    "ravilissiez         raviliez",
+    "ravilissent         ravilent"
+  ],
+  [
+    "reblanchir",
+    "reblanchisse        reblanche",
+    "reblanchisses       reblanches",
+    "reblanchisse        reblanche",
+    "reblanchissions     reblanchions",
+    "reblanchissiez      reblanchiez",
+    "reblanchissent      reblanchent"
+  ],
+  [
+    "rebondir",
+    "rebondisse          rebonde",
+    "rebondisses         rebondes",
+    "rebondisse          rebonde",
+    "rebondissions       rebondions",
+    "rebondissiez        rebondiez",
+    "rebondissent        rebondent"
+  ],
+  [
+    "rebâtir",
+    "rebâtisse           rebâte",
+    "rebâtisses          rebâtes",
+    "rebâtisse           rebâte",
+    "rebâtissions        rebâtions",
+    "rebâtissiez         rebâtiez",
+    "rebâtissent         rebâtent"
+  ],
+  [
+    "recevoir",
+    "reçoive             recevoe",
+    "reçoives            recevoes",
+    "reçoive             recevoe",
+    "recevions           recevoions",
+    "receviez            recevoiez",
+    "reçoivent           recevoent"
+  ],
+  [
+    "rechampir",
+    "rechampisse         rechampe",
+    "rechampisses        rechampes",
+    "rechampisse         rechampe",
+    "rechampissions      rechampions",
+    "rechampissiez       rechampiez",
+    "rechampissent       rechampent"
+  ],
+  [
+    "reconquérir",
+    "reconquière         reconquére",
+    "reconquières        reconquéres",
+    "reconquière         reconquére",
+    "reconquérions       reconquérions",
+    "reconquériez        reconquériez",
+    "reconquièrent       reconquérent"
+  ],
+  [
+    "reconvertir",
+    "reconvertisse       reconverte",
+    "reconvertisses      reconvertes",
+    "reconvertisse       reconverte",
+    "reconvertissions    reconvertions",
+    "reconvertissiez     reconvertiez",
+    "reconvertissent     reconvertent"
+  ],
+  [
+    "recrépir",
+    "recrépisse          recrépe",
+    "recrépisses         recrépes",
+    "recrépisse          recrépe",
+    "recrépissions       recrépions",
+    "recrépissiez        recrépiez",
+    "recrépissent        recrépent"
+  ],
+  [
+    "redevoir",
+    "redoive             redevoe",
+    "redoives            redevoes",
+    "redoive             redevoe",
+    "redevions           redevoions",
+    "redeviez            redevoiez",
+    "redoivent           redevoent"
+  ],
+  [
+    "redevenir",
+    "redevienne          redevene",
+    "redeviennes         redevenes",
+    "redevienne          redevene",
+    "redevenions         redevenions",
+    "redeveniez          redeveniez",
+    "redeviennent        redevenent"
+  ],
+  [
+    "redéfinir",
+    "redéfinisse         redéfine",
+    "redéfinisses        redéfines",
+    "redéfinisse         redéfine",
+    "redéfinissions      redéfinions",
+    "redéfinissiez       redéfiniez",
+    "redéfinissent       redéfinent"
+  ],
+  [
+    "refleurir",
+    "refleurisse         refleure",
+    "refleurisses        refleures",
+    "refleurisse         refleure",
+    "refleurissions      refleurions",
+    "refleurissiez       refleuriez",
+    "refleurissent       refleurent"
+  ],
+  [
+    "refroidir",
+    "refroidisse         refroide",
+    "refroidisses        refroides",
+    "refroidisse         refroide",
+    "refroidissions      refroidions",
+    "refroidissiez       refroidiez",
+    "refroidissent       refroident"
+  ],
+  [
+    "regarnir",
+    "regarnisse          regarne",
+    "regarnisses         regarnes",
+    "regarnisse          regarne",
+    "regarnissions       regarnions",
+    "regarnissiez        regarniez",
+    "regarnissent        regarnent"
+  ],
+  [
+    "rejaillir",
+    "rejaillisse         rejaille",
+    "rejaillisses        rejailles",
+    "rejaillisse         rejaille",
+    "rejaillissions      rejaillions",
+    "rejaillissiez       rejailliez",
+    "rejaillissent       rejaillent"
+  ],
+  [
+    "rembrunir",
+    "rembrunisse         rembrune",
+    "rembrunisses        rembrunes",
+    "rembrunisse         rembrune",
+    "rembrunissions      rembrunions",
+    "rembrunissiez       rembruniez",
+    "rembrunissent       rembrunent"
+  ],
+  [
+    "remplir",
+    "remplisse           remple",
+    "remplisses          remples",
+    "remplisse           remple",
+    "remplissions        remplions",
+    "remplissiez         rempliez",
+    "remplissent         remplent"
+  ],
+  [
+    "renchérir",
+    "renchérisse         renchére",
+    "renchérisses        renchéres",
+    "renchérisse         renchére",
+    "renchérissions      renchérions",
+    "renchérissiez       renchériez",
+    "renchérissent       renchérent"
+  ],
+  [
+    "renformir",
+    "renformisse         renforme",
+    "renformisses        renformes",
+    "renformisse         renforme",
+    "renformissions      renformions",
+    "renformissiez       renformiez",
+    "renformissent       renforment"
+  ],
+  [
+    "repolir",
+    "repolisse           repole",
+    "repolisses          repoles",
+    "repolisse           repole",
+    "repolissions        repolions",
+    "repolissiez         repoliez",
+    "repolissent         repolent"
+  ],
+  [
+    "requérir",
+    "requière            requére",
+    "requières           requéres",
+    "requière            requére",
+    "requérions          requérions",
+    "requériez           requériez",
+    "requièrent          requérent"
+  ],
+  [
+    "resalir",
+    "resalisse           resale",
+    "resalisses          resales",
+    "resalisse           resale",
+    "resalissions        resalions",
+    "resalissiez         resaliez",
+    "resalissent         resalent"
+  ],
+  [
+    "resplendir",
+    "resplendisse        resplende",
+    "resplendisses       resplendes",
+    "resplendisse        resplende",
+    "resplendissions     resplendions",
+    "resplendissiez      resplendiez",
+    "resplendissent      resplendent"
+  ],
+  [
+    "ressaisir",
+    "ressaisisse         ressaise",
+    "ressaisisses        ressaises",
+    "ressaisisse         ressaise",
+    "ressaisissions      ressaisions",
+    "ressaisissiez       ressaisiez",
+    "ressaisissent       ressaisent"
+  ],
+  [
+    "ressortir",
+    "ressortisse         ressorte",
+    "ressortisses        ressortes",
+    "ressortisse         ressorte",
+    "ressortissions      ressortions",
+    "ressortissiez       ressortiez",
+    "ressortissent       ressortent"
+  ],
+  [
+    "ressouvenir",
+    "ressouvienne        ressouvene",
+    "ressouviennes       ressouvenes",
+    "ressouvienne        ressouvene",
+    "ressouvenions       ressouvenions",
+    "ressouveniez        ressouveniez",
+    "ressouviennent      ressouvenent"
+  ],
+  [
+    "ressurgir",
+    "ressurgisse         ressurge",
+    "ressurgisses        ressurges",
+    "ressurgisse         ressurge",
+    "ressurgissions      ressurgions",
+    "ressurgissiez       ressurgiez",
+    "ressurgissent       ressurgent"
+  ],
+  [
+    "resurgir",
+    "resurgisse          resurge",
+    "resurgisses         resurges",
+    "resurgisse          resurge",
+    "resurgissions       resurgions",
+    "resurgissiez        resurgiez",
+    "resurgissent        resurgent"
+  ],
+  [
+    "retenir",
+    "retienne            retene",
+    "retiennes           retenes",
+    "retienne            retene",
+    "retenions           retenions",
+    "reteniez            reteniez",
+    "retiennent          retenent"
+  ],
+  [
+    "retentir",
+    "retentisse          retente",
+    "retentisses         retentes",
+    "retentisse          retente",
+    "retentissions       retentions",
+    "retentissiez        retentiez",
+    "retentissent        retentent"
+  ],
+  [
+    "revaloir",
+    "revaille            revaloe",
+    "revailles           revaloes",
+    "revaille            revaloe",
+    "revalions           revaloions",
+    "revaliez            revaloiez",
+    "revaillent          revaloent"
+  ],
+  [
+    "revenir",
+    "revienne            revene",
+    "reviennes           revenes",
+    "revienne            revene",
+    "revenions           revenions",
+    "reveniez            reveniez",
+    "reviennent          revenent"
+  ],
+  [
+    "reverdir",
+    "reverdisse          reverde",
+    "reverdisses         reverdes",
+    "reverdisse          reverde",
+    "reverdissions       reverdions",
+    "reverdissiez        reverdiez",
+    "reverdissent        reverdent"
+  ],
+  [
+    "revernir",
+    "revernisse          reverne",
+    "revernisses         revernes",
+    "revernisse          reverne",
+    "revernissions       revernions",
+    "revernissiez        reverniez",
+    "revernissent        revernent"
+  ],
+  [
+    "revoir",
+    "revoie              revoe",
+    "revoies             revoes",
+    "revoie              revoe",
+    "revoyions           revoions",
+    "revoyiez            revoiez",
+    "revoient            revoent"
+  ],
+  [
+    "rosir",
+    "rosisse             rose",
+    "rosisses            roses",
+    "rosisse             rose",
+    "rosissions          rosions",
+    "rosissiez           rosiez",
+    "rosissent           rosent"
+  ],
+  [
+    "rougir",
+    "rougisse            rouge",
+    "rougisses           rouges",
+    "rougisse            rouge",
+    "rougissions         rougions",
+    "rougissiez          rougiez",
+    "rougissent          rougent"
+  ],
+  [
+    "rouir",
+    "rouisse             roue",
+    "rouisses            roues",
+    "rouisse             roue",
+    "rouissions          rouions",
+    "rouissiez           rouiez",
+    "rouissent           rouent"
+  ],
+  [
+    "roussir",
+    "roussisse           rousse",
+    "roussisses          rousses",
+    "roussisse           rousse",
+    "roussissions        roussions",
+    "roussissiez         roussiez",
+    "roussissent         roussent"
+  ],
+  [
+    "roustir",
+    "roustisse           rouste",
+    "roustisses          roustes",
+    "roustisse           rouste",
+    "roustissions        roustions",
+    "roustissiez         roustiez",
+    "roustissent         roustent"
+  ],
+  [
+    "rugir",
+    "rugisse             ruge",
+    "rugisses            ruges",
+    "rugisse             ruge",
+    "rugissions          rugions",
+    "rugissiez           rugiez",
+    "rugissent           rugent"
+  ],
+  [
+    "réagir",
+    "réagisse            réage",
+    "réagisses           réages",
+    "réagisse            réage",
+    "réagissions         réagions",
+    "réagissiez          réagiez",
+    "réagissent          réagent"
+  ],
+  [
+    "réasservir",
+    "réasservisse        réasserve",
+    "réasservisses       réasserves",
+    "réasservisse        réasserve",
+    "réasservissions     réasservions",
+    "réasservissiez      réasserviez",
+    "réasservissent      réasservent"
+  ],
+  [
+    "réassortir",
+    "réassortisse        réassorte",
+    "réassortisses       réassortes",
+    "réassortisse        réassorte",
+    "réassortissions     réassortions",
+    "réassortissiez      réassortiez",
+    "réassortissent      réassortent"
+  ],
+  [
+    "réchampir",
+    "réchampisse         réchampe",
+    "réchampisses        réchampes",
+    "réchampisse         réchampe",
+    "réchampissions      réchampions",
+    "réchampissiez       réchampiez",
+    "réchampissent       réchampent"
+  ],
+  [
+    "réfléchir",
+    "réfléchisse         réfléche",
+    "réfléchisses        réfléches",
+    "réfléchisse         réfléche",
+    "réfléchissions      réfléchions",
+    "réfléchissiez       réfléchiez",
+    "réfléchissent       réfléchent"
+  ],
+  [
+    "régir",
+    "régisse             rége",
+    "régisses            réges",
+    "régisse             rége",
+    "régissions          régions",
+    "régissiez           régiez",
+    "régissent           régent"
+  ],
+  [
+    "réinvestir",
+    "réinvestisse        réinveste",
+    "réinvestisses       réinvestes",
+    "réinvestisse        réinveste",
+    "réinvestissions     réinvestions",
+    "réinvestissiez      réinvestiez",
+    "réinvestissent      réinvestent"
+  ],
+  [
+    "réjouir",
+    "réjouisse           réjoue",
+    "réjouisses          réjoues",
+    "réjouisse           réjoue",
+    "réjouissions        réjouions",
+    "réjouissiez         réjouiez",
+    "réjouissent         réjouent"
+  ],
+  [
+    "rélargir",
+    "rélargisse          rélarge",
+    "rélargisses         rélarges",
+    "rélargisse          rélarge",
+    "rélargissions       rélargions",
+    "rélargissiez        rélargiez",
+    "rélargissent        rélargent"
+  ],
+  [
+    "répartir",
+    "répartisse          réparte",
+    "répartisses         répartes",
+    "répartisse          réparte",
+    "répartissions       répartions",
+    "répartissiez        répartiez",
+    "répartissent        répartent"
+  ],
+  [
+    "rétablir",
+    "rétablisse          rétable",
+    "rétablisses         rétables",
+    "rétablisse          rétable",
+    "rétablissions       rétablions",
+    "rétablissiez        rétabliez",
+    "rétablissent        rétablent"
+  ],
+  [
+    "rétroagir",
+    "rétroagisse         rétroage",
+    "rétroagisses        rétroages",
+    "rétroagisse         rétroage",
+    "rétroagissions      rétroagions",
+    "rétroagissiez       rétroagiez",
+    "rétroagissent       rétroagent"
+  ],
+  [
+    "rétrécir",
+    "rétrécisse          rétréce",
+    "rétrécisses         rétréces",
+    "rétrécisse          rétréce",
+    "rétrécissions       rétrécions",
+    "rétrécissiez        rétréciez",
+    "rétrécissent        rétrécent"
+  ],
+  [
+    "réunir",
+    "réunisse            réune",
+    "réunisses           réunes",
+    "réunisse            réune",
+    "réunissions         réunions",
+    "réunissiez          réuniez",
+    "réunissent          réunent"
+  ],
+  [
+    "réussir",
+    "réussisse           réusse",
+    "réussisses          réusses",
+    "réussisse           réusse",
+    "réussissions        réussions",
+    "réussissiez         réussiez",
+    "réussissent         réussent"
+  ],
+  [
+    "rôtir",
+    "rôtisse             rôte",
+    "rôtisses            rôtes",
+    "rôtisse             rôte",
+    "rôtissions          rôtions",
+    "rôtissiez           rôtiez",
+    "rôtissent           rôtent"
+  ],
+  [
+    "savoir",
+    "sache               savoe",
+    "saches              savoes",
+    "sache               savoe",
+    "sachions            savoions",
+    "sachiez             savoiez",
+    "sachent             savoent"
+  ],
+  [
+    "saillir",
+    "saillisse           saille",
+    "saillisses          sailles",
+    "saillisse           saille",
+    "saillissions        saillions",
+    "saillissiez         sailliez",
+    "saillissent         saillent"
+  ],
+  [
+    "saisir",
+    "saisisse            saise",
+    "saisisses           saises",
+    "saisisse            saise",
+    "saisissions         saisions",
+    "saisissiez          saisiez",
+    "saisissent          saisent"
+  ],
+  [
+    "salir",
+    "salisse             sale",
+    "salisses            sales",
+    "salisse             sale",
+    "salissions          salions",
+    "salissiez           saliez",
+    "salissent           salent"
+  ],
+  [
+    "seoir",
+    "                    seoe",
+    "                    seoes",
+    "siée                seoe",
+    "                    seoions",
+    "                    seoiez",
+    "siéent              seoent"
+  ],
+  [
+    "serfouir",
+    "serfouisse          serfoue",
+    "serfouisses         serfoues",
+    "serfouisse          serfoue",
+    "serfouissions       serfouions",
+    "serfouissiez        serfouiez",
+    "serfouissent        serfouent"
+  ],
+  [
+    "sertir",
+    "sertisse            serte",
+    "sertisses           sertes",
+    "sertisse            serte",
+    "sertissions         sertions",
+    "sertissiez          sertiez",
+    "sertissent          sertent"
+  ],
+  [
+    "soutenir",
+    "soutienne           soutene",
+    "soutiennes          soutenes",
+    "soutienne           soutene",
+    "soutenions          soutenions",
+    "souteniez           souteniez",
+    "soutiennent         soutenent"
+  ],
+  [
+    "souvenir",
+    "souvienne           souvene",
+    "souviennes          souvenes",
+    "souvienne           souvene",
+    "souvenions          souvenions",
+    "souveniez           souveniez",
+    "souviennent         souvenent"
+  ],
+  [
+    "subir",
+    "subisse             sube",
+    "subisses            subes",
+    "subisse             sube",
+    "subissions          subions",
+    "subissiez           subiez",
+    "subissent           subent"
+  ],
+  [
+    "subvenir",
+    "subvienne           subvene",
+    "subviennes          subvenes",
+    "subvienne           subvene",
+    "subvenions          subvenions",
+    "subveniez           subveniez",
+    "subviennent         subvenent"
+  ],
+  [
+    "subvertir",
+    "subvertisse         subverte",
+    "subvertisses        subvertes",
+    "subvertisse         subverte",
+    "subvertissions      subvertions",
+    "subvertissiez       subvertiez",
+    "subvertissent       subvertent"
+  ],
+  [
+    "surenchérir",
+    "surenchérisse       surenchére",
+    "surenchérisses      surenchéres",
+    "surenchérisse       surenchére",
+    "surenchérissions    surenchérions",
+    "surenchérissiez     surenchériez",
+    "surenchérissent     surenchérent"
+  ],
+  [
+    "surgir",
+    "surgisse            surge",
+    "surgisses           surges",
+    "surgisse            surge",
+    "surgissions         surgions",
+    "surgissiez          surgiez",
+    "surgissent          surgent"
+  ],
+  [
+    "surir",
+    "surisse             sure",
+    "surisses            sures",
+    "surisse             sure",
+    "surissions          surions",
+    "surissiez           suriez",
+    "surissent           surent"
+  ],
+  [
+    "surinvestir",
+    "surinvestisse       surinveste",
+    "surinvestisses      surinvestes",
+    "surinvestisse       surinveste",
+    "surinvestissions    surinvestions",
+    "surinvestissiez     surinvestiez",
+    "surinvestissent     surinvestent"
+  ],
+  [
+    "surnourrir",
+    "surnourrisse        surnourre",
+    "surnourrisses       surnourres",
+    "surnourrisse        surnourre",
+    "surnourrissions     surnourrions",
+    "surnourrissiez      surnourriez",
+    "surnourrissent      surnourrent"
+  ],
+  [
+    "survenir",
+    "survienne           survene",
+    "surviennes          survenes",
+    "survienne           survene",
+    "survenions          survenions",
+    "surveniez           surveniez",
+    "surviennent         survenent"
+  ],
+  [
+    "sévir",
+    "sévisse             séve",
+    "sévisses            séves",
+    "sévisse             séve",
+    "sévissions          sévions",
+    "sévissiez           séviez",
+    "sévissent           sévent"
+  ],
+  [
+    "tapir",
+    "tapisse             tape",
+    "tapisses            tapes",
+    "tapisse             tape",
+    "tapissions          tapions",
+    "tapissiez           tapiez",
+    "tapissent           tapent"
+  ],
+  [
+    "tarir",
+    "tarisse             tare",
+    "tarisses            tares",
+    "tarisse             tare",
+    "tarissions          tarions",
+    "tarissiez           tariez",
+    "tarissent           tarent"
+  ],
+  [
+    "tartir",
+    "tartisse            tarte",
+    "tartisses           tartes",
+    "tartisse            tarte",
+    "tartissions         tartions",
+    "tartissiez          tartiez",
+    "tartissent          tartent"
+  ],
+  [
+    "tenir",
+    "tienne              tene",
+    "tiennes             tenes",
+    "tienne              tene",
+    "tenions             tenions",
+    "teniez              teniez",
+    "tiennent            tenent"
+  ],
+  [
+    "ternir",
+    "ternisse            terne",
+    "ternisses           ternes",
+    "ternisse            terne",
+    "ternissions         ternions",
+    "ternissiez          terniez",
+    "ternissent          ternent"
+  ],
+  [
+    "terrir",
+    "terrisse            terre",
+    "terrisses           terres",
+    "terrisse            terre",
+    "terrissions         terrions",
+    "terrissiez          terriez",
+    "terrissent          terrent"
+  ],
+  [
+    "tiédir",
+    "tiédisse            tiéde",
+    "tiédisses           tiédes",
+    "tiédisse            tiéde",
+    "tiédissions         tiédions",
+    "tiédissiez          tiédiez",
+    "tiédissent          tiédent"
+  ],
+  [
+    "trahir",
+    "trahisse            trahe",
+    "trahisses           trahes",
+    "trahisse            trahe",
+    "trahissions         trahions",
+    "trahissiez          trahiez",
+    "trahissent          trahent"
+  ],
+  [
+    "transir",
+    "transisse           transe",
+    "transisses          transes",
+    "transisse           transe",
+    "transissions        transions",
+    "transissiez         transiez",
+    "transissent         transent"
+  ],
+  [
+    "travestir",
+    "travestisse         traveste",
+    "travestisses        travestes",
+    "travestisse         traveste",
+    "travestissions      travestions",
+    "travestissiez       travestiez",
+    "travestissent       travestent"
+  ],
+  [
+    "unir",
+    "unisse              une",
+    "unisses             unes",
+    "unisse              une",
+    "unissions           unions",
+    "unissiez            uniez",
+    "unissent            unent"
+  ],
+  [
+    "vagir",
+    "vagisse             vage",
+    "vagisses            vages",
+    "vagisse             vage",
+    "vagissions          vagions",
+    "vagissiez           vagiez",
+    "vagissent           vagent"
+  ],
+  [
+    "valoir",
+    "vaille              valoe",
+    "vailles             valoes",
+    "vaille              valoe",
+    "valions             valoions",
+    "valiez              valoiez",
+    "vaillent            valoent"
+  ],
+  [
+    "venir",
+    "vienne              vene",
+    "viennes             venes",
+    "vienne              vene",
+    "venions             venions",
+    "veniez              veniez",
+    "viennent            venent"
+  ],
+  [
+    "verdir",
+    "verdisse            verde",
+    "verdisses           verdes",
+    "verdisse            verde",
+    "verdissions         verdions",
+    "verdissiez          verdiez",
+    "verdissent          verdent"
+  ],
+  [
+    "vernir",
+    "vernisse            verne",
+    "vernisses           vernes",
+    "vernisse            verne",
+    "vernissions         vernions",
+    "vernissiez          verniez",
+    "vernissent          vernent"
+  ],
+  [
+    "voir",
+    "voie                voe",
+    "voies               voes",
+    "voie                voe",
+    "voyions             voions",
+    "voyiez              voiez",
+    "voient              voent"
+  ],
+  [
+    "vouloir",
+    "veuille             vouloe",
+    "veuilles            vouloes",
+    "veuille             vouloe",
+    "voulions            vouloions",
+    "vouliez             vouloiez",
+    "veuillent           vouloent"
+  ],
+  [
+    "vieillir",
+    "vieillisse          vieille",
+    "vieillisses         vieilles",
+    "vieillisse          vieille",
+    "vieillissions       vieillions",
+    "vieillissiez        vieilliez",
+    "vieillissent        vieillent"
+  ],
+  [
+    "vomir",
+    "vomisse             vome",
+    "vomisses            vomes",
+    "vomisse             vome",
+    "vomissions          vomions",
+    "vomissiez           vomiez",
+    "vomissent           voment"
+  ],
+  [
+    "vrombir",
+    "vrombisse           vrombe",
+    "vrombisses          vrombes",
+    "vrombisse           vrombe",
+    "vrombissions        vrombions",
+    "vrombissiez         vrombiez",
+    "vrombissent         vrombent"
+  ],
+  [
+    "ébahir",
+    "ébahisse            ébahe",
+    "ébahisses           ébahes",
+    "ébahisse            ébahe",
+    "ébahissions         ébahions",
+    "ébahissiez          ébahiez",
+    "ébahissent          ébahent"
+  ],
+  [
+    "ébaudir",
+    "ébaudisse           ébaude",
+    "ébaudisses          ébaudes",
+    "ébaudisse           ébaude",
+    "ébaudissions        ébaudions",
+    "ébaudissiez         ébaudiez",
+    "ébaudissent         ébaudent"
+  ],
+  [
+    "éblouir",
+    "éblouisse           ébloue",
+    "éblouisses          ébloues",
+    "éblouisse           ébloue",
+    "éblouissions        éblouions",
+    "éblouissiez         éblouiez",
+    "éblouissent         éblouent"
+  ],
+  [
+    "échoir",
+    "échoie              échoe",
+    "échoies             échoes",
+    "échoie              échoe",
+    "échoyions           échoions",
+    "échoyiez            échoiez",
+    "échoient            échoent"
+  ],
+  [
+    "éclaircir",
+    "éclaircisse         éclairce",
+    "éclaircisses        éclairces",
+    "éclaircisse         éclairce",
+    "éclaircissions      éclaircions",
+    "éclaircissiez       éclairciez",
+    "éclaircissent       éclaircent"
+  ],
+  [
+    "écrouir",
+    "écrouisse           écroue",
+    "écrouisses          écroues",
+    "écrouisse           écroue",
+    "écrouissions        écrouions",
+    "écrouissiez         écrouiez",
+    "écrouissent         écrouent"
+  ],
+  [
+    "élargir",
+    "élargisse           élarge",
+    "élargisses          élarges",
+    "élargisse           élarge",
+    "élargissions        élargions",
+    "élargissiez         élargiez",
+    "élargissent         élargent"
+  ],
+  [
+    "émouvoir",
+    "émeuve              émouvoe",
+    "émeuves             émouvoes",
+    "émeuve              émouvoe",
+    "émouvions           émouvoions",
+    "émouviez            émouvoiez",
+    "émeuvent            émouvoent"
+  ],
+  [
+    "épaissir",
+    "épaississe          épaisse",
+    "épaississes         épaisses",
+    "épaississe          épaisse",
+    "épaississions       épaissions",
+    "épaississiez        épaissiez",
+    "épaississent        épaissent"
+  ],
+  [
+    "épanouir",
+    "épanouisse          épanoue",
+    "épanouisses         épanoues",
+    "épanouisse          épanoue",
+    "épanouissions       épanouions",
+    "épanouissiez        épanouiez",
+    "épanouissent        épanouent"
+  ],
+  [
+    "équarrir",
+    "équarrisse          équarre",
+    "équarrisses         équarres",
+    "équarrisse          équarre",
+    "équarrissions       équarrions",
+    "équarrissiez        équarriez",
+    "équarrissent        équarrent"
+  ],
+  [
+    "équivaloir",
+    "équivaille          équivaloe",
+    "équivailles         équivaloes",
+    "équivaille          équivaloe",
+    "équivalions         équivaloions",
+    "équivaliez          équivaloiez",
+    "équivaillent        équivaloent"
+  ],
+  [
+    "établir",
+    "établisse           étable",
+    "établisses          étables",
+    "établisse           étable",
+    "établissions        établions",
+    "établissiez         établiez",
+    "établissent         établent"
+  ],
+  [
+    "étourdir",
+    "étourdisse          étourde",
+    "étourdisses         étourdes",
+    "étourdisse          étourde",
+    "étourdissions       étourdions",
+    "étourdissiez        étourdiez",
+    "étourdissent        étourdent"
+  ],
+  [
+    "étrécir",
+    "étrécisse           étréce",
+    "étrécisses          étréces",
+    "étrécisse           étréce",
+    "étrécissions        étrécions",
+    "étrécissiez         étréciez",
+    "étrécissent         étrécent"
+  ],
+  [
+    "évanouir",
+    "évanouisse          évanoue",
+    "évanouisses         évanoues",
+    "évanouisse          évanoue",
+    "évanouissions       évanouions",
+    "évanouissiez        évanouiez",
+    "évanouissent        évanouent"
+  ]
+]

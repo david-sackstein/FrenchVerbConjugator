@@ -19,6 +19,6 @@ namespace ConjugatorLibrary.SecondGroup
         public Func<string, string[]> PasseSimple => EmptyConjugator.GetConjugations;
         public Func<string, string[]> Present => PresentConjugator.GetConjugations;
         public Func<string, string[]> SubjonctifImparfait => EmptyConjugator.GetConjugations;
-        public Func<string, string[]> SubjonctifPresent => EmptyConjugator.GetConjugations;
+        public Func<string, string[]> SubjonctifPresent => SubjonctifPresentConjugator.GetConjugations;
     }
 }
