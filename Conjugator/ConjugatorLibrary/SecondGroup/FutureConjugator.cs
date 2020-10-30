@@ -14,22 +14,18 @@
         {
             switch (verb)
             {
-                case "falloir":
-                    return "faudr";
-                case "pleuvoir":
-                    return "pleuvr";
-                case "vouloir":
-                    return "voudr";
                 case "messeoir":
                 case "seoir":
                     return verb.ReplaceEnd("seoir", "siér");
-                case "pouvoir":
-                    return "pourr";
                 case "voir":
                     return "verr";
             }
 
-            (string, string)[] a = {
+            (string verbEnding, string stem)[] stemTuples = {
+                ("pouvoir", "pourr"),
+                ("vouloir", "voudr"),
+                ("pleuvoir", "pleuvr"),
+                ("falloir", "faudr"),
                 ("avoir", "aur"),
                 ("mouvoir", "mouvr"),
                 ("asseoir", "assoir"),
@@ -44,11 +40,11 @@
                 ("cueillir", "cueiller")
             };
 
-            foreach(var aa in a)
+            foreach(var tuple in stemTuples)
             {
-                if (verb.EndsWith(aa.Item1))
+                if (verb.EndsWith(tuple.verbEnding))
                 {
-                    return verb.ReplaceEnd(aa.Item1, aa.Item2);
+                    return verb.ReplaceEnd(tuple.verbEnding, tuple.stem);
                 }
             }
 
