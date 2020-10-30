@@ -10,7 +10,7 @@ namespace ConjugatorLibrary.SecondGroup
             return verb.EndsWith("ir");
         }
 
-        public Func<string, string[]> Conditionel => EmptyConjugator.GetConjugations;
+        public Func<string, string[]> Conditionel => ConditionelConjugator.GetConjugations;
         public Func<string, string[]> Future => FutureConjugator.GetConjugations;
         public Func<string, string[]> Imparfait => ImparfaitConjugator.GetConjugations;
         public Func<string, string[]> Imperatif => EmptyConjugator.GetConjugations;
