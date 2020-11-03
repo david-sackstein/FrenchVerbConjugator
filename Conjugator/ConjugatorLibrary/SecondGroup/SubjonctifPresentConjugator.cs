@@ -28,6 +28,7 @@ namespace ConjugatorLibrary.SecondGroup
                 {
                     return new[] {"sache", "saches", "sache", "sachions", "sachiez", "sachent"};
                 }
+
                 if (verb.EndsWith("enir"))
                 {
                     string stem = verb.TrimEnd("enir");
@@ -56,6 +57,34 @@ namespace ConjugatorLibrary.SecondGroup
                     var nousVousStem = stem + "dev";
                     var nonNousVousStem = stem + "doiv";
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
+                }
+                if (verb == "pleuvoir")
+                {
+                    //"émouvoir",
+                    //"émeuve              émouve",
+                    //"émeuves             émouves",
+                    //"émeuve              émouve",
+                    //"émouvions           émouvions",
+                    //"émouviez            émouviez",
+                    //"émeuvent            émouvent"
+                    string stem = verb.TrimEnd("oir");
+                    return AddEndings(endings, stem);
+                }
+
+                if (verb == "voir")
+                {
+                    string stem = verb.TrimEnd("ir");
+                    var nousVousStem = stem + "y";
+                    var nonNousVousStem = stem + "i";
+                    return AddEndings(endings, nonNousVousStem, nousVousStem);
+                    //"voir",
+                    //"voie                voye",
+                    //"voies               voyes",
+                    //"voie                voye",
+                    //"voyions             voyions",
+                    //"voyiez              voyiez",
+                    //"voient              voyent"
+
                 }
                 else
                 {

@@ -108,15 +108,6 @@
     "puissent            pouvent"
   ],
   [
-    "pleuvoir",
-    "                    pleuvoe",
-    "                    pleuvoes",
-    "pleuve              pleuvoe",
-    "                    pleuvoions",
-    "                    pleuvoiez",
-    "pleuvent            pleuvoent"
-  ],
-  [
     "pourvoir",
     "pourvoie            pourvoye",
     "pourvoies           pourvoyes",
@@ -187,15 +178,6 @@
     "valions             valions",
     "valiez              valiez",
     "vaillent            valent"
-  ],
-  [
-    "voir",
-    "voie                voye",
-    "voies               voyes",
-    "voie                voye",
-    "voyions             voyions",
-    "voyiez              voyiez",
-    "voient              voyent"
   ],
   [
     "vouloir",
