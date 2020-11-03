@@ -171,15 +171,6 @@
     "revoient            revoyent"
   ],
   [
-    "savoir",
-    "sache               save",
-    "saches              saves",
-    "sache               save",
-    "sachions            savions",
-    "sachiez             saviez",
-    "sachent             savent"
-  ],
-  [
     "seoir",
     "                    seoe",
     "                    seoes",

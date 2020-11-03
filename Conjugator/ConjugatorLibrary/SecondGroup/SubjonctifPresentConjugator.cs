@@ -24,6 +24,10 @@ namespace ConjugatorLibrary.SecondGroup
                 var present = PresentConjugator.GetConjugations(verb);
                 var nousForm = present[3];
 
+                if (verb == "savoir")
+                {
+                    return new[] {"sache", "saches", "sache", "sachions", "sachiez", "sachent"};
+                }
                 if (verb.EndsWith("enir"))
                 {
                     string stem = verb.TrimEnd("enir");
