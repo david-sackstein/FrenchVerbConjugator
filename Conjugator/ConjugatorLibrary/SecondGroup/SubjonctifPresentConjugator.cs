@@ -87,7 +87,7 @@ namespace ConjugatorLibrary.SecondGroup
 
                 }
 
-                if (verb.EndsWith("pourvoir"))
+                if (verb.EndsWith("pourvoir") || verb == "entrevoir")
                 {
                     string stem = verb.TrimEnd("ir");
                     var nousVousStem = stem + "y";
