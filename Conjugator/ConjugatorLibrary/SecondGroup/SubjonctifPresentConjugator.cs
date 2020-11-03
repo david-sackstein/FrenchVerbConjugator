@@ -27,7 +27,24 @@ namespace ConjugatorLibrary.SecondGroup
                 if (verb.EndsWith("enir"))
                 {
                     string stem = verb.TrimEnd("enir");
-                    return AddEndings(endings, stem + "ienn", stem + "en");
+                    var nousVousStem = stem + "en";
+                    var nonNousVousStem = stem + "ienn";
+                    return AddEndings(endings, nonNousVousStem, nousVousStem);
+                }
+                if (verb.EndsWith("quérir"))
+                {
+                    /*
+                        acquière    
+                        acquières
+                        acquière    
+                        acquérions  
+                        acquériez   
+                        acquièrent  
+                    */
+                    string stem = verb.TrimEnd("érir");
+                    var nousVousStem = stem + "ér";
+                    var nonNousVousStem = stem + "ièr";
+                    return AddEndings(endings, nonNousVousStem, nousVousStem);
                 }
                 else
                 {

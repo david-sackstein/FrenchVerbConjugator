@@ -1,14 +1,5 @@
 [
   [
-    "acquérir",
-    "acquière            acquére",
-    "acquières           acquéres",
-    "acquière            acquére",
-    "acquérions          acquérions",
-    "acquériez           acquériez",
-    "acquièrent          acquérent"
-  ],
-  [
     "apercevoir",
     "aperçoive           aperceve",
     "aperçoives          aperceves",
@@ -43,15 +34,6 @@
     "concevions          concevions",
     "conceviez           conceviez",
     "conçoivent          concevent"
-  ],
-  [
-    "conquérir",
-    "conquière           conquére",
-    "conquières          conquéres",
-    "conquière           conquére",
-    "conquérions         conquérions",
-    "conquériez          conquériez",
-    "conquièrent         conquérent"
   ],
   [
     "devoir",
@@ -97,15 +79,6 @@
     "enfuyions           enfuyions",
     "enfuyiez            enfuyiez",
     "enfuient            enfuyent"
-  ],
-  [
-    "enquérir",
-    "enquière            enquére",
-    "enquières           enquéres",
-    "enquière            enquére",
-    "enquérions          enquérions",
-    "enquériez           enquériez",
-    "enquièrent          enquérent"
   ],
   [
     "entrapercevoir",
@@ -252,15 +225,6 @@
     "reçoivent           recevent"
   ],
   [
-    "reconquérir",
-    "reconquière         reconquére",
-    "reconquières        reconquéres",
-    "reconquière         reconquére",
-    "reconquérions       reconquérions",
-    "reconquériez        reconquériez",
-    "reconquièrent       reconquérent"
-  ],
-  [
     "redevoir",
     "redoive             redeve",
     "redoives            redeves",
@@ -268,15 +232,6 @@
     "redevions           redevions",
     "redeviez            redeviez",
     "redoivent           redevent"
-  ],
-  [
-    "requérir",
-    "requière            requére",
-    "requières           requéres",
-    "requière            requére",
-    "requérions          requérions",
-    "requériez           requériez",
-    "requièrent          requérent"
   ],
   [
     "revaloir",
