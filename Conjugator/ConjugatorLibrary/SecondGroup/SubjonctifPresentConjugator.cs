@@ -40,18 +40,17 @@ namespace ConjugatorLibrary.SecondGroup
                 }
                 if (verb.EndsWith("cevoir"))
                 {
-                    /*
-                    apercevoir
-                    aperçoive   
-                    aperçoives  
-                    aperçoive   
-                    apercevions 
-                    aperceviez  
-                    aperçoivent 
-*/
                     string stem = verb.TrimEnd("cevoir");
                     var nousVousStem = stem + "cev";
                     var nonNousVousStem = stem + "çoiv";
+                    return AddEndings(endings, nonNousVousStem, nousVousStem);
+                }
+
+                if (verb.EndsWith("devoir"))
+                {
+                    string stem = verb.TrimEnd("devoir");
+                    var nousVousStem = stem + "dev";
+                    var nonNousVousStem = stem + "doiv";
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
                 }
                 else

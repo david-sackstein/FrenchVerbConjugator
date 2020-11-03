@@ -18,15 +18,6 @@
     "choient             choyent"
   ],
   [
-    "devoir",
-    "doive               deve",
-    "doives              deves",
-    "doive               deve",
-    "devions             devions",
-    "deviez              deviez",
-    "doivent             devent"
-  ],
-  [
     "déchoir",
     "déchoie             déchoye",
     "déchoies            déchoyes",
@@ -160,15 +151,6 @@
     "rassoyions          rassoyions",
     "rassoyiez           rassoyiez",
     "rassoient           rassoyent"
-  ],
-  [
-    "redevoir",
-    "redoive             redeve",
-    "redoives            redeves",
-    "redoive             redeve",
-    "redevions           redevions",
-    "redeviez            redeviez",
-    "redoivent           redevent"
   ],
   [
     "revaloir",
