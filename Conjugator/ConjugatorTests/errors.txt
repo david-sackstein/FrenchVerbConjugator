@@ -99,15 +99,6 @@
     "promeuvent          promouvent"
   ],
   [
-    "prévoir",
-    "prévoie             prévoye",
-    "prévoies            prévoyes",
-    "prévoie             prévoye",
-    "prévoyions          prévoyions",
-    "prévoyiez           prévoyiez",
-    "prévoient           prévoyent"
-  ],
-  [
     "rasseoir",
     "rassoie             rassoye",
     "rassoies            rassoyes",
