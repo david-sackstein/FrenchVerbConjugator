@@ -33,17 +33,25 @@ namespace ConjugatorLibrary.SecondGroup
                 }
                 if (verb.EndsWith("quérir"))
                 {
-                    /*
-                        acquière    
-                        acquières
-                        acquière    
-                        acquérions  
-                        acquériez   
-                        acquièrent  
-                    */
                     string stem = verb.TrimEnd("érir");
                     var nousVousStem = stem + "ér";
                     var nonNousVousStem = stem + "ièr";
+                    return AddEndings(endings, nonNousVousStem, nousVousStem);
+                }
+                if (verb.EndsWith("cevoir"))
+                {
+                    /*
+                    apercevoir
+                    aperçoive   
+                    aperçoives  
+                    aperçoive   
+                    apercevions 
+                    aperceviez  
+                    aperçoivent 
+*/
+                    string stem = verb.TrimEnd("cevoir");
+                    var nousVousStem = stem + "cev";
+                    var nonNousVousStem = stem + "çoiv";
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
                 }
                 else

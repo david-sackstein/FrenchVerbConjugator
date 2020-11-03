@@ -1,14 +1,5 @@
 [
   [
-    "apercevoir",
-    "aperçoive           aperceve",
-    "aperçoives          aperceves",
-    "aperçoive           aperceve",
-    "apercevions         apercevions",
-    "aperceviez          aperceviez",
-    "aperçoivent         apercevent"
-  ],
-  [
     "asseoir",
     "assoie              assoye",
     "assoies             assoyes",
@@ -27,15 +18,6 @@
     "choient             choyent"
   ],
   [
-    "concevoir",
-    "conçoive            conceve",
-    "conçoives           conceves",
-    "conçoive            conceve",
-    "concevions          concevions",
-    "conceviez           conceviez",
-    "conçoivent          concevent"
-  ],
-  [
     "devoir",
     "doive               deve",
     "doives              deves",
@@ -43,15 +25,6 @@
     "devions             devions",
     "deviez              deviez",
     "doivent             devent"
-  ],
-  [
-    "décevoir",
-    "déçoive             déceve",
-    "déçoives            déceves",
-    "déçoive             déceve",
-    "décevions           décevions",
-    "déceviez            déceviez",
-    "déçoivent           décevent"
   ],
   [
     "déchoir",
@@ -79,15 +52,6 @@
     "enfuyions           enfuyions",
     "enfuyiez            enfuyiez",
     "enfuient            enfuyent"
-  ],
-  [
-    "entrapercevoir",
-    "entraperçoive       entraperceve",
-    "entraperçoives      entraperceves",
-    "entraperçoive       entraperceve",
-    "entrapercevions     entrapercevions",
-    "entraperceviez      entraperceviez",
-    "entraperçoivent     entrapercevent"
   ],
   [
     "entrevoir",
@@ -144,15 +108,6 @@
     "meuvent             mouvent"
   ],
   [
-    "percevoir",
-    "perçoive            perceve",
-    "perçoives           perceves",
-    "perçoive            perceve",
-    "percevions          percevions",
-    "perceviez           perceviez",
-    "perçoivent          percevent"
-  ],
-  [
     "pouvoir",
     "puisse              pouve",
     "puisses             pouves",
@@ -189,15 +144,6 @@
     "promeuvent          promouvent"
   ],
   [
-    "préconcevoir",
-    "préconçoive         préconceve",
-    "préconçoives        préconceves",
-    "préconçoive         préconceve",
-    "préconcevions       préconcevions",
-    "préconceviez        préconceviez",
-    "préconçoivent       préconcevent"
-  ],
-  [
     "prévoir",
     "prévoie             prévoye",
     "prévoies            prévoyes",
@@ -214,15 +160,6 @@
     "rassoyions          rassoyions",
     "rassoyiez           rassoyiez",
     "rassoient           rassoyent"
-  ],
-  [
-    "recevoir",
-    "reçoive             receve",
-    "reçoives            receves",
-    "reçoive             receve",
-    "recevions           recevions",
-    "receviez            receviez",
-    "reçoivent           recevent"
   ],
   [
     "redevoir",
