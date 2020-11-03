@@ -1,14 +1,5 @@
 [
   [
-    "abstenir",
-    "abstienne           abstene",
-    "abstiennes          abstenes",
-    "abstienne           abstene",
-    "abstenions          abstenions",
-    "absteniez           absteniez",
-    "abstiennent         abstenent"
-  ],
-  [
     "acquérir",
     "acquière            acquére",
     "acquières           acquéres",
@@ -18,15 +9,6 @@
     "acquièrent          acquérent"
   ],
   [
-    "advenir",
-    "advienne            advene",
-    "adviennes           advenes",
-    "advienne            advene",
-    "advenions           advenions",
-    "adveniez            adveniez",
-    "adviennent          advenent"
-  ],
-  [
     "apercevoir",
     "aperçoive           aperceve",
     "aperçoives          aperceves",
@@ -34,15 +16,6 @@
     "apercevions         apercevions",
     "aperceviez          aperceviez",
     "aperçoivent         apercevent"
-  ],
-  [
-    "appartenir",
-    "appartienne         appartene",
-    "appartiennes        appartenes",
-    "appartienne         appartene",
-    "appartenions        appartenions",
-    "apparteniez         apparteniez",
-    "appartiennent       appartenent"
   ],
   [
     "asseoir",
@@ -63,15 +36,6 @@
     "choient             choyent"
   ],
   [
-    "circonvenir",
-    "circonvienne        circonvene",
-    "circonviennes       circonvenes",
-    "circonvienne        circonvene",
-    "circonvenions       circonvenions",
-    "circonveniez        circonveniez",
-    "circonviennent      circonvenent"
-  ],
-  [
     "concevoir",
     "conçoive            conceve",
     "conçoives           conceves",
@@ -90,33 +54,6 @@
     "conquièrent         conquérent"
   ],
   [
-    "contenir",
-    "contienne           contene",
-    "contiennes          contenes",
-    "contienne           contene",
-    "contenions          contenions",
-    "conteniez           conteniez",
-    "contiennent         contenent"
-  ],
-  [
-    "contrevenir",
-    "contrevienne        contrevene",
-    "contreviennes       contrevenes",
-    "contrevienne        contrevene",
-    "contrevenions       contrevenions",
-    "contreveniez        contreveniez",
-    "contreviennent      contrevenent"
-  ],
-  [
-    "convenir",
-    "convienne           convene",
-    "conviennes          convenes",
-    "convienne           convene",
-    "convenions          convenions",
-    "conveniez           conveniez",
-    "conviennent         convenent"
-  ],
-  [
     "devoir",
     "doive               deve",
     "doives              deves",
@@ -124,24 +61,6 @@
     "devions             devions",
     "deviez              deviez",
     "doivent             devent"
-  ],
-  [
-    "devenir",
-    "devienne            devene",
-    "deviennes           devenes",
-    "devienne            devene",
-    "devenions           devenions",
-    "deveniez            deveniez",
-    "deviennent          devenent"
-  ],
-  [
-    "disconvenir",
-    "disconvienne        disconvene",
-    "disconviennes       disconvenes",
-    "disconvienne        disconvene",
-    "disconvenions       disconvenions",
-    "disconveniez        disconveniez",
-    "disconviennent      disconvenent"
   ],
   [
     "décevoir",
@@ -171,15 +90,6 @@
     "dépourvoient        dépourvoyent"
   ],
   [
-    "détenir",
-    "détienne            détene",
-    "détiennes           détenes",
-    "détienne            détene",
-    "détenions           détenions",
-    "déteniez            déteniez",
-    "détiennent          détenent"
-  ],
-  [
     "enfuir",
     "enfuie              enfuye",
     "enfuies             enfuyes",
@@ -205,15 +115,6 @@
     "entrapercevions     entrapercevions",
     "entraperceviez      entraperceviez",
     "entraperçoivent     entrapercevent"
-  ],
-  [
-    "entretenir",
-    "entretienne         entretene",
-    "entretiennes        entretenes",
-    "entretienne         entretene",
-    "entretenions        entretenions",
-    "entreteniez         entreteniez",
-    "entretiennent       entretenent"
   ],
   [
     "entrevoir",
@@ -243,24 +144,6 @@
     "fuient              fuyent"
   ],
   [
-    "intervenir",
-    "intervienne         intervene",
-    "interviennes        intervenes",
-    "intervienne         intervene",
-    "intervenions        intervenions",
-    "interveniez         interveniez",
-    "interviennent       intervenent"
-  ],
-  [
-    "maintenir",
-    "maintienne          maintene",
-    "maintiennes         maintenes",
-    "maintienne          maintene",
-    "maintenions         maintenions",
-    "mainteniez          mainteniez",
-    "maintiennent        maintenent"
-  ],
-  [
     "messeoir",
     "                    messeoe",
     "                    messeoes",
@@ -286,33 +169,6 @@
     "mouvions            mouvions",
     "mouviez             mouviez",
     "meuvent             mouvent"
-  ],
-  [
-    "obtenir",
-    "obtienne            obtene",
-    "obtiennes           obtenes",
-    "obtienne            obtene",
-    "obtenions           obtenions",
-    "obteniez            obteniez",
-    "obtiennent          obtenent"
-  ],
-  [
-    "obvenir",
-    "obvienne            obvene",
-    "obviennes           obvenes",
-    "obvienne            obvene",
-    "obvenions           obvenions",
-    "obveniez            obveniez",
-    "obviennent          obvenent"
-  ],
-  [
-    "parvenir",
-    "parvienne           parvene",
-    "parviennes          parvenes",
-    "parvienne           parvene",
-    "parvenions          parvenions",
-    "parveniez           parveniez",
-    "parviennent         parvenent"
   ],
   [
     "percevoir",
@@ -360,15 +216,6 @@
     "promeuvent          promouvent"
   ],
   [
-    "provenir",
-    "provienne           provene",
-    "proviennes          provenes",
-    "provienne           provene",
-    "provenions          provenions",
-    "proveniez           proveniez",
-    "proviennent         provenent"
-  ],
-  [
     "préconcevoir",
     "préconçoive         préconceve",
     "préconçoives        préconceves",
@@ -376,15 +223,6 @@
     "préconcevions       préconcevions",
     "préconceviez        préconceviez",
     "préconçoivent       préconcevent"
-  ],
-  [
-    "prévenir",
-    "prévienne           prévene",
-    "préviennes          prévenes",
-    "prévienne           prévene",
-    "prévenions          prévenions",
-    "préveniez           préveniez",
-    "préviennent         prévenent"
   ],
   [
     "prévoir",
@@ -432,15 +270,6 @@
     "redoivent           redevent"
   ],
   [
-    "redevenir",
-    "redevienne          redevene",
-    "redeviennes         redevenes",
-    "redevienne          redevene",
-    "redevenions         redevenions",
-    "redeveniez          redeveniez",
-    "redeviennent        redevenent"
-  ],
-  [
     "requérir",
     "requière            requére",
     "requières           requéres",
@@ -450,24 +279,6 @@
     "requièrent          requérent"
   ],
   [
-    "ressouvenir",
-    "ressouvienne        ressouvene",
-    "ressouviennes       ressouvenes",
-    "ressouvienne        ressouvene",
-    "ressouvenions       ressouvenions",
-    "ressouveniez        ressouveniez",
-    "ressouviennent      ressouvenent"
-  ],
-  [
-    "retenir",
-    "retienne            retene",
-    "retiennes           retenes",
-    "retienne            retene",
-    "retenions           retenions",
-    "reteniez            reteniez",
-    "retiennent          retenent"
-  ],
-  [
     "revaloir",
     "revaille            revale",
     "revailles           revales",
@@ -475,15 +286,6 @@
     "revalions           revalions",
     "revaliez            revaliez",
     "revaillent          revalent"
-  ],
-  [
-    "revenir",
-    "revienne            revene",
-    "reviennes           revenes",
-    "revienne            revene",
-    "revenions           revenions",
-    "reveniez            reveniez",
-    "reviennent          revenent"
   ],
   [
     "revoir",
@@ -513,51 +315,6 @@
     "siéent              seoent"
   ],
   [
-    "soutenir",
-    "soutienne           soutene",
-    "soutiennes          soutenes",
-    "soutienne           soutene",
-    "soutenions          soutenions",
-    "souteniez           souteniez",
-    "soutiennent         soutenent"
-  ],
-  [
-    "souvenir",
-    "souvienne           souvene",
-    "souviennes          souvenes",
-    "souvienne           souvene",
-    "souvenions          souvenions",
-    "souveniez           souveniez",
-    "souviennent         souvenent"
-  ],
-  [
-    "subvenir",
-    "subvienne           subvene",
-    "subviennes          subvenes",
-    "subvienne           subvene",
-    "subvenions          subvenions",
-    "subveniez           subveniez",
-    "subviennent         subvenent"
-  ],
-  [
-    "survenir",
-    "survienne           survene",
-    "surviennes          survenes",
-    "survienne           survene",
-    "survenions          survenions",
-    "surveniez           surveniez",
-    "surviennent         survenent"
-  ],
-  [
-    "tenir",
-    "tienne              tene",
-    "tiennes             tenes",
-    "tienne              tene",
-    "tenions             tenions",
-    "teniez              teniez",
-    "tiennent            tenent"
-  ],
-  [
     "valoir",
     "vaille              vale",
     "vailles             vales",
@@ -565,15 +322,6 @@
     "valions             valions",
     "valiez              valiez",
     "vaillent            valent"
-  ],
-  [
-    "venir",
-    "vienne              vene",
-    "viennes             venes",
-    "vienne              vene",
-    "venions             venions",
-    "veniez              veniez",
-    "viennent            venent"
   ],
   [
     "voir",

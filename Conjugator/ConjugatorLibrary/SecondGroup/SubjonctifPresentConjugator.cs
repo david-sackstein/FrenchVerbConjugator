@@ -23,9 +23,18 @@ namespace ConjugatorLibrary.SecondGroup
             {
                 var present = PresentConjugator.GetConjugations(verb);
                 var nousForm = present[3];
-                var stem = nousForm.TrimEnd("ons");
 
-                return AddEndings(endings, stem);
+                if (verb.EndsWith("enir"))
+                {
+                    string stem = verb.TrimEnd("enir");
+                    return AddEndings(endings, stem + "ienn", stem + "en");
+                }
+                else
+                {
+                    string stem = nousForm.TrimEnd("ons");
+                    return AddEndings(endings, stem);
+                }
+
             }
             catch (Exception ex)
             {
@@ -33,14 +42,14 @@ namespace ConjugatorLibrary.SecondGroup
             }
         }
 
-        private static string[] AddEndings(string[] endings, string modifiedStem, string nousVousStem)
+        private static string[] AddEndings(string[] endings, string stem, string nousVousStem)
         {
-            return endings.MatchNousVous(s => modifiedStem + s, s => nousVousStem + s);
+            return endings.MatchNousVous(s => stem + s, s => nousVousStem + s);
         }
 
-        private static string[] AddEndings(string[] endings, string modifiedStem)
+        private static string[] AddEndings(string[] endings, string stem)
         {
-            return endings.Select(ending => modifiedStem + ending).ToArray();
+            return endings.Select(ending => stem + ending).ToArray();
         }
     }
 }
