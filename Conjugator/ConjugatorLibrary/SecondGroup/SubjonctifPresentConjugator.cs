@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 
 namespace ConjugatorLibrary.SecondGroup
 {
@@ -18,12 +19,18 @@ namespace ConjugatorLibrary.SecondGroup
 
         private static string[] ApplyEndings(string[] endings, string verb)
         {
-            string stem = verb.Remove(verb.Length - 2);
+            try
+            {
+                var present = PresentConjugator.GetConjugations(verb);
+                var nousForm = present[3];
+                var stem = nousForm.TrimEnd("ons");
 
-            // determine the stem for je, tu, il, ils ("modifiedStem") which may
-            // not be the same as for nous and vous
-
-            return AddEndings(endings, stem);
+                return AddEndings(endings, stem);
+            }
+            catch (Exception ex)
+            {
+                return AddEndings(endings, verb.TrimEnd("ir"));
+            }
         }
 
         private static string[] AddEndings(string[] endings, string modifiedStem, string nousVousStem)
