@@ -153,15 +153,6 @@
     "revaillent          revalent"
   ],
   [
-    "revoir",
-    "revoie              revoye",
-    "revoies             revoyes",
-    "revoie              revoye",
-    "revoyions           revoyions",
-    "revoyiez            revoyiez",
-    "revoient            revoyent"
-  ],
-  [
     "seoir",
     "                    seoe",
     "                    seoes",

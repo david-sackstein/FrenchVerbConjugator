@@ -71,7 +71,7 @@ namespace ConjugatorLibrary.SecondGroup
                     return AddEndings(endings, stem);
                 }
 
-                if (verb == "voir")
+                if (verb == "voir" || verb == "revoir")
                 {
                     string stem = verb.TrimEnd("ir");
                     var nousVousStem = stem + "y";
