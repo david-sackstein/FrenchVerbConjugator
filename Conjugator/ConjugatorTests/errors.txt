@@ -1,14 +1,5 @@
 [
   [
-    "avoir",
-    "aie                 avoe",
-    "aies                avoes",
-    "ait                 avoe",
-    "ayons               avoions",
-    "ayez                avoiez",
-    "aient               avoent"
-  ],
-  [
     "abasourdir",
     "abasourdisse        abasourde",
     "abasourdisses       abasourdes",
