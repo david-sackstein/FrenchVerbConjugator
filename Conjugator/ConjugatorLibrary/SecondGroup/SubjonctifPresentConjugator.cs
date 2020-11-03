@@ -71,20 +71,18 @@ namespace ConjugatorLibrary.SecondGroup
                     return AddEndings(endings, stem);
                 }
 
+                if (verb == "pouvoir")
+                {
+                    string stem = "puiss";
+                    return AddEndings(endings, stem);
+                }
+
                 if (verb == "voir" || verb == "revoir")
                 {
                     string stem = verb.TrimEnd("ir");
                     var nousVousStem = stem + "y";
                     var nonNousVousStem = stem + "i";
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
-                    //"voir",
-                    //"voie                voye",
-                    //"voies               voyes",
-                    //"voie                voye",
-                    //"voyions             voyions",
-                    //"voyiez              voyiez",
-                    //"voient              voyent"
-
                 }
 
                 if (verb.EndsWith("pourvoir") || verb == "entrevoir" || verb == "prévoir")

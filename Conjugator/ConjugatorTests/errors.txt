@@ -81,15 +81,6 @@
     "meuvent             mouvent"
   ],
   [
-    "pouvoir",
-    "puisse              pouve",
-    "puisses             pouves",
-    "puisse              pouve",
-    "puissions           pouvions",
-    "puissiez            pouviez",
-    "puissent            pouvent"
-  ],
-  [
     "promouvoir",
     "promeuve            promouve",
     "promeuves           promouves",
