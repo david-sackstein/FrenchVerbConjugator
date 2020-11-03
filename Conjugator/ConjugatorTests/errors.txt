@@ -27,15 +27,6 @@
     "déchoient           déchoyent"
   ],
   [
-    "dépourvoir",
-    "dépourvoie          dépourvoye",
-    "dépourvoies         dépourvoyes",
-    "dépourvoie          dépourvoye",
-    "dépourvoyions       dépourvoyions",
-    "dépourvoyiez        dépourvoyiez",
-    "dépourvoient        dépourvoyent"
-  ],
-  [
     "enfuir",
     "enfuie              enfuye",
     "enfuies             enfuyes",
@@ -106,15 +97,6 @@
     "puissions           pouvions",
     "puissiez            pouviez",
     "puissent            pouvent"
-  ],
-  [
-    "pourvoir",
-    "pourvoie            pourvoye",
-    "pourvoies           pourvoyes",
-    "pourvoie            pourvoye",
-    "pourvoyions         pourvoyions",
-    "pourvoyiez          pourvoyiez",
-    "pourvoient          pourvoyent"
   ],
   [
     "promouvoir",

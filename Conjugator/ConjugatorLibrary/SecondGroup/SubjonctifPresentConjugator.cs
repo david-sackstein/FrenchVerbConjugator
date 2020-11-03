@@ -86,6 +86,14 @@ namespace ConjugatorLibrary.SecondGroup
                     //"voient              voyent"
 
                 }
+
+                if (verb.EndsWith("pourvoir"))
+                {
+                    string stem = verb.TrimEnd("ir");
+                    var nousVousStem = stem + "y";
+                    var nonNousVousStem = stem + "i";
+                    return AddEndings(endings, nonNousVousStem, nousVousStem);
+                }
                 else
                 {
                     string stem = nousForm.TrimEnd("ons");
