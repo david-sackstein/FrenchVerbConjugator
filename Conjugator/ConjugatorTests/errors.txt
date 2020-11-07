@@ -54,15 +54,6 @@
     "messiéent           messeoent"
   ],
   [
-    "mouvoir",
-    "meuve               mouve",
-    "meuves              mouves",
-    "meuve               mouve",
-    "mouvions            mouvions",
-    "mouviez             mouviez",
-    "meuvent             mouvent"
-  ],
-  [
     "promouvoir",
     "promeuve            promouve",
     "promeuves           promouves",

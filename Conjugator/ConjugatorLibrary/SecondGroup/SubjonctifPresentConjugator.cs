@@ -68,6 +68,14 @@ namespace ConjugatorLibrary.SecondGroup
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
                 }
 
+                if (verb == "mouvoir")
+                {
+                    string stem = verb.TrimEnd("mouvoir");
+                    var nousVousStem = "mouv";
+                    var nonNousVousStem = "meuv";
+                    return AddEndings(endings, nonNousVousStem, nousVousStem);
+                }
+
                 if (verb.EndsWith("aloir") && verb != "prévaloir")
                 {
                     string stem = verb.TrimEnd("loir");
