@@ -54,15 +54,6 @@
     "messiéent           messeoent"
   ],
   [
-    "promouvoir",
-    "promeuve            promouve",
-    "promeuves           promouves",
-    "promeuve            promouve",
-    "promouvions         promouvions",
-    "promouviez          promouviez",
-    "promeuvent          promouvent"
-  ],
-  [
     "seoir",
     "                    seoe",
     "                    seoes",
@@ -88,14 +79,5 @@
     "échoyions           échoyions",
     "échoyiez            échoyiez",
     "échoient            échoyent"
-  ],
-  [
-    "émouvoir",
-    "émeuve              émouve",
-    "émeuves             émouves",
-    "émeuve              émouve",
-    "émouvions           émouvions",
-    "émouviez            émouviez",
-    "émeuvent            émouvent"
   ]
 ]
