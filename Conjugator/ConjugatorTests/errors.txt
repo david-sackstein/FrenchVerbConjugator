@@ -1,20 +1,47 @@
 [
   [
-    "messeoir",
-    "                    messeoe",
-    "                    messeoes",
-    "messiée             messeoe",
-    "                    messeoions",
-    "                    messeoiez",
-    "messiéent           messeoent"
+    "mouvoir",
+    "meuve               mouvoie",
+    "meuves              mouvoies",
+    "meuve               mouvoie",
+    "mouvions            mouvoyions",
+    "mouviez             mouvoyiez",
+    "meuvent             mouvoient"
   ],
   [
-    "seoir",
-    "                    seoe",
-    "                    seoes",
-    "siée                seoe",
-    "                    seoions",
-    "                    seoiez",
-    "siéent              seoent"
+    "pouvoir",
+    "puisse              pouvoie",
+    "puisses             pouvoies",
+    "puisse              pouvoie",
+    "puissions           pouvoyions",
+    "puissiez            pouvoyiez",
+    "puissent            pouvoient"
+  ],
+  [
+    "pleuvoir",
+    "                    pleuvoie",
+    "                    pleuvoies",
+    "pleuve              pleuvoie",
+    "                    pleuvoyions",
+    "                    pleuvoyiez",
+    "pleuvent            pleuvoient"
+  ],
+  [
+    "promouvoir",
+    "promeuve            promouvoie",
+    "promeuves           promouvoies",
+    "promeuve            promouvoie",
+    "promouvions         promouvoyions",
+    "promouviez          promouvoyiez",
+    "promeuvent          promouvoient"
+  ],
+  [
+    "émouvoir",
+    "émeuve              émouvoie",
+    "émeuves             émouvoies",
+    "émeuve              émouvoie",
+    "émouvions           émouvoyions",
+    "émouviez            émouvoyiez",
+    "émeuvent            émouvoient"
   ]
 ]
