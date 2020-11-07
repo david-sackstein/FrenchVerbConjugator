@@ -43,14 +43,5 @@
     "                    seoions",
     "                    seoiez",
     "siéent              seoent"
-  ],
-  [
-    "vouloir",
-    "veuille             voule",
-    "veuilles            voules",
-    "veuille             voule",
-    "voulions            voulions",
-    "vouliez             vouliez",
-    "veuillent           voulent"
   ]
 ]

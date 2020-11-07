@@ -44,6 +44,13 @@ namespace ConjugatorLibrary.SecondGroup
                     var nonNousVousStem = stem + "ièr";
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
                 }
+
+                if (verb == "vouloir")
+                {
+                    var nousVousStem = "voul";
+                    var nonNousVousStem = "veuill";
+                    return AddEndings(endings, nonNousVousStem, nousVousStem);
+                }
                 if (verb.EndsWith("cevoir"))
                 {
                     string stem = verb.TrimEnd("cevoir");
