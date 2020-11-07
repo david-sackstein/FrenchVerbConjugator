@@ -21,7 +21,10 @@ namespace ConjugatorLibrary.SecondGroup
                 var present = PresentConjugator.GetConjugations(verb);
                 var nousForm = present[3];
 
-                if (verb == "savoir") return new[] {"sache", "saches", "sache", "sachions", "sachiez", "sachent"};
+                if (verb == "savoir")
+                {
+                    return new[] {"sache", "saches", "sache", "sachions", "sachiez", "sachent"};
+                }
 
                 if (verb.EndsWith("enir"))
                 {
@@ -39,6 +42,10 @@ namespace ConjugatorLibrary.SecondGroup
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
                 }
 
+                if (verb == "falloir")
+                {
+                    return new[] { "", "", "faille", "", "", "" };
+                }
                 if (verb == "vouloir")
                 {
                     var nousVousStem = "voul";

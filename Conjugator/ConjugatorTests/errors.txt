@@ -1,14 +1,5 @@
 [
   [
-    "falloir",
-    "                    falloe",
-    "                    falloes",
-    "faille              falloe",
-    "                    falloions",
-    "                    falloiez",
-    "                    falloent"
-  ],
-  [
     "messeoir",
     "                    messeoe",
     "                    messeoes",
