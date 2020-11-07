@@ -60,6 +60,14 @@ namespace ConjugatorLibrary.SecondGroup
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
                 }
 
+                if (verb.EndsWith("choir"))
+                {
+                    string stem = verb.TrimEnd("ir");
+                    var nousVousStem = stem + "y";
+                    var nonNousVousStem = stem + "i";
+                    return AddEndings(endings, nonNousVousStem, nousVousStem);
+                }
+
                 if (verb == "mourir")
                 {
                     string stem = verb.TrimEnd("mourir");

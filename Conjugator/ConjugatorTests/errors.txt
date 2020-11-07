@@ -1,23 +1,5 @@
 [
   [
-    "choir",
-    "choie               choye",
-    "choies              choyes",
-    "choie               choye",
-    "choyions            choyions",
-    "choyiez             choyiez",
-    "choient             choyent"
-  ],
-  [
-    "déchoir",
-    "déchoie             déchoye",
-    "déchoies            déchoyes",
-    "déchoie             déchoye",
-    "déchoyions          déchoyions",
-    "déchoyiez           déchoyiez",
-    "déchoient           déchoyent"
-  ],
-  [
     "enfuir",
     "enfuie              enfuye",
     "enfuies             enfuyes",
@@ -70,14 +52,5 @@
     "voulions            voulions",
     "vouliez             vouliez",
     "veuillent           voulent"
-  ],
-  [
-    "échoir",
-    "échoie              échoye",
-    "échoies             échoyes",
-    "échoie              échoye",
-    "échoyions           échoyions",
-    "échoyiez            échoyiez",
-    "échoient            échoyent"
   ]
 ]
