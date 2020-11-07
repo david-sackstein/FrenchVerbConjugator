@@ -58,6 +58,15 @@ namespace ConjugatorLibrary.SecondGroup
                     var nonNousVousStem = stem + "doiv";
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
                 }
+
+                if (verb.EndsWith("aloir") && verb != "prévaloir")
+                {
+                    string stem = verb.TrimEnd("loir");
+                    var nousVousStem = stem + "l";
+                    var nonNousVousStem = stem + "ill";
+                    return AddEndings(endings, nonNousVousStem, nousVousStem);
+                }
+
                 if (verb == "pleuvoir")
                 {
                     //"émouvoir",

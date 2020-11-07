@@ -81,15 +81,6 @@
     "promeuvent          promouvent"
   ],
   [
-    "revaloir",
-    "revaille            revale",
-    "revailles           revales",
-    "revaille            revale",
-    "revalions           revalions",
-    "revaliez            revaliez",
-    "revaillent          revalent"
-  ],
-  [
     "seoir",
     "                    seoe",
     "                    seoes",
@@ -97,15 +88,6 @@
     "                    seoions",
     "                    seoiez",
     "siéent              seoent"
-  ],
-  [
-    "valoir",
-    "vaille              vale",
-    "vailles             vales",
-    "vaille              vale",
-    "valions             valions",
-    "valiez              valiez",
-    "vaillent            valent"
   ],
   [
     "vouloir",
@@ -133,14 +115,5 @@
     "émouvions           émouvions",
     "émouviez            émouviez",
     "émeuvent            émouvent"
-  ],
-  [
-    "équivaloir",
-    "équivaille          équivale",
-    "équivailles         équivales",
-    "équivaille          équivale",
-    "équivalions         équivalions",
-    "équivaliez          équivaliez",
-    "équivaillent        équivalent"
   ]
 ]
