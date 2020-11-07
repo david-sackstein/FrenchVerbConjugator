@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Data;
 using System.Linq;
 
 namespace ConjugatorLibrary.SecondGroup
@@ -8,10 +7,7 @@ namespace ConjugatorLibrary.SecondGroup
     {
         public static string[] GetConjugations(string verb)
         {
-            if (verb == "avoir")
-            {
-                return new[] {"aie", "aies", "ait", "ayons", "ayez", "aient"};
-            }
+            if (verb == "avoir") return new[] {"aie", "aies", "ait", "ayons", "ayez", "aient"};
 
             string[] endings = {"e", "es", "e", "ions", "iez", "ent"};
 
@@ -25,21 +21,19 @@ namespace ConjugatorLibrary.SecondGroup
                 var present = PresentConjugator.GetConjugations(verb);
                 var nousForm = present[3];
 
-                if (verb == "savoir")
-                {
-                    return new[] {"sache", "saches", "sache", "sachions", "sachiez", "sachent"};
-                }
+                if (verb == "savoir") return new[] {"sache", "saches", "sache", "sachions", "sachiez", "sachent"};
 
                 if (verb.EndsWith("enir"))
                 {
-                    string stem = verb.TrimEnd("enir");
+                    var stem = verb.TrimEnd("enir");
                     var nousVousStem = stem + "en";
                     var nonNousVousStem = stem + "ienn";
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
                 }
+
                 if (verb.EndsWith("quérir"))
                 {
-                    string stem = verb.TrimEnd("érir");
+                    var stem = verb.TrimEnd("érir");
                     var nousVousStem = stem + "ér";
                     var nonNousVousStem = stem + "ièr";
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
@@ -51,9 +45,10 @@ namespace ConjugatorLibrary.SecondGroup
                     var nonNousVousStem = "veuill";
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
                 }
+
                 if (verb.EndsWith("cevoir"))
                 {
-                    string stem = verb.TrimEnd("cevoir");
+                    var stem = verb.TrimEnd("cevoir");
                     var nousVousStem = stem + "cev";
                     var nonNousVousStem = stem + "çoiv";
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
@@ -61,15 +56,23 @@ namespace ConjugatorLibrary.SecondGroup
 
                 if (verb.EndsWith("devoir"))
                 {
-                    string stem = verb.TrimEnd("devoir");
+                    var stem = verb.TrimEnd("devoir");
                     var nousVousStem = stem + "dev";
                     var nonNousVousStem = stem + "doiv";
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
                 }
 
+                if (verb.EndsWith("fuir"))
+                {
+                    var stem = verb.TrimEnd("fuir");
+                    var nousVousStem = stem + "fuy";
+                    var nonNousVousStem = stem + "fui";
+                    return AddEndings(endings, nonNousVousStem, nousVousStem);
+                }
+
                 if (verb.EndsWith("choir"))
                 {
-                    string stem = verb.TrimEnd("ir");
+                    var stem = verb.TrimEnd("ir");
                     var nousVousStem = stem + "y";
                     var nonNousVousStem = stem + "i";
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
@@ -77,7 +80,7 @@ namespace ConjugatorLibrary.SecondGroup
 
                 if (verb == "mourir")
                 {
-                    string stem = verb.TrimEnd("mourir");
+                    var stem = verb.TrimEnd("mourir");
                     var nousVousStem = "mour";
                     var nonNousVousStem = "meur";
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
@@ -85,7 +88,7 @@ namespace ConjugatorLibrary.SecondGroup
 
                 if (verb.EndsWith("mouvoir"))
                 {
-                    string stem = verb.TrimEnd("mouvoir");
+                    var stem = verb.TrimEnd("mouvoir");
                     var nousVousStem = stem + "mouv";
                     var nonNousVousStem = stem + "meuv";
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
@@ -93,7 +96,7 @@ namespace ConjugatorLibrary.SecondGroup
 
                 if (verb.EndsWith("aloir") && verb != "prévaloir")
                 {
-                    string stem = verb.TrimEnd("loir");
+                    var stem = verb.TrimEnd("loir");
                     var nousVousStem = stem + "l";
                     var nonNousVousStem = stem + "ill";
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
@@ -108,13 +111,13 @@ namespace ConjugatorLibrary.SecondGroup
                     //"émouvions           émouvions",
                     //"émouviez            émouviez",
                     //"émeuvent            émouvent"
-                    string stem = verb.TrimEnd("oir");
+                    var stem = verb.TrimEnd("oir");
                     return AddEndings(endings, stem);
                 }
 
                 if (verb.EndsWith("asseoir"))
                 {
-                    string stem = verb.TrimEnd("eoir");
+                    var stem = verb.TrimEnd("eoir");
                     var nousVousStem = stem + "oy";
                     var nonNousVousStem = stem + "oi";
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
@@ -122,13 +125,13 @@ namespace ConjugatorLibrary.SecondGroup
 
                 if (verb == "pouvoir")
                 {
-                    string stem = "puiss";
+                    var stem = "puiss";
                     return AddEndings(endings, stem);
                 }
 
                 if (verb == "voir" || verb == "revoir")
                 {
-                    string stem = verb.TrimEnd("ir");
+                    var stem = verb.TrimEnd("ir");
                     var nousVousStem = stem + "y";
                     var nonNousVousStem = stem + "i";
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
@@ -136,17 +139,16 @@ namespace ConjugatorLibrary.SecondGroup
 
                 if (verb.EndsWith("pourvoir") || verb == "entrevoir" || verb == "prévoir")
                 {
-                    string stem = verb.TrimEnd("ir");
+                    var stem = verb.TrimEnd("ir");
                     var nousVousStem = stem + "y";
                     var nonNousVousStem = stem + "i";
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
                 }
                 else
                 {
-                    string stem = nousForm.TrimEnd("ons");
+                    var stem = nousForm.TrimEnd("ons");
                     return AddEndings(endings, stem);
                 }
-
             }
             catch (Exception ex)
             {

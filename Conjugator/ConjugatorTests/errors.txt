@@ -1,14 +1,5 @@
 [
   [
-    "enfuir",
-    "enfuie              enfuye",
-    "enfuies             enfuyes",
-    "enfuie              enfuye",
-    "enfuyions           enfuyions",
-    "enfuyiez            enfuyiez",
-    "enfuient            enfuyent"
-  ],
-  [
     "falloir",
     "                    falloe",
     "                    falloes",
@@ -16,15 +7,6 @@
     "                    falloions",
     "                    falloiez",
     "                    falloent"
-  ],
-  [
-    "fuir",
-    "fuie                fuye",
-    "fuies               fuyes",
-    "fuie                fuye",
-    "fuyions             fuyions",
-    "fuyiez              fuyiez",
-    "fuient              fuyent"
   ],
   [
     "messeoir",
