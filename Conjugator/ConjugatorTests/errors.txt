@@ -1,23 +1,5 @@
 [
   [
-    "mouvoir",
-    "meuve               mouvoie",
-    "meuves              mouvoies",
-    "meuve               mouvoie",
-    "mouvions            mouvoyions",
-    "mouviez             mouvoyiez",
-    "meuvent             mouvoient"
-  ],
-  [
-    "pouvoir",
-    "puisse              pouvoie",
-    "puisses             pouvoies",
-    "puisse              pouvoie",
-    "puissions           pouvoyions",
-    "puissiez            pouvoyiez",
-    "puissent            pouvoient"
-  ],
-  [
     "pleuvoir",
     "                    pleuvoie",
     "                    pleuvoies",
@@ -25,23 +7,5 @@
     "                    pleuvoyions",
     "                    pleuvoyiez",
     "pleuvent            pleuvoient"
-  ],
-  [
-    "promouvoir",
-    "promeuve            promouvoie",
-    "promeuves           promouvoies",
-    "promeuve            promouvoie",
-    "promouvions         promouvoyions",
-    "promouviez          promouvoyiez",
-    "promeuvent          promouvoient"
-  ],
-  [
-    "émouvoir",
-    "émeuve              émouvoie",
-    "émeuves             émouvoies",
-    "émeuve              émouvoie",
-    "émouvions           émouvoyions",
-    "émouviez            émouvoyiez",
-    "émeuvent            émouvoient"
   ]
 ]
