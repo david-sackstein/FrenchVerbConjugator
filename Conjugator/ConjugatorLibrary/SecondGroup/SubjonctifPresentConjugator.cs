@@ -130,6 +130,12 @@ namespace ConjugatorLibrary.SecondGroup
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
                 }
 
+                if (verb.EndsWith("seoir"))
+                {
+                    var stem = verb.TrimEnd("seoir") + "sié";
+                    return AddEndings(endings, stem);
+                }
+
                 if (verb == "pouvoir")
                 {
                     var stem = "puiss";
