@@ -1,14 +1,5 @@
 [
   [
-    "asseoir",
-    "assoie              assoye",
-    "assoies             assoyes",
-    "assoie              assoye",
-    "assoyions           assoyions",
-    "assoyiez            assoyiez",
-    "assoient            assoyent"
-  ],
-  [
     "choir",
     "choie               choye",
     "choies              choyes",
@@ -88,15 +79,6 @@
     "promouvions         promouvions",
     "promouviez          promouviez",
     "promeuvent          promouvent"
-  ],
-  [
-    "rasseoir",
-    "rassoie             rassoye",
-    "rassoies            rassoyes",
-    "rassoie             rassoye",
-    "rassoyions          rassoyions",
-    "rassoyiez           rassoyiez",
-    "rassoient           rassoyent"
   ],
   [
     "revaloir",

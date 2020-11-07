@@ -71,6 +71,14 @@ namespace ConjugatorLibrary.SecondGroup
                     return AddEndings(endings, stem);
                 }
 
+                if (verb.EndsWith("asseoir"))
+                {
+                    string stem = verb.TrimEnd("eoir");
+                    var nousVousStem = stem + "oy";
+                    var nonNousVousStem = stem + "oi";
+                    return AddEndings(endings, nonNousVousStem, nousVousStem);
+                }
+
                 if (verb == "pouvoir")
                 {
                     string stem = "puiss";
