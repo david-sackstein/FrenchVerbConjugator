@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 using System.Linq;
 
 namespace ConjugatorLibrary.SecondGroup
@@ -56,6 +57,14 @@ namespace ConjugatorLibrary.SecondGroup
                     string stem = verb.TrimEnd("devoir");
                     var nousVousStem = stem + "dev";
                     var nonNousVousStem = stem + "doiv";
+                    return AddEndings(endings, nonNousVousStem, nousVousStem);
+                }
+
+                if (verb == "mourir")
+                {
+                    string stem = verb.TrimEnd("mourir");
+                    var nousVousStem = "mour";
+                    var nonNousVousStem = "meur";
                     return AddEndings(endings, nonNousVousStem, nousVousStem);
                 }
 

@@ -54,15 +54,6 @@
     "messiéent           messeoent"
   ],
   [
-    "mourir",
-    "meure               moure",
-    "meures              moures",
-    "meure               moure",
-    "mourions            mourions",
-    "mouriez             mouriez",
-    "meurent             mourent"
-  ],
-  [
     "mouvoir",
     "meuve               mouve",
     "meuves              mouves",
