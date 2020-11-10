@@ -10,7 +10,7 @@
             return Endings.AddEndings(stem);
         }
 
-        private static string GetStem(string verb)
+        public static string GetStem(string verb)
         {
             switch (verb)
             {

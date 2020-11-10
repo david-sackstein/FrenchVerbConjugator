@@ -1,1 +1,11 @@
-[]
+[
+  [
+    "pleuvoir",
+    "                    pleuvoie",
+    "                    pleuvoies",
+    "pleuve              pleuvoie",
+    "                    pleuvoyions",
+    "                    pleuvoyiez",
+    "pleuvent            pleuvoient"
+  ]
+]

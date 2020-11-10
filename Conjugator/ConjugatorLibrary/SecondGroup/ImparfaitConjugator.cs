@@ -2,6 +2,8 @@ namespace ConjugatorLibrary.SecondGroup
 {
     internal static class ImparfaitConjugator
     {
+        public static string[] Endings { get; } = {"ais", "ais", "ait", "ions", "iez", "aient"};
+
         public static string[] GetConjugations(string verb)
         {
             if (verb == "falloir")
@@ -29,12 +31,10 @@ namespace ConjugatorLibrary.SecondGroup
                 return new string[6];
             }
 
-            var endings = new[] {"ais", "ais", "ait", "ions", "iez", "aient"};
-            
             var present = PresentConjugator.GetConjugations(verb);
             var nousForm = present[3];
             var stem = nousForm.TrimEnd("ons");
-            return endings.AddEndings(stem);
+            return Endings.AddEndings(stem);
         }
     }
 }
