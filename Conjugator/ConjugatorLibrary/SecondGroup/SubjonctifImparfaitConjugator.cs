@@ -36,10 +36,12 @@ namespace ConjugatorLibrary.SecondGroup
                 return uEndings.AddEndings(modifiedStem);
             }
 
+            if (verb.EndsWith("quérir"))
+            {
+                stem = verb.TrimEnd("érir");
+            }
 
-            string[] endings = Endings;
-
-            return endings.AddEndings(stem);
+            return Endings.AddEndings(stem);
         }
     }
 }

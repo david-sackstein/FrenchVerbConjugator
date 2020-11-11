@@ -1,14 +1,5 @@
 [
   [
-    "acquérir",
-    "acquisse            acquérisse",
-    "acquisses           acquérisses",
-    "acquît              acquérît",
-    "acquissions         acquérissions",
-    "acquissiez          acquérissiez",
-    "acquissent          acquérissent"
-  ],
-  [
     "asseoir",
     "assisse             asseoisse",
     "assisses            asseoisses",
@@ -25,15 +16,6 @@
     "chussions           choissions",
     "chussiez            choissiez",
     "chussent            choissent"
-  ],
-  [
-    "conquérir",
-    "conquisse           conquérisse",
-    "conquisses          conquérisses",
-    "conquît             conquérît",
-    "conquissions        conquérissions",
-    "conquissiez         conquérissiez",
-    "conquissent         conquérissent"
   ],
   [
     "devoir",
@@ -61,15 +43,6 @@
     "dépourvussions      dépourvoissions",
     "dépourvussiez       dépourvoissiez",
     "dépourvussent       dépourvoissent"
-  ],
-  [
-    "enquérir",
-    "enquisse            enquérisse",
-    "enquisses           enquérisses",
-    "enquît              enquérît",
-    "enquissions         enquérissions",
-    "enquissiez          enquérissiez",
-    "enquissent          enquérissent"
   ],
   [
     "entrevoir",
@@ -162,15 +135,6 @@
     "rassissent          rasseoissent"
   ],
   [
-    "reconquérir",
-    "reconquisse         reconquérisse",
-    "reconquisses        reconquérisses",
-    "reconquît           reconquérît",
-    "reconquissions      reconquérissions",
-    "reconquissiez       reconquérissiez",
-    "reconquissent       reconquérissent"
-  ],
-  [
     "redevoir",
     "redusse             redevoisse",
     "redusses            redevoisses",
@@ -178,15 +142,6 @@
     "redussions          redevoissions",
     "redussiez           redevoissiez",
     "redussent           redevoissent"
-  ],
-  [
-    "requérir",
-    "requisse            requérisse",
-    "requisses           requérisses",
-    "requît              requérît",
-    "requissions         requérissions",
-    "requissiez          requérissiez",
-    "requissent          requérissent"
   ],
   [
     "revaloir",
