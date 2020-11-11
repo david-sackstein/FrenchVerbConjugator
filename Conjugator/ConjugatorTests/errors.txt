@@ -1,14 +1,5 @@
 [
   [
-    "devoir",
-    "dusse               devusse",
-    "dusses              devusses",
-    "dût                 devût",
-    "dussions            devussions",
-    "dussiez             devussiez",
-    "dussent             devussent"
-  ],
-  [
     "entrevoir",
     "entrevisse          entrevusse",
     "entrevisses         entrevusses",
@@ -61,15 +52,6 @@
     "prévissions         prévussions",
     "prévissiez          prévussiez",
     "prévissent          prévussent"
-  ],
-  [
-    "redevoir",
-    "redusse             redevusse",
-    "redusses            redevusses",
-    "redût               redevût",
-    "redussions          redevussions",
-    "redussiez           redevussiez",
-    "redussent           redevussent"
   ],
   [
     "revoir",
