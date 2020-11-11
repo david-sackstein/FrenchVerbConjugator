@@ -47,6 +47,12 @@ namespace ConjugatorLibrary.SecondGroup
                 return Endings.AddEndings(stem);
             }
 
+            if (verb.EndsWith("ouvoir"))
+            {
+                stem = verb.TrimEnd("ouvoir");
+                return uEndings.AddEndings(stem);
+            }
+
             if (verb.EndsWith("revoir"))
             {
                 string modifiedStem = verb.TrimEnd("oir");

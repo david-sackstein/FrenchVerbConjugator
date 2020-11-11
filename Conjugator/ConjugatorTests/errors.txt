@@ -1,23 +1,5 @@
 [
   [
-    "mouvoir",
-    "musse               mouvusse",
-    "musses              mouvusses",
-    "mût                 mouvût",
-    "mussions            mouvussions",
-    "mussiez             mouvussiez",
-    "mussent             mouvussent"
-  ],
-  [
-    "pouvoir",
-    "pusse               pouvusse",
-    "pusses              pouvusses",
-    "pût                 pouvût",
-    "pussions            pouvussions",
-    "pussiez             pouvussiez",
-    "pussent             pouvussent"
-  ],
-  [
     "pleuvoir",
     "                    pleuvusse",
     "                    pleuvusses",
@@ -25,15 +7,6 @@
     "                    pleuvussions",
     "                    pleuvussiez",
     "                    pleuvussent"
-  ],
-  [
-    "promouvoir",
-    "promusse            promouvusse",
-    "promusses           promouvusses",
-    "promût              promouvût",
-    "promussions         promouvussions",
-    "promussiez          promouvussiez",
-    "promussent          promouvussent"
   ],
   [
     "prévoir",
@@ -61,14 +34,5 @@
     "vissions            vussions",
     "vissiez             vussiez",
     "vissent             vussent"
-  ],
-  [
-    "émouvoir",
-    "émusse              émouvusse",
-    "émusses             émouvusses",
-    "émût                émouvût",
-    "émussions           émouvussions",
-    "émussiez            émouvussiez",
-    "émussent            émouvussent"
   ]
 ]
