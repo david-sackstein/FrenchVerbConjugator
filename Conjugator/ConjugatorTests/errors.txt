@@ -9,15 +9,6 @@
     "acquissent          acquérissent"
   ],
   [
-    "advenir",
-    "advinsse            advenisse",
-    "advinsses           advenisses",
-    "advînt              advenît",
-    "advinssions         advenissions",
-    "advinssiez          advenissiez",
-    "advinssent          advenissent"
-  ],
-  [
     "agir",
     "agisse              ageisse",
     "agisses             ageisses",
@@ -63,15 +54,6 @@
     "chussent            choissent"
   ],
   [
-    "circonvenir",
-    "circonvinsse        circonvenisse",
-    "circonvinsses       circonvenisses",
-    "circonvînt          circonvenît",
-    "circonvinssions     circonvenissions",
-    "circonvinssiez      circonvenissiez",
-    "circonvinssent      circonvenissent"
-  ],
-  [
     "concevoir",
     "conçusse            concevoisse",
     "conçusses           concevoisses",
@@ -90,24 +72,6 @@
     "conquissent         conquérissent"
   ],
   [
-    "contrevenir",
-    "contrevinsse        contrevenisse",
-    "contrevinsses       contrevenisses",
-    "contrevînt          contrevenît",
-    "contrevinssions     contrevenissions",
-    "contrevinssiez      contrevenissiez",
-    "contrevinssent      contrevenissent"
-  ],
-  [
-    "convenir",
-    "convinsse           convenisse",
-    "convinsses          convenisses",
-    "convînt             convenît",
-    "convinssions        convenissions",
-    "convinssiez         convenissiez",
-    "convinssent         convenissent"
-  ],
-  [
     "devoir",
     "dusse               devoisse",
     "dusses              devoisses",
@@ -115,24 +79,6 @@
     "dussions            devoissions",
     "dussiez             devoissiez",
     "dussent             devoissent"
-  ],
-  [
-    "devenir",
-    "devinsse            devenisse",
-    "devinsses           devenisses",
-    "devînt              devenît",
-    "devinssions         devenissions",
-    "devinssiez          devenissiez",
-    "devinssent          devenissent"
-  ],
-  [
-    "disconvenir",
-    "disconvinsse        disconvenisse",
-    "disconvinsses       disconvenisses",
-    "disconvînt          disconvenît",
-    "disconvinssions     disconvenissions",
-    "disconvinssiez      disconvenissiez",
-    "disconvinssent      disconvenissent"
   ],
   [
     "décevoir",
@@ -216,15 +162,6 @@
     "interagissent       interageissent"
   ],
   [
-    "intervenir",
-    "intervinsse         intervenisse",
-    "intervinsses        intervenisses",
-    "intervînt           intervenît",
-    "intervinssions      intervenissions",
-    "intervinssiez       intervenissiez",
-    "intervinssent       intervenissent"
-  ],
-  [
     "mouvoir",
     "musse               mouvoisse",
     "musses              mouvoisses",
@@ -250,24 +187,6 @@
     "mégissions          mégeissions",
     "mégissiez           mégeissiez",
     "mégissent           mégeissent"
-  ],
-  [
-    "obvenir",
-    "obvinsse            obvenisse",
-    "obvinsses           obvenisses",
-    "obvînt              obvenît",
-    "obvinssions         obvenissions",
-    "obvinssiez          obvenissiez",
-    "obvinssent          obvenissent"
-  ],
-  [
-    "parvenir",
-    "parvinsse           parvenisse",
-    "parvinsses          parvenisses",
-    "parvînt             parvenît",
-    "parvinssions        parvenissions",
-    "parvinssiez         parvenissiez",
-    "parvinssent         parvenissent"
   ],
   [
     "percevoir",
@@ -315,15 +234,6 @@
     "promussent          promouvoissent"
   ],
   [
-    "provenir",
-    "provinsse           provenisse",
-    "provinsses          provenisses",
-    "provînt             provenît",
-    "provinssions        provenissions",
-    "provinssiez         provenissiez",
-    "provinssent         provenissent"
-  ],
-  [
     "préconcevoir",
     "préconçusse         préconcevoisse",
     "préconçusses        préconcevoisses",
@@ -340,15 +250,6 @@
     "prévalussions       prévaloissions",
     "prévalussiez        prévaloissiez",
     "prévalussent        prévaloissent"
-  ],
-  [
-    "prévenir",
-    "prévinsse           prévenisse",
-    "prévinsses          prévenisses",
-    "prévînt             prévenît",
-    "prévinssions        prévenissions",
-    "prévinssiez         prévenissiez",
-    "prévinssent         prévenissent"
   ],
   [
     "prévoir",
@@ -396,15 +297,6 @@
     "redussent           redevoissent"
   ],
   [
-    "redevenir",
-    "redevinsse          redevenisse",
-    "redevinsses         redevenisses",
-    "redevînt            redevenît",
-    "redevinssions       redevenissions",
-    "redevinssiez        redevenissiez",
-    "redevinssent        redevenissent"
-  ],
-  [
     "requérir",
     "requisse            requérisse",
     "requisses           requérisses",
@@ -412,15 +304,6 @@
     "requissions         requérissions",
     "requissiez          requérissiez",
     "requissent          requérissent"
-  ],
-  [
-    "ressouvenir",
-    "ressouvinsse        ressouvenisse",
-    "ressouvinsses       ressouvenisses",
-    "ressouvînt          ressouvenît",
-    "ressouvinssions     ressouvenissions",
-    "ressouvinssiez      ressouvenissiez",
-    "ressouvinssent      ressouvenissent"
   ],
   [
     "ressurgir",
@@ -448,15 +331,6 @@
     "revalussions        revaloissions",
     "revalussiez         revaloissiez",
     "revalussent         revaloissent"
-  ],
-  [
-    "revenir",
-    "revinsse            revenisse",
-    "revinsses           revenisses",
-    "revînt              revenît",
-    "revinssions         revenissions",
-    "revinssiez          revenissiez",
-    "revinssent          revenissent"
   ],
   [
     "revoir",
@@ -531,24 +405,6 @@
     "sussent             savoissent"
   ],
   [
-    "souvenir",
-    "souvinsse           souvenisse",
-    "souvinsses          souvenisses",
-    "souvînt             souvenît",
-    "souvinssions        souvenissions",
-    "souvinssiez         souvenissiez",
-    "souvinssent         souvenissent"
-  ],
-  [
-    "subvenir",
-    "subvinsse           subvenisse",
-    "subvinsses          subvenisses",
-    "subvînt             subvenît",
-    "subvinssions        subvenissions",
-    "subvinssiez         subvenissiez",
-    "subvinssent         subvenissent"
-  ],
-  [
     "surgir",
     "surgisse            surgeisse",
     "surgisses           surgeisses",
@@ -556,15 +412,6 @@
     "surgissions         surgeissions",
     "surgissiez          surgeissiez",
     "surgissent          surgeissent"
-  ],
-  [
-    "survenir",
-    "survinsse           survenisse",
-    "survinsses          survenisses",
-    "survînt             survenît",
-    "survinssions        survenissions",
-    "survinssiez         survenissiez",
-    "survinssent         survenissent"
   ],
   [
     "vagir",
@@ -583,15 +430,6 @@
     "valussions          valoissions",
     "valussiez           valoissiez",
     "valussent           valoissent"
-  ],
-  [
-    "venir",
-    "vinsse              venisse",
-    "vinsses             venisses",
-    "vînt                venît",
-    "vinssions           venissions",
-    "vinssiez            venissiez",
-    "vinssent            venissent"
   ],
   [
     "voir",

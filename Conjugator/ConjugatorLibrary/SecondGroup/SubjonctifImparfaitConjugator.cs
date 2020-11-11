@@ -17,7 +17,7 @@ namespace ConjugatorLibrary.SecondGroup
 
             string stem = verb.Remove(verb.Length - 2);
 
-            if (verb.EndsWith("tenir"))
+            if (verb.EndsWith("enir"))
             {
                 var modifiedStem = verb.TrimEnd("enir");
                 var modifiedEndings = Endings.Select(s => s.Insert(1, "n")).ToArray();
