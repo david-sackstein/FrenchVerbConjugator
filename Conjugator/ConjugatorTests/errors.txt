@@ -9,15 +9,6 @@
     "acquissent          acquérissent"
   ],
   [
-    "apercevoir",
-    "aperçusse           apercevoisse",
-    "aperçusses          apercevoisses",
-    "aperçût             apercevoît",
-    "aperçussions        apercevoissions",
-    "aperçussiez         apercevoissiez",
-    "aperçussent         apercevoissent"
-  ],
-  [
     "asseoir",
     "assisse             asseoisse",
     "assisses            asseoisses",
@@ -36,15 +27,6 @@
     "chussent            choissent"
   ],
   [
-    "concevoir",
-    "conçusse            concevoisse",
-    "conçusses           concevoisses",
-    "conçût              concevoît",
-    "conçussions         concevoissions",
-    "conçussiez          concevoissiez",
-    "conçussent          concevoissent"
-  ],
-  [
     "conquérir",
     "conquisse           conquérisse",
     "conquisses          conquérisses",
@@ -61,15 +43,6 @@
     "dussions            devoissions",
     "dussiez             devoissiez",
     "dussent             devoissent"
-  ],
-  [
-    "décevoir",
-    "déçusse             décevoisse",
-    "déçusses            décevoisses",
-    "déçût               décevoît",
-    "déçussions          décevoissions",
-    "déçussiez           décevoissiez",
-    "déçussent           décevoissent"
   ],
   [
     "déchoir",
@@ -99,15 +72,6 @@
     "enquissent          enquérissent"
   ],
   [
-    "entrapercevoir",
-    "entraperçusse       entrapercevoisse",
-    "entraperçusses      entrapercevoisses",
-    "entraperçût         entrapercevoît",
-    "entraperçussions    entrapercevoissions",
-    "entraperçussiez     entrapercevoissiez",
-    "entraperçussent     entrapercevoissent"
-  ],
-  [
     "entrevoir",
     "entrevisse          entrevoisse",
     "entrevisses         entrevoisses",
@@ -133,15 +97,6 @@
     "mussions            mouvoissions",
     "mussiez             mouvoissiez",
     "mussent             mouvoissent"
-  ],
-  [
-    "percevoir",
-    "perçusse            percevoisse",
-    "perçusses           percevoisses",
-    "perçût              percevoît",
-    "perçussions         percevoissions",
-    "perçussiez          percevoissiez",
-    "perçussent          percevoissent"
   ],
   [
     "pouvoir",
@@ -180,15 +135,6 @@
     "promussent          promouvoissent"
   ],
   [
-    "préconcevoir",
-    "préconçusse         préconcevoisse",
-    "préconçusses        préconcevoisses",
-    "préconçût           préconcevoît",
-    "préconçussions      préconcevoissions",
-    "préconçussiez       préconcevoissiez",
-    "préconçussent       préconcevoissent"
-  ],
-  [
     "prévaloir",
     "prévalusse          prévaloisse",
     "prévalusses         prévaloisses",
@@ -214,15 +160,6 @@
     "rassissions         rasseoissions",
     "rassissiez          rasseoissiez",
     "rassissent          rasseoissent"
-  ],
-  [
-    "recevoir",
-    "reçusse             recevoisse",
-    "reçusses            recevoisses",
-    "reçût               recevoît",
-    "reçussions          recevoissions",
-    "reçussiez           recevoissiez",
-    "reçussent           recevoissent"
   ],
   [
     "reconquérir",

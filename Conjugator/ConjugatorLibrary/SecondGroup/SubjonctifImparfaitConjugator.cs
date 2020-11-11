@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Data;
+using System.Linq;
 
 namespace ConjugatorLibrary.SecondGroup
 {
@@ -28,6 +29,13 @@ namespace ConjugatorLibrary.SecondGroup
             {
                 return uEndings.AddEndings(stem);
             }
+
+            if (Exceptions.cevoirVerbs.Contains(verb))
+            {
+                string modifiedStem = verb.TrimEnd("cevoir") + "ç";
+                return uEndings.AddEndings(modifiedStem);
+            }
+
 
             string[] endings = Endings;
 
