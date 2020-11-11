@@ -1,14 +1,5 @@
 [
   [
-    "entrevoir",
-    "entrevisse          entrevusse",
-    "entrevisses         entrevusses",
-    "entrevît            entrevût",
-    "entrevissions       entrevussions",
-    "entrevissiez        entrevussiez",
-    "entrevissent        entrevussent"
-  ],
-  [
     "mouvoir",
     "musse               mouvusse",
     "musses              mouvusses",
@@ -52,15 +43,6 @@
     "prévissions         prévussions",
     "prévissiez          prévussiez",
     "prévissent          prévussent"
-  ],
-  [
-    "revoir",
-    "revisse             revusse",
-    "revisses            revusses",
-    "revît               revût",
-    "revissions          revussions",
-    "revissiez           revussiez",
-    "revissent           revussent"
   ],
   [
     "savoir",
