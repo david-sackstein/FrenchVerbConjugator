@@ -23,12 +23,6 @@ namespace ConjugatorTests
         }
 
         [TestMethod]
-        public void TestSubjonctifImparfaitConjugator()
-        {
-            TestConjugator(v => _verbData.Conjugations[v].SubjonctifImparfait, _conjugator.SubjonctifImparfait);
-        }
-
-        [TestMethod]
         public void TestPasseSimpleConjugator()
         {
             TestConjugator(v => _verbData.Conjugations[v].PasseSimple, _conjugator.PasseSimple);
@@ -80,6 +74,12 @@ namespace ConjugatorTests
         public void TestSubjonctifPresentConjugator()
         {
             TestConjugator(v => _verbData.Conjugations[v].SubjonctifPresent, _conjugator.SubjonctifPresent);
+        }
+
+        [TestMethod]
+        public void TestSubjonctifImparfaitConjugator()
+        {
+            TestConjugator(v => _verbData.Conjugations[v].SubjonctifImparfait, _conjugator.SubjonctifImparfait);
         }
 
         private static void TestConjugator(

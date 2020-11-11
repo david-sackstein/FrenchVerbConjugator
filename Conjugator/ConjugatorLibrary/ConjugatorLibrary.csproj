@@ -3,7 +3,6 @@
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <LangVersion>9.0</LangVersion>
     <ApplicationIcon />
     <StartupObject />
   </PropertyGroup>
