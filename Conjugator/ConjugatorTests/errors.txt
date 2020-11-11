@@ -1,14 +1,5 @@
 [
   [
-    "abstenir",
-    "abstinsse           abstenisse",
-    "abstinsses          abstenisses",
-    "abstînt             abstenît",
-    "abstinssions        abstenissions",
-    "abstinssiez         abstenissiez",
-    "abstinssent         abstenissent"
-  ],
-  [
     "accourir",
     "accourusse          accourisse",
     "accourusses         accourisses",
@@ -81,15 +72,6 @@
     "aperçussent         apercevoissent"
   ],
   [
-    "appartenir",
-    "appartinsse         appartenisse",
-    "appartinsses        appartenisses",
-    "appartînt           appartenît",
-    "appartinssions      appartenissions",
-    "appartinssiez       appartenissiez",
-    "appartinssent       appartenissent"
-  ],
-  [
     "assagir",
     "assagisse           assageisse",
     "assagisses          assageisses",
@@ -160,15 +142,6 @@
     "conquissions        conquérissions",
     "conquissiez         conquérissiez",
     "conquissent         conquérissent"
-  ],
-  [
-    "contenir",
-    "continsse           contenisse",
-    "continsses          contenisses",
-    "contînt             contenît",
-    "continssions        contenissions",
-    "continssiez         contenissiez",
-    "continssent         contenissent"
   ],
   [
     "contrevenir",
@@ -288,15 +261,6 @@
     "dérougissent        dérougeissent"
   ],
   [
-    "détenir",
-    "détinsse            détenisse",
-    "détinsses           détenisses",
-    "détînt              détenît",
-    "détinssions         détenissions",
-    "détinssiez          détenissiez",
-    "détinssent          détenissent"
-  ],
-  [
     "encourir",
     "encourusse          encourisse",
     "encourusses         encourisses",
@@ -331,15 +295,6 @@
     "entraperçussions    entrapercevoissions",
     "entraperçussiez     entrapercevoissiez",
     "entraperçussent     entrapercevoissent"
-  ],
-  [
-    "entretenir",
-    "entretinsse         entretenisse",
-    "entretinsses        entretenisses",
-    "entretînt           entretenît",
-    "entretinssions      entretenissions",
-    "entretinssiez       entretenissiez",
-    "entretinssent       entretenissent"
   ],
   [
     "entrevoir",
@@ -394,15 +349,6 @@
     "intervinssions      intervenissions",
     "intervinssiez       intervenissiez",
     "intervinssent       intervenissent"
-  ],
-  [
-    "maintenir",
-    "maintinsse          maintenisse",
-    "maintinsses         maintenisses",
-    "maintînt            maintenît",
-    "maintinssions       maintenissions",
-    "maintinssiez        maintenissiez",
-    "maintinssent        maintenissent"
   ],
   [
     "mourir",
@@ -466,15 +412,6 @@
     "obscurcissions      obscurçissions",
     "obscurcissiez       obscurçissiez",
     "obscurcissent       obscurçissent"
-  ],
-  [
-    "obtenir",
-    "obtinsse            obtenisse",
-    "obtinsses           obtenisses",
-    "obtînt              obtenît",
-    "obtinssions         obtenissions",
-    "obtinssiez          obtenissiez",
-    "obtinssent          obtenissent"
   ],
   [
     "obvenir",
@@ -720,15 +657,6 @@
     "resurgissent        resurgeissent"
   ],
   [
-    "retenir",
-    "retinsse            retenisse",
-    "retinsses           retenisses",
-    "retînt              retenît",
-    "retinssions         retenissions",
-    "retinssiez          retenissiez",
-    "retinssent          retenissent"
-  ],
-  [
     "revaloir",
     "revalusse           revaloisse",
     "revalusses          revaloisses",
@@ -837,15 +765,6 @@
     "secourussent        secourissent"
   ],
   [
-    "soutenir",
-    "soutinsse           soutenisse",
-    "soutinsses          soutenisses",
-    "soutînt             soutenît",
-    "soutinssions        soutenissions",
-    "soutinssiez         soutenissiez",
-    "soutinssent         soutenissent"
-  ],
-  [
     "souvenir",
     "souvinsse           souvenisse",
     "souvinsses          souvenisses",
@@ -880,15 +799,6 @@
     "survinssions        survenissions",
     "survinssiez         survenissiez",
     "survinssent         survenissent"
-  ],
-  [
-    "tenir",
-    "tinsse              tenisse",
-    "tinsses             tenisses",
-    "tînt                tenît",
-    "tinssions           tenissions",
-    "tinssiez            tenissiez",
-    "tinssent            tenissent"
   ],
   [
     "vagir",

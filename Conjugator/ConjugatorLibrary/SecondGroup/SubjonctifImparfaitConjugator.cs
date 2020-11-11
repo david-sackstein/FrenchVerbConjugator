@@ -15,6 +15,13 @@ namespace ConjugatorLibrary.SecondGroup
 
             string stem = verb.Remove(verb.Length - 2);
 
+            if (verb.EndsWith("tenir"))
+            {
+                var modifiedStem = verb.TrimEnd("enir");
+                var modifiedEndings = Endings.Select(s => s.Insert(1, "n")).ToArray();
+                return modifiedEndings.AddEndings(modifiedStem);
+            }
+
             // soften the c with a cedilla before the 'a'
             if (verb[^3] == 'c')
             {
