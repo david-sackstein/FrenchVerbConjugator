@@ -1,14 +1,5 @@
 [
   [
-    "accourcir",
-    "accourcisse         accourçisse",
-    "accourcisses        accourçisses",
-    "accourcît           accourçît",
-    "accourcissions      accourçissions",
-    "accourcissiez       accourçissiez",
-    "accourcissent       accourçissent"
-  ],
-  [
     "acquérir",
     "acquisse            acquérisse",
     "acquisses           acquérisses",
@@ -16,15 +7,6 @@
     "acquissions         acquérissions",
     "acquissiez          acquérissiez",
     "acquissent          acquérissent"
-  ],
-  [
-    "adoucir",
-    "adoucisse           adouçisse",
-    "adoucisses          adouçisses",
-    "adoucît             adouçît",
-    "adoucissions        adouçissions",
-    "adoucissiez         adouçissiez",
-    "adoucissent         adouçissent"
   ],
   [
     "advenir",
@@ -43,15 +25,6 @@
     "agissions           ageissions",
     "agissiez            ageissiez",
     "agissent            ageissent"
-  ],
-  [
-    "amincir",
-    "amincisse           aminçisse",
-    "amincisses          aminçisses",
-    "amincît             aminçît",
-    "amincissions        aminçissions",
-    "amincissiez         aminçissiez",
-    "amincissent         aminçissent"
   ],
   [
     "apercevoir",
@@ -79,15 +52,6 @@
     "assissions          asseoissions",
     "assissiez           asseoissiez",
     "assissent           asseoissent"
-  ],
-  [
-    "chancir",
-    "chancisse           chançisse",
-    "chancisses          chançisses",
-    "chancît             chançît",
-    "chancissions        chançissions",
-    "chancissiez         chançissiez",
-    "chancissent         chançissent"
   ],
   [
     "choir",
@@ -171,24 +135,6 @@
     "disconvinssent      disconvenissent"
   ],
   [
-    "doucir",
-    "doucisse            douçisse",
-    "doucisses           douçisses",
-    "doucît              douçît",
-    "doucissions         douçissions",
-    "doucissiez          douçissiez",
-    "doucissent          douçissent"
-  ],
-  [
-    "durcir",
-    "durcisse            durçisse",
-    "durcisses           durçisses",
-    "durcît              durçît",
-    "durcissions         durçissions",
-    "durcissiez          durçissiez",
-    "durcissent          durçissent"
-  ],
-  [
     "décevoir",
     "déçusse             décevoisse",
     "déçusses            décevoisses",
@@ -223,15 +169,6 @@
     "dérougissions       dérougeissions",
     "dérougissiez        dérougeissiez",
     "dérougissent        dérougeissent"
-  ],
-  [
-    "endurcir",
-    "endurcisse          endurçisse",
-    "endurcisses         endurçisses",
-    "endurcît            endurçît",
-    "endurcissions       endurçissions",
-    "endurcissiez        endurçissiez",
-    "endurcissent        endurçissent"
   ],
   [
     "enquérir",
@@ -270,24 +207,6 @@
     "                    falloissent"
   ],
   [
-    "farcir",
-    "farcisse            farçisse",
-    "farcisses           farçisses",
-    "farcît              farçît",
-    "farcissions         farçissions",
-    "farcissiez          farçissiez",
-    "farcissent          farçissent"
-  ],
-  [
-    "forcir",
-    "forcisse            forçisse",
-    "forcisses           forçisses",
-    "forcît              forçît",
-    "forcissions         forçissions",
-    "forcissiez          forçissiez",
-    "forcissent          forçissent"
-  ],
-  [
     "interagir",
     "interagisse         interageisse",
     "interagisses        interageisses",
@@ -315,15 +234,6 @@
     "mussent             mouvoissent"
   ],
   [
-    "mincir",
-    "mincisse            minçisse",
-    "mincisses           minçisses",
-    "mincît              minçît",
-    "mincissions         minçissions",
-    "mincissiez          minçissiez",
-    "mincissent          minçissent"
-  ],
-  [
     "mugir",
     "mugisse             mugeisse",
     "mugisses            mugeisses",
@@ -340,24 +250,6 @@
     "mégissions          mégeissions",
     "mégissiez           mégeissiez",
     "mégissent           mégeissent"
-  ],
-  [
-    "noircir",
-    "noircisse           noirçisse",
-    "noircisses          noirçisses",
-    "noircît             noirçît",
-    "noircissions        noirçissions",
-    "noircissiez         noirçissiez",
-    "noircissent         noirçissent"
-  ],
-  [
-    "obscurcir",
-    "obscurcisse         obscurçisse",
-    "obscurcisses        obscurçisses",
-    "obscurcît           obscurçît",
-    "obscurcissions      obscurçissions",
-    "obscurcissiez       obscurçissiez",
-    "obscurcissent       obscurçissent"
   ],
   [
     "obvenir",
@@ -466,33 +358,6 @@
     "prévissions         prévoissions",
     "prévissiez          prévoissiez",
     "prévissent          prévoissent"
-  ],
-  [
-    "raccourcir",
-    "raccourcisse        raccourçisse",
-    "raccourcisses       raccourçisses",
-    "raccourcît          raccourçît",
-    "raccourcissions     raccourçissions",
-    "raccourcissiez      raccourçissiez",
-    "raccourcissent      raccourçissent"
-  ],
-  [
-    "radoucir",
-    "radoucisse          radouçisse",
-    "radoucisses         radouçisses",
-    "radoucît            radouçît",
-    "radoucissions       radouçissions",
-    "radoucissiez        radouçissiez",
-    "radoucissent        radouçissent"
-  ],
-  [
-    "rancir",
-    "rancisse            rançisse",
-    "rancisses           rançisses",
-    "rancît              rançît",
-    "rancissions         rançissions",
-    "rancissiez          rançissiez",
-    "rancissent          rançissent"
   ],
   [
     "rasseoir",
@@ -657,15 +522,6 @@
     "rétroagissent       rétroageissent"
   ],
   [
-    "rétrécir",
-    "rétrécisse          rétréçisse",
-    "rétrécisses         rétréçisses",
-    "rétrécît            rétréçît",
-    "rétrécissions       rétréçissions",
-    "rétrécissiez        rétréçissiez",
-    "rétrécissent        rétréçissent"
-  ],
-  [
     "savoir",
     "susse               savoisse",
     "susses              savoisses",
@@ -765,15 +621,6 @@
     "échussent           échoissent"
   ],
   [
-    "éclaircir",
-    "éclaircisse         éclairçisse",
-    "éclaircisses        éclairçisses",
-    "éclaircît           éclairçît",
-    "éclaircissions      éclairçissions",
-    "éclaircissiez       éclairçissiez",
-    "éclaircissent       éclairçissent"
-  ],
-  [
     "élargir",
     "élargisse           élargeisse",
     "élargisses          élargeisses",
@@ -799,14 +646,5 @@
     "équivalussions      équivaloissions",
     "équivalussiez       équivaloissiez",
     "équivalussent       équivaloissent"
-  ],
-  [
-    "étrécir",
-    "étrécisse           étréçisse",
-    "étrécisses          étréçisses",
-    "étrécît             étréçît",
-    "étrécissions        étréçissions",
-    "étrécissiez         étréçissiez",
-    "étrécissent         étréçissent"
   ]
 ]

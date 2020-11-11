@@ -29,12 +29,6 @@ namespace ConjugatorLibrary.SecondGroup
                 return uEndings.AddEndings(stem);
             }
 
-            // soften the c with a cedilla before the 'a'
-            if (verb[^3] == 'c')
-            {
-                stem = stem.ReplaceAt(-1, 'ç');
-            }
-
             string[] endings = Endings;
             // soften the g before the 'a' by adding an e
             if (verb[^3] == 'g')
