@@ -41,6 +41,11 @@ namespace ConjugatorLibrary.SecondGroup
                 stem = verb.TrimEnd("érir");
             }
 
+            if (verb.EndsWith("eoir"))
+            {
+                stem = verb.TrimEnd("eoir");
+            }
+
             return Endings.AddEndings(stem);
         }
     }

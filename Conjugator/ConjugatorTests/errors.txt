@@ -1,14 +1,5 @@
 [
   [
-    "asseoir",
-    "assisse             asseoisse",
-    "assisses            asseoisses",
-    "assît               asseoît",
-    "assissions          asseoissions",
-    "assissiez           asseoissiez",
-    "assissent           asseoissent"
-  ],
-  [
     "choir",
     "chusse              choisse",
     "chusses             choisses",
@@ -124,15 +115,6 @@
     "prévissions         prévoissions",
     "prévissiez          prévoissiez",
     "prévissent          prévoissent"
-  ],
-  [
-    "rasseoir",
-    "rassisse            rasseoisse",
-    "rassisses           rasseoisses",
-    "rassît              rasseoît",
-    "rassissions         rasseoissions",
-    "rassissiez          rasseoissiez",
-    "rassissent          rasseoissent"
   ],
   [
     "redevoir",
