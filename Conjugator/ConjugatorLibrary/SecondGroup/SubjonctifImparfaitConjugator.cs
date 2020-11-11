@@ -44,6 +44,13 @@ namespace ConjugatorLibrary.SecondGroup
             if (verb.EndsWith("eoir"))
             {
                 stem = verb.TrimEnd("eoir");
+                return Endings.AddEndings(stem);
+            }
+
+            if (verb.EndsWith("oir"))
+            {
+                string modifiedStem = verb.TrimEnd("oir");
+                return uEndings.AddEndings(modifiedStem);
             }
 
             return Endings.AddEndings(stem);

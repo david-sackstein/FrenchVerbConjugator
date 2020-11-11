@@ -1,209 +1,110 @@
 [
   [
-    "choir",
-    "chusse              choisse",
-    "chusses             choisses",
-    "chût                choît",
-    "chussions           choissions",
-    "chussiez            choissiez",
-    "chussent            choissent"
-  ],
-  [
     "devoir",
-    "dusse               devoisse",
-    "dusses              devoisses",
-    "dût                 devoît",
-    "dussions            devoissions",
-    "dussiez             devoissiez",
-    "dussent             devoissent"
-  ],
-  [
-    "déchoir",
-    "déchusse            déchoisse",
-    "déchusses           déchoisses",
-    "déchût              déchoît",
-    "déchussions         déchoissions",
-    "déchussiez          déchoissiez",
-    "déchussent          déchoissent"
-  ],
-  [
-    "dépourvoir",
-    "dépourvusse         dépourvoisse",
-    "dépourvusses        dépourvoisses",
-    "dépourvût           dépourvoît",
-    "dépourvussions      dépourvoissions",
-    "dépourvussiez       dépourvoissiez",
-    "dépourvussent       dépourvoissent"
+    "dusse               devusse",
+    "dusses              devusses",
+    "dût                 devût",
+    "dussions            devussions",
+    "dussiez             devussiez",
+    "dussent             devussent"
   ],
   [
     "entrevoir",
-    "entrevisse          entrevoisse",
-    "entrevisses         entrevoisses",
-    "entrevît            entrevoît",
-    "entrevissions       entrevoissions",
-    "entrevissiez        entrevoissiez",
-    "entrevissent        entrevoissent"
-  ],
-  [
-    "falloir",
-    "                    falloisse",
-    "                    falloisses",
-    "fallût              falloît",
-    "                    falloissions",
-    "                    falloissiez",
-    "                    falloissent"
+    "entrevisse          entrevusse",
+    "entrevisses         entrevusses",
+    "entrevît            entrevût",
+    "entrevissions       entrevussions",
+    "entrevissiez        entrevussiez",
+    "entrevissent        entrevussent"
   ],
   [
     "mouvoir",
-    "musse               mouvoisse",
-    "musses              mouvoisses",
-    "mût                 mouvoît",
-    "mussions            mouvoissions",
-    "mussiez             mouvoissiez",
-    "mussent             mouvoissent"
+    "musse               mouvusse",
+    "musses              mouvusses",
+    "mût                 mouvût",
+    "mussions            mouvussions",
+    "mussiez             mouvussiez",
+    "mussent             mouvussent"
   ],
   [
     "pouvoir",
-    "pusse               pouvoisse",
-    "pusses              pouvoisses",
-    "pût                 pouvoît",
-    "pussions            pouvoissions",
-    "pussiez             pouvoissiez",
-    "pussent             pouvoissent"
+    "pusse               pouvusse",
+    "pusses              pouvusses",
+    "pût                 pouvût",
+    "pussions            pouvussions",
+    "pussiez             pouvussiez",
+    "pussent             pouvussent"
   ],
   [
     "pleuvoir",
-    "                    pleuvoisse",
-    "                    pleuvoisses",
-    "plût                pleuvoît",
-    "                    pleuvoissions",
-    "                    pleuvoissiez",
-    "                    pleuvoissent"
-  ],
-  [
-    "pourvoir",
-    "pourvusse           pourvoisse",
-    "pourvusses          pourvoisses",
-    "pourvût             pourvoît",
-    "pourvussions        pourvoissions",
-    "pourvussiez         pourvoissiez",
-    "pourvussent         pourvoissent"
+    "                    pleuvusse",
+    "                    pleuvusses",
+    "plût                pleuvût",
+    "                    pleuvussions",
+    "                    pleuvussiez",
+    "                    pleuvussent"
   ],
   [
     "promouvoir",
-    "promusse            promouvoisse",
-    "promusses           promouvoisses",
-    "promût              promouvoît",
-    "promussions         promouvoissions",
-    "promussiez          promouvoissiez",
-    "promussent          promouvoissent"
-  ],
-  [
-    "prévaloir",
-    "prévalusse          prévaloisse",
-    "prévalusses         prévaloisses",
-    "prévalût            prévaloît",
-    "prévalussions       prévaloissions",
-    "prévalussiez        prévaloissiez",
-    "prévalussent        prévaloissent"
+    "promusse            promouvusse",
+    "promusses           promouvusses",
+    "promût              promouvût",
+    "promussions         promouvussions",
+    "promussiez          promouvussiez",
+    "promussent          promouvussent"
   ],
   [
     "prévoir",
-    "prévisse            prévoisse",
-    "prévisses           prévoisses",
-    "prévît              prévoît",
-    "prévissions         prévoissions",
-    "prévissiez          prévoissiez",
-    "prévissent          prévoissent"
+    "prévisse            prévusse",
+    "prévisses           prévusses",
+    "prévît              prévût",
+    "prévissions         prévussions",
+    "prévissiez          prévussiez",
+    "prévissent          prévussent"
   ],
   [
     "redevoir",
-    "redusse             redevoisse",
-    "redusses            redevoisses",
-    "redût               redevoît",
-    "redussions          redevoissions",
-    "redussiez           redevoissiez",
-    "redussent           redevoissent"
-  ],
-  [
-    "revaloir",
-    "revalusse           revaloisse",
-    "revalusses          revaloisses",
-    "revalût             revaloît",
-    "revalussions        revaloissions",
-    "revalussiez         revaloissiez",
-    "revalussent         revaloissent"
+    "redusse             redevusse",
+    "redusses            redevusses",
+    "redût               redevût",
+    "redussions          redevussions",
+    "redussiez           redevussiez",
+    "redussent           redevussent"
   ],
   [
     "revoir",
-    "revisse             revoisse",
-    "revisses            revoisses",
-    "revît               revoît",
-    "revissions          revoissions",
-    "revissiez           revoissiez",
-    "revissent           revoissent"
+    "revisse             revusse",
+    "revisses            revusses",
+    "revît               revût",
+    "revissions          revussions",
+    "revissiez           revussiez",
+    "revissent           revussent"
   ],
   [
     "savoir",
-    "susse               savoisse",
-    "susses              savoisses",
-    "sût                 savoît",
-    "sussions            savoissions",
-    "sussiez             savoissiez",
-    "sussent             savoissent"
-  ],
-  [
-    "valoir",
-    "valusse             valoisse",
-    "valusses            valoisses",
-    "valût               valoît",
-    "valussions          valoissions",
-    "valussiez           valoissiez",
-    "valussent           valoissent"
+    "susse               savusse",
+    "susses              savusses",
+    "sût                 savût",
+    "sussions            savussions",
+    "sussiez             savussiez",
+    "sussent             savussent"
   ],
   [
     "voir",
-    "visse               voisse",
-    "visses              voisses",
-    "vît                 voît",
-    "vissions            voissions",
-    "vissiez             voissiez",
-    "vissent             voissent"
-  ],
-  [
-    "vouloir",
-    "voulusse            vouloisse",
-    "voulusses           vouloisses",
-    "voulût              vouloît",
-    "voulussions         vouloissions",
-    "voulussiez          vouloissiez",
-    "voulussent          vouloissent"
-  ],
-  [
-    "échoir",
-    "échusse             échoisse",
-    "échusses            échoisses",
-    "échût               échoît",
-    "échussions          échoissions",
-    "échussiez           échoissiez",
-    "échussent           échoissent"
+    "visse               vusse",
+    "visses              vusses",
+    "vît                 vût",
+    "vissions            vussions",
+    "vissiez             vussiez",
+    "vissent             vussent"
   ],
   [
     "émouvoir",
-    "émusse              émouvoisse",
-    "émusses             émouvoisses",
-    "émût                émouvoît",
-    "émussions           émouvoissions",
-    "émussiez            émouvoissiez",
-    "émussent            émouvoissent"
-  ],
-  [
-    "équivaloir",
-    "équivalusse         équivaloisse",
-    "équivalusses        équivaloisses",
-    "équivalût           équivaloît",
-    "équivalussions      équivaloissions",
-    "équivalussiez       équivaloissiez",
-    "équivalussent       équivaloissent"
+    "émusse              émouvusse",
+    "émusses             émouvusses",
+    "émût                émouvût",
+    "émussions           émouvussions",
+    "émussiez            émouvussiez",
+    "émussent            émouvussent"
   ]
 ]
