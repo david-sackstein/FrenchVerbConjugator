@@ -30,11 +30,6 @@ namespace ConjugatorLibrary.SecondGroup
             }
 
             string[] endings = Endings;
-            // soften the g before the 'a' by adding an e
-            if (verb[^3] == 'g')
-            {
-                endings = Endings.Select(ending => "e" + ending).ToArray();
-            }
 
             return endings.AddEndings(stem);
         }

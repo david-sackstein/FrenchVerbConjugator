@@ -9,15 +9,6 @@
     "acquissent          acquérissent"
   ],
   [
-    "agir",
-    "agisse              ageisse",
-    "agisses             ageisses",
-    "agît                ageît",
-    "agissions           ageissions",
-    "agissiez            ageissiez",
-    "agissent            ageissent"
-  ],
-  [
     "apercevoir",
     "aperçusse           apercevoisse",
     "aperçusses          apercevoisses",
@@ -25,15 +16,6 @@
     "aperçussions        apercevoissions",
     "aperçussiez         apercevoissiez",
     "aperçussent         apercevoissent"
-  ],
-  [
-    "assagir",
-    "assagisse           assageisse",
-    "assagisses          assageisses",
-    "assagît             assageît",
-    "assagissions        assageissions",
-    "assagissiez         assageissiez",
-    "assagissent         assageissent"
   ],
   [
     "asseoir",
@@ -108,15 +90,6 @@
     "dépourvussent       dépourvoissent"
   ],
   [
-    "dérougir",
-    "dérougisse          dérougeisse",
-    "dérougisses         dérougeisses",
-    "dérougît            dérougeît",
-    "dérougissions       dérougeissions",
-    "dérougissiez        dérougeissiez",
-    "dérougissent        dérougeissent"
-  ],
-  [
     "enquérir",
     "enquisse            enquérisse",
     "enquisses           enquérisses",
@@ -153,15 +126,6 @@
     "                    falloissent"
   ],
   [
-    "interagir",
-    "interagisse         interageisse",
-    "interagisses        interageisses",
-    "interagît           interageît",
-    "interagissions      interageissions",
-    "interagissiez       interageissiez",
-    "interagissent       interageissent"
-  ],
-  [
     "mouvoir",
     "musse               mouvoisse",
     "musses              mouvoisses",
@@ -169,24 +133,6 @@
     "mussions            mouvoissions",
     "mussiez             mouvoissiez",
     "mussent             mouvoissent"
-  ],
-  [
-    "mugir",
-    "mugisse             mugeisse",
-    "mugisses            mugeisses",
-    "mugît               mugeît",
-    "mugissions          mugeissions",
-    "mugissiez           mugeissiez",
-    "mugissent           mugeissent"
-  ],
-  [
-    "mégir",
-    "mégisse             mégeisse",
-    "mégisses            mégeisses",
-    "mégît               mégeît",
-    "mégissions          mégeissions",
-    "mégissiez           mégeissiez",
-    "mégissent           mégeissent"
   ],
   [
     "percevoir",
@@ -306,24 +252,6 @@
     "requissent          requérissent"
   ],
   [
-    "ressurgir",
-    "ressurgisse         ressurgeisse",
-    "ressurgisses        ressurgeisses",
-    "ressurgît           ressurgeît",
-    "ressurgissions      ressurgeissions",
-    "ressurgissiez       ressurgeissiez",
-    "ressurgissent       ressurgeissent"
-  ],
-  [
-    "resurgir",
-    "resurgisse          resurgeisse",
-    "resurgisses         resurgeisses",
-    "resurgît            resurgeît",
-    "resurgissions       resurgeissions",
-    "resurgissiez        resurgeissiez",
-    "resurgissent        resurgeissent"
-  ],
-  [
     "revaloir",
     "revalusse           revaloisse",
     "revalusses          revaloisses",
@@ -342,60 +270,6 @@
     "revissent           revoissent"
   ],
   [
-    "rougir",
-    "rougisse            rougeisse",
-    "rougisses           rougeisses",
-    "rougît              rougeît",
-    "rougissions         rougeissions",
-    "rougissiez          rougeissiez",
-    "rougissent          rougeissent"
-  ],
-  [
-    "rugir",
-    "rugisse             rugeisse",
-    "rugisses            rugeisses",
-    "rugît               rugeît",
-    "rugissions          rugeissions",
-    "rugissiez           rugeissiez",
-    "rugissent           rugeissent"
-  ],
-  [
-    "réagir",
-    "réagisse            réageisse",
-    "réagisses           réageisses",
-    "réagît              réageît",
-    "réagissions         réageissions",
-    "réagissiez          réageissiez",
-    "réagissent          réageissent"
-  ],
-  [
-    "régir",
-    "régisse             régeisse",
-    "régisses            régeisses",
-    "régît               régeît",
-    "régissions          régeissions",
-    "régissiez           régeissiez",
-    "régissent           régeissent"
-  ],
-  [
-    "rélargir",
-    "rélargisse          rélargeisse",
-    "rélargisses         rélargeisses",
-    "rélargît            rélargeît",
-    "rélargissions       rélargeissions",
-    "rélargissiez        rélargeissiez",
-    "rélargissent        rélargeissent"
-  ],
-  [
-    "rétroagir",
-    "rétroagisse         rétroageisse",
-    "rétroagisses        rétroageisses",
-    "rétroagît           rétroageît",
-    "rétroagissions      rétroageissions",
-    "rétroagissiez       rétroageissiez",
-    "rétroagissent       rétroageissent"
-  ],
-  [
     "savoir",
     "susse               savoisse",
     "susses              savoisses",
@@ -403,24 +277,6 @@
     "sussions            savoissions",
     "sussiez             savoissiez",
     "sussent             savoissent"
-  ],
-  [
-    "surgir",
-    "surgisse            surgeisse",
-    "surgisses           surgeisses",
-    "surgît              surgeît",
-    "surgissions         surgeissions",
-    "surgissiez          surgeissiez",
-    "surgissent          surgeissent"
-  ],
-  [
-    "vagir",
-    "vagisse             vageisse",
-    "vagisses            vageisses",
-    "vagît               vageît",
-    "vagissions          vageissions",
-    "vagissiez           vageissiez",
-    "vagissent           vageissent"
   ],
   [
     "valoir",
@@ -457,15 +313,6 @@
     "échussions          échoissions",
     "échussiez           échoissiez",
     "échussent           échoissent"
-  ],
-  [
-    "élargir",
-    "élargisse           élargeisse",
-    "élargisses          élargeisses",
-    "élargît             élargeît",
-    "élargissions        élargeissions",
-    "élargissiez         élargeissiez",
-    "élargissent         élargeissent"
   ],
   [
     "émouvoir",
