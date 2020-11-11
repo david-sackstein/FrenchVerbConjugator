@@ -4,7 +4,7 @@ namespace ConjugatorLibrary.SecondGroup
 {
     public static class SubjonctifImparfaitConjugator
     {
-        private static readonly string[] Endings = {"asse", "asses", "ât", "assions", "assiez", "assent"};
+        private static readonly string[] Endings = {"isse", "isses", "ît", "issions", "issiez", "issent"};
 
         public static string[] GetConjugations(string verb)
         {

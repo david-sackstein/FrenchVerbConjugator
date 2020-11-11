@@ -1,3872 +1,992 @@
 [
   [
-    "abasourdir",
-    "abasourdisse        abasourdasse",
-    "abasourdisses       abasourdasses",
-    "abasourdît          abasourdât",
-    "abasourdissions     abasourdassions",
-    "abasourdissiez      abasourdassiez",
-    "abasourdissent      abasourdassent"
-  ],
-  [
-    "abolir",
-    "abolisse            abolasse",
-    "abolisses           abolasses",
-    "abolît              abolât",
-    "abolissions         abolassions",
-    "abolissiez          abolassiez",
-    "abolissent          abolassent"
-  ],
-  [
-    "abonnir",
-    "abonnisse           abonnasse",
-    "abonnisses          abonnasses",
-    "abonnît             abonnât",
-    "abonnissions        abonnassions",
-    "abonnissiez         abonnassiez",
-    "abonnissent         abonnassent"
-  ],
-  [
-    "aboutir",
-    "aboutisse           aboutasse",
-    "aboutisses          aboutasses",
-    "aboutît             aboutât",
-    "aboutissions        aboutassions",
-    "aboutissiez         aboutassiez",
-    "aboutissent         aboutassent"
-  ],
-  [
-    "abrutir",
-    "abrutisse           abrutasse",
-    "abrutisses          abrutasses",
-    "abrutît             abrutât",
-    "abrutissions        abrutassions",
-    "abrutissiez         abrutassiez",
-    "abrutissent         abrutassent"
-  ],
-  [
     "abstenir",
-    "abstinsse           abstenasse",
-    "abstinsses          abstenasses",
-    "abstînt             abstenât",
-    "abstinssions        abstenassions",
-    "abstinssiez         abstenassiez",
-    "abstinssent         abstenassent"
-  ],
-  [
-    "abâtardir",
-    "abâtardisse         abâtardasse",
-    "abâtardisses        abâtardasses",
-    "abâtardît           abâtardât",
-    "abâtardissions      abâtardassions",
-    "abâtardissiez       abâtardassiez",
-    "abâtardissent       abâtardassent"
-  ],
-  [
-    "abêtir",
-    "abêtisse            abêtasse",
-    "abêtisses           abêtasses",
-    "abêtît              abêtât",
-    "abêtissions         abêtassions",
-    "abêtissiez          abêtassiez",
-    "abêtissent          abêtassent"
-  ],
-  [
-    "accomplir",
-    "accomplisse         accomplasse",
-    "accomplisses        accomplasses",
-    "accomplît           accomplât",
-    "accomplissions      accomplassions",
-    "accomplissiez       accomplassiez",
-    "accomplissent       accomplassent"
+    "abstinsse           abstenisse",
+    "abstinsses          abstenisses",
+    "abstînt             abstenît",
+    "abstinssions        abstenissions",
+    "abstinssiez         abstenissiez",
+    "abstinssent         abstenissent"
   ],
   [
     "accourir",
-    "accourusse          accourasse",
-    "accourusses         accourasses",
-    "accourût            accourât",
-    "accourussions       accourassions",
-    "accourussiez        accourassiez",
-    "accourussent        accourassent"
+    "accourusse          accourisse",
+    "accourusses         accourisses",
+    "accourût            accourît",
+    "accourussions       accourissions",
+    "accourussiez        accourissiez",
+    "accourussent        accourissent"
   ],
   [
     "accourcir",
-    "accourcisse         accourçasse",
-    "accourcisses        accourçasses",
-    "accourcît           accourçât",
-    "accourcissions      accourçassions",
-    "accourcissiez       accourçassiez",
-    "accourcissent       accourçassent"
-  ],
-  [
-    "accroupir",
-    "accroupisse         accroupasse",
-    "accroupisses        accroupasses",
-    "accroupît           accroupât",
-    "accroupissions      accroupassions",
-    "accroupissiez       accroupassiez",
-    "accroupissent       accroupassent"
-  ],
-  [
-    "accueillir",
-    "accueillisse        accueillasse",
-    "accueillisses       accueillasses",
-    "accueillît          accueillât",
-    "accueillissions     accueillassions",
-    "accueillissiez      accueillassiez",
-    "accueillissent      accueillassent"
+    "accourcisse         accourçisse",
+    "accourcisses        accourçisses",
+    "accourcît           accourçît",
+    "accourcissions      accourçissions",
+    "accourcissiez       accourçissiez",
+    "accourcissent       accourçissent"
   ],
   [
     "acquérir",
-    "acquisse            acquérasse",
-    "acquisses           acquérasses",
-    "acquît              acquérât",
-    "acquissions         acquérassions",
-    "acquissiez          acquérassiez",
-    "acquissent          acquérassent"
+    "acquisse            acquérisse",
+    "acquisses           acquérisses",
+    "acquît              acquérît",
+    "acquissions         acquérissions",
+    "acquissiez          acquérissiez",
+    "acquissent          acquérissent"
   ],
   [
     "adoucir",
-    "adoucisse           adouçasse",
-    "adoucisses          adouçasses",
-    "adoucît             adouçât",
-    "adoucissions        adouçassions",
-    "adoucissiez         adouçassiez",
-    "adoucissent         adouçassent"
+    "adoucisse           adouçisse",
+    "adoucisses          adouçisses",
+    "adoucît             adouçît",
+    "adoucissions        adouçissions",
+    "adoucissiez         adouçissiez",
+    "adoucissent         adouçissent"
   ],
   [
     "advenir",
-    "advinsse            advenasse",
-    "advinsses           advenasses",
-    "advînt              advenât",
-    "advinssions         advenassions",
-    "advinssiez          advenassiez",
-    "advinssent          advenassent"
-  ],
-  [
-    "affadir",
-    "affadisse           affadasse",
-    "affadisses          affadasses",
-    "affadît             affadât",
-    "affadissions        affadassions",
-    "affadissiez         affadassiez",
-    "affadissent         affadassent"
-  ],
-  [
-    "affaiblir",
-    "affaiblisse         affaiblasse",
-    "affaiblisses        affaiblasses",
-    "affaiblît           affaiblât",
-    "affaiblissions      affaiblassions",
-    "affaiblissiez       affaiblassiez",
-    "affaiblissent       affaiblassent"
-  ],
-  [
-    "affermir",
-    "affermisse          affermasse",
-    "affermisses         affermasses",
-    "affermît            affermât",
-    "affermissions       affermassions",
-    "affermissiez        affermassiez",
-    "affermissent        affermassent"
-  ],
-  [
-    "affranchir",
-    "affranchisse        affranchasse",
-    "affranchisses       affranchasses",
-    "affranchît          affranchât",
-    "affranchissions     affranchassions",
-    "affranchissiez      affranchassiez",
-    "affranchissent      affranchassent"
+    "advinsse            advenisse",
+    "advinsses           advenisses",
+    "advînt              advenît",
+    "advinssions         advenissions",
+    "advinssiez          advenissiez",
+    "advinssent          advenissent"
   ],
   [
     "agir",
-    "agisse              ageasse",
-    "agisses             ageasses",
-    "agît                ageât",
-    "agissions           ageassions",
-    "agissiez            ageassiez",
-    "agissent            ageassent"
-  ],
-  [
-    "agonir",
-    "agonisse            agonasse",
-    "agonisses           agonasses",
-    "agonît              agonât",
-    "agonissions         agonassions",
-    "agonissiez          agonassiez",
-    "agonissent          agonassent"
-  ],
-  [
-    "agrandir",
-    "agrandisse          agrandasse",
-    "agrandisses         agrandasses",
-    "agrandît            agrandât",
-    "agrandissions       agrandassions",
-    "agrandissiez        agrandassiez",
-    "agrandissent        agrandassent"
-  ],
-  [
-    "aguerrir",
-    "aguerrisse          aguerrasse",
-    "aguerrisses         aguerrasses",
-    "aguerrît            aguerrât",
-    "aguerrissions       aguerrassions",
-    "aguerrissiez        aguerrassiez",
-    "aguerrissent        aguerrassent"
-  ],
-  [
-    "ahurir",
-    "ahurisse            ahurasse",
-    "ahurisses           ahurasses",
-    "ahurît              ahurât",
-    "ahurissions         ahurassions",
-    "ahurissiez          ahurassiez",
-    "ahurissent          ahurassent"
-  ],
-  [
-    "aigrir",
-    "aigrisse            aigrasse",
-    "aigrisses           aigrasses",
-    "aigrît              aigrât",
-    "aigrissions         aigrassions",
-    "aigrissiez          aigrassiez",
-    "aigrissent          aigrassent"
-  ],
-  [
-    "alanguir",
-    "alanguisse          alanguasse",
-    "alanguisses         alanguasses",
-    "alanguît            alanguât",
-    "alanguissions       alanguassions",
-    "alanguissiez        alanguassiez",
-    "alanguissent        alanguassent"
-  ],
-  [
-    "alourdir",
-    "alourdisse          alourdasse",
-    "alourdisses         alourdasses",
-    "alourdît            alourdât",
-    "alourdissions       alourdassions",
-    "alourdissiez        alourdassiez",
-    "alourdissent        alourdassent"
-  ],
-  [
-    "alunir",
-    "alunisse            alunasse",
-    "alunisses           alunasses",
-    "alunît              alunât",
-    "alunissions         alunassions",
-    "alunissiez          alunassiez",
-    "alunissent          alunassent"
-  ],
-  [
-    "amaigrir",
-    "amaigrisse          amaigrasse",
-    "amaigrisses         amaigrasses",
-    "amaigrît            amaigrât",
-    "amaigrissions       amaigrassions",
-    "amaigrissiez        amaigrassiez",
-    "amaigrissent        amaigrassent"
-  ],
-  [
-    "amatir",
-    "amatisse            amatasse",
-    "amatisses           amatasses",
-    "amatît              amatât",
-    "amatissions         amatassions",
-    "amatissiez          amatassiez",
-    "amatissent          amatassent"
-  ],
-  [
-    "amerrir",
-    "amerrisse           amerrasse",
-    "amerrisses          amerrasses",
-    "amerrît             amerrât",
-    "amerrissions        amerrassions",
-    "amerrissiez         amerrassiez",
-    "amerrissent         amerrassent"
-  ],
-  [
-    "ameublir",
-    "ameublisse          ameublasse",
-    "ameublisses         ameublasses",
-    "ameublît            ameublât",
-    "ameublissions       ameublassions",
-    "ameublissiez        ameublassiez",
-    "ameublissent        ameublassent"
+    "agisse              ageisse",
+    "agisses             ageisses",
+    "agît                ageît",
+    "agissions           ageissions",
+    "agissiez            ageissiez",
+    "agissent            ageissent"
   ],
   [
     "amincir",
-    "amincisse           aminçasse",
-    "amincisses          aminçasses",
-    "amincît             aminçât",
-    "amincissions        aminçassions",
-    "amincissiez         aminçassiez",
-    "amincissent         aminçassent"
-  ],
-  [
-    "amoindrir",
-    "amoindrisse         amoindrasse",
-    "amoindrisses        amoindrasses",
-    "amoindrît           amoindrât",
-    "amoindrissions      amoindrassions",
-    "amoindrissiez       amoindrassiez",
-    "amoindrissent       amoindrassent"
-  ],
-  [
-    "amollir",
-    "amollisse           amollasse",
-    "amollisses          amollasses",
-    "amollît             amollât",
-    "amollissions        amollassions",
-    "amollissiez         amollassiez",
-    "amollissent         amollassent"
-  ],
-  [
-    "amortir",
-    "amortisse           amortasse",
-    "amortisses          amortasses",
-    "amortît             amortât",
-    "amortissions        amortassions",
-    "amortissiez         amortassiez",
-    "amortissent         amortassent"
-  ],
-  [
-    "anoblir",
-    "anoblisse           anoblasse",
-    "anoblisses          anoblasses",
-    "anoblît             anoblât",
-    "anoblissions        anoblassions",
-    "anoblissiez         anoblassiez",
-    "anoblissent         anoblassent"
-  ],
-  [
-    "anordir",
-    "anordisse           anordasse",
-    "anordisses          anordasses",
-    "anordît             anordât",
-    "anordissions        anordassions",
-    "anordissiez         anordassiez",
-    "anordissent         anordassent"
-  ],
-  [
-    "anéantir",
-    "anéantisse          anéantasse",
-    "anéantisses         anéantasses",
-    "anéantît            anéantât",
-    "anéantissions       anéantassions",
-    "anéantissiez        anéantassiez",
-    "anéantissent        anéantassent"
+    "amincisse           aminçisse",
+    "amincisses          aminçisses",
+    "amincît             aminçît",
+    "amincissions        aminçissions",
+    "amincissiez         aminçissiez",
+    "amincissent         aminçissent"
   ],
   [
     "apercevoir",
-    "aperçusse           apercevoasse",
-    "aperçusses          apercevoasses",
-    "aperçût             apercevoât",
-    "aperçussions        apercevoassions",
-    "aperçussiez         apercevoassiez",
-    "aperçussent         apercevoassent"
-  ],
-  [
-    "aplanir",
-    "aplanisse           aplanasse",
-    "aplanisses          aplanasses",
-    "aplanît             aplanât",
-    "aplanissions        aplanassions",
-    "aplanissiez         aplanassiez",
-    "aplanissent         aplanassent"
-  ],
-  [
-    "aplatir",
-    "aplatisse           aplatasse",
-    "aplatisses          aplatasses",
-    "aplatît             aplatât",
-    "aplatissions        aplatassions",
-    "aplatissiez         aplatassiez",
-    "aplatissent         aplatassent"
+    "aperçusse           apercevoisse",
+    "aperçusses          apercevoisses",
+    "aperçût             apercevoît",
+    "aperçussions        apercevoissions",
+    "aperçussiez         apercevoissiez",
+    "aperçussent         apercevoissent"
   ],
   [
     "appartenir",
-    "appartinsse         appartenasse",
-    "appartinsses        appartenasses",
-    "appartînt           appartenât",
-    "appartinssions      appartenassions",
-    "appartinssiez       appartenassiez",
-    "appartinssent       appartenassent"
-  ],
-  [
-    "appauvrir",
-    "appauvrisse         appauvrasse",
-    "appauvrisses        appauvrasses",
-    "appauvrît           appauvrât",
-    "appauvrissions      appauvrassions",
-    "appauvrissiez       appauvrassiez",
-    "appauvrissent       appauvrassent"
-  ],
-  [
-    "appesantir",
-    "appesantisse        appesantasse",
-    "appesantisses       appesantasses",
-    "appesantît          appesantât",
-    "appesantissions     appesantassions",
-    "appesantissiez      appesantassiez",
-    "appesantissent      appesantassent"
-  ],
-  [
-    "applaudir",
-    "applaudisse         applaudasse",
-    "applaudisses        applaudasses",
-    "applaudît           applaudât",
-    "applaudissions      applaudassions",
-    "applaudissiez       applaudassiez",
-    "applaudissent       applaudassent"
-  ],
-  [
-    "approfondir",
-    "approfondisse       approfondasse",
-    "approfondisses      approfondasses",
-    "approfondît         approfondât",
-    "approfondissions    approfondassions",
-    "approfondissiez     approfondassiez",
-    "approfondissent     approfondassent"
-  ],
-  [
-    "arrondir",
-    "arrondisse          arrondasse",
-    "arrondisses         arrondasses",
-    "arrondît            arrondât",
-    "arrondissions       arrondassions",
-    "arrondissiez        arrondassiez",
-    "arrondissent        arrondassent"
+    "appartinsse         appartenisse",
+    "appartinsses        appartenisses",
+    "appartînt           appartenît",
+    "appartinssions      appartenissions",
+    "appartinssiez       appartenissiez",
+    "appartinssent       appartenissent"
   ],
   [
     "assagir",
-    "assagisse           assageasse",
-    "assagisses          assageasses",
-    "assagît             assageât",
-    "assagissions        assageassions",
-    "assagissiez         assageassiez",
-    "assagissent         assageassent"
-  ],
-  [
-    "assaillir",
-    "assaillisse         assaillasse",
-    "assaillisses        assaillasses",
-    "assaillît           assaillât",
-    "assaillissions      assaillassions",
-    "assaillissiez       assaillassiez",
-    "assaillissent       assaillassent"
-  ],
-  [
-    "assainir",
-    "assainisse          assainasse",
-    "assainisses         assainasses",
-    "assainît            assainât",
-    "assainissions       assainassions",
-    "assainissiez        assainassiez",
-    "assainissent        assainassent"
+    "assagisse           assageisse",
+    "assagisses          assageisses",
+    "assagît             assageît",
+    "assagissions        assageissions",
+    "assagissiez         assageissiez",
+    "assagissent         assageissent"
   ],
   [
     "asseoir",
-    "assisse             asseoasse",
-    "assisses            asseoasses",
-    "assît               asseoât",
-    "assissions          asseoassions",
-    "assissiez           asseoassiez",
-    "assissent           asseoassent"
-  ],
-  [
-    "asservir",
-    "asservisse          asservasse",
-    "asservisses         asservasses",
-    "asservît            asservât",
-    "asservissions       asservassions",
-    "asservissiez        asservassiez",
-    "asservissent        asservassent"
-  ],
-  [
-    "assombrir",
-    "assombrisse         assombrasse",
-    "assombrisses        assombrasses",
-    "assombrît           assombrât",
-    "assombrissions      assombrassions",
-    "assombrissiez       assombrassiez",
-    "assombrissent       assombrassent"
-  ],
-  [
-    "assortir",
-    "assortisse          assortasse",
-    "assortisses         assortasses",
-    "assortît            assortât",
-    "assortissions       assortassions",
-    "assortissiez        assortassiez",
-    "assortissent        assortassent"
-  ],
-  [
-    "assoupir",
-    "assoupisse          assoupasse",
-    "assoupisses         assoupasses",
-    "assoupît            assoupât",
-    "assoupissions       assoupassions",
-    "assoupissiez        assoupassiez",
-    "assoupissent        assoupassent"
-  ],
-  [
-    "assouplir",
-    "assouplisse         assouplasse",
-    "assouplisses        assouplasses",
-    "assouplît           assouplât",
-    "assouplissions      assouplassions",
-    "assouplissiez       assouplassiez",
-    "assouplissent       assouplassent"
-  ],
-  [
-    "assourdir",
-    "assourdisse         assourdasse",
-    "assourdisses        assourdasses",
-    "assourdît           assourdât",
-    "assourdissions      assourdassions",
-    "assourdissiez       assourdassiez",
-    "assourdissent       assourdassent"
-  ],
-  [
-    "assouvir",
-    "assouvisse          assouvasse",
-    "assouvisses         assouvasses",
-    "assouvît            assouvât",
-    "assouvissions       assouvassions",
-    "assouvissiez        assouvassiez",
-    "assouvissent        assouvassent"
-  ],
-  [
-    "assujettir",
-    "assujettisse        assujettasse",
-    "assujettisses       assujettasses",
-    "assujettît          assujettât",
-    "assujettissions     assujettassions",
-    "assujettissiez      assujettassiez",
-    "assujettissent      assujettassent"
-  ],
-  [
-    "attendrir",
-    "attendrisse         attendrasse",
-    "attendrisses        attendrasses",
-    "attendrît           attendrât",
-    "attendrissions      attendrassions",
-    "attendrissiez       attendrassiez",
-    "attendrissent       attendrassent"
-  ],
-  [
-    "atterrir",
-    "atterrisse          atterrasse",
-    "atterrisses         atterrasses",
-    "atterrît            atterrât",
-    "atterrissions       atterrassions",
-    "atterrissiez        atterrassiez",
-    "atterrissent        atterrassent"
-  ],
-  [
-    "attiédir",
-    "attiédisse          attiédasse",
-    "attiédisses         attiédasses",
-    "attiédît            attiédât",
-    "attiédissions       attiédassions",
-    "attiédissiez        attiédassiez",
-    "attiédissent        attiédassent"
-  ],
-  [
-    "autosaisir",
-    "autosaisisse        autosaisasse",
-    "autosaisisses       autosaisasses",
-    "autosaisît          autosaisât",
-    "autosaisissions     autosaisassions",
-    "autosaisissiez      autosaisassiez",
-    "autosaisissent      autosaisassent"
-  ],
-  [
-    "avachir",
-    "avachisse           avachasse",
-    "avachisses          avachasses",
-    "avachît             avachât",
-    "avachissions        avachassions",
-    "avachissiez         avachassiez",
-    "avachissent         avachassent"
-  ],
-  [
-    "avertir",
-    "avertisse           avertasse",
-    "avertisses          avertasses",
-    "avertît             avertât",
-    "avertissions        avertassions",
-    "avertissiez         avertassiez",
-    "avertissent         avertassent"
-  ],
-  [
-    "aveulir",
-    "aveulisse           aveulasse",
-    "aveulisses          aveulasses",
-    "aveulît             aveulât",
-    "aveulissions        aveulassions",
-    "aveulissiez         aveulassiez",
-    "aveulissent         aveulassent"
-  ],
-  [
-    "avilir",
-    "avilisse            avilasse",
-    "avilisses           avilasses",
-    "avilît              avilât",
-    "avilissions         avilassions",
-    "avilissiez          avilassiez",
-    "avilissent          avilassent"
-  ],
-  [
-    "bannir",
-    "bannisse            bannasse",
-    "bannisses           bannasses",
-    "bannît              bannât",
-    "bannissions         bannassions",
-    "bannissiez          bannassiez",
-    "bannissent          bannassent"
-  ],
-  [
-    "barrir",
-    "barrisse            barrasse",
-    "barrisses           barrasses",
-    "barrît              barrât",
-    "barrissions         barrassions",
-    "barrissiez          barrassiez",
-    "barrissent          barrassent"
-  ],
-  [
-    "blanchir",
-    "blanchisse          blanchasse",
-    "blanchisses         blanchasses",
-    "blanchît            blanchât",
-    "blanchissions       blanchassions",
-    "blanchissiez        blanchassiez",
-    "blanchissent        blanchassent"
-  ],
-  [
-    "blettir",
-    "blettisse           blettasse",
-    "blettisses          blettasses",
-    "blettît             blettât",
-    "blettissions        blettassions",
-    "blettissiez         blettassiez",
-    "blettissent         blettassent"
-  ],
-  [
-    "bleuir",
-    "bleuisse            bleuasse",
-    "bleuisses           bleuasses",
-    "bleuît              bleuât",
-    "bleuissions         bleuassions",
-    "bleuissiez          bleuassiez",
-    "bleuissent          bleuassent"
-  ],
-  [
-    "blondir",
-    "blondisse           blondasse",
-    "blondisses          blondasses",
-    "blondît             blondât",
-    "blondissions        blondassions",
-    "blondissiez         blondassiez",
-    "blondissent         blondassent"
-  ],
-  [
-    "blottir",
-    "blottisse           blottasse",
-    "blottisses          blottasses",
-    "blottît             blottât",
-    "blottissions        blottassions",
-    "blottissiez         blottassiez",
-    "blottissent         blottassent"
-  ],
-  [
-    "blêmir",
-    "blêmisse            blêmasse",
-    "blêmisses           blêmasses",
-    "blêmît              blêmât",
-    "blêmissions         blêmassions",
-    "blêmissiez          blêmassiez",
-    "blêmissent          blêmassent"
-  ],
-  [
-    "bondir",
-    "bondisse            bondasse",
-    "bondisses           bondasses",
-    "bondît              bondât",
-    "bondissions         bondassions",
-    "bondissiez          bondassiez",
-    "bondissent          bondassent"
-  ],
-  [
-    "bouffir",
-    "bouffisse           bouffasse",
-    "bouffisses          bouffasses",
-    "bouffît             bouffât",
-    "bouffissions        bouffassions",
-    "bouffissiez         bouffassiez",
-    "bouffissent         bouffassent"
-  ],
-  [
-    "bouillir",
-    "bouillisse          bouillasse",
-    "bouillisses         bouillasses",
-    "bouillît            bouillât",
-    "bouillissions       bouillassions",
-    "bouillissiez        bouillassiez",
-    "bouillissent        bouillassent"
-  ],
-  [
-    "brandir",
-    "brandisse           brandasse",
-    "brandisses          brandasses",
-    "brandît             brandât",
-    "brandissions        brandassions",
-    "brandissiez         brandassiez",
-    "brandissent         brandassent"
-  ],
-  [
-    "brunir",
-    "brunisse            brunasse",
-    "brunisses           brunasses",
-    "brunît              brunât",
-    "brunissions         brunassions",
-    "brunissiez          brunassiez",
-    "brunissent          brunassent"
-  ],
-  [
-    "bâtir",
-    "bâtisse             bâtasse",
-    "bâtisses            bâtasses",
-    "bâtît               bâtât",
-    "bâtissions          bâtassions",
-    "bâtissiez           bâtassiez",
-    "bâtissent           bâtassent"
-  ],
-  [
-    "bénir",
-    "bénisse             bénasse",
-    "bénisses            bénasses",
-    "bénît               bénât",
-    "bénissions          bénassions",
-    "bénissiez           bénassiez",
-    "bénissent           bénassent"
-  ],
-  [
-    "calmir",
-    "calmisse            calmasse",
-    "calmisses           calmasses",
-    "calmît              calmât",
-    "calmissions         calmassions",
-    "calmissiez          calmassiez",
-    "calmissent          calmassent"
-  ],
-  [
-    "candir",
-    "candisse            candasse",
-    "candisses           candasses",
-    "candît              candât",
-    "candissions         candassions",
-    "candissiez          candassiez",
-    "candissent          candassent"
-  ],
-  [
-    "catir",
-    "catisse             catasse",
-    "catisses            catasses",
-    "catît               catât",
-    "catissions          catassions",
-    "catissiez           catassiez",
-    "catissent           catassent"
+    "assisse             asseoisse",
+    "assisses            asseoisses",
+    "assît               asseoît",
+    "assissions          asseoissions",
+    "assissiez           asseoissiez",
+    "assissent           asseoissent"
   ],
   [
     "chancir",
-    "chancisse           chançasse",
-    "chancisses          chançasses",
-    "chancît             chançât",
-    "chancissions        chançassions",
-    "chancissiez         chançassiez",
-    "chancissent         chançassent"
-  ],
-  [
-    "chauvir",
-    "chauvisse           chauvasse",
-    "chauvisses          chauvasses",
-    "chauvît             chauvât",
-    "chauvissions        chauvassions",
-    "chauvissiez         chauvassiez",
-    "chauvissent         chauvassent"
+    "chancisse           chançisse",
+    "chancisses          chançisses",
+    "chancît             chançît",
+    "chancissions        chançissions",
+    "chancissiez         chançissiez",
+    "chancissent         chançissent"
   ],
   [
     "choir",
-    "chusse              choasse",
-    "chusses             choasses",
-    "chût                choât",
-    "chussions           choassions",
-    "chussiez            choassiez",
-    "chussent            choassent"
-  ],
-  [
-    "choisir",
-    "choisisse           choisasse",
-    "choisisses          choisasses",
-    "choisît             choisât",
-    "choisissions        choisassions",
-    "choisissiez         choisassiez",
-    "choisissent         choisassent"
-  ],
-  [
-    "chérir",
-    "chérisse            chérasse",
-    "chérisses           chérasses",
-    "chérît              chérât",
-    "chérissions         chérassions",
-    "chérissiez          chérassiez",
-    "chérissent          chérassent"
+    "chusse              choisse",
+    "chusses             choisses",
+    "chût                choît",
+    "chussions           choissions",
+    "chussiez            choissiez",
+    "chussent            choissent"
   ],
   [
     "circonvenir",
-    "circonvinsse        circonvenasse",
-    "circonvinsses       circonvenasses",
-    "circonvînt          circonvenât",
-    "circonvinssions     circonvenassions",
-    "circonvinssiez      circonvenassiez",
-    "circonvinssent      circonvenassent"
-  ],
-  [
-    "clapir",
-    "clapisse            clapasse",
-    "clapisses           clapasses",
-    "clapît              clapât",
-    "clapissions         clapassions",
-    "clapissiez          clapassiez",
-    "clapissent          clapassent"
-  ],
-  [
-    "compatir",
-    "compatisse          compatasse",
-    "compatisses         compatasses",
-    "compatît            compatât",
-    "compatissions       compatassions",
-    "compatissiez        compatassiez",
-    "compatissent        compatassent"
+    "circonvinsse        circonvenisse",
+    "circonvinsses       circonvenisses",
+    "circonvînt          circonvenît",
+    "circonvinssions     circonvenissions",
+    "circonvinssiez      circonvenissiez",
+    "circonvinssent      circonvenissent"
   ],
   [
     "concevoir",
-    "conçusse            concevoasse",
-    "conçusses           concevoasses",
-    "conçût              concevoât",
-    "conçussions         concevoassions",
-    "conçussiez          concevoassiez",
-    "conçussent          concevoassent"
+    "conçusse            concevoisse",
+    "conçusses           concevoisses",
+    "conçût              concevoît",
+    "conçussions         concevoissions",
+    "conçussiez          concevoissiez",
+    "conçussent          concevoissent"
   ],
   [
     "concourir",
-    "concourusse         concourasse",
-    "concourusses        concourasses",
-    "concourût           concourât",
-    "concourussions      concourassions",
-    "concourussiez       concourassiez",
-    "concourussent       concourassent"
+    "concourusse         concourisse",
+    "concourusses        concourisses",
+    "concourût           concourît",
+    "concourussions      concourissions",
+    "concourussiez       concourissiez",
+    "concourussent       concourissent"
   ],
   [
     "conquérir",
-    "conquisse           conquérasse",
-    "conquisses          conquérasses",
-    "conquît             conquérât",
-    "conquissions        conquérassions",
-    "conquissiez         conquérassiez",
-    "conquissent         conquérassent"
-  ],
-  [
-    "consentir",
-    "consentisse         consentasse",
-    "consentisses        consentasses",
-    "consentît           consentât",
-    "consentissions      consentassions",
-    "consentissiez       consentassiez",
-    "consentissent       consentassent"
+    "conquisse           conquérisse",
+    "conquisses          conquérisses",
+    "conquît             conquérît",
+    "conquissions        conquérissions",
+    "conquissiez         conquérissiez",
+    "conquissent         conquérissent"
   ],
   [
     "contenir",
-    "continsse           contenasse",
-    "continsses          contenasses",
-    "contînt             contenât",
-    "continssions        contenassions",
-    "continssiez         contenassiez",
-    "continssent         contenassent"
+    "continsse           contenisse",
+    "continsses          contenisses",
+    "contînt             contenît",
+    "continssions        contenissions",
+    "continssiez         contenissiez",
+    "continssent         contenissent"
   ],
   [
     "contrevenir",
-    "contrevinsse        contrevenasse",
-    "contrevinsses       contrevenasses",
-    "contrevînt          contrevenât",
-    "contrevinssions     contrevenassions",
-    "contrevinssiez      contrevenassiez",
-    "contrevinssent      contrevenassent"
+    "contrevinsse        contrevenisse",
+    "contrevinsses       contrevenisses",
+    "contrevînt          contrevenît",
+    "contrevinssions     contrevenissions",
+    "contrevinssiez      contrevenissiez",
+    "contrevinssent      contrevenissent"
   ],
   [
     "convenir",
-    "convinsse           convenasse",
-    "convinsses          convenasses",
-    "convînt             convenât",
-    "convinssions        convenassions",
-    "convinssiez         convenassiez",
-    "convinssent         convenassent"
-  ],
-  [
-    "convertir",
-    "convertisse         convertasse",
-    "convertisses        convertasses",
-    "convertît           convertât",
-    "convertissions      convertassions",
-    "convertissiez       convertassiez",
-    "convertissent       convertassent"
-  ],
-  [
-    "cotir",
-    "cotisse             cotasse",
-    "cotisses            cotasses",
-    "cotît               cotât",
-    "cotissions          cotassions",
-    "cotissiez           cotassiez",
-    "cotissent           cotassent"
+    "convinsse           convenisse",
+    "convinsses          convenisses",
+    "convînt             convenît",
+    "convinssions        convenissions",
+    "convinssiez         convenissiez",
+    "convinssent         convenissent"
   ],
   [
     "courir",
-    "courusse            courasse",
-    "courusses           courasses",
-    "courût              courât",
-    "courussions         courassions",
-    "courussiez          courassiez",
-    "courussent          courassent"
-  ],
-  [
-    "couvrir",
-    "couvrisse           couvrasse",
-    "couvrisses          couvrasses",
-    "couvrît             couvrât",
-    "couvrissions        couvrassions",
-    "couvrissiez         couvrassiez",
-    "couvrissent         couvrassent"
-  ],
-  [
-    "croupir",
-    "croupisse           croupasse",
-    "croupisses          croupasses",
-    "croupît             croupât",
-    "croupissions        croupassions",
-    "croupissiez         croupassiez",
-    "croupissent         croupassent"
-  ],
-  [
-    "crépir",
-    "crépisse            crépasse",
-    "crépisses           crépasses",
-    "crépît              crépât",
-    "crépissions         crépassions",
-    "crépissiez          crépassiez",
-    "crépissent          crépassent"
-  ],
-  [
-    "cueillir",
-    "cueillisse          cueillasse",
-    "cueillisses         cueillasses",
-    "cueillît            cueillât",
-    "cueillissions       cueillassions",
-    "cueillissiez        cueillassiez",
-    "cueillissent        cueillassent"
-  ],
-  [
-    "dessaisir",
-    "dessaisisse         dessaisasse",
-    "dessaisisses        dessaisasses",
-    "dessaisît           dessaisât",
-    "dessaisissions      dessaisassions",
-    "dessaisissiez       dessaisassiez",
-    "dessaisissent       dessaisassent"
-  ],
-  [
-    "desservir",
-    "desservisse         desservasse",
-    "desservisses        desservasses",
-    "desservît           desservât",
-    "desservissions      desservassions",
-    "desservissiez       desservassiez",
-    "desservissent       desservassent"
-  ],
-  [
-    "dessertir",
-    "dessertisse         dessertasse",
-    "dessertisses        dessertasses",
-    "dessertît           dessertât",
-    "dessertissions      dessertassions",
-    "dessertissiez       dessertassiez",
-    "dessertissent       dessertassent"
+    "courusse            courisse",
+    "courusses           courisses",
+    "courût              courît",
+    "courussions         courissions",
+    "courussiez          courissiez",
+    "courussent          courissent"
   ],
   [
     "devoir",
-    "dusse               devoasse",
-    "dusses              devoasses",
-    "dût                 devoât",
-    "dussions            devoassions",
-    "dussiez             devoassiez",
-    "dussent             devoassent"
+    "dusse               devoisse",
+    "dusses              devoisses",
+    "dût                 devoît",
+    "dussions            devoissions",
+    "dussiez             devoissiez",
+    "dussent             devoissent"
   ],
   [
     "devenir",
-    "devinsse            devenasse",
-    "devinsses           devenasses",
-    "devînt              devenât",
-    "devinssions         devenassions",
-    "devinssiez          devenassiez",
-    "devinssent          devenassent"
+    "devinsse            devenisse",
+    "devinsses           devenisses",
+    "devînt              devenît",
+    "devinssions         devenissions",
+    "devinssiez          devenissiez",
+    "devinssent          devenissent"
   ],
   [
     "disconvenir",
-    "disconvinsse        disconvenasse",
-    "disconvinsses       disconvenasses",
-    "disconvînt          disconvenât",
-    "disconvinssions     disconvenassions",
-    "disconvinssiez      disconvenassiez",
-    "disconvinssent      disconvenassent"
+    "disconvinsse        disconvenisse",
+    "disconvinsses       disconvenisses",
+    "disconvînt          disconvenît",
+    "disconvinssions     disconvenissions",
+    "disconvinssiez      disconvenissiez",
+    "disconvinssent      disconvenissent"
   ],
   [
     "discourir",
-    "discourusse         discourasse",
-    "discourusses        discourasses",
-    "discourût           discourât",
-    "discourussions      discourassions",
-    "discourussiez       discourassiez",
-    "discourussent       discourassent"
-  ],
-  [
-    "divertir",
-    "divertisse          divertasse",
-    "divertisses         divertasses",
-    "divertît            divertât",
-    "divertissions       divertassions",
-    "divertissiez        divertassiez",
-    "divertissent        divertassent"
-  ],
-  [
-    "dormir",
-    "dormisse            dormasse",
-    "dormisses           dormasses",
-    "dormît              dormât",
-    "dormissions         dormassions",
-    "dormissiez          dormassiez",
-    "dormissent          dormassent"
+    "discourusse         discourisse",
+    "discourusses        discourisses",
+    "discourût           discourît",
+    "discourussions      discourissions",
+    "discourussiez       discourissiez",
+    "discourussent       discourissent"
   ],
   [
     "doucir",
-    "doucisse            douçasse",
-    "doucisses           douçasses",
-    "doucît              douçât",
-    "doucissions         douçassions",
-    "doucissiez          douçassiez",
-    "doucissent          douçassent"
+    "doucisse            douçisse",
+    "doucisses           douçisses",
+    "doucît              douçît",
+    "doucissions         douçissions",
+    "doucissiez          douçissiez",
+    "doucissent          douçissent"
   ],
   [
     "durcir",
-    "durcisse            durçasse",
-    "durcisses           durçasses",
-    "durcît              durçât",
-    "durcissions         durçassions",
-    "durcissiez          durçassiez",
-    "durcissent          durçassent"
-  ],
-  [
-    "débouillir",
-    "débouillisse        débouillasse",
-    "débouillisses       débouillasses",
-    "débouillît          débouillât",
-    "débouillissions     débouillassions",
-    "débouillissiez      débouillassiez",
-    "débouillissent      débouillassent"
-  ],
-  [
-    "décatir",
-    "décatisse           décatasse",
-    "décatisses          décatasses",
-    "décatît             décatât",
-    "décatissions        décatassions",
-    "décatissiez         décatassiez",
-    "décatissent         décatassent"
+    "durcisse            durçisse",
+    "durcisses           durçisses",
+    "durcît              durçît",
+    "durcissions         durçissions",
+    "durcissiez          durçissiez",
+    "durcissent          durçissent"
   ],
   [
     "décevoir",
-    "déçusse             décevoasse",
-    "déçusses            décevoasses",
-    "déçût               décevoât",
-    "déçussions          décevoassions",
-    "déçussiez           décevoassiez",
-    "déçussent           décevoassent"
+    "déçusse             décevoisse",
+    "déçusses            décevoisses",
+    "déçût               décevoît",
+    "déçussions          décevoissions",
+    "déçussiez           décevoissiez",
+    "déçussent           décevoissent"
   ],
   [
     "déchoir",
-    "déchusse            déchoasse",
-    "déchusses           déchoasses",
-    "déchût              déchoât",
-    "déchussions         déchoassions",
-    "déchussiez          déchoassiez",
-    "déchussent          déchoassent"
-  ],
-  [
-    "découvrir",
-    "découvrisse         découvrasse",
-    "découvrisses        découvrasses",
-    "découvrît           découvrât",
-    "découvrissions      découvrassions",
-    "découvrissiez       découvrassiez",
-    "découvrissent       découvrassent"
-  ],
-  [
-    "décrépir",
-    "décrépisse          décrépasse",
-    "décrépisses         décrépasses",
-    "décrépît            décrépât",
-    "décrépissions       décrépassions",
-    "décrépissiez        décrépassiez",
-    "décrépissent        décrépassent"
-  ],
-  [
-    "défaillir",
-    "défaillisse         défaillasse",
-    "défaillisses        défaillasses",
-    "défaillît           défaillât",
-    "défaillissions      défaillassions",
-    "défaillissiez       défaillassiez",
-    "défaillissent       défaillassent"
-  ],
-  [
-    "définir",
-    "définisse           définasse",
-    "définisses          définasses",
-    "définît             définât",
-    "définissions        définassions",
-    "définissiez         définassiez",
-    "définissent         définassent"
-  ],
-  [
-    "défleurir",
-    "défleurisse         défleurasse",
-    "défleurisses        défleurasses",
-    "défleurît           défleurât",
-    "défleurissions      défleurassions",
-    "défleurissiez       défleurassiez",
-    "défleurissent       défleurassent"
-  ],
-  [
-    "défléchir",
-    "défléchisse         défléchasse",
-    "défléchisses        défléchasses",
-    "défléchît           défléchât",
-    "défléchissions      défléchassions",
-    "défléchissiez       défléchassiez",
-    "défléchissent       défléchassent"
-  ],
-  [
-    "défraîchir",
-    "défraîchisse        défraîchasse",
-    "défraîchisses       défraîchasses",
-    "défraîchît          défraîchât",
-    "défraîchissions     défraîchassions",
-    "défraîchissiez      défraîchassiez",
-    "défraîchissent      défraîchassent"
-  ],
-  [
-    "dégarnir",
-    "dégarnisse          dégarnasse",
-    "dégarnisses         dégarnasses",
-    "dégarnît            dégarnât",
-    "dégarnissions       dégarnassions",
-    "dégarnissiez        dégarnassiez",
-    "dégarnissent        dégarnassent"
-  ],
-  [
-    "dégauchir",
-    "dégauchisse         dégauchasse",
-    "dégauchisses        dégauchasses",
-    "dégauchît           dégauchât",
-    "dégauchissions      dégauchassions",
-    "dégauchissiez       dégauchassiez",
-    "dégauchissent       dégauchassent"
-  ],
-  [
-    "déglutir",
-    "déglutisse          déglutasse",
-    "déglutisses         déglutasses",
-    "déglutît            déglutât",
-    "déglutissions       déglutassions",
-    "déglutissiez        déglutassiez",
-    "déglutissent        déglutassent"
-  ],
-  [
-    "dégourdir",
-    "dégourdisse         dégourdasse",
-    "dégourdisses        dégourdasses",
-    "dégourdît           dégourdât",
-    "dégourdissions      dégourdassions",
-    "dégourdissiez       dégourdassiez",
-    "dégourdissent       dégourdassent"
-  ],
-  [
-    "dégrossir",
-    "dégrossisse         dégrossasse",
-    "dégrossisses        dégrossasses",
-    "dégrossît           dégrossât",
-    "dégrossissions      dégrossassions",
-    "dégrossissiez       dégrossassiez",
-    "dégrossissent       dégrossassent"
-  ],
-  [
-    "déguerpir",
-    "déguerpisse         déguerpasse",
-    "déguerpisses        déguerpasses",
-    "déguerpît           déguerpât",
-    "déguerpissions      déguerpassions",
-    "déguerpissiez       déguerpassiez",
-    "déguerpissent       déguerpassent"
-  ],
-  [
-    "démaigrir",
-    "démaigrisse         démaigrasse",
-    "démaigrisses        démaigrasses",
-    "démaigrît           démaigrât",
-    "démaigrissions      démaigrassions",
-    "démaigrissiez       démaigrassiez",
-    "démaigrissent       démaigrassent"
-  ],
-  [
-    "démentir",
-    "démentisse          démentasse",
-    "démentisses         démentasses",
-    "démentît            démentât",
-    "démentissions       démentassions",
-    "démentissiez        démentassiez",
-    "démentissent        démentassent"
-  ],
-  [
-    "démolir",
-    "démolisse           démolasse",
-    "démolisses          démolasses",
-    "démolît             démolât",
-    "démolissions        démolassions",
-    "démolissiez         démolassiez",
-    "démolissent         démolassent"
-  ],
-  [
-    "démunir",
-    "démunisse           démunasse",
-    "démunisses          démunasses",
-    "démunît             démunât",
-    "démunissions        démunassions",
-    "démunissiez         démunassiez",
-    "démunissent         démunassent"
-  ],
-  [
-    "dénantir",
-    "dénantisse          dénantasse",
-    "dénantisses         dénantasses",
-    "dénantît            dénantât",
-    "dénantissions       dénantassions",
-    "dénantissiez        dénantassiez",
-    "dénantissent        dénantassent"
-  ],
-  [
-    "départir",
-    "départisse          départasse",
-    "départisses         départasses",
-    "départît            départât",
-    "départissions       départassions",
-    "départissiez        départassiez",
-    "départissent        départassent"
-  ],
-  [
-    "dépolir",
-    "dépolisse           dépolasse",
-    "dépolisses          dépolasses",
-    "dépolît             dépolât",
-    "dépolissions        dépolassions",
-    "dépolissiez         dépolassiez",
-    "dépolissent         dépolassent"
+    "déchusse            déchoisse",
+    "déchusses           déchoisses",
+    "déchût              déchoît",
+    "déchussions         déchoissions",
+    "déchussiez          déchoissiez",
+    "déchussent          déchoissent"
   ],
   [
     "dépourvoir",
-    "dépourvusse         dépourvoasse",
-    "dépourvusses        dépourvoasses",
-    "dépourvût           dépourvoât",
-    "dépourvussions      dépourvoassions",
-    "dépourvussiez       dépourvoassiez",
-    "dépourvussent       dépourvoassent"
-  ],
-  [
-    "dépérir",
-    "dépérisse           dépérasse",
-    "dépérisses          dépérasses",
-    "dépérît             dépérât",
-    "dépérissions        dépérassions",
-    "dépérissiez         dépérassiez",
-    "dépérissent         dépérassent"
-  ],
-  [
-    "déraidir",
-    "déraidisse          déraidasse",
-    "déraidisses         déraidasses",
-    "déraidît            déraidât",
-    "déraidissions       déraidassions",
-    "déraidissiez        déraidassiez",
-    "déraidissent        déraidassent"
+    "dépourvusse         dépourvoisse",
+    "dépourvusses        dépourvoisses",
+    "dépourvût           dépourvoît",
+    "dépourvussions      dépourvoissions",
+    "dépourvussiez       dépourvoissiez",
+    "dépourvussent       dépourvoissent"
   ],
   [
     "dérougir",
-    "dérougisse          dérougeasse",
-    "dérougisses         dérougeasses",
-    "dérougît            dérougeât",
-    "dérougissions       dérougeassions",
-    "dérougissiez        dérougeassiez",
-    "dérougissent        dérougeassent"
-  ],
-  [
-    "désaisir",
-    "désaisisse          désaisasse",
-    "désaisisses         désaisasses",
-    "désaisît            désaisât",
-    "désaisissions       désaisassions",
-    "désaisissiez        désaisassiez",
-    "désaisissent        désaisassent"
-  ],
-  [
-    "désassortir",
-    "désassortisse       désassortasse",
-    "désassortisses      désassortasses",
-    "désassortît         désassortât",
-    "désassortissions    désassortassions",
-    "désassortissiez     désassortassiez",
-    "désassortissent     désassortassent"
-  ],
-  [
-    "désemplir",
-    "désemplisse         désemplasse",
-    "désemplisses        désemplasses",
-    "désemplît           désemplât",
-    "désemplissions      désemplassions",
-    "désemplissiez       désemplassiez",
-    "désemplissent       désemplassent"
-  ],
-  [
-    "désenfouir",
-    "désenfouisse        désenfouasse",
-    "désenfouisses       désenfouasses",
-    "désenfouît          désenfouât",
-    "désenfouissions     désenfouassions",
-    "désenfouissiez      désenfouassiez",
-    "désenfouissent      désenfouassent"
-  ],
-  [
-    "désengourdir",
-    "désengourdisse      désengourdasse",
-    "désengourdisses     désengourdasses",
-    "désengourdît        désengourdât",
-    "désengourdissions   désengourdassions",
-    "désengourdissiez    désengourdassiez",
-    "désengourdissent    désengourdassent"
-  ],
-  [
-    "désinvestir",
-    "désinvestisse       désinvestasse",
-    "désinvestisses      désinvestasses",
-    "désinvestît         désinvestât",
-    "désinvestissions    désinvestassions",
-    "désinvestissiez     désinvestassiez",
-    "désinvestissent     désinvestassent"
-  ],
-  [
-    "désobéir",
-    "désobéisse          désobéasse",
-    "désobéisses         désobéasses",
-    "désobéît            désobéât",
-    "désobéissions       désobéassions",
-    "désobéissiez        désobéassiez",
-    "désobéissent        désobéassent"
-  ],
-  [
-    "désunir",
-    "désunisse           désunasse",
-    "désunisses          désunasses",
-    "désunît             désunât",
-    "désunissions        désunassions",
-    "désunissiez         désunassiez",
-    "désunissent         désunassent"
+    "dérougisse          dérougeisse",
+    "dérougisses         dérougeisses",
+    "dérougît            dérougeît",
+    "dérougissions       dérougeissions",
+    "dérougissiez        dérougeissiez",
+    "dérougissent        dérougeissent"
   ],
   [
     "détenir",
-    "détinsse            détenasse",
-    "détinsses           détenasses",
-    "détînt              détenât",
-    "détinssions         détenassions",
-    "détinssiez          détenassiez",
-    "détinssent          détenassent"
-  ],
-  [
-    "dévernir",
-    "dévernisse          dévernasse",
-    "dévernisses         dévernasses",
-    "dévernît            dévernât",
-    "dévernissions       dévernassions",
-    "dévernissiez        dévernassiez",
-    "dévernissent        dévernassent"
-  ],
-  [
-    "dévêtir",
-    "dévêtisse           dévêtasse",
-    "dévêtisses          dévêtasses",
-    "dévêtît             dévêtât",
-    "dévêtissions        dévêtassions",
-    "dévêtissiez         dévêtassiez",
-    "dévêtissent         dévêtassent"
-  ],
-  [
-    "effleurir",
-    "effleurisse         effleurasse",
-    "effleurisses        effleurasses",
-    "effleurît           effleurât",
-    "effleurissions      effleurassions",
-    "effleurissiez       effleurassiez",
-    "effleurissent       effleurassent"
-  ],
-  [
-    "embellir",
-    "embellisse          embellasse",
-    "embellisses         embellasses",
-    "embellît            embellât",
-    "embellissions       embellassions",
-    "embellissiez        embellassiez",
-    "embellissent        embellassent"
-  ],
-  [
-    "emboutir",
-    "emboutisse          emboutasse",
-    "emboutisses         emboutasses",
-    "emboutît            emboutât",
-    "emboutissions       emboutassions",
-    "emboutissiez        emboutassiez",
-    "emboutissent        emboutassent"
-  ],
-  [
-    "emplir",
-    "emplisse            emplasse",
-    "emplisses           emplasses",
-    "emplît              emplât",
-    "emplissions         emplassions",
-    "emplissiez          emplassiez",
-    "emplissent          emplassent"
-  ],
-  [
-    "empuantir",
-    "empuantisse         empuantasse",
-    "empuantisses        empuantasses",
-    "empuantît           empuantât",
-    "empuantissions      empuantassions",
-    "empuantissiez       empuantassiez",
-    "empuantissent       empuantassent"
-  ],
-  [
-    "enchérir",
-    "enchérisse          enchérasse",
-    "enchérisses         enchérasses",
-    "enchérît            enchérât",
-    "enchérissions       enchérassions",
-    "enchérissiez        enchérassiez",
-    "enchérissent        enchérassent"
+    "détinsse            détenisse",
+    "détinsses           détenisses",
+    "détînt              détenît",
+    "détinssions         détenissions",
+    "détinssiez          détenissiez",
+    "détinssent          détenissent"
   ],
   [
     "encourir",
-    "encourusse          encourasse",
-    "encourusses         encourasses",
-    "encourût            encourât",
-    "encourussions       encourassions",
-    "encourussiez        encourassiez",
-    "encourussent        encourassent"
-  ],
-  [
-    "endolorir",
-    "endolorisse         endolorasse",
-    "endolorisses        endolorasses",
-    "endolorît           endolorât",
-    "endolorissions      endolorassions",
-    "endolorissiez       endolorassiez",
-    "endolorissent       endolorassent"
-  ],
-  [
-    "endormir",
-    "endormisse          endormasse",
-    "endormisses         endormasses",
-    "endormît            endormât",
-    "endormissions       endormassions",
-    "endormissiez        endormassiez",
-    "endormissent        endormassent"
+    "encourusse          encourisse",
+    "encourusses         encourisses",
+    "encourût            encourît",
+    "encourussions       encourissions",
+    "encourussiez        encourissiez",
+    "encourussent        encourissent"
   ],
   [
     "endurcir",
-    "endurcisse          endurçasse",
-    "endurcisses         endurçasses",
-    "endurcît            endurçât",
-    "endurcissions       endurçassions",
-    "endurcissiez        endurçassiez",
-    "endurcissent        endurçassent"
-  ],
-  [
-    "enfouir",
-    "enfouisse           enfouasse",
-    "enfouisses          enfouasses",
-    "enfouît             enfouât",
-    "enfouissions        enfouassions",
-    "enfouissiez         enfouassiez",
-    "enfouissent         enfouassent"
-  ],
-  [
-    "enfuir",
-    "enfuisse            enfuasse",
-    "enfuisses           enfuasses",
-    "enfuît              enfuât",
-    "enfuissions         enfuassions",
-    "enfuissiez          enfuassiez",
-    "enfuissent          enfuassent"
-  ],
-  [
-    "engloutir",
-    "engloutisse         engloutasse",
-    "engloutisses        engloutasses",
-    "engloutît           engloutât",
-    "engloutissions      engloutassions",
-    "engloutissiez       engloutassiez",
-    "engloutissent       engloutassent"
-  ],
-  [
-    "engourdir",
-    "engourdisse         engourdasse",
-    "engourdisses        engourdasses",
-    "engourdît           engourdât",
-    "engourdissions      engourdassions",
-    "engourdissiez       engourdassiez",
-    "engourdissent       engourdassent"
-  ],
-  [
-    "enhardir",
-    "enhardisse          enhardasse",
-    "enhardisses         enhardasses",
-    "enhardît            enhardât",
-    "enhardissions       enhardassions",
-    "enhardissiez        enhardassiez",
-    "enhardissent        enhardassent"
-  ],
-  [
-    "enlaidir",
-    "enlaidisse          enlaidasse",
-    "enlaidisses         enlaidasses",
-    "enlaidît            enlaidât",
-    "enlaidissions       enlaidassions",
-    "enlaidissiez        enlaidassiez",
-    "enlaidissent        enlaidassent"
-  ],
-  [
-    "ennoblir",
-    "ennoblisse          ennoblasse",
-    "ennoblisses         ennoblasses",
-    "ennoblît            ennoblât",
-    "ennoblissions       ennoblassions",
-    "ennoblissiez        ennoblassiez",
-    "ennoblissent        ennoblassent"
-  ],
-  [
-    "enorgueillir",
-    "enorgueillisse      enorgueillasse",
-    "enorgueillisses     enorgueillasses",
-    "enorgueillît        enorgueillât",
-    "enorgueillissions   enorgueillassions",
-    "enorgueillissiez    enorgueillassiez",
-    "enorgueillissent    enorgueillassent"
+    "endurcisse          endurçisse",
+    "endurcisses         endurçisses",
+    "endurcît            endurçît",
+    "endurcissions       endurçissions",
+    "endurcissiez        endurçissiez",
+    "endurcissent        endurçissent"
   ],
   [
     "enquérir",
-    "enquisse            enquérasse",
-    "enquisses           enquérasses",
-    "enquît              enquérât",
-    "enquissions         enquérassions",
-    "enquissiez          enquérassiez",
-    "enquissent          enquérassent"
-  ],
-  [
-    "enrichir",
-    "enrichisse          enrichasse",
-    "enrichisses         enrichasses",
-    "enrichît            enrichât",
-    "enrichissions       enrichassions",
-    "enrichissiez        enrichassiez",
-    "enrichissent        enrichassent"
-  ],
-  [
-    "ensevelir",
-    "ensevelisse         ensevelasse",
-    "ensevelisses        ensevelasses",
-    "ensevelît           ensevelât",
-    "ensevelissions      ensevelassions",
-    "ensevelissiez       ensevelassiez",
-    "ensevelissent       ensevelassent"
+    "enquisse            enquérisse",
+    "enquisses           enquérisses",
+    "enquît              enquérît",
+    "enquissions         enquérissions",
+    "enquissiez          enquérissiez",
+    "enquissent          enquérissent"
   ],
   [
     "entrapercevoir",
-    "entraperçusse       entrapercevoasse",
-    "entraperçusses      entrapercevoasses",
-    "entraperçût         entrapercevoât",
-    "entraperçussions    entrapercevoassions",
-    "entraperçussiez     entrapercevoassiez",
-    "entraperçussent     entrapercevoassent"
+    "entraperçusse       entrapercevoisse",
+    "entraperçusses      entrapercevoisses",
+    "entraperçût         entrapercevoît",
+    "entraperçussions    entrapercevoissions",
+    "entraperçussiez     entrapercevoissiez",
+    "entraperçussent     entrapercevoissent"
   ],
   [
     "entretenir",
-    "entretinsse         entretenasse",
-    "entretinsses        entretenasses",
-    "entretînt           entretenât",
-    "entretinssions      entretenassions",
-    "entretinssiez       entretenassiez",
-    "entretinssent       entretenassent"
+    "entretinsse         entretenisse",
+    "entretinsses        entretenisses",
+    "entretînt           entretenît",
+    "entretinssions      entretenissions",
+    "entretinssiez       entretenissiez",
+    "entretinssent       entretenissent"
   ],
   [
     "entrevoir",
-    "entrevisse          entrevoasse",
-    "entrevisses         entrevoasses",
-    "entrevît            entrevoât",
-    "entrevissions       entrevoassions",
-    "entrevissiez        entrevoassiez",
-    "entrevissent        entrevoassent"
-  ],
-  [
-    "entrouvrir",
-    "entrouvrisse        entrouvrasse",
-    "entrouvrisses       entrouvrasses",
-    "entrouvrît          entrouvrât",
-    "entrouvrissions     entrouvrassions",
-    "entrouvrissiez      entrouvrassiez",
-    "entrouvrissent      entrouvrassent"
-  ],
-  [
-    "envahir",
-    "envahisse           envahasse",
-    "envahisses          envahasses",
-    "envahît             envahât",
-    "envahissions        envahassions",
-    "envahissiez         envahassiez",
-    "envahissent         envahassent"
-  ],
-  [
-    "esbaudir",
-    "esbaudisse          esbaudasse",
-    "esbaudisses         esbaudasses",
-    "esbaudît            esbaudât",
-    "esbaudissions       esbaudassions",
-    "esbaudissiez        esbaudassiez",
-    "esbaudissent        esbaudassent"
-  ],
-  [
-    "estourbir",
-    "estourbisse         estourbasse",
-    "estourbisses        estourbasses",
-    "estourbît           estourbât",
-    "estourbissions      estourbassions",
-    "estourbissiez       estourbassiez",
-    "estourbissent       estourbassent"
-  ],
-  [
-    "extravertir",
-    "extravertisse       extravertasse",
-    "extravertisses      extravertasses",
-    "extravertît         extravertât",
-    "extravertissions    extravertassions",
-    "extravertissiez     extravertassiez",
-    "extravertissent     extravertassent"
-  ],
-  [
-    "faiblir",
-    "faiblisse           faiblasse",
-    "faiblisses          faiblasses",
-    "faiblît             faiblât",
-    "faiblissions        faiblassions",
-    "faiblissiez         faiblassiez",
-    "faiblissent         faiblassent"
-  ],
-  [
-    "faillir",
-    "faillisse           faillasse",
-    "faillisses          faillasses",
-    "faillît             faillât",
-    "faillissions        faillassions",
-    "faillissiez         faillassiez",
-    "faillissent         faillassent"
+    "entrevisse          entrevoisse",
+    "entrevisses         entrevoisses",
+    "entrevît            entrevoît",
+    "entrevissions       entrevoissions",
+    "entrevissiez        entrevoissiez",
+    "entrevissent        entrevoissent"
   ],
   [
     "falloir",
-    "                    falloasse",
-    "                    falloasses",
-    "fallût              falloât",
-    "                    falloassions",
-    "                    falloassiez",
-    "                    falloassent"
+    "                    falloisse",
+    "                    falloisses",
+    "fallût              falloît",
+    "                    falloissions",
+    "                    falloissiez",
+    "                    falloissent"
   ],
   [
     "farcir",
-    "farcisse            farçasse",
-    "farcisses           farçasses",
-    "farcît              farçât",
-    "farcissions         farçassions",
-    "farcissiez          farçassiez",
-    "farcissent          farçassent"
-  ],
-  [
-    "finir",
-    "finisse             finasse",
-    "finisses            finasses",
-    "finît               finât",
-    "finissions          finassions",
-    "finissiez           finassiez",
-    "finissent           finassent"
-  ],
-  [
-    "fleurir",
-    "fleurisse           fleurasse",
-    "fleurisses          fleurasses",
-    "fleurît             fleurât",
-    "fleurissions        fleurassions",
-    "fleurissiez         fleurassiez",
-    "fleurissent         fleurassent"
-  ],
-  [
-    "florir",
-    "florisse            florasse",
-    "florisses           florasses",
-    "florît              florât",
-    "florissions         florassions",
-    "florissiez          florassiez",
-    "florissent          florassent"
-  ],
-  [
-    "fléchir",
-    "fléchisse           fléchasse",
-    "fléchisses          fléchasses",
-    "fléchît             fléchât",
-    "fléchissions        fléchassions",
-    "fléchissiez         fléchassiez",
-    "fléchissent         fléchassent"
-  ],
-  [
-    "flétrir",
-    "flétrisse           flétrasse",
-    "flétrisses          flétrasses",
-    "flétrît             flétrât",
-    "flétrissions        flétrassions",
-    "flétrissiez         flétrassiez",
-    "flétrissent         flétrassent"
+    "farcisse            farçisse",
+    "farcisses           farçisses",
+    "farcît              farçît",
+    "farcissions         farçissions",
+    "farcissiez          farçissiez",
+    "farcissent          farçissent"
   ],
   [
     "forcir",
-    "forcisse            forçasse",
-    "forcisses           forçasses",
-    "forcît              forçât",
-    "forcissions         forçassions",
-    "forcissiez          forçassiez",
-    "forcissent          forçassent"
-  ],
-  [
-    "fouir",
-    "fouisse             fouasse",
-    "fouisses            fouasses",
-    "fouît               fouât",
-    "fouissions          fouassions",
-    "fouissiez           fouassiez",
-    "fouissent           fouassent"
-  ],
-  [
-    "fourbir",
-    "fourbisse           fourbasse",
-    "fourbisses          fourbasses",
-    "fourbît             fourbât",
-    "fourbissions        fourbassions",
-    "fourbissiez         fourbassiez",
-    "fourbissent         fourbassent"
-  ],
-  [
-    "fournir",
-    "fournisse           fournasse",
-    "fournisses          fournasses",
-    "fournît             fournât",
-    "fournissions        fournassions",
-    "fournissiez         fournassiez",
-    "fournissent         fournassent"
-  ],
-  [
-    "franchir",
-    "franchisse          franchasse",
-    "franchisses         franchasses",
-    "franchît            franchât",
-    "franchissions       franchassions",
-    "franchissiez        franchassiez",
-    "franchissent        franchassent"
-  ],
-  [
-    "fraîchir",
-    "fraîchisse          fraîchasse",
-    "fraîchisses         fraîchasses",
-    "fraîchît            fraîchât",
-    "fraîchissions       fraîchassions",
-    "fraîchissiez        fraîchassiez",
-    "fraîchissent        fraîchassent"
-  ],
-  [
-    "frémir",
-    "frémisse            frémasse",
-    "frémisses           frémasses",
-    "frémît              frémât",
-    "frémissions         frémassions",
-    "frémissiez          frémassiez",
-    "frémissent          frémassent"
-  ],
-  [
-    "fuir",
-    "fuisse              fuasse",
-    "fuisses             fuasses",
-    "fuît                fuât",
-    "fuissions           fuassions",
-    "fuissiez            fuassiez",
-    "fuissent            fuassent"
-  ],
-  [
-    "garantir",
-    "garantisse          garantasse",
-    "garantisses         garantasses",
-    "garantît            garantât",
-    "garantissions       garantassions",
-    "garantissiez        garantassiez",
-    "garantissent        garantassent"
-  ],
-  [
-    "garnir",
-    "garnisse            garnasse",
-    "garnisses           garnasses",
-    "garnît              garnât",
-    "garnissions         garnassions",
-    "garnissiez          garnassiez",
-    "garnissent          garnassent"
-  ],
-  [
-    "gauchir",
-    "gauchisse           gauchasse",
-    "gauchisses          gauchasses",
-    "gauchît             gauchât",
-    "gauchissions        gauchassions",
-    "gauchissiez         gauchassiez",
-    "gauchissent         gauchassent"
-  ],
-  [
-    "glapir",
-    "glapisse            glapasse",
-    "glapisses           glapasses",
-    "glapît              glapât",
-    "glapissions         glapassions",
-    "glapissiez          glapassiez",
-    "glapissent          glapassent"
-  ],
-  [
-    "glatir",
-    "glatisse            glatasse",
-    "glatisses           glatasses",
-    "glatît              glatât",
-    "glatissions         glatassions",
-    "glatissiez          glatassiez",
-    "glatissent          glatassent"
-  ],
-  [
-    "grandir",
-    "grandisse           grandasse",
-    "grandisses          grandasses",
-    "grandît             grandât",
-    "grandissions        grandassions",
-    "grandissiez         grandassiez",
-    "grandissent         grandassent"
-  ],
-  [
-    "gravir",
-    "gravisse            gravasse",
-    "gravisses           gravasses",
-    "gravît              gravât",
-    "gravissions         gravassions",
-    "gravissiez          gravassiez",
-    "gravissent          gravassent"
-  ],
-  [
-    "grossir",
-    "grossisse           grossasse",
-    "grossisses          grossasses",
-    "grossît             grossât",
-    "grossissions        grossassions",
-    "grossissiez         grossassiez",
-    "grossissent         grossassent"
-  ],
-  [
-    "guérir",
-    "guérisse            guérasse",
-    "guérisses           guérasses",
-    "guérît              guérât",
-    "guérissions         guérassions",
-    "guérissiez          guérassiez",
-    "guérissent          guérassent"
-  ],
-  [
-    "gémir",
-    "gémisse             gémasse",
-    "gémisses            gémasses",
-    "gémît               gémât",
-    "gémissions          gémassions",
-    "gémissiez           gémassiez",
-    "gémissent           gémassent"
-  ],
-  [
-    "hennir",
-    "hennisse            hennasse",
-    "hennisses           hennasses",
-    "hennît              hennât",
-    "hennissions         hennassions",
-    "hennissiez          hennassiez",
-    "hennissent          hennassent"
-  ],
-  [
-    "honnir",
-    "honnisse            honnasse",
-    "honnisses           honnasses",
-    "honnît              honnât",
-    "honnissions         honnassions",
-    "honnissiez          honnassiez",
-    "honnissent          honnassent"
-  ],
-  [
-    "impartir",
-    "impartisse          impartasse",
-    "impartisses         impartasses",
-    "impartît            impartât",
-    "impartissions       impartassions",
-    "impartissiez        impartassiez",
-    "impartissent        impartassent"
-  ],
-  [
-    "infléchir",
-    "infléchisse         infléchasse",
-    "infléchisses        infléchasses",
-    "infléchît           infléchât",
-    "infléchissions      infléchassions",
-    "infléchissiez       infléchassiez",
-    "infléchissent       infléchassent"
+    "forcisse            forçisse",
+    "forcisses           forçisses",
+    "forcît              forçît",
+    "forcissions         forçissions",
+    "forcissiez          forçissiez",
+    "forcissent          forçissent"
   ],
   [
     "interagir",
-    "interagisse         interageasse",
-    "interagisses        interageasses",
-    "interagît           interageât",
-    "interagissions      interageassions",
-    "interagissiez       interageassiez",
-    "interagissent       interageassent"
+    "interagisse         interageisse",
+    "interagisses        interageisses",
+    "interagît           interageît",
+    "interagissions      interageissions",
+    "interagissiez       interageissiez",
+    "interagissent       interageissent"
   ],
   [
     "intervenir",
-    "intervinsse         intervenasse",
-    "intervinsses        intervenasses",
-    "intervînt           intervenât",
-    "intervinssions      intervenassions",
-    "intervinssiez       intervenassiez",
-    "intervinssent       intervenassent"
-  ],
-  [
-    "intervertir",
-    "intervertisse       intervertasse",
-    "intervertisses      intervertasses",
-    "intervertît         intervertât",
-    "intervertissions    intervertassions",
-    "intervertissiez     intervertassiez",
-    "intervertissent     intervertassent"
-  ],
-  [
-    "invertir",
-    "invertisse          invertasse",
-    "invertisses         invertasses",
-    "invertît            invertât",
-    "invertissions       invertassions",
-    "invertissiez        invertassiez",
-    "invertissent        invertassent"
-  ],
-  [
-    "investir",
-    "investisse          investasse",
-    "investisses         investasses",
-    "investît            investât",
-    "investissions       investassions",
-    "investissiez        investassiez",
-    "investissent        investassent"
-  ],
-  [
-    "jaillir",
-    "jaillisse           jaillasse",
-    "jaillisses          jaillasses",
-    "jaillît             jaillât",
-    "jaillissions        jaillassions",
-    "jaillissiez         jaillassiez",
-    "jaillissent         jaillassent"
-  ],
-  [
-    "jaunir",
-    "jaunisse            jaunasse",
-    "jaunisses           jaunasses",
-    "jaunît              jaunât",
-    "jaunissions         jaunassions",
-    "jaunissiez          jaunassiez",
-    "jaunissent          jaunassent"
-  ],
-  [
-    "jouir",
-    "jouisse             jouasse",
-    "jouisses            jouasses",
-    "jouît               jouât",
-    "jouissions          jouassions",
-    "jouissiez           jouassiez",
-    "jouissent           jouassent"
-  ],
-  [
-    "languir",
-    "languisse           languasse",
-    "languisses          languasses",
-    "languît             languât",
-    "languissions        languassions",
-    "languissiez         languassiez",
-    "languissent         languassent"
-  ],
-  [
-    "lotir",
-    "lotisse             lotasse",
-    "lotisses            lotasses",
-    "lotît               lotât",
-    "lotissions          lotassions",
-    "lotissiez           lotassiez",
-    "lotissent           lotassent"
-  ],
-  [
-    "maigrir",
-    "maigrisse           maigrasse",
-    "maigrisses          maigrasses",
-    "maigrît             maigrât",
-    "maigrissions        maigrassions",
-    "maigrissiez         maigrassiez",
-    "maigrissent         maigrassent"
+    "intervinsse         intervenisse",
+    "intervinsses        intervenisses",
+    "intervînt           intervenît",
+    "intervinssions      intervenissions",
+    "intervinssiez       intervenissiez",
+    "intervinssent       intervenissent"
   ],
   [
     "maintenir",
-    "maintinsse          maintenasse",
-    "maintinsses         maintenasses",
-    "maintînt            maintenât",
-    "maintinssions       maintenassions",
-    "maintinssiez        maintenassiez",
-    "maintinssent        maintenassent"
-  ],
-  [
-    "matir",
-    "matisse             matasse",
-    "matisses            matasses",
-    "matît               matât",
-    "matissions          matassions",
-    "matissiez           matassiez",
-    "matissent           matassent"
-  ],
-  [
-    "mentir",
-    "mentisse            mentasse",
-    "mentisses           mentasses",
-    "mentît              mentât",
-    "mentissions         mentassions",
-    "mentissiez          mentassiez",
-    "mentissent          mentassent"
+    "maintinsse          maintenisse",
+    "maintinsses         maintenisses",
+    "maintînt            maintenît",
+    "maintinssions       maintenissions",
+    "maintinssiez        maintenissiez",
+    "maintinssent        maintenissent"
   ],
   [
     "mourir",
-    "mourusse            mourasse",
-    "mourusses           mourasses",
-    "mourût              mourât",
-    "mourussions         mourassions",
-    "mourussiez          mourassiez",
-    "mourussent          mourassent"
-  ],
-  [
-    "meurtrir",
-    "meurtrisse          meurtrasse",
-    "meurtrisses         meurtrasses",
-    "meurtrît            meurtrât",
-    "meurtrissions       meurtrassions",
-    "meurtrissiez        meurtrassiez",
-    "meurtrissent        meurtrassent"
+    "mourusse            mourisse",
+    "mourusses           mourisses",
+    "mourût              mourît",
+    "mourussions         mourissions",
+    "mourussiez          mourissiez",
+    "mourussent          mourissent"
   ],
   [
     "mouvoir",
-    "musse               mouvoasse",
-    "musses              mouvoasses",
-    "mût                 mouvoât",
-    "mussions            mouvoassions",
-    "mussiez             mouvoassiez",
-    "mussent             mouvoassent"
+    "musse               mouvoisse",
+    "musses              mouvoisses",
+    "mût                 mouvoît",
+    "mussions            mouvoissions",
+    "mussiez             mouvoissiez",
+    "mussent             mouvoissent"
   ],
   [
     "mincir",
-    "mincisse            minçasse",
-    "mincisses           minçasses",
-    "mincît              minçât",
-    "mincissions         minçassions",
-    "mincissiez          minçassiez",
-    "mincissent          minçassent"
-  ],
-  [
-    "moisir",
-    "moisisse            moisasse",
-    "moisisses           moisasses",
-    "moisît              moisât",
-    "moisissions         moisassions",
-    "moisissiez          moisassiez",
-    "moisissent          moisassent"
-  ],
-  [
-    "moitir",
-    "moitisse            moitasse",
-    "moitisses           moitasses",
-    "moitît              moitât",
-    "moitissions         moitassions",
-    "moitissiez          moitassiez",
-    "moitissent          moitassent"
-  ],
-  [
-    "mollir",
-    "mollisse            mollasse",
-    "mollisses           mollasses",
-    "mollît              mollât",
-    "mollissions         mollassions",
-    "mollissiez          mollassiez",
-    "mollissent          mollassent"
+    "mincisse            minçisse",
+    "mincisses           minçisses",
+    "mincît              minçît",
+    "mincissions         minçissions",
+    "mincissiez          minçissiez",
+    "mincissent          minçissent"
   ],
   [
     "mugir",
-    "mugisse             mugeasse",
-    "mugisses            mugeasses",
-    "mugît               mugeât",
-    "mugissions          mugeassions",
-    "mugissiez           mugeassiez",
-    "mugissent           mugeassent"
-  ],
-  [
-    "munir",
-    "munisse             munasse",
-    "munisses            munasses",
-    "munît               munât",
-    "munissions          munassions",
-    "munissiez           munassiez",
-    "munissent           munassent"
+    "mugisse             mugeisse",
+    "mugisses            mugeisses",
+    "mugît               mugeît",
+    "mugissions          mugeissions",
+    "mugissiez           mugeissiez",
+    "mugissent           mugeissent"
   ],
   [
     "mégir",
-    "mégisse             mégeasse",
-    "mégisses            mégeasses",
-    "mégît               mégeât",
-    "mégissions          mégeassions",
-    "mégissiez           mégeassiez",
-    "mégissent           mégeassent"
-  ],
-  [
-    "mûrir",
-    "mûrisse             mûrasse",
-    "mûrisses            mûrasses",
-    "mûrît               mûrât",
-    "mûrissions          mûrassions",
-    "mûrissiez           mûrassiez",
-    "mûrissent           mûrassent"
-  ],
-  [
-    "nantir",
-    "nantisse            nantasse",
-    "nantisses           nantasses",
-    "nantît              nantât",
-    "nantissions         nantassions",
-    "nantissiez          nantassiez",
-    "nantissent          nantassent"
+    "mégisse             mégeisse",
+    "mégisses            mégeisses",
+    "mégît               mégeît",
+    "mégissions          mégeissions",
+    "mégissiez           mégeissiez",
+    "mégissent           mégeissent"
   ],
   [
     "noircir",
-    "noircisse           noirçasse",
-    "noircisses          noirçasses",
-    "noircît             noirçât",
-    "noircissions        noirçassions",
-    "noircissiez         noirçassiez",
-    "noircissent         noirçassent"
-  ],
-  [
-    "nordir",
-    "nordisse            nordasse",
-    "nordisses           nordasses",
-    "nordît              nordât",
-    "nordissions         nordassions",
-    "nordissiez          nordassiez",
-    "nordissent          nordassent"
-  ],
-  [
-    "nourrir",
-    "nourrisse           nourrasse",
-    "nourrisses          nourrasses",
-    "nourrît             nourrât",
-    "nourrissions        nourrassions",
-    "nourrissiez         nourrassiez",
-    "nourrissent         nourrassent"
+    "noircisse           noirçisse",
+    "noircisses          noirçisses",
+    "noircît             noirçît",
+    "noircissions        noirçissions",
+    "noircissiez         noirçissiez",
+    "noircissent         noirçissent"
   ],
   [
     "obscurcir",
-    "obscurcisse         obscurçasse",
-    "obscurcisses        obscurçasses",
-    "obscurcît           obscurçât",
-    "obscurcissions      obscurçassions",
-    "obscurcissiez       obscurçassiez",
-    "obscurcissent       obscurçassent"
+    "obscurcisse         obscurçisse",
+    "obscurcisses        obscurçisses",
+    "obscurcît           obscurçît",
+    "obscurcissions      obscurçissions",
+    "obscurcissiez       obscurçissiez",
+    "obscurcissent       obscurçissent"
   ],
   [
     "obtenir",
-    "obtinsse            obtenasse",
-    "obtinsses           obtenasses",
-    "obtînt              obtenât",
-    "obtinssions         obtenassions",
-    "obtinssiez          obtenassiez",
-    "obtinssent          obtenassent"
+    "obtinsse            obtenisse",
+    "obtinsses           obtenisses",
+    "obtînt              obtenît",
+    "obtinssions         obtenissions",
+    "obtinssiez          obtenissiez",
+    "obtinssent          obtenissent"
   ],
   [
     "obvenir",
-    "obvinsse            obvenasse",
-    "obvinsses           obvenasses",
-    "obvînt              obvenât",
-    "obvinssions         obvenassions",
-    "obvinssiez          obvenassiez",
-    "obvinssent          obvenassent"
-  ],
-  [
-    "obéir",
-    "obéisse             obéasse",
-    "obéisses            obéasses",
-    "obéît               obéât",
-    "obéissions          obéassions",
-    "obéissiez           obéassiez",
-    "obéissent           obéassent"
-  ],
-  [
-    "offrir",
-    "offrisse            offrasse",
-    "offrisses           offrasses",
-    "offrît              offrât",
-    "offrissions         offrassions",
-    "offrissiez          offrassiez",
-    "offrissent          offrassent"
-  ],
-  [
-    "ourdir",
-    "ourdisse            ourdasse",
-    "ourdisses           ourdasses",
-    "ourdît              ourdât",
-    "ourdissions         ourdassions",
-    "ourdissiez          ourdassiez",
-    "ourdissent          ourdassent"
-  ],
-  [
-    "ouvrir",
-    "ouvrisse            ouvrasse",
-    "ouvrisses           ouvrasses",
-    "ouvrît              ouvrât",
-    "ouvrissions         ouvrassions",
-    "ouvrissiez          ouvrassiez",
-    "ouvrissent          ouvrassent"
+    "obvinsse            obvenisse",
+    "obvinsses           obvenisses",
+    "obvînt              obvenît",
+    "obvinssions         obvenissions",
+    "obvinssiez          obvenissiez",
+    "obvinssent          obvenissent"
   ],
   [
     "parcourir",
-    "parcourusse         parcourasse",
-    "parcourusses        parcourasses",
-    "parcourût           parcourât",
-    "parcourussions      parcourassions",
-    "parcourussiez       parcourassiez",
-    "parcourussent       parcourassent"
-  ],
-  [
-    "partir",
-    "partisse            partasse",
-    "partisses           partasses",
-    "partît              partât",
-    "partissions         partassions",
-    "partissiez          partassiez",
-    "partissent          partassent"
+    "parcourusse         parcourisse",
+    "parcourusses        parcourisses",
+    "parcourût           parcourît",
+    "parcourussions      parcourissions",
+    "parcourussiez       parcourissiez",
+    "parcourussent       parcourissent"
   ],
   [
     "parvenir",
-    "parvinsse           parvenasse",
-    "parvinsses          parvenasses",
-    "parvînt             parvenât",
-    "parvinssions        parvenassions",
-    "parvinssiez         parvenassiez",
-    "parvinssent         parvenassent"
+    "parvinsse           parvenisse",
+    "parvinsses          parvenisses",
+    "parvînt             parvenît",
+    "parvinssions        parvenissions",
+    "parvinssiez         parvenissiez",
+    "parvinssent         parvenissent"
   ],
   [
     "percevoir",
-    "perçusse            percevoasse",
-    "perçusses           percevoasses",
-    "perçût              percevoât",
-    "perçussions         percevoassions",
-    "perçussiez          percevoassiez",
-    "perçussent          percevoassent"
-  ],
-  [
-    "pervertir",
-    "pervertisse         pervertasse",
-    "pervertisses        pervertasses",
-    "pervertît           pervertât",
-    "pervertissions      pervertassions",
-    "pervertissiez       pervertassiez",
-    "pervertissent       pervertassent"
+    "perçusse            percevoisse",
+    "perçusses           percevoisses",
+    "perçût              percevoît",
+    "perçussions         percevoissions",
+    "perçussiez          percevoissiez",
+    "perçussent          percevoissent"
   ],
   [
     "pouvoir",
-    "pusse               pouvoasse",
-    "pusses              pouvoasses",
-    "pût                 pouvoât",
-    "pussions            pouvoassions",
-    "pussiez             pouvoassiez",
-    "pussent             pouvoassent"
+    "pusse               pouvoisse",
+    "pusses              pouvoisses",
+    "pût                 pouvoît",
+    "pussions            pouvoissions",
+    "pussiez             pouvoissiez",
+    "pussent             pouvoissent"
   ],
   [
     "pleuvoir",
-    "                    pleuvoasse",
-    "                    pleuvoasses",
-    "plût                pleuvoât",
-    "                    pleuvoassions",
-    "                    pleuvoassiez",
-    "                    pleuvoassent"
-  ],
-  [
-    "polir",
-    "polisse             polasse",
-    "polisses            polasses",
-    "polît               polât",
-    "polissions          polassions",
-    "polissiez           polassiez",
-    "polissent           polassent"
-  ],
-  [
-    "pourrir",
-    "pourrisse           pourrasse",
-    "pourrisses          pourrasses",
-    "pourrît             pourrât",
-    "pourrissions        pourrassions",
-    "pourrissiez         pourrassiez",
-    "pourrissent         pourrassent"
+    "                    pleuvoisse",
+    "                    pleuvoisses",
+    "plût                pleuvoît",
+    "                    pleuvoissions",
+    "                    pleuvoissiez",
+    "                    pleuvoissent"
   ],
   [
     "pourvoir",
-    "pourvusse           pourvoasse",
-    "pourvusses          pourvoasses",
-    "pourvût             pourvoât",
-    "pourvussions        pourvoassions",
-    "pourvussiez         pourvoassiez",
-    "pourvussent         pourvoassent"
-  ],
-  [
-    "pressentir",
-    "pressentisse        pressentasse",
-    "pressentisses       pressentasses",
-    "pressentît          pressentât",
-    "pressentissions     pressentassions",
-    "pressentissiez      pressentassiez",
-    "pressentissent      pressentassent"
+    "pourvusse           pourvoisse",
+    "pourvusses          pourvoisses",
+    "pourvût             pourvoît",
+    "pourvussions        pourvoissions",
+    "pourvussiez         pourvoissiez",
+    "pourvussent         pourvoissent"
   ],
   [
     "promouvoir",
-    "promusse            promouvoasse",
-    "promusses           promouvoasses",
-    "promût              promouvoât",
-    "promussions         promouvoassions",
-    "promussiez          promouvoassiez",
-    "promussent          promouvoassent"
+    "promusse            promouvoisse",
+    "promusses           promouvoisses",
+    "promût              promouvoît",
+    "promussions         promouvoissions",
+    "promussiez          promouvoissiez",
+    "promussent          promouvoissent"
   ],
   [
     "provenir",
-    "provinsse           provenasse",
-    "provinsses          provenasses",
-    "provînt             provenât",
-    "provinssions        provenassions",
-    "provinssiez         provenassiez",
-    "provinssent         provenassent"
+    "provinsse           provenisse",
+    "provinsses          provenisses",
+    "provînt             provenît",
+    "provinssions        provenissions",
+    "provinssiez         provenissiez",
+    "provinssent         provenissent"
   ],
   [
     "préconcevoir",
-    "préconçusse         préconcevoasse",
-    "préconçusses        préconcevoasses",
-    "préconçût           préconcevoât",
-    "préconçussions      préconcevoassions",
-    "préconçussiez       préconcevoassiez",
-    "préconçussent       préconcevoassent"
-  ],
-  [
-    "prémunir",
-    "prémunisse          prémunasse",
-    "prémunisses         prémunasses",
-    "prémunît            prémunât",
-    "prémunissions       prémunassions",
-    "prémunissiez        prémunassiez",
-    "prémunissent        prémunassent"
+    "préconçusse         préconcevoisse",
+    "préconçusses        préconcevoisses",
+    "préconçût           préconcevoît",
+    "préconçussions      préconcevoissions",
+    "préconçussiez       préconcevoissiez",
+    "préconçussent       préconcevoissent"
   ],
   [
     "prévaloir",
-    "prévalusse          prévaloasse",
-    "prévalusses         prévaloasses",
-    "prévalût            prévaloât",
-    "prévalussions       prévaloassions",
-    "prévalussiez        prévaloassiez",
-    "prévalussent        prévaloassent"
+    "prévalusse          prévaloisse",
+    "prévalusses         prévaloisses",
+    "prévalût            prévaloît",
+    "prévalussions       prévaloissions",
+    "prévalussiez        prévaloissiez",
+    "prévalussent        prévaloissent"
   ],
   [
     "prévenir",
-    "prévinsse           prévenasse",
-    "prévinsses          prévenasses",
-    "prévînt             prévenât",
-    "prévinssions        prévenassions",
-    "prévinssiez         prévenassiez",
-    "prévinssent         prévenassent"
+    "prévinsse           prévenisse",
+    "prévinsses          prévenisses",
+    "prévînt             prévenît",
+    "prévinssions        prévenissions",
+    "prévinssiez         prévenissiez",
+    "prévinssent         prévenissent"
   ],
   [
     "prévoir",
-    "prévisse            prévoasse",
-    "prévisses           prévoasses",
-    "prévît              prévoât",
-    "prévissions         prévoassions",
-    "prévissiez          prévoassiez",
-    "prévissent          prévoassent"
-  ],
-  [
-    "préétablir",
-    "préétablisse        préétablasse",
-    "préétablisses       préétablasses",
-    "préétablît          préétablât",
-    "préétablissions     préétablassions",
-    "préétablissiez      préétablassiez",
-    "préétablissent      préétablassent"
-  ],
-  [
-    "punir",
-    "punisse             punasse",
-    "punisses            punasses",
-    "punît               punât",
-    "punissions          punassions",
-    "punissiez           punassiez",
-    "punissent           punassent"
-  ],
-  [
-    "pâlir",
-    "pâlisse             pâlasse",
-    "pâlisses            pâlasses",
-    "pâlît               pâlât",
-    "pâlissions          pâlassions",
-    "pâlissiez           pâlassiez",
-    "pâlissent           pâlassent"
-  ],
-  [
-    "pâtir",
-    "pâtisse             pâtasse",
-    "pâtisses            pâtasses",
-    "pâtît               pâtât",
-    "pâtissions          pâtassions",
-    "pâtissiez           pâtassiez",
-    "pâtissent           pâtassent"
-  ],
-  [
-    "périr",
-    "périsse             pérasse",
-    "périsses            pérasses",
-    "pérît               pérât",
-    "périssions          pérassions",
-    "périssiez           pérassiez",
-    "périssent           pérassent"
-  ],
-  [
-    "pétrir",
-    "pétrisse            pétrasse",
-    "pétrisses           pétrasses",
-    "pétrît              pétrât",
-    "pétrissions         pétrassions",
-    "pétrissiez          pétrassiez",
-    "pétrissent          pétrassent"
-  ],
-  [
-    "rabonnir",
-    "rabonnisse          rabonnasse",
-    "rabonnisses         rabonnasses",
-    "rabonnît            rabonnât",
-    "rabonnissions       rabonnassions",
-    "rabonnissiez        rabonnassiez",
-    "rabonnissent        rabonnassent"
-  ],
-  [
-    "rabougrir",
-    "rabougrisse         rabougrasse",
-    "rabougrisses        rabougrasses",
-    "rabougrît           rabougrât",
-    "rabougrissions      rabougrassions",
-    "rabougrissiez       rabougrassiez",
-    "rabougrissent       rabougrassent"
+    "prévisse            prévoisse",
+    "prévisses           prévoisses",
+    "prévît              prévoît",
+    "prévissions         prévoissions",
+    "prévissiez          prévoissiez",
+    "prévissent          prévoissent"
   ],
   [
     "raccourcir",
-    "raccourcisse        raccourçasse",
-    "raccourcisses       raccourçasses",
-    "raccourcît          raccourçât",
-    "raccourcissions     raccourçassions",
-    "raccourcissiez      raccourçassiez",
-    "raccourcissent      raccourçassent"
-  ],
-  [
-    "racornir",
-    "racornisse          racornasse",
-    "racornisses         racornasses",
-    "racornît            racornât",
-    "racornissions       racornassions",
-    "racornissiez        racornassiez",
-    "racornissent        racornassent"
+    "raccourcisse        raccourçisse",
+    "raccourcisses       raccourçisses",
+    "raccourcît          raccourçît",
+    "raccourcissions     raccourçissions",
+    "raccourcissiez      raccourçissiez",
+    "raccourcissent      raccourçissent"
   ],
   [
     "radoucir",
-    "radoucisse          radouçasse",
-    "radoucisses         radouçasses",
-    "radoucît            radouçât",
-    "radoucissions       radouçassions",
-    "radoucissiez        radouçassiez",
-    "radoucissent        radouçassent"
-  ],
-  [
-    "raffermir",
-    "raffermisse         raffermasse",
-    "raffermisses        raffermasses",
-    "raffermît           raffermât",
-    "raffermissions      raffermassions",
-    "raffermissiez       raffermassiez",
-    "raffermissent       raffermassent"
-  ],
-  [
-    "rafraîchir",
-    "rafraîchisse        rafraîchasse",
-    "rafraîchisses       rafraîchasses",
-    "rafraîchît          rafraîchât",
-    "rafraîchissions     rafraîchassions",
-    "rafraîchissiez      rafraîchassiez",
-    "rafraîchissent      rafraîchassent"
-  ],
-  [
-    "ragaillardir",
-    "ragaillardisse      ragaillardasse",
-    "ragaillardisses     ragaillardasses",
-    "ragaillardît        ragaillardât",
-    "ragaillardissions   ragaillardassions",
-    "ragaillardissiez    ragaillardassiez",
-    "ragaillardissent    ragaillardassent"
-  ],
-  [
-    "raidir",
-    "raidisse            raidasse",
-    "raidisses           raidasses",
-    "raidît              raidât",
-    "raidissions         raidassions",
-    "raidissiez          raidassiez",
-    "raidissent          raidassent"
-  ],
-  [
-    "rajeunir",
-    "rajeunisse          rajeunasse",
-    "rajeunisses         rajeunasses",
-    "rajeunît            rajeunât",
-    "rajeunissions       rajeunassions",
-    "rajeunissiez        rajeunassiez",
-    "rajeunissent        rajeunassent"
-  ],
-  [
-    "ralentir",
-    "ralentisse          ralentasse",
-    "ralentisses         ralentasses",
-    "ralentît            ralentât",
-    "ralentissions       ralentassions",
-    "ralentissiez        ralentassiez",
-    "ralentissent        ralentassent"
-  ],
-  [
-    "ramollir",
-    "ramollisse          ramollasse",
-    "ramollisses         ramollasses",
-    "ramollît            ramollât",
-    "ramollissions       ramollassions",
-    "ramollissiez        ramollassiez",
-    "ramollissent        ramollassent"
+    "radoucisse          radouçisse",
+    "radoucisses         radouçisses",
+    "radoucît            radouçît",
+    "radoucissions       radouçissions",
+    "radoucissiez        radouçissiez",
+    "radoucissent        radouçissent"
   ],
   [
     "rancir",
-    "rancisse            rançasse",
-    "rancisses           rançasses",
-    "rancît              rançât",
-    "rancissions         rançassions",
-    "rancissiez          rançassiez",
-    "rancissent          rançassent"
-  ],
-  [
-    "raplatir",
-    "raplatisse          raplatasse",
-    "raplatisses         raplatasses",
-    "raplatît            raplatât",
-    "raplatissions       raplatassions",
-    "raplatissiez        raplatassiez",
-    "raplatissent        raplatassent"
+    "rancisse            rançisse",
+    "rancisses           rançisses",
+    "rancît              rançît",
+    "rancissions         rançissions",
+    "rancissiez          rançissiez",
+    "rancissent          rançissent"
   ],
   [
     "rasseoir",
-    "rassisse            rasseoasse",
-    "rassisses           rasseoasses",
-    "rassît              rasseoât",
-    "rassissions         rasseoassions",
-    "rassissiez          rasseoassiez",
-    "rassissent          rasseoassent"
-  ],
-  [
-    "rassortir",
-    "rassortisse         rassortasse",
-    "rassortisses        rassortasses",
-    "rassortît           rassortât",
-    "rassortissions      rassortassions",
-    "rassortissiez       rassortassiez",
-    "rassortissent       rassortassent"
-  ],
-  [
-    "ravir",
-    "ravisse             ravasse",
-    "ravisses            ravasses",
-    "ravît               ravât",
-    "ravissions          ravassions",
-    "ravissiez           ravassiez",
-    "ravissent           ravassent"
-  ],
-  [
-    "ravilir",
-    "ravilisse           ravilasse",
-    "ravilisses          ravilasses",
-    "ravilît             ravilât",
-    "ravilissions        ravilassions",
-    "ravilissiez         ravilassiez",
-    "ravilissent         ravilassent"
-  ],
-  [
-    "reblanchir",
-    "reblanchisse        reblanchasse",
-    "reblanchisses       reblanchasses",
-    "reblanchît          reblanchât",
-    "reblanchissions     reblanchassions",
-    "reblanchissiez      reblanchassiez",
-    "reblanchissent      reblanchassent"
-  ],
-  [
-    "rebondir",
-    "rebondisse          rebondasse",
-    "rebondisses         rebondasses",
-    "rebondît            rebondât",
-    "rebondissions       rebondassions",
-    "rebondissiez        rebondassiez",
-    "rebondissent        rebondassent"
-  ],
-  [
-    "rebâtir",
-    "rebâtisse           rebâtasse",
-    "rebâtisses          rebâtasses",
-    "rebâtît             rebâtât",
-    "rebâtissions        rebâtassions",
-    "rebâtissiez         rebâtassiez",
-    "rebâtissent         rebâtassent"
+    "rassisse            rasseoisse",
+    "rassisses           rasseoisses",
+    "rassît              rasseoît",
+    "rassissions         rasseoissions",
+    "rassissiez          rasseoissiez",
+    "rassissent          rasseoissent"
   ],
   [
     "recevoir",
-    "reçusse             recevoasse",
-    "reçusses            recevoasses",
-    "reçût               recevoât",
-    "reçussions          recevoassions",
-    "reçussiez           recevoassiez",
-    "reçussent           recevoassent"
-  ],
-  [
-    "rechampir",
-    "rechampisse         rechampasse",
-    "rechampisses        rechampasses",
-    "rechampît           rechampât",
-    "rechampissions      rechampassions",
-    "rechampissiez       rechampassiez",
-    "rechampissent       rechampassent"
+    "reçusse             recevoisse",
+    "reçusses            recevoisses",
+    "reçût               recevoît",
+    "reçussions          recevoissions",
+    "reçussiez           recevoissiez",
+    "reçussent           recevoissent"
   ],
   [
     "reconquérir",
-    "reconquisse         reconquérasse",
-    "reconquisses        reconquérasses",
-    "reconquît           reconquérât",
-    "reconquissions      reconquérassions",
-    "reconquissiez       reconquérassiez",
-    "reconquissent       reconquérassent"
-  ],
-  [
-    "reconvertir",
-    "reconvertisse       reconvertasse",
-    "reconvertisses      reconvertasses",
-    "reconvertît         reconvertât",
-    "reconvertissions    reconvertassions",
-    "reconvertissiez     reconvertassiez",
-    "reconvertissent     reconvertassent"
+    "reconquisse         reconquérisse",
+    "reconquisses        reconquérisses",
+    "reconquît           reconquérît",
+    "reconquissions      reconquérissions",
+    "reconquissiez       reconquérissiez",
+    "reconquissent       reconquérissent"
   ],
   [
     "recourir",
-    "recourusse          recourasse",
-    "recourusses         recourasses",
-    "recourût            recourât",
-    "recourussions       recourassions",
-    "recourussiez        recourassiez",
-    "recourussent        recourassent"
-  ],
-  [
-    "recouvrir",
-    "recouvrisse         recouvrasse",
-    "recouvrisses        recouvrasses",
-    "recouvrît           recouvrât",
-    "recouvrissions      recouvrassions",
-    "recouvrissiez       recouvrassiez",
-    "recouvrissent       recouvrassent"
-  ],
-  [
-    "recrépir",
-    "recrépisse          recrépasse",
-    "recrépisses         recrépasses",
-    "recrépît            recrépât",
-    "recrépissions       recrépassions",
-    "recrépissiez        recrépassiez",
-    "recrépissent        recrépassent"
-  ],
-  [
-    "recueillir",
-    "recueillisse        recueillasse",
-    "recueillisses       recueillasses",
-    "recueillît          recueillât",
-    "recueillissions     recueillassions",
-    "recueillissiez      recueillassiez",
-    "recueillissent      recueillassent"
+    "recourusse          recourisse",
+    "recourusses         recourisses",
+    "recourût            recourît",
+    "recourussions       recourissions",
+    "recourussiez        recourissiez",
+    "recourussent        recourissent"
   ],
   [
     "redevoir",
-    "redusse             redevoasse",
-    "redusses            redevoasses",
-    "redût               redevoât",
-    "redussions          redevoassions",
-    "redussiez           redevoassiez",
-    "redussent           redevoassent"
+    "redusse             redevoisse",
+    "redusses            redevoisses",
+    "redût               redevoît",
+    "redussions          redevoissions",
+    "redussiez           redevoissiez",
+    "redussent           redevoissent"
   ],
   [
     "redevenir",
-    "redevinsse          redevenasse",
-    "redevinsses         redevenasses",
-    "redevînt            redevenât",
-    "redevinssions       redevenassions",
-    "redevinssiez        redevenassiez",
-    "redevinssent        redevenassent"
-  ],
-  [
-    "redormir",
-    "redormisse          redormasse",
-    "redormisses         redormasses",
-    "redormît            redormât",
-    "redormissions       redormassions",
-    "redormissiez        redormassiez",
-    "redormissent        redormassent"
-  ],
-  [
-    "redécouvrir",
-    "redécouvrisse       redécouvrasse",
-    "redécouvrisses      redécouvrasses",
-    "redécouvrît         redécouvrât",
-    "redécouvrissions    redécouvrassions",
-    "redécouvrissiez     redécouvrassiez",
-    "redécouvrissent     redécouvrassent"
-  ],
-  [
-    "redéfinir",
-    "redéfinisse         redéfinasse",
-    "redéfinisses        redéfinasses",
-    "redéfinît           redéfinât",
-    "redéfinissions      redéfinassions",
-    "redéfinissiez       redéfinassiez",
-    "redéfinissent       redéfinassent"
-  ],
-  [
-    "refleurir",
-    "refleurisse         refleurasse",
-    "refleurisses        refleurasses",
-    "refleurît           refleurât",
-    "refleurissions      refleurassions",
-    "refleurissiez       refleurassiez",
-    "refleurissent       refleurassent"
-  ],
-  [
-    "refroidir",
-    "refroidisse         refroidasse",
-    "refroidisses        refroidasses",
-    "refroidît           refroidât",
-    "refroidissions      refroidassions",
-    "refroidissiez       refroidassiez",
-    "refroidissent       refroidassent"
-  ],
-  [
-    "regarnir",
-    "regarnisse          regarnasse",
-    "regarnisses         regarnasses",
-    "regarnît            regarnât",
-    "regarnissions       regarnassions",
-    "regarnissiez        regarnassiez",
-    "regarnissent        regarnassent"
-  ],
-  [
-    "rejaillir",
-    "rejaillisse         rejaillasse",
-    "rejaillisses        rejaillasses",
-    "rejaillît           rejaillât",
-    "rejaillissions      rejaillassions",
-    "rejaillissiez       rejaillassiez",
-    "rejaillissent       rejaillassent"
-  ],
-  [
-    "rembrunir",
-    "rembrunisse         rembrunasse",
-    "rembrunisses        rembrunasses",
-    "rembrunît           rembrunât",
-    "rembrunissions      rembrunassions",
-    "rembrunissiez       rembrunassiez",
-    "rembrunissent       rembrunassent"
-  ],
-  [
-    "remplir",
-    "remplisse           remplasse",
-    "remplisses          remplasses",
-    "remplît             remplât",
-    "remplissions        remplassions",
-    "remplissiez         remplassiez",
-    "remplissent         remplassent"
-  ],
-  [
-    "renchérir",
-    "renchérisse         renchérasse",
-    "renchérisses        renchérasses",
-    "renchérît           renchérât",
-    "renchérissions      renchérassions",
-    "renchérissiez       renchérassiez",
-    "renchérissent       renchérassent"
-  ],
-  [
-    "rendormir",
-    "rendormisse         rendormasse",
-    "rendormisses        rendormasses",
-    "rendormît           rendormât",
-    "rendormissions      rendormassions",
-    "rendormissiez       rendormassiez",
-    "rendormissent       rendormassent"
-  ],
-  [
-    "renformir",
-    "renformisse         renformasse",
-    "renformisses        renformasses",
-    "renformît           renformât",
-    "renformissions      renformassions",
-    "renformissiez       renformassiez",
-    "renformissent       renformassent"
+    "redevinsse          redevenisse",
+    "redevinsses         redevenisses",
+    "redevînt            redevenît",
+    "redevinssions       redevenissions",
+    "redevinssiez        redevenissiez",
+    "redevinssent        redevenissent"
   ],
   [
     "reparcourir",
-    "reparcourusse       reparcourasse",
-    "reparcourusses      reparcourasses",
-    "reparcourût         reparcourât",
-    "reparcourussions    reparcourassions",
-    "reparcourussiez     reparcourassiez",
-    "reparcourussent     reparcourassent"
-  ],
-  [
-    "repartir",
-    "repartisse          repartasse",
-    "repartisses         repartasses",
-    "repartît            repartât",
-    "repartissions       repartassions",
-    "repartissiez        repartassiez",
-    "repartissent        repartassent"
-  ],
-  [
-    "repentir",
-    "repentisse          repentasse",
-    "repentisses         repentasses",
-    "repentît            repentât",
-    "repentissions       repentassions",
-    "repentissiez        repentassiez",
-    "repentissent        repentassent"
-  ],
-  [
-    "repolir",
-    "repolisse           repolasse",
-    "repolisses          repolasses",
-    "repolît             repolât",
-    "repolissions        repolassions",
-    "repolissiez         repolassiez",
-    "repolissent         repolassent"
+    "reparcourusse       reparcourisse",
+    "reparcourusses      reparcourisses",
+    "reparcourût         reparcourît",
+    "reparcourussions    reparcourissions",
+    "reparcourussiez     reparcourissiez",
+    "reparcourussent     reparcourissent"
   ],
   [
     "requérir",
-    "requisse            requérasse",
-    "requisses           requérasses",
-    "requît              requérât",
-    "requissions         requérassions",
-    "requissiez          requérassiez",
-    "requissent          requérassent"
-  ],
-  [
-    "resalir",
-    "resalisse           resalasse",
-    "resalisses          resalasses",
-    "resalît             resalât",
-    "resalissions        resalassions",
-    "resalissiez         resalassiez",
-    "resalissent         resalassent"
-  ],
-  [
-    "resplendir",
-    "resplendisse        resplendasse",
-    "resplendisses       resplendasses",
-    "resplendît          resplendât",
-    "resplendissions     resplendassions",
-    "resplendissiez      resplendassiez",
-    "resplendissent      resplendassent"
-  ],
-  [
-    "ressaisir",
-    "ressaisisse         ressaisasse",
-    "ressaisisses        ressaisasses",
-    "ressaisît           ressaisât",
-    "ressaisissions      ressaisassions",
-    "ressaisissiez       ressaisassiez",
-    "ressaisissent       ressaisassent"
-  ],
-  [
-    "ressentir",
-    "ressentisse         ressentasse",
-    "ressentisses        ressentasses",
-    "ressentît           ressentât",
-    "ressentissions      ressentassions",
-    "ressentissiez       ressentassiez",
-    "ressentissent       ressentassent"
-  ],
-  [
-    "resservir",
-    "resservisse         resservasse",
-    "resservisses        resservasses",
-    "resservît           resservât",
-    "resservissions      resservassions",
-    "resservissiez       resservassiez",
-    "resservissent       resservassent"
-  ],
-  [
-    "ressortir",
-    "ressortisse         ressortasse",
-    "ressortisses        ressortasses",
-    "ressortît           ressortât",
-    "ressortissions      ressortassions",
-    "ressortissiez       ressortassiez",
-    "ressortissent       ressortassent"
+    "requisse            requérisse",
+    "requisses           requérisses",
+    "requît              requérît",
+    "requissions         requérissions",
+    "requissiez          requérissiez",
+    "requissent          requérissent"
   ],
   [
     "ressouvenir",
-    "ressouvinsse        ressouvenasse",
-    "ressouvinsses       ressouvenasses",
-    "ressouvînt          ressouvenât",
-    "ressouvinssions     ressouvenassions",
-    "ressouvinssiez      ressouvenassiez",
-    "ressouvinssent      ressouvenassent"
+    "ressouvinsse        ressouvenisse",
+    "ressouvinsses       ressouvenisses",
+    "ressouvînt          ressouvenît",
+    "ressouvinssions     ressouvenissions",
+    "ressouvinssiez      ressouvenissiez",
+    "ressouvinssent      ressouvenissent"
   ],
   [
     "ressurgir",
-    "ressurgisse         ressurgeasse",
-    "ressurgisses        ressurgeasses",
-    "ressurgît           ressurgeât",
-    "ressurgissions      ressurgeassions",
-    "ressurgissiez       ressurgeassiez",
-    "ressurgissent       ressurgeassent"
+    "ressurgisse         ressurgeisse",
+    "ressurgisses        ressurgeisses",
+    "ressurgît           ressurgeît",
+    "ressurgissions      ressurgeissions",
+    "ressurgissiez       ressurgeissiez",
+    "ressurgissent       ressurgeissent"
   ],
   [
     "resurgir",
-    "resurgisse          resurgeasse",
-    "resurgisses         resurgeasses",
-    "resurgît            resurgeât",
-    "resurgissions       resurgeassions",
-    "resurgissiez        resurgeassiez",
-    "resurgissent        resurgeassent"
+    "resurgisse          resurgeisse",
+    "resurgisses         resurgeisses",
+    "resurgît            resurgeît",
+    "resurgissions       resurgeissions",
+    "resurgissiez        resurgeissiez",
+    "resurgissent        resurgeissent"
   ],
   [
     "retenir",
-    "retinsse            retenasse",
-    "retinsses           retenasses",
-    "retînt              retenât",
-    "retinssions         retenassions",
-    "retinssiez          retenassiez",
-    "retinssent          retenassent"
-  ],
-  [
-    "retentir",
-    "retentisse          retentasse",
-    "retentisses         retentasses",
-    "retentît            retentât",
-    "retentissions       retentassions",
-    "retentissiez        retentassiez",
-    "retentissent        retentassent"
+    "retinsse            retenisse",
+    "retinsses           retenisses",
+    "retînt              retenît",
+    "retinssions         retenissions",
+    "retinssiez          retenissiez",
+    "retinssent          retenissent"
   ],
   [
     "revaloir",
-    "revalusse           revaloasse",
-    "revalusses          revaloasses",
-    "revalût             revaloât",
-    "revalussions        revaloassions",
-    "revalussiez         revaloassiez",
-    "revalussent         revaloassent"
+    "revalusse           revaloisse",
+    "revalusses          revaloisses",
+    "revalût             revaloît",
+    "revalussions        revaloissions",
+    "revalussiez         revaloissiez",
+    "revalussent         revaloissent"
   ],
   [
     "revenir",
-    "revinsse            revenasse",
-    "revinsses           revenasses",
-    "revînt              revenât",
-    "revinssions         revenassions",
-    "revinssiez          revenassiez",
-    "revinssent          revenassent"
-  ],
-  [
-    "reverdir",
-    "reverdisse          reverdasse",
-    "reverdisses         reverdasses",
-    "reverdît            reverdât",
-    "reverdissions       reverdassions",
-    "reverdissiez        reverdassiez",
-    "reverdissent        reverdassent"
-  ],
-  [
-    "revernir",
-    "revernisse          revernasse",
-    "revernisses         revernasses",
-    "revernît            revernât",
-    "revernissions       revernassions",
-    "revernissiez        revernassiez",
-    "revernissent        revernassent"
+    "revinsse            revenisse",
+    "revinsses           revenisses",
+    "revînt              revenît",
+    "revinssions         revenissions",
+    "revinssiez          revenissiez",
+    "revinssent          revenissent"
   ],
   [
     "revoir",
-    "revisse             revoasse",
-    "revisses            revoasses",
-    "revît               revoât",
-    "revissions          revoassions",
-    "revissiez           revoassiez",
-    "revissent           revoassent"
-  ],
-  [
-    "revêtir",
-    "revêtisse           revêtasse",
-    "revêtisses          revêtasses",
-    "revêtît             revêtât",
-    "revêtissions        revêtassions",
-    "revêtissiez         revêtassiez",
-    "revêtissent         revêtassent"
-  ],
-  [
-    "rosir",
-    "rosisse             rosasse",
-    "rosisses            rosasses",
-    "rosît               rosât",
-    "rosissions          rosassions",
-    "rosissiez           rosassiez",
-    "rosissent           rosassent"
+    "revisse             revoisse",
+    "revisses            revoisses",
+    "revît               revoît",
+    "revissions          revoissions",
+    "revissiez           revoissiez",
+    "revissent           revoissent"
   ],
   [
     "rougir",
-    "rougisse            rougeasse",
-    "rougisses           rougeasses",
-    "rougît              rougeât",
-    "rougissions         rougeassions",
-    "rougissiez          rougeassiez",
-    "rougissent          rougeassent"
-  ],
-  [
-    "rouir",
-    "rouisse             rouasse",
-    "rouisses            rouasses",
-    "rouît               rouât",
-    "rouissions          rouassions",
-    "rouissiez           rouassiez",
-    "rouissent           rouassent"
-  ],
-  [
-    "roussir",
-    "roussisse           roussasse",
-    "roussisses          roussasses",
-    "roussît             roussât",
-    "roussissions        roussassions",
-    "roussissiez         roussassiez",
-    "roussissent         roussassent"
-  ],
-  [
-    "roustir",
-    "roustisse           roustasse",
-    "roustisses          roustasses",
-    "roustît             roustât",
-    "roustissions        roustassions",
-    "roustissiez         roustassiez",
-    "roustissent         roustassent"
-  ],
-  [
-    "rouvrir",
-    "rouvrisse           rouvrasse",
-    "rouvrisses          rouvrasses",
-    "rouvrît             rouvrât",
-    "rouvrissions        rouvrassions",
-    "rouvrissiez         rouvrassiez",
-    "rouvrissent         rouvrassent"
+    "rougisse            rougeisse",
+    "rougisses           rougeisses",
+    "rougît              rougeît",
+    "rougissions         rougeissions",
+    "rougissiez          rougeissiez",
+    "rougissent          rougeissent"
   ],
   [
     "rugir",
-    "rugisse             rugeasse",
-    "rugisses            rugeasses",
-    "rugît               rugeât",
-    "rugissions          rugeassions",
-    "rugissiez           rugeassiez",
-    "rugissent           rugeassent"
+    "rugisse             rugeisse",
+    "rugisses            rugeisses",
+    "rugît               rugeît",
+    "rugissions          rugeissions",
+    "rugissiez           rugeissiez",
+    "rugissent           rugeissent"
   ],
   [
     "réagir",
-    "réagisse            réageasse",
-    "réagisses           réageasses",
-    "réagît              réageât",
-    "réagissions         réageassions",
-    "réagissiez          réageassiez",
-    "réagissent          réageassent"
-  ],
-  [
-    "réasservir",
-    "réasservisse        réasservasse",
-    "réasservisses       réasservasses",
-    "réasservît          réasservât",
-    "réasservissions     réasservassions",
-    "réasservissiez      réasservassiez",
-    "réasservissent      réasservassent"
-  ],
-  [
-    "réassortir",
-    "réassortisse        réassortasse",
-    "réassortisses       réassortasses",
-    "réassortît          réassortât",
-    "réassortissions     réassortassions",
-    "réassortissiez      réassortassiez",
-    "réassortissent      réassortassent"
-  ],
-  [
-    "réchampir",
-    "réchampisse         réchampasse",
-    "réchampisses        réchampasses",
-    "réchampît           réchampât",
-    "réchampissions      réchampassions",
-    "réchampissiez       réchampassiez",
-    "réchampissent       réchampassent"
-  ],
-  [
-    "réfléchir",
-    "réfléchisse         réfléchasse",
-    "réfléchisses        réfléchasses",
-    "réfléchît           réfléchât",
-    "réfléchissions      réfléchassions",
-    "réfléchissiez       réfléchassiez",
-    "réfléchissent       réfléchassent"
+    "réagisse            réageisse",
+    "réagisses           réageisses",
+    "réagît              réageît",
+    "réagissions         réageissions",
+    "réagissiez          réageissiez",
+    "réagissent          réageissent"
   ],
   [
     "régir",
-    "régisse             régeasse",
-    "régisses            régeasses",
-    "régît               régeât",
-    "régissions          régeassions",
-    "régissiez           régeassiez",
-    "régissent           régeassent"
-  ],
-  [
-    "réinvestir",
-    "réinvestisse        réinvestasse",
-    "réinvestisses       réinvestasses",
-    "réinvestît          réinvestât",
-    "réinvestissions     réinvestassions",
-    "réinvestissiez      réinvestassiez",
-    "réinvestissent      réinvestassent"
-  ],
-  [
-    "réjouir",
-    "réjouisse           réjouasse",
-    "réjouisses          réjouasses",
-    "réjouît             réjouât",
-    "réjouissions        réjouassions",
-    "réjouissiez         réjouassiez",
-    "réjouissent         réjouassent"
+    "régisse             régeisse",
+    "régisses            régeisses",
+    "régît               régeît",
+    "régissions          régeissions",
+    "régissiez           régeissiez",
+    "régissent           régeissent"
   ],
   [
     "rélargir",
-    "rélargisse          rélargeasse",
-    "rélargisses         rélargeasses",
-    "rélargît            rélargeât",
-    "rélargissions       rélargeassions",
-    "rélargissiez        rélargeassiez",
-    "rélargissent        rélargeassent"
-  ],
-  [
-    "réouvrir",
-    "réouvrisse          réouvrasse",
-    "réouvrisses         réouvrasses",
-    "réouvrît            réouvrât",
-    "réouvrissions       réouvrassions",
-    "réouvrissiez        réouvrassiez",
-    "réouvrissent        réouvrassent"
-  ],
-  [
-    "répartir",
-    "répartisse          répartasse",
-    "répartisses         répartasses",
-    "répartît            répartât",
-    "répartissions       répartassions",
-    "répartissiez        répartassiez",
-    "répartissent        répartassent"
-  ],
-  [
-    "rétablir",
-    "rétablisse          rétablasse",
-    "rétablisses         rétablasses",
-    "rétablît            rétablât",
-    "rétablissions       rétablassions",
-    "rétablissiez        rétablassiez",
-    "rétablissent        rétablassent"
+    "rélargisse          rélargeisse",
+    "rélargisses         rélargeisses",
+    "rélargît            rélargeît",
+    "rélargissions       rélargeissions",
+    "rélargissiez        rélargeissiez",
+    "rélargissent        rélargeissent"
   ],
   [
     "rétroagir",
-    "rétroagisse         rétroageasse",
-    "rétroagisses        rétroageasses",
-    "rétroagît           rétroageât",
-    "rétroagissions      rétroageassions",
-    "rétroagissiez       rétroageassiez",
-    "rétroagissent       rétroageassent"
+    "rétroagisse         rétroageisse",
+    "rétroagisses        rétroageisses",
+    "rétroagît           rétroageît",
+    "rétroagissions      rétroageissions",
+    "rétroagissiez       rétroageissiez",
+    "rétroagissent       rétroageissent"
   ],
   [
     "rétrécir",
-    "rétrécisse          rétréçasse",
-    "rétrécisses         rétréçasses",
-    "rétrécît            rétréçât",
-    "rétrécissions       rétréçassions",
-    "rétrécissiez        rétréçassiez",
-    "rétrécissent        rétréçassent"
-  ],
-  [
-    "réunir",
-    "réunisse            réunasse",
-    "réunisses           réunasses",
-    "réunît              réunât",
-    "réunissions         réunassions",
-    "réunissiez          réunassiez",
-    "réunissent          réunassent"
-  ],
-  [
-    "réussir",
-    "réussisse           réussasse",
-    "réussisses          réussasses",
-    "réussît             réussât",
-    "réussissions        réussassions",
-    "réussissiez         réussassiez",
-    "réussissent         réussassent"
-  ],
-  [
-    "rôtir",
-    "rôtisse             rôtasse",
-    "rôtisses            rôtasses",
-    "rôtît               rôtât",
-    "rôtissions          rôtassions",
-    "rôtissiez           rôtassiez",
-    "rôtissent           rôtassent"
+    "rétrécisse          rétréçisse",
+    "rétrécisses         rétréçisses",
+    "rétrécît            rétréçît",
+    "rétrécissions       rétréçissions",
+    "rétrécissiez        rétréçissiez",
+    "rétrécissent        rétréçissent"
   ],
   [
     "savoir",
-    "susse               savoasse",
-    "susses              savoasses",
-    "sût                 savoât",
-    "sussions            savoassions",
-    "sussiez             savoassiez",
-    "sussent             savoassent"
-  ],
-  [
-    "saillir",
-    "saillisse           saillasse",
-    "saillisses          saillasses",
-    "saillît             saillât",
-    "saillissions        saillassions",
-    "saillissiez         saillassiez",
-    "saillissent         saillassent"
-  ],
-  [
-    "saisir",
-    "saisisse            saisasse",
-    "saisisses           saisasses",
-    "saisît              saisât",
-    "saisissions         saisassions",
-    "saisissiez          saisassiez",
-    "saisissent          saisassent"
-  ],
-  [
-    "salir",
-    "salisse             salasse",
-    "salisses            salasses",
-    "salît               salât",
-    "salissions          salassions",
-    "salissiez           salassiez",
-    "salissent           salassent"
+    "susse               savoisse",
+    "susses              savoisses",
+    "sût                 savoît",
+    "sussions            savoissions",
+    "sussiez             savoissiez",
+    "sussent             savoissent"
   ],
   [
     "secourir",
-    "secourusse          secourasse",
-    "secourusses         secourasses",
-    "secourût            secourât",
-    "secourussions       secourassions",
-    "secourussiez        secourassiez",
-    "secourussent        secourassent"
-  ],
-  [
-    "sentir",
-    "sentisse            sentasse",
-    "sentisses           sentasses",
-    "sentît              sentât",
-    "sentissions         sentassions",
-    "sentissiez          sentassiez",
-    "sentissent          sentassent"
-  ],
-  [
-    "serfouir",
-    "serfouisse          serfouasse",
-    "serfouisses         serfouasses",
-    "serfouît            serfouât",
-    "serfouissions       serfouassions",
-    "serfouissiez        serfouassiez",
-    "serfouissent        serfouassent"
-  ],
-  [
-    "servir",
-    "servisse            servasse",
-    "servisses           servasses",
-    "servît              servât",
-    "servissions         servassions",
-    "servissiez          servassiez",
-    "servissent          servassent"
-  ],
-  [
-    "sertir",
-    "sertisse            sertasse",
-    "sertisses           sertasses",
-    "sertît              sertât",
-    "sertissions         sertassions",
-    "sertissiez          sertassiez",
-    "sertissent          sertassent"
-  ],
-  [
-    "sortir",
-    "sortisse            sortasse",
-    "sortisses           sortasses",
-    "sortît              sortât",
-    "sortissions         sortassions",
-    "sortissiez          sortassiez",
-    "sortissent          sortassent"
-  ],
-  [
-    "souffrir",
-    "souffrisse          souffrasse",
-    "souffrisses         souffrasses",
-    "souffrît            souffrât",
-    "souffrissions       souffrassions",
-    "souffrissiez        souffrassiez",
-    "souffrissent        souffrassent"
+    "secourusse          secourisse",
+    "secourusses         secourisses",
+    "secourût            secourît",
+    "secourussions       secourissions",
+    "secourussiez        secourissiez",
+    "secourussent        secourissent"
   ],
   [
     "soutenir",
-    "soutinsse           soutenasse",
-    "soutinsses          soutenasses",
-    "soutînt             soutenât",
-    "soutinssions        soutenassions",
-    "soutinssiez         soutenassiez",
-    "soutinssent         soutenassent"
+    "soutinsse           soutenisse",
+    "soutinsses          soutenisses",
+    "soutînt             soutenît",
+    "soutinssions        soutenissions",
+    "soutinssiez         soutenissiez",
+    "soutinssent         soutenissent"
   ],
   [
     "souvenir",
-    "souvinsse           souvenasse",
-    "souvinsses          souvenasses",
-    "souvînt             souvenât",
-    "souvinssions        souvenassions",
-    "souvinssiez         souvenassiez",
-    "souvinssent         souvenassent"
-  ],
-  [
-    "subir",
-    "subisse             subasse",
-    "subisses            subasses",
-    "subît               subât",
-    "subissions          subassions",
-    "subissiez           subassiez",
-    "subissent           subassent"
+    "souvinsse           souvenisse",
+    "souvinsses          souvenisses",
+    "souvînt             souvenît",
+    "souvinssions        souvenissions",
+    "souvinssiez         souvenissiez",
+    "souvinssent         souvenissent"
   ],
   [
     "subvenir",
-    "subvinsse           subvenasse",
-    "subvinsses          subvenasses",
-    "subvînt             subvenât",
-    "subvinssions        subvenassions",
-    "subvinssiez         subvenassiez",
-    "subvinssent         subvenassent"
-  ],
-  [
-    "subvertir",
-    "subvertisse         subvertasse",
-    "subvertisses        subvertasses",
-    "subvertît           subvertât",
-    "subvertissions      subvertassions",
-    "subvertissiez       subvertassiez",
-    "subvertissent       subvertassent"
-  ],
-  [
-    "surenchérir",
-    "surenchérisse       surenchérasse",
-    "surenchérisses      surenchérasses",
-    "surenchérît         surenchérât",
-    "surenchérissions    surenchérassions",
-    "surenchérissiez     surenchérassiez",
-    "surenchérissent     surenchérassent"
+    "subvinsse           subvenisse",
+    "subvinsses          subvenisses",
+    "subvînt             subvenît",
+    "subvinssions        subvenissions",
+    "subvinssiez         subvenissiez",
+    "subvinssent         subvenissent"
   ],
   [
     "surgir",
-    "surgisse            surgeasse",
-    "surgisses           surgeasses",
-    "surgît              surgeât",
-    "surgissions         surgeassions",
-    "surgissiez          surgeassiez",
-    "surgissent          surgeassent"
-  ],
-  [
-    "surir",
-    "surisse             surasse",
-    "surisses            surasses",
-    "surît               surât",
-    "surissions          surassions",
-    "surissiez           surassiez",
-    "surissent           surassent"
-  ],
-  [
-    "surinvestir",
-    "surinvestisse       surinvestasse",
-    "surinvestisses      surinvestasses",
-    "surinvestît         surinvestât",
-    "surinvestissions    surinvestassions",
-    "surinvestissiez     surinvestassiez",
-    "surinvestissent     surinvestassent"
-  ],
-  [
-    "surnourrir",
-    "surnourrisse        surnourrasse",
-    "surnourrisses       surnourrasses",
-    "surnourrît          surnourrât",
-    "surnourrissions     surnourrassions",
-    "surnourrissiez      surnourrassiez",
-    "surnourrissent      surnourrassent"
+    "surgisse            surgeisse",
+    "surgisses           surgeisses",
+    "surgît              surgeît",
+    "surgissions         surgeissions",
+    "surgissiez          surgeissiez",
+    "surgissent          surgeissent"
   ],
   [
     "survenir",
-    "survinsse           survenasse",
-    "survinsses          survenasses",
-    "survînt             survenât",
-    "survinssions        survenassions",
-    "survinssiez         survenassiez",
-    "survinssent         survenassent"
-  ],
-  [
-    "sévir",
-    "sévisse             sévasse",
-    "sévisses            sévasses",
-    "sévît               sévât",
-    "sévissions          sévassions",
-    "sévissiez           sévassiez",
-    "sévissent           sévassent"
-  ],
-  [
-    "tapir",
-    "tapisse             tapasse",
-    "tapisses            tapasses",
-    "tapît               tapât",
-    "tapissions          tapassions",
-    "tapissiez           tapassiez",
-    "tapissent           tapassent"
-  ],
-  [
-    "tarir",
-    "tarisse             tarasse",
-    "tarisses            tarasses",
-    "tarît               tarât",
-    "tarissions          tarassions",
-    "tarissiez           tarassiez",
-    "tarissent           tarassent"
-  ],
-  [
-    "tartir",
-    "tartisse            tartasse",
-    "tartisses           tartasses",
-    "tartît              tartât",
-    "tartissions         tartassions",
-    "tartissiez          tartassiez",
-    "tartissent          tartassent"
+    "survinsse           survenisse",
+    "survinsses          survenisses",
+    "survînt             survenît",
+    "survinssions        survenissions",
+    "survinssiez         survenissiez",
+    "survinssent         survenissent"
   ],
   [
     "tenir",
-    "tinsse              tenasse",
-    "tinsses             tenasses",
-    "tînt                tenât",
-    "tinssions           tenassions",
-    "tinssiez            tenassiez",
-    "tinssent            tenassent"
-  ],
-  [
-    "ternir",
-    "ternisse            ternasse",
-    "ternisses           ternasses",
-    "ternît              ternât",
-    "ternissions         ternassions",
-    "ternissiez          ternassiez",
-    "ternissent          ternassent"
-  ],
-  [
-    "terrir",
-    "terrisse            terrasse",
-    "terrisses           terrasses",
-    "terrît              terrât",
-    "terrissions         terrassions",
-    "terrissiez          terrassiez",
-    "terrissent          terrassent"
-  ],
-  [
-    "tiédir",
-    "tiédisse            tiédasse",
-    "tiédisses           tiédasses",
-    "tiédît              tiédât",
-    "tiédissions         tiédassions",
-    "tiédissiez          tiédassiez",
-    "tiédissent          tiédassent"
-  ],
-  [
-    "trahir",
-    "trahisse            trahasse",
-    "trahisses           trahasses",
-    "trahît              trahât",
-    "trahissions         trahassions",
-    "trahissiez          trahassiez",
-    "trahissent          trahassent"
-  ],
-  [
-    "transir",
-    "transisse           transasse",
-    "transisses          transasses",
-    "transît             transât",
-    "transissions        transassions",
-    "transissiez         transassiez",
-    "transissent         transassent"
-  ],
-  [
-    "travestir",
-    "travestisse         travestasse",
-    "travestisses        travestasses",
-    "travestît           travestât",
-    "travestissions      travestassions",
-    "travestissiez       travestassiez",
-    "travestissent       travestassent"
-  ],
-  [
-    "tressaillir",
-    "tressaillisse       tressaillasse",
-    "tressaillisses      tressaillasses",
-    "tressaillît         tressaillât",
-    "tressaillissions    tressaillassions",
-    "tressaillissiez     tressaillassiez",
-    "tressaillissent     tressaillassent"
-  ],
-  [
-    "unir",
-    "unisse              unasse",
-    "unisses             unasses",
-    "unît                unât",
-    "unissions           unassions",
-    "unissiez            unassiez",
-    "unissent            unassent"
+    "tinsse              tenisse",
+    "tinsses             tenisses",
+    "tînt                tenît",
+    "tinssions           tenissions",
+    "tinssiez            tenissiez",
+    "tinssent            tenissent"
   ],
   [
     "vagir",
-    "vagisse             vageasse",
-    "vagisses            vageasses",
-    "vagît               vageât",
-    "vagissions          vageassions",
-    "vagissiez           vageassiez",
-    "vagissent           vageassent"
+    "vagisse             vageisse",
+    "vagisses            vageisses",
+    "vagît               vageît",
+    "vagissions          vageissions",
+    "vagissiez           vageissiez",
+    "vagissent           vageissent"
   ],
   [
     "valoir",
-    "valusse             valoasse",
-    "valusses            valoasses",
-    "valût               valoât",
-    "valussions          valoassions",
-    "valussiez           valoassiez",
-    "valussent           valoassent"
+    "valusse             valoisse",
+    "valusses            valoisses",
+    "valût               valoît",
+    "valussions          valoissions",
+    "valussiez           valoissiez",
+    "valussent           valoissent"
   ],
   [
     "venir",
-    "vinsse              venasse",
-    "vinsses             venasses",
-    "vînt                venât",
-    "vinssions           venassions",
-    "vinssiez            venassiez",
-    "vinssent            venassent"
-  ],
-  [
-    "verdir",
-    "verdisse            verdasse",
-    "verdisses           verdasses",
-    "verdît              verdât",
-    "verdissions         verdassions",
-    "verdissiez          verdassiez",
-    "verdissent          verdassent"
-  ],
-  [
-    "vernir",
-    "vernisse            vernasse",
-    "vernisses           vernasses",
-    "vernît              vernât",
-    "vernissions         vernassions",
-    "vernissiez          vernassiez",
-    "vernissent          vernassent"
+    "vinsse              venisse",
+    "vinsses             venisses",
+    "vînt                venît",
+    "vinssions           venissions",
+    "vinssiez            venissiez",
+    "vinssent            venissent"
   ],
   [
     "voir",
-    "visse               voasse",
-    "visses              voasses",
-    "vît                 voât",
-    "vissions            voassions",
-    "vissiez             voassiez",
-    "vissent             voassent"
+    "visse               voisse",
+    "visses              voisses",
+    "vît                 voît",
+    "vissions            voissions",
+    "vissiez             voissiez",
+    "vissent             voissent"
   ],
   [
     "vouloir",
-    "voulusse            vouloasse",
-    "voulusses           vouloasses",
-    "voulût              vouloât",
-    "voulussions         vouloassions",
-    "voulussiez          vouloassiez",
-    "voulussent          vouloassent"
-  ],
-  [
-    "vieillir",
-    "vieillisse          vieillasse",
-    "vieillisses         vieillasses",
-    "vieillît            vieillât",
-    "vieillissions       vieillassions",
-    "vieillissiez        vieillassiez",
-    "vieillissent        vieillassent"
-  ],
-  [
-    "vomir",
-    "vomisse             vomasse",
-    "vomisses            vomasses",
-    "vomît               vomât",
-    "vomissions          vomassions",
-    "vomissiez           vomassiez",
-    "vomissent           vomassent"
-  ],
-  [
-    "vrombir",
-    "vrombisse           vrombasse",
-    "vrombisses          vrombasses",
-    "vrombît             vrombât",
-    "vrombissions        vrombassions",
-    "vrombissiez         vrombassiez",
-    "vrombissent         vrombassent"
-  ],
-  [
-    "vêtir",
-    "vêtisse             vêtasse",
-    "vêtisses            vêtasses",
-    "vêtît               vêtât",
-    "vêtissions          vêtassions",
-    "vêtissiez           vêtassiez",
-    "vêtissent           vêtassent"
-  ],
-  [
-    "ébahir",
-    "ébahisse            ébahasse",
-    "ébahisses           ébahasses",
-    "ébahît              ébahât",
-    "ébahissions         ébahassions",
-    "ébahissiez          ébahassiez",
-    "ébahissent          ébahassent"
-  ],
-  [
-    "ébaudir",
-    "ébaudisse           ébaudasse",
-    "ébaudisses          ébaudasses",
-    "ébaudît             ébaudât",
-    "ébaudissions        ébaudassions",
-    "ébaudissiez         ébaudassiez",
-    "ébaudissent         ébaudassent"
-  ],
-  [
-    "éblouir",
-    "éblouisse           éblouasse",
-    "éblouisses          éblouasses",
-    "éblouît             éblouât",
-    "éblouissions        éblouassions",
-    "éblouissiez         éblouassiez",
-    "éblouissent         éblouassent"
+    "voulusse            vouloisse",
+    "voulusses           vouloisses",
+    "voulût              vouloît",
+    "voulussions         vouloissions",
+    "voulussiez          vouloissiez",
+    "voulussent          vouloissent"
   ],
   [
     "échoir",
-    "échusse             échoasse",
-    "échusses            échoasses",
-    "échût               échoât",
-    "échussions          échoassions",
-    "échussiez           échoassiez",
-    "échussent           échoassent"
+    "échusse             échoisse",
+    "échusses            échoisses",
+    "échût               échoît",
+    "échussions          échoissions",
+    "échussiez           échoissiez",
+    "échussent           échoissent"
   ],
   [
     "éclaircir",
-    "éclaircisse         éclairçasse",
-    "éclaircisses        éclairçasses",
-    "éclaircît           éclairçât",
-    "éclaircissions      éclairçassions",
-    "éclaircissiez       éclairçassiez",
-    "éclaircissent       éclairçassent"
-  ],
-  [
-    "écrouir",
-    "écrouisse           écrouasse",
-    "écrouisses          écrouasses",
-    "écrouît             écrouât",
-    "écrouissions        écrouassions",
-    "écrouissiez         écrouassiez",
-    "écrouissent         écrouassent"
+    "éclaircisse         éclairçisse",
+    "éclaircisses        éclairçisses",
+    "éclaircît           éclairçît",
+    "éclaircissions      éclairçissions",
+    "éclaircissiez       éclairçissiez",
+    "éclaircissent       éclairçissent"
   ],
   [
     "élargir",
-    "élargisse           élargeasse",
-    "élargisses          élargeasses",
-    "élargît             élargeât",
-    "élargissions        élargeassions",
-    "élargissiez         élargeassiez",
-    "élargissent         élargeassent"
+    "élargisse           élargeisse",
+    "élargisses          élargeisses",
+    "élargît             élargeît",
+    "élargissions        élargeissions",
+    "élargissiez         élargeissiez",
+    "élargissent         élargeissent"
   ],
   [
     "émouvoir",
-    "émusse              émouvoasse",
-    "émusses             émouvoasses",
-    "émût                émouvoât",
-    "émussions           émouvoassions",
-    "émussiez            émouvoassiez",
-    "émussent            émouvoassent"
-  ],
-  [
-    "épaissir",
-    "épaississe          épaissasse",
-    "épaississes         épaissasses",
-    "épaissît            épaissât",
-    "épaississions       épaissassions",
-    "épaississiez        épaissassiez",
-    "épaississent        épaissassent"
-  ],
-  [
-    "épanouir",
-    "épanouisse          épanouasse",
-    "épanouisses         épanouasses",
-    "épanouît            épanouât",
-    "épanouissions       épanouassions",
-    "épanouissiez        épanouassiez",
-    "épanouissent        épanouassent"
-  ],
-  [
-    "équarrir",
-    "équarrisse          équarrasse",
-    "équarrisses         équarrasses",
-    "équarrît            équarrât",
-    "équarrissions       équarrassions",
-    "équarrissiez        équarrassiez",
-    "équarrissent        équarrassent"
+    "émusse              émouvoisse",
+    "émusses             émouvoisses",
+    "émût                émouvoît",
+    "émussions           émouvoissions",
+    "émussiez            émouvoissiez",
+    "émussent            émouvoissent"
   ],
   [
     "équivaloir",
-    "équivalusse         équivaloasse",
-    "équivalusses        équivaloasses",
-    "équivalût           équivaloât",
-    "équivalussions      équivaloassions",
-    "équivalussiez       équivaloassiez",
-    "équivalussent       équivaloassent"
-  ],
-  [
-    "établir",
-    "établisse           établasse",
-    "établisses          établasses",
-    "établît             établât",
-    "établissions        établassions",
-    "établissiez         établassiez",
-    "établissent         établassent"
-  ],
-  [
-    "étourdir",
-    "étourdisse          étourdasse",
-    "étourdisses         étourdasses",
-    "étourdît            étourdât",
-    "étourdissions       étourdassions",
-    "étourdissiez        étourdassiez",
-    "étourdissent        étourdassent"
+    "équivalusse         équivaloisse",
+    "équivalusses        équivaloisses",
+    "équivalût           équivaloît",
+    "équivalussions      équivaloissions",
+    "équivalussiez       équivaloissiez",
+    "équivalussent       équivaloissent"
   ],
   [
     "étrécir",
-    "étrécisse           étréçasse",
-    "étrécisses          étréçasses",
-    "étrécît             étréçât",
-    "étrécissions        étréçassions",
-    "étrécissiez         étréçassiez",
-    "étrécissent         étréçassent"
-  ],
-  [
-    "évanouir",
-    "évanouisse          évanouasse",
-    "évanouisses         évanouasses",
-    "évanouît            évanouât",
-    "évanouissions       évanouassions",
-    "évanouissiez        évanouassiez",
-    "évanouissent        évanouassent"
+    "étrécisse           étréçisse",
+    "étrécisses          étréçisses",
+    "étrécît             étréçît",
+    "étrécissions        étréçissions",
+    "étrécissiez         étréçissiez",
+    "étrécissent         étréçissent"
   ]
 ]
