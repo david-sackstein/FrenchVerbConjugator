@@ -8,6 +8,11 @@ namespace ConjugatorLibrary.SecondGroup
 
         public static string[] GetConjugations(string verb)
         {
+            if (verb == "avoir")
+            {
+                return new[] {"eusse", "eusses", "eût", "eussions", "eussiez", "eussent"};
+            }
+
             string stem = verb.Remove(verb.Length - 2);
 
             // soften the c with a cedilla before the 'a'

@@ -1,14 +1,5 @@
 [
   [
-    "avoir",
-    "eusse               avoasse",
-    "eusses              avoasses",
-    "eût                 avoât",
-    "eussions            avoassions",
-    "eussiez             avoassiez",
-    "eussent             avoassent"
-  ],
-  [
     "abasourdir",
     "abasourdisse        abasourdasse",
     "abasourdisses       abasourdasses",
