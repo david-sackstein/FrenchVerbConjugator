@@ -8,9 +8,11 @@ namespace ConjugatorLibrary.SecondGroup
 
         public static string[] GetConjugations(string verb)
         {
+            var uEndings = new[] { "usse", "usses", "ût", "ussions", "ussiez", "ussent" };
+
             if (verb == "avoir")
             {
-                return new[] {"eusse", "eusses", "eût", "eussions", "eussiez", "eussent"};
+                return uEndings.AddEndings("e");
             }
 
             string stem = verb.Remove(verb.Length - 2);
@@ -20,6 +22,11 @@ namespace ConjugatorLibrary.SecondGroup
                 var modifiedStem = verb.TrimEnd("enir");
                 var modifiedEndings = Endings.Select(s => s.Insert(1, "n")).ToArray();
                 return modifiedEndings.AddEndings(modifiedStem);
+            }
+
+            if (verb.EndsWith("ourir"))
+            {
+                return uEndings.AddEndings(stem);
             }
 
             // soften the c with a cedilla before the 'a'

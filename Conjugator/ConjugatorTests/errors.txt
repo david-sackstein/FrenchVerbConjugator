@@ -1,14 +1,5 @@
 [
   [
-    "accourir",
-    "accourusse          accourisse",
-    "accourusses         accourisses",
-    "accourût            accourît",
-    "accourussions       accourissions",
-    "accourussiez        accourissiez",
-    "accourussent        accourissent"
-  ],
-  [
     "accourcir",
     "accourcisse         accourçisse",
     "accourcisses        accourçisses",
@@ -126,15 +117,6 @@
     "conçussent          concevoissent"
   ],
   [
-    "concourir",
-    "concourusse         concourisse",
-    "concourusses        concourisses",
-    "concourût           concourît",
-    "concourussions      concourissions",
-    "concourussiez       concourissiez",
-    "concourussent       concourissent"
-  ],
-  [
     "conquérir",
     "conquisse           conquérisse",
     "conquisses          conquérisses",
@@ -162,15 +144,6 @@
     "convinssent         convenissent"
   ],
   [
-    "courir",
-    "courusse            courisse",
-    "courusses           courisses",
-    "courût              courît",
-    "courussions         courissions",
-    "courussiez          courissiez",
-    "courussent          courissent"
-  ],
-  [
     "devoir",
     "dusse               devoisse",
     "dusses              devoisses",
@@ -196,15 +169,6 @@
     "disconvinssions     disconvenissions",
     "disconvinssiez      disconvenissiez",
     "disconvinssent      disconvenissent"
-  ],
-  [
-    "discourir",
-    "discourusse         discourisse",
-    "discourusses        discourisses",
-    "discourût           discourît",
-    "discourussions      discourissions",
-    "discourussiez       discourissiez",
-    "discourussent       discourissent"
   ],
   [
     "doucir",
@@ -259,15 +223,6 @@
     "dérougissions       dérougeissions",
     "dérougissiez        dérougeissiez",
     "dérougissent        dérougeissent"
-  ],
-  [
-    "encourir",
-    "encourusse          encourisse",
-    "encourusses         encourisses",
-    "encourût            encourît",
-    "encourussions       encourissions",
-    "encourussiez        encourissiez",
-    "encourussent        encourissent"
   ],
   [
     "endurcir",
@@ -351,15 +306,6 @@
     "intervinssent       intervenissent"
   ],
   [
-    "mourir",
-    "mourusse            mourisse",
-    "mourusses           mourisses",
-    "mourût              mourît",
-    "mourussions         mourissions",
-    "mourussiez          mourissiez",
-    "mourussent          mourissent"
-  ],
-  [
     "mouvoir",
     "musse               mouvoisse",
     "musses              mouvoisses",
@@ -421,15 +367,6 @@
     "obvinssions         obvenissions",
     "obvinssiez          obvenissiez",
     "obvinssent          obvenissent"
-  ],
-  [
-    "parcourir",
-    "parcourusse         parcourisse",
-    "parcourusses        parcourisses",
-    "parcourût           parcourît",
-    "parcourussions      parcourissions",
-    "parcourussiez       parcourissiez",
-    "parcourussent       parcourissent"
   ],
   [
     "parvenir",
@@ -585,15 +522,6 @@
     "reconquissent       reconquérissent"
   ],
   [
-    "recourir",
-    "recourusse          recourisse",
-    "recourusses         recourisses",
-    "recourût            recourît",
-    "recourussions       recourissions",
-    "recourussiez        recourissiez",
-    "recourussent        recourissent"
-  ],
-  [
     "redevoir",
     "redusse             redevoisse",
     "redusses            redevoisses",
@@ -610,15 +538,6 @@
     "redevinssions       redevenissions",
     "redevinssiez        redevenissiez",
     "redevinssent        redevenissent"
-  ],
-  [
-    "reparcourir",
-    "reparcourusse       reparcourisse",
-    "reparcourusses      reparcourisses",
-    "reparcourût         reparcourît",
-    "reparcourussions    reparcourissions",
-    "reparcourussiez     reparcourissiez",
-    "reparcourussent     reparcourissent"
   ],
   [
     "requérir",
@@ -754,15 +673,6 @@
     "sussions            savoissions",
     "sussiez             savoissiez",
     "sussent             savoissent"
-  ],
-  [
-    "secourir",
-    "secourusse          secourisse",
-    "secourusses         secourisses",
-    "secourût            secourît",
-    "secourussions       secourissions",
-    "secourussiez        secourissiez",
-    "secourussent        secourissent"
   ],
   [
     "souvenir",
