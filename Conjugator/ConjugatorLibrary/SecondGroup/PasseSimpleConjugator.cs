@@ -8,6 +8,14 @@ namespace ConjugatorLibrary.SecondGroup
 
         public static string[] GetConjugations(string verb)
         {
+            if (verb.EndsWith("enir"))
+            {
+                var stem1 = verb.TrimEnd("enir");
+                var endings1 = Endings.Select(s => s.Insert(1, "n")).ToArray();
+                var parts = new ConjugationParts(stem1, endings1);
+                return parts.GetConjugation();
+            }
+
             string stem = GetStem(verb);
             string[] endings = Endings;
 

@@ -9,15 +9,6 @@
     "eurent              avoirent"
   ],
   [
-    "abstenir",
-    "abstins             abstenis",
-    "abstins             abstenis",
-    "abstint             abstenit",
-    "abstînmes           abstenîmes",
-    "abstîntes           abstenîtes",
-    "abstinrent          abstenirent"
-  ],
-  [
     "accourir",
     "accourus            accouris",
     "accourus            accouris",
@@ -54,15 +45,6 @@
     "adoucirent          adoucirent"
   ],
   [
-    "advenir",
-    "advins              advenis",
-    "advins              advenis",
-    "advint              advenit",
-    "advînmes            advenîmes",
-    "advîntes            advenîtes",
-    "advinrent           advenirent"
-  ],
-  [
     "agir",
     "agis                ageis",
     "agis                ageis",
@@ -88,15 +70,6 @@
     "aperçûmes           apercevoîmes",
     "aperçûtes           apercevoîtes",
     "aperçurent          apercevoirent"
-  ],
-  [
-    "appartenir",
-    "appartins           appartenis",
-    "appartins           appartenis",
-    "appartint           appartenit",
-    "appartînmes         appartenîmes",
-    "appartîntes         appartenîtes",
-    "appartinrent        appartenirent"
   ],
   [
     "assagir",
@@ -135,15 +108,6 @@
     "churent             choirent"
   ],
   [
-    "circonvenir",
-    "circonvins          circonvenis",
-    "circonvins          circonvenis",
-    "circonvint          circonvenit",
-    "circonvînmes        circonvenîmes",
-    "circonvîntes        circonvenîtes",
-    "circonvinrent       circonvenirent"
-  ],
-  [
     "concevoir",
     "conçus              concevois",
     "conçus              concevois",
@@ -171,33 +135,6 @@
     "conquirent          conquérirent"
   ],
   [
-    "contenir",
-    "contins             contenis",
-    "contins             contenis",
-    "contint             contenit",
-    "contînmes           contenîmes",
-    "contîntes           contenîtes",
-    "continrent          contenirent"
-  ],
-  [
-    "contrevenir",
-    "contrevins          contrevenis",
-    "contrevins          contrevenis",
-    "contrevint          contrevenit",
-    "contrevînmes        contrevenîmes",
-    "contrevîntes        contrevenîtes",
-    "contrevinrent       contrevenirent"
-  ],
-  [
-    "convenir",
-    "convins             convenis",
-    "convins             convenis",
-    "convint             convenit",
-    "convînmes           convenîmes",
-    "convîntes           convenîtes",
-    "convinrent          convenirent"
-  ],
-  [
     "courir",
     "courus              couris",
     "courus              couris",
@@ -214,24 +151,6 @@
     "dûmes               devoîmes",
     "dûtes               devoîtes",
     "durent              devoirent"
-  ],
-  [
-    "devenir",
-    "devins              devenis",
-    "devins              devenis",
-    "devint              devenit",
-    "devînmes            devenîmes",
-    "devîntes            devenîtes",
-    "devinrent           devenirent"
-  ],
-  [
-    "disconvenir",
-    "disconvins          disconvenis",
-    "disconvins          disconvenis",
-    "disconvint          disconvenit",
-    "disconvînmes        disconvenîmes",
-    "disconvîntes        disconvenîtes",
-    "disconvinrent       disconvenirent"
   ],
   [
     "discourir",
@@ -297,15 +216,6 @@
     "dérougirent         dérougirent"
   ],
   [
-    "détenir",
-    "détins              détenis",
-    "détins              détenis",
-    "détint              détenit",
-    "détînmes            détenîmes",
-    "détîntes            détenîtes",
-    "détinrent           détenirent"
-  ],
-  [
     "encourir",
     "encourus            encouris",
     "encourus            encouris",
@@ -340,15 +250,6 @@
     "entraperçûmes       entrapercevoîmes",
     "entraperçûtes       entrapercevoîtes",
     "entraperçurent      entrapercevoirent"
-  ],
-  [
-    "entretenir",
-    "entretins           entretenis",
-    "entretins           entretenis",
-    "entretint           entretenit",
-    "entretînmes         entretenîmes",
-    "entretîntes         entretenîtes",
-    "entretinrent        entretenirent"
   ],
   [
     "entrevoir",
@@ -394,24 +295,6 @@
     "interagîmes         interageîmes",
     "interagîtes         interageîtes",
     "interagirent        interagirent"
-  ],
-  [
-    "intervenir",
-    "intervins           intervenis",
-    "intervins           intervenis",
-    "intervint           intervenit",
-    "intervînmes         intervenîmes",
-    "intervîntes         intervenîtes",
-    "intervinrent        intervenirent"
-  ],
-  [
-    "maintenir",
-    "maintins            maintenis",
-    "maintins            maintenis",
-    "maintint            maintenit",
-    "maintînmes          maintenîmes",
-    "maintîntes          maintenîtes",
-    "maintinrent         maintenirent"
   ],
   [
     "mourir",
@@ -477,24 +360,6 @@
     "obscurcirent        obscurcirent"
   ],
   [
-    "obtenir",
-    "obtins              obtenis",
-    "obtins              obtenis",
-    "obtint              obtenit",
-    "obtînmes            obtenîmes",
-    "obtîntes            obtenîtes",
-    "obtinrent           obtenirent"
-  ],
-  [
-    "obvenir",
-    "obvins              obvenis",
-    "obvins              obvenis",
-    "obvint              obvenit",
-    "obvînmes            obvenîmes",
-    "obvîntes            obvenîtes",
-    "obvinrent           obvenirent"
-  ],
-  [
     "parcourir",
     "parcourus           parcouris",
     "parcourus           parcouris",
@@ -502,15 +367,6 @@
     "parcourûmes         parcourîmes",
     "parcourûtes         parcourîtes",
     "parcoururent        parcourirent"
-  ],
-  [
-    "parvenir",
-    "parvins             parvenis",
-    "parvins             parvenis",
-    "parvint             parvenit",
-    "parvînmes           parvenîmes",
-    "parvîntes           parvenîtes",
-    "parvinrent          parvenirent"
   ],
   [
     "percevoir",
@@ -558,15 +414,6 @@
     "promurent           promouvoirent"
   ],
   [
-    "provenir",
-    "provins             provenis",
-    "provins             provenis",
-    "provint             provenit",
-    "provînmes           provenîmes",
-    "provîntes           provenîtes",
-    "provinrent          provenirent"
-  ],
-  [
     "préconcevoir",
     "préconçus           préconcevois",
     "préconçus           préconcevois",
@@ -583,15 +430,6 @@
     "prévalûmes          prévaloîmes",
     "prévalûtes          prévaloîtes",
     "prévalurent         prévaloirent"
-  ],
-  [
-    "prévenir",
-    "prévins             prévenis",
-    "prévins             prévenis",
-    "prévint             prévenit",
-    "prévînmes           prévenîmes",
-    "prévîntes           prévenîtes",
-    "prévinrent          prévenirent"
   ],
   [
     "prévoir",
@@ -675,15 +513,6 @@
     "redurent            redevoirent"
   ],
   [
-    "redevenir",
-    "redevins            redevenis",
-    "redevins            redevenis",
-    "redevint            redevenit",
-    "redevînmes          redevenîmes",
-    "redevîntes          redevenîtes",
-    "redevinrent         redevenirent"
-  ],
-  [
     "reparcourir",
     "reparcourus         reparcouris",
     "reparcourus         reparcouris",
@@ -700,15 +529,6 @@
     "requîmes            requérîmes",
     "requîtes            requérîtes",
     "requirent           requérirent"
-  ],
-  [
-    "ressouvenir",
-    "ressouvins          ressouvenis",
-    "ressouvins          ressouvenis",
-    "ressouvint          ressouvenit",
-    "ressouvînmes        ressouvenîmes",
-    "ressouvîntes        ressouvenîtes",
-    "ressouvinrent       ressouvenirent"
   ],
   [
     "ressurgir",
@@ -729,15 +549,6 @@
     "resurgirent         resurgirent"
   ],
   [
-    "retenir",
-    "retins              retenis",
-    "retins              retenis",
-    "retint              retenit",
-    "retînmes            retenîmes",
-    "retîntes            retenîtes",
-    "retinrent           retenirent"
-  ],
-  [
     "revaloir",
     "revalus             revalois",
     "revalus             revalois",
@@ -745,15 +556,6 @@
     "revalûmes           revaloîmes",
     "revalûtes           revaloîtes",
     "revalurent          revaloirent"
-  ],
-  [
-    "revenir",
-    "revins              revenis",
-    "revins              revenis",
-    "revint              revenit",
-    "revînmes            revenîmes",
-    "revîntes            revenîtes",
-    "revinrent           revenirent"
   ],
   [
     "revoir",
@@ -846,33 +648,6 @@
     "secoururent         secourirent"
   ],
   [
-    "soutenir",
-    "soutins             soutenis",
-    "soutins             soutenis",
-    "soutint             soutenit",
-    "soutînmes           soutenîmes",
-    "soutîntes           soutenîtes",
-    "soutinrent          soutenirent"
-  ],
-  [
-    "souvenir",
-    "souvins             souvenis",
-    "souvins             souvenis",
-    "souvint             souvenit",
-    "souvînmes           souvenîmes",
-    "souvîntes           souvenîtes",
-    "souvinrent          souvenirent"
-  ],
-  [
-    "subvenir",
-    "subvins             subvenis",
-    "subvins             subvenis",
-    "subvint             subvenit",
-    "subvînmes           subvenîmes",
-    "subvîntes           subvenîtes",
-    "subvinrent          subvenirent"
-  ],
-  [
     "surgir",
     "surgis              surgeis",
     "surgis              surgeis",
@@ -880,24 +655,6 @@
     "surgîmes            surgeîmes",
     "surgîtes            surgeîtes",
     "surgirent           surgirent"
-  ],
-  [
-    "survenir",
-    "survins             survenis",
-    "survins             survenis",
-    "survint             survenit",
-    "survînmes           survenîmes",
-    "survîntes           survenîtes",
-    "survinrent          survenirent"
-  ],
-  [
-    "tenir",
-    "tins                tenis",
-    "tins                tenis",
-    "tint                tenit",
-    "tînmes              tenîmes",
-    "tîntes              tenîtes",
-    "tinrent             tenirent"
   ],
   [
     "vagir",
@@ -916,15 +673,6 @@
     "valûmes             valoîmes",
     "valûtes             valoîtes",
     "valurent            valoirent"
-  ],
-  [
-    "venir",
-    "vins                venis",
-    "vins                venis",
-    "vint                venit",
-    "vînmes              venîmes",
-    "vîntes              venîtes",
-    "vinrent             venirent"
   ],
   [
     "voir",
