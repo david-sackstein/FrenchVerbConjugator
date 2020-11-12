@@ -24,13 +24,6 @@ namespace ConjugatorLibrary.SecondGroup
                 return ussEndings.AddEndings("s");
             }
 
-            if (verb.EndsWith("enir"))
-            {
-                var stem = verb.TrimEnd("enir");
-                var modifiedEndings = issEndings.Select(s => s.Insert(1, "n")).ToArray();
-                return modifiedEndings.AddEndings(stem);
-            }
-
             if (verb.EndsWith("ourir"))
             {
                 string stem = verb.Remove(verb.Length - 2);
@@ -43,10 +36,16 @@ namespace ConjugatorLibrary.SecondGroup
                 return ussEndings.AddEndings(modifiedStem);
             }
 
-            if (verb.EndsWith("quérir"))
+            if (verb.EndsWith("ouvoir"))
             {
-                string stem = verb.TrimEnd("érir");
-                return issEndings.AddEndings(stem);
+                string stem = verb.TrimEnd("ouvoir");
+                return ussEndings.AddEndings(stem);
+            }
+
+            if (verb.EndsWith("devoir"))
+            {
+                string modifiedStem = verb.TrimEnd("evoir");
+                return ussEndings.AddEndings(modifiedStem);
             }
 
             if (verb.EndsWith("eoir"))
@@ -55,22 +54,10 @@ namespace ConjugatorLibrary.SecondGroup
                 return issEndings.AddEndings(stem);
             }
 
-            if (verb.EndsWith("ouvoir"))
-            {
-                string stem = verb.TrimEnd("ouvoir");
-                return ussEndings.AddEndings(stem);
-            }
-
             if (verb.EndsWith("revoir"))
             {
                 string modifiedStem = verb.TrimEnd("oir");
                 return issEndings.AddEndings(modifiedStem);
-            }
-
-            if (verb.EndsWith("devoir"))
-            {
-                string modifiedStem = verb.TrimEnd("evoir");
-                return ussEndings.AddEndings(modifiedStem);
             }
 
             if (verb == "prévoir" || verb == "voir")
@@ -83,6 +70,18 @@ namespace ConjugatorLibrary.SecondGroup
             {
                 string modifiedStem = verb.TrimEnd("oir");
                 return ussEndings.AddEndings(modifiedStem);
+            }
+            if (verb.EndsWith("quérir"))
+            {
+                string stem = verb.TrimEnd("érir");
+                return issEndings.AddEndings(stem);
+            }
+
+            if (verb.EndsWith("enir"))
+            {
+                var stem = verb.TrimEnd("enir");
+                var modifiedEndings = issEndings.Select(s => s.Insert(1, "n")).ToArray();
+                return modifiedEndings.AddEndings(stem);
             }
 
             string regularStem = verb.Remove(verb.Length - 2);
