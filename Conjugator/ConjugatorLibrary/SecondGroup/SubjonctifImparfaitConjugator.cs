@@ -24,77 +24,78 @@ namespace ConjugatorLibrary.SecondGroup
                 return ussEndings.AddEndings("s");
             }
 
-            var stemEndings = wweew(verb);
+            var parts = GetConjugationParts(verb);
 
-            return stemEndings.Endings.AddEndings(stemEndings.Stem);
+            return parts.GetConjugation();
         }
 
-        private static StemEndings wweew(string verb)
+        private static ConjugationParts GetConjugationParts(string verb)
         {
             if (verb.EndsWith("ourir"))
             {
-                var stem = verb.TrimEnd("ir");
-                return new StemEndings(stem, ussEndings);
+                return new ConjugationParts(
+                    verb.TrimEnd("ir"), 
+                    ussEndings);
             }
 
             if (verb.EndsWith("oir"))
             {
-                return OirVerbs(verb);
+                return GetOirConjugationParts(verb);
             }
 
             if (verb.EndsWith("quérir"))
             {
-                var stem = verb.TrimEnd("érir");
-                return new StemEndings(stem, issEndings);
+                return new ConjugationParts(
+                    verb.TrimEnd("érir"), 
+                    issEndings);
             }
 
             if (verb.EndsWith("enir"))
             {
                 var stem = verb.TrimEnd("enir");
                 var endings = issEndings.Select(s => s.Insert(1, "n")).ToArray();
-                return new StemEndings(stem, endings);
+                return new ConjugationParts(stem, endings);
             }
 
             var regularStem = verb.TrimEnd("ir");
-            return new StemEndings(regularStem, issEndings);
+            return new ConjugationParts(regularStem, issEndings);
         }
 
-        private static StemEndings OirVerbs(string verb)
+        private static ConjugationParts GetOirConjugationParts(string verb)
         {
             if (Exceptions.cevoirVerbs.Contains(verb))
             {
-                var stem = verb.TrimEnd("cevoir") + "ç";
-                return new StemEndings(stem, ussEndings);
+                return new ConjugationParts(
+                    verb.TrimEnd("cevoir") + "ç", 
+                    ussEndings);
             }
 
             if (verb.EndsWith("ouvoir"))
             {
-                var stem = verb.TrimEnd("ouvoir");
-                return new StemEndings(stem, ussEndings);
+                return new ConjugationParts(
+                    verb.TrimEnd("ouvoir"), 
+                    ussEndings);
             }
 
             if (verb.EndsWith("devoir"))
             {
-                var stem = verb.TrimEnd("evoir");
-                return new StemEndings(stem, ussEndings);
+                return new ConjugationParts(
+                    verb.TrimEnd("evoir"), 
+                    ussEndings);
             }
 
             if (verb.EndsWith("eoir"))
             {
-                var stem = verb.TrimEnd("eoir");
-                return new StemEndings(stem, issEndings);
+                return new ConjugationParts(
+                    verb.TrimEnd("eoir"), 
+                    issEndings);
             }
 
-            {
-                var stem = verb.TrimEnd("oir");
+            var stem = verb.TrimEnd("oir");
 
-                if (verb == "revoir" || verb == "entrevoir" || verb == "prévoir" || verb == "voir")
-                {
-                    return new StemEndings(stem, issEndings);
-                }
-
-                return new StemEndings(stem, ussEndings);
-            }
+            return verb == "revoir" || verb == "entrevoir" || verb == "prévoir" || verb == "voir"
+                ? new ConjugationParts(stem, issEndings)
+                : new ConjugationParts(stem, ussEndings);
         }
     }
 }
