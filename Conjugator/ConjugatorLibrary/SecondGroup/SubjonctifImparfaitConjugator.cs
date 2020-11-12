@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using System;
+using System.Data;
 using System.Linq;
 
 namespace ConjugatorLibrary.SecondGroup
@@ -14,6 +15,15 @@ namespace ConjugatorLibrary.SecondGroup
             if (verb == "avoir")
             {
                 return uEndings.AddEndings("e");
+            }
+
+            if (verb == "prévoir")
+            {
+                Console.WriteLine();
+            }
+            if (verb == "savoir")
+            {
+                return uEndings.AddEndings("s");
             }
 
             string stem = verb.Remove(verb.Length - 2);
@@ -63,6 +73,12 @@ namespace ConjugatorLibrary.SecondGroup
             {
                 string modifiedStem = verb.TrimEnd("evoir");
                 return uEndings.AddEndings(modifiedStem);
+            }
+
+            if (verb == "prévoir" || verb == "voir")
+            {
+                string modifiedStem = verb.TrimEnd("oir");
+                return Endings.AddEndings(modifiedStem);
             }
 
             if (verb.EndsWith("oir"))
