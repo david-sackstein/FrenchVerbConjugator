@@ -22,6 +22,14 @@ namespace ConjugatorLibrary.SecondGroup
                 return parts.GetConjugation();
             }
 
+            if (Exceptions.cevoirVerbs.Contains(verb))
+            {
+                var parts = new ConjugationParts(
+                    verb.TrimEnd("cevoir") + "ç",
+                    usEndings);
+                return parts.GetConjugation();
+            }
+
             if (verb.EndsWith("ourir"))
             {
                 var parts = new ConjugationParts(

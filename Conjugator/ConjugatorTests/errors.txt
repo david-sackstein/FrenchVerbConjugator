@@ -9,15 +9,6 @@
     "agirent             agirent"
   ],
   [
-    "apercevoir",
-    "aperçus             apercevois",
-    "aperçus             apercevois",
-    "aperçut             apercevoit",
-    "aperçûmes           apercevoîmes",
-    "aperçûtes           apercevoîtes",
-    "aperçurent          apercevoirent"
-  ],
-  [
     "assagir",
     "assagis             assageis",
     "assagis             assageis",
@@ -45,15 +36,6 @@
     "churent             choirent"
   ],
   [
-    "concevoir",
-    "conçus              concevois",
-    "conçus              concevois",
-    "conçut              concevoit",
-    "conçûmes            concevoîmes",
-    "conçûtes            concevoîtes",
-    "conçurent           concevoirent"
-  ],
-  [
     "devoir",
     "dus                 devois",
     "dus                 devois",
@@ -61,15 +43,6 @@
     "dûmes               devoîmes",
     "dûtes               devoîtes",
     "durent              devoirent"
-  ],
-  [
-    "décevoir",
-    "déçus               décevois",
-    "déçus               décevois",
-    "déçut               décevoit",
-    "déçûmes             décevoîmes",
-    "déçûtes             décevoîtes",
-    "déçurent            décevoirent"
   ],
   [
     "déchoir",
@@ -97,15 +70,6 @@
     "dérougîmes          dérougeîmes",
     "dérougîtes          dérougeîtes",
     "dérougirent         dérougirent"
-  ],
-  [
-    "entrapercevoir",
-    "entraperçus         entrapercevois",
-    "entraperçus         entrapercevois",
-    "entraperçut         entrapercevoit",
-    "entraperçûmes       entrapercevoîmes",
-    "entraperçûtes       entrapercevoîtes",
-    "entraperçurent      entrapercevoirent"
   ],
   [
     "entrevoir",
@@ -162,15 +126,6 @@
     "mégirent            mégirent"
   ],
   [
-    "percevoir",
-    "perçus              percevois",
-    "perçus              percevois",
-    "perçut              percevoit",
-    "perçûmes            percevoîmes",
-    "perçûtes            percevoîtes",
-    "perçurent           percevoirent"
-  ],
-  [
     "pouvoir",
     "pus                 pouvois",
     "pus                 pouvois",
@@ -207,15 +162,6 @@
     "promurent           promouvoirent"
   ],
   [
-    "préconcevoir",
-    "préconçus           préconcevois",
-    "préconçus           préconcevois",
-    "préconçut           préconcevoit",
-    "préconçûmes         préconcevoîmes",
-    "préconçûtes         préconcevoîtes",
-    "préconçurent        préconcevoirent"
-  ],
-  [
     "prévaloir",
     "prévalus            prévalois",
     "prévalus            prévalois",
@@ -241,15 +187,6 @@
     "rassîmes            rasseoîmes",
     "rassîtes            rasseoîtes",
     "rassirent           rasseoirent"
-  ],
-  [
-    "recevoir",
-    "reçus               recevois",
-    "reçus               recevois",
-    "reçut               recevoit",
-    "reçûmes             recevoîmes",
-    "reçûtes             recevoîtes",
-    "reçurent            recevoirent"
   ],
   [
     "redevoir",
