@@ -99,15 +99,6 @@
     "mégirent            mégirent"
   ],
   [
-    "pleuvoir",
-    "                    pleuvois",
-    "                    pleuvois",
-    "plut                pleuvoit",
-    "                    pleuvoîmes",
-    "                    pleuvoîtes",
-    "plurent             pleuvoirent"
-  ],
-  [
     "pourvoir",
     "pourvus             pourvois",
     "pourvus             pourvois",
@@ -223,15 +214,6 @@
     "rétroagîmes         rétroageîmes",
     "rétroagîtes         rétroageîtes",
     "rétroagirent        rétroagirent"
-  ],
-  [
-    "savoir",
-    "sus                 savois",
-    "sus                 savois",
-    "sut                 savoit",
-    "sûmes               savoîmes",
-    "sûtes               savoîtes",
-    "surent              savoirent"
   ],
   [
     "surgir",

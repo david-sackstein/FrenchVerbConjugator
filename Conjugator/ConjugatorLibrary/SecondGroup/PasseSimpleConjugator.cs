@@ -9,9 +9,19 @@ namespace ConjugatorLibrary.SecondGroup
 
         public static string[] GetConjugations(string verb)
         {
+            if (verb == "pleuvoir")
+            {
+                return new[] { "", "", "plut", "", "", "plurent" };
+            }
+
             if (verb == "avoir")
             {
                 return usEndings.AddEndings("e");
+            }
+
+            if (verb == "savoir")
+            {
+                return usEndings.AddEndings("s");
             }
 
             if (verb.EndsWith("enir"))
