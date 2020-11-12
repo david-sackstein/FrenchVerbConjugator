@@ -1,23 +1,5 @@
 [
   [
-    "agir",
-    "agis                ageis",
-    "agis                ageis",
-    "agit                ageit",
-    "agîmes              ageîmes",
-    "agîtes              ageîtes",
-    "agirent             agirent"
-  ],
-  [
-    "assagir",
-    "assagis             assageis",
-    "assagis             assageis",
-    "assagit             assageit",
-    "assagîmes           assageîmes",
-    "assagîtes           assageîtes",
-    "assagirent          assagirent"
-  ],
-  [
     "choir",
     "chus                chois",
     "chus                chois",
@@ -45,15 +27,6 @@
     "dépourvurent        dépourvoirent"
   ],
   [
-    "dérougir",
-    "dérougis            dérougeis",
-    "dérougis            dérougeis",
-    "dérougit            dérougeit",
-    "dérougîmes          dérougeîmes",
-    "dérougîtes          dérougeîtes",
-    "dérougirent         dérougirent"
-  ],
-  [
     "entrevoir",
     "entrevis            entrevois",
     "entrevis            entrevois",
@@ -70,33 +43,6 @@
     "                    falloîmes",
     "                    falloîtes",
     "                    falloirent"
-  ],
-  [
-    "interagir",
-    "interagis           interageis",
-    "interagis           interageis",
-    "interagit           interageit",
-    "interagîmes         interageîmes",
-    "interagîtes         interageîtes",
-    "interagirent        interagirent"
-  ],
-  [
-    "mugir",
-    "mugis               mugeis",
-    "mugis               mugeis",
-    "mugit               mugeit",
-    "mugîmes             mugeîmes",
-    "mugîtes             mugeîtes",
-    "mugirent            mugirent"
-  ],
-  [
-    "mégir",
-    "mégis               mégeis",
-    "mégis               mégeis",
-    "mégit               mégeit",
-    "mégîmes             mégeîmes",
-    "mégîtes             mégeîtes",
-    "mégirent            mégirent"
   ],
   [
     "pourvoir",
@@ -126,24 +72,6 @@
     "prévirent           prévoirent"
   ],
   [
-    "ressurgir",
-    "ressurgis           ressurgeis",
-    "ressurgis           ressurgeis",
-    "ressurgit           ressurgeit",
-    "ressurgîmes         ressurgeîmes",
-    "ressurgîtes         ressurgeîtes",
-    "ressurgirent        ressurgirent"
-  ],
-  [
-    "resurgir",
-    "resurgis            resurgeis",
-    "resurgis            resurgeis",
-    "resurgit            resurgeit",
-    "resurgîmes          resurgeîmes",
-    "resurgîtes          resurgeîtes",
-    "resurgirent         resurgirent"
-  ],
-  [
     "revaloir",
     "revalus             revalois",
     "revalus             revalois",
@@ -160,78 +88,6 @@
     "revîmes             revoîmes",
     "revîtes             revoîtes",
     "revirent            revoirent"
-  ],
-  [
-    "rougir",
-    "rougis              rougeis",
-    "rougis              rougeis",
-    "rougit              rougeit",
-    "rougîmes            rougeîmes",
-    "rougîtes            rougeîtes",
-    "rougirent           rougirent"
-  ],
-  [
-    "rugir",
-    "rugis               rugeis",
-    "rugis               rugeis",
-    "rugit               rugeit",
-    "rugîmes             rugeîmes",
-    "rugîtes             rugeîtes",
-    "rugirent            rugirent"
-  ],
-  [
-    "réagir",
-    "réagis              réageis",
-    "réagis              réageis",
-    "réagit              réageit",
-    "réagîmes            réageîmes",
-    "réagîtes            réageîtes",
-    "réagirent           réagirent"
-  ],
-  [
-    "régir",
-    "régis               régeis",
-    "régis               régeis",
-    "régit               régeit",
-    "régîmes             régeîmes",
-    "régîtes             régeîtes",
-    "régirent            régirent"
-  ],
-  [
-    "rélargir",
-    "rélargis            rélargeis",
-    "rélargis            rélargeis",
-    "rélargit            rélargeit",
-    "rélargîmes          rélargeîmes",
-    "rélargîtes          rélargeîtes",
-    "rélargirent         rélargirent"
-  ],
-  [
-    "rétroagir",
-    "rétroagis           rétroageis",
-    "rétroagis           rétroageis",
-    "rétroagit           rétroageit",
-    "rétroagîmes         rétroageîmes",
-    "rétroagîtes         rétroageîtes",
-    "rétroagirent        rétroagirent"
-  ],
-  [
-    "surgir",
-    "surgis              surgeis",
-    "surgis              surgeis",
-    "surgit              surgeit",
-    "surgîmes            surgeîmes",
-    "surgîtes            surgeîtes",
-    "surgirent           surgirent"
-  ],
-  [
-    "vagir",
-    "vagis               vageis",
-    "vagis               vageis",
-    "vagit               vageit",
-    "vagîmes             vageîmes",
-    "vagîtes             vageîtes",
-    "vagirent            vagirent"
   ],
   [
     "valoir",
@@ -268,15 +124,6 @@
     "échûmes             échoîmes",
     "échûtes             échoîtes",
     "échurent            échoirent"
-  ],
-  [
-    "élargir",
-    "élargis             élargeis",
-    "élargis             élargeis",
-    "élargit             élargeit",
-    "élargîmes           élargeîmes",
-    "élargîtes           élargeîtes",
-    "élargirent          élargirent"
   ],
   [
     "équivaloir",

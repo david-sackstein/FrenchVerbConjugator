@@ -11,7 +11,7 @@ namespace ConjugatorLibrary.SecondGroup
         {
             if (verb == "pleuvoir")
             {
-                return new[] { "", "", "plut", "", "", "plurent" };
+                return new[] {"", "", "plut", "", "", "plurent"};
             }
 
             if (verb == "avoir")
@@ -24,74 +24,74 @@ namespace ConjugatorLibrary.SecondGroup
                 return usEndings.AddEndings("s");
             }
 
+            var parts = GetConjugationParts(verb);
+
+            return parts.GetConjugation();
+        }
+
+        private static ConjugationParts GetConjugationParts(string verb)
+        {
+            if (verb.EndsWith("ourir"))
+            {
+                return new ConjugationParts(
+                    verb.TrimEnd("ir"),
+                    usEndings);
+            }
+
             if (verb.EndsWith("enir"))
             {
                 var stem1 = verb.TrimEnd("enir");
                 var endings1 = isEndings.Select(s => s.Insert(1, "n")).ToArray();
-                var parts = new ConjugationParts(stem1, endings1);
-                return parts.GetConjugation();
+                return new ConjugationParts(stem1, endings1);
             }
 
             if (Exceptions.cevoirVerbs.Contains(verb))
             {
-                var parts = new ConjugationParts(
+                return new ConjugationParts(
                     verb.TrimEnd("cevoir") + "ç",
                     usEndings);
-                return parts.GetConjugation();
             }
 
             if (verb.EndsWith("ourir"))
             {
-                var parts = new ConjugationParts(
+                return new ConjugationParts(
                     verb.TrimEnd("ir"),
                     usEndings);
-                return parts.GetConjugation();
             }
 
             if (verb.EndsWith("ouvoir"))
             {
-                var parts = new ConjugationParts(
+                return new ConjugationParts(
                     verb.TrimEnd("ouvoir"),
                     usEndings);
-                return parts.GetConjugation();
             }
 
             if (verb.EndsWith("devoir"))
             {
-                var parts = new ConjugationParts(
+                return new ConjugationParts(
                     verb.TrimEnd("evoir"),
                     usEndings);
-                return parts.GetConjugation();
             }
 
             if (verb.EndsWith("eoir"))
             {
-                var parts = new ConjugationParts(
+                return new ConjugationParts(
                     verb.TrimEnd("eoir"),
                     isEndings);
-                return parts.GetConjugation();
             }
 
             if (verb.EndsWith("quérir"))
             {
-                var parts = new ConjugationParts(
+                return new ConjugationParts(
                     verb.TrimEnd("érir"),
                     isEndings);
-                return parts.GetConjugation();
             }
 
             var stem = GetStem(verb);
             var endings = isEndings;
 
-            // soften the g before the 'a' by adding an e
-            if (verb[^3] == 'g')
-            {
-                endings = isEndings.SelectExceptFor(5, s => "e" + s).ToArray();
-            }
-
-            var withEndings = endings.AddEndings(stem);
-
-            return withEndings;
+        
+            return new ConjugationParts(stem, endings);
         }
 
         private static string GetStem(string verb)
