@@ -12,6 +12,11 @@ namespace ConjugatorLibrary.SecondGroup
         {
             var uEndings = new[] { "usse", "usses", "ût", "ussions", "ussiez", "ussent" };
 
+            if (verb == "pleuvoir")
+            {
+                return new[] {"", "", "plût", "", "", ""};
+            }
+
             if (verb == "avoir")
             {
                 return uEndings.AddEndings("e");
