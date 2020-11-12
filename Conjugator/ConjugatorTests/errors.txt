@@ -18,15 +18,6 @@
     "assagirent          assagirent"
   ],
   [
-    "asseoir",
-    "assis               asseois",
-    "assis               asseois",
-    "assit               asseoit",
-    "assîmes             asseoîmes",
-    "assîtes             asseoîtes",
-    "assirent            asseoirent"
-  ],
-  [
     "choir",
     "chus                chois",
     "chus                chois",
@@ -34,15 +25,6 @@
     "chûmes              choîmes",
     "chûtes              choîtes",
     "churent             choirent"
-  ],
-  [
-    "devoir",
-    "dus                 devois",
-    "dus                 devois",
-    "dut                 devoit",
-    "dûmes               devoîmes",
-    "dûtes               devoîtes",
-    "durent              devoirent"
   ],
   [
     "déchoir",
@@ -151,24 +133,6 @@
     "prévîmes            prévoîmes",
     "prévîtes            prévoîtes",
     "prévirent           prévoirent"
-  ],
-  [
-    "rasseoir",
-    "rassis              rasseois",
-    "rassis              rasseois",
-    "rassit              rasseoit",
-    "rassîmes            rasseoîmes",
-    "rassîtes            rasseoîtes",
-    "rassirent           rasseoirent"
-  ],
-  [
-    "redevoir",
-    "redus               redevois",
-    "redus               redevois",
-    "redut               redevoit",
-    "redûmes             redevoîmes",
-    "redûtes             redevoîtes",
-    "redurent            redevoirent"
   ],
   [
     "ressurgir",

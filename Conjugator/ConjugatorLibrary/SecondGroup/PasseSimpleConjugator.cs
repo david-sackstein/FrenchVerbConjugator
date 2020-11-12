@@ -46,6 +46,22 @@ namespace ConjugatorLibrary.SecondGroup
                 return parts.GetConjugation();
             }
 
+            if (verb.EndsWith("devoir"))
+            {
+                var parts = new ConjugationParts(
+                    verb.TrimEnd("evoir"),
+                    usEndings);
+                return parts.GetConjugation();
+            }
+
+            if (verb.EndsWith("eoir"))
+            {
+                var parts = new ConjugationParts(
+                    verb.TrimEnd("eoir"),
+                    isEndings);
+                return parts.GetConjugation();
+            }
+
             if (verb.EndsWith("quérir"))
             {
                 var parts = new ConjugationParts(
