@@ -22,16 +22,10 @@ namespace ConjugatorLibrary.SecondGroup
                 return uEndings.AddEndings("e");
             }
 
-            if (verb == "prévoir")
-            {
-                Console.WriteLine();
-            }
             if (verb == "savoir")
             {
                 return uEndings.AddEndings("s");
             }
-
-            string stem = verb.Remove(verb.Length - 2);
 
             if (verb.EndsWith("enir"))
             {
@@ -42,6 +36,7 @@ namespace ConjugatorLibrary.SecondGroup
 
             if (verb.EndsWith("ourir"))
             {
+                string stem = verb.Remove(verb.Length - 2);
                 return uEndings.AddEndings(stem);
             }
 
@@ -53,18 +48,19 @@ namespace ConjugatorLibrary.SecondGroup
 
             if (verb.EndsWith("quérir"))
             {
-                stem = verb.TrimEnd("érir");
+                string stem = verb.TrimEnd("érir");
+                return Endings.AddEndings(stem);
             }
 
             if (verb.EndsWith("eoir"))
             {
-                stem = verb.TrimEnd("eoir");
+                string stem = verb.TrimEnd("eoir");
                 return Endings.AddEndings(stem);
             }
 
             if (verb.EndsWith("ouvoir"))
             {
-                stem = verb.TrimEnd("ouvoir");
+                string stem = verb.TrimEnd("ouvoir");
                 return uEndings.AddEndings(stem);
             }
 
@@ -92,7 +88,8 @@ namespace ConjugatorLibrary.SecondGroup
                 return uEndings.AddEndings(modifiedStem);
             }
 
-            return Endings.AddEndings(stem);
+            string regularStem = verb.Remove(verb.Length - 2);
+            return Endings.AddEndings(regularStem);
         }
     }
 }
