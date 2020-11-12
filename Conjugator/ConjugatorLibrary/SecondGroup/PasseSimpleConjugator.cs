@@ -9,6 +9,11 @@ namespace ConjugatorLibrary.SecondGroup
 
         public static string[] GetConjugations(string verb)
         {
+            if (verb == "avoir")
+            {
+                return usEndings.AddEndings("e");
+            }
+
             if (verb.EndsWith("enir"))
             {
                 var stem1 = verb.TrimEnd("enir");

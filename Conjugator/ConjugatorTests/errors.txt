@@ -1,14 +1,5 @@
 [
   [
-    "avoir",
-    "eus                 avois",
-    "eus                 avois",
-    "eut                 avoit",
-    "eûmes               avoîmes",
-    "eûtes               avoîtes",
-    "eurent              avoirent"
-  ],
-  [
     "acquérir",
     "acquis              acquéris",
     "acquis              acquéris",
