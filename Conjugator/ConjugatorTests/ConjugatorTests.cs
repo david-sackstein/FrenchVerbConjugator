@@ -124,6 +124,10 @@ namespace ConjugatorTests
                  expected.Length == actual.Length &&
                  expected.Zip(actual).All(Equal);
 
+            if (!isCorrect)
+            {
+                return false;
+            }
             return isCorrect;
         }
     }
