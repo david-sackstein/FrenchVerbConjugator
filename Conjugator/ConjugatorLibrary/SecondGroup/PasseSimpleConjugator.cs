@@ -1,9 +1,9 @@
 ﻿namespace ConjugatorLibrary.SecondGroup
 {
-    public static class SubjonctifImparfaitConjugator
+    public static class PasseSimpleConjugator
     {
-        private static readonly string[] isEndings = {"isse", "isses", "ît", "issions", "issiez", "issent"};
-        private static readonly string[] usEndings = {"usse", "usses", "ût", "ussions", "ussiez", "ussent"};
+        private static string[] isEndings { get; } = {"is", "is", "it", "îmes", "îtes", "irent"};
+        private static string[] usEndings { get; } = {"us", "us", "ut", "ûmes", "ûtes", "urent"};
 
         private static readonly PasseSimpleSubjectifImparfaitConjugatorImpl impl = new PasseSimpleSubjectifImparfaitConjugatorImpl(isEndings, usEndings);
 
@@ -11,7 +11,7 @@
         {
             if (verb == "pleuvoir")
             {
-                return new[] {"", "", "plût", "", "", ""};
+                return new[] {"", "", "plut", "", "", "plurent"};
             }
 
             return impl.GetConjugations(verb);

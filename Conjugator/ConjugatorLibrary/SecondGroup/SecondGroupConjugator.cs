@@ -16,7 +16,7 @@ namespace ConjugatorLibrary.SecondGroup
         public Func<string, string[]> Imperatif => ImperatifConjugator.GetConjugations;
         public Func<string, string[]> ParticipePasse => ParticipePasseConjugator.GetConjugations;
         public Func<string, string[]> ParticipePresent => ParticipePresentConjugator.GetConjugations;
-        public Func<string, string[]> PasseSimple => EmptyConjugator.GetConjugations;
+        public Func<string, string[]> PasseSimple => PasseSimpleConjugator.GetConjugations;
         public Func<string, string[]> Present => PresentConjugator.GetConjugations;
         public Func<string, string[]> SubjonctifImparfait => SubjonctifImparfaitConjugator.GetConjugations;
         public Func<string, string[]> SubjonctifPresent => SubjonctifPresentConjugator.GetConjugations;
