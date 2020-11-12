@@ -24,24 +24,6 @@ namespace ConjugatorLibrary.SecondGroup
             "défaillir", "tressaillir"
         }).ToArray();
 
-        /*
-            choir
-            déchoir
-            dépourvoir
-
-            pourvoir
-
-            ravoir
-
-            chaloir
-            falloir
-            prévaloir
-            revaloir
-            valoir
-            vouloir
-            échoir
-            équivaloir
-        */
         public static readonly string[] verbsWithYonsEndings =
         {
             "choir", "déchoir", "dépourvoir", "entrevoir", 

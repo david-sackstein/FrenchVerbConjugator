@@ -1,13 +1,12 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 
 namespace ConjugatorLibrary.SecondGroup
 {
     public static class SubjonctifImparfaitConjugator
     {
         private static readonly string[] issEndings = {"isse", "isses", "ît", "issions", "issiez", "issent"};
-        private static readonly string[] ussEndings = { "usse", "usses", "ût", "ussions", "ussiez", "ussent" };
-        
+        private static readonly string[] ussEndings = {"usse", "usses", "ût", "ussions", "ussiez", "ussent"};
+
         public static string[] GetConjugations(string verb)
         {
             if (verb == "pleuvoir")
@@ -27,50 +26,51 @@ namespace ConjugatorLibrary.SecondGroup
 
             if (verb.EndsWith("ourir"))
             {
-                string stem = verb.Remove(verb.Length - 2);
+                var stem = verb.TrimEnd("ir");
                 return ussEndings.AddEndings(stem);
-            }
-
-            if (Exceptions.cevoirVerbs.Contains(verb))
-            {
-                string modifiedStem = verb.TrimEnd("cevoir") + "ç";
-                return ussEndings.AddEndings(modifiedStem);
-            }
-
-            if (verb.EndsWith("ouvoir"))
-            {
-                string stem = verb.TrimEnd("ouvoir");
-                return ussEndings.AddEndings(stem);
-            }
-
-            if (verb.EndsWith("devoir"))
-            {
-                string modifiedStem = verb.TrimEnd("evoir");
-                return ussEndings.AddEndings(modifiedStem);
-            }
-
-            if (verb.EndsWith("eoir"))
-            {
-                string stem = verb.TrimEnd("eoir");
-                return issEndings.AddEndings(stem);
-            }
-
-            if (verb.EndsWith("revoir") || verb == "prévoir" || verb == "voir")
-            {
-                string modifiedStem = verb.TrimEnd("oir");
-                return issEndings.AddEndings(modifiedStem);
             }
 
             if (verb.EndsWith("oir"))
             {
-                Console.WriteLine(verb);
-                string modifiedStem = verb.TrimEnd("oir");
-                return ussEndings.AddEndings(modifiedStem);
+                if (Exceptions.cevoirVerbs.Contains(verb))
+                {
+                    var modifiedStem = verb.TrimEnd("cevoir") + "ç";
+                    return ussEndings.AddEndings(modifiedStem);
+                }
+
+                if (verb.EndsWith("ouvoir"))
+                {
+                    var stem = verb.TrimEnd("ouvoir");
+                    return ussEndings.AddEndings(stem);
+                }
+
+                if (verb.EndsWith("devoir"))
+                {
+                    var stem = verb.TrimEnd("evoir");
+                    return ussEndings.AddEndings(stem);
+                }
+
+                if (verb.EndsWith("eoir"))
+                {
+                    var stem = verb.TrimEnd("eoir");
+                    return issEndings.AddEndings(stem);
+                }
+
+                {
+                    var stem = verb.TrimEnd("oir");
+
+                    if (verb == "revoir" || verb == "entrevoir" || verb == "prévoir" || verb == "voir")
+                    {
+                        return issEndings.AddEndings(stem);
+                    }
+
+                    return ussEndings.AddEndings(stem);
+                }
             }
 
             if (verb.EndsWith("quérir"))
             {
-                string stem = verb.TrimEnd("érir");
+                var stem = verb.TrimEnd("érir");
                 return issEndings.AddEndings(stem);
             }
 
@@ -81,7 +81,7 @@ namespace ConjugatorLibrary.SecondGroup
                 return modifiedEndings.AddEndings(stem);
             }
 
-            string regularStem = verb.Remove(verb.Length - 2);
+            var regularStem = verb.Remove(verb.Length - 2);
             return issEndings.AddEndings(regularStem);
         }
     }
