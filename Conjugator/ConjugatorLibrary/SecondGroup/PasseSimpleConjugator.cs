@@ -4,7 +4,7 @@ namespace ConjugatorLibrary.SecondGroup
 {
     public static class PasseSimpleConjugator
     {
-        private static string[] Endings { get; } = {"ai", "as", "a", "âmes", "âtes", "èrent"};
+        private static string[] Endings { get; } = {"is", "is", "it", "îmes", "îtes", "irent" };
 
         public static string[] GetConjugations(string verb)
         {
