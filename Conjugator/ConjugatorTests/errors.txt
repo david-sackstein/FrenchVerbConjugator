@@ -99,15 +99,6 @@
     "interagirent        interagirent"
   ],
   [
-    "mouvoir",
-    "mus                 mouvois",
-    "mus                 mouvois",
-    "mut                 mouvoit",
-    "mûmes               mouvoîmes",
-    "mûtes               mouvoîtes",
-    "murent              mouvoirent"
-  ],
-  [
     "mugir",
     "mugis               mugeis",
     "mugis               mugeis",
@@ -126,15 +117,6 @@
     "mégirent            mégirent"
   ],
   [
-    "pouvoir",
-    "pus                 pouvois",
-    "pus                 pouvois",
-    "put                 pouvoit",
-    "pûmes               pouvoîmes",
-    "pûtes               pouvoîtes",
-    "purent              pouvoirent"
-  ],
-  [
     "pleuvoir",
     "                    pleuvois",
     "                    pleuvois",
@@ -151,15 +133,6 @@
     "pourvûmes           pourvoîmes",
     "pourvûtes           pourvoîtes",
     "pourvurent          pourvoirent"
-  ],
-  [
-    "promouvoir",
-    "promus              promouvois",
-    "promus              promouvois",
-    "promut              promouvoit",
-    "promûmes            promouvoîmes",
-    "promûtes            promouvoîtes",
-    "promurent           promouvoirent"
   ],
   [
     "prévaloir",
@@ -358,15 +331,6 @@
     "élargîmes           élargeîmes",
     "élargîtes           élargeîtes",
     "élargirent          élargirent"
-  ],
-  [
-    "émouvoir",
-    "émus                émouvois",
-    "émus                émouvois",
-    "émut                émouvoit",
-    "émûmes              émouvoîmes",
-    "émûtes              émouvoîtes",
-    "émurent             émouvoirent"
   ],
   [
     "équivaloir",

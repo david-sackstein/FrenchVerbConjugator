@@ -38,6 +38,14 @@ namespace ConjugatorLibrary.SecondGroup
                 return parts.GetConjugation();
             }
 
+            if (verb.EndsWith("ouvoir"))
+            {
+                var parts = new ConjugationParts(
+                    verb.TrimEnd("ouvoir"),
+                    usEndings);
+                return parts.GetConjugation();
+            }
+
             if (verb.EndsWith("quérir"))
             {
                 var parts = new ConjugationParts(
