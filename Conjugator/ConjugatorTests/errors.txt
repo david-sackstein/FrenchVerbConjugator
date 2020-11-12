@@ -1,1 +1,3881 @@
-[]
+[
+  [
+    "avoir",
+    "eus                 avoai",
+    "eus                 avoas",
+    "eut                 avoa",
+    "eûmes               avoâmes",
+    "eûtes               avoâtes",
+    "eurent              avoèrent"
+  ],
+  [
+    "abasourdir",
+    "abasourdis          abasourdai",
+    "abasourdis          abasourdas",
+    "abasourdit          abasourda",
+    "abasourdîmes        abasourdâmes",
+    "abasourdîtes        abasourdâtes",
+    "abasourdirent       abasourdèrent"
+  ],
+  [
+    "abolir",
+    "abolis              abolai",
+    "abolis              abolas",
+    "abolit              abola",
+    "abolîmes            abolâmes",
+    "abolîtes            abolâtes",
+    "abolirent           abolèrent"
+  ],
+  [
+    "abonnir",
+    "abonnis             abonnai",
+    "abonnis             abonnas",
+    "abonnit             abonna",
+    "abonnîmes           abonnâmes",
+    "abonnîtes           abonnâtes",
+    "abonnirent          abonnèrent"
+  ],
+  [
+    "aboutir",
+    "aboutis             aboutai",
+    "aboutis             aboutas",
+    "aboutit             abouta",
+    "aboutîmes           aboutâmes",
+    "aboutîtes           aboutâtes",
+    "aboutirent          aboutèrent"
+  ],
+  [
+    "abrutir",
+    "abrutis             abrutai",
+    "abrutis             abrutas",
+    "abrutit             abruta",
+    "abrutîmes           abrutâmes",
+    "abrutîtes           abrutâtes",
+    "abrutirent          abrutèrent"
+  ],
+  [
+    "abstenir",
+    "abstins             abstenai",
+    "abstins             abstenas",
+    "abstint             abstena",
+    "abstînmes           abstenâmes",
+    "abstîntes           abstenâtes",
+    "abstinrent          abstenèrent"
+  ],
+  [
+    "abâtardir",
+    "abâtardis           abâtardai",
+    "abâtardis           abâtardas",
+    "abâtardit           abâtarda",
+    "abâtardîmes         abâtardâmes",
+    "abâtardîtes         abâtardâtes",
+    "abâtardirent        abâtardèrent"
+  ],
+  [
+    "abêtir",
+    "abêtis              abêtai",
+    "abêtis              abêtas",
+    "abêtit              abêta",
+    "abêtîmes            abêtâmes",
+    "abêtîtes            abêtâtes",
+    "abêtirent           abêtèrent"
+  ],
+  [
+    "accomplir",
+    "accomplis           accomplai",
+    "accomplis           accomplas",
+    "accomplit           accompla",
+    "accomplîmes         accomplâmes",
+    "accomplîtes         accomplâtes",
+    "accomplirent        accomplèrent"
+  ],
+  [
+    "accourir",
+    "accourus            accourai",
+    "accourus            accouras",
+    "accourut            accoura",
+    "accourûmes          accourâmes",
+    "accourûtes          accourâtes",
+    "accoururent         accourèrent"
+  ],
+  [
+    "accourcir",
+    "accourcis           accourçai",
+    "accourcis           accourças",
+    "accourcit           accourça",
+    "accourcîmes         accourçâmes",
+    "accourcîtes         accourçâtes",
+    "accourcirent        accourcèrent"
+  ],
+  [
+    "accroupir",
+    "accroupis           accroupai",
+    "accroupis           accroupas",
+    "accroupit           accroupa",
+    "accroupîmes         accroupâmes",
+    "accroupîtes         accroupâtes",
+    "accroupirent        accroupèrent"
+  ],
+  [
+    "accueillir",
+    "accueillis          accueillai",
+    "accueillis          accueillas",
+    "accueillit          accueilla",
+    "accueillîmes        accueillâmes",
+    "accueillîtes        accueillâtes",
+    "accueillirent       accueillèrent"
+  ],
+  [
+    "acquérir",
+    "acquis              acquérai",
+    "acquis              acquéras",
+    "acquit              acquéra",
+    "acquîmes            acquérâmes",
+    "acquîtes            acquérâtes",
+    "acquirent           acquérèrent"
+  ],
+  [
+    "adoucir",
+    "adoucis             adouçai",
+    "adoucis             adouças",
+    "adoucit             adouça",
+    "adoucîmes           adouçâmes",
+    "adoucîtes           adouçâtes",
+    "adoucirent          adoucèrent"
+  ],
+  [
+    "advenir",
+    "advins              advenai",
+    "advins              advenas",
+    "advint              advena",
+    "advînmes            advenâmes",
+    "advîntes            advenâtes",
+    "advinrent           advenèrent"
+  ],
+  [
+    "affadir",
+    "affadis             affadai",
+    "affadis             affadas",
+    "affadit             affada",
+    "affadîmes           affadâmes",
+    "affadîtes           affadâtes",
+    "affadirent          affadèrent"
+  ],
+  [
+    "affaiblir",
+    "affaiblis           affaiblai",
+    "affaiblis           affaiblas",
+    "affaiblit           affaibla",
+    "affaiblîmes         affaiblâmes",
+    "affaiblîtes         affaiblâtes",
+    "affaiblirent        affaiblèrent"
+  ],
+  [
+    "affermir",
+    "affermis            affermai",
+    "affermis            affermas",
+    "affermit            afferma",
+    "affermîmes          affermâmes",
+    "affermîtes          affermâtes",
+    "affermirent         affermèrent"
+  ],
+  [
+    "affranchir",
+    "affranchis          affranchai",
+    "affranchis          affranchas",
+    "affranchit          affrancha",
+    "affranchîmes        affranchâmes",
+    "affranchîtes        affranchâtes",
+    "affranchirent       affranchèrent"
+  ],
+  [
+    "agir",
+    "agis                ageai",
+    "agis                ageas",
+    "agit                agea",
+    "agîmes              ageâmes",
+    "agîtes              ageâtes",
+    "agirent             agèrent"
+  ],
+  [
+    "agonir",
+    "agonis              agonai",
+    "agonis              agonas",
+    "agonit              agona",
+    "agonîmes            agonâmes",
+    "agonîtes            agonâtes",
+    "agonirent           agonèrent"
+  ],
+  [
+    "agrandir",
+    "agrandis            agrandai",
+    "agrandis            agrandas",
+    "agrandit            agranda",
+    "agrandîmes          agrandâmes",
+    "agrandîtes          agrandâtes",
+    "agrandirent         agrandèrent"
+  ],
+  [
+    "aguerrir",
+    "aguerris            aguerrai",
+    "aguerris            aguerras",
+    "aguerrit            aguerra",
+    "aguerrîmes          aguerrâmes",
+    "aguerrîtes          aguerrâtes",
+    "aguerrirent         aguerrèrent"
+  ],
+  [
+    "ahurir",
+    "ahuris              ahurai",
+    "ahuris              ahuras",
+    "ahurit              ahura",
+    "ahurîmes            ahurâmes",
+    "ahurîtes            ahurâtes",
+    "ahurirent           ahurèrent"
+  ],
+  [
+    "aigrir",
+    "aigris              aigrai",
+    "aigris              aigras",
+    "aigrit              aigra",
+    "aigrîmes            aigrâmes",
+    "aigrîtes            aigrâtes",
+    "aigrirent           aigrèrent"
+  ],
+  [
+    "alanguir",
+    "alanguis            alanguai",
+    "alanguis            alanguas",
+    "alanguit            alangua",
+    "alanguîmes          alanguâmes",
+    "alanguîtes          alanguâtes",
+    "alanguirent         alanguèrent"
+  ],
+  [
+    "alourdir",
+    "alourdis            alourdai",
+    "alourdis            alourdas",
+    "alourdit            alourda",
+    "alourdîmes          alourdâmes",
+    "alourdîtes          alourdâtes",
+    "alourdirent         alourdèrent"
+  ],
+  [
+    "alunir",
+    "alunis              alunai",
+    "alunis              alunas",
+    "alunit              aluna",
+    "alunîmes            alunâmes",
+    "alunîtes            alunâtes",
+    "alunirent           alunèrent"
+  ],
+  [
+    "amaigrir",
+    "amaigris            amaigrai",
+    "amaigris            amaigras",
+    "amaigrit            amaigra",
+    "amaigrîmes          amaigrâmes",
+    "amaigrîtes          amaigrâtes",
+    "amaigrirent         amaigrèrent"
+  ],
+  [
+    "amatir",
+    "amatis              amatai",
+    "amatis              amatas",
+    "amatit              amata",
+    "amatîmes            amatâmes",
+    "amatîtes            amatâtes",
+    "amatirent           amatèrent"
+  ],
+  [
+    "amerrir",
+    "amerris             amerrai",
+    "amerris             amerras",
+    "amerrit             amerra",
+    "amerrîmes           amerrâmes",
+    "amerrîtes           amerrâtes",
+    "amerrirent          amerrèrent"
+  ],
+  [
+    "ameublir",
+    "ameublis            ameublai",
+    "ameublis            ameublas",
+    "ameublit            ameubla",
+    "ameublîmes          ameublâmes",
+    "ameublîtes          ameublâtes",
+    "ameublirent         ameublèrent"
+  ],
+  [
+    "amincir",
+    "amincis             aminçai",
+    "amincis             aminças",
+    "amincit             aminça",
+    "amincîmes           aminçâmes",
+    "amincîtes           aminçâtes",
+    "amincirent          amincèrent"
+  ],
+  [
+    "amoindrir",
+    "amoindris           amoindrai",
+    "amoindris           amoindras",
+    "amoindrit           amoindra",
+    "amoindrîmes         amoindrâmes",
+    "amoindrîtes         amoindrâtes",
+    "amoindrirent        amoindrèrent"
+  ],
+  [
+    "amollir",
+    "amollis             amollai",
+    "amollis             amollas",
+    "amollit             amolla",
+    "amollîmes           amollâmes",
+    "amollîtes           amollâtes",
+    "amollirent          amollèrent"
+  ],
+  [
+    "amortir",
+    "amortis             amortai",
+    "amortis             amortas",
+    "amortit             amorta",
+    "amortîmes           amortâmes",
+    "amortîtes           amortâtes",
+    "amortirent          amortèrent"
+  ],
+  [
+    "anoblir",
+    "anoblis             anoblai",
+    "anoblis             anoblas",
+    "anoblit             anobla",
+    "anoblîmes           anoblâmes",
+    "anoblîtes           anoblâtes",
+    "anoblirent          anoblèrent"
+  ],
+  [
+    "anordir",
+    "anordis             anordai",
+    "anordis             anordas",
+    "anordit             anorda",
+    "anordîmes           anordâmes",
+    "anordîtes           anordâtes",
+    "anordirent          anordèrent"
+  ],
+  [
+    "anéantir",
+    "anéantis            anéantai",
+    "anéantis            anéantas",
+    "anéantit            anéanta",
+    "anéantîmes          anéantâmes",
+    "anéantîtes          anéantâtes",
+    "anéantirent         anéantèrent"
+  ],
+  [
+    "apercevoir",
+    "aperçus             apercevoai",
+    "aperçus             apercevoas",
+    "aperçut             apercevoa",
+    "aperçûmes           apercevoâmes",
+    "aperçûtes           apercevoâtes",
+    "aperçurent          apercevoèrent"
+  ],
+  [
+    "aplanir",
+    "aplanis             aplanai",
+    "aplanis             aplanas",
+    "aplanit             aplana",
+    "aplanîmes           aplanâmes",
+    "aplanîtes           aplanâtes",
+    "aplanirent          aplanèrent"
+  ],
+  [
+    "aplatir",
+    "aplatis             aplatai",
+    "aplatis             aplatas",
+    "aplatit             aplata",
+    "aplatîmes           aplatâmes",
+    "aplatîtes           aplatâtes",
+    "aplatirent          aplatèrent"
+  ],
+  [
+    "appartenir",
+    "appartins           appartenai",
+    "appartins           appartenas",
+    "appartint           appartena",
+    "appartînmes         appartenâmes",
+    "appartîntes         appartenâtes",
+    "appartinrent        appartenèrent"
+  ],
+  [
+    "appauvrir",
+    "appauvris           appauvrai",
+    "appauvris           appauvras",
+    "appauvrit           appauvra",
+    "appauvrîmes         appauvrâmes",
+    "appauvrîtes         appauvrâtes",
+    "appauvrirent        appauvrèrent"
+  ],
+  [
+    "appesantir",
+    "appesantis          appesantai",
+    "appesantis          appesantas",
+    "appesantit          appesanta",
+    "appesantîmes        appesantâmes",
+    "appesantîtes        appesantâtes",
+    "appesantirent       appesantèrent"
+  ],
+  [
+    "applaudir",
+    "applaudis           applaudai",
+    "applaudis           applaudas",
+    "applaudit           applauda",
+    "applaudîmes         applaudâmes",
+    "applaudîtes         applaudâtes",
+    "applaudirent        applaudèrent"
+  ],
+  [
+    "approfondir",
+    "approfondis         approfondai",
+    "approfondis         approfondas",
+    "approfondit         approfonda",
+    "approfondîmes       approfondâmes",
+    "approfondîtes       approfondâtes",
+    "approfondirent      approfondèrent"
+  ],
+  [
+    "arrondir",
+    "arrondis            arrondai",
+    "arrondis            arrondas",
+    "arrondit            arronda",
+    "arrondîmes          arrondâmes",
+    "arrondîtes          arrondâtes",
+    "arrondirent         arrondèrent"
+  ],
+  [
+    "assagir",
+    "assagis             assageai",
+    "assagis             assageas",
+    "assagit             assagea",
+    "assagîmes           assageâmes",
+    "assagîtes           assageâtes",
+    "assagirent          assagèrent"
+  ],
+  [
+    "assaillir",
+    "assaillis           assaillai",
+    "assaillis           assaillas",
+    "assaillit           assailla",
+    "assaillîmes         assaillâmes",
+    "assaillîtes         assaillâtes",
+    "assaillirent        assaillèrent"
+  ],
+  [
+    "assainir",
+    "assainis            assainai",
+    "assainis            assainas",
+    "assainit            assaina",
+    "assainîmes          assainâmes",
+    "assainîtes          assainâtes",
+    "assainirent         assainèrent"
+  ],
+  [
+    "asseoir",
+    "assis               asseoai",
+    "assis               asseoas",
+    "assit               asseoa",
+    "assîmes             asseoâmes",
+    "assîtes             asseoâtes",
+    "assirent            asseoèrent"
+  ],
+  [
+    "asservir",
+    "asservis            asservai",
+    "asservis            asservas",
+    "asservit            asserva",
+    "asservîmes          asservâmes",
+    "asservîtes          asservâtes",
+    "asservirent         asservèrent"
+  ],
+  [
+    "assombrir",
+    "assombris           assombrai",
+    "assombris           assombras",
+    "assombrit           assombra",
+    "assombrîmes         assombrâmes",
+    "assombrîtes         assombrâtes",
+    "assombrirent        assombrèrent"
+  ],
+  [
+    "assortir",
+    "assortis            assortai",
+    "assortis            assortas",
+    "assortit            assorta",
+    "assortîmes          assortâmes",
+    "assortîtes          assortâtes",
+    "assortirent         assortèrent"
+  ],
+  [
+    "assoupir",
+    "assoupis            assoupai",
+    "assoupis            assoupas",
+    "assoupit            assoupa",
+    "assoupîmes          assoupâmes",
+    "assoupîtes          assoupâtes",
+    "assoupirent         assoupèrent"
+  ],
+  [
+    "assouplir",
+    "assouplis           assouplai",
+    "assouplis           assouplas",
+    "assouplit           assoupla",
+    "assouplîmes         assouplâmes",
+    "assouplîtes         assouplâtes",
+    "assouplirent        assouplèrent"
+  ],
+  [
+    "assourdir",
+    "assourdis           assourdai",
+    "assourdis           assourdas",
+    "assourdit           assourda",
+    "assourdîmes         assourdâmes",
+    "assourdîtes         assourdâtes",
+    "assourdirent        assourdèrent"
+  ],
+  [
+    "assouvir",
+    "assouvis            assouvai",
+    "assouvis            assouvas",
+    "assouvit            assouva",
+    "assouvîmes          assouvâmes",
+    "assouvîtes          assouvâtes",
+    "assouvirent         assouvèrent"
+  ],
+  [
+    "assujettir",
+    "assujettis          assujettai",
+    "assujettis          assujettas",
+    "assujettit          assujetta",
+    "assujettîmes        assujettâmes",
+    "assujettîtes        assujettâtes",
+    "assujettirent       assujettèrent"
+  ],
+  [
+    "attendrir",
+    "attendris           attendrai",
+    "attendris           attendras",
+    "attendrit           attendra",
+    "attendrîmes         attendrâmes",
+    "attendrîtes         attendrâtes",
+    "attendrirent        attendrèrent"
+  ],
+  [
+    "atterrir",
+    "atterris            atterrai",
+    "atterris            atterras",
+    "atterrit            atterra",
+    "atterrîmes          atterrâmes",
+    "atterrîtes          atterrâtes",
+    "atterrirent         atterrèrent"
+  ],
+  [
+    "attiédir",
+    "attiédis            attiédai",
+    "attiédis            attiédas",
+    "attiédit            attiéda",
+    "attiédîmes          attiédâmes",
+    "attiédîtes          attiédâtes",
+    "attiédirent         attiédèrent"
+  ],
+  [
+    "autosaisir",
+    "autosaisis          autosaisai",
+    "autosaisis          autosaisas",
+    "autosaisit          autosaisa",
+    "autosaisîmes        autosaisâmes",
+    "autosaisîtes        autosaisâtes",
+    "autosaisirent       autosaisèrent"
+  ],
+  [
+    "avachir",
+    "avachis             avachai",
+    "avachis             avachas",
+    "avachit             avacha",
+    "avachîmes           avachâmes",
+    "avachîtes           avachâtes",
+    "avachirent          avachèrent"
+  ],
+  [
+    "avertir",
+    "avertis             avertai",
+    "avertis             avertas",
+    "avertit             averta",
+    "avertîmes           avertâmes",
+    "avertîtes           avertâtes",
+    "avertirent          avertèrent"
+  ],
+  [
+    "aveulir",
+    "aveulis             aveulai",
+    "aveulis             aveulas",
+    "aveulit             aveula",
+    "aveulîmes           aveulâmes",
+    "aveulîtes           aveulâtes",
+    "aveulirent          aveulèrent"
+  ],
+  [
+    "avilir",
+    "avilis              avilai",
+    "avilis              avilas",
+    "avilit              avila",
+    "avilîmes            avilâmes",
+    "avilîtes            avilâtes",
+    "avilirent           avilèrent"
+  ],
+  [
+    "bannir",
+    "bannis              bannai",
+    "bannis              bannas",
+    "bannit              banna",
+    "bannîmes            bannâmes",
+    "bannîtes            bannâtes",
+    "bannirent           bannèrent"
+  ],
+  [
+    "barrir",
+    "barris              barrai",
+    "barris              barras",
+    "barrit              barra",
+    "barrîmes            barrâmes",
+    "barrîtes            barrâtes",
+    "barrirent           barrèrent"
+  ],
+  [
+    "blanchir",
+    "blanchis            blanchai",
+    "blanchis            blanchas",
+    "blanchit            blancha",
+    "blanchîmes          blanchâmes",
+    "blanchîtes          blanchâtes",
+    "blanchirent         blanchèrent"
+  ],
+  [
+    "blettir",
+    "blettis             blettai",
+    "blettis             blettas",
+    "blettit             bletta",
+    "blettîmes           blettâmes",
+    "blettîtes           blettâtes",
+    "blettirent          blettèrent"
+  ],
+  [
+    "bleuir",
+    "bleuis              bleuai",
+    "bleuis              bleuas",
+    "bleuit              bleua",
+    "bleuîmes            bleuâmes",
+    "bleuîtes            bleuâtes",
+    "bleuirent           bleuèrent"
+  ],
+  [
+    "blondir",
+    "blondis             blondai",
+    "blondis             blondas",
+    "blondit             blonda",
+    "blondîmes           blondâmes",
+    "blondîtes           blondâtes",
+    "blondirent          blondèrent"
+  ],
+  [
+    "blottir",
+    "blottis             blottai",
+    "blottis             blottas",
+    "blottit             blotta",
+    "blottîmes           blottâmes",
+    "blottîtes           blottâtes",
+    "blottirent          blottèrent"
+  ],
+  [
+    "blêmir",
+    "blêmis              blêmai",
+    "blêmis              blêmas",
+    "blêmit              blêma",
+    "blêmîmes            blêmâmes",
+    "blêmîtes            blêmâtes",
+    "blêmirent           blêmèrent"
+  ],
+  [
+    "bondir",
+    "bondis              bondai",
+    "bondis              bondas",
+    "bondit              bonda",
+    "bondîmes            bondâmes",
+    "bondîtes            bondâtes",
+    "bondirent           bondèrent"
+  ],
+  [
+    "bouffir",
+    "bouffis             bouffai",
+    "bouffis             bouffas",
+    "bouffit             bouffa",
+    "bouffîmes           bouffâmes",
+    "bouffîtes           bouffâtes",
+    "bouffirent          bouffèrent"
+  ],
+  [
+    "bouillir",
+    "bouillis            bouillai",
+    "bouillis            bouillas",
+    "bouillit            bouilla",
+    "bouillîmes          bouillâmes",
+    "bouillîtes          bouillâtes",
+    "bouillirent         bouillèrent"
+  ],
+  [
+    "brandir",
+    "brandis             brandai",
+    "brandis             brandas",
+    "brandit             branda",
+    "brandîmes           brandâmes",
+    "brandîtes           brandâtes",
+    "brandirent          brandèrent"
+  ],
+  [
+    "brunir",
+    "brunis              brunai",
+    "brunis              brunas",
+    "brunit              bruna",
+    "brunîmes            brunâmes",
+    "brunîtes            brunâtes",
+    "brunirent           brunèrent"
+  ],
+  [
+    "bâtir",
+    "bâtis               bâtai",
+    "bâtis               bâtas",
+    "bâtit               bâta",
+    "bâtîmes             bâtâmes",
+    "bâtîtes             bâtâtes",
+    "bâtirent            bâtèrent"
+  ],
+  [
+    "bénir",
+    "bénis               bénai",
+    "bénis               bénas",
+    "bénit               béna",
+    "bénîmes             bénâmes",
+    "bénîtes             bénâtes",
+    "bénirent            bénèrent"
+  ],
+  [
+    "calmir",
+    "calmis              calmai",
+    "calmis              calmas",
+    "calmit              calma",
+    "calmîmes            calmâmes",
+    "calmîtes            calmâtes",
+    "calmirent           calmèrent"
+  ],
+  [
+    "candir",
+    "candis              candai",
+    "candis              candas",
+    "candit              canda",
+    "candîmes            candâmes",
+    "candîtes            candâtes",
+    "candirent           candèrent"
+  ],
+  [
+    "catir",
+    "catis               catai",
+    "catis               catas",
+    "catit               cata",
+    "catîmes             catâmes",
+    "catîtes             catâtes",
+    "catirent            catèrent"
+  ],
+  [
+    "chancir",
+    "chancis             chançai",
+    "chancis             chanças",
+    "chancit             chança",
+    "chancîmes           chançâmes",
+    "chancîtes           chançâtes",
+    "chancirent          chancèrent"
+  ],
+  [
+    "chauvir",
+    "chauvis             chauvai",
+    "chauvis             chauvas",
+    "chauvit             chauva",
+    "chauvîmes           chauvâmes",
+    "chauvîtes           chauvâtes",
+    "chauvirent          chauvèrent"
+  ],
+  [
+    "choir",
+    "chus                choai",
+    "chus                choas",
+    "chut                choa",
+    "chûmes              choâmes",
+    "chûtes              choâtes",
+    "churent             choèrent"
+  ],
+  [
+    "choisir",
+    "choisis             choisai",
+    "choisis             choisas",
+    "choisit             choisa",
+    "choisîmes           choisâmes",
+    "choisîtes           choisâtes",
+    "choisirent          choisèrent"
+  ],
+  [
+    "chérir",
+    "chéris              chérai",
+    "chéris              chéras",
+    "chérit              chéra",
+    "chérîmes            chérâmes",
+    "chérîtes            chérâtes",
+    "chérirent           chérèrent"
+  ],
+  [
+    "circonvenir",
+    "circonvins          circonvenai",
+    "circonvins          circonvenas",
+    "circonvint          circonvena",
+    "circonvînmes        circonvenâmes",
+    "circonvîntes        circonvenâtes",
+    "circonvinrent       circonvenèrent"
+  ],
+  [
+    "clapir",
+    "clapis              clapai",
+    "clapis              clapas",
+    "clapit              clapa",
+    "clapîmes            clapâmes",
+    "clapîtes            clapâtes",
+    "clapirent           clapèrent"
+  ],
+  [
+    "compatir",
+    "compatis            compatai",
+    "compatis            compatas",
+    "compatit            compata",
+    "compatîmes          compatâmes",
+    "compatîtes          compatâtes",
+    "compatirent         compatèrent"
+  ],
+  [
+    "concevoir",
+    "conçus              concevoai",
+    "conçus              concevoas",
+    "conçut              concevoa",
+    "conçûmes            concevoâmes",
+    "conçûtes            concevoâtes",
+    "conçurent           concevoèrent"
+  ],
+  [
+    "concourir",
+    "concourus           concourai",
+    "concourus           concouras",
+    "concourut           concoura",
+    "concourûmes         concourâmes",
+    "concourûtes         concourâtes",
+    "concoururent        concourèrent"
+  ],
+  [
+    "conquérir",
+    "conquis             conquérai",
+    "conquis             conquéras",
+    "conquit             conquéra",
+    "conquîmes           conquérâmes",
+    "conquîtes           conquérâtes",
+    "conquirent          conquérèrent"
+  ],
+  [
+    "consentir",
+    "consentis           consentai",
+    "consentis           consentas",
+    "consentit           consenta",
+    "consentîmes         consentâmes",
+    "consentîtes         consentâtes",
+    "consentirent        consentèrent"
+  ],
+  [
+    "contenir",
+    "contins             contenai",
+    "contins             contenas",
+    "contint             contena",
+    "contînmes           contenâmes",
+    "contîntes           contenâtes",
+    "continrent          contenèrent"
+  ],
+  [
+    "contrevenir",
+    "contrevins          contrevenai",
+    "contrevins          contrevenas",
+    "contrevint          contrevena",
+    "contrevînmes        contrevenâmes",
+    "contrevîntes        contrevenâtes",
+    "contrevinrent       contrevenèrent"
+  ],
+  [
+    "convenir",
+    "convins             convenai",
+    "convins             convenas",
+    "convint             convena",
+    "convînmes           convenâmes",
+    "convîntes           convenâtes",
+    "convinrent          convenèrent"
+  ],
+  [
+    "convertir",
+    "convertis           convertai",
+    "convertis           convertas",
+    "convertit           converta",
+    "convertîmes         convertâmes",
+    "convertîtes         convertâtes",
+    "convertirent        convertèrent"
+  ],
+  [
+    "cotir",
+    "cotis               cotai",
+    "cotis               cotas",
+    "cotit               cota",
+    "cotîmes             cotâmes",
+    "cotîtes             cotâtes",
+    "cotirent            cotèrent"
+  ],
+  [
+    "courir",
+    "courus              courai",
+    "courus              couras",
+    "courut              coura",
+    "courûmes            courâmes",
+    "courûtes            courâtes",
+    "coururent           courèrent"
+  ],
+  [
+    "couvrir",
+    "couvris             couvrai",
+    "couvris             couvras",
+    "couvrit             couvra",
+    "couvrîmes           couvrâmes",
+    "couvrîtes           couvrâtes",
+    "couvrirent          couvrèrent"
+  ],
+  [
+    "croupir",
+    "croupis             croupai",
+    "croupis             croupas",
+    "croupit             croupa",
+    "croupîmes           croupâmes",
+    "croupîtes           croupâtes",
+    "croupirent          croupèrent"
+  ],
+  [
+    "crépir",
+    "crépis              crépai",
+    "crépis              crépas",
+    "crépit              crépa",
+    "crépîmes            crépâmes",
+    "crépîtes            crépâtes",
+    "crépirent           crépèrent"
+  ],
+  [
+    "cueillir",
+    "cueillis            cueillai",
+    "cueillis            cueillas",
+    "cueillit            cueilla",
+    "cueillîmes          cueillâmes",
+    "cueillîtes          cueillâtes",
+    "cueillirent         cueillèrent"
+  ],
+  [
+    "dessaisir",
+    "dessaisis           dessaisai",
+    "dessaisis           dessaisas",
+    "dessaisit           dessaisa",
+    "dessaisîmes         dessaisâmes",
+    "dessaisîtes         dessaisâtes",
+    "dessaisirent        dessaisèrent"
+  ],
+  [
+    "desservir",
+    "desservis           desservai",
+    "desservis           desservas",
+    "desservit           desserva",
+    "desservîmes         desservâmes",
+    "desservîtes         desservâtes",
+    "desservirent        desservèrent"
+  ],
+  [
+    "dessertir",
+    "dessertis           dessertai",
+    "dessertis           dessertas",
+    "dessertit           desserta",
+    "dessertîmes         dessertâmes",
+    "dessertîtes         dessertâtes",
+    "dessertirent        dessertèrent"
+  ],
+  [
+    "devoir",
+    "dus                 devoai",
+    "dus                 devoas",
+    "dut                 devoa",
+    "dûmes               devoâmes",
+    "dûtes               devoâtes",
+    "durent              devoèrent"
+  ],
+  [
+    "devenir",
+    "devins              devenai",
+    "devins              devenas",
+    "devint              devena",
+    "devînmes            devenâmes",
+    "devîntes            devenâtes",
+    "devinrent           devenèrent"
+  ],
+  [
+    "disconvenir",
+    "disconvins          disconvenai",
+    "disconvins          disconvenas",
+    "disconvint          disconvena",
+    "disconvînmes        disconvenâmes",
+    "disconvîntes        disconvenâtes",
+    "disconvinrent       disconvenèrent"
+  ],
+  [
+    "discourir",
+    "discourus           discourai",
+    "discourus           discouras",
+    "discourut           discoura",
+    "discourûmes         discourâmes",
+    "discourûtes         discourâtes",
+    "discoururent        discourèrent"
+  ],
+  [
+    "divertir",
+    "divertis            divertai",
+    "divertis            divertas",
+    "divertit            diverta",
+    "divertîmes          divertâmes",
+    "divertîtes          divertâtes",
+    "divertirent         divertèrent"
+  ],
+  [
+    "dormir",
+    "dormis              dormai",
+    "dormis              dormas",
+    "dormit              dorma",
+    "dormîmes            dormâmes",
+    "dormîtes            dormâtes",
+    "dormirent           dormèrent"
+  ],
+  [
+    "doucir",
+    "doucis              douçai",
+    "doucis              douças",
+    "doucit              douça",
+    "doucîmes            douçâmes",
+    "doucîtes            douçâtes",
+    "doucirent           doucèrent"
+  ],
+  [
+    "durcir",
+    "durcis              durçai",
+    "durcis              durças",
+    "durcit              durça",
+    "durcîmes            durçâmes",
+    "durcîtes            durçâtes",
+    "durcirent           durcèrent"
+  ],
+  [
+    "débouillir",
+    "débouillis          débouillai",
+    "débouillis          débouillas",
+    "débouillit          débouilla",
+    "débouillîmes        débouillâmes",
+    "débouillîtes        débouillâtes",
+    "débouillirent       débouillèrent"
+  ],
+  [
+    "décatir",
+    "décatis             décatai",
+    "décatis             décatas",
+    "décatit             décata",
+    "décatîmes           décatâmes",
+    "décatîtes           décatâtes",
+    "décatirent          décatèrent"
+  ],
+  [
+    "décevoir",
+    "déçus               décevoai",
+    "déçus               décevoas",
+    "déçut               décevoa",
+    "déçûmes             décevoâmes",
+    "déçûtes             décevoâtes",
+    "déçurent            décevoèrent"
+  ],
+  [
+    "déchoir",
+    "déchus              déchoai",
+    "déchus              déchoas",
+    "déchut              déchoa",
+    "déchûmes            déchoâmes",
+    "déchûtes            déchoâtes",
+    "déchurent           déchoèrent"
+  ],
+  [
+    "découvrir",
+    "découvris           découvrai",
+    "découvris           découvras",
+    "découvrit           découvra",
+    "découvrîmes         découvrâmes",
+    "découvrîtes         découvrâtes",
+    "découvrirent        découvrèrent"
+  ],
+  [
+    "décrépir",
+    "décrépis            décrépai",
+    "décrépis            décrépas",
+    "décrépit            décrépa",
+    "décrépîmes          décrépâmes",
+    "décrépîtes          décrépâtes",
+    "décrépirent         décrépèrent"
+  ],
+  [
+    "défaillir",
+    "défaillis           défaillai",
+    "défaillis           défaillas",
+    "défaillit           défailla",
+    "défaillîmes         défaillâmes",
+    "défaillîtes         défaillâtes",
+    "défaillirent        défaillèrent"
+  ],
+  [
+    "définir",
+    "définis             définai",
+    "définis             définas",
+    "définit             défina",
+    "définîmes           définâmes",
+    "définîtes           définâtes",
+    "définirent          définèrent"
+  ],
+  [
+    "défleurir",
+    "défleuris           défleurai",
+    "défleuris           défleuras",
+    "défleurit           défleura",
+    "défleurîmes         défleurâmes",
+    "défleurîtes         défleurâtes",
+    "défleurirent        défleurèrent"
+  ],
+  [
+    "défléchir",
+    "défléchis           défléchai",
+    "défléchis           défléchas",
+    "défléchit           déflécha",
+    "défléchîmes         défléchâmes",
+    "défléchîtes         défléchâtes",
+    "défléchirent        défléchèrent"
+  ],
+  [
+    "défraîchir",
+    "défraîchis          défraîchai",
+    "défraîchis          défraîchas",
+    "défraîchit          défraîcha",
+    "défraîchîmes        défraîchâmes",
+    "défraîchîtes        défraîchâtes",
+    "défraîchirent       défraîchèrent"
+  ],
+  [
+    "dégarnir",
+    "dégarnis            dégarnai",
+    "dégarnis            dégarnas",
+    "dégarnit            dégarna",
+    "dégarnîmes          dégarnâmes",
+    "dégarnîtes          dégarnâtes",
+    "dégarnirent         dégarnèrent"
+  ],
+  [
+    "dégauchir",
+    "dégauchis           dégauchai",
+    "dégauchis           dégauchas",
+    "dégauchit           dégaucha",
+    "dégauchîmes         dégauchâmes",
+    "dégauchîtes         dégauchâtes",
+    "dégauchirent        dégauchèrent"
+  ],
+  [
+    "déglutir",
+    "déglutis            déglutai",
+    "déglutis            déglutas",
+    "déglutit            dégluta",
+    "déglutîmes          déglutâmes",
+    "déglutîtes          déglutâtes",
+    "déglutirent         déglutèrent"
+  ],
+  [
+    "dégourdir",
+    "dégourdis           dégourdai",
+    "dégourdis           dégourdas",
+    "dégourdit           dégourda",
+    "dégourdîmes         dégourdâmes",
+    "dégourdîtes         dégourdâtes",
+    "dégourdirent        dégourdèrent"
+  ],
+  [
+    "dégrossir",
+    "dégrossis           dégrossai",
+    "dégrossis           dégrossas",
+    "dégrossit           dégrossa",
+    "dégrossîmes         dégrossâmes",
+    "dégrossîtes         dégrossâtes",
+    "dégrossirent        dégrossèrent"
+  ],
+  [
+    "déguerpir",
+    "déguerpis           déguerpai",
+    "déguerpis           déguerpas",
+    "déguerpit           déguerpa",
+    "déguerpîmes         déguerpâmes",
+    "déguerpîtes         déguerpâtes",
+    "déguerpirent        déguerpèrent"
+  ],
+  [
+    "démaigrir",
+    "démaigris           démaigrai",
+    "démaigris           démaigras",
+    "démaigrit           démaigra",
+    "démaigrîmes         démaigrâmes",
+    "démaigrîtes         démaigrâtes",
+    "démaigrirent        démaigrèrent"
+  ],
+  [
+    "démentir",
+    "démentis            démentai",
+    "démentis            démentas",
+    "démentit            démenta",
+    "démentîmes          démentâmes",
+    "démentîtes          démentâtes",
+    "démentirent         démentèrent"
+  ],
+  [
+    "démolir",
+    "démolis             démolai",
+    "démolis             démolas",
+    "démolit             démola",
+    "démolîmes           démolâmes",
+    "démolîtes           démolâtes",
+    "démolirent          démolèrent"
+  ],
+  [
+    "démunir",
+    "démunis             démunai",
+    "démunis             démunas",
+    "démunit             démuna",
+    "démunîmes           démunâmes",
+    "démunîtes           démunâtes",
+    "démunirent          démunèrent"
+  ],
+  [
+    "dénantir",
+    "dénantis            dénantai",
+    "dénantis            dénantas",
+    "dénantit            dénanta",
+    "dénantîmes          dénantâmes",
+    "dénantîtes          dénantâtes",
+    "dénantirent         dénantèrent"
+  ],
+  [
+    "départir",
+    "départis            départai",
+    "départis            départas",
+    "départit            départa",
+    "départîmes          départâmes",
+    "départîtes          départâtes",
+    "départirent         départèrent"
+  ],
+  [
+    "dépolir",
+    "dépolis             dépolai",
+    "dépolis             dépolas",
+    "dépolit             dépola",
+    "dépolîmes           dépolâmes",
+    "dépolîtes           dépolâtes",
+    "dépolirent          dépolèrent"
+  ],
+  [
+    "dépourvoir",
+    "dépourvus           dépourvoai",
+    "dépourvus           dépourvoas",
+    "dépourvut           dépourvoa",
+    "dépourvûmes         dépourvoâmes",
+    "dépourvûtes         dépourvoâtes",
+    "dépourvurent        dépourvoèrent"
+  ],
+  [
+    "dépérir",
+    "dépéris             dépérai",
+    "dépéris             dépéras",
+    "dépérit             dépéra",
+    "dépérîmes           dépérâmes",
+    "dépérîtes           dépérâtes",
+    "dépérirent          dépérèrent"
+  ],
+  [
+    "déraidir",
+    "déraidis            déraidai",
+    "déraidis            déraidas",
+    "déraidit            déraida",
+    "déraidîmes          déraidâmes",
+    "déraidîtes          déraidâtes",
+    "déraidirent         déraidèrent"
+  ],
+  [
+    "dérougir",
+    "dérougis            dérougeai",
+    "dérougis            dérougeas",
+    "dérougit            dérougea",
+    "dérougîmes          dérougeâmes",
+    "dérougîtes          dérougeâtes",
+    "dérougirent         dérougèrent"
+  ],
+  [
+    "désaisir",
+    "désaisis            désaisai",
+    "désaisis            désaisas",
+    "désaisit            désaisa",
+    "désaisîmes          désaisâmes",
+    "désaisîtes          désaisâtes",
+    "désaisirent         désaisèrent"
+  ],
+  [
+    "désassortir",
+    "désassortis         désassortai",
+    "désassortis         désassortas",
+    "désassortit         désassorta",
+    "désassortîmes       désassortâmes",
+    "désassortîtes       désassortâtes",
+    "désassortirent      désassortèrent"
+  ],
+  [
+    "désemplir",
+    "désemplis           désemplai",
+    "désemplis           désemplas",
+    "désemplit           désempla",
+    "désemplîmes         désemplâmes",
+    "désemplîtes         désemplâtes",
+    "désemplirent        désemplèrent"
+  ],
+  [
+    "désenfouir",
+    "désenfouis          désenfouai",
+    "désenfouis          désenfouas",
+    "désenfouit          désenfoua",
+    "désenfouîmes        désenfouâmes",
+    "désenfouîtes        désenfouâtes",
+    "désenfouirent       désenfouèrent"
+  ],
+  [
+    "désengourdir",
+    "désengourdis        désengourdai",
+    "désengourdis        désengourdas",
+    "désengourdit        désengourda",
+    "désengourdîmes      désengourdâmes",
+    "désengourdîtes      désengourdâtes",
+    "désengourdirent     désengourdèrent"
+  ],
+  [
+    "désinvestir",
+    "désinvestis         désinvestai",
+    "désinvestis         désinvestas",
+    "désinvestit         désinvesta",
+    "désinvestîmes       désinvestâmes",
+    "désinvestîtes       désinvestâtes",
+    "désinvestirent      désinvestèrent"
+  ],
+  [
+    "désobéir",
+    "désobéis            désobéai",
+    "désobéis            désobéas",
+    "désobéit            désobéa",
+    "désobéîmes          désobéâmes",
+    "désobéîtes          désobéâtes",
+    "désobéirent         désobéèrent"
+  ],
+  [
+    "désunir",
+    "désunis             désunai",
+    "désunis             désunas",
+    "désunit             désuna",
+    "désunîmes           désunâmes",
+    "désunîtes           désunâtes",
+    "désunirent          désunèrent"
+  ],
+  [
+    "détenir",
+    "détins              détenai",
+    "détins              détenas",
+    "détint              détena",
+    "détînmes            détenâmes",
+    "détîntes            détenâtes",
+    "détinrent           détenèrent"
+  ],
+  [
+    "dévernir",
+    "dévernis            dévernai",
+    "dévernis            dévernas",
+    "dévernit            déverna",
+    "dévernîmes          dévernâmes",
+    "dévernîtes          dévernâtes",
+    "dévernirent         dévernèrent"
+  ],
+  [
+    "dévêtir",
+    "dévêtis             dévêtai",
+    "dévêtis             dévêtas",
+    "dévêtit             dévêta",
+    "dévêtîmes           dévêtâmes",
+    "dévêtîtes           dévêtâtes",
+    "dévêtirent          dévêtèrent"
+  ],
+  [
+    "effleurir",
+    "effleuris           effleurai",
+    "effleuris           effleuras",
+    "effleurit           effleura",
+    "effleurîmes         effleurâmes",
+    "effleurîtes         effleurâtes",
+    "effleurirent        effleurèrent"
+  ],
+  [
+    "embellir",
+    "embellis            embellai",
+    "embellis            embellas",
+    "embellit            embella",
+    "embellîmes          embellâmes",
+    "embellîtes          embellâtes",
+    "embellirent         embellèrent"
+  ],
+  [
+    "emboutir",
+    "emboutis            emboutai",
+    "emboutis            emboutas",
+    "emboutit            embouta",
+    "emboutîmes          emboutâmes",
+    "emboutîtes          emboutâtes",
+    "emboutirent         emboutèrent"
+  ],
+  [
+    "emplir",
+    "emplis              emplai",
+    "emplis              emplas",
+    "emplit              empla",
+    "emplîmes            emplâmes",
+    "emplîtes            emplâtes",
+    "emplirent           emplèrent"
+  ],
+  [
+    "empuantir",
+    "empuantis           empuantai",
+    "empuantis           empuantas",
+    "empuantit           empuanta",
+    "empuantîmes         empuantâmes",
+    "empuantîtes         empuantâtes",
+    "empuantirent        empuantèrent"
+  ],
+  [
+    "enchérir",
+    "enchéris            enchérai",
+    "enchéris            enchéras",
+    "enchérit            enchéra",
+    "enchérîmes          enchérâmes",
+    "enchérîtes          enchérâtes",
+    "enchérirent         enchérèrent"
+  ],
+  [
+    "encourir",
+    "encourus            encourai",
+    "encourus            encouras",
+    "encourut            encoura",
+    "encourûmes          encourâmes",
+    "encourûtes          encourâtes",
+    "encoururent         encourèrent"
+  ],
+  [
+    "endolorir",
+    "endoloris           endolorai",
+    "endoloris           endoloras",
+    "endolorit           endolora",
+    "endolorîmes         endolorâmes",
+    "endolorîtes         endolorâtes",
+    "endolorirent        endolorèrent"
+  ],
+  [
+    "endormir",
+    "endormis            endormai",
+    "endormis            endormas",
+    "endormit            endorma",
+    "endormîmes          endormâmes",
+    "endormîtes          endormâtes",
+    "endormirent         endormèrent"
+  ],
+  [
+    "endurcir",
+    "endurcis            endurçai",
+    "endurcis            endurças",
+    "endurcit            endurça",
+    "endurcîmes          endurçâmes",
+    "endurcîtes          endurçâtes",
+    "endurcirent         endurcèrent"
+  ],
+  [
+    "enfouir",
+    "enfouis             enfouai",
+    "enfouis             enfouas",
+    "enfouit             enfoua",
+    "enfouîmes           enfouâmes",
+    "enfouîtes           enfouâtes",
+    "enfouirent          enfouèrent"
+  ],
+  [
+    "enfuir",
+    "enfuis              enfuai",
+    "enfuis              enfuas",
+    "enfuit              enfua",
+    "enfuîmes            enfuâmes",
+    "enfuîtes            enfuâtes",
+    "enfuirent           enfuèrent"
+  ],
+  [
+    "engloutir",
+    "engloutis           engloutai",
+    "engloutis           engloutas",
+    "engloutit           englouta",
+    "engloutîmes         engloutâmes",
+    "engloutîtes         engloutâtes",
+    "engloutirent        engloutèrent"
+  ],
+  [
+    "engourdir",
+    "engourdis           engourdai",
+    "engourdis           engourdas",
+    "engourdit           engourda",
+    "engourdîmes         engourdâmes",
+    "engourdîtes         engourdâtes",
+    "engourdirent        engourdèrent"
+  ],
+  [
+    "enhardir",
+    "enhardis            enhardai",
+    "enhardis            enhardas",
+    "enhardit            enharda",
+    "enhardîmes          enhardâmes",
+    "enhardîtes          enhardâtes",
+    "enhardirent         enhardèrent"
+  ],
+  [
+    "enlaidir",
+    "enlaidis            enlaidai",
+    "enlaidis            enlaidas",
+    "enlaidit            enlaida",
+    "enlaidîmes          enlaidâmes",
+    "enlaidîtes          enlaidâtes",
+    "enlaidirent         enlaidèrent"
+  ],
+  [
+    "ennoblir",
+    "ennoblis            ennoblai",
+    "ennoblis            ennoblas",
+    "ennoblit            ennobla",
+    "ennoblîmes          ennoblâmes",
+    "ennoblîtes          ennoblâtes",
+    "ennoblirent         ennoblèrent"
+  ],
+  [
+    "enorgueillir",
+    "enorgueillis        enorgueillai",
+    "enorgueillis        enorgueillas",
+    "enorgueillit        enorgueilla",
+    "enorgueillîmes      enorgueillâmes",
+    "enorgueillîtes      enorgueillâtes",
+    "enorgueillirent     enorgueillèrent"
+  ],
+  [
+    "enquérir",
+    "enquis              enquérai",
+    "enquis              enquéras",
+    "enquit              enquéra",
+    "enquîmes            enquérâmes",
+    "enquîtes            enquérâtes",
+    "enquirent           enquérèrent"
+  ],
+  [
+    "enrichir",
+    "enrichis            enrichai",
+    "enrichis            enrichas",
+    "enrichit            enricha",
+    "enrichîmes          enrichâmes",
+    "enrichîtes          enrichâtes",
+    "enrichirent         enrichèrent"
+  ],
+  [
+    "ensevelir",
+    "ensevelis           ensevelai",
+    "ensevelis           ensevelas",
+    "ensevelit           ensevela",
+    "ensevelîmes         ensevelâmes",
+    "ensevelîtes         ensevelâtes",
+    "ensevelirent        ensevelèrent"
+  ],
+  [
+    "entrapercevoir",
+    "entraperçus         entrapercevoai",
+    "entraperçus         entrapercevoas",
+    "entraperçut         entrapercevoa",
+    "entraperçûmes       entrapercevoâmes",
+    "entraperçûtes       entrapercevoâtes",
+    "entraperçurent      entrapercevoèrent"
+  ],
+  [
+    "entretenir",
+    "entretins           entretenai",
+    "entretins           entretenas",
+    "entretint           entretena",
+    "entretînmes         entretenâmes",
+    "entretîntes         entretenâtes",
+    "entretinrent        entretenèrent"
+  ],
+  [
+    "entrevoir",
+    "entrevis            entrevoai",
+    "entrevis            entrevoas",
+    "entrevit            entrevoa",
+    "entrevîmes          entrevoâmes",
+    "entrevîtes          entrevoâtes",
+    "entrevirent         entrevoèrent"
+  ],
+  [
+    "entrouvrir",
+    "entrouvris          entrouvrai",
+    "entrouvris          entrouvras",
+    "entrouvrit          entrouvra",
+    "entrouvrîmes        entrouvrâmes",
+    "entrouvrîtes        entrouvrâtes",
+    "entrouvrirent       entrouvrèrent"
+  ],
+  [
+    "envahir",
+    "envahis             envahai",
+    "envahis             envahas",
+    "envahit             envaha",
+    "envahîmes           envahâmes",
+    "envahîtes           envahâtes",
+    "envahirent          envahèrent"
+  ],
+  [
+    "esbaudir",
+    "esbaudis            esbaudai",
+    "esbaudis            esbaudas",
+    "esbaudit            esbauda",
+    "esbaudîmes          esbaudâmes",
+    "esbaudîtes          esbaudâtes",
+    "esbaudirent         esbaudèrent"
+  ],
+  [
+    "estourbir",
+    "estourbis           estourbai",
+    "estourbis           estourbas",
+    "estourbit           estourba",
+    "estourbîmes         estourbâmes",
+    "estourbîtes         estourbâtes",
+    "estourbirent        estourbèrent"
+  ],
+  [
+    "extravertir",
+    "extravertis         extravertai",
+    "extravertis         extravertas",
+    "extravertit         extraverta",
+    "extravertîmes       extravertâmes",
+    "extravertîtes       extravertâtes",
+    "extravertirent      extravertèrent"
+  ],
+  [
+    "faiblir",
+    "faiblis             faiblai",
+    "faiblis             faiblas",
+    "faiblit             faibla",
+    "faiblîmes           faiblâmes",
+    "faiblîtes           faiblâtes",
+    "faiblirent          faiblèrent"
+  ],
+  [
+    "faillir",
+    "faillis             faillai",
+    "faillis             faillas",
+    "faillit             failla",
+    "faillîmes           faillâmes",
+    "faillîtes           faillâtes",
+    "faillirent          faillèrent"
+  ],
+  [
+    "falloir",
+    "                    falloai",
+    "                    falloas",
+    "fallut              falloa",
+    "                    falloâmes",
+    "                    falloâtes",
+    "                    falloèrent"
+  ],
+  [
+    "farcir",
+    "farcis              farçai",
+    "farcis              farças",
+    "farcit              farça",
+    "farcîmes            farçâmes",
+    "farcîtes            farçâtes",
+    "farcirent           farcèrent"
+  ],
+  [
+    "finir",
+    "finis               finai",
+    "finis               finas",
+    "finit               fina",
+    "finîmes             finâmes",
+    "finîtes             finâtes",
+    "finirent            finèrent"
+  ],
+  [
+    "fleurir",
+    "fleuris             fleurai",
+    "fleuris             fleuras",
+    "fleurit             fleura",
+    "fleurîmes           fleurâmes",
+    "fleurîtes           fleurâtes",
+    "fleurirent          fleurèrent"
+  ],
+  [
+    "florir",
+    "floris              florai",
+    "floris              floras",
+    "florit              flora",
+    "florîmes            florâmes",
+    "florîtes            florâtes",
+    "florirent           florèrent"
+  ],
+  [
+    "fléchir",
+    "fléchis             fléchai",
+    "fléchis             fléchas",
+    "fléchit             flécha",
+    "fléchîmes           fléchâmes",
+    "fléchîtes           fléchâtes",
+    "fléchirent          fléchèrent"
+  ],
+  [
+    "flétrir",
+    "flétris             flétrai",
+    "flétris             flétras",
+    "flétrit             flétra",
+    "flétrîmes           flétrâmes",
+    "flétrîtes           flétrâtes",
+    "flétrirent          flétrèrent"
+  ],
+  [
+    "forcir",
+    "forcis              forçai",
+    "forcis              forças",
+    "forcit              força",
+    "forcîmes            forçâmes",
+    "forcîtes            forçâtes",
+    "forcirent           forcèrent"
+  ],
+  [
+    "fouir",
+    "fouis               fouai",
+    "fouis               fouas",
+    "fouit               foua",
+    "fouîmes             fouâmes",
+    "fouîtes             fouâtes",
+    "fouirent            fouèrent"
+  ],
+  [
+    "fourbir",
+    "fourbis             fourbai",
+    "fourbis             fourbas",
+    "fourbit             fourba",
+    "fourbîmes           fourbâmes",
+    "fourbîtes           fourbâtes",
+    "fourbirent          fourbèrent"
+  ],
+  [
+    "fournir",
+    "fournis             fournai",
+    "fournis             fournas",
+    "fournit             fourna",
+    "fournîmes           fournâmes",
+    "fournîtes           fournâtes",
+    "fournirent          fournèrent"
+  ],
+  [
+    "franchir",
+    "franchis            franchai",
+    "franchis            franchas",
+    "franchit            francha",
+    "franchîmes          franchâmes",
+    "franchîtes          franchâtes",
+    "franchirent         franchèrent"
+  ],
+  [
+    "fraîchir",
+    "fraîchis            fraîchai",
+    "fraîchis            fraîchas",
+    "fraîchit            fraîcha",
+    "fraîchîmes          fraîchâmes",
+    "fraîchîtes          fraîchâtes",
+    "fraîchirent         fraîchèrent"
+  ],
+  [
+    "frémir",
+    "frémis              frémai",
+    "frémis              frémas",
+    "frémit              fréma",
+    "frémîmes            frémâmes",
+    "frémîtes            frémâtes",
+    "frémirent           frémèrent"
+  ],
+  [
+    "fuir",
+    "fuis                fuai",
+    "fuis                fuas",
+    "fuit                fua",
+    "fuîmes              fuâmes",
+    "fuîtes              fuâtes",
+    "fuirent             fuèrent"
+  ],
+  [
+    "garantir",
+    "garantis            garantai",
+    "garantis            garantas",
+    "garantit            garanta",
+    "garantîmes          garantâmes",
+    "garantîtes          garantâtes",
+    "garantirent         garantèrent"
+  ],
+  [
+    "garnir",
+    "garnis              garnai",
+    "garnis              garnas",
+    "garnit              garna",
+    "garnîmes            garnâmes",
+    "garnîtes            garnâtes",
+    "garnirent           garnèrent"
+  ],
+  [
+    "gauchir",
+    "gauchis             gauchai",
+    "gauchis             gauchas",
+    "gauchit             gaucha",
+    "gauchîmes           gauchâmes",
+    "gauchîtes           gauchâtes",
+    "gauchirent          gauchèrent"
+  ],
+  [
+    "glapir",
+    "glapis              glapai",
+    "glapis              glapas",
+    "glapit              glapa",
+    "glapîmes            glapâmes",
+    "glapîtes            glapâtes",
+    "glapirent           glapèrent"
+  ],
+  [
+    "glatir",
+    "glatis              glatai",
+    "glatis              glatas",
+    "glatit              glata",
+    "glatîmes            glatâmes",
+    "glatîtes            glatâtes",
+    "glatirent           glatèrent"
+  ],
+  [
+    "grandir",
+    "grandis             grandai",
+    "grandis             grandas",
+    "grandit             granda",
+    "grandîmes           grandâmes",
+    "grandîtes           grandâtes",
+    "grandirent          grandèrent"
+  ],
+  [
+    "gravir",
+    "gravis              gravai",
+    "gravis              gravas",
+    "gravit              grava",
+    "gravîmes            gravâmes",
+    "gravîtes            gravâtes",
+    "gravirent           gravèrent"
+  ],
+  [
+    "grossir",
+    "grossis             grossai",
+    "grossis             grossas",
+    "grossit             grossa",
+    "grossîmes           grossâmes",
+    "grossîtes           grossâtes",
+    "grossirent          grossèrent"
+  ],
+  [
+    "guérir",
+    "guéris              guérai",
+    "guéris              guéras",
+    "guérit              guéra",
+    "guérîmes            guérâmes",
+    "guérîtes            guérâtes",
+    "guérirent           guérèrent"
+  ],
+  [
+    "gémir",
+    "gémis               gémai",
+    "gémis               gémas",
+    "gémit               géma",
+    "gémîmes             gémâmes",
+    "gémîtes             gémâtes",
+    "gémirent            gémèrent"
+  ],
+  [
+    "hennir",
+    "hennis              hennai",
+    "hennis              hennas",
+    "hennit              henna",
+    "hennîmes            hennâmes",
+    "hennîtes            hennâtes",
+    "hennirent           hennèrent"
+  ],
+  [
+    "honnir",
+    "honnis              honnai",
+    "honnis              honnas",
+    "honnit              honna",
+    "honnîmes            honnâmes",
+    "honnîtes            honnâtes",
+    "honnirent           honnèrent"
+  ],
+  [
+    "impartir",
+    "impartis            impartai",
+    "impartis            impartas",
+    "impartit            imparta",
+    "impartîmes          impartâmes",
+    "impartîtes          impartâtes",
+    "impartirent         impartèrent"
+  ],
+  [
+    "infléchir",
+    "infléchis           infléchai",
+    "infléchis           infléchas",
+    "infléchit           inflécha",
+    "infléchîmes         infléchâmes",
+    "infléchîtes         infléchâtes",
+    "infléchirent        infléchèrent"
+  ],
+  [
+    "interagir",
+    "interagis           interageai",
+    "interagis           interageas",
+    "interagit           interagea",
+    "interagîmes         interageâmes",
+    "interagîtes         interageâtes",
+    "interagirent        interagèrent"
+  ],
+  [
+    "intervenir",
+    "intervins           intervenai",
+    "intervins           intervenas",
+    "intervint           intervena",
+    "intervînmes         intervenâmes",
+    "intervîntes         intervenâtes",
+    "intervinrent        intervenèrent"
+  ],
+  [
+    "intervertir",
+    "intervertis         intervertai",
+    "intervertis         intervertas",
+    "intervertit         interverta",
+    "intervertîmes       intervertâmes",
+    "intervertîtes       intervertâtes",
+    "intervertirent      intervertèrent"
+  ],
+  [
+    "invertir",
+    "invertis            invertai",
+    "invertis            invertas",
+    "invertit            inverta",
+    "invertîmes          invertâmes",
+    "invertîtes          invertâtes",
+    "invertirent         invertèrent"
+  ],
+  [
+    "investir",
+    "investis            investai",
+    "investis            investas",
+    "investit            investa",
+    "investîmes          investâmes",
+    "investîtes          investâtes",
+    "investirent         investèrent"
+  ],
+  [
+    "jaillir",
+    "jaillis             jaillai",
+    "jaillis             jaillas",
+    "jaillit             jailla",
+    "jaillîmes           jaillâmes",
+    "jaillîtes           jaillâtes",
+    "jaillirent          jaillèrent"
+  ],
+  [
+    "jaunir",
+    "jaunis              jaunai",
+    "jaunis              jaunas",
+    "jaunit              jauna",
+    "jaunîmes            jaunâmes",
+    "jaunîtes            jaunâtes",
+    "jaunirent           jaunèrent"
+  ],
+  [
+    "jouir",
+    "jouis               jouai",
+    "jouis               jouas",
+    "jouit               joua",
+    "jouîmes             jouâmes",
+    "jouîtes             jouâtes",
+    "jouirent            jouèrent"
+  ],
+  [
+    "languir",
+    "languis             languai",
+    "languis             languas",
+    "languit             langua",
+    "languîmes           languâmes",
+    "languîtes           languâtes",
+    "languirent          languèrent"
+  ],
+  [
+    "lotir",
+    "lotis               lotai",
+    "lotis               lotas",
+    "lotit               lota",
+    "lotîmes             lotâmes",
+    "lotîtes             lotâtes",
+    "lotirent            lotèrent"
+  ],
+  [
+    "maigrir",
+    "maigris             maigrai",
+    "maigris             maigras",
+    "maigrit             maigra",
+    "maigrîmes           maigrâmes",
+    "maigrîtes           maigrâtes",
+    "maigrirent          maigrèrent"
+  ],
+  [
+    "maintenir",
+    "maintins            maintenai",
+    "maintins            maintenas",
+    "maintint            maintena",
+    "maintînmes          maintenâmes",
+    "maintîntes          maintenâtes",
+    "maintinrent         maintenèrent"
+  ],
+  [
+    "matir",
+    "matis               matai",
+    "matis               matas",
+    "matit               mata",
+    "matîmes             matâmes",
+    "matîtes             matâtes",
+    "matirent            matèrent"
+  ],
+  [
+    "mentir",
+    "mentis              mentai",
+    "mentis              mentas",
+    "mentit              menta",
+    "mentîmes            mentâmes",
+    "mentîtes            mentâtes",
+    "mentirent           mentèrent"
+  ],
+  [
+    "mourir",
+    "mourus              mourai",
+    "mourus              mouras",
+    "mourut              moura",
+    "mourûmes            mourâmes",
+    "mourûtes            mourâtes",
+    "moururent           mourèrent"
+  ],
+  [
+    "meurtrir",
+    "meurtris            meurtrai",
+    "meurtris            meurtras",
+    "meurtrit            meurtra",
+    "meurtrîmes          meurtrâmes",
+    "meurtrîtes          meurtrâtes",
+    "meurtrirent         meurtrèrent"
+  ],
+  [
+    "mouvoir",
+    "mus                 mouvoai",
+    "mus                 mouvoas",
+    "mut                 mouvoa",
+    "mûmes               mouvoâmes",
+    "mûtes               mouvoâtes",
+    "murent              mouvoèrent"
+  ],
+  [
+    "mincir",
+    "mincis              minçai",
+    "mincis              minças",
+    "mincit              minça",
+    "mincîmes            minçâmes",
+    "mincîtes            minçâtes",
+    "mincirent           mincèrent"
+  ],
+  [
+    "moisir",
+    "moisis              moisai",
+    "moisis              moisas",
+    "moisit              moisa",
+    "moisîmes            moisâmes",
+    "moisîtes            moisâtes",
+    "moisirent           moisèrent"
+  ],
+  [
+    "moitir",
+    "moitis              moitai",
+    "moitis              moitas",
+    "moitit              moita",
+    "moitîmes            moitâmes",
+    "moitîtes            moitâtes",
+    "moitirent           moitèrent"
+  ],
+  [
+    "mollir",
+    "mollis              mollai",
+    "mollis              mollas",
+    "mollit              molla",
+    "mollîmes            mollâmes",
+    "mollîtes            mollâtes",
+    "mollirent           mollèrent"
+  ],
+  [
+    "mugir",
+    "mugis               mugeai",
+    "mugis               mugeas",
+    "mugit               mugea",
+    "mugîmes             mugeâmes",
+    "mugîtes             mugeâtes",
+    "mugirent            mugèrent"
+  ],
+  [
+    "munir",
+    "munis               munai",
+    "munis               munas",
+    "munit               muna",
+    "munîmes             munâmes",
+    "munîtes             munâtes",
+    "munirent            munèrent"
+  ],
+  [
+    "mégir",
+    "mégis               mégeai",
+    "mégis               mégeas",
+    "mégit               mégea",
+    "mégîmes             mégeâmes",
+    "mégîtes             mégeâtes",
+    "mégirent            mégèrent"
+  ],
+  [
+    "mûrir",
+    "mûris               mûrai",
+    "mûris               mûras",
+    "mûrit               mûra",
+    "mûrîmes             mûrâmes",
+    "mûrîtes             mûrâtes",
+    "mûrirent            mûrèrent"
+  ],
+  [
+    "nantir",
+    "nantis              nantai",
+    "nantis              nantas",
+    "nantit              nanta",
+    "nantîmes            nantâmes",
+    "nantîtes            nantâtes",
+    "nantirent           nantèrent"
+  ],
+  [
+    "noircir",
+    "noircis             noirçai",
+    "noircis             noirças",
+    "noircit             noirça",
+    "noircîmes           noirçâmes",
+    "noircîtes           noirçâtes",
+    "noircirent          noircèrent"
+  ],
+  [
+    "nordir",
+    "nordis              nordai",
+    "nordis              nordas",
+    "nordit              norda",
+    "nordîmes            nordâmes",
+    "nordîtes            nordâtes",
+    "nordirent           nordèrent"
+  ],
+  [
+    "nourrir",
+    "nourris             nourrai",
+    "nourris             nourras",
+    "nourrit             nourra",
+    "nourrîmes           nourrâmes",
+    "nourrîtes           nourrâtes",
+    "nourrirent          nourrèrent"
+  ],
+  [
+    "obscurcir",
+    "obscurcis           obscurçai",
+    "obscurcis           obscurças",
+    "obscurcit           obscurça",
+    "obscurcîmes         obscurçâmes",
+    "obscurcîtes         obscurçâtes",
+    "obscurcirent        obscurcèrent"
+  ],
+  [
+    "obtenir",
+    "obtins              obtenai",
+    "obtins              obtenas",
+    "obtint              obtena",
+    "obtînmes            obtenâmes",
+    "obtîntes            obtenâtes",
+    "obtinrent           obtenèrent"
+  ],
+  [
+    "obvenir",
+    "obvins              obvenai",
+    "obvins              obvenas",
+    "obvint              obvena",
+    "obvînmes            obvenâmes",
+    "obvîntes            obvenâtes",
+    "obvinrent           obvenèrent"
+  ],
+  [
+    "obéir",
+    "obéis               obéai",
+    "obéis               obéas",
+    "obéit               obéa",
+    "obéîmes             obéâmes",
+    "obéîtes             obéâtes",
+    "obéirent            obéèrent"
+  ],
+  [
+    "offrir",
+    "offris              offrai",
+    "offris              offras",
+    "offrit              offra",
+    "offrîmes            offrâmes",
+    "offrîtes            offrâtes",
+    "offrirent           offrèrent"
+  ],
+  [
+    "ourdir",
+    "ourdis              ourdai",
+    "ourdis              ourdas",
+    "ourdit              ourda",
+    "ourdîmes            ourdâmes",
+    "ourdîtes            ourdâtes",
+    "ourdirent           ourdèrent"
+  ],
+  [
+    "ouvrir",
+    "ouvris              ouvrai",
+    "ouvris              ouvras",
+    "ouvrit              ouvra",
+    "ouvrîmes            ouvrâmes",
+    "ouvrîtes            ouvrâtes",
+    "ouvrirent           ouvrèrent"
+  ],
+  [
+    "parcourir",
+    "parcourus           parcourai",
+    "parcourus           parcouras",
+    "parcourut           parcoura",
+    "parcourûmes         parcourâmes",
+    "parcourûtes         parcourâtes",
+    "parcoururent        parcourèrent"
+  ],
+  [
+    "partir",
+    "partis              partai",
+    "partis              partas",
+    "partit              parta",
+    "partîmes            partâmes",
+    "partîtes            partâtes",
+    "partirent           partèrent"
+  ],
+  [
+    "parvenir",
+    "parvins             parvenai",
+    "parvins             parvenas",
+    "parvint             parvena",
+    "parvînmes           parvenâmes",
+    "parvîntes           parvenâtes",
+    "parvinrent          parvenèrent"
+  ],
+  [
+    "percevoir",
+    "perçus              percevoai",
+    "perçus              percevoas",
+    "perçut              percevoa",
+    "perçûmes            percevoâmes",
+    "perçûtes            percevoâtes",
+    "perçurent           percevoèrent"
+  ],
+  [
+    "pervertir",
+    "pervertis           pervertai",
+    "pervertis           pervertas",
+    "pervertit           perverta",
+    "pervertîmes         pervertâmes",
+    "pervertîtes         pervertâtes",
+    "pervertirent        pervertèrent"
+  ],
+  [
+    "pouvoir",
+    "pus                 pouvoai",
+    "pus                 pouvoas",
+    "put                 pouvoa",
+    "pûmes               pouvoâmes",
+    "pûtes               pouvoâtes",
+    "purent              pouvoèrent"
+  ],
+  [
+    "pleuvoir",
+    "                    pleuvoai",
+    "                    pleuvoas",
+    "plut                pleuvoa",
+    "                    pleuvoâmes",
+    "                    pleuvoâtes",
+    "plurent             pleuvoèrent"
+  ],
+  [
+    "polir",
+    "polis               polai",
+    "polis               polas",
+    "polit               pola",
+    "polîmes             polâmes",
+    "polîtes             polâtes",
+    "polirent            polèrent"
+  ],
+  [
+    "pourrir",
+    "pourris             pourrai",
+    "pourris             pourras",
+    "pourrit             pourra",
+    "pourrîmes           pourrâmes",
+    "pourrîtes           pourrâtes",
+    "pourrirent          pourrèrent"
+  ],
+  [
+    "pourvoir",
+    "pourvus             pourvoai",
+    "pourvus             pourvoas",
+    "pourvut             pourvoa",
+    "pourvûmes           pourvoâmes",
+    "pourvûtes           pourvoâtes",
+    "pourvurent          pourvoèrent"
+  ],
+  [
+    "pressentir",
+    "pressentis          pressentai",
+    "pressentis          pressentas",
+    "pressentit          pressenta",
+    "pressentîmes        pressentâmes",
+    "pressentîtes        pressentâtes",
+    "pressentirent       pressentèrent"
+  ],
+  [
+    "promouvoir",
+    "promus              promouvoai",
+    "promus              promouvoas",
+    "promut              promouvoa",
+    "promûmes            promouvoâmes",
+    "promûtes            promouvoâtes",
+    "promurent           promouvoèrent"
+  ],
+  [
+    "provenir",
+    "provins             provenai",
+    "provins             provenas",
+    "provint             provena",
+    "provînmes           provenâmes",
+    "provîntes           provenâtes",
+    "provinrent          provenèrent"
+  ],
+  [
+    "préconcevoir",
+    "préconçus           préconcevoai",
+    "préconçus           préconcevoas",
+    "préconçut           préconcevoa",
+    "préconçûmes         préconcevoâmes",
+    "préconçûtes         préconcevoâtes",
+    "préconçurent        préconcevoèrent"
+  ],
+  [
+    "prémunir",
+    "prémunis            prémunai",
+    "prémunis            prémunas",
+    "prémunit            prémuna",
+    "prémunîmes          prémunâmes",
+    "prémunîtes          prémunâtes",
+    "prémunirent         prémunèrent"
+  ],
+  [
+    "prévaloir",
+    "prévalus            prévaloai",
+    "prévalus            prévaloas",
+    "prévalut            prévaloa",
+    "prévalûmes          prévaloâmes",
+    "prévalûtes          prévaloâtes",
+    "prévalurent         prévaloèrent"
+  ],
+  [
+    "prévenir",
+    "prévins             prévenai",
+    "prévins             prévenas",
+    "prévint             prévena",
+    "prévînmes           prévenâmes",
+    "prévîntes           prévenâtes",
+    "prévinrent          prévenèrent"
+  ],
+  [
+    "prévoir",
+    "prévis              prévoai",
+    "prévis              prévoas",
+    "prévit              prévoa",
+    "prévîmes            prévoâmes",
+    "prévîtes            prévoâtes",
+    "prévirent           prévoèrent"
+  ],
+  [
+    "préétablir",
+    "préétablis          préétablai",
+    "préétablis          préétablas",
+    "préétablit          préétabla",
+    "préétablîmes        préétablâmes",
+    "préétablîtes        préétablâtes",
+    "préétablirent       préétablèrent"
+  ],
+  [
+    "punir",
+    "punis               punai",
+    "punis               punas",
+    "punit               puna",
+    "punîmes             punâmes",
+    "punîtes             punâtes",
+    "punirent            punèrent"
+  ],
+  [
+    "pâlir",
+    "pâlis               pâlai",
+    "pâlis               pâlas",
+    "pâlit               pâla",
+    "pâlîmes             pâlâmes",
+    "pâlîtes             pâlâtes",
+    "pâlirent            pâlèrent"
+  ],
+  [
+    "pâtir",
+    "pâtis               pâtai",
+    "pâtis               pâtas",
+    "pâtit               pâta",
+    "pâtîmes             pâtâmes",
+    "pâtîtes             pâtâtes",
+    "pâtirent            pâtèrent"
+  ],
+  [
+    "périr",
+    "péris               pérai",
+    "péris               péras",
+    "périt               péra",
+    "pérîmes             pérâmes",
+    "pérîtes             pérâtes",
+    "périrent            pérèrent"
+  ],
+  [
+    "pétrir",
+    "pétris              pétrai",
+    "pétris              pétras",
+    "pétrit              pétra",
+    "pétrîmes            pétrâmes",
+    "pétrîtes            pétrâtes",
+    "pétrirent           pétrèrent"
+  ],
+  [
+    "rabonnir",
+    "rabonnis            rabonnai",
+    "rabonnis            rabonnas",
+    "rabonnit            rabonna",
+    "rabonnîmes          rabonnâmes",
+    "rabonnîtes          rabonnâtes",
+    "rabonnirent         rabonnèrent"
+  ],
+  [
+    "rabougrir",
+    "rabougris           rabougrai",
+    "rabougris           rabougras",
+    "rabougrit           rabougra",
+    "rabougrîmes         rabougrâmes",
+    "rabougrîtes         rabougrâtes",
+    "rabougrirent        rabougrèrent"
+  ],
+  [
+    "raccourcir",
+    "raccourcis          raccourçai",
+    "raccourcis          raccourças",
+    "raccourcit          raccourça",
+    "raccourcîmes        raccourçâmes",
+    "raccourcîtes        raccourçâtes",
+    "raccourcirent       raccourcèrent"
+  ],
+  [
+    "racornir",
+    "racornis            racornai",
+    "racornis            racornas",
+    "racornit            racorna",
+    "racornîmes          racornâmes",
+    "racornîtes          racornâtes",
+    "racornirent         racornèrent"
+  ],
+  [
+    "radoucir",
+    "radoucis            radouçai",
+    "radoucis            radouças",
+    "radoucit            radouça",
+    "radoucîmes          radouçâmes",
+    "radoucîtes          radouçâtes",
+    "radoucirent         radoucèrent"
+  ],
+  [
+    "raffermir",
+    "raffermis           raffermai",
+    "raffermis           raffermas",
+    "raffermit           rafferma",
+    "raffermîmes         raffermâmes",
+    "raffermîtes         raffermâtes",
+    "raffermirent        raffermèrent"
+  ],
+  [
+    "rafraîchir",
+    "rafraîchis          rafraîchai",
+    "rafraîchis          rafraîchas",
+    "rafraîchit          rafraîcha",
+    "rafraîchîmes        rafraîchâmes",
+    "rafraîchîtes        rafraîchâtes",
+    "rafraîchirent       rafraîchèrent"
+  ],
+  [
+    "ragaillardir",
+    "ragaillardis        ragaillardai",
+    "ragaillardis        ragaillardas",
+    "ragaillardit        ragaillarda",
+    "ragaillardîmes      ragaillardâmes",
+    "ragaillardîtes      ragaillardâtes",
+    "ragaillardirent     ragaillardèrent"
+  ],
+  [
+    "raidir",
+    "raidis              raidai",
+    "raidis              raidas",
+    "raidit              raida",
+    "raidîmes            raidâmes",
+    "raidîtes            raidâtes",
+    "raidirent           raidèrent"
+  ],
+  [
+    "rajeunir",
+    "rajeunis            rajeunai",
+    "rajeunis            rajeunas",
+    "rajeunit            rajeuna",
+    "rajeunîmes          rajeunâmes",
+    "rajeunîtes          rajeunâtes",
+    "rajeunirent         rajeunèrent"
+  ],
+  [
+    "ralentir",
+    "ralentis            ralentai",
+    "ralentis            ralentas",
+    "ralentit            ralenta",
+    "ralentîmes          ralentâmes",
+    "ralentîtes          ralentâtes",
+    "ralentirent         ralentèrent"
+  ],
+  [
+    "ramollir",
+    "ramollis            ramollai",
+    "ramollis            ramollas",
+    "ramollit            ramolla",
+    "ramollîmes          ramollâmes",
+    "ramollîtes          ramollâtes",
+    "ramollirent         ramollèrent"
+  ],
+  [
+    "rancir",
+    "rancis              rançai",
+    "rancis              ranças",
+    "rancit              rança",
+    "rancîmes            rançâmes",
+    "rancîtes            rançâtes",
+    "rancirent           rancèrent"
+  ],
+  [
+    "raplatir",
+    "raplatis            raplatai",
+    "raplatis            raplatas",
+    "raplatit            raplata",
+    "raplatîmes          raplatâmes",
+    "raplatîtes          raplatâtes",
+    "raplatirent         raplatèrent"
+  ],
+  [
+    "rasseoir",
+    "rassis              rasseoai",
+    "rassis              rasseoas",
+    "rassit              rasseoa",
+    "rassîmes            rasseoâmes",
+    "rassîtes            rasseoâtes",
+    "rassirent           rasseoèrent"
+  ],
+  [
+    "rassortir",
+    "rassortis           rassortai",
+    "rassortis           rassortas",
+    "rassortit           rassorta",
+    "rassortîmes         rassortâmes",
+    "rassortîtes         rassortâtes",
+    "rassortirent        rassortèrent"
+  ],
+  [
+    "ravir",
+    "ravis               ravai",
+    "ravis               ravas",
+    "ravit               rava",
+    "ravîmes             ravâmes",
+    "ravîtes             ravâtes",
+    "ravirent            ravèrent"
+  ],
+  [
+    "ravilir",
+    "ravilis             ravilai",
+    "ravilis             ravilas",
+    "ravilit             ravila",
+    "ravilîmes           ravilâmes",
+    "ravilîtes           ravilâtes",
+    "ravilirent          ravilèrent"
+  ],
+  [
+    "reblanchir",
+    "reblanchis          reblanchai",
+    "reblanchis          reblanchas",
+    "reblanchit          reblancha",
+    "reblanchîmes        reblanchâmes",
+    "reblanchîtes        reblanchâtes",
+    "reblanchirent       reblanchèrent"
+  ],
+  [
+    "rebondir",
+    "rebondis            rebondai",
+    "rebondis            rebondas",
+    "rebondit            rebonda",
+    "rebondîmes          rebondâmes",
+    "rebondîtes          rebondâtes",
+    "rebondirent         rebondèrent"
+  ],
+  [
+    "rebâtir",
+    "rebâtis             rebâtai",
+    "rebâtis             rebâtas",
+    "rebâtit             rebâta",
+    "rebâtîmes           rebâtâmes",
+    "rebâtîtes           rebâtâtes",
+    "rebâtirent          rebâtèrent"
+  ],
+  [
+    "recevoir",
+    "reçus               recevoai",
+    "reçus               recevoas",
+    "reçut               recevoa",
+    "reçûmes             recevoâmes",
+    "reçûtes             recevoâtes",
+    "reçurent            recevoèrent"
+  ],
+  [
+    "rechampir",
+    "rechampis           rechampai",
+    "rechampis           rechampas",
+    "rechampit           rechampa",
+    "rechampîmes         rechampâmes",
+    "rechampîtes         rechampâtes",
+    "rechampirent        rechampèrent"
+  ],
+  [
+    "reconquérir",
+    "reconquis           reconquérai",
+    "reconquis           reconquéras",
+    "reconquit           reconquéra",
+    "reconquîmes         reconquérâmes",
+    "reconquîtes         reconquérâtes",
+    "reconquirent        reconquérèrent"
+  ],
+  [
+    "reconvertir",
+    "reconvertis         reconvertai",
+    "reconvertis         reconvertas",
+    "reconvertit         reconverta",
+    "reconvertîmes       reconvertâmes",
+    "reconvertîtes       reconvertâtes",
+    "reconvertirent      reconvertèrent"
+  ],
+  [
+    "recourir",
+    "recourus            recourai",
+    "recourus            recouras",
+    "recourut            recoura",
+    "recourûmes          recourâmes",
+    "recourûtes          recourâtes",
+    "recoururent         recourèrent"
+  ],
+  [
+    "recouvrir",
+    "recouvris           recouvrai",
+    "recouvris           recouvras",
+    "recouvrit           recouvra",
+    "recouvrîmes         recouvrâmes",
+    "recouvrîtes         recouvrâtes",
+    "recouvrirent        recouvrèrent"
+  ],
+  [
+    "recrépir",
+    "recrépis            recrépai",
+    "recrépis            recrépas",
+    "recrépit            recrépa",
+    "recrépîmes          recrépâmes",
+    "recrépîtes          recrépâtes",
+    "recrépirent         recrépèrent"
+  ],
+  [
+    "recueillir",
+    "recueillis          recueillai",
+    "recueillis          recueillas",
+    "recueillit          recueilla",
+    "recueillîmes        recueillâmes",
+    "recueillîtes        recueillâtes",
+    "recueillirent       recueillèrent"
+  ],
+  [
+    "redevoir",
+    "redus               redevoai",
+    "redus               redevoas",
+    "redut               redevoa",
+    "redûmes             redevoâmes",
+    "redûtes             redevoâtes",
+    "redurent            redevoèrent"
+  ],
+  [
+    "redevenir",
+    "redevins            redevenai",
+    "redevins            redevenas",
+    "redevint            redevena",
+    "redevînmes          redevenâmes",
+    "redevîntes          redevenâtes",
+    "redevinrent         redevenèrent"
+  ],
+  [
+    "redormir",
+    "redormis            redormai",
+    "redormis            redormas",
+    "redormit            redorma",
+    "redormîmes          redormâmes",
+    "redormîtes          redormâtes",
+    "redormirent         redormèrent"
+  ],
+  [
+    "redécouvrir",
+    "redécouvris         redécouvrai",
+    "redécouvris         redécouvras",
+    "redécouvrit         redécouvra",
+    "redécouvrîmes       redécouvrâmes",
+    "redécouvrîtes       redécouvrâtes",
+    "redécouvrirent      redécouvrèrent"
+  ],
+  [
+    "redéfinir",
+    "redéfinis           redéfinai",
+    "redéfinis           redéfinas",
+    "redéfinit           redéfina",
+    "redéfinîmes         redéfinâmes",
+    "redéfinîtes         redéfinâtes",
+    "redéfinirent        redéfinèrent"
+  ],
+  [
+    "refleurir",
+    "refleuris           refleurai",
+    "refleuris           refleuras",
+    "refleurit           refleura",
+    "refleurîmes         refleurâmes",
+    "refleurîtes         refleurâtes",
+    "refleurirent        refleurèrent"
+  ],
+  [
+    "refroidir",
+    "refroidis           refroidai",
+    "refroidis           refroidas",
+    "refroidit           refroida",
+    "refroidîmes         refroidâmes",
+    "refroidîtes         refroidâtes",
+    "refroidirent        refroidèrent"
+  ],
+  [
+    "regarnir",
+    "regarnis            regarnai",
+    "regarnis            regarnas",
+    "regarnit            regarna",
+    "regarnîmes          regarnâmes",
+    "regarnîtes          regarnâtes",
+    "regarnirent         regarnèrent"
+  ],
+  [
+    "rejaillir",
+    "rejaillis           rejaillai",
+    "rejaillis           rejaillas",
+    "rejaillit           rejailla",
+    "rejaillîmes         rejaillâmes",
+    "rejaillîtes         rejaillâtes",
+    "rejaillirent        rejaillèrent"
+  ],
+  [
+    "rembrunir",
+    "rembrunis           rembrunai",
+    "rembrunis           rembrunas",
+    "rembrunit           rembruna",
+    "rembrunîmes         rembrunâmes",
+    "rembrunîtes         rembrunâtes",
+    "rembrunirent        rembrunèrent"
+  ],
+  [
+    "remplir",
+    "remplis             remplai",
+    "remplis             remplas",
+    "remplit             rempla",
+    "remplîmes           remplâmes",
+    "remplîtes           remplâtes",
+    "remplirent          remplèrent"
+  ],
+  [
+    "renchérir",
+    "renchéris           renchérai",
+    "renchéris           renchéras",
+    "renchérit           renchéra",
+    "renchérîmes         renchérâmes",
+    "renchérîtes         renchérâtes",
+    "renchérirent        renchérèrent"
+  ],
+  [
+    "rendormir",
+    "rendormis           rendormai",
+    "rendormis           rendormas",
+    "rendormit           rendorma",
+    "rendormîmes         rendormâmes",
+    "rendormîtes         rendormâtes",
+    "rendormirent        rendormèrent"
+  ],
+  [
+    "renformir",
+    "renformis           renformai",
+    "renformis           renformas",
+    "renformit           renforma",
+    "renformîmes         renformâmes",
+    "renformîtes         renformâtes",
+    "renformirent        renformèrent"
+  ],
+  [
+    "reparcourir",
+    "reparcourus         reparcourai",
+    "reparcourus         reparcouras",
+    "reparcourut         reparcoura",
+    "reparcourûmes       reparcourâmes",
+    "reparcourûtes       reparcourâtes",
+    "reparcoururent      reparcourèrent"
+  ],
+  [
+    "repartir",
+    "repartis            repartai",
+    "repartis            repartas",
+    "repartit            reparta",
+    "repartîmes          repartâmes",
+    "repartîtes          repartâtes",
+    "repartirent         repartèrent"
+  ],
+  [
+    "repentir",
+    "repentis            repentai",
+    "repentis            repentas",
+    "repentit            repenta",
+    "repentîmes          repentâmes",
+    "repentîtes          repentâtes",
+    "repentirent         repentèrent"
+  ],
+  [
+    "repolir",
+    "repolis             repolai",
+    "repolis             repolas",
+    "repolit             repola",
+    "repolîmes           repolâmes",
+    "repolîtes           repolâtes",
+    "repolirent          repolèrent"
+  ],
+  [
+    "requérir",
+    "requis              requérai",
+    "requis              requéras",
+    "requit              requéra",
+    "requîmes            requérâmes",
+    "requîtes            requérâtes",
+    "requirent           requérèrent"
+  ],
+  [
+    "resalir",
+    "resalis             resalai",
+    "resalis             resalas",
+    "resalit             resala",
+    "resalîmes           resalâmes",
+    "resalîtes           resalâtes",
+    "resalirent          resalèrent"
+  ],
+  [
+    "resplendir",
+    "resplendis          resplendai",
+    "resplendis          resplendas",
+    "resplendit          resplenda",
+    "resplendîmes        resplendâmes",
+    "resplendîtes        resplendâtes",
+    "resplendirent       resplendèrent"
+  ],
+  [
+    "ressaisir",
+    "ressaisis           ressaisai",
+    "ressaisis           ressaisas",
+    "ressaisit           ressaisa",
+    "ressaisîmes         ressaisâmes",
+    "ressaisîtes         ressaisâtes",
+    "ressaisirent        ressaisèrent"
+  ],
+  [
+    "ressentir",
+    "ressentis           ressentai",
+    "ressentis           ressentas",
+    "ressentit           ressenta",
+    "ressentîmes         ressentâmes",
+    "ressentîtes         ressentâtes",
+    "ressentirent        ressentèrent"
+  ],
+  [
+    "resservir",
+    "resservis           resservai",
+    "resservis           resservas",
+    "resservit           resserva",
+    "resservîmes         resservâmes",
+    "resservîtes         resservâtes",
+    "resservirent        resservèrent"
+  ],
+  [
+    "ressortir",
+    "ressortis           ressortai",
+    "ressortis           ressortas",
+    "ressortit           ressorta",
+    "ressortîmes         ressortâmes",
+    "ressortîtes         ressortâtes",
+    "ressortirent        ressortèrent"
+  ],
+  [
+    "ressouvenir",
+    "ressouvins          ressouvenai",
+    "ressouvins          ressouvenas",
+    "ressouvint          ressouvena",
+    "ressouvînmes        ressouvenâmes",
+    "ressouvîntes        ressouvenâtes",
+    "ressouvinrent       ressouvenèrent"
+  ],
+  [
+    "ressurgir",
+    "ressurgis           ressurgeai",
+    "ressurgis           ressurgeas",
+    "ressurgit           ressurgea",
+    "ressurgîmes         ressurgeâmes",
+    "ressurgîtes         ressurgeâtes",
+    "ressurgirent        ressurgèrent"
+  ],
+  [
+    "resurgir",
+    "resurgis            resurgeai",
+    "resurgis            resurgeas",
+    "resurgit            resurgea",
+    "resurgîmes          resurgeâmes",
+    "resurgîtes          resurgeâtes",
+    "resurgirent         resurgèrent"
+  ],
+  [
+    "retenir",
+    "retins              retenai",
+    "retins              retenas",
+    "retint              retena",
+    "retînmes            retenâmes",
+    "retîntes            retenâtes",
+    "retinrent           retenèrent"
+  ],
+  [
+    "retentir",
+    "retentis            retentai",
+    "retentis            retentas",
+    "retentit            retenta",
+    "retentîmes          retentâmes",
+    "retentîtes          retentâtes",
+    "retentirent         retentèrent"
+  ],
+  [
+    "revaloir",
+    "revalus             revaloai",
+    "revalus             revaloas",
+    "revalut             revaloa",
+    "revalûmes           revaloâmes",
+    "revalûtes           revaloâtes",
+    "revalurent          revaloèrent"
+  ],
+  [
+    "revenir",
+    "revins              revenai",
+    "revins              revenas",
+    "revint              revena",
+    "revînmes            revenâmes",
+    "revîntes            revenâtes",
+    "revinrent           revenèrent"
+  ],
+  [
+    "reverdir",
+    "reverdis            reverdai",
+    "reverdis            reverdas",
+    "reverdit            reverda",
+    "reverdîmes          reverdâmes",
+    "reverdîtes          reverdâtes",
+    "reverdirent         reverdèrent"
+  ],
+  [
+    "revernir",
+    "revernis            revernai",
+    "revernis            revernas",
+    "revernit            reverna",
+    "revernîmes          revernâmes",
+    "revernîtes          revernâtes",
+    "revernirent         revernèrent"
+  ],
+  [
+    "revoir",
+    "revis               revoai",
+    "revis               revoas",
+    "revit               revoa",
+    "revîmes             revoâmes",
+    "revîtes             revoâtes",
+    "revirent            revoèrent"
+  ],
+  [
+    "revêtir",
+    "revêtis             revêtai",
+    "revêtis             revêtas",
+    "revêtit             revêta",
+    "revêtîmes           revêtâmes",
+    "revêtîtes           revêtâtes",
+    "revêtirent          revêtèrent"
+  ],
+  [
+    "rosir",
+    "rosis               rosai",
+    "rosis               rosas",
+    "rosit               rosa",
+    "rosîmes             rosâmes",
+    "rosîtes             rosâtes",
+    "rosirent            rosèrent"
+  ],
+  [
+    "rougir",
+    "rougis              rougeai",
+    "rougis              rougeas",
+    "rougit              rougea",
+    "rougîmes            rougeâmes",
+    "rougîtes            rougeâtes",
+    "rougirent           rougèrent"
+  ],
+  [
+    "rouir",
+    "rouis               rouai",
+    "rouis               rouas",
+    "rouit               roua",
+    "rouîmes             rouâmes",
+    "rouîtes             rouâtes",
+    "rouirent            rouèrent"
+  ],
+  [
+    "roussir",
+    "roussis             roussai",
+    "roussis             roussas",
+    "roussit             roussa",
+    "roussîmes           roussâmes",
+    "roussîtes           roussâtes",
+    "roussirent          roussèrent"
+  ],
+  [
+    "roustir",
+    "roustis             roustai",
+    "roustis             roustas",
+    "roustit             rousta",
+    "roustîmes           roustâmes",
+    "roustîtes           roustâtes",
+    "roustirent          roustèrent"
+  ],
+  [
+    "rouvrir",
+    "rouvris             rouvrai",
+    "rouvris             rouvras",
+    "rouvrit             rouvra",
+    "rouvrîmes           rouvrâmes",
+    "rouvrîtes           rouvrâtes",
+    "rouvrirent          rouvrèrent"
+  ],
+  [
+    "rugir",
+    "rugis               rugeai",
+    "rugis               rugeas",
+    "rugit               rugea",
+    "rugîmes             rugeâmes",
+    "rugîtes             rugeâtes",
+    "rugirent            rugèrent"
+  ],
+  [
+    "réagir",
+    "réagis              réageai",
+    "réagis              réageas",
+    "réagit              réagea",
+    "réagîmes            réageâmes",
+    "réagîtes            réageâtes",
+    "réagirent           réagèrent"
+  ],
+  [
+    "réasservir",
+    "réasservis          réasservai",
+    "réasservis          réasservas",
+    "réasservit          réasserva",
+    "réasservîmes        réasservâmes",
+    "réasservîtes        réasservâtes",
+    "réasservirent       réasservèrent"
+  ],
+  [
+    "réassortir",
+    "réassortis          réassortai",
+    "réassortis          réassortas",
+    "réassortit          réassorta",
+    "réassortîmes        réassortâmes",
+    "réassortîtes        réassortâtes",
+    "réassortirent       réassortèrent"
+  ],
+  [
+    "réchampir",
+    "réchampis           réchampai",
+    "réchampis           réchampas",
+    "réchampit           réchampa",
+    "réchampîmes         réchampâmes",
+    "réchampîtes         réchampâtes",
+    "réchampirent        réchampèrent"
+  ],
+  [
+    "réfléchir",
+    "réfléchis           réfléchai",
+    "réfléchis           réfléchas",
+    "réfléchit           réflécha",
+    "réfléchîmes         réfléchâmes",
+    "réfléchîtes         réfléchâtes",
+    "réfléchirent        réfléchèrent"
+  ],
+  [
+    "régir",
+    "régis               régeai",
+    "régis               régeas",
+    "régit               régea",
+    "régîmes             régeâmes",
+    "régîtes             régeâtes",
+    "régirent            régèrent"
+  ],
+  [
+    "réinvestir",
+    "réinvestis          réinvestai",
+    "réinvestis          réinvestas",
+    "réinvestit          réinvesta",
+    "réinvestîmes        réinvestâmes",
+    "réinvestîtes        réinvestâtes",
+    "réinvestirent       réinvestèrent"
+  ],
+  [
+    "réjouir",
+    "réjouis             réjouai",
+    "réjouis             réjouas",
+    "réjouit             réjoua",
+    "réjouîmes           réjouâmes",
+    "réjouîtes           réjouâtes",
+    "réjouirent          réjouèrent"
+  ],
+  [
+    "rélargir",
+    "rélargis            rélargeai",
+    "rélargis            rélargeas",
+    "rélargit            rélargea",
+    "rélargîmes          rélargeâmes",
+    "rélargîtes          rélargeâtes",
+    "rélargirent         rélargèrent"
+  ],
+  [
+    "réouvrir",
+    "réouvris            réouvrai",
+    "réouvris            réouvras",
+    "réouvrit            réouvra",
+    "réouvrîmes          réouvrâmes",
+    "réouvrîtes          réouvrâtes",
+    "réouvrirent         réouvrèrent"
+  ],
+  [
+    "répartir",
+    "répartis            répartai",
+    "répartis            répartas",
+    "répartit            réparta",
+    "répartîmes          répartâmes",
+    "répartîtes          répartâtes",
+    "répartirent         répartèrent"
+  ],
+  [
+    "rétablir",
+    "rétablis            rétablai",
+    "rétablis            rétablas",
+    "rétablit            rétabla",
+    "rétablîmes          rétablâmes",
+    "rétablîtes          rétablâtes",
+    "rétablirent         rétablèrent"
+  ],
+  [
+    "rétroagir",
+    "rétroagis           rétroageai",
+    "rétroagis           rétroageas",
+    "rétroagit           rétroagea",
+    "rétroagîmes         rétroageâmes",
+    "rétroagîtes         rétroageâtes",
+    "rétroagirent        rétroagèrent"
+  ],
+  [
+    "rétrécir",
+    "rétrécis            rétréçai",
+    "rétrécis            rétréças",
+    "rétrécit            rétréça",
+    "rétrécîmes          rétréçâmes",
+    "rétrécîtes          rétréçâtes",
+    "rétrécirent         rétrécèrent"
+  ],
+  [
+    "réunir",
+    "réunis              réunai",
+    "réunis              réunas",
+    "réunit              réuna",
+    "réunîmes            réunâmes",
+    "réunîtes            réunâtes",
+    "réunirent           réunèrent"
+  ],
+  [
+    "réussir",
+    "réussis             réussai",
+    "réussis             réussas",
+    "réussit             réussa",
+    "réussîmes           réussâmes",
+    "réussîtes           réussâtes",
+    "réussirent          réussèrent"
+  ],
+  [
+    "rôtir",
+    "rôtis               rôtai",
+    "rôtis               rôtas",
+    "rôtit               rôta",
+    "rôtîmes             rôtâmes",
+    "rôtîtes             rôtâtes",
+    "rôtirent            rôtèrent"
+  ],
+  [
+    "savoir",
+    "sus                 savoai",
+    "sus                 savoas",
+    "sut                 savoa",
+    "sûmes               savoâmes",
+    "sûtes               savoâtes",
+    "surent              savoèrent"
+  ],
+  [
+    "saillir",
+    "saillis             saillai",
+    "saillis             saillas",
+    "saillit             sailla",
+    "saillîmes           saillâmes",
+    "saillîtes           saillâtes",
+    "saillirent          saillèrent"
+  ],
+  [
+    "saisir",
+    "saisis              saisai",
+    "saisis              saisas",
+    "saisit              saisa",
+    "saisîmes            saisâmes",
+    "saisîtes            saisâtes",
+    "saisirent           saisèrent"
+  ],
+  [
+    "salir",
+    "salis               salai",
+    "salis               salas",
+    "salit               sala",
+    "salîmes             salâmes",
+    "salîtes             salâtes",
+    "salirent            salèrent"
+  ],
+  [
+    "secourir",
+    "secourus            secourai",
+    "secourus            secouras",
+    "secourut            secoura",
+    "secourûmes          secourâmes",
+    "secourûtes          secourâtes",
+    "secoururent         secourèrent"
+  ],
+  [
+    "sentir",
+    "sentis              sentai",
+    "sentis              sentas",
+    "sentit              senta",
+    "sentîmes            sentâmes",
+    "sentîtes            sentâtes",
+    "sentirent           sentèrent"
+  ],
+  [
+    "serfouir",
+    "serfouis            serfouai",
+    "serfouis            serfouas",
+    "serfouit            serfoua",
+    "serfouîmes          serfouâmes",
+    "serfouîtes          serfouâtes",
+    "serfouirent         serfouèrent"
+  ],
+  [
+    "servir",
+    "servis              servai",
+    "servis              servas",
+    "servit              serva",
+    "servîmes            servâmes",
+    "servîtes            servâtes",
+    "servirent           servèrent"
+  ],
+  [
+    "sertir",
+    "sertis              sertai",
+    "sertis              sertas",
+    "sertit              serta",
+    "sertîmes            sertâmes",
+    "sertîtes            sertâtes",
+    "sertirent           sertèrent"
+  ],
+  [
+    "sortir",
+    "sortis              sortai",
+    "sortis              sortas",
+    "sortit              sorta",
+    "sortîmes            sortâmes",
+    "sortîtes            sortâtes",
+    "sortirent           sortèrent"
+  ],
+  [
+    "souffrir",
+    "souffris            souffrai",
+    "souffris            souffras",
+    "souffrit            souffra",
+    "souffrîmes          souffrâmes",
+    "souffrîtes          souffrâtes",
+    "souffrirent         souffrèrent"
+  ],
+  [
+    "soutenir",
+    "soutins             soutenai",
+    "soutins             soutenas",
+    "soutint             soutena",
+    "soutînmes           soutenâmes",
+    "soutîntes           soutenâtes",
+    "soutinrent          soutenèrent"
+  ],
+  [
+    "souvenir",
+    "souvins             souvenai",
+    "souvins             souvenas",
+    "souvint             souvena",
+    "souvînmes           souvenâmes",
+    "souvîntes           souvenâtes",
+    "souvinrent          souvenèrent"
+  ],
+  [
+    "subir",
+    "subis               subai",
+    "subis               subas",
+    "subit               suba",
+    "subîmes             subâmes",
+    "subîtes             subâtes",
+    "subirent            subèrent"
+  ],
+  [
+    "subvenir",
+    "subvins             subvenai",
+    "subvins             subvenas",
+    "subvint             subvena",
+    "subvînmes           subvenâmes",
+    "subvîntes           subvenâtes",
+    "subvinrent          subvenèrent"
+  ],
+  [
+    "subvertir",
+    "subvertis           subvertai",
+    "subvertis           subvertas",
+    "subvertit           subverta",
+    "subvertîmes         subvertâmes",
+    "subvertîtes         subvertâtes",
+    "subvertirent        subvertèrent"
+  ],
+  [
+    "surenchérir",
+    "surenchéris         surenchérai",
+    "surenchéris         surenchéras",
+    "surenchérit         surenchéra",
+    "surenchérîmes       surenchérâmes",
+    "surenchérîtes       surenchérâtes",
+    "surenchérirent      surenchérèrent"
+  ],
+  [
+    "surgir",
+    "surgis              surgeai",
+    "surgis              surgeas",
+    "surgit              surgea",
+    "surgîmes            surgeâmes",
+    "surgîtes            surgeâtes",
+    "surgirent           surgèrent"
+  ],
+  [
+    "surir",
+    "suris               surai",
+    "suris               suras",
+    "surit               sura",
+    "surîmes             surâmes",
+    "surîtes             surâtes",
+    "surirent            surèrent"
+  ],
+  [
+    "surinvestir",
+    "surinvestis         surinvestai",
+    "surinvestis         surinvestas",
+    "surinvestit         surinvesta",
+    "surinvestîmes       surinvestâmes",
+    "surinvestîtes       surinvestâtes",
+    "surinvestirent      surinvestèrent"
+  ],
+  [
+    "surnourrir",
+    "surnourris          surnourrai",
+    "surnourris          surnourras",
+    "surnourrit          surnourra",
+    "surnourrîmes        surnourrâmes",
+    "surnourrîtes        surnourrâtes",
+    "surnourrirent       surnourrèrent"
+  ],
+  [
+    "survenir",
+    "survins             survenai",
+    "survins             survenas",
+    "survint             survena",
+    "survînmes           survenâmes",
+    "survîntes           survenâtes",
+    "survinrent          survenèrent"
+  ],
+  [
+    "sévir",
+    "sévis               sévai",
+    "sévis               sévas",
+    "sévit               séva",
+    "sévîmes             sévâmes",
+    "sévîtes             sévâtes",
+    "sévirent            sévèrent"
+  ],
+  [
+    "tapir",
+    "tapis               tapai",
+    "tapis               tapas",
+    "tapit               tapa",
+    "tapîmes             tapâmes",
+    "tapîtes             tapâtes",
+    "tapirent            tapèrent"
+  ],
+  [
+    "tarir",
+    "taris               tarai",
+    "taris               taras",
+    "tarit               tara",
+    "tarîmes             tarâmes",
+    "tarîtes             tarâtes",
+    "tarirent            tarèrent"
+  ],
+  [
+    "tartir",
+    "tartis              tartai",
+    "tartis              tartas",
+    "tartit              tarta",
+    "tartîmes            tartâmes",
+    "tartîtes            tartâtes",
+    "tartirent           tartèrent"
+  ],
+  [
+    "tenir",
+    "tins                tenai",
+    "tins                tenas",
+    "tint                tena",
+    "tînmes              tenâmes",
+    "tîntes              tenâtes",
+    "tinrent             tenèrent"
+  ],
+  [
+    "ternir",
+    "ternis              ternai",
+    "ternis              ternas",
+    "ternit              terna",
+    "ternîmes            ternâmes",
+    "ternîtes            ternâtes",
+    "ternirent           ternèrent"
+  ],
+  [
+    "terrir",
+    "terris              terrai",
+    "terris              terras",
+    "territ              terra",
+    "terrîmes            terrâmes",
+    "terrîtes            terrâtes",
+    "terrirent           terrèrent"
+  ],
+  [
+    "tiédir",
+    "tiédis              tiédai",
+    "tiédis              tiédas",
+    "tiédit              tiéda",
+    "tiédîmes            tiédâmes",
+    "tiédîtes            tiédâtes",
+    "tiédirent           tiédèrent"
+  ],
+  [
+    "trahir",
+    "trahis              trahai",
+    "trahis              trahas",
+    "trahit              traha",
+    "trahîmes            trahâmes",
+    "trahîtes            trahâtes",
+    "trahirent           trahèrent"
+  ],
+  [
+    "transir",
+    "transis             transai",
+    "transis             transas",
+    "transit             transa",
+    "transîmes           transâmes",
+    "transîtes           transâtes",
+    "transirent          transèrent"
+  ],
+  [
+    "travestir",
+    "travestis           travestai",
+    "travestis           travestas",
+    "travestit           travesta",
+    "travestîmes         travestâmes",
+    "travestîtes         travestâtes",
+    "travestirent        travestèrent"
+  ],
+  [
+    "tressaillir",
+    "tressaillis         tressaillai",
+    "tressaillis         tressaillas",
+    "tressaillit         tressailla",
+    "tressaillîmes       tressaillâmes",
+    "tressaillîtes       tressaillâtes",
+    "tressaillirent      tressaillèrent"
+  ],
+  [
+    "unir",
+    "unis                unai",
+    "unis                unas",
+    "unit                una",
+    "unîmes              unâmes",
+    "unîtes              unâtes",
+    "unirent             unèrent"
+  ],
+  [
+    "vagir",
+    "vagis               vageai",
+    "vagis               vageas",
+    "vagit               vagea",
+    "vagîmes             vageâmes",
+    "vagîtes             vageâtes",
+    "vagirent            vagèrent"
+  ],
+  [
+    "valoir",
+    "valus               valoai",
+    "valus               valoas",
+    "valut               valoa",
+    "valûmes             valoâmes",
+    "valûtes             valoâtes",
+    "valurent            valoèrent"
+  ],
+  [
+    "venir",
+    "vins                venai",
+    "vins                venas",
+    "vint                vena",
+    "vînmes              venâmes",
+    "vîntes              venâtes",
+    "vinrent             venèrent"
+  ],
+  [
+    "verdir",
+    "verdis              verdai",
+    "verdis              verdas",
+    "verdit              verda",
+    "verdîmes            verdâmes",
+    "verdîtes            verdâtes",
+    "verdirent           verdèrent"
+  ],
+  [
+    "vernir",
+    "vernis              vernai",
+    "vernis              vernas",
+    "vernit              verna",
+    "vernîmes            vernâmes",
+    "vernîtes            vernâtes",
+    "vernirent           vernèrent"
+  ],
+  [
+    "voir",
+    "vis                 voai",
+    "vis                 voas",
+    "vit                 voa",
+    "vîmes               voâmes",
+    "vîtes               voâtes",
+    "virent              voèrent"
+  ],
+  [
+    "vouloir",
+    "voulus              vouloai",
+    "voulus              vouloas",
+    "voulut              vouloa",
+    "voulûmes            vouloâmes",
+    "voulûtes            vouloâtes",
+    "voulurent           vouloèrent"
+  ],
+  [
+    "vieillir",
+    "vieillis            vieillai",
+    "vieillis            vieillas",
+    "vieillit            vieilla",
+    "vieillîmes          vieillâmes",
+    "vieillîtes          vieillâtes",
+    "vieillirent         vieillèrent"
+  ],
+  [
+    "vomir",
+    "vomis               vomai",
+    "vomis               vomas",
+    "vomit               voma",
+    "vomîmes             vomâmes",
+    "vomîtes             vomâtes",
+    "vomirent            vomèrent"
+  ],
+  [
+    "vrombir",
+    "vrombis             vrombai",
+    "vrombis             vrombas",
+    "vrombit             vromba",
+    "vrombîmes           vrombâmes",
+    "vrombîtes           vrombâtes",
+    "vrombirent          vrombèrent"
+  ],
+  [
+    "vêtir",
+    "vêtis               vêtai",
+    "vêtis               vêtas",
+    "vêtit               vêta",
+    "vêtîmes             vêtâmes",
+    "vêtîtes             vêtâtes",
+    "vêtirent            vêtèrent"
+  ],
+  [
+    "ébahir",
+    "ébahis              ébahai",
+    "ébahis              ébahas",
+    "ébahit              ébaha",
+    "ébahîmes            ébahâmes",
+    "ébahîtes            ébahâtes",
+    "ébahirent           ébahèrent"
+  ],
+  [
+    "ébaudir",
+    "ébaudis             ébaudai",
+    "ébaudis             ébaudas",
+    "ébaudit             ébauda",
+    "ébaudîmes           ébaudâmes",
+    "ébaudîtes           ébaudâtes",
+    "ébaudirent          ébaudèrent"
+  ],
+  [
+    "éblouir",
+    "éblouis             éblouai",
+    "éblouis             éblouas",
+    "éblouit             ébloua",
+    "éblouîmes           éblouâmes",
+    "éblouîtes           éblouâtes",
+    "éblouirent          éblouèrent"
+  ],
+  [
+    "échoir",
+    "échus               échoai",
+    "échus               échoas",
+    "échut               échoa",
+    "échûmes             échoâmes",
+    "échûtes             échoâtes",
+    "échurent            échoèrent"
+  ],
+  [
+    "éclaircir",
+    "éclaircis           éclairçai",
+    "éclaircis           éclairças",
+    "éclaircit           éclairça",
+    "éclaircîmes         éclairçâmes",
+    "éclaircîtes         éclairçâtes",
+    "éclaircirent        éclaircèrent"
+  ],
+  [
+    "écrouir",
+    "écrouis             écrouai",
+    "écrouis             écrouas",
+    "écrouit             écroua",
+    "écrouîmes           écrouâmes",
+    "écrouîtes           écrouâtes",
+    "écrouirent          écrouèrent"
+  ],
+  [
+    "élargir",
+    "élargis             élargeai",
+    "élargis             élargeas",
+    "élargit             élargea",
+    "élargîmes           élargeâmes",
+    "élargîtes           élargeâtes",
+    "élargirent          élargèrent"
+  ],
+  [
+    "émouvoir",
+    "émus                émouvoai",
+    "émus                émouvoas",
+    "émut                émouvoa",
+    "émûmes              émouvoâmes",
+    "émûtes              émouvoâtes",
+    "émurent             émouvoèrent"
+  ],
+  [
+    "épaissir",
+    "épaissis            épaissai",
+    "épaissis            épaissas",
+    "épaissit            épaissa",
+    "épaissîmes          épaissâmes",
+    "épaissîtes          épaissâtes",
+    "épaissirent         épaissèrent"
+  ],
+  [
+    "épanouir",
+    "épanouis            épanouai",
+    "épanouis            épanouas",
+    "épanouit            épanoua",
+    "épanouîmes          épanouâmes",
+    "épanouîtes          épanouâtes",
+    "épanouirent         épanouèrent"
+  ],
+  [
+    "équarrir",
+    "équarris            équarrai",
+    "équarris            équarras",
+    "équarrit            équarra",
+    "équarrîmes          équarrâmes",
+    "équarrîtes          équarrâtes",
+    "équarrirent         équarrèrent"
+  ],
+  [
+    "équivaloir",
+    "équivalus           équivaloai",
+    "équivalus           équivaloas",
+    "équivalut           équivaloa",
+    "équivalûmes         équivaloâmes",
+    "équivalûtes         équivaloâtes",
+    "équivalurent        équivaloèrent"
+  ],
+  [
+    "établir",
+    "établis             établai",
+    "établis             établas",
+    "établit             établa",
+    "établîmes           établâmes",
+    "établîtes           établâtes",
+    "établirent          établèrent"
+  ],
+  [
+    "étourdir",
+    "étourdis            étourdai",
+    "étourdis            étourdas",
+    "étourdit            étourda",
+    "étourdîmes          étourdâmes",
+    "étourdîtes          étourdâtes",
+    "étourdirent         étourdèrent"
+  ],
+  [
+    "étrécir",
+    "étrécis             étréçai",
+    "étrécis             étréças",
+    "étrécit             étréça",
+    "étrécîmes           étréçâmes",
+    "étrécîtes           étréçâtes",
+    "étrécirent          étrécèrent"
+  ],
+  [
+    "évanouir",
+    "évanouis            évanouai",
+    "évanouis            évanouas",
+    "évanouit            évanoua",
+    "évanouîmes          évanouâmes",
+    "évanouîtes          évanouâtes",
+    "évanouirent         évanouèrent"
+  ]
+]
