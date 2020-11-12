@@ -19,7 +19,6 @@ namespace ConjugatorLibrary.SecondGroup
 
             if (verb.EndsWith("ourir"))
             {
-                //usEndings
                 var parts = new ConjugationParts(
                     verb.TrimEnd("ir"),
                     usEndings);
@@ -36,12 +35,6 @@ namespace ConjugatorLibrary.SecondGroup
             }
 
             var withEndings = endings.AddEndings(stem);
-
-            // soften the c with a cedilla
-            if (verb[^3] == 'c')
-            {
-                return withEndings.SelectExceptFor(5, s => s.ReplaceAt(stem.Length - 1, 'ç')).ToArray();
-            }
 
             return withEndings;
         }

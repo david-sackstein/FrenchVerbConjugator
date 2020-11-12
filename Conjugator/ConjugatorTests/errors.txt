@@ -9,15 +9,6 @@
     "eurent              avoirent"
   ],
   [
-    "accourcir",
-    "accourcis           accourçis",
-    "accourcis           accourçis",
-    "accourcit           accourçit",
-    "accourcîmes         accourçîmes",
-    "accourcîtes         accourçîtes",
-    "accourcirent        accourcirent"
-  ],
-  [
     "acquérir",
     "acquis              acquéris",
     "acquis              acquéris",
@@ -27,15 +18,6 @@
     "acquirent           acquérirent"
   ],
   [
-    "adoucir",
-    "adoucis             adouçis",
-    "adoucis             adouçis",
-    "adoucit             adouçit",
-    "adoucîmes           adouçîmes",
-    "adoucîtes           adouçîtes",
-    "adoucirent          adoucirent"
-  ],
-  [
     "agir",
     "agis                ageis",
     "agis                ageis",
@@ -43,15 +25,6 @@
     "agîmes              ageîmes",
     "agîtes              ageîtes",
     "agirent             agirent"
-  ],
-  [
-    "amincir",
-    "amincis             aminçis",
-    "amincis             aminçis",
-    "amincit             aminçit",
-    "amincîmes           aminçîmes",
-    "amincîtes           aminçîtes",
-    "amincirent          amincirent"
   ],
   [
     "apercevoir",
@@ -79,15 +52,6 @@
     "assîmes             asseoîmes",
     "assîtes             asseoîtes",
     "assirent            asseoirent"
-  ],
-  [
-    "chancir",
-    "chancis             chançis",
-    "chancis             chançis",
-    "chancit             chançit",
-    "chancîmes           chançîmes",
-    "chancîtes           chançîtes",
-    "chancirent          chancirent"
   ],
   [
     "choir",
@@ -126,24 +90,6 @@
     "durent              devoirent"
   ],
   [
-    "doucir",
-    "doucis              douçis",
-    "doucis              douçis",
-    "doucit              douçit",
-    "doucîmes            douçîmes",
-    "doucîtes            douçîtes",
-    "doucirent           doucirent"
-  ],
-  [
-    "durcir",
-    "durcis              durçis",
-    "durcis              durçis",
-    "durcit              durçit",
-    "durcîmes            durçîmes",
-    "durcîtes            durçîtes",
-    "durcirent           durcirent"
-  ],
-  [
     "décevoir",
     "déçus               décevois",
     "déçus               décevois",
@@ -178,15 +124,6 @@
     "dérougîmes          dérougeîmes",
     "dérougîtes          dérougeîtes",
     "dérougirent         dérougirent"
-  ],
-  [
-    "endurcir",
-    "endurcis            endurçis",
-    "endurcis            endurçis",
-    "endurcit            endurçit",
-    "endurcîmes          endurçîmes",
-    "endurcîtes          endurçîtes",
-    "endurcirent         endurcirent"
   ],
   [
     "enquérir",
@@ -225,24 +162,6 @@
     "                    falloirent"
   ],
   [
-    "farcir",
-    "farcis              farçis",
-    "farcis              farçis",
-    "farcit              farçit",
-    "farcîmes            farçîmes",
-    "farcîtes            farçîtes",
-    "farcirent           farcirent"
-  ],
-  [
-    "forcir",
-    "forcis              forçis",
-    "forcis              forçis",
-    "forcit              forçit",
-    "forcîmes            forçîmes",
-    "forcîtes            forçîtes",
-    "forcirent           forcirent"
-  ],
-  [
     "interagir",
     "interagis           interageis",
     "interagis           interageis",
@@ -261,15 +180,6 @@
     "murent              mouvoirent"
   ],
   [
-    "mincir",
-    "mincis              minçis",
-    "mincis              minçis",
-    "mincit              minçit",
-    "mincîmes            minçîmes",
-    "mincîtes            minçîtes",
-    "mincirent           mincirent"
-  ],
-  [
     "mugir",
     "mugis               mugeis",
     "mugis               mugeis",
@@ -286,24 +196,6 @@
     "mégîmes             mégeîmes",
     "mégîtes             mégeîtes",
     "mégirent            mégirent"
-  ],
-  [
-    "noircir",
-    "noircis             noirçis",
-    "noircis             noirçis",
-    "noircit             noirçit",
-    "noircîmes           noirçîmes",
-    "noircîtes           noirçîtes",
-    "noircirent          noircirent"
-  ],
-  [
-    "obscurcir",
-    "obscurcis           obscurçis",
-    "obscurcis           obscurçis",
-    "obscurcit           obscurçit",
-    "obscurcîmes         obscurçîmes",
-    "obscurcîtes         obscurçîtes",
-    "obscurcirent        obscurcirent"
   ],
   [
     "percevoir",
@@ -376,33 +268,6 @@
     "prévîmes            prévoîmes",
     "prévîtes            prévoîtes",
     "prévirent           prévoirent"
-  ],
-  [
-    "raccourcir",
-    "raccourcis          raccourçis",
-    "raccourcis          raccourçis",
-    "raccourcit          raccourçit",
-    "raccourcîmes        raccourçîmes",
-    "raccourcîtes        raccourçîtes",
-    "raccourcirent       raccourcirent"
-  ],
-  [
-    "radoucir",
-    "radoucis            radouçis",
-    "radoucis            radouçis",
-    "radoucit            radouçit",
-    "radoucîmes          radouçîmes",
-    "radoucîtes          radouçîtes",
-    "radoucirent         radoucirent"
-  ],
-  [
-    "rancir",
-    "rancis              rançis",
-    "rancis              rançis",
-    "rancit              rançit",
-    "rancîmes            rançîmes",
-    "rancîtes            rançîtes",
-    "rancirent           rancirent"
   ],
   [
     "rasseoir",
@@ -540,15 +405,6 @@
     "rétroagirent        rétroagirent"
   ],
   [
-    "rétrécir",
-    "rétrécis            rétréçis",
-    "rétrécis            rétréçis",
-    "rétrécit            rétréçit",
-    "rétrécîmes          rétréçîmes",
-    "rétrécîtes          rétréçîtes",
-    "rétrécirent         rétrécirent"
-  ],
-  [
     "savoir",
     "sus                 savois",
     "sus                 savois",
@@ -612,15 +468,6 @@
     "échurent            échoirent"
   ],
   [
-    "éclaircir",
-    "éclaircis           éclairçis",
-    "éclaircis           éclairçis",
-    "éclaircit           éclairçit",
-    "éclaircîmes         éclairçîmes",
-    "éclaircîtes         éclairçîtes",
-    "éclaircirent        éclaircirent"
-  ],
-  [
     "élargir",
     "élargis             élargeis",
     "élargis             élargeis",
@@ -646,14 +493,5 @@
     "équivalûmes         équivaloîmes",
     "équivalûtes         équivaloîtes",
     "équivalurent        équivaloirent"
-  ],
-  [
-    "étrécir",
-    "étrécis             étréçis",
-    "étrécis             étréçis",
-    "étrécit             étréçit",
-    "étrécîmes           étréçîmes",
-    "étrécîtes           étréçîtes",
-    "étrécirent          étrécirent"
   ]
 ]
