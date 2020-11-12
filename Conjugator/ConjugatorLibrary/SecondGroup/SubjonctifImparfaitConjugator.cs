@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 
 namespace ConjugatorLibrary.SecondGroup
 {
@@ -54,13 +55,7 @@ namespace ConjugatorLibrary.SecondGroup
                 return issEndings.AddEndings(stem);
             }
 
-            if (verb.EndsWith("revoir"))
-            {
-                string modifiedStem = verb.TrimEnd("oir");
-                return issEndings.AddEndings(modifiedStem);
-            }
-
-            if (verb == "prévoir" || verb == "voir")
+            if (verb.EndsWith("revoir") || verb == "prévoir" || verb == "voir")
             {
                 string modifiedStem = verb.TrimEnd("oir");
                 return issEndings.AddEndings(modifiedStem);
@@ -68,9 +63,11 @@ namespace ConjugatorLibrary.SecondGroup
 
             if (verb.EndsWith("oir"))
             {
+                Console.WriteLine(verb);
                 string modifiedStem = verb.TrimEnd("oir");
                 return ussEndings.AddEndings(modifiedStem);
             }
+
             if (verb.EndsWith("quérir"))
             {
                 string stem = verb.TrimEnd("érir");
