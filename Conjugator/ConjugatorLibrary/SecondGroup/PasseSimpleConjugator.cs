@@ -30,6 +30,14 @@ namespace ConjugatorLibrary.SecondGroup
                 return parts.GetConjugation();
             }
 
+            if (verb.EndsWith("quérir"))
+            {
+                var parts = new ConjugationParts(
+                    verb.TrimEnd("érir"),
+                    isEndings);
+                return parts.GetConjugation();
+            }
+
             var stem = GetStem(verb);
             var endings = isEndings;
 

@@ -1,14 +1,5 @@
 [
   [
-    "acquérir",
-    "acquis              acquéris",
-    "acquis              acquéris",
-    "acquit              acquérit",
-    "acquîmes            acquérîmes",
-    "acquîtes            acquérîtes",
-    "acquirent           acquérirent"
-  ],
-  [
     "agir",
     "agis                ageis",
     "agis                ageis",
@@ -63,15 +54,6 @@
     "conçurent           concevoirent"
   ],
   [
-    "conquérir",
-    "conquis             conquéris",
-    "conquis             conquéris",
-    "conquit             conquérit",
-    "conquîmes           conquérîmes",
-    "conquîtes           conquérîtes",
-    "conquirent          conquérirent"
-  ],
-  [
     "devoir",
     "dus                 devois",
     "dus                 devois",
@@ -115,15 +97,6 @@
     "dérougîmes          dérougeîmes",
     "dérougîtes          dérougeîtes",
     "dérougirent         dérougirent"
-  ],
-  [
-    "enquérir",
-    "enquis              enquéris",
-    "enquis              enquéris",
-    "enquit              enquérit",
-    "enquîmes            enquérîmes",
-    "enquîtes            enquérîtes",
-    "enquirent           enquérirent"
   ],
   [
     "entrapercevoir",
@@ -279,15 +252,6 @@
     "reçurent            recevoirent"
   ],
   [
-    "reconquérir",
-    "reconquis           reconquéris",
-    "reconquis           reconquéris",
-    "reconquit           reconquérit",
-    "reconquîmes         reconquérîmes",
-    "reconquîtes         reconquérîtes",
-    "reconquirent        reconquérirent"
-  ],
-  [
     "redevoir",
     "redus               redevois",
     "redus               redevois",
@@ -295,15 +259,6 @@
     "redûmes             redevoîmes",
     "redûtes             redevoîtes",
     "redurent            redevoirent"
-  ],
-  [
-    "requérir",
-    "requis              requéris",
-    "requis              requéris",
-    "requit              requérit",
-    "requîmes            requérîmes",
-    "requîtes            requérîtes",
-    "requirent           requérirent"
   ],
   [
     "ressurgir",
