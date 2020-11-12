@@ -4,28 +4,38 @@ namespace ConjugatorLibrary.SecondGroup
 {
     public static class PasseSimpleConjugator
     {
-        private static string[] Endings { get; } = {"is", "is", "it", "îmes", "îtes", "irent" };
+        private static string[] isEndings { get; } = {"is", "is", "it", "îmes", "îtes", "irent"};
+        private static string[] usEndings { get; } = {"us", "us", "ut", "ûmes", "ûtes", "urent"};
 
         public static string[] GetConjugations(string verb)
         {
             if (verb.EndsWith("enir"))
             {
                 var stem1 = verb.TrimEnd("enir");
-                var endings1 = Endings.Select(s => s.Insert(1, "n")).ToArray();
+                var endings1 = isEndings.Select(s => s.Insert(1, "n")).ToArray();
                 var parts = new ConjugationParts(stem1, endings1);
                 return parts.GetConjugation();
             }
 
-            string stem = GetStem(verb);
-            string[] endings = Endings;
+            if (verb.EndsWith("ourir"))
+            {
+                //usEndings
+                var parts = new ConjugationParts(
+                    verb.TrimEnd("ir"),
+                    usEndings);
+                return parts.GetConjugation();
+            }
+
+            var stem = GetStem(verb);
+            var endings = isEndings;
 
             // soften the g before the 'a' by adding an e
             if (verb[^3] == 'g')
             {
-                endings = Endings.SelectExceptFor(5, s => "e" + s).ToArray();
+                endings = isEndings.SelectExceptFor(5, s => "e" + s).ToArray();
             }
 
-            string[] withEndings = endings.AddEndings(stem);
+            var withEndings = endings.AddEndings(stem);
 
             // soften the c with a cedilla
             if (verb[^3] == 'c')

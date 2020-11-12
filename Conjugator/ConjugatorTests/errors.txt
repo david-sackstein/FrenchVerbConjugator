@@ -9,15 +9,6 @@
     "eurent              avoirent"
   ],
   [
-    "accourir",
-    "accourus            accouris",
-    "accourus            accouris",
-    "accourut            accourit",
-    "accourûmes          accourîmes",
-    "accourûtes          accourîtes",
-    "accoururent         accourirent"
-  ],
-  [
     "accourcir",
     "accourcis           accourçis",
     "accourcis           accourçis",
@@ -117,15 +108,6 @@
     "conçurent           concevoirent"
   ],
   [
-    "concourir",
-    "concourus           concouris",
-    "concourus           concouris",
-    "concourut           concourit",
-    "concourûmes         concourîmes",
-    "concourûtes         concourîtes",
-    "concoururent        concourirent"
-  ],
-  [
     "conquérir",
     "conquis             conquéris",
     "conquis             conquéris",
@@ -135,15 +117,6 @@
     "conquirent          conquérirent"
   ],
   [
-    "courir",
-    "courus              couris",
-    "courus              couris",
-    "courut              courit",
-    "courûmes            courîmes",
-    "courûtes            courîtes",
-    "coururent           courirent"
-  ],
-  [
     "devoir",
     "dus                 devois",
     "dus                 devois",
@@ -151,15 +124,6 @@
     "dûmes               devoîmes",
     "dûtes               devoîtes",
     "durent              devoirent"
-  ],
-  [
-    "discourir",
-    "discourus           discouris",
-    "discourus           discouris",
-    "discourut           discourit",
-    "discourûmes         discourîmes",
-    "discourûtes         discourîtes",
-    "discoururent        discourirent"
   ],
   [
     "doucir",
@@ -214,15 +178,6 @@
     "dérougîmes          dérougeîmes",
     "dérougîtes          dérougeîtes",
     "dérougirent         dérougirent"
-  ],
-  [
-    "encourir",
-    "encourus            encouris",
-    "encourus            encouris",
-    "encourut            encourit",
-    "encourûmes          encourîmes",
-    "encourûtes          encourîtes",
-    "encoururent         encourirent"
   ],
   [
     "endurcir",
@@ -297,15 +252,6 @@
     "interagirent        interagirent"
   ],
   [
-    "mourir",
-    "mourus              mouris",
-    "mourus              mouris",
-    "mourut              mourit",
-    "mourûmes            mourîmes",
-    "mourûtes            mourîtes",
-    "moururent           mourirent"
-  ],
-  [
     "mouvoir",
     "mus                 mouvois",
     "mus                 mouvois",
@@ -358,15 +304,6 @@
     "obscurcîmes         obscurçîmes",
     "obscurcîtes         obscurçîtes",
     "obscurcirent        obscurcirent"
-  ],
-  [
-    "parcourir",
-    "parcourus           parcouris",
-    "parcourus           parcouris",
-    "parcourut           parcourit",
-    "parcourûmes         parcourîmes",
-    "parcourûtes         parcourîtes",
-    "parcoururent        parcourirent"
   ],
   [
     "percevoir",
@@ -495,15 +432,6 @@
     "reconquirent        reconquérirent"
   ],
   [
-    "recourir",
-    "recourus            recouris",
-    "recourus            recouris",
-    "recourut            recourit",
-    "recourûmes          recourîmes",
-    "recourûtes          recourîtes",
-    "recoururent         recourirent"
-  ],
-  [
     "redevoir",
     "redus               redevois",
     "redus               redevois",
@@ -511,15 +439,6 @@
     "redûmes             redevoîmes",
     "redûtes             redevoîtes",
     "redurent            redevoirent"
-  ],
-  [
-    "reparcourir",
-    "reparcourus         reparcouris",
-    "reparcourus         reparcouris",
-    "reparcourut         reparcourit",
-    "reparcourûmes       reparcourîmes",
-    "reparcourûtes       reparcourîtes",
-    "reparcoururent      reparcourirent"
   ],
   [
     "requérir",
@@ -637,15 +556,6 @@
     "sûmes               savoîmes",
     "sûtes               savoîtes",
     "surent              savoirent"
-  ],
-  [
-    "secourir",
-    "secourus            secouris",
-    "secourus            secouris",
-    "secourut            secourit",
-    "secourûmes          secourîmes",
-    "secourûtes          secourîtes",
-    "secoururent         secourirent"
   ],
   [
     "surgir",
