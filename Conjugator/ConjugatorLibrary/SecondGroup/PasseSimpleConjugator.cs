@@ -4,8 +4,8 @@ namespace ConjugatorLibrary.SecondGroup
 {
     public static class PasseSimpleConjugator
     {
-        private static string[] isEndings { get; } = {"is", "is", "it", "îmes", "îtes", "irent"};
-        private static string[] usEndings { get; } = {"us", "us", "ut", "ûmes", "ûtes", "urent"};
+        private static string[] issEndings { get; } = {"is", "is", "it", "îmes", "îtes", "irent"};
+        private static string[] ussEndings { get; } = {"us", "us", "ut", "ûmes", "ûtes", "urent"};
 
         public static string[] GetConjugations(string verb)
         {
@@ -16,12 +16,12 @@ namespace ConjugatorLibrary.SecondGroup
 
             if (verb == "avoir")
             {
-                return usEndings.AddEndings("e");
+                return ussEndings.AddEndings("e");
             }
 
             if (verb == "savoir")
             {
-                return usEndings.AddEndings("s");
+                return ussEndings.AddEndings("s");
             }
 
             var parts = GetConjugationParts(verb);
@@ -35,73 +35,67 @@ namespace ConjugatorLibrary.SecondGroup
             {
                 return new ConjugationParts(
                     verb.TrimEnd("ir"),
-                    usEndings);
+                    ussEndings);
             }
 
-            if (verb.EndsWith("enir"))
+            if (verb.EndsWith("oir"))
             {
-                var stem1 = verb.TrimEnd("enir");
-                var endings1 = isEndings.Select(s => s.Insert(1, "n")).ToArray();
-                return new ConjugationParts(stem1, endings1);
-            }
-
-            if (Exceptions.cevoirVerbs.Contains(verb))
-            {
-                return new ConjugationParts(
-                    verb.TrimEnd("cevoir") + "ç",
-                    usEndings);
-            }
-
-            if (verb.EndsWith("ourir"))
-            {
-                return new ConjugationParts(
-                    verb.TrimEnd("ir"),
-                    usEndings);
-            }
-
-            if (verb.EndsWith("ouvoir"))
-            {
-                return new ConjugationParts(
-                    verb.TrimEnd("ouvoir"),
-                    usEndings);
-            }
-
-            if (verb.EndsWith("devoir"))
-            {
-                return new ConjugationParts(
-                    verb.TrimEnd("evoir"),
-                    usEndings);
-            }
-
-            if (verb.EndsWith("eoir"))
-            {
-                return new ConjugationParts(
-                    verb.TrimEnd("eoir"),
-                    isEndings);
+                return GetOirConjugationParts(verb);
             }
 
             if (verb.EndsWith("quérir"))
             {
                 return new ConjugationParts(
                     verb.TrimEnd("érir"),
-                    isEndings);
+                    issEndings);
             }
 
-            var stem = GetStem(verb);
-            var endings = isEndings;
+            if (verb.EndsWith("enir"))
+            {
+                var stem = verb.TrimEnd("enir");
+                var endings = issEndings.Select(s => s.Insert(1, "n")).ToArray();
+                return new ConjugationParts(stem, endings);
+            }
 
-        
-            return new ConjugationParts(stem, endings);
+            var regularStem = verb.TrimEnd("ir");
+            return new ConjugationParts(regularStem, issEndings);
         }
 
-        private static string GetStem(string verb)
+        private static ConjugationParts GetOirConjugationParts(string verb)
         {
-            if (verb == "aller")
+            if (Exceptions.cevoirVerbs.Contains(verb))
             {
-                return "all";
+                return new ConjugationParts(
+                    verb.TrimEnd("cevoir") + "ç",
+                    ussEndings);
             }
 
-            return verb.Remove(verb.Length - 2);
+            if (verb.EndsWith("ouvoir"))
+            {
+                return new ConjugationParts(
+                    verb.TrimEnd("ouvoir"),
+                    ussEndings);
+            }
+
+            if (verb.EndsWith("devoir"))
+            {
+                return new ConjugationParts(
+                    verb.TrimEnd("evoir"),
+                    ussEndings);
+            }
+
+            if (verb.EndsWith("eoir"))
+            {
+                return new ConjugationParts(
+                    verb.TrimEnd("eoir"),
+                    issEndings);
+            }
+
+            var stem = verb.TrimEnd("oir");
+
+            return verb == "revoir" || verb == "entrevoir" || verb == "prévoir" || verb == "voir"
+                ? new ConjugationParts(stem, issEndings)
+                : new ConjugationParts(stem, ussEndings);
         }
     }
 }
