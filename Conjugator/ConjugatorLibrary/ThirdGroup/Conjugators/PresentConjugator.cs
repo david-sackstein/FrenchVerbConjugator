@@ -1,29 +1,33 @@
-﻿namespace ConjugatorLibrary.ThirdGroup
+﻿using System.Collections.Generic;
+using System.Linq;
+
+namespace ConjugatorLibrary.ThirdGroup
 {
     public static class PresentConjugator
     {
-        private static readonly string[] endings = new string[] {"s", "s", "t", "ons", "ez", "ent"};
+        private static readonly string[] _endings = new string[] {"s", "s", "t", "ons", "ez", "ent"};
         
         public static string[] GetConjugations(string verb)
         {
             if (verb == "suivre")
             {
-                return new[] {"suis", "suis", "suit", "suivons", "suivez", "suivent"};
+                return ApplyEndings(_endings, "sui", "suiv");
+            }
+            if (verb == "absoudre")
+            {
+                return ApplyEndings(_endings, "absou", "absolv");
             }
 
             string stem = verb.TrimEnd("re");
-            var withEndings = endings.AddEndings(stem);
+            var withEndings = _endings.AddEndings(stem);
             return withEndings;
         }
 
-        private static string[] ApplyEndings(string[] endings, string verb)
+        private static string[] ApplyEndings(string[] endings, string singleStem, string pluralStem)
         {
-            string stem = verb.Remove(verb.Length - 2);
-
-            // determine the stem for je, tu, il, ils ("modifiedStem") which may
-            // not be the same as for nous and vous
-
-            return endings.AddEndings(stem);
+            return endings.Take(3).AddEndings(singleStem)
+                .Concat(
+                    endings.Skip(3).AddEndings(pluralStem)).ToArray();
         }
     }
 }

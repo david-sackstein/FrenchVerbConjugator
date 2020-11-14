@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace ConjugatorLibrary
@@ -6,12 +7,12 @@ namespace ConjugatorLibrary
     public static class ConjugationExtensions
     {
         public static string[] AddEndings(
-            this string[] endings, string stem)
+            this IEnumerable<string> endings, string stem)
         {
             return endings.Select(ending => stem + ending).ToArray();
         }
 
-        public static string[] AddEndings(this string[] endings, 
+        public static string[] AddEndings(this IEnumerable<string> endings, 
             string nonNousVousStem, 
             string nousVousStem)
         {
@@ -20,7 +21,7 @@ namespace ConjugatorLibrary
                 e => nousVousStem + e);
         }
 
-        public static string[] AddEndings(this string[] conjugations, 
+        public static string[] AddEndings(this IEnumerable<string> conjugations, 
             string singularStem, 
             string nousVousStem, 
             string ilsStem)
@@ -31,7 +32,7 @@ namespace ConjugatorLibrary
                 e => ilsStem + e);
         }
 
-        public static string[] MatchNousVousIls(this string[] conjugations,
+        public static string[] MatchNousVousIls(this IEnumerable<string> conjugations,
             Func<string, string> forSingular,
             Func<string, string> forNousVous,
             Func<string, string> forIls)
@@ -53,7 +54,7 @@ namespace ConjugatorLibrary
         }
 
         public static string[] MatchNousVous(
-            this string[] conjugations,
+            this IEnumerable<string> conjugations,
             Func<string, string> forNonNousVous,
             Func<string, string> forNousVous)
         {
@@ -65,7 +66,7 @@ namespace ConjugatorLibrary
         }
 
         public static string[] MatchNousVous(
-            this string[] conjugations, 
+            this IEnumerable<string> conjugations, 
             Func<string, string> forNonNousVous)
         {
             return conjugations.MatchNousVous(forNonNousVous, s => s);
