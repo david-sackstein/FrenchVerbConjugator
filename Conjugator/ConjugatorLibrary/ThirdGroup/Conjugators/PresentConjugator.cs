@@ -14,9 +14,10 @@ namespace ConjugatorLibrary.ThirdGroup
                 return ApplyEndings(_endings, "sui", "suiv");
             }
             
-            if (verb == "absoudre")
+            if (verb.EndsWith("soudre"))
             {
-                return ApplyEndings(_endings, "absou", "absolv");
+                string stem = verb.TrimEnd("udre");
+                return ApplyEndings(_endings, stem + "u", stem + "lv");
             }
 
             if (verb.EndsWith("ttre"))

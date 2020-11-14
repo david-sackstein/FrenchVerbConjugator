@@ -369,15 +369,6 @@
     "disparaissent       disparaîtent"
   ],
   [
-    "dissoudre",
-    "dissous             dissouds",
-    "dissous             dissouds",
-    "dissout             dissoudt",
-    "dissolvons          dissoudons",
-    "dissolvez           dissoudez",
-    "dissolvent          dissoudent"
-  ],
-  [
     "distendre",
     "distends            distends",
     "distends            distends",
@@ -1438,15 +1429,6 @@
     "répondons           répondons",
     "répondez            répondez",
     "répondent           répondent"
-  ],
-  [
-    "résoudre",
-    "résous              résouds",
-    "résous              résouds",
-    "résout              résoudt",
-    "résolvons           résoudons",
-    "résolvez            résoudez",
-    "résolvent           résoudent"
   ],
   [
     "rétreindre",
