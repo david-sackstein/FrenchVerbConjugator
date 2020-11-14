@@ -1,23 +1,5 @@
 [
   [
-    "astreindre",
-    "astreins            astreinds",
-    "astreins            astreinds",
-    "astreint            astreindt",
-    "astreignons         astreindons",
-    "astreignez          astreindez",
-    "astreignent         astreindent"
-  ],
-  [
-    "atteindre",
-    "atteins             atteinds",
-    "atteins             atteinds",
-    "atteint             atteindt",
-    "atteignons          atteindons",
-    "atteignez           atteindez",
-    "atteignent          atteindent"
-  ],
-  [
     "autoconstruire",
     "autoconstruis       autoconstruis",
     "autoconstruis       autoconstruis",
@@ -79,15 +61,6 @@
     "                    bruyons",
     "                    bruyez",
     "bruissent           bruient"
-  ],
-  [
-    "ceindre",
-    "ceins               ceinds",
-    "ceins               ceinds",
-    "ceint               ceindt",
-    "ceignons            ceindons",
-    "ceignez             ceindez",
-    "ceignent            ceindent"
   ],
   [
     "circoncire",
@@ -351,15 +324,6 @@
     "démordent           démordent"
   ],
   [
-    "dépeindre",
-    "dépeins             dépeinds",
-    "dépeins             dépeinds",
-    "dépeint             dépeindt",
-    "dépeignons          dépeindons",
-    "dépeignez           dépeindez",
-    "dépeignent          dépeindent"
-  ],
-  [
     "déplaire",
     "déplais             déplais",
     "déplais             déplais",
@@ -367,15 +331,6 @@
     "déplaisons          déplayons",
     "déplaisez           déplayez",
     "déplaisent          déplaient"
-  ],
-  [
-    "déteindre",
-    "déteins             déteinds",
-    "déteins             déteinds",
-    "déteint             déteindt",
-    "déteignons          déteindons",
-    "déteignez           déteindez",
-    "déteignent          déteindent"
   ],
   [
     "détordre",
@@ -396,24 +351,6 @@
     "détruisent          détruient"
   ],
   [
-    "empreindre",
-    "empreins            empreinds",
-    "empreins            empreinds",
-    "empreint            empreindt",
-    "empreignons         empreindons",
-    "empreignez          empreindez",
-    "empreignent         empreindent"
-  ],
-  [
-    "enceindre",
-    "enceins             enceinds",
-    "enceins             enceinds",
-    "enceint             enceindt",
-    "enceignons          enceindons",
-    "enceignez           enceindez",
-    "enceignent          enceindent"
-  ],
-  [
     "enclore",
     "enclos              enclos",
     "enclos              enclos",
@@ -430,15 +367,6 @@
     "enduisons           enduyons",
     "enduisez            enduyez",
     "enduisent           enduient"
-  ],
-  [
-    "enfreindre",
-    "enfreins            enfreinds",
-    "enfreins            enfreinds",
-    "enfreint            enfreindt",
-    "enfreignons         enfreindons",
-    "enfreignez          enfreindez",
-    "enfreignent         enfreindent"
   ],
   [
     "ensuivre",
@@ -477,15 +405,6 @@
     "font                faient"
   ],
   [
-    "feindre",
-    "feins               feinds",
-    "feins               feinds",
-    "feint               feindt",
-    "feignons            feindons",
-    "feignez             feindez",
-    "feignent            feindent"
-  ],
-  [
     "fondre",
     "fonds               fonds",
     "fonds               fonds",
@@ -511,15 +430,6 @@
     "frisons             fryons",
     "frisez              fryez",
     "frisent             frient"
-  ],
-  [
-    "geindre",
-    "geins               geinds",
-    "geins               geinds",
-    "geint               geindt",
-    "geignons            geindons",
-    "geignez             geindez",
-    "geignent            geindent"
   ],
   [
     "induire",
@@ -655,15 +565,6 @@
     "parfondons          parfondons",
     "parfondez           parfondez",
     "parfondent          parfondent"
-  ],
-  [
-    "peindre",
-    "peins               peinds",
-    "peins               peinds",
-    "peint               peindt",
-    "peignons            peindons",
-    "peignez             peindez",
-    "peignent            peindent"
   ],
   [
     "perdre",
@@ -882,15 +783,6 @@
     "remoulent           remoudent"
   ],
   [
-    "repeindre",
-    "repeins             repeinds",
-    "repeins             repeinds",
-    "repeint             repeindt",
-    "repeignons          repeindons",
-    "repeignez           repeindez",
-    "repeignent          repeindent"
-  ],
-  [
     "reperdre",
     "reperds             reperds",
     "reperds             reperds",
@@ -907,24 +799,6 @@
     "reproduisons        reproduyons",
     "reproduisez         reproduyez",
     "reproduisent        reproduient"
-  ],
-  [
-    "restreindre",
-    "restreins           restreinds",
-    "restreins           restreinds",
-    "restreint           restreindt",
-    "restreignons        restreindons",
-    "restreignez         restreindez",
-    "restreignent        restreindent"
-  ],
-  [
-    "reteindre",
-    "reteins             reteinds",
-    "reteins             reteinds",
-    "reteint             reteindt",
-    "reteignons          reteindons",
-    "reteignez           reteindez",
-    "reteignent          reteindent"
   ],
   [
     "retordre",
@@ -952,15 +826,6 @@
     "retranscrivons      retranscryons",
     "retranscrivez       retranscryez",
     "retranscrivent      retranscrient"
-  ],
-  [
-    "retreindre",
-    "retreins            retreinds",
-    "retreins            retreinds",
-    "retreint            retreindt",
-    "retreignons         retreindons",
-    "retreignez          retreindez",
-    "retreignent         retreindent"
   ],
   [
     "revivre",
@@ -1033,15 +898,6 @@
     "répondons           répondons",
     "répondez            répondez",
     "répondent           répondent"
-  ],
-  [
-    "rétreindre",
-    "rétreins            rétreinds",
-    "rétreins            rétreinds",
-    "rétreint            rétreindt",
-    "rétreignons         rétreindons",
-    "rétreignez          rétreindez",
-    "rétreignent         rétreindent"
   ],
   [
     "réécrire",
@@ -1150,15 +1006,6 @@
     "taisons             tayons",
     "taisez              tayez",
     "taisent             taient"
-  ],
-  [
-    "teindre",
-    "teins               teinds",
-    "teins               teinds",
-    "teint               teindt",
-    "teignons            teindons",
-    "teignez             teindez",
-    "teignent            teindent"
   ],
   [
     "tondre",
@@ -1285,32 +1132,5 @@
     "éperdons            éperdons",
     "éperdez             éperdez",
     "éperdent            éperdent"
-  ],
-  [
-    "épreindre",
-    "épreins             épreinds",
-    "épreins             épreinds",
-    "épreint             épreindt",
-    "épreignons          épreindons",
-    "épreignez           épreindez",
-    "épreignent          épreindent"
-  ],
-  [
-    "éteindre",
-    "éteins              éteinds",
-    "éteins              éteinds",
-    "éteint              éteindt",
-    "éteignons           éteindons",
-    "éteignez            éteindez",
-    "éteignent           éteindent"
-  ],
-  [
-    "étreindre",
-    "étreins             étreinds",
-    "étreins             étreinds",
-    "étreint             étreindt",
-    "étreignons          étreindons",
-    "étreignez           étreindez",
-    "étreignent          étreindent"
   ]
 ]

@@ -60,7 +60,7 @@ namespace ConjugatorLibrary.ThirdGroup
                 return ApplyEndings(_endings, stem + "i", stem + "î", stem + "iss");
             }
             
-            if (verb.EndsWith("oindre"))
+            if (verb.EndsWith("oindre") || verb.EndsWith("eindre"))
             {
                 var stem = verb.TrimEnd("ndre");
                 return ApplyEndings(_endings, stem + "n", stem + "gn");
