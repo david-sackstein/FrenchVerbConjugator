@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace ConjugatorLibrary.ThirdGroup
@@ -15,31 +16,22 @@ namespace ConjugatorLibrary.ThirdGroup
                 return ApplyEndings(_endings, "sui", "suiv");
             }
 
-            string[] verbs =
-            {
-                "apprendre",
-                "comprendre",
-                "déprendre",
-                "désapprendre",
-                "entreprendre",
-                "méprendre",
-                "prendre",
-                "rapprendre",
-                "reprendre",
-                "réapprendre",
-                "surprendre",
-                "éprendre"
-            };
-
-            if (verbs.Contains(verb))
-            {
-                string stem = verb.TrimEnd("dre");
-                return ApplyEndings1(_endings1, stem + "d", stem, stem+"n");
-            }
-            
-
+          
             if (verb.EndsWith("endre"))
             {
+                string[] verbs =
+                {
+                    "apprendre", "comprendre", "déprendre", "désapprendre",
+                    "entreprendre", "méprendre", "prendre", "rapprendre",
+                    "reprendre", "réapprendre", "surprendre", "éprendre"
+                };
+
+                if (verbs.Contains(verb))
+                {
+                    string stem = verb.TrimEnd("dre");
+                    return ApplyEndings1(_endings1, stem + "d", stem, stem+"n");
+                }
+
                 string regularStem1 = verb.TrimEnd("re");
                 return _endings1.AddEndings(regularStem1);
             }
