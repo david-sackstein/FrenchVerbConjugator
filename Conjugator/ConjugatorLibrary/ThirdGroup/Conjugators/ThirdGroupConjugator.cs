@@ -18,7 +18,7 @@ namespace ConjugatorLibrary.ThirdGroup
         public Func<string, string[]> ParticipePasse => EmptyConjugator.GetConjugations;
         public Func<string, string[]> ParticipePresent => EmptyConjugator.GetConjugations;
         public Func<string, string[]> PasseSimple => EmptyConjugator.GetConjugations;
-        public Func<string, string[]> Present => EmptyConjugator.GetConjugations;
+        public Func<string, string[]> Present => PresentConjugator.GetConjugations;
         public Func<string, string[]> SubjonctifImparfait => EmptyConjugator.GetConjugations;
         public Func<string, string[]> SubjonctifPresent => EmptyConjugator.GetConjugations;
     }

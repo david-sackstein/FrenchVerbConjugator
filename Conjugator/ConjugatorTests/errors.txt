@@ -1,770 +1,2297 @@
 [
   [
-    "suivre"
-  ],
-  [
-    "abattre"
-  ],
-  [
-    "absoudre"
-  ],
-  [
-    "abstraire"
-  ],
-  [
-    "accroître"
-  ],
-  [
-    "adjoindre"
-  ],
-  [
-    "admettre"
-  ],
-  [
-    "apparaître"
-  ],
-  [
-    "appendre"
-  ],
-  [
-    "apprendre"
-  ],
-  [
-    "astreindre"
-  ],
-  [
-    "atteindre"
-  ],
-  [
-    "attendre"
-  ],
-  [
-    "autoconstruire"
-  ],
-  [
-    "autodétruire"
-  ],
-  [
-    "autoproduire"
-  ],
-  [
-    "autoreproduire"
-  ],
-  [
-    "autorevendre"
-  ],
-  [
-    "autosuffire"
-  ],
-  [
-    "battre"
-  ],
-  [
-    "boire"
-  ],
-  [
-    "braire"
-  ],
-  [
-    "bruire"
-  ],
-  [
-    "ceindre"
-  ],
-  [
-    "circoncire"
-  ],
-  [
-    "circonscrire"
-  ],
-  [
-    "clore"
-  ],
-  [
-    "combattre"
-  ],
-  [
-    "commettre"
-  ],
-  [
-    "comparaître"
-  ],
-  [
-    "complaire"
-  ],
-  [
-    "comprendre"
-  ],
-  [
-    "compromettre"
-  ],
-  [
-    "conclure"
-  ],
-  [
-    "condescendre"
-  ],
-  [
-    "conduire"
-  ],
-  [
-    "confire"
-  ],
-  [
-    "confondre"
-  ],
-  [
-    "conjoindre"
-  ],
-  [
-    "connaître"
-  ],
-  [
-    "construire"
-  ],
-  [
-    "contraindre"
-  ],
-  [
-    "contrebattre"
-  ],
-  [
-    "contredire"
-  ],
-  [
-    "contrefaire"
-  ],
-  [
-    "contrefoutre"
-  ],
-  [
-    "convaincre"
-  ],
-  [
-    "coproduire"
-  ],
-  [
-    "correspondre"
-  ],
-  [
-    "corrompre"
-  ],
-  [
-    "coudre"
-  ],
-  [
-    "craindre"
-  ],
-  [
-    "croire"
-  ],
-  [
-    "croître"
-  ],
-  [
-    "cuire"
-  ],
-  [
-    "descendre"
-  ],
-  [
-    "dire"
-  ],
-  [
-    "disjoindre"
-  ],
-  [
-    "disparaître"
-  ],
-  [
-    "dissoudre"
-  ],
-  [
-    "distendre"
-  ],
-  [
-    "distordre"
-  ],
-  [
-    "distraire"
-  ],
-  [
-    "débattre"
-  ],
-  [
-    "déconfire"
-  ],
-  [
-    "déconstruire"
-  ],
-  [
-    "découdre"
-  ],
-  [
-    "décrire"
-  ],
-  [
-    "décroître"
-  ],
-  [
-    "dédire"
-  ],
-  [
-    "déduire"
-  ],
-  [
-    "défaire"
-  ],
-  [
-    "défendre"
-  ],
-  [
-    "démettre"
-  ],
-  [
-    "démordre"
-  ],
-  [
-    "dépeindre"
-  ],
-  [
-    "dépendre"
-  ],
-  [
-    "déplaire"
-  ],
-  [
-    "déprendre"
-  ],
-  [
-    "désapprendre"
-  ],
-  [
-    "déteindre"
-  ],
-  [
-    "détendre"
-  ],
-  [
-    "détordre"
-  ],
-  [
-    "détruire"
-  ],
-  [
-    "embattre"
-  ],
-  [
-    "empreindre"
-  ],
-  [
-    "enceindre"
-  ],
-  [
-    "enclore"
-  ],
-  [
-    "enduire"
-  ],
-  [
-    "enfreindre"
-  ],
-  [
-    "enjoindre"
-  ],
-  [
-    "ensuivre"
-  ],
-  [
-    "entendre"
-  ],
-  [
-    "entrebattre"
-  ],
-  [
-    "entredétruire"
-  ],
-  [
-    "entremettre"
-  ],
-  [
-    "entreprendre"
-  ],
-  [
-    "être"
-  ],
-  [
-    "exclure"
-  ],
-  [
-    "extraire"
-  ],
-  [
-    "faire"
-  ],
-  [
-    "feindre"
-  ],
-  [
-    "fendre"
-  ],
-  [
-    "fondre"
-  ],
-  [
-    "foutre"
-  ],
-  [
-    "frire"
-  ],
-  [
-    "geindre"
-  ],
-  [
-    "inclure"
-  ],
-  [
-    "induire"
-  ],
-  [
-    "inscrire"
-  ],
-  [
-    "instruire"
-  ],
-  [
-    "interdire"
-  ],
-  [
-    "interrompre"
-  ],
-  [
-    "introduire"
-  ],
-  [
-    "joindre"
-  ],
-  [
-    "lire"
-  ],
-  [
-    "luire"
-  ],
-  [
-    "maudire"
-  ],
-  [
-    "mettre"
-  ],
-  [
-    "mordre"
-  ],
-  [
-    "morfondre"
-  ],
-  [
-    "moudre"
-  ],
-  [
-    "méconduire"
-  ],
-  [
-    "méconnaître"
-  ],
-  [
-    "médire"
-  ],
-  [
-    "méprendre"
-  ],
-  [
-    "naître"
-  ],
-  [
-    "nuire"
-  ],
-  [
-    "occlure"
-  ],
-  [
-    "oindre"
-  ],
-  [
-    "omettre"
-  ],
-  [
-    "paître"
-  ],
-  [
-    "paraître"
-  ],
-  [
-    "parfondre"
-  ],
-  [
-    "peindre"
-  ],
-  [
-    "pendre"
-  ],
-  [
-    "perdre"
-  ],
-  [
-    "permettre"
-  ],
-  [
-    "plaindre"
-  ],
-  [
-    "plaire"
-  ],
-  [
-    "poindre"
-  ],
-  [
-    "pondre"
-  ],
-  [
-    "pourfendre"
-  ],
-  [
-    "poursuivre"
-  ],
-  [
-    "prendre"
-  ],
-  [
-    "prescrire"
-  ],
-  [
-    "produire"
-  ],
-  [
-    "promettre"
-  ],
-  [
-    "proscrire"
-  ],
-  [
-    "préconstruire"
-  ],
-  [
-    "prédire"
-  ],
-  [
-    "prétendre"
-  ],
-  [
-    "rabattre"
-  ],
-  [
-    "rapprendre"
-  ],
-  [
-    "rebattre"
-  ],
-  [
-    "reboire"
-  ],
-  [
-    "reclure"
-  ],
-  [
-    "reconduire"
-  ],
-  [
-    "reconnaître"
-  ],
-  [
-    "reconstruire"
-  ],
-  [
-    "recoudre"
-  ],
-  [
-    "recroître"
-  ],
-  [
-    "recuire"
-  ],
-  [
-    "redescendre"
-  ],
-  [
-    "redire"
-  ],
-  [
-    "redécrire"
-  ],
-  [
-    "redéfaire"
-  ],
-  [
-    "refaire"
-  ],
-  [
-    "refendre"
-  ],
-  [
-    "refondre"
-  ],
-  [
-    "rejoindre"
-  ],
-  [
-    "relire"
-  ],
-  [
-    "reluire"
-  ],
-  [
-    "remettre"
-  ],
-  [
-    "remordre"
-  ],
-  [
-    "remoudre"
-  ],
-  [
-    "renaître"
-  ],
-  [
-    "rendre"
-  ],
-  [
-    "rentraire"
-  ],
-  [
-    "repaître"
-  ],
-  [
-    "reparaître"
-  ],
-  [
-    "repeindre"
-  ],
-  [
-    "rependre"
-  ],
-  [
-    "reperdre"
-  ],
-  [
-    "reprendre"
-  ],
-  [
-    "reproduire"
-  ],
-  [
-    "restreindre"
-  ],
-  [
-    "reteindre"
-  ],
-  [
-    "retendre"
-  ],
-  [
-    "retordre"
-  ],
-  [
-    "retraduire"
-  ],
-  [
-    "retranscrire"
-  ],
-  [
-    "retransmettre"
-  ],
-  [
-    "retreindre"
-  ],
-  [
-    "revendre"
-  ],
-  [
-    "revivre"
-  ],
-  [
-    "rire"
-  ],
-  [
-    "rompre"
-  ],
-  [
-    "réadmettre"
-  ],
-  [
-    "réapparaître"
-  ],
-  [
-    "réapprendre"
-  ],
-  [
-    "récrire"
-  ],
-  [
-    "réduire"
-  ],
-  [
-    "réentendre"
-  ],
-  [
-    "réinscrire"
-  ],
-  [
-    "réintroduire"
-  ],
-  [
-    "répandre"
-  ],
-  [
-    "répondre"
-  ],
-  [
-    "résoudre"
-  ],
-  [
-    "rétreindre"
-  ],
-  [
-    "réécrire"
-  ],
-  [
-    "réélire"
-  ],
-  [
-    "réémettre"
-  ],
-  [
-    "satisfaire"
-  ],
-  [
-    "soumettre"
-  ],
-  [
-    "sourdre"
-  ],
-  [
-    "sourire"
-  ],
-  [
-    "sous-entendre"
-  ],
-  [
-    "souscrire"
-  ],
-  [
-    "soustendre"
-  ],
-  [
-    "soustraire"
-  ],
-  [
-    "suffire"
-  ],
-  [
-    "surfaire"
-  ],
-  [
-    "surprendre"
-  ],
-  [
-    "surproduire"
-  ],
-  [
-    "survivre"
-  ],
-  [
-    "suspendre"
-  ],
-  [
-    "séduire"
-  ],
-  [
-    "taire"
-  ],
-  [
-    "teindre"
-  ],
-  [
-    "tendre"
-  ],
-  [
-    "tondre"
-  ],
-  [
-    "tordre"
-  ],
-  [
-    "traduire"
-  ],
-  [
-    "traire"
-  ],
-  [
-    "transcrire"
-  ],
-  [
-    "transmettre"
-  ],
-  [
-    "transparaître"
-  ],
-  [
-    "vaincre"
-  ],
-  [
-    "vendre"
-  ],
-  [
-    "vermoudre"
-  ],
-  [
-    "vivre"
-  ],
-  [
-    "ébattre"
-  ],
-  [
-    "éclore"
-  ],
-  [
-    "éconduire"
-  ],
-  [
-    "écrire"
-  ],
-  [
-    "élire"
-  ],
-  [
-    "émettre"
-  ],
-  [
-    "émoudre"
-  ],
-  [
-    "épandre"
-  ],
-  [
-    "éperdre"
-  ],
-  [
-    "épreindre"
-  ],
-  [
-    "éprendre"
-  ],
-  [
-    "éteindre"
-  ],
-  [
-    "étendre"
-  ],
-  [
-    "étreindre"
+    "abattre",
+    "abats               abatte",
+    "abats               abattes",
+    "abat                abatte",
+    "abattons            abattons",
+    "abattez             abattez",
+    "abattent            abattent"
+  ],
+  [
+    "absoudre",
+    "absous              absoude",
+    "absous              absoudes",
+    "absout              absoude",
+    "absolvons           absoudons",
+    "absolvez            absoudez",
+    "absolvent           absoudent"
+  ],
+  [
+    "abstraire",
+    "abstrais            abstraie",
+    "abstrais            abstraies",
+    "abstrait            abstraie",
+    "abstrayons          abstraions",
+    "abstrayez           abstraiez",
+    "abstraient          abstraient"
+  ],
+  [
+    "accroître",
+    "accrois             accroîte",
+    "accrois             accroîtes",
+    "accroît             accroîte",
+    "accroissons         accroîtons",
+    "accroissez          accroîtez",
+    "accroissent         accroîtent"
+  ],
+  [
+    "adjoindre",
+    "adjoins             adjoinde",
+    "adjoins             adjoindes",
+    "adjoint             adjoinde",
+    "adjoignons          adjoindons",
+    "adjoignez           adjoindez",
+    "adjoignent          adjoindent"
+  ],
+  [
+    "admettre",
+    "admets              admette",
+    "admets              admettes",
+    "admet               admette",
+    "admettons           admettons",
+    "admettez            admettez",
+    "admettent           admettent"
+  ],
+  [
+    "apparaître",
+    "apparais            apparaîte",
+    "apparais            apparaîtes",
+    "apparaît            apparaîte",
+    "apparaissons        apparaîtons",
+    "apparaissez         apparaîtez",
+    "apparaissent        apparaîtent"
+  ],
+  [
+    "appendre",
+    "appends             appende",
+    "appends             appendes",
+    "append              appende",
+    "appendons           appendons",
+    "appendez            appendez",
+    "appendent           appendent"
+  ],
+  [
+    "apprendre",
+    "apprends            apprende",
+    "apprends            apprendes",
+    "apprend             apprende",
+    "apprenons           apprendons",
+    "apprenez            apprendez",
+    "apprennent          apprendent"
+  ],
+  [
+    "astreindre",
+    "astreins            astreinde",
+    "astreins            astreindes",
+    "astreint            astreinde",
+    "astreignons         astreindons",
+    "astreignez          astreindez",
+    "astreignent         astreindent"
+  ],
+  [
+    "atteindre",
+    "atteins             atteinde",
+    "atteins             atteindes",
+    "atteint             atteinde",
+    "atteignons          atteindons",
+    "atteignez           atteindez",
+    "atteignent          atteindent"
+  ],
+  [
+    "attendre",
+    "attends             attende",
+    "attends             attendes",
+    "attend              attende",
+    "attendons           attendons",
+    "attendez            attendez",
+    "attendent           attendent"
+  ],
+  [
+    "autoconstruire",
+    "autoconstruis       autoconstruie",
+    "autoconstruis       autoconstruies",
+    "autoconstruit       autoconstruie",
+    "autoconstruisons    autoconstruions",
+    "autoconstruisez     autoconstruiez",
+    "autoconstruisent    autoconstruient"
+  ],
+  [
+    "autodétruire",
+    "autodétruis         autodétruie",
+    "autodétruis         autodétruies",
+    "autodétruit         autodétruie",
+    "autodétruisons      autodétruions",
+    "autodétruisez       autodétruiez",
+    "autodétruisent      autodétruient"
+  ],
+  [
+    "autoproduire",
+    "autoproduis         autoproduie",
+    "autoproduis         autoproduies",
+    "autoproduit         autoproduie",
+    "autoproduisons      autoproduions",
+    "autoproduisez       autoproduiez",
+    "autoproduisent      autoproduient"
+  ],
+  [
+    "autoreproduire",
+    "autoreproduis       autoreproduie",
+    "autoreproduis       autoreproduies",
+    "autoreproduit       autoreproduie",
+    "autoreproduisons    autoreproduions",
+    "autoreproduisez     autoreproduiez",
+    "autoreproduisent    autoreproduient"
+  ],
+  [
+    "autorevendre",
+    "autorevends         autorevende",
+    "autorevends         autorevendes",
+    "autorevend          autorevende",
+    "autorevendons       autorevendons",
+    "autorevendez        autorevendez",
+    "autorevendent       autorevendent"
+  ],
+  [
+    "autosuffire",
+    "autosuffis          autosuffie",
+    "autosuffis          autosuffies",
+    "autosuffit          autosuffie",
+    "autosuffisons       autosuffions",
+    "autosuffisez        autosuffiez",
+    "autosuffisent       autosuffient"
+  ],
+  [
+    "battre",
+    "bats                batte",
+    "bats                battes",
+    "bat                 batte",
+    "battons             battons",
+    "battez              battez",
+    "battent             battent"
+  ],
+  [
+    "boire",
+    "bois                boie",
+    "bois                boies",
+    "boit                boie",
+    "buvons              boions",
+    "buvez               boiez",
+    "boivent             boient"
+  ],
+  [
+    "braire",
+    "brais               braie",
+    "brais               braies",
+    "brait               braie",
+    "brayons             braions",
+    "brayez              braiez",
+    "braient             braient"
+  ],
+  [
+    "bruire",
+    "bruis               bruie",
+    "bruis               bruies",
+    "bruit               bruie",
+    "                    bruions",
+    "                    bruiez",
+    "bruissent           bruient"
+  ],
+  [
+    "ceindre",
+    "ceins               ceinde",
+    "ceins               ceindes",
+    "ceint               ceinde",
+    "ceignons            ceindons",
+    "ceignez             ceindez",
+    "ceignent            ceindent"
+  ],
+  [
+    "circoncire",
+    "circoncis           circoncie",
+    "circoncis           circoncies",
+    "circoncit           circoncie",
+    "circoncisons        circoncions",
+    "circoncisez         circonciez",
+    "circoncisent        circoncient"
+  ],
+  [
+    "circonscrire",
+    "circonscris         circonscrie",
+    "circonscris         circonscries",
+    "circonscrit         circonscrie",
+    "circonscrivons      circonscrions",
+    "circonscrivez       circonscriez",
+    "circonscrivent      circonscrient"
+  ],
+  [
+    "clore",
+    "clos                cloe",
+    "clos                cloes",
+    "clôt                cloe",
+    "                    cloons",
+    "                    cloez",
+    "closent             cloent"
+  ],
+  [
+    "combattre",
+    "combats             combatte",
+    "combats             combattes",
+    "combat              combatte",
+    "combattons          combattons",
+    "combattez           combattez",
+    "combattent          combattent"
+  ],
+  [
+    "commettre",
+    "commets             commette",
+    "commets             commettes",
+    "commet              commette",
+    "commettons          commettons",
+    "commettez           commettez",
+    "commettent          commettent"
+  ],
+  [
+    "comparaître",
+    "comparais           comparaîte",
+    "comparais           comparaîtes",
+    "comparaît           comparaîte",
+    "comparaissons       comparaîtons",
+    "comparaissez        comparaîtez",
+    "comparaissent       comparaîtent"
+  ],
+  [
+    "complaire",
+    "complais            complaie",
+    "complais            complaies",
+    "complaît            complaie",
+    "complaisons         complaions",
+    "complaisez          complaiez",
+    "complaisent         complaient"
+  ],
+  [
+    "comprendre",
+    "comprends           comprende",
+    "comprends           comprendes",
+    "comprend            comprende",
+    "comprenons          comprendons",
+    "comprenez           comprendez",
+    "comprennent         comprendent"
+  ],
+  [
+    "compromettre",
+    "compromets          compromette",
+    "compromets          compromettes",
+    "compromet           compromette",
+    "compromettons       compromettons",
+    "compromettez        compromettez",
+    "compromettent       compromettent"
+  ],
+  [
+    "conclure",
+    "conclus             conclue",
+    "conclus             conclues",
+    "conclut             conclue",
+    "concluons           concluons",
+    "concluez            concluez",
+    "concluent           concluent"
+  ],
+  [
+    "condescendre",
+    "condescends         condescende",
+    "condescends         condescendes",
+    "condescend          condescende",
+    "condescendons       condescendons",
+    "condescendez        condescendez",
+    "condescendent       condescendent"
+  ],
+  [
+    "conduire",
+    "conduis             conduie",
+    "conduis             conduies",
+    "conduit             conduie",
+    "conduisons          conduions",
+    "conduisez           conduiez",
+    "conduisent          conduient"
+  ],
+  [
+    "confire",
+    "confis              confie",
+    "confis              confies",
+    "confit              confie",
+    "confisons           confions",
+    "confisez            confiez",
+    "confisent           confient"
+  ],
+  [
+    "confondre",
+    "confonds            confonde",
+    "confonds            confondes",
+    "confond             confonde",
+    "confondons          confondons",
+    "confondez           confondez",
+    "confondent          confondent"
+  ],
+  [
+    "conjoindre",
+    "conjoins            conjoinde",
+    "conjoins            conjoindes",
+    "conjoint            conjoinde",
+    "conjoignons         conjoindons",
+    "conjoignez          conjoindez",
+    "conjoignent         conjoindent"
+  ],
+  [
+    "connaître",
+    "connais             connaîte",
+    "connais             connaîtes",
+    "connaît             connaîte",
+    "connaissons         connaîtons",
+    "connaissez          connaîtez",
+    "connaissent         connaîtent"
+  ],
+  [
+    "construire",
+    "construis           construie",
+    "construis           construies",
+    "construit           construie",
+    "construisons        construions",
+    "construisez         construiez",
+    "construisent        construient"
+  ],
+  [
+    "contraindre",
+    "contrains           contrainde",
+    "contrains           contraindes",
+    "contraint           contrainde",
+    "contraignons        contraindons",
+    "contraignez         contraindez",
+    "contraignent        contraindent"
+  ],
+  [
+    "contrebattre",
+    "contrebats          contrebatte",
+    "contrebats          contrebattes",
+    "contrebat           contrebatte",
+    "contrebattons       contrebattons",
+    "contrebattez        contrebattez",
+    "contrebattent       contrebattent"
+  ],
+  [
+    "contredire",
+    "contredis           contredie",
+    "contredis           contredies",
+    "contredit           contredie",
+    "contredisons        contredions",
+    "contredisez         contrediez",
+    "contredisent        contredient"
+  ],
+  [
+    "contrefaire",
+    "contrefais          contrefaie",
+    "contrefais          contrefaies",
+    "contrefait          contrefaie",
+    "contrefaisons       contrefaions",
+    "contrefaites        contrefaiez",
+    "contrefont          contrefaient"
+  ],
+  [
+    "contrefoutre",
+    "contrefous          contrefoute",
+    "contrefous          contrefoutes",
+    "contrefout          contrefoute",
+    "contrefoutons       contrefoutons",
+    "contrefoutez        contrefoutez",
+    "contrefoutent       contrefoutent"
+  ],
+  [
+    "convaincre",
+    "convaincs           convaince",
+    "convaincs           convainces",
+    "convainc            convaince",
+    "convainquons        convainçons",
+    "convainquez         convaincez",
+    "convainquent        convaincent"
+  ],
+  [
+    "coproduire",
+    "coproduis           coproduie",
+    "coproduis           coproduies",
+    "coproduit           coproduie",
+    "coproduisons        coproduions",
+    "coproduisez         coproduiez",
+    "coproduisent        coproduient"
+  ],
+  [
+    "correspondre",
+    "corresponds         corresponde",
+    "corresponds         correspondes",
+    "correspond          corresponde",
+    "correspondons       correspondons",
+    "correspondez        correspondez",
+    "correspondent       correspondent"
+  ],
+  [
+    "corrompre",
+    "corromps            corrompe",
+    "corromps            corrompes",
+    "corrompt            corrompe",
+    "corrompons          corrompons",
+    "corrompez           corrompez",
+    "corrompent          corrompent"
+  ],
+  [
+    "coudre",
+    "couds               coude",
+    "couds               coudes",
+    "coud                coude",
+    "cousons             coudons",
+    "cousez              coudez",
+    "cousent             coudent"
+  ],
+  [
+    "craindre",
+    "crains              crainde",
+    "crains              craindes",
+    "craint              crainde",
+    "craignons           craindons",
+    "craignez            craindez",
+    "craignent           craindent"
+  ],
+  [
+    "croire",
+    "crois               croie",
+    "crois               croies",
+    "croit               croie",
+    "croyons             croions",
+    "croyez              croiez",
+    "croient             croient"
+  ],
+  [
+    "croître",
+    "croîs               croîte",
+    "croîs               croîtes",
+    "croît               croîte",
+    "croissons           croîtons",
+    "croissez            croîtez",
+    "croissent           croîtent"
+  ],
+  [
+    "cuire",
+    "cuis                cuie",
+    "cuis                cuies",
+    "cuit                cuie",
+    "cuisons             cuions",
+    "cuisez              cuiez",
+    "cuisent             cuient"
+  ],
+  [
+    "descendre",
+    "descends            descende",
+    "descends            descendes",
+    "descend             descende",
+    "descendons          descendons",
+    "descendez           descendez",
+    "descendent          descendent"
+  ],
+  [
+    "dire",
+    "dis                 die",
+    "dis                 dies",
+    "dit                 die",
+    "disons              dions",
+    "dites               diez",
+    "disent              dient"
+  ],
+  [
+    "disjoindre",
+    "disjoins            disjoinde",
+    "disjoins            disjoindes",
+    "disjoint            disjoinde",
+    "disjoignons         disjoindons",
+    "disjoignez          disjoindez",
+    "disjoignent         disjoindent"
+  ],
+  [
+    "disparaître",
+    "disparais           disparaîte",
+    "disparais           disparaîtes",
+    "disparaît           disparaîte",
+    "disparaissons       disparaîtons",
+    "disparaissez        disparaîtez",
+    "disparaissent       disparaîtent"
+  ],
+  [
+    "dissoudre",
+    "dissous             dissoude",
+    "dissous             dissoudes",
+    "dissout             dissoude",
+    "dissolvons          dissoudons",
+    "dissolvez           dissoudez",
+    "dissolvent          dissoudent"
+  ],
+  [
+    "distendre",
+    "distends            distende",
+    "distends            distendes",
+    "distend             distende",
+    "distendons          distendons",
+    "distendez           distendez",
+    "distendent          distendent"
+  ],
+  [
+    "distordre",
+    "distords            distorde",
+    "distords            distordes",
+    "distord             distorde",
+    "distordons          distordons",
+    "distordez           distordez",
+    "distordent          distordent"
+  ],
+  [
+    "distraire",
+    "distrais            distraie",
+    "distrais            distraies",
+    "distrait            distraie",
+    "distrayons          distraions",
+    "distrayez           distraiez",
+    "distraient          distraient"
+  ],
+  [
+    "débattre",
+    "débats              débatte",
+    "débats              débattes",
+    "débat               débatte",
+    "débattons           débattons",
+    "débattez            débattez",
+    "débattent           débattent"
+  ],
+  [
+    "déconfire",
+    "déconfis            déconfie",
+    "déconfis            déconfies",
+    "déconfit            déconfie",
+    "déconfisons         déconfions",
+    "déconfisez          déconfiez",
+    "déconfisent         déconfient"
+  ],
+  [
+    "déconstruire",
+    "déconstruis         déconstruie",
+    "déconstruis         déconstruies",
+    "déconstruit         déconstruie",
+    "déconstruisons      déconstruions",
+    "déconstruisez       déconstruiez",
+    "déconstruisent      déconstruient"
+  ],
+  [
+    "découdre",
+    "découds             découde",
+    "découds             découdes",
+    "découd              découde",
+    "décousons           découdons",
+    "décousez            découdez",
+    "décousent           découdent"
+  ],
+  [
+    "décrire",
+    "décris              décrie",
+    "décris              décries",
+    "décrit              décrie",
+    "décrivons           décrions",
+    "décrivez            décriez",
+    "décrivent           décrient"
+  ],
+  [
+    "décroître",
+    "décrois             décroîte",
+    "décrois             décroîtes",
+    "décroît             décroîte",
+    "décroissons         décroîtons",
+    "décroissez          décroîtez",
+    "décroissent         décroîtent"
+  ],
+  [
+    "dédire",
+    "dédis               dédie",
+    "dédis               dédies",
+    "dédit               dédie",
+    "dédisons            dédions",
+    "dédisez             dédiez",
+    "dédisent            dédient"
+  ],
+  [
+    "déduire",
+    "déduis              déduie",
+    "déduis              déduies",
+    "déduit              déduie",
+    "déduisons           déduions",
+    "déduisez            déduiez",
+    "déduisent           déduient"
+  ],
+  [
+    "défaire",
+    "défais              défaie",
+    "défais              défaies",
+    "défait              défaie",
+    "défaisons           défaions",
+    "défaites            défaiez",
+    "défont              défaient"
+  ],
+  [
+    "défendre",
+    "défends             défende",
+    "défends             défendes",
+    "défend              défende",
+    "défendons           défendons",
+    "défendez            défendez",
+    "défendent           défendent"
+  ],
+  [
+    "démettre",
+    "démets              démette",
+    "démets              démettes",
+    "démet               démette",
+    "démettons           démettons",
+    "démettez            démettez",
+    "démettent           démettent"
+  ],
+  [
+    "démordre",
+    "démords             démorde",
+    "démords             démordes",
+    "démord              démorde",
+    "démordons           démordons",
+    "démordez            démordez",
+    "démordent           démordent"
+  ],
+  [
+    "dépeindre",
+    "dépeins             dépeinde",
+    "dépeins             dépeindes",
+    "dépeint             dépeinde",
+    "dépeignons          dépeindons",
+    "dépeignez           dépeindez",
+    "dépeignent          dépeindent"
+  ],
+  [
+    "dépendre",
+    "dépends             dépende",
+    "dépends             dépendes",
+    "dépend              dépende",
+    "dépendons           dépendons",
+    "dépendez            dépendez",
+    "dépendent           dépendent"
+  ],
+  [
+    "déplaire",
+    "déplais             déplaie",
+    "déplais             déplaies",
+    "déplaît             déplaie",
+    "déplaisons          déplaions",
+    "déplaisez           déplaiez",
+    "déplaisent          déplaient"
+  ],
+  [
+    "déprendre",
+    "déprends            déprende",
+    "déprends            déprendes",
+    "déprend             déprende",
+    "déprenons           déprendons",
+    "déprenez            déprendez",
+    "déprennent          déprendent"
+  ],
+  [
+    "désapprendre",
+    "désapprends         désapprende",
+    "désapprends         désapprendes",
+    "désapprend          désapprende",
+    "désapprenons        désapprendons",
+    "désapprenez         désapprendez",
+    "désapprennent       désapprendent"
+  ],
+  [
+    "déteindre",
+    "déteins             déteinde",
+    "déteins             déteindes",
+    "déteint             déteinde",
+    "déteignons          déteindons",
+    "déteignez           déteindez",
+    "déteignent          déteindent"
+  ],
+  [
+    "détendre",
+    "détends             détende",
+    "détends             détendes",
+    "détend              détende",
+    "détendons           détendons",
+    "détendez            détendez",
+    "détendent           détendent"
+  ],
+  [
+    "détordre",
+    "détords             détorde",
+    "détords             détordes",
+    "détord              détorde",
+    "détordons           détordons",
+    "détordez            détordez",
+    "détordent           détordent"
+  ],
+  [
+    "détruire",
+    "détruis             détruie",
+    "détruis             détruies",
+    "détruit             détruie",
+    "détruisons          détruions",
+    "détruisez           détruiez",
+    "détruisent          détruient"
+  ],
+  [
+    "embattre",
+    "embats              embatte",
+    "embats              embattes",
+    "embat               embatte",
+    "embattons           embattons",
+    "embattez            embattez",
+    "embattent           embattent"
+  ],
+  [
+    "empreindre",
+    "empreins            empreinde",
+    "empreins            empreindes",
+    "empreint            empreinde",
+    "empreignons         empreindons",
+    "empreignez          empreindez",
+    "empreignent         empreindent"
+  ],
+  [
+    "enceindre",
+    "enceins             enceinde",
+    "enceins             enceindes",
+    "enceint             enceinde",
+    "enceignons          enceindons",
+    "enceignez           enceindez",
+    "enceignent          enceindent"
+  ],
+  [
+    "enclore",
+    "enclos              encloe",
+    "enclos              encloes",
+    "enclôt              encloe",
+    "enclosons           encloons",
+    "enclosez            encloez",
+    "enclosent           encloent"
+  ],
+  [
+    "enduire",
+    "enduis              enduie",
+    "enduis              enduies",
+    "enduit              enduie",
+    "enduisons           enduions",
+    "enduisez            enduiez",
+    "enduisent           enduient"
+  ],
+  [
+    "enfreindre",
+    "enfreins            enfreinde",
+    "enfreins            enfreindes",
+    "enfreint            enfreinde",
+    "enfreignons         enfreindons",
+    "enfreignez          enfreindez",
+    "enfreignent         enfreindent"
+  ],
+  [
+    "enjoindre",
+    "enjoins             enjoinde",
+    "enjoins             enjoindes",
+    "enjoint             enjoinde",
+    "enjoignons          enjoindons",
+    "enjoignez           enjoindez",
+    "enjoignent          enjoindent"
+  ],
+  [
+    "ensuivre",
+    "                    ensuive",
+    "                    ensuives",
+    "ensuit              ensuive",
+    "                    ensuivons",
+    "                    ensuivez",
+    "ensuivent           ensuivent"
+  ],
+  [
+    "entendre",
+    "entends             entende",
+    "entends             entendes",
+    "entend              entende",
+    "entendons           entendons",
+    "entendez            entendez",
+    "entendent           entendent"
+  ],
+  [
+    "entrebattre",
+    "entrebats           entrebatte",
+    "entrebats           entrebattes",
+    "entrebat            entrebatte",
+    "entrebattons        entrebattons",
+    "entrebattez         entrebattez",
+    "entrebattent        entrebattent"
+  ],
+  [
+    "entredétruire",
+    "entredétruis        entredétruie",
+    "entredétruis        entredétruies",
+    "entredétruit        entredétruie",
+    "entredétruisons     entredétruions",
+    "entredétruisez      entredétruiez",
+    "entredétruisent     entredétruient"
+  ],
+  [
+    "entremettre",
+    "entremets           entremette",
+    "entremets           entremettes",
+    "entremet            entremette",
+    "entremettons        entremettons",
+    "entremettez         entremettez",
+    "entremettent        entremettent"
+  ],
+  [
+    "entreprendre",
+    "entreprends         entreprende",
+    "entreprends         entreprendes",
+    "entreprend          entreprende",
+    "entreprenons        entreprendons",
+    "entreprenez         entreprendez",
+    "entreprennent       entreprendent"
+  ],
+  [
+    "être",
+    "suis                ête",
+    "es                  êtes",
+    "est                 ête",
+    "sommes              êtons",
+    "êtes                êtez",
+    "sont                êtent"
+  ],
+  [
+    "exclure",
+    "exclus              exclue",
+    "exclus              exclues",
+    "exclut              exclue",
+    "excluons            excluons",
+    "excluez             excluez",
+    "excluent            excluent"
+  ],
+  [
+    "extraire",
+    "extrais             extraie",
+    "extrais             extraies",
+    "extrait             extraie",
+    "extrayons           extraions",
+    "extrayez            extraiez",
+    "extraient           extraient"
+  ],
+  [
+    "faire",
+    "fais                faie",
+    "fais                faies",
+    "fait                faie",
+    "faisons             faions",
+    "faites              faiez",
+    "font                faient"
+  ],
+  [
+    "feindre",
+    "feins               feinde",
+    "feins               feindes",
+    "feint               feinde",
+    "feignons            feindons",
+    "feignez             feindez",
+    "feignent            feindent"
+  ],
+  [
+    "fendre",
+    "fends               fende",
+    "fends               fendes",
+    "fend                fende",
+    "fendons             fendons",
+    "fendez              fendez",
+    "fendent             fendent"
+  ],
+  [
+    "fondre",
+    "fonds               fonde",
+    "fonds               fondes",
+    "fond                fonde",
+    "fondons             fondons",
+    "fondez              fondez",
+    "fondent             fondent"
+  ],
+  [
+    "foutre",
+    "fous                foute",
+    "fous                foutes",
+    "fout                foute",
+    "foutons             foutons",
+    "foutez              foutez",
+    "foutent             foutent"
+  ],
+  [
+    "frire",
+    "fris                frie",
+    "fris                fries",
+    "frit                frie",
+    "frisons             frions",
+    "frisez              friez",
+    "frisent             frient"
+  ],
+  [
+    "geindre",
+    "geins               geinde",
+    "geins               geindes",
+    "geint               geinde",
+    "geignons            geindons",
+    "geignez             geindez",
+    "geignent            geindent"
+  ],
+  [
+    "inclure",
+    "inclus              inclue",
+    "inclus              inclues",
+    "inclut              inclue",
+    "incluons            incluons",
+    "incluez             incluez",
+    "incluent            incluent"
+  ],
+  [
+    "induire",
+    "induis              induie",
+    "induis              induies",
+    "induit              induie",
+    "induisons           induions",
+    "induisez            induiez",
+    "induisent           induient"
+  ],
+  [
+    "inscrire",
+    "inscris             inscrie",
+    "inscris             inscries",
+    "inscrit             inscrie",
+    "inscrivons          inscrions",
+    "inscrivez           inscriez",
+    "inscrivent          inscrient"
+  ],
+  [
+    "instruire",
+    "instruis            instruie",
+    "instruis            instruies",
+    "instruit            instruie",
+    "instruisons         instruions",
+    "instruisez          instruiez",
+    "instruisent         instruient"
+  ],
+  [
+    "interdire",
+    "interdis            interdie",
+    "interdis            interdies",
+    "interdit            interdie",
+    "interdisons         interdions",
+    "interdisez          interdiez",
+    "interdisent         interdient"
+  ],
+  [
+    "interrompre",
+    "interromps          interrompe",
+    "interromps          interrompes",
+    "interrompt          interrompe",
+    "interrompons        interrompons",
+    "interrompez         interrompez",
+    "interrompent        interrompent"
+  ],
+  [
+    "introduire",
+    "introduis           introduie",
+    "introduis           introduies",
+    "introduit           introduie",
+    "introduisons        introduions",
+    "introduisez         introduiez",
+    "introduisent        introduient"
+  ],
+  [
+    "joindre",
+    "joins               joinde",
+    "joins               joindes",
+    "joint               joinde",
+    "joignons            joindons",
+    "joignez             joindez",
+    "joignent            joindent"
+  ],
+  [
+    "lire",
+    "lis                 lie",
+    "lis                 lies",
+    "lit                 lie",
+    "lisons              lions",
+    "lisez               liez",
+    "lisent              lient"
+  ],
+  [
+    "luire",
+    "luis                luie",
+    "luis                luies",
+    "luit                luie",
+    "luisons             luions",
+    "luisez              luiez",
+    "luisent             luient"
+  ],
+  [
+    "maudire",
+    "maudis              maudie",
+    "maudis              maudies",
+    "maudit              maudie",
+    "maudissons          maudions",
+    "maudissez           maudiez",
+    "maudissent          maudient"
+  ],
+  [
+    "mettre",
+    "mets                mette",
+    "mets                mettes",
+    "met                 mette",
+    "mettons             mettons",
+    "mettez              mettez",
+    "mettent             mettent"
+  ],
+  [
+    "mordre",
+    "mords               morde",
+    "mords               mordes",
+    "mord                morde",
+    "mordons             mordons",
+    "mordez              mordez",
+    "mordent             mordent"
+  ],
+  [
+    "morfondre",
+    "morfonds            morfonde",
+    "morfonds            morfondes",
+    "morfond             morfonde",
+    "morfondons          morfondons",
+    "morfondez           morfondez",
+    "morfondent          morfondent"
+  ],
+  [
+    "moudre",
+    "mouds               moude",
+    "mouds               moudes",
+    "moud                moude",
+    "moulons             moudons",
+    "moulez              moudez",
+    "moulent             moudent"
+  ],
+  [
+    "méconduire",
+    "méconduis           méconduie",
+    "méconduis           méconduies",
+    "méconduit           méconduie",
+    "méconduisons        méconduions",
+    "méconduisez         méconduiez",
+    "méconduisent        méconduient"
+  ],
+  [
+    "méconnaître",
+    "méconnais           méconnaîte",
+    "méconnais           méconnaîtes",
+    "méconnaît           méconnaîte",
+    "méconnaissons       méconnaîtons",
+    "méconnaissez        méconnaîtez",
+    "méconnaissent       méconnaîtent"
+  ],
+  [
+    "médire",
+    "médis               médie",
+    "médis               médies",
+    "médit               médie",
+    "médisons            médions",
+    "médisez             médiez",
+    "médisent            médient"
+  ],
+  [
+    "méprendre",
+    "méprends            méprende",
+    "méprends            méprendes",
+    "méprend             méprende",
+    "méprenons           méprendons",
+    "méprenez            méprendez",
+    "méprennent          méprendent"
+  ],
+  [
+    "naître",
+    "nais                naîte",
+    "nais                naîtes",
+    "naît                naîte",
+    "naissons            naîtons",
+    "naissez             naîtez",
+    "naissent            naîtent"
+  ],
+  [
+    "nuire",
+    "nuis                nuie",
+    "nuis                nuies",
+    "nuit                nuie",
+    "nuisons             nuions",
+    "nuisez              nuiez",
+    "nuisent             nuient"
+  ],
+  [
+    "occlure",
+    "occlus              occlue",
+    "occlus              occlues",
+    "occlut              occlue",
+    "occluons            occluons",
+    "occluez             occluez",
+    "occluent            occluent"
+  ],
+  [
+    "oindre",
+    "oins                oinde",
+    "oins                oindes",
+    "oint                oinde",
+    "oignons             oindons",
+    "oignez              oindez",
+    "oignent             oindent"
+  ],
+  [
+    "omettre",
+    "omets               omette",
+    "omets               omettes",
+    "omet                omette",
+    "omettons            omettons",
+    "omettez             omettez",
+    "omettent            omettent"
+  ],
+  [
+    "paître",
+    "pais                paîte",
+    "pais                paîtes",
+    "paît                paîte",
+    "paissons            paîtons",
+    "paissez             paîtez",
+    "paissent            paîtent"
+  ],
+  [
+    "paraître",
+    "parais              paraîte",
+    "parais              paraîtes",
+    "paraît              paraîte",
+    "paraissons          paraîtons",
+    "paraissez           paraîtez",
+    "paraissent          paraîtent"
+  ],
+  [
+    "parfondre",
+    "parfonds            parfonde",
+    "parfonds            parfondes",
+    "parfond             parfonde",
+    "parfondons          parfondons",
+    "parfondez           parfondez",
+    "parfondent          parfondent"
+  ],
+  [
+    "peindre",
+    "peins               peinde",
+    "peins               peindes",
+    "peint               peinde",
+    "peignons            peindons",
+    "peignez             peindez",
+    "peignent            peindent"
+  ],
+  [
+    "pendre",
+    "pends               pende",
+    "pends               pendes",
+    "pend                pende",
+    "pendons             pendons",
+    "pendez              pendez",
+    "pendent             pendent"
+  ],
+  [
+    "perdre",
+    "perds               perde",
+    "perds               perdes",
+    "perd                perde",
+    "perdons             perdons",
+    "perdez              perdez",
+    "perdent             perdent"
+  ],
+  [
+    "permettre",
+    "permets             permette",
+    "permets             permettes",
+    "permet              permette",
+    "permettons          permettons",
+    "permettez           permettez",
+    "permettent          permettent"
+  ],
+  [
+    "plaindre",
+    "plains              plainde",
+    "plains              plaindes",
+    "plaint              plainde",
+    "plaignons           plaindons",
+    "plaignez            plaindez",
+    "plaignent           plaindent"
+  ],
+  [
+    "plaire",
+    "plais               plaie",
+    "plais               plaies",
+    "plaît               plaie",
+    "plaisons            plaions",
+    "plaisez             plaiez",
+    "plaisent            plaient"
+  ],
+  [
+    "poindre",
+    "poins               poinde",
+    "poins               poindes",
+    "point               poinde",
+    "poignons            poindons",
+    "poignez             poindez",
+    "poignent            poindent"
+  ],
+  [
+    "pondre",
+    "ponds               ponde",
+    "ponds               pondes",
+    "pond                ponde",
+    "pondons             pondons",
+    "pondez              pondez",
+    "pondent             pondent"
+  ],
+  [
+    "pourfendre",
+    "pourfends           pourfende",
+    "pourfends           pourfendes",
+    "pourfend            pourfende",
+    "pourfendons         pourfendons",
+    "pourfendez          pourfendez",
+    "pourfendent         pourfendent"
+  ],
+  [
+    "poursuivre",
+    "poursuis            poursuive",
+    "poursuis            poursuives",
+    "poursuit            poursuive",
+    "poursuivons         poursuivons",
+    "poursuivez          poursuivez",
+    "poursuivent         poursuivent"
+  ],
+  [
+    "prendre",
+    "prends              prende",
+    "prends              prendes",
+    "prend               prende",
+    "prenons             prendons",
+    "prenez              prendez",
+    "prennent            prendent"
+  ],
+  [
+    "prescrire",
+    "prescris            prescrie",
+    "prescris            prescries",
+    "prescrit            prescrie",
+    "prescrivons         prescrions",
+    "prescrivez          prescriez",
+    "prescrivent         prescrient"
+  ],
+  [
+    "produire",
+    "produis             produie",
+    "produis             produies",
+    "produit             produie",
+    "produisons          produions",
+    "produisez           produiez",
+    "produisent          produient"
+  ],
+  [
+    "promettre",
+    "promets             promette",
+    "promets             promettes",
+    "promet              promette",
+    "promettons          promettons",
+    "promettez           promettez",
+    "promettent          promettent"
+  ],
+  [
+    "proscrire",
+    "proscris            proscrie",
+    "proscris            proscries",
+    "proscrit            proscrie",
+    "proscrivons         proscrions",
+    "proscrivez          proscriez",
+    "proscrivent         proscrient"
+  ],
+  [
+    "préconstruire",
+    "préconstruis        préconstruie",
+    "préconstruis        préconstruies",
+    "préconstruit        préconstruie",
+    "préconstruisons     préconstruions",
+    "préconstruisez      préconstruiez",
+    "préconstruisent     préconstruient"
+  ],
+  [
+    "prédire",
+    "prédis              prédie",
+    "prédis              prédies",
+    "prédit              prédie",
+    "prédisons           prédions",
+    "prédisez            prédiez",
+    "prédisent           prédient"
+  ],
+  [
+    "prétendre",
+    "prétends            prétende",
+    "prétends            prétendes",
+    "prétend             prétende",
+    "prétendons          prétendons",
+    "prétendez           prétendez",
+    "prétendent          prétendent"
+  ],
+  [
+    "rabattre",
+    "rabats              rabatte",
+    "rabats              rabattes",
+    "rabat               rabatte",
+    "rabattons           rabattons",
+    "rabattez            rabattez",
+    "rabattent           rabattent"
+  ],
+  [
+    "rapprendre",
+    "rapprends           rapprende",
+    "rapprends           rapprendes",
+    "rapprend            rapprende",
+    "rapprenons          rapprendons",
+    "rapprenez           rapprendez",
+    "rapprennent         rapprendent"
+  ],
+  [
+    "rebattre",
+    "rebats              rebatte",
+    "rebats              rebattes",
+    "rebat               rebatte",
+    "rebattons           rebattons",
+    "rebattez            rebattez",
+    "rebattent           rebattent"
+  ],
+  [
+    "reboire",
+    "rebois              reboie",
+    "rebois              reboies",
+    "reboit              reboie",
+    "rebuvons            reboions",
+    "rebuvez             reboiez",
+    "reboivent           reboient"
+  ],
+  [
+    "reclure",
+    "reclus              reclue",
+    "reclus              reclues",
+    "reclut              reclue",
+    "recluons            recluons",
+    "recluez             recluez",
+    "recluent            recluent"
+  ],
+  [
+    "reconduire",
+    "reconduis           reconduie",
+    "reconduis           reconduies",
+    "reconduit           reconduie",
+    "reconduisons        reconduions",
+    "reconduisez         reconduiez",
+    "reconduisent        reconduient"
+  ],
+  [
+    "reconnaître",
+    "reconnais           reconnaîte",
+    "reconnais           reconnaîtes",
+    "reconnaît           reconnaîte",
+    "reconnaissons       reconnaîtons",
+    "reconnaissez        reconnaîtez",
+    "reconnaissent       reconnaîtent"
+  ],
+  [
+    "reconstruire",
+    "reconstruis         reconstruie",
+    "reconstruis         reconstruies",
+    "reconstruit         reconstruie",
+    "reconstruisons      reconstruions",
+    "reconstruisez       reconstruiez",
+    "reconstruisent      reconstruient"
+  ],
+  [
+    "recoudre",
+    "recouds             recoude",
+    "recouds             recoudes",
+    "recoud              recoude",
+    "recousons           recoudons",
+    "recousez            recoudez",
+    "recousent           recoudent"
+  ],
+  [
+    "recroître",
+    "recrois             recroîte",
+    "recrois             recroîtes",
+    "recroît             recroîte",
+    "recroissons         recroîtons",
+    "recroissez          recroîtez",
+    "recroissent         recroîtent"
+  ],
+  [
+    "recuire",
+    "recuis              recuie",
+    "recuis              recuies",
+    "recuit              recuie",
+    "recuisons           recuions",
+    "recuisez            recuiez",
+    "recuisent           recuient"
+  ],
+  [
+    "redescendre",
+    "redescends          redescende",
+    "redescends          redescendes",
+    "redescend           redescende",
+    "redescendons        redescendons",
+    "redescendez         redescendez",
+    "redescendent        redescendent"
+  ],
+  [
+    "redire",
+    "redis               redie",
+    "redis               redies",
+    "redit               redie",
+    "redisons            redions",
+    "redites             rediez",
+    "redisent            redient"
+  ],
+  [
+    "redécrire",
+    "redécris            redécrie",
+    "redécris            redécries",
+    "redécrit            redécrie",
+    "redécrivons         redécrions",
+    "redécrivez          redécriez",
+    "redécrivent         redécrient"
+  ],
+  [
+    "redéfaire",
+    "redéfais            redéfaie",
+    "redéfais            redéfaies",
+    "redéfait            redéfaie",
+    "redéfaisons         redéfaions",
+    "redéfaites          redéfaiez",
+    "redéfont            redéfaient"
+  ],
+  [
+    "refaire",
+    "refais              refaie",
+    "refais              refaies",
+    "refait              refaie",
+    "refaisons           refaions",
+    "refaites            refaiez",
+    "refont              refaient"
+  ],
+  [
+    "refendre",
+    "refends             refende",
+    "refends             refendes",
+    "refend              refende",
+    "refendons           refendons",
+    "refendez            refendez",
+    "refendent           refendent"
+  ],
+  [
+    "refondre",
+    "refonds             refonde",
+    "refonds             refondes",
+    "refond              refonde",
+    "refondons           refondons",
+    "refondez            refondez",
+    "refondent           refondent"
+  ],
+  [
+    "rejoindre",
+    "rejoins             rejoinde",
+    "rejoins             rejoindes",
+    "rejoint             rejoinde",
+    "rejoignons          rejoindons",
+    "rejoignez           rejoindez",
+    "rejoignent          rejoindent"
+  ],
+  [
+    "relire",
+    "relis               relie",
+    "relis               relies",
+    "relit               relie",
+    "relisons            relions",
+    "relisez             reliez",
+    "relisent            relient"
+  ],
+  [
+    "reluire",
+    "reluis              reluie",
+    "reluis              reluies",
+    "reluit              reluie",
+    "reluisons           reluions",
+    "reluisez            reluiez",
+    "reluisent           reluient"
+  ],
+  [
+    "remettre",
+    "remets              remette",
+    "remets              remettes",
+    "remet               remette",
+    "remettons           remettons",
+    "remettez            remettez",
+    "remettent           remettent"
+  ],
+  [
+    "remordre",
+    "remords             remorde",
+    "remords             remordes",
+    "remord              remorde",
+    "remordons           remordons",
+    "remordez            remordez",
+    "remordent           remordent"
+  ],
+  [
+    "remoudre",
+    "remouds             remoude",
+    "remouds             remoudes",
+    "remoud              remoude",
+    "remoulons           remoudons",
+    "remoulez            remoudez",
+    "remoulent           remoudent"
+  ],
+  [
+    "renaître",
+    "renais              renaîte",
+    "renais              renaîtes",
+    "renaît              renaîte",
+    "renaissons          renaîtons",
+    "renaissez           renaîtez",
+    "renaissent          renaîtent"
+  ],
+  [
+    "rendre",
+    "rends               rende",
+    "rends               rendes",
+    "rend                rende",
+    "rendons             rendons",
+    "rendez              rendez",
+    "rendent             rendent"
+  ],
+  [
+    "rentraire",
+    "rentrais            rentraie",
+    "rentrais            rentraies",
+    "rentrait            rentraie",
+    "rentrayons          rentraions",
+    "rentrayez           rentraiez",
+    "rentraient          rentraient"
+  ],
+  [
+    "repaître",
+    "repais              repaîte",
+    "repais              repaîtes",
+    "repaît              repaîte",
+    "repaissons          repaîtons",
+    "repaissez           repaîtez",
+    "repaissent          repaîtent"
+  ],
+  [
+    "reparaître",
+    "reparais            reparaîte",
+    "reparais            reparaîtes",
+    "reparaît            reparaîte",
+    "reparaissons        reparaîtons",
+    "reparaissez         reparaîtez",
+    "reparaissent        reparaîtent"
+  ],
+  [
+    "repeindre",
+    "repeins             repeinde",
+    "repeins             repeindes",
+    "repeint             repeinde",
+    "repeignons          repeindons",
+    "repeignez           repeindez",
+    "repeignent          repeindent"
+  ],
+  [
+    "rependre",
+    "repends             repende",
+    "repends             rependes",
+    "repend              repende",
+    "rependons           rependons",
+    "rependez            rependez",
+    "rependent           rependent"
+  ],
+  [
+    "reperdre",
+    "reperds             reperde",
+    "reperds             reperdes",
+    "reperd              reperde",
+    "reperdons           reperdons",
+    "reperdez            reperdez",
+    "reperdent           reperdent"
+  ],
+  [
+    "reprendre",
+    "reprends            reprende",
+    "reprends            reprendes",
+    "reprend             reprende",
+    "reprenons           reprendons",
+    "reprenez            reprendez",
+    "reprennent          reprendent"
+  ],
+  [
+    "reproduire",
+    "reproduis           reproduie",
+    "reproduis           reproduies",
+    "reproduit           reproduie",
+    "reproduisons        reproduions",
+    "reproduisez         reproduiez",
+    "reproduisent        reproduient"
+  ],
+  [
+    "restreindre",
+    "restreins           restreinde",
+    "restreins           restreindes",
+    "restreint           restreinde",
+    "restreignons        restreindons",
+    "restreignez         restreindez",
+    "restreignent        restreindent"
+  ],
+  [
+    "reteindre",
+    "reteins             reteinde",
+    "reteins             reteindes",
+    "reteint             reteinde",
+    "reteignons          reteindons",
+    "reteignez           reteindez",
+    "reteignent          reteindent"
+  ],
+  [
+    "retendre",
+    "retends             retende",
+    "retends             retendes",
+    "retend              retende",
+    "retendons           retendons",
+    "retendez            retendez",
+    "retendent           retendent"
+  ],
+  [
+    "retordre",
+    "retords             retorde",
+    "retords             retordes",
+    "retord              retorde",
+    "retordons           retordons",
+    "retordez            retordez",
+    "retordent           retordent"
+  ],
+  [
+    "retraduire",
+    "retraduis           retraduie",
+    "retraduis           retraduies",
+    "retraduit           retraduie",
+    "retraduisons        retraduions",
+    "retraduisez         retraduiez",
+    "retraduisent        retraduient"
+  ],
+  [
+    "retranscrire",
+    "retranscris         retranscrie",
+    "retranscris         retranscries",
+    "retranscrit         retranscrie",
+    "retranscrivons      retranscrions",
+    "retranscrivez       retranscriez",
+    "retranscrivent      retranscrient"
+  ],
+  [
+    "retransmettre",
+    "retransmets         retransmette",
+    "retransmets         retransmettes",
+    "retransmet          retransmette",
+    "retransmettons      retransmettons",
+    "retransmettez       retransmettez",
+    "retransmettent      retransmettent"
+  ],
+  [
+    "retreindre",
+    "retreins            retreinde",
+    "retreins            retreindes",
+    "retreint            retreinde",
+    "retreignons         retreindons",
+    "retreignez          retreindez",
+    "retreignent         retreindent"
+  ],
+  [
+    "revendre",
+    "revends             revende",
+    "revends             revendes",
+    "revend              revende",
+    "revendons           revendons",
+    "revendez            revendez",
+    "revendent           revendent"
+  ],
+  [
+    "revivre",
+    "revis               revive",
+    "revis               revives",
+    "revit               revive",
+    "revivons            revivons",
+    "revivez             revivez",
+    "revivent            revivent"
+  ],
+  [
+    "rire",
+    "ris                 rie",
+    "ris                 ries",
+    "rit                 rie",
+    "rions               rions",
+    "riez                riez",
+    "rient               rient"
+  ],
+  [
+    "rompre",
+    "romps               rompe",
+    "romps               rompes",
+    "rompt               rompe",
+    "rompons             rompons",
+    "rompez              rompez",
+    "rompent             rompent"
+  ],
+  [
+    "réadmettre",
+    "réadmets            réadmette",
+    "réadmets            réadmettes",
+    "réadmet             réadmette",
+    "réadmettons         réadmettons",
+    "réadmettez          réadmettez",
+    "réadmettent         réadmettent"
+  ],
+  [
+    "réapparaître",
+    "réapparais          réapparaîte",
+    "réapparais          réapparaîtes",
+    "réapparaît          réapparaîte",
+    "réapparaissons      réapparaîtons",
+    "réapparaissez       réapparaîtez",
+    "réapparaissent      réapparaîtent"
+  ],
+  [
+    "réapprendre",
+    "réapprends          réapprende",
+    "réapprends          réapprendes",
+    "réapprend           réapprende",
+    "réapprenons         réapprendons",
+    "réapprenez          réapprendez",
+    "réapprennent        réapprendent"
+  ],
+  [
+    "récrire",
+    "récris              récrie",
+    "récris              récries",
+    "récrit              récrie",
+    "récrivons           récrions",
+    "récrivez            récriez",
+    "récrivent           récrient"
+  ],
+  [
+    "réduire",
+    "réduis              réduie",
+    "réduis              réduies",
+    "réduit              réduie",
+    "réduisons           réduions",
+    "réduisez            réduiez",
+    "réduisent           réduient"
+  ],
+  [
+    "réentendre",
+    "réentends           réentende",
+    "réentends           réentendes",
+    "réentend            réentende",
+    "réentendons         réentendons",
+    "réentendez          réentendez",
+    "réentendent         réentendent"
+  ],
+  [
+    "réinscrire",
+    "réinscris           réinscrie",
+    "réinscris           réinscries",
+    "réinscrit           réinscrie",
+    "réinscrivons        réinscrions",
+    "réinscrivez         réinscriez",
+    "réinscrivent        réinscrient"
+  ],
+  [
+    "réintroduire",
+    "réintroduis         réintroduie",
+    "réintroduis         réintroduies",
+    "réintroduit         réintroduie",
+    "réintroduisons      réintroduions",
+    "réintroduisez       réintroduiez",
+    "réintroduisent      réintroduient"
+  ],
+  [
+    "répandre",
+    "répands             répande",
+    "répands             répandes",
+    "répand              répande",
+    "répandons           répandons",
+    "répandez            répandez",
+    "répandent           répandent"
+  ],
+  [
+    "répondre",
+    "réponds             réponde",
+    "réponds             répondes",
+    "répond              réponde",
+    "répondons           répondons",
+    "répondez            répondez",
+    "répondent           répondent"
+  ],
+  [
+    "résoudre",
+    "résous              résoude",
+    "résous              résoudes",
+    "résout              résoude",
+    "résolvons           résoudons",
+    "résolvez            résoudez",
+    "résolvent           résoudent"
+  ],
+  [
+    "rétreindre",
+    "rétreins            rétreinde",
+    "rétreins            rétreindes",
+    "rétreint            rétreinde",
+    "rétreignons         rétreindons",
+    "rétreignez          rétreindez",
+    "rétreignent         rétreindent"
+  ],
+  [
+    "réécrire",
+    "réécris             réécrie",
+    "réécris             réécries",
+    "réécrit             réécrie",
+    "réécrivons          réécrions",
+    "réécrivez           réécriez",
+    "réécrivent          réécrient"
+  ],
+  [
+    "réélire",
+    "réélis              réélie",
+    "réélis              réélies",
+    "réélit              réélie",
+    "réélisons           réélions",
+    "réélisez            rééliez",
+    "réélisent           réélient"
+  ],
+  [
+    "réémettre",
+    "réémets             réémette",
+    "réémets             réémettes",
+    "réémet              réémette",
+    "réémettons          réémettons",
+    "réémettez           réémettez",
+    "réémettent          réémettent"
+  ],
+  [
+    "satisfaire",
+    "satisfais           satisfaie",
+    "satisfais           satisfaies",
+    "satisfait           satisfaie",
+    "satisfaisons        satisfaions",
+    "satisfaites         satisfaiez",
+    "satisfont           satisfaient"
+  ],
+  [
+    "soumettre",
+    "soumets             soumette",
+    "soumets             soumettes",
+    "soumet              soumette",
+    "soumettons          soumettons",
+    "soumettez           soumettez",
+    "soumettent          soumettent"
+  ],
+  [
+    "sourdre",
+    "                    sourde",
+    "                    sourdes",
+    "sourd               sourde",
+    "                    sourdons",
+    "                    sourdez",
+    "sourdent            sourdent"
+  ],
+  [
+    "sourire",
+    "souris              sourie",
+    "souris              souries",
+    "sourit              sourie",
+    "sourions            sourions",
+    "souriez             souriez",
+    "sourient            sourient"
+  ],
+  [
+    "sous-entendre",
+    "sous-entends        sous-entende",
+    "sous-entends        sous-entendes",
+    "sous-entend         sous-entende",
+    "sous-entendons      sous-entendons",
+    "sous-entendez       sous-entendez",
+    "sous-entendent      sous-entendent"
+  ],
+  [
+    "souscrire",
+    "souscris            souscrie",
+    "souscris            souscries",
+    "souscrit            souscrie",
+    "souscrivons         souscrions",
+    "souscrivez          souscriez",
+    "souscrivent         souscrient"
+  ],
+  [
+    "soustendre",
+    "soustends           soustende",
+    "soustends           soustendes",
+    "soustend            soustende",
+    "soustendons         soustendons",
+    "soustendez          soustendez",
+    "soustendent         soustendent"
+  ],
+  [
+    "soustraire",
+    "soustrais           soustraie",
+    "soustrais           soustraies",
+    "soustrait           soustraie",
+    "soustrayons         soustraions",
+    "soustrayez          soustraiez",
+    "soustraient         soustraient"
+  ],
+  [
+    "suffire",
+    "suffis              suffie",
+    "suffis              suffies",
+    "suffit              suffie",
+    "suffisons           suffions",
+    "suffisez            suffiez",
+    "suffisent           suffient"
+  ],
+  [
+    "surfaire",
+    "surfais             surfaie",
+    "surfais             surfaies",
+    "surfait             surfaie",
+    "surfaisons          surfaions",
+    "surfaites           surfaiez",
+    "surfont             surfaient"
+  ],
+  [
+    "surprendre",
+    "surprends           surprende",
+    "surprends           surprendes",
+    "surprend            surprende",
+    "surprenons          surprendons",
+    "surprenez           surprendez",
+    "surprennent         surprendent"
+  ],
+  [
+    "surproduire",
+    "surproduis          surproduie",
+    "surproduis          surproduies",
+    "surproduit          surproduie",
+    "surproduisons       surproduions",
+    "surproduisez        surproduiez",
+    "surproduisent       surproduient"
+  ],
+  [
+    "survivre",
+    "survis              survive",
+    "survis              survives",
+    "survit              survive",
+    "survivons           survivons",
+    "survivez            survivez",
+    "survivent           survivent"
+  ],
+  [
+    "suspendre",
+    "suspends            suspende",
+    "suspends            suspendes",
+    "suspend             suspende",
+    "suspendons          suspendons",
+    "suspendez           suspendez",
+    "suspendent          suspendent"
+  ],
+  [
+    "séduire",
+    "séduis              séduie",
+    "séduis              séduies",
+    "séduit              séduie",
+    "séduisons           séduions",
+    "séduisez            séduiez",
+    "séduisent           séduient"
+  ],
+  [
+    "taire",
+    "tais                taie",
+    "tais                taies",
+    "taît                taie",
+    "taisons             taions",
+    "taisez              taiez",
+    "taisent             taient"
+  ],
+  [
+    "teindre",
+    "teins               teinde",
+    "teins               teindes",
+    "teint               teinde",
+    "teignons            teindons",
+    "teignez             teindez",
+    "teignent            teindent"
+  ],
+  [
+    "tendre",
+    "tends               tende",
+    "tends               tendes",
+    "tend                tende",
+    "tendons             tendons",
+    "tendez              tendez",
+    "tendent             tendent"
+  ],
+  [
+    "tondre",
+    "tonds               tonde",
+    "tonds               tondes",
+    "tond                tonde",
+    "tondons             tondons",
+    "tondez              tondez",
+    "tondent             tondent"
+  ],
+  [
+    "tordre",
+    "tords               torde",
+    "tords               tordes",
+    "tord                torde",
+    "tordons             tordons",
+    "tordez              tordez",
+    "tordent             tordent"
+  ],
+  [
+    "traduire",
+    "traduis             traduie",
+    "traduis             traduies",
+    "traduit             traduie",
+    "traduisons          traduions",
+    "traduisez           traduiez",
+    "traduisent          traduient"
+  ],
+  [
+    "traire",
+    "trais               traie",
+    "trais               traies",
+    "trait               traie",
+    "trayons             traions",
+    "trayez              traiez",
+    "traient             traient"
+  ],
+  [
+    "transcrire",
+    "transcris           transcrie",
+    "transcris           transcries",
+    "transcrit           transcrie",
+    "transcrivons        transcrions",
+    "transcrivez         transcriez",
+    "transcrivent        transcrient"
+  ],
+  [
+    "transmettre",
+    "transmets           transmette",
+    "transmets           transmettes",
+    "transmet            transmette",
+    "transmettons        transmettons",
+    "transmettez         transmettez",
+    "transmettent        transmettent"
+  ],
+  [
+    "transparaître",
+    "transparais         transparaîte",
+    "transparais         transparaîtes",
+    "transparaît         transparaîte",
+    "transparaissons     transparaîtons",
+    "transparaissez      transparaîtez",
+    "transparaissent     transparaîtent"
+  ],
+  [
+    "vaincre",
+    "vaincs              vaince",
+    "vaincs              vainces",
+    "vainc               vaince",
+    "vainquons           vainçons",
+    "vainquez            vaincez",
+    "vainquent           vaincent"
+  ],
+  [
+    "vendre",
+    "vends               vende",
+    "vends               vendes",
+    "vend                vende",
+    "vendons             vendons",
+    "vendez              vendez",
+    "vendent             vendent"
+  ],
+  [
+    "vermoudre",
+    "vermouds            vermoude",
+    "vermouds            vermoudes",
+    "vermoud             vermoude",
+    "vermoulons          vermoudons",
+    "vermoulez           vermoudez",
+    "vermoulent          vermoudent"
+  ],
+  [
+    "vivre",
+    "vis                 vive",
+    "vis                 vives",
+    "vit                 vive",
+    "vivons              vivons",
+    "vivez               vivez",
+    "vivent              vivent"
+  ],
+  [
+    "ébattre",
+    "ébats               ébatte",
+    "ébats               ébattes",
+    "ébat                ébatte",
+    "ébattons            ébattons",
+    "ébattez             ébattez",
+    "ébattent            ébattent"
+  ],
+  [
+    "éclore",
+    "éclos               écloe",
+    "éclos               écloes",
+    "éclôt               écloe",
+    "                    écloons",
+    "                    écloez",
+    "éclosent            écloent"
+  ],
+  [
+    "éconduire",
+    "éconduis            éconduie",
+    "éconduis            éconduies",
+    "éconduit            éconduie",
+    "éconduisons         éconduions",
+    "éconduisez          éconduiez",
+    "éconduisent         éconduient"
+  ],
+  [
+    "écrire",
+    "écris               écrie",
+    "écris               écries",
+    "écrit               écrie",
+    "écrivons            écrions",
+    "écrivez             écriez",
+    "écrivent            écrient"
+  ],
+  [
+    "élire",
+    "élis                élie",
+    "élis                élies",
+    "élit                élie",
+    "élisons             élions",
+    "élisez              éliez",
+    "élisent             élient"
+  ],
+  [
+    "émettre",
+    "émets               émette",
+    "émets               émettes",
+    "émet                émette",
+    "émettons            émettons",
+    "émettez             émettez",
+    "émettent            émettent"
+  ],
+  [
+    "émoudre",
+    "émouds              émoude",
+    "émouds              émoudes",
+    "émoud               émoude",
+    "émoulons            émoudons",
+    "émoulez             émoudez",
+    "émoulent            émoudent"
+  ],
+  [
+    "épandre",
+    "épands              épande",
+    "épands              épandes",
+    "épand               épande",
+    "épandons            épandons",
+    "épandez             épandez",
+    "épandent            épandent"
+  ],
+  [
+    "éperdre",
+    "éperds              éperde",
+    "éperds              éperdes",
+    "éperd               éperde",
+    "éperdons            éperdons",
+    "éperdez             éperdez",
+    "éperdent            éperdent"
+  ],
+  [
+    "épreindre",
+    "épreins             épreinde",
+    "épreins             épreindes",
+    "épreint             épreinde",
+    "épreignons          épreindons",
+    "épreignez           épreindez",
+    "épreignent          épreindent"
+  ],
+  [
+    "éprendre",
+    "éprends             éprende",
+    "éprends             éprendes",
+    "éprend              éprende",
+    "éprenons            éprendons",
+    "éprenez             éprendez",
+    "éprennent           éprendent"
+  ],
+  [
+    "éteindre",
+    "éteins              éteinde",
+    "éteins              éteindes",
+    "éteint              éteinde",
+    "éteignons           éteindons",
+    "éteignez            éteindez",
+    "éteignent           éteindent"
+  ],
+  [
+    "étendre",
+    "étends              étende",
+    "étends              étendes",
+    "étend               étende",
+    "étendons            étendons",
+    "étendez             étendez",
+    "étendent            étendent"
+  ],
+  [
+    "étreindre",
+    "étreins             étreinde",
+    "étreins             étreindes",
+    "étreint             étreinde",
+    "étreignons          étreindons",
+    "étreignez           étreindez",
+    "étreignent          étreindent"
   ]
 ]
