@@ -26,6 +26,12 @@ namespace ConjugatorLibrary.ThirdGroup
                 return ApplyEndings(_endings, stem + "t", stem, stem + "tt");
             }
 
+            if (verb.EndsWith("aître"))
+            {
+                var stem = verb.TrimEnd("ître");
+                return ApplyEndings(_endings, stem + "i", stem + "î", stem + "iss");
+            }
+
             if (verb.EndsWith("oître"))
             {
                 var stem = verb.TrimEnd("ître");

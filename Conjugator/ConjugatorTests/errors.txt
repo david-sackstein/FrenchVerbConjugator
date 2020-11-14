@@ -1,14 +1,5 @@
 [
   [
-    "apparaître",
-    "apparais            apparaîts",
-    "apparais            apparaîts",
-    "apparaît            apparaîtt",
-    "apparaissons        apparaîtons",
-    "apparaissez         apparaîtez",
-    "apparaissent        apparaîtent"
-  ],
-  [
     "appendre",
     "appends             appends",
     "appends             appends",
@@ -162,15 +153,6 @@
     "closent             cloent"
   ],
   [
-    "comparaître",
-    "comparais           comparaîts",
-    "comparais           comparaîts",
-    "comparaît           comparaîtt",
-    "comparaissons       comparaîtons",
-    "comparaissez        comparaîtez",
-    "comparaissent       comparaîtent"
-  ],
-  [
     "complaire",
     "complais            complais",
     "complais            complais",
@@ -223,15 +205,6 @@
     "confondons          confondons",
     "confondez           confondez",
     "confondent          confondent"
-  ],
-  [
-    "connaître",
-    "connais             connaîts",
-    "connais             connaîts",
-    "connaît             connaîtt",
-    "connaissons         connaîtons",
-    "connaissez          connaîtez",
-    "connaissent         connaîtent"
   ],
   [
     "construire",
@@ -358,15 +331,6 @@
     "disons              dyons",
     "dites               dyez",
     "disent              dient"
-  ],
-  [
-    "disparaître",
-    "disparais           disparaîts",
-    "disparais           disparaîts",
-    "disparaît           disparaîtt",
-    "disparaissons       disparaîtons",
-    "disparaissez        disparaîtez",
-    "disparaissent       disparaîtent"
   ],
   [
     "distendre",
@@ -810,15 +774,6 @@
     "méconduisent        méconduient"
   ],
   [
-    "méconnaître",
-    "méconnais           méconnaîts",
-    "méconnais           méconnaîts",
-    "méconnaît           méconnaîtt",
-    "méconnaissons       méconnaîtons",
-    "méconnaissez        méconnaîtez",
-    "méconnaissent       méconnaîtent"
-  ],
-  [
     "médire",
     "médis               médis",
     "médis               médis",
@@ -837,15 +792,6 @@
     "méprennent          méprendent"
   ],
   [
-    "naître",
-    "nais                naîts",
-    "nais                naîts",
-    "naît                naîtt",
-    "naissons            naîtons",
-    "naissez             naîtez",
-    "naissent            naîtent"
-  ],
-  [
     "nuire",
     "nuis                nuis",
     "nuis                nuis",
@@ -853,24 +799,6 @@
     "nuisons             nuyons",
     "nuisez              nuyez",
     "nuisent             nuient"
-  ],
-  [
-    "paître",
-    "pais                paîts",
-    "pais                paîts",
-    "paît                paîtt",
-    "paissons            paîtons",
-    "paissez             paîtez",
-    "paissent            paîtent"
-  ],
-  [
-    "paraître",
-    "parais              paraîts",
-    "parais              paraîts",
-    "paraît              paraîtt",
-    "paraissons          paraîtons",
-    "paraissez           paraîtez",
-    "paraissent          paraîtent"
   ],
   [
     "parfondre",
@@ -1044,15 +972,6 @@
     "reconduisent        reconduient"
   ],
   [
-    "reconnaître",
-    "reconnais           reconnaîts",
-    "reconnais           reconnaîts",
-    "reconnaît           reconnaîtt",
-    "reconnaissons       reconnaîtons",
-    "reconnaissez        reconnaîtez",
-    "reconnaissent       reconnaîtent"
-  ],
-  [
     "reconstruire",
     "reconstruis         reconstruis",
     "reconstruis         reconstruis",
@@ -1179,15 +1098,6 @@
     "remoulent           remoudent"
   ],
   [
-    "renaître",
-    "renais              renaîts",
-    "renais              renaîts",
-    "renaît              renaîtt",
-    "renaissons          renaîtons",
-    "renaissez           renaîtez",
-    "renaissent          renaîtent"
-  ],
-  [
     "rendre",
     "rends               rends",
     "rends               rends",
@@ -1195,24 +1105,6 @@
     "rendons             rendons",
     "rendez              rendez",
     "rendent             rendent"
-  ],
-  [
-    "repaître",
-    "repais              repaîts",
-    "repais              repaîts",
-    "repaît              repaîtt",
-    "repaissons          repaîtons",
-    "repaissez           repaîtez",
-    "repaissent          repaîtent"
-  ],
-  [
-    "reparaître",
-    "reparais            reparaîts",
-    "reparais            reparaîts",
-    "reparaît            reparaîtt",
-    "reparaissons        reparaîtons",
-    "reparaissez         reparaîtez",
-    "reparaissent        reparaîtent"
   ],
   [
     "repeindre",
@@ -1348,15 +1240,6 @@
     "rions               ryons",
     "riez                ryez",
     "rient               rient"
-  ],
-  [
-    "réapparaître",
-    "réapparais          réapparaîts",
-    "réapparais          réapparaîts",
-    "réapparaît          réapparaîtt",
-    "réapparaissons      réapparaîtons",
-    "réapparaissez       réapparaîtez",
-    "réapparaissent      réapparaîtent"
   ],
   [
     "réapprendre",
@@ -1636,15 +1519,6 @@
     "transcrivons        transcryons",
     "transcrivez         transcryez",
     "transcrivent        transcrient"
-  ],
-  [
-    "transparaître",
-    "transparais         transparaîts",
-    "transparais         transparaîts",
-    "transparaît         transparaîtt",
-    "transparaissons     transparaîtons",
-    "transparaissez      transparaîtez",
-    "transparaissent     transparaîtent"
   ],
   [
     "vaincre",
