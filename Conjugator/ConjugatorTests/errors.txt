@@ -1,14 +1,5 @@
 [
   [
-    "apprendre",
-    "apprends            apprends",
-    "apprends            apprends",
-    "apprend             apprend",
-    "apprenons           apprendons",
-    "apprenez            apprendez",
-    "apprennent          apprendent"
-  ],
-  [
     "astreindre",
     "astreins            astreinds",
     "astreins            astreinds",
@@ -133,15 +124,6 @@
     "complaisons         complayons",
     "complaisez          complayez",
     "complaisent         complaient"
-  ],
-  [
-    "comprendre",
-    "comprends           comprends",
-    "comprends           comprends",
-    "comprend            comprend",
-    "comprenons          comprendons",
-    "comprenez           comprendez",
-    "comprennent         comprendent"
   ],
   [
     "conduire",
@@ -387,24 +369,6 @@
     "déplaisent          déplaient"
   ],
   [
-    "déprendre",
-    "déprends            déprends",
-    "déprends            déprends",
-    "déprend             déprend",
-    "déprenons           déprendons",
-    "déprenez            déprendez",
-    "déprennent          déprendent"
-  ],
-  [
-    "désapprendre",
-    "désapprends         désapprends",
-    "désapprends         désapprends",
-    "désapprend          désapprend",
-    "désapprenons        désapprendons",
-    "désapprenez         désapprendez",
-    "désapprennent       désapprendent"
-  ],
-  [
     "déteindre",
     "déteins             déteinds",
     "déteins             déteinds",
@@ -493,15 +457,6 @@
     "entredétruisons     entredétruyons",
     "entredétruisez      entredétruyez",
     "entredétruisent     entredétruient"
-  ],
-  [
-    "entreprendre",
-    "entreprends         entreprends",
-    "entreprends         entreprends",
-    "entreprend          entreprend",
-    "entreprenons        entreprendons",
-    "entreprenez         entreprendez",
-    "entreprennent       entreprendent"
   ],
   [
     "être",
@@ -684,15 +639,6 @@
     "médisent            médient"
   ],
   [
-    "méprendre",
-    "méprends            méprends",
-    "méprends            méprends",
-    "méprend             méprend",
-    "méprenons           méprendons",
-    "méprenez            méprendez",
-    "méprennent          méprendent"
-  ],
-  [
     "nuire",
     "nuis                nuis",
     "nuis                nuis",
@@ -765,15 +711,6 @@
     "poursuivent         poursuivent"
   ],
   [
-    "prendre",
-    "prends              prends",
-    "prends              prends",
-    "prend               prend",
-    "prenons             prendons",
-    "prenez              prendez",
-    "prennent            prendent"
-  ],
-  [
     "prescrire",
     "prescris            prescris",
     "prescris            prescris",
@@ -817,15 +754,6 @@
     "prédisons           prédyons",
     "prédisez            prédyez",
     "prédisent           prédient"
-  ],
-  [
-    "rapprendre",
-    "rapprends           rapprends",
-    "rapprends           rapprends",
-    "rapprend            rapprend",
-    "rapprenons          rapprendons",
-    "rapprenez           rapprendez",
-    "rapprennent         rapprendent"
   ],
   [
     "reboire",
@@ -972,15 +900,6 @@
     "reperdent           reperdent"
   ],
   [
-    "reprendre",
-    "reprends            reprends",
-    "reprends            reprends",
-    "reprend             reprend",
-    "reprenons           reprendons",
-    "reprenez            reprendez",
-    "reprennent          reprendent"
-  ],
-  [
     "reproduire",
     "reproduis           reproduis",
     "reproduis           reproduis",
@@ -1060,15 +979,6 @@
     "rions               ryons",
     "riez                ryez",
     "rient               rient"
-  ],
-  [
-    "réapprendre",
-    "réapprends          réapprends",
-    "réapprends          réapprends",
-    "réapprend           réapprend",
-    "réapprenons         réapprendons",
-    "réapprenez          réapprendez",
-    "réapprennent        réapprendent"
   ],
   [
     "récrire",
@@ -1204,15 +1114,6 @@
     "surfaisons          surfayons",
     "surfaites           surfayez",
     "surfont             surfaient"
-  ],
-  [
-    "surprendre",
-    "surprends           surprends",
-    "surprends           surprends",
-    "surprend            surprend",
-    "surprenons          surprendons",
-    "surprenez           surprendez",
-    "surprennent         surprendent"
   ],
   [
     "surproduire",
@@ -1393,15 +1294,6 @@
     "épreignons          épreindons",
     "épreignez           épreindez",
     "épreignent          épreindent"
-  ],
-  [
-    "éprendre",
-    "éprends             éprends",
-    "éprends             éprends",
-    "éprend              éprend",
-    "éprenons            éprendons",
-    "éprenez             éprendez",
-    "éprennent           éprendent"
   ],
   [
     "éteindre",

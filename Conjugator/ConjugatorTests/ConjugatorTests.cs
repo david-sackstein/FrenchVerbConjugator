@@ -128,6 +128,10 @@ namespace ConjugatorTests
 
             if (! isCorrect)
             {
+                if (verb.EndsWith("endre"))
+                {
+                    Console.WriteLine(verb);
+                }
                 return false;
             }
             return true;

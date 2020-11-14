@@ -15,6 +15,29 @@ namespace ConjugatorLibrary.ThirdGroup
                 return ApplyEndings(_endings, "sui", "suiv");
             }
 
+            string[] verbs =
+            {
+                "apprendre",
+                "comprendre",
+                "déprendre",
+                "désapprendre",
+                "entreprendre",
+                "méprendre",
+                "prendre",
+                "rapprendre",
+                "reprendre",
+                "réapprendre",
+                "surprendre",
+                "éprendre"
+            };
+
+            if (verbs.Contains(verb))
+            {
+                string stem = verb.TrimEnd("dre");
+                return ApplyEndings1(_endings1, stem + "d", stem, stem+"n");
+            }
+            
+
             if (verb.EndsWith("endre"))
             {
                 string regularStem1 = verb.TrimEnd("re");
@@ -63,11 +86,17 @@ namespace ConjugatorLibrary.ThirdGroup
             return withEndings;
         }
 
+        private static string[] ApplyEndings1(string[] endings, string singleStem, string nousVousStem, string ilsStem)
+        {
+            return endings.Take(3).AddEndings(singleStem)
+                .Concat(endings.Skip(3).Take(2).AddEndings(nousVousStem))
+                .Concat(endings.Skip(5).AddEndings(ilsStem)).ToArray();
+        }
+
         private static string[] ApplyEndings(string[] endings, string singleStem, string pluralStem)
         {
             return endings.Take(3).AddEndings(singleStem)
-                .Concat(
-                    endings.Skip(3).AddEndings(pluralStem)).ToArray();
+                .Concat(endings.Skip(3).AddEndings(pluralStem)).ToArray();
         }
         
         private static string[] ApplyEndings(string[] endings, string singleStem, string ilStem, string pluralStem)
