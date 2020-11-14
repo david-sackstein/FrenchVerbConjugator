@@ -1,18 +1,9 @@
 [
   [
-    "appendre",
-    "appends             appends",
-    "appends             appends",
-    "append              appendt",
-    "appendons           appendons",
-    "appendez            appendez",
-    "appendent           appendent"
-  ],
-  [
     "apprendre",
     "apprends            apprends",
     "apprends            apprends",
-    "apprend             apprendt",
+    "apprend             apprend",
     "apprenons           apprendons",
     "apprenez            apprendez",
     "apprennent          apprendent"
@@ -34,15 +25,6 @@
     "atteignons          atteindons",
     "atteignez           atteindez",
     "atteignent          atteindent"
-  ],
-  [
-    "attendre",
-    "attends             attends",
-    "attends             attends",
-    "attend              attendt",
-    "attendons           attendons",
-    "attendez            attendez",
-    "attendent           attendent"
   ],
   [
     "autoconstruire",
@@ -79,15 +61,6 @@
     "autoreproduisons    autoreproduyons",
     "autoreproduisez     autoreproduyez",
     "autoreproduisent    autoreproduient"
-  ],
-  [
-    "autorevendre",
-    "autorevends         autorevends",
-    "autorevends         autorevends",
-    "autorevend          autorevendt",
-    "autorevendons       autorevendons",
-    "autorevendez        autorevendez",
-    "autorevendent       autorevendent"
   ],
   [
     "autosuffire",
@@ -165,19 +138,10 @@
     "comprendre",
     "comprends           comprends",
     "comprends           comprends",
-    "comprend            comprendt",
+    "comprend            comprend",
     "comprenons          comprendons",
     "comprenez           comprendez",
     "comprennent         comprendent"
-  ],
-  [
-    "condescendre",
-    "condescends         condescends",
-    "condescends         condescends",
-    "condescend          condescendt",
-    "condescendons       condescendons",
-    "condescendez        condescendez",
-    "condescendent       condescendent"
   ],
   [
     "conduire",
@@ -315,15 +279,6 @@
     "cuisent             cuient"
   ],
   [
-    "descendre",
-    "descends            descends",
-    "descends            descends",
-    "descend             descendt",
-    "descendons          descendons",
-    "descendez           descendez",
-    "descendent          descendent"
-  ],
-  [
     "dire",
     "dis                 dis",
     "dis                 dis",
@@ -331,15 +286,6 @@
     "disons              dyons",
     "dites               dyez",
     "disent              dient"
-  ],
-  [
-    "distendre",
-    "distends            distends",
-    "distends            distends",
-    "distend             distendt",
-    "distendons          distendons",
-    "distendez           distendez",
-    "distendent          distendent"
   ],
   [
     "distordre",
@@ -414,15 +360,6 @@
     "défont              défaient"
   ],
   [
-    "défendre",
-    "défends             défends",
-    "défends             défends",
-    "défend              défendt",
-    "défendons           défendons",
-    "défendez            défendez",
-    "défendent           défendent"
-  ],
-  [
     "démordre",
     "démords             démords",
     "démords             démords",
@@ -441,15 +378,6 @@
     "dépeignent          dépeindent"
   ],
   [
-    "dépendre",
-    "dépends             dépends",
-    "dépends             dépends",
-    "dépend              dépendt",
-    "dépendons           dépendons",
-    "dépendez            dépendez",
-    "dépendent           dépendent"
-  ],
-  [
     "déplaire",
     "déplais             déplais",
     "déplais             déplais",
@@ -462,7 +390,7 @@
     "déprendre",
     "déprends            déprends",
     "déprends            déprends",
-    "déprend             déprendt",
+    "déprend             déprend",
     "déprenons           déprendons",
     "déprenez            déprendez",
     "déprennent          déprendent"
@@ -471,7 +399,7 @@
     "désapprendre",
     "désapprends         désapprends",
     "désapprends         désapprends",
-    "désapprend          désapprendt",
+    "désapprend          désapprend",
     "désapprenons        désapprendons",
     "désapprenez         désapprendez",
     "désapprennent       désapprendent"
@@ -484,15 +412,6 @@
     "déteignons          déteindons",
     "déteignez           déteindez",
     "déteignent          déteindent"
-  ],
-  [
-    "détendre",
-    "détends             détends",
-    "détends             détends",
-    "détend              détendt",
-    "détendons           détendons",
-    "détendez            détendez",
-    "détendent           détendent"
   ],
   [
     "détordre",
@@ -567,15 +486,6 @@
     "ensuivent           ensuivent"
   ],
   [
-    "entendre",
-    "entends             entends",
-    "entends             entends",
-    "entend              entendt",
-    "entendons           entendons",
-    "entendez            entendez",
-    "entendent           entendent"
-  ],
-  [
     "entredétruire",
     "entredétruis        entredétruis",
     "entredétruis        entredétruis",
@@ -588,7 +498,7 @@
     "entreprendre",
     "entreprends         entreprends",
     "entreprends         entreprends",
-    "entreprend          entreprendt",
+    "entreprend          entreprend",
     "entreprenons        entreprendons",
     "entreprenez         entreprendez",
     "entreprennent       entreprendent"
@@ -619,15 +529,6 @@
     "feignons            feindons",
     "feignez             feindez",
     "feignent            feindent"
-  ],
-  [
-    "fendre",
-    "fends               fends",
-    "fends               fends",
-    "fend                fendt",
-    "fendons             fendons",
-    "fendez              fendez",
-    "fendent             fendent"
   ],
   [
     "fondre",
@@ -786,7 +687,7 @@
     "méprendre",
     "méprends            méprends",
     "méprends            méprends",
-    "méprend             méprendt",
+    "méprend             méprend",
     "méprenons           méprendons",
     "méprenez            méprendez",
     "méprennent          méprendent"
@@ -817,15 +718,6 @@
     "peignons            peindons",
     "peignez             peindez",
     "peignent            peindent"
-  ],
-  [
-    "pendre",
-    "pends               pends",
-    "pends               pends",
-    "pend                pendt",
-    "pendons             pendons",
-    "pendez              pendez",
-    "pendent             pendent"
   ],
   [
     "perdre",
@@ -864,15 +756,6 @@
     "pondent             pondent"
   ],
   [
-    "pourfendre",
-    "pourfends           pourfends",
-    "pourfends           pourfends",
-    "pourfend            pourfendt",
-    "pourfendons         pourfendons",
-    "pourfendez          pourfendez",
-    "pourfendent         pourfendent"
-  ],
-  [
     "poursuivre",
     "poursuis            poursuivs",
     "poursuis            poursuivs",
@@ -885,7 +768,7 @@
     "prendre",
     "prends              prends",
     "prends              prends",
-    "prend               prendt",
+    "prend               prend",
     "prenons             prendons",
     "prenez              prendez",
     "prennent            prendent"
@@ -936,19 +819,10 @@
     "prédisent           prédient"
   ],
   [
-    "prétendre",
-    "prétends            prétends",
-    "prétends            prétends",
-    "prétend             prétendt",
-    "prétendons          prétendons",
-    "prétendez           prétendez",
-    "prétendent          prétendent"
-  ],
-  [
     "rapprendre",
     "rapprends           rapprends",
     "rapprends           rapprends",
-    "rapprend            rapprendt",
+    "rapprend            rapprend",
     "rapprenons          rapprendons",
     "rapprenez           rapprendez",
     "rapprennent         rapprendent"
@@ -999,15 +873,6 @@
     "recuisent           recuient"
   ],
   [
-    "redescendre",
-    "redescends          redescends",
-    "redescends          redescends",
-    "redescend           redescendt",
-    "redescendons        redescendons",
-    "redescendez         redescendez",
-    "redescendent        redescendent"
-  ],
-  [
     "redire",
     "redis               redis",
     "redis               redis",
@@ -1042,15 +907,6 @@
     "refaisons           refayons",
     "refaites            refayez",
     "refont              refaient"
-  ],
-  [
-    "refendre",
-    "refends             refends",
-    "refends             refends",
-    "refend              refendt",
-    "refendons           refendons",
-    "refendez            refendez",
-    "refendent           refendent"
   ],
   [
     "refondre",
@@ -1098,15 +954,6 @@
     "remoulent           remoudent"
   ],
   [
-    "rendre",
-    "rends               rends",
-    "rends               rends",
-    "rend                rendt",
-    "rendons             rendons",
-    "rendez              rendez",
-    "rendent             rendent"
-  ],
-  [
     "repeindre",
     "repeins             repeinds",
     "repeins             repeinds",
@@ -1114,15 +961,6 @@
     "repeignons          repeindons",
     "repeignez           repeindez",
     "repeignent          repeindent"
-  ],
-  [
-    "rependre",
-    "repends             repends",
-    "repends             repends",
-    "repend              rependt",
-    "rependons           rependons",
-    "rependez            rependez",
-    "rependent           rependent"
   ],
   [
     "reperdre",
@@ -1137,7 +975,7 @@
     "reprendre",
     "reprends            reprends",
     "reprends            reprends",
-    "reprend             reprendt",
+    "reprend             reprend",
     "reprenons           reprendons",
     "reprenez            reprendez",
     "reprennent          reprendent"
@@ -1168,15 +1006,6 @@
     "reteignons          reteindons",
     "reteignez           reteindez",
     "reteignent          reteindent"
-  ],
-  [
-    "retendre",
-    "retends             retends",
-    "retends             retends",
-    "retend              retendt",
-    "retendons           retendons",
-    "retendez            retendez",
-    "retendent           retendent"
   ],
   [
     "retordre",
@@ -1215,15 +1044,6 @@
     "retreignent         retreindent"
   ],
   [
-    "revendre",
-    "revends             revends",
-    "revends             revends",
-    "revend              revendt",
-    "revendons           revendons",
-    "revendez            revendez",
-    "revendent           revendent"
-  ],
-  [
     "revivre",
     "revis               revivs",
     "revis               revivs",
@@ -1245,7 +1065,7 @@
     "réapprendre",
     "réapprends          réapprends",
     "réapprends          réapprends",
-    "réapprend           réapprendt",
+    "réapprend           réapprend",
     "réapprenons         réapprendons",
     "réapprenez          réapprendez",
     "réapprennent        réapprendent"
@@ -1267,15 +1087,6 @@
     "réduisons           réduyons",
     "réduisez            réduyez",
     "réduisent           réduient"
-  ],
-  [
-    "réentendre",
-    "réentends           réentends",
-    "réentends           réentends",
-    "réentend            réentendt",
-    "réentendons         réentendons",
-    "réentendez          réentendez",
-    "réentendent         réentendent"
   ],
   [
     "réinscrire",
@@ -1368,15 +1179,6 @@
     "sourient            sourient"
   ],
   [
-    "sous-entendre",
-    "sous-entends        sous-entends",
-    "sous-entends        sous-entends",
-    "sous-entend         sous-entendt",
-    "sous-entendons      sous-entendons",
-    "sous-entendez       sous-entendez",
-    "sous-entendent      sous-entendent"
-  ],
-  [
     "souscrire",
     "souscris            souscris",
     "souscris            souscris",
@@ -1384,15 +1186,6 @@
     "souscrivons         souscryons",
     "souscrivez          souscryez",
     "souscrivent         souscrient"
-  ],
-  [
-    "soustendre",
-    "soustends           soustends",
-    "soustends           soustends",
-    "soustend            soustendt",
-    "soustendons         soustendons",
-    "soustendez          soustendez",
-    "soustendent         soustendent"
   ],
   [
     "suffire",
@@ -1416,7 +1209,7 @@
     "surprendre",
     "surprends           surprends",
     "surprends           surprends",
-    "surprend            surprendt",
+    "surprend            surprend",
     "surprenons          surprendons",
     "surprenez           surprendez",
     "surprennent         surprendent"
@@ -1438,15 +1231,6 @@
     "survivons           survivons",
     "survivez            survivez",
     "survivent           survivent"
-  ],
-  [
-    "suspendre",
-    "suspends            suspends",
-    "suspends            suspends",
-    "suspend             suspendt",
-    "suspendons          suspendons",
-    "suspendez           suspendez",
-    "suspendent          suspendent"
   ],
   [
     "séduire",
@@ -1474,15 +1258,6 @@
     "teignons            teindons",
     "teignez             teindez",
     "teignent            teindent"
-  ],
-  [
-    "tendre",
-    "tends               tends",
-    "tends               tends",
-    "tend                tendt",
-    "tendons             tendons",
-    "tendez              tendez",
-    "tendent             tendent"
   ],
   [
     "tondre",
@@ -1528,15 +1303,6 @@
     "vainquons           vaincons",
     "vainquez            vaincez",
     "vainquent           vaincent"
-  ],
-  [
-    "vendre",
-    "vends               vends",
-    "vends               vends",
-    "vend                vendt",
-    "vendons             vendons",
-    "vendez              vendez",
-    "vendent             vendent"
   ],
   [
     "vermoudre",
@@ -1632,7 +1398,7 @@
     "éprendre",
     "éprends             éprends",
     "éprends             éprends",
-    "éprend              éprendt",
+    "éprend              éprend",
     "éprenons            éprendons",
     "éprenez             éprendez",
     "éprennent           éprendent"
@@ -1645,15 +1411,6 @@
     "éteignons           éteindons",
     "éteignez            éteindez",
     "éteignent           éteindent"
-  ],
-  [
-    "étendre",
-    "étends              étends",
-    "étends              étends",
-    "étend               étendt",
-    "étendons            étendons",
-    "étendez             étendez",
-    "étendent            étendent"
   ],
   [
     "étreindre",

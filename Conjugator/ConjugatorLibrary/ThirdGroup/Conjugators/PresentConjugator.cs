@@ -6,6 +6,7 @@ namespace ConjugatorLibrary.ThirdGroup
     public static class PresentConjugator
     {
         private static readonly string[] _endings = new string[] {"s", "s", "t", "ons", "ez", "ent"};
+        private static readonly string[] _endings1 = new string[] {"s", "s", "", "ons", "ez", "ent"};
         
         public static string[] GetConjugations(string verb)
         {
@@ -13,7 +14,13 @@ namespace ConjugatorLibrary.ThirdGroup
             {
                 return ApplyEndings(_endings, "sui", "suiv");
             }
-            
+
+            if (verb.EndsWith("endre"))
+            {
+                string regularStem1 = verb.TrimEnd("re");
+                return _endings1.AddEndings(regularStem1);
+            }
+
             if (verb.EndsWith("soudre"))
             {
                 string stem = verb.TrimEnd("udre");
