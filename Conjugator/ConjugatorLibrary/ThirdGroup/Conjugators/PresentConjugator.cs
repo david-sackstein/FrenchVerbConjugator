@@ -19,9 +19,10 @@ namespace ConjugatorLibrary.ThirdGroup
                 return ApplyEndings(_endings, "absou", "absolv");
             }
 
-            if (verb == "abattre")
+            if (verb.EndsWith("ttre"))
             {
-                return ApplyEndings(_endings, "abat", "aba", "abatt");
+                string stem = verb.TrimEnd("ttre");
+                return ApplyEndings(_endings, stem + "t", stem, stem + "tt");
             }
 
             if (verb.EndsWith("oître"))

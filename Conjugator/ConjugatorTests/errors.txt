@@ -1,14 +1,5 @@
 [
   [
-    "admettre",
-    "admets              admetts",
-    "admets              admetts",
-    "admet               admettt",
-    "admettons           admettons",
-    "admettez            admettez",
-    "admettent           admettent"
-  ],
-  [
     "apparaître",
     "apparais            apparaîts",
     "apparais            apparaîts",
@@ -117,15 +108,6 @@
     "autosuffisent       autosuffient"
   ],
   [
-    "battre",
-    "bats                batts",
-    "bats                batts",
-    "bat                 battt",
-    "battons             battons",
-    "battez              battez",
-    "battent             battent"
-  ],
-  [
     "boire",
     "bois                bois",
     "bois                bois",
@@ -180,24 +162,6 @@
     "closent             cloent"
   ],
   [
-    "combattre",
-    "combats             combatts",
-    "combats             combatts",
-    "combat              combattt",
-    "combattons          combattons",
-    "combattez           combattez",
-    "combattent          combattent"
-  ],
-  [
-    "commettre",
-    "commets             commetts",
-    "commets             commetts",
-    "commet              commettt",
-    "commettons          commettons",
-    "commettez           commettez",
-    "commettent          commettent"
-  ],
-  [
     "comparaître",
     "comparais           comparaîts",
     "comparais           comparaîts",
@@ -223,15 +187,6 @@
     "comprenons          comprendons",
     "comprenez           comprendez",
     "comprennent         comprendent"
-  ],
-  [
-    "compromettre",
-    "compromets          comprometts",
-    "compromets          comprometts",
-    "compromet           compromettt",
-    "compromettons       compromettons",
-    "compromettez        compromettez",
-    "compromettent       compromettent"
   ],
   [
     "condescendre",
@@ -295,15 +250,6 @@
     "contraignons        contraindons",
     "contraignez         contraindez",
     "contraignent        contraindent"
-  ],
-  [
-    "contrebattre",
-    "contrebats          contrebatts",
-    "contrebats          contrebatts",
-    "contrebat           contrebattt",
-    "contrebattons       contrebattons",
-    "contrebattez        contrebattez",
-    "contrebattent       contrebattent"
   ],
   [
     "contredire",
@@ -450,15 +396,6 @@
     "distordent          distordent"
   ],
   [
-    "débattre",
-    "débats              débatts",
-    "débats              débatts",
-    "débat               débattt",
-    "débattons           débattons",
-    "débattez            débattez",
-    "débattent           débattent"
-  ],
-  [
     "déconfire",
     "déconfis            déconfis",
     "déconfis            déconfis",
@@ -529,15 +466,6 @@
     "défendons           défendons",
     "défendez            défendez",
     "défendent           défendent"
-  ],
-  [
-    "démettre",
-    "démets              démetts",
-    "démets              démetts",
-    "démet               démettt",
-    "démettons           démettons",
-    "démettez            démettez",
-    "démettent           démettent"
   ],
   [
     "démordre",
@@ -630,15 +558,6 @@
     "détruisent          détruient"
   ],
   [
-    "embattre",
-    "embats              embatts",
-    "embats              embatts",
-    "embat               embattt",
-    "embattons           embattons",
-    "embattez            embattez",
-    "embattent           embattent"
-  ],
-  [
     "empreindre",
     "empreins            empreinds",
     "empreins            empreinds",
@@ -702,15 +621,6 @@
     "entendent           entendent"
   ],
   [
-    "entrebattre",
-    "entrebats           entrebatts",
-    "entrebats           entrebatts",
-    "entrebat            entrebattt",
-    "entrebattons        entrebattons",
-    "entrebattez         entrebattez",
-    "entrebattent        entrebattent"
-  ],
-  [
     "entredétruire",
     "entredétruis        entredétruis",
     "entredétruis        entredétruis",
@@ -718,15 +628,6 @@
     "entredétruisons     entredétruyons",
     "entredétruisez      entredétruyez",
     "entredétruisent     entredétruient"
-  ],
-  [
-    "entremettre",
-    "entremets           entremetts",
-    "entremets           entremetts",
-    "entremet            entremettt",
-    "entremettons        entremettons",
-    "entremettez         entremettez",
-    "entremettent        entremettent"
   ],
   [
     "entreprendre",
@@ -882,15 +783,6 @@
     "maudissent          maudient"
   ],
   [
-    "mettre",
-    "mets                metts",
-    "mets                metts",
-    "met                 mettt",
-    "mettons             mettons",
-    "mettez              mettez",
-    "mettent             mettent"
-  ],
-  [
     "mordre",
     "mords               mords",
     "mords               mords",
@@ -972,15 +864,6 @@
     "nuisent             nuient"
   ],
   [
-    "omettre",
-    "omets               ometts",
-    "omets               ometts",
-    "omet                omettt",
-    "omettons            omettons",
-    "omettez             omettez",
-    "omettent            omettent"
-  ],
-  [
     "paître",
     "pais                paîts",
     "pais                paîts",
@@ -1033,15 +916,6 @@
     "perdons             perdons",
     "perdez              perdez",
     "perdent             perdent"
-  ],
-  [
-    "permettre",
-    "permets             permetts",
-    "permets             permetts",
-    "permet              permettt",
-    "permettons          permettons",
-    "permettez           permettez",
-    "permettent          permettent"
   ],
   [
     "plaindre",
@@ -1116,15 +990,6 @@
     "produisent          produient"
   ],
   [
-    "promettre",
-    "promets             prometts",
-    "promets             prometts",
-    "promet              promettt",
-    "promettons          promettons",
-    "promettez           promettez",
-    "promettent          promettent"
-  ],
-  [
     "proscrire",
     "proscris            proscris",
     "proscris            proscris",
@@ -1161,15 +1026,6 @@
     "prétendent          prétendent"
   ],
   [
-    "rabattre",
-    "rabats              rabatts",
-    "rabats              rabatts",
-    "rabat               rabattt",
-    "rabattons           rabattons",
-    "rabattez            rabattez",
-    "rabattent           rabattent"
-  ],
-  [
     "rapprendre",
     "rapprends           rapprends",
     "rapprends           rapprends",
@@ -1177,15 +1033,6 @@
     "rapprenons          rapprendons",
     "rapprenez           rapprendez",
     "rapprennent         rapprendent"
-  ],
-  [
-    "rebattre",
-    "rebats              rebatts",
-    "rebats              rebatts",
-    "rebat               rebattt",
-    "rebattons           rebattons",
-    "rebattez            rebattez",
-    "rebattent           rebattent"
   ],
   [
     "reboire",
@@ -1321,15 +1168,6 @@
     "reluisons           reluyons",
     "reluisez            reluyez",
     "reluisent           reluient"
-  ],
-  [
-    "remettre",
-    "remets              remetts",
-    "remets              remetts",
-    "remet               remettt",
-    "remettons           remettons",
-    "remettez            remettez",
-    "remettent           remettent"
   ],
   [
     "remordre",
@@ -1485,15 +1323,6 @@
     "retranscrivent      retranscrient"
   ],
   [
-    "retransmettre",
-    "retransmets         retransmetts",
-    "retransmets         retransmetts",
-    "retransmet          retransmettt",
-    "retransmettons      retransmettons",
-    "retransmettez       retransmettez",
-    "retransmettent      retransmettent"
-  ],
-  [
     "retreindre",
     "retreins            retreinds",
     "retreins            retreinds",
@@ -1528,15 +1357,6 @@
     "rions               ryons",
     "riez                ryez",
     "rient               rient"
-  ],
-  [
-    "réadmettre",
-    "réadmets            réadmetts",
-    "réadmets            réadmetts",
-    "réadmet             réadmettt",
-    "réadmettons         réadmettons",
-    "réadmettez          réadmettez",
-    "réadmettent         réadmettent"
   ],
   [
     "réapparaître",
@@ -1656,15 +1476,6 @@
     "réélisent           réélient"
   ],
   [
-    "réémettre",
-    "réémets             réémetts",
-    "réémets             réémetts",
-    "réémet              réémettt",
-    "réémettons          réémettons",
-    "réémettez           réémettez",
-    "réémettent          réémettent"
-  ],
-  [
     "satisfaire",
     "satisfais           satisfais",
     "satisfais           satisfais",
@@ -1672,15 +1483,6 @@
     "satisfaisons        satisfayons",
     "satisfaites         satisfayez",
     "satisfont           satisfaient"
-  ],
-  [
-    "soumettre",
-    "soumets             soumetts",
-    "soumets             soumetts",
-    "soumet              soumettt",
-    "soumettons          soumettons",
-    "soumettez           soumettez",
-    "soumettent          soumettent"
   ],
   [
     "sourdre",
@@ -1854,15 +1656,6 @@
     "transcrivent        transcrient"
   ],
   [
-    "transmettre",
-    "transmets           transmetts",
-    "transmets           transmetts",
-    "transmet            transmettt",
-    "transmettons        transmettons",
-    "transmettez         transmettez",
-    "transmettent        transmettent"
-  ],
-  [
     "transparaître",
     "transparais         transparaîts",
     "transparais         transparaîts",
@@ -1908,15 +1701,6 @@
     "vivent              vivent"
   ],
   [
-    "ébattre",
-    "ébats               ébatts",
-    "ébats               ébatts",
-    "ébat                ébattt",
-    "ébattons            ébattons",
-    "ébattez             ébattez",
-    "ébattent            ébattent"
-  ],
-  [
     "éclore",
     "éclos               éclos",
     "éclos               éclos",
@@ -1951,15 +1735,6 @@
     "élisons             élyons",
     "élisez              élyez",
     "élisent             élient"
-  ],
-  [
-    "émettre",
-    "émets               émetts",
-    "émets               émetts",
-    "émet                émettt",
-    "émettons            émettons",
-    "émettez             émettez",
-    "émettent            émettent"
   ],
   [
     "émoudre",
