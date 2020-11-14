@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using ConjugatorLibrary.Conjugators;
 using ConjugatorLibrary.SecondGroup;
+using ConjugatorLibrary.ThirdGroup;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ConjugatorTests
@@ -18,14 +19,9 @@ namespace ConjugatorTests
         public static void SetUp(TestContext context)
         {
             _verbData = new VerbData(_nodeModulesPath);
-            _conjugator = new SecondGroupConjugator();
             //_conjugator = new FirstGroupConjugator();
-        }
-
-        [TestMethod]
-        public void TestPresent()
-        {
-            TestConjugator(v => _verbData.Conjugations[v].Present, _conjugator.Present);
+            //_conjugator = new SecondGroupConjugator();
+            _conjugator = new ThirdGroupConjugator();
         }
 
         [TestMethod]
@@ -82,6 +78,12 @@ namespace ConjugatorTests
             TestConjugator(v => _verbData.Conjugations[v].PasseSimple, _conjugator.PasseSimple);
         }
 
+        [TestMethod]
+        public void TestPresent()
+        {
+            TestConjugator(v => _verbData.Conjugations[v].Present, _conjugator.Present);
+        }
+
         private static void TestConjugator(
             Func<string, string[]> referenceConjugator,
             Func<string, string[]> conjugator)
@@ -124,10 +126,6 @@ namespace ConjugatorTests
                  expected.Length == actual.Length &&
                  expected.Zip(actual).All(Equal);
 
-            if (!isCorrect)
-            {
-                return false;
-            }
             return isCorrect;
         }
     }
