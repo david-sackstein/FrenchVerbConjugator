@@ -13,6 +13,7 @@ namespace ConjugatorLibrary.ThirdGroup
             {
                 return ApplyEndings(_endings, "sui", "suiv");
             }
+            
             if (verb == "absoudre")
             {
                 return ApplyEndings(_endings, "absou", "absolv");
@@ -22,9 +23,14 @@ namespace ConjugatorLibrary.ThirdGroup
             {
                 return ApplyEndings(_endings, "abat", "aba", "abatt");
             }
-           
 
             string stem = verb.TrimEnd("re");
+            if (stem[^1] == 'i')
+            {
+                string nousVousStem = stem.ReplaceEnd("i", "y");
+                return _endings.AddEndings(stem, nousVousStem);
+            }
+            
             var withEndings = _endings.AddEndings(stem);
             return withEndings;
         }

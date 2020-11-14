@@ -1,14 +1,5 @@
 [
   [
-    "abstraire",
-    "abstrais            abstrais",
-    "abstrais            abstrais",
-    "abstrait            abstrait",
-    "abstrayons          abstraions",
-    "abstrayez           abstraiez",
-    "abstraient          abstraient"
-  ],
-  [
     "accroître",
     "accrois             accroîts",
     "accrois             accroîts",
@@ -94,8 +85,8 @@
     "autoconstruis       autoconstruis",
     "autoconstruis       autoconstruis",
     "autoconstruit       autoconstruit",
-    "autoconstruisons    autoconstruions",
-    "autoconstruisez     autoconstruiez",
+    "autoconstruisons    autoconstruyons",
+    "autoconstruisez     autoconstruyez",
     "autoconstruisent    autoconstruient"
   ],
   [
@@ -103,8 +94,8 @@
     "autodétruis         autodétruis",
     "autodétruis         autodétruis",
     "autodétruit         autodétruit",
-    "autodétruisons      autodétruions",
-    "autodétruisez       autodétruiez",
+    "autodétruisons      autodétruyons",
+    "autodétruisez       autodétruyez",
     "autodétruisent      autodétruient"
   ],
   [
@@ -112,8 +103,8 @@
     "autoproduis         autoproduis",
     "autoproduis         autoproduis",
     "autoproduit         autoproduit",
-    "autoproduisons      autoproduions",
-    "autoproduisez       autoproduiez",
+    "autoproduisons      autoproduyons",
+    "autoproduisez       autoproduyez",
     "autoproduisent      autoproduient"
   ],
   [
@@ -121,8 +112,8 @@
     "autoreproduis       autoreproduis",
     "autoreproduis       autoreproduis",
     "autoreproduit       autoreproduit",
-    "autoreproduisons    autoreproduions",
-    "autoreproduisez     autoreproduiez",
+    "autoreproduisons    autoreproduyons",
+    "autoreproduisez     autoreproduyez",
     "autoreproduisent    autoreproduient"
   ],
   [
@@ -139,8 +130,8 @@
     "autosuffis          autosuffis",
     "autosuffis          autosuffis",
     "autosuffit          autosuffit",
-    "autosuffisons       autosuffions",
-    "autosuffisez        autosuffiez",
+    "autosuffisons       autosuffyons",
+    "autosuffisez        autosuffyez",
     "autosuffisent       autosuffient"
   ],
   [
@@ -157,26 +148,17 @@
     "bois                bois",
     "bois                bois",
     "boit                boit",
-    "buvons              boions",
-    "buvez               boiez",
+    "buvons              boyons",
+    "buvez               boyez",
     "boivent             boient"
-  ],
-  [
-    "braire",
-    "brais               brais",
-    "brais               brais",
-    "brait               brait",
-    "brayons             braions",
-    "brayez              braiez",
-    "braient             braient"
   ],
   [
     "bruire",
     "bruis               bruis",
     "bruis               bruis",
     "bruit               bruit",
-    "                    bruions",
-    "                    bruiez",
+    "                    bruyons",
+    "                    bruyez",
     "bruissent           bruient"
   ],
   [
@@ -193,8 +175,8 @@
     "circoncis           circoncis",
     "circoncis           circoncis",
     "circoncit           circoncit",
-    "circoncisons        circoncions",
-    "circoncisez         circonciez",
+    "circoncisons        circoncyons",
+    "circoncisez         circoncyez",
     "circoncisent        circoncient"
   ],
   [
@@ -202,8 +184,8 @@
     "circonscris         circonscris",
     "circonscris         circonscris",
     "circonscrit         circonscrit",
-    "circonscrivons      circonscrions",
-    "circonscrivez       circonscriez",
+    "circonscrivons      circonscryons",
+    "circonscrivez       circonscryez",
     "circonscrivent      circonscrient"
   ],
   [
@@ -247,8 +229,8 @@
     "complais            complais",
     "complais            complais",
     "complaît            complait",
-    "complaisons         complaions",
-    "complaisez          complaiez",
+    "complaisons         complayons",
+    "complaisez          complayez",
     "complaisent         complaient"
   ],
   [
@@ -283,8 +265,8 @@
     "conduis             conduis",
     "conduis             conduis",
     "conduit             conduit",
-    "conduisons          conduions",
-    "conduisez           conduiez",
+    "conduisons          conduyons",
+    "conduisez           conduyez",
     "conduisent          conduient"
   ],
   [
@@ -292,8 +274,8 @@
     "confis              confis",
     "confis              confis",
     "confit              confit",
-    "confisons           confions",
-    "confisez            confiez",
+    "confisons           confyons",
+    "confisez            confyez",
     "confisent           confient"
   ],
   [
@@ -328,8 +310,8 @@
     "construis           construis",
     "construis           construis",
     "construit           construit",
-    "construisons        construions",
-    "construisez         construiez",
+    "construisons        construyons",
+    "construisez         construyez",
     "construisent        construient"
   ],
   [
@@ -355,8 +337,8 @@
     "contredis           contredis",
     "contredis           contredis",
     "contredit           contredit",
-    "contredisons        contredions",
-    "contredisez         contrediez",
+    "contredisons        contredyons",
+    "contredisez         contredyez",
     "contredisent        contredient"
   ],
   [
@@ -364,8 +346,8 @@
     "contrefais          contrefais",
     "contrefais          contrefais",
     "contrefait          contrefait",
-    "contrefaisons       contrefaions",
-    "contrefaites        contrefaiez",
+    "contrefaisons       contrefayons",
+    "contrefaites        contrefayez",
     "contrefont          contrefaient"
   ],
   [
@@ -391,8 +373,8 @@
     "coproduis           coproduis",
     "coproduis           coproduis",
     "coproduit           coproduit",
-    "coproduisons        coproduions",
-    "coproduisez         coproduiez",
+    "coproduisons        coproduyons",
+    "coproduisez         coproduyez",
     "coproduisent        coproduient"
   ],
   [
@@ -423,15 +405,6 @@
     "craignent           craindent"
   ],
   [
-    "croire",
-    "crois               crois",
-    "crois               crois",
-    "croit               croit",
-    "croyons             croions",
-    "croyez              croiez",
-    "croient             croient"
-  ],
-  [
     "croître",
     "croîs               croîts",
     "croîs               croîts",
@@ -445,8 +418,8 @@
     "cuis                cuis",
     "cuis                cuis",
     "cuit                cuit",
-    "cuisons             cuions",
-    "cuisez              cuiez",
+    "cuisons             cuyons",
+    "cuisez              cuyez",
     "cuisent             cuient"
   ],
   [
@@ -463,8 +436,8 @@
     "dis                 dis",
     "dis                 dis",
     "dit                 dit",
-    "disons              dions",
-    "dites               diez",
+    "disons              dyons",
+    "dites               dyez",
     "disent              dient"
   ],
   [
@@ -513,15 +486,6 @@
     "distordent          distordent"
   ],
   [
-    "distraire",
-    "distrais            distrais",
-    "distrais            distrais",
-    "distrait            distrait",
-    "distrayons          distraions",
-    "distrayez           distraiez",
-    "distraient          distraient"
-  ],
-  [
     "débattre",
     "débats              débatts",
     "débats              débatts",
@@ -535,8 +499,8 @@
     "déconfis            déconfis",
     "déconfis            déconfis",
     "déconfit            déconfit",
-    "déconfisons         déconfions",
-    "déconfisez          déconfiez",
+    "déconfisons         déconfyons",
+    "déconfisez          déconfyez",
     "déconfisent         déconfient"
   ],
   [
@@ -544,8 +508,8 @@
     "déconstruis         déconstruis",
     "déconstruis         déconstruis",
     "déconstruit         déconstruit",
-    "déconstruisons      déconstruions",
-    "déconstruisez       déconstruiez",
+    "déconstruisons      déconstruyons",
+    "déconstruisez       déconstruyez",
     "déconstruisent      déconstruient"
   ],
   [
@@ -562,8 +526,8 @@
     "décris              décris",
     "décris              décris",
     "décrit              décrit",
-    "décrivons           décrions",
-    "décrivez            décriez",
+    "décrivons           décryons",
+    "décrivez            décryez",
     "décrivent           décrient"
   ],
   [
@@ -580,8 +544,8 @@
     "dédis               dédis",
     "dédis               dédis",
     "dédit               dédit",
-    "dédisons            dédions",
-    "dédisez             dédiez",
+    "dédisons            dédyons",
+    "dédisez             dédyez",
     "dédisent            dédient"
   ],
   [
@@ -589,8 +553,8 @@
     "déduis              déduis",
     "déduis              déduis",
     "déduit              déduit",
-    "déduisons           déduions",
-    "déduisez            déduiez",
+    "déduisons           déduyons",
+    "déduisez            déduyez",
     "déduisent           déduient"
   ],
   [
@@ -598,8 +562,8 @@
     "défais              défais",
     "défais              défais",
     "défait              défait",
-    "défaisons           défaions",
-    "défaites            défaiez",
+    "défaisons           défayons",
+    "défaites            défayez",
     "défont              défaient"
   ],
   [
@@ -652,8 +616,8 @@
     "déplais             déplais",
     "déplais             déplais",
     "déplaît             déplait",
-    "déplaisons          déplaions",
-    "déplaisez           déplaiez",
+    "déplaisons          déplayons",
+    "déplaisez           déplayez",
     "déplaisent          déplaient"
   ],
   [
@@ -706,8 +670,8 @@
     "détruis             détruis",
     "détruis             détruis",
     "détruit             détruit",
-    "détruisons          détruions",
-    "détruisez           détruiez",
+    "détruisons          détruyons",
+    "détruisez           détruyez",
     "détruisent          détruient"
   ],
   [
@@ -751,8 +715,8 @@
     "enduis              enduis",
     "enduis              enduis",
     "enduit              enduit",
-    "enduisons           enduions",
-    "enduisez            enduiez",
+    "enduisons           enduyons",
+    "enduisez            enduyez",
     "enduisent           enduient"
   ],
   [
@@ -805,8 +769,8 @@
     "entredétruis        entredétruis",
     "entredétruis        entredétruis",
     "entredétruit        entredétruit",
-    "entredétruisons     entredétruions",
-    "entredétruisez      entredétruiez",
+    "entredétruisons     entredétruyons",
+    "entredétruisez      entredétruyez",
     "entredétruisent     entredétruient"
   ],
   [
@@ -837,21 +801,12 @@
     "sont                êtent"
   ],
   [
-    "extraire",
-    "extrais             extrais",
-    "extrais             extrais",
-    "extrait             extrait",
-    "extrayons           extraions",
-    "extrayez            extraiez",
-    "extraient           extraient"
-  ],
-  [
     "faire",
     "fais                fais",
     "fais                fais",
     "fait                fait",
-    "faisons             faions",
-    "faites              faiez",
+    "faisons             fayons",
+    "faites              fayez",
     "font                faient"
   ],
   [
@@ -895,8 +850,8 @@
     "fris                fris",
     "fris                fris",
     "frit                frit",
-    "frisons             frions",
-    "frisez              friez",
+    "frisons             fryons",
+    "frisez              fryez",
     "frisent             frient"
   ],
   [
@@ -913,8 +868,8 @@
     "induis              induis",
     "induis              induis",
     "induit              induit",
-    "induisons           induions",
-    "induisez            induiez",
+    "induisons           induyons",
+    "induisez            induyez",
     "induisent           induient"
   ],
   [
@@ -922,8 +877,8 @@
     "inscris             inscris",
     "inscris             inscris",
     "inscrit             inscrit",
-    "inscrivons          inscrions",
-    "inscrivez           inscriez",
+    "inscrivons          inscryons",
+    "inscrivez           inscryez",
     "inscrivent          inscrient"
   ],
   [
@@ -931,8 +886,8 @@
     "instruis            instruis",
     "instruis            instruis",
     "instruit            instruit",
-    "instruisons         instruions",
-    "instruisez          instruiez",
+    "instruisons         instruyons",
+    "instruisez          instruyez",
     "instruisent         instruient"
   ],
   [
@@ -940,8 +895,8 @@
     "interdis            interdis",
     "interdis            interdis",
     "interdit            interdit",
-    "interdisons         interdions",
-    "interdisez          interdiez",
+    "interdisons         interdyons",
+    "interdisez          interdyez",
     "interdisent         interdient"
   ],
   [
@@ -949,8 +904,8 @@
     "introduis           introduis",
     "introduis           introduis",
     "introduit           introduit",
-    "introduisons        introduions",
-    "introduisez         introduiez",
+    "introduisons        introduyons",
+    "introduisez         introduyez",
     "introduisent        introduient"
   ],
   [
@@ -967,8 +922,8 @@
     "lis                 lis",
     "lis                 lis",
     "lit                 lit",
-    "lisons              lions",
-    "lisez               liez",
+    "lisons              lyons",
+    "lisez               lyez",
     "lisent              lient"
   ],
   [
@@ -976,8 +931,8 @@
     "luis                luis",
     "luis                luis",
     "luit                luit",
-    "luisons             luions",
-    "luisez              luiez",
+    "luisons             luyons",
+    "luisez              luyez",
     "luisent             luient"
   ],
   [
@@ -985,8 +940,8 @@
     "maudis              maudis",
     "maudis              maudis",
     "maudit              maudit",
-    "maudissons          maudions",
-    "maudissez           maudiez",
+    "maudissons          maudyons",
+    "maudissez           maudyez",
     "maudissent          maudient"
   ],
   [
@@ -1030,8 +985,8 @@
     "méconduis           méconduis",
     "méconduis           méconduis",
     "méconduit           méconduit",
-    "méconduisons        méconduions",
-    "méconduisez         méconduiez",
+    "méconduisons        méconduyons",
+    "méconduisez         méconduyez",
     "méconduisent        méconduient"
   ],
   [
@@ -1048,8 +1003,8 @@
     "médis               médis",
     "médis               médis",
     "médit               médit",
-    "médisons            médions",
-    "médisez             médiez",
+    "médisons            médyons",
+    "médisez             médyez",
     "médisent            médient"
   ],
   [
@@ -1075,8 +1030,8 @@
     "nuis                nuis",
     "nuis                nuis",
     "nuit                nuit",
-    "nuisons             nuions",
-    "nuisez              nuiez",
+    "nuisons             nuyons",
+    "nuisez              nuyez",
     "nuisent             nuient"
   ],
   [
@@ -1174,8 +1129,8 @@
     "plais               plais",
     "plais               plais",
     "plaît               plait",
-    "plaisons            plaions",
-    "plaisez             plaiez",
+    "plaisons            playons",
+    "plaisez             playez",
     "plaisent            plaient"
   ],
   [
@@ -1228,8 +1183,8 @@
     "prescris            prescris",
     "prescris            prescris",
     "prescrit            prescrit",
-    "prescrivons         prescrions",
-    "prescrivez          prescriez",
+    "prescrivons         prescryons",
+    "prescrivez          prescryez",
     "prescrivent         prescrient"
   ],
   [
@@ -1237,8 +1192,8 @@
     "produis             produis",
     "produis             produis",
     "produit             produit",
-    "produisons          produions",
-    "produisez           produiez",
+    "produisons          produyons",
+    "produisez           produyez",
     "produisent          produient"
   ],
   [
@@ -1255,8 +1210,8 @@
     "proscris            proscris",
     "proscris            proscris",
     "proscrit            proscrit",
-    "proscrivons         proscrions",
-    "proscrivez          proscriez",
+    "proscrivons         proscryons",
+    "proscrivez          proscryez",
     "proscrivent         proscrient"
   ],
   [
@@ -1264,8 +1219,8 @@
     "préconstruis        préconstruis",
     "préconstruis        préconstruis",
     "préconstruit        préconstruit",
-    "préconstruisons     préconstruions",
-    "préconstruisez      préconstruiez",
+    "préconstruisons     préconstruyons",
+    "préconstruisez      préconstruyez",
     "préconstruisent     préconstruient"
   ],
   [
@@ -1273,8 +1228,8 @@
     "prédis              prédis",
     "prédis              prédis",
     "prédit              prédit",
-    "prédisons           prédions",
-    "prédisez            prédiez",
+    "prédisons           prédyons",
+    "prédisez            prédyez",
     "prédisent           prédient"
   ],
   [
@@ -1318,8 +1273,8 @@
     "rebois              rebois",
     "rebois              rebois",
     "reboit              reboit",
-    "rebuvons            reboions",
-    "rebuvez             reboiez",
+    "rebuvons            reboyons",
+    "rebuvez             reboyez",
     "reboivent           reboient"
   ],
   [
@@ -1327,8 +1282,8 @@
     "reconduis           reconduis",
     "reconduis           reconduis",
     "reconduit           reconduit",
-    "reconduisons        reconduions",
-    "reconduisez         reconduiez",
+    "reconduisons        reconduyons",
+    "reconduisez         reconduyez",
     "reconduisent        reconduient"
   ],
   [
@@ -1345,8 +1300,8 @@
     "reconstruis         reconstruis",
     "reconstruis         reconstruis",
     "reconstruit         reconstruit",
-    "reconstruisons      reconstruions",
-    "reconstruisez       reconstruiez",
+    "reconstruisons      reconstruyons",
+    "reconstruisez       reconstruyez",
     "reconstruisent      reconstruient"
   ],
   [
@@ -1372,8 +1327,8 @@
     "recuis              recuis",
     "recuis              recuis",
     "recuit              recuit",
-    "recuisons           recuions",
-    "recuisez            recuiez",
+    "recuisons           recuyons",
+    "recuisez            recuyez",
     "recuisent           recuient"
   ],
   [
@@ -1390,8 +1345,8 @@
     "redis               redis",
     "redis               redis",
     "redit               redit",
-    "redisons            redions",
-    "redites             rediez",
+    "redisons            redyons",
+    "redites             redyez",
     "redisent            redient"
   ],
   [
@@ -1399,8 +1354,8 @@
     "redécris            redécris",
     "redécris            redécris",
     "redécrit            redécrit",
-    "redécrivons         redécrions",
-    "redécrivez          redécriez",
+    "redécrivons         redécryons",
+    "redécrivez          redécryez",
     "redécrivent         redécrient"
   ],
   [
@@ -1408,8 +1363,8 @@
     "redéfais            redéfais",
     "redéfais            redéfais",
     "redéfait            redéfait",
-    "redéfaisons         redéfaions",
-    "redéfaites          redéfaiez",
+    "redéfaisons         redéfayons",
+    "redéfaites          redéfayez",
     "redéfont            redéfaient"
   ],
   [
@@ -1417,8 +1372,8 @@
     "refais              refais",
     "refais              refais",
     "refait              refait",
-    "refaisons           refaions",
-    "refaites            refaiez",
+    "refaisons           refayons",
+    "refaites            refayez",
     "refont              refaient"
   ],
   [
@@ -1453,8 +1408,8 @@
     "relis               relis",
     "relis               relis",
     "relit               relit",
-    "relisons            relions",
-    "relisez             reliez",
+    "relisons            relyons",
+    "relisez             relyez",
     "relisent            relient"
   ],
   [
@@ -1462,8 +1417,8 @@
     "reluis              reluis",
     "reluis              reluis",
     "reluit              reluit",
-    "reluisons           reluions",
-    "reluisez            reluiez",
+    "reluisons           reluyons",
+    "reluisez            reluyez",
     "reluisent           reluient"
   ],
   [
@@ -1510,15 +1465,6 @@
     "rendons             rendons",
     "rendez              rendez",
     "rendent             rendent"
-  ],
-  [
-    "rentraire",
-    "rentrais            rentrais",
-    "rentrais            rentrais",
-    "rentrait            rentrait",
-    "rentrayons          rentraions",
-    "rentrayez           rentraiez",
-    "rentraient          rentraient"
   ],
   [
     "repaître",
@@ -1579,8 +1525,8 @@
     "reproduis           reproduis",
     "reproduis           reproduis",
     "reproduit           reproduit",
-    "reproduisons        reproduions",
-    "reproduisez         reproduiez",
+    "reproduisons        reproduyons",
+    "reproduisez         reproduyez",
     "reproduisent        reproduient"
   ],
   [
@@ -1624,8 +1570,8 @@
     "retraduis           retraduis",
     "retraduis           retraduis",
     "retraduit           retraduit",
-    "retraduisons        retraduions",
-    "retraduisez         retraduiez",
+    "retraduisons        retraduyons",
+    "retraduisez         retraduyez",
     "retraduisent        retraduient"
   ],
   [
@@ -1633,8 +1579,8 @@
     "retranscris         retranscris",
     "retranscris         retranscris",
     "retranscrit         retranscrit",
-    "retranscrivons      retranscrions",
-    "retranscrivez       retranscriez",
+    "retranscrivons      retranscryons",
+    "retranscrivez       retranscryez",
     "retranscrivent      retranscrient"
   ],
   [
@@ -1674,6 +1620,15 @@
     "revivent            revivent"
   ],
   [
+    "rire",
+    "ris                 ris",
+    "ris                 ris",
+    "rit                 rit",
+    "rions               ryons",
+    "riez                ryez",
+    "rient               rient"
+  ],
+  [
     "réadmettre",
     "réadmets            réadmetts",
     "réadmets            réadmetts",
@@ -1705,8 +1660,8 @@
     "récris              récris",
     "récris              récris",
     "récrit              récrit",
-    "récrivons           récrions",
-    "récrivez            récriez",
+    "récrivons           récryons",
+    "récrivez            récryez",
     "récrivent           récrient"
   ],
   [
@@ -1714,8 +1669,8 @@
     "réduis              réduis",
     "réduis              réduis",
     "réduit              réduit",
-    "réduisons           réduions",
-    "réduisez            réduiez",
+    "réduisons           réduyons",
+    "réduisez            réduyez",
     "réduisent           réduient"
   ],
   [
@@ -1732,8 +1687,8 @@
     "réinscris           réinscris",
     "réinscris           réinscris",
     "réinscrit           réinscrit",
-    "réinscrivons        réinscrions",
-    "réinscrivez         réinscriez",
+    "réinscrivons        réinscryons",
+    "réinscrivez         réinscryez",
     "réinscrivent        réinscrient"
   ],
   [
@@ -1741,8 +1696,8 @@
     "réintroduis         réintroduis",
     "réintroduis         réintroduis",
     "réintroduit         réintroduit",
-    "réintroduisons      réintroduions",
-    "réintroduisez       réintroduiez",
+    "réintroduisons      réintroduyons",
+    "réintroduisez       réintroduyez",
     "réintroduisent      réintroduient"
   ],
   [
@@ -1786,8 +1741,8 @@
     "réécris             réécris",
     "réécris             réécris",
     "réécrit             réécrit",
-    "réécrivons          réécrions",
-    "réécrivez           réécriez",
+    "réécrivons          réécryons",
+    "réécrivez           réécryez",
     "réécrivent          réécrient"
   ],
   [
@@ -1795,8 +1750,8 @@
     "réélis              réélis",
     "réélis              réélis",
     "réélit              réélit",
-    "réélisons           réélions",
-    "réélisez            rééliez",
+    "réélisons           réélyons",
+    "réélisez            réélyez",
     "réélisent           réélient"
   ],
   [
@@ -1813,8 +1768,8 @@
     "satisfais           satisfais",
     "satisfais           satisfais",
     "satisfait           satisfait",
-    "satisfaisons        satisfaions",
-    "satisfaites         satisfaiez",
+    "satisfaisons        satisfayons",
+    "satisfaites         satisfayez",
     "satisfont           satisfaient"
   ],
   [
@@ -1836,6 +1791,15 @@
     "sourdent            sourdent"
   ],
   [
+    "sourire",
+    "souris              souris",
+    "souris              souris",
+    "sourit              sourit",
+    "sourions            souryons",
+    "souriez             souryez",
+    "sourient            sourient"
+  ],
+  [
     "sous-entendre",
     "sous-entends        sous-entends",
     "sous-entends        sous-entends",
@@ -1849,8 +1813,8 @@
     "souscris            souscris",
     "souscris            souscris",
     "souscrit            souscrit",
-    "souscrivons         souscrions",
-    "souscrivez          souscriez",
+    "souscrivons         souscryons",
+    "souscrivez          souscryez",
     "souscrivent         souscrient"
   ],
   [
@@ -1863,21 +1827,12 @@
     "soustendent         soustendent"
   ],
   [
-    "soustraire",
-    "soustrais           soustrais",
-    "soustrais           soustrais",
-    "soustrait           soustrait",
-    "soustrayons         soustraions",
-    "soustrayez          soustraiez",
-    "soustraient         soustraient"
-  ],
-  [
     "suffire",
     "suffis              suffis",
     "suffis              suffis",
     "suffit              suffit",
-    "suffisons           suffions",
-    "suffisez            suffiez",
+    "suffisons           suffyons",
+    "suffisez            suffyez",
     "suffisent           suffient"
   ],
   [
@@ -1885,8 +1840,8 @@
     "surfais             surfais",
     "surfais             surfais",
     "surfait             surfait",
-    "surfaisons          surfaions",
-    "surfaites           surfaiez",
+    "surfaisons          surfayons",
+    "surfaites           surfayez",
     "surfont             surfaient"
   ],
   [
@@ -1903,8 +1858,8 @@
     "surproduis          surproduis",
     "surproduis          surproduis",
     "surproduit          surproduit",
-    "surproduisons       surproduions",
-    "surproduisez        surproduiez",
+    "surproduisons       surproduyons",
+    "surproduisez        surproduyez",
     "surproduisent       surproduient"
   ],
   [
@@ -1930,8 +1885,8 @@
     "séduis              séduis",
     "séduis              séduis",
     "séduit              séduit",
-    "séduisons           séduions",
-    "séduisez            séduiez",
+    "séduisons           séduyons",
+    "séduisez            séduyez",
     "séduisent           séduient"
   ],
   [
@@ -1939,8 +1894,8 @@
     "tais                tais",
     "tais                tais",
     "taît                tait",
-    "taisons             taions",
-    "taisez              taiez",
+    "taisons             tayons",
+    "taisez              tayez",
     "taisent             taient"
   ],
   [
@@ -1984,26 +1939,17 @@
     "traduis             traduis",
     "traduis             traduis",
     "traduit             traduit",
-    "traduisons          traduions",
-    "traduisez           traduiez",
+    "traduisons          traduyons",
+    "traduisez           traduyez",
     "traduisent          traduient"
-  ],
-  [
-    "traire",
-    "trais               trais",
-    "trais               trais",
-    "trait               trait",
-    "trayons             traions",
-    "trayez              traiez",
-    "traient             traient"
   ],
   [
     "transcrire",
     "transcris           transcris",
     "transcris           transcris",
     "transcrit           transcrit",
-    "transcrivons        transcrions",
-    "transcrivez         transcriez",
+    "transcrivons        transcryons",
+    "transcrivez         transcryez",
     "transcrivent        transcrient"
   ],
   [
@@ -2083,8 +2029,8 @@
     "éconduis            éconduis",
     "éconduis            éconduis",
     "éconduit            éconduit",
-    "éconduisons         éconduions",
-    "éconduisez          éconduiez",
+    "éconduisons         éconduyons",
+    "éconduisez          éconduyez",
     "éconduisent         éconduient"
   ],
   [
@@ -2092,8 +2038,8 @@
     "écris               écris",
     "écris               écris",
     "écrit               écrit",
-    "écrivons            écrions",
-    "écrivez             écriez",
+    "écrivons            écryons",
+    "écrivez             écryez",
     "écrivent            écrient"
   ],
   [
@@ -2101,8 +2047,8 @@
     "élis                élis",
     "élis                élis",
     "élit                élit",
-    "élisons             élions",
-    "élisez              éliez",
+    "élisons             élyons",
+    "élisez              élyez",
     "élisent             élient"
   ],
   [
