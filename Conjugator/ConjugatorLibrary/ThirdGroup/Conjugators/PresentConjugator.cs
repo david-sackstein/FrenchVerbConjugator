@@ -11,22 +11,8 @@
                 return new[] {"suis", "suis", "suit", "suivons", "suivez", "suivent"};
             }
 
-            // soften the g before an 'o' by adding an e
-            string nousEnding = "ons";
-            if (verb[^3] == 'g')
-            {
-                nousEnding = "e" + nousEnding;
-            }
-
-            string[] endings = {"e", "es", "e", nousEnding, "ez", "ent"};
-            string[] withEndings = ApplyEndings(endings, verb);
-
-            // soften the c with a cedilla before an 'o' for nous (at index 3)
-            if (verb[^3] == 'c')
-            {
-                withEndings[3] = withEndings[3].ReplaceAt(-4, 'ç');
-            }
-
+            string stem = verb.TrimEnd("re");
+            var withEndings = endings.AddEndings(stem);
             return withEndings;
         }
 
