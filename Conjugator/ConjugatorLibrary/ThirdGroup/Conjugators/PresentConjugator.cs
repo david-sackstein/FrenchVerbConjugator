@@ -29,6 +29,13 @@ namespace ConjugatorLibrary.ThirdGroup
                 var stem = verb.TrimEnd("ître");
                 return ApplyEndings(_endings, stem + "i", stem + "î", stem + "iss");
             }
+            
+            if (verb.EndsWith("oindre"))
+            {
+                var stem = verb.TrimEnd("ndre");
+                return ApplyEndings(_endings, stem + "n", stem + "gn");
+            }
+            
 
             string regularStem = verb.TrimEnd("re");
             if (regularStem[^1] == 'i')

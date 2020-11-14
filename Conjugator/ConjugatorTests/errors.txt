@@ -1,14 +1,5 @@
 [
   [
-    "adjoindre",
-    "adjoins             adjoinds",
-    "adjoins             adjoinds",
-    "adjoint             adjoindt",
-    "adjoignons          adjoindons",
-    "adjoignez           adjoindez",
-    "adjoignent          adjoindent"
-  ],
-  [
     "admettre",
     "admets              admetts",
     "admets              admetts",
@@ -279,15 +270,6 @@
     "confondent          confondent"
   ],
   [
-    "conjoindre",
-    "conjoins            conjoinds",
-    "conjoins            conjoinds",
-    "conjoint            conjoindt",
-    "conjoignons         conjoindons",
-    "conjoignez          conjoindez",
-    "conjoignent         conjoindent"
-  ],
-  [
     "connaître",
     "connais             connaîts",
     "connais             connaîts",
@@ -430,15 +412,6 @@
     "disons              dyons",
     "dites               dyez",
     "disent              dient"
-  ],
-  [
-    "disjoindre",
-    "disjoins            disjoinds",
-    "disjoins            disjoinds",
-    "disjoint            disjoindt",
-    "disjoignons         disjoindons",
-    "disjoignez          disjoindez",
-    "disjoignent         disjoindent"
   ],
   [
     "disparaître",
@@ -711,15 +684,6 @@
     "enfreignent         enfreindent"
   ],
   [
-    "enjoindre",
-    "enjoins             enjoinds",
-    "enjoins             enjoinds",
-    "enjoint             enjoindt",
-    "enjoignons          enjoindons",
-    "enjoignez           enjoindez",
-    "enjoignent          enjoindent"
-  ],
-  [
     "ensuivre",
     "                    ensuivs",
     "                    ensuivs",
@@ -891,15 +855,6 @@
     "introduisent        introduient"
   ],
   [
-    "joindre",
-    "joins               joinds",
-    "joins               joinds",
-    "joint               joindt",
-    "joignons            joindons",
-    "joignez             joindez",
-    "joignent            joindent"
-  ],
-  [
     "lire",
     "lis                 lis",
     "lis                 lis",
@@ -1017,15 +972,6 @@
     "nuisent             nuient"
   ],
   [
-    "oindre",
-    "oins                oinds",
-    "oins                oinds",
-    "oint                oindt",
-    "oignons             oindons",
-    "oignez              oindez",
-    "oignent             oindent"
-  ],
-  [
     "omettre",
     "omets               ometts",
     "omets               ometts",
@@ -1114,15 +1060,6 @@
     "plaisons            playons",
     "plaisez             playez",
     "plaisent            plaient"
-  ],
-  [
-    "poindre",
-    "poins               poinds",
-    "poins               poinds",
-    "point               poindt",
-    "poignons            poindons",
-    "poignez             poindez",
-    "poignent            poindent"
   ],
   [
     "pondre",
@@ -1366,15 +1303,6 @@
     "refondons           refondons",
     "refondez            refondez",
     "refondent           refondent"
-  ],
-  [
-    "rejoindre",
-    "rejoins             rejoinds",
-    "rejoins             rejoinds",
-    "rejoint             rejoindt",
-    "rejoignons          rejoindons",
-    "rejoignez           rejoindez",
-    "rejoignent          rejoindent"
   ],
   [
     "relire",
