@@ -1,14 +1,5 @@
 [
   [
-    "accroître",
-    "accrois             accroîts",
-    "accrois             accroîts",
-    "accroît             accroîtt",
-    "accroissons         accroîtons",
-    "accroissez          accroîtez",
-    "accroissent         accroîtent"
-  ],
-  [
     "adjoindre",
     "adjoins             adjoinds",
     "adjoins             adjoinds",
@@ -406,12 +397,12 @@
   ],
   [
     "croître",
-    "croîs               croîts",
-    "croîs               croîts",
-    "croît               croîtt",
-    "croissons           croîtons",
-    "croissez            croîtez",
-    "croissent           croîtent"
+    "croîs               crois",
+    "croîs               crois",
+    "croît               croît",
+    "croissons           croissons",
+    "croissez            croissez",
+    "croissent           croissent"
   ],
   [
     "cuire",
@@ -529,15 +520,6 @@
     "décrivons           décryons",
     "décrivez            décryez",
     "décrivent           décrient"
-  ],
-  [
-    "décroître",
-    "décrois             décroîts",
-    "décrois             décroîts",
-    "décroît             décroîtt",
-    "décroissons         décroîtons",
-    "décroissez          décroîtez",
-    "décroissent         décroîtent"
   ],
   [
     "dédire",
@@ -1312,15 +1294,6 @@
     "recousons           recoudons",
     "recousez            recoudez",
     "recousent           recoudent"
-  ],
-  [
-    "recroître",
-    "recrois             recroîts",
-    "recrois             recroîts",
-    "recroît             recroîtt",
-    "recroissons         recroîtons",
-    "recroissez          recroîtez",
-    "recroissent         recroîtent"
   ],
   [
     "recuire",

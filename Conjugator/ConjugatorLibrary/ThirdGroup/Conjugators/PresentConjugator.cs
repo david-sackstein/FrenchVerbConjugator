@@ -24,14 +24,20 @@ namespace ConjugatorLibrary.ThirdGroup
                 return ApplyEndings(_endings, "abat", "aba", "abatt");
             }
 
-            string stem = verb.TrimEnd("re");
-            if (stem[^1] == 'i')
+            if (verb.EndsWith("oître"))
             {
-                string nousVousStem = stem.ReplaceEnd("i", "y");
-                return _endings.AddEndings(stem, nousVousStem);
+                var stem = verb.TrimEnd("ître");
+                return ApplyEndings(_endings, stem + "i", stem + "î", stem + "iss");
+            }
+
+            string regularStem = verb.TrimEnd("re");
+            if (regularStem[^1] == 'i')
+            {
+                string nousVousStem = regularStem.ReplaceEnd("i", "y");
+                return _endings.AddEndings(regularStem, nousVousStem);
             }
             
-            var withEndings = _endings.AddEndings(stem);
+            var withEndings = _endings.AddEndings(regularStem);
             return withEndings;
         }
 
