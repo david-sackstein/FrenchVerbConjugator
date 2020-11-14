@@ -1,14 +1,5 @@
 [
   [
-    "abattre",
-    "abats               abatts",
-    "abats               abatts",
-    "abat                abattt",
-    "abattons            abattons",
-    "abattez             abattez",
-    "abattent            abattent"
-  ],
-  [
     "abstraire",
     "abstrais            abstrais",
     "abstrais            abstrais",

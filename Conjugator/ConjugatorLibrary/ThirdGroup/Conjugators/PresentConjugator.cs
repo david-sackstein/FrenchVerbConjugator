@@ -18,6 +18,12 @@ namespace ConjugatorLibrary.ThirdGroup
                 return ApplyEndings(_endings, "absou", "absolv");
             }
 
+            if (verb == "abattre")
+            {
+                return ApplyEndings(_endings, "abat", "aba", "abatt");
+            }
+           
+
             string stem = verb.TrimEnd("re");
             var withEndings = _endings.AddEndings(stem);
             return withEndings;
@@ -28,6 +34,13 @@ namespace ConjugatorLibrary.ThirdGroup
             return endings.Take(3).AddEndings(singleStem)
                 .Concat(
                     endings.Skip(3).AddEndings(pluralStem)).ToArray();
+        }
+        
+        private static string[] ApplyEndings(string[] endings, string singleStem, string ilStem, string pluralStem)
+        {
+            return endings.Take(2).AddEndings(singleStem)
+                .Concat(endings.Skip(2).Take(1).AddEndings(ilStem))
+                .Concat(endings.Skip(3).AddEndings(pluralStem)).ToArray();
         }
     }
 }
