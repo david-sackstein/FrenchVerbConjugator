@@ -1,41 +1,5 @@
 [
   [
-    "autoconstruire",
-    "autoconstruis       autoconstruis",
-    "autoconstruis       autoconstruis",
-    "autoconstruit       autoconstruit",
-    "autoconstruisons    autoconstruyons",
-    "autoconstruisez     autoconstruyez",
-    "autoconstruisent    autoconstruient"
-  ],
-  [
-    "autodétruire",
-    "autodétruis         autodétruis",
-    "autodétruis         autodétruis",
-    "autodétruit         autodétruit",
-    "autodétruisons      autodétruyons",
-    "autodétruisez       autodétruyez",
-    "autodétruisent      autodétruient"
-  ],
-  [
-    "autoproduire",
-    "autoproduis         autoproduis",
-    "autoproduis         autoproduis",
-    "autoproduit         autoproduit",
-    "autoproduisons      autoproduyons",
-    "autoproduisez       autoproduyez",
-    "autoproduisent      autoproduient"
-  ],
-  [
-    "autoreproduire",
-    "autoreproduis       autoreproduis",
-    "autoreproduis       autoreproduis",
-    "autoreproduit       autoreproduit",
-    "autoreproduisons    autoreproduyons",
-    "autoreproduisez     autoreproduyez",
-    "autoreproduisent    autoreproduient"
-  ],
-  [
     "autosuffire",
     "autosuffis          autosuffis",
     "autosuffis          autosuffis",
@@ -58,9 +22,9 @@
     "bruis               bruis",
     "bruis               bruis",
     "bruit               bruit",
-    "                    bruyons",
-    "                    bruyez",
-    "bruissent           bruient"
+    "                    bruisons",
+    "                    bruisez",
+    "bruissent           bruisent"
   ],
   [
     "circoncire",
@@ -99,15 +63,6 @@
     "complaisent         complaient"
   ],
   [
-    "conduire",
-    "conduis             conduis",
-    "conduis             conduis",
-    "conduit             conduit",
-    "conduisons          conduyons",
-    "conduisez           conduyez",
-    "conduisent          conduient"
-  ],
-  [
     "confire",
     "confis              confis",
     "confis              confis",
@@ -124,15 +79,6 @@
     "confondons          confondons",
     "confondez           confondez",
     "confondent          confondent"
-  ],
-  [
-    "construire",
-    "construis           construis",
-    "construis           construis",
-    "construit           construit",
-    "construisons        construyons",
-    "construisez         construyez",
-    "construisent        construient"
   ],
   [
     "contraindre",
@@ -180,15 +126,6 @@
     "convainquent        convaincent"
   ],
   [
-    "coproduire",
-    "coproduis           coproduis",
-    "coproduis           coproduis",
-    "coproduit           coproduit",
-    "coproduisons        coproduyons",
-    "coproduisez         coproduyez",
-    "coproduisent        coproduient"
-  ],
-  [
     "correspondre",
     "corresponds         corresponds",
     "corresponds         corresponds",
@@ -225,15 +162,6 @@
     "croissent           croissent"
   ],
   [
-    "cuire",
-    "cuis                cuis",
-    "cuis                cuis",
-    "cuit                cuit",
-    "cuisons             cuyons",
-    "cuisez              cuyez",
-    "cuisent             cuient"
-  ],
-  [
     "dire",
     "dis                 dis",
     "dis                 dis",
@@ -261,15 +189,6 @@
     "déconfisent         déconfient"
   ],
   [
-    "déconstruire",
-    "déconstruis         déconstruis",
-    "déconstruis         déconstruis",
-    "déconstruit         déconstruit",
-    "déconstruisons      déconstruyons",
-    "déconstruisez       déconstruyez",
-    "déconstruisent      déconstruient"
-  ],
-  [
     "découdre",
     "découds             découds",
     "découds             découds",
@@ -295,15 +214,6 @@
     "dédisons            dédyons",
     "dédisez             dédyez",
     "dédisent            dédient"
-  ],
-  [
-    "déduire",
-    "déduis              déduis",
-    "déduis              déduis",
-    "déduit              déduit",
-    "déduisons           déduyons",
-    "déduisez            déduyez",
-    "déduisent           déduient"
   ],
   [
     "défaire",
@@ -342,15 +252,6 @@
     "détordent           détordent"
   ],
   [
-    "détruire",
-    "détruis             détruis",
-    "détruis             détruis",
-    "détruit             détruit",
-    "détruisons          détruyons",
-    "détruisez           détruyez",
-    "détruisent          détruient"
-  ],
-  [
     "enclore",
     "enclos              enclos",
     "enclos              enclos",
@@ -360,15 +261,6 @@
     "enclosent           encloent"
   ],
   [
-    "enduire",
-    "enduis              enduis",
-    "enduis              enduis",
-    "enduit              enduit",
-    "enduisons           enduyons",
-    "enduisez            enduyez",
-    "enduisent           enduient"
-  ],
-  [
     "ensuivre",
     "                    ensuivs",
     "                    ensuivs",
@@ -376,15 +268,6 @@
     "                    ensuivons",
     "                    ensuivez",
     "ensuivent           ensuivent"
-  ],
-  [
-    "entredétruire",
-    "entredétruis        entredétruis",
-    "entredétruis        entredétruis",
-    "entredétruit        entredétruit",
-    "entredétruisons     entredétruyons",
-    "entredétruisez      entredétruyez",
-    "entredétruisent     entredétruient"
   ],
   [
     "être",
@@ -432,15 +315,6 @@
     "frisent             frient"
   ],
   [
-    "induire",
-    "induis              induis",
-    "induis              induis",
-    "induit              induit",
-    "induisons           induyons",
-    "induisez            induyez",
-    "induisent           induient"
-  ],
-  [
     "inscrire",
     "inscris             inscris",
     "inscris             inscris",
@@ -448,15 +322,6 @@
     "inscrivons          inscryons",
     "inscrivez           inscryez",
     "inscrivent          inscrient"
-  ],
-  [
-    "instruire",
-    "instruis            instruis",
-    "instruis            instruis",
-    "instruit            instruit",
-    "instruisons         instruyons",
-    "instruisez          instruyez",
-    "instruisent         instruient"
   ],
   [
     "interdire",
@@ -468,15 +333,6 @@
     "interdisent         interdient"
   ],
   [
-    "introduire",
-    "introduis           introduis",
-    "introduis           introduis",
-    "introduit           introduit",
-    "introduisons        introduyons",
-    "introduisez         introduyez",
-    "introduisent        introduient"
-  ],
-  [
     "lire",
     "lis                 lis",
     "lis                 lis",
@@ -484,15 +340,6 @@
     "lisons              lyons",
     "lisez               lyez",
     "lisent              lient"
-  ],
-  [
-    "luire",
-    "luis                luis",
-    "luis                luis",
-    "luit                luit",
-    "luisons             luyons",
-    "luisez              luyez",
-    "luisent             luient"
   ],
   [
     "maudire",
@@ -531,15 +378,6 @@
     "moulent             moudent"
   ],
   [
-    "méconduire",
-    "méconduis           méconduis",
-    "méconduis           méconduis",
-    "méconduit           méconduit",
-    "méconduisons        méconduyons",
-    "méconduisez         méconduyez",
-    "méconduisent        méconduient"
-  ],
-  [
     "médire",
     "médis               médis",
     "médis               médis",
@@ -547,15 +385,6 @@
     "médisons            médyons",
     "médisez             médyez",
     "médisent            médient"
-  ],
-  [
-    "nuire",
-    "nuis                nuis",
-    "nuis                nuis",
-    "nuit                nuit",
-    "nuisons             nuyons",
-    "nuisez              nuyez",
-    "nuisent             nuient"
   ],
   [
     "parfondre",
@@ -621,15 +450,6 @@
     "prescrivent         prescrient"
   ],
   [
-    "produire",
-    "produis             produis",
-    "produis             produis",
-    "produit             produit",
-    "produisons          produyons",
-    "produisez           produyez",
-    "produisent          produient"
-  ],
-  [
     "proscrire",
     "proscris            proscris",
     "proscris            proscris",
@@ -637,15 +457,6 @@
     "proscrivons         proscryons",
     "proscrivez          proscryez",
     "proscrivent         proscrient"
-  ],
-  [
-    "préconstruire",
-    "préconstruis        préconstruis",
-    "préconstruis        préconstruis",
-    "préconstruit        préconstruit",
-    "préconstruisons     préconstruyons",
-    "préconstruisez      préconstruyez",
-    "préconstruisent     préconstruient"
   ],
   [
     "prédire",
@@ -666,24 +477,6 @@
     "reboivent           reboient"
   ],
   [
-    "reconduire",
-    "reconduis           reconduis",
-    "reconduis           reconduis",
-    "reconduit           reconduit",
-    "reconduisons        reconduyons",
-    "reconduisez         reconduyez",
-    "reconduisent        reconduient"
-  ],
-  [
-    "reconstruire",
-    "reconstruis         reconstruis",
-    "reconstruis         reconstruis",
-    "reconstruit         reconstruit",
-    "reconstruisons      reconstruyons",
-    "reconstruisez       reconstruyez",
-    "reconstruisent      reconstruient"
-  ],
-  [
     "recoudre",
     "recouds             recouds",
     "recouds             recouds",
@@ -691,15 +484,6 @@
     "recousons           recoudons",
     "recousez            recoudez",
     "recousent           recoudent"
-  ],
-  [
-    "recuire",
-    "recuis              recuis",
-    "recuis              recuis",
-    "recuit              recuit",
-    "recuisons           recuyons",
-    "recuisez            recuyez",
-    "recuisent           recuient"
   ],
   [
     "redire",
@@ -756,15 +540,6 @@
     "relisent            relient"
   ],
   [
-    "reluire",
-    "reluis              reluis",
-    "reluis              reluis",
-    "reluit              reluit",
-    "reluisons           reluyons",
-    "reluisez            reluyez",
-    "reluisent           reluient"
-  ],
-  [
     "remordre",
     "remords             remords",
     "remords             remords",
@@ -792,15 +567,6 @@
     "reperdent           reperdent"
   ],
   [
-    "reproduire",
-    "reproduis           reproduis",
-    "reproduis           reproduis",
-    "reproduit           reproduit",
-    "reproduisons        reproduyons",
-    "reproduisez         reproduyez",
-    "reproduisent        reproduient"
-  ],
-  [
     "retordre",
     "retords             retords",
     "retords             retords",
@@ -808,15 +574,6 @@
     "retordons           retordons",
     "retordez            retordez",
     "retordent           retordent"
-  ],
-  [
-    "retraduire",
-    "retraduis           retraduis",
-    "retraduis           retraduis",
-    "retraduit           retraduit",
-    "retraduisons        retraduyons",
-    "retraduisez         retraduyez",
-    "retraduisent        retraduient"
   ],
   [
     "retranscrire",
@@ -855,15 +612,6 @@
     "récrivent           récrient"
   ],
   [
-    "réduire",
-    "réduis              réduis",
-    "réduis              réduis",
-    "réduit              réduit",
-    "réduisons           réduyons",
-    "réduisez            réduyez",
-    "réduisent           réduient"
-  ],
-  [
     "réinscrire",
     "réinscris           réinscris",
     "réinscris           réinscris",
@@ -871,15 +619,6 @@
     "réinscrivons        réinscryons",
     "réinscrivez         réinscryez",
     "réinscrivent        réinscrient"
-  ],
-  [
-    "réintroduire",
-    "réintroduis         réintroduis",
-    "réintroduis         réintroduis",
-    "réintroduit         réintroduit",
-    "réintroduisons      réintroduyons",
-    "réintroduisez       réintroduyez",
-    "réintroduisent      réintroduient"
   ],
   [
     "répandre",
@@ -972,15 +711,6 @@
     "surfont             surfaient"
   ],
   [
-    "surproduire",
-    "surproduis          surproduis",
-    "surproduis          surproduis",
-    "surproduit          surproduit",
-    "surproduisons       surproduyons",
-    "surproduisez        surproduyez",
-    "surproduisent       surproduient"
-  ],
-  [
     "survivre",
     "survis              survivs",
     "survis              survivs",
@@ -988,15 +718,6 @@
     "survivons           survivons",
     "survivez            survivez",
     "survivent           survivent"
-  ],
-  [
-    "séduire",
-    "séduis              séduis",
-    "séduis              séduis",
-    "séduit              séduit",
-    "séduisons           séduyons",
-    "séduisez            séduyez",
-    "séduisent           séduient"
   ],
   [
     "taire",
@@ -1024,15 +745,6 @@
     "tordons             tordons",
     "tordez              tordez",
     "tordent             tordent"
-  ],
-  [
-    "traduire",
-    "traduis             traduis",
-    "traduis             traduis",
-    "traduit             traduit",
-    "traduisons          traduyons",
-    "traduisez           traduyez",
-    "traduisent          traduient"
   ],
   [
     "transcrire",
@@ -1078,15 +790,6 @@
     "                    écloons",
     "                    écloez",
     "éclosent            écloent"
-  ],
-  [
-    "éconduire",
-    "éconduis            éconduis",
-    "éconduis            éconduis",
-    "éconduit            éconduit",
-    "éconduisons         éconduyons",
-    "éconduisez          éconduyez",
-    "éconduisent         éconduient"
   ],
   [
     "écrire",

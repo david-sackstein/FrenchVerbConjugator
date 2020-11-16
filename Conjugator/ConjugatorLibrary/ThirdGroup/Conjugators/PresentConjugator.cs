@@ -65,7 +65,12 @@ namespace ConjugatorLibrary.ThirdGroup
                 var stem = verb.TrimEnd("ndre");
                 return ApplyEndings(_endings, stem + "n", stem + "gn");
             }
-            
+
+            if (verb.EndsWith("uire"))
+            {
+                string stem = verb.TrimEnd("re");
+                return ApplyEndings(_endings, stem, stem + "s");
+            }
 
             string regularStem = verb.TrimEnd("re");
             if (regularStem[^1] == 'i')
