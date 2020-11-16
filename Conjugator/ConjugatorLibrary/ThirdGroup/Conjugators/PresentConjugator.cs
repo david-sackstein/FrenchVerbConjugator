@@ -66,7 +66,7 @@ namespace ConjugatorLibrary.ThirdGroup
                 return ApplyEndings(_endings, stem + "n", stem + "gn");
             }
 
-            if (verb.EndsWith("uire"))
+            if (verb.EndsWith("ire") && ! verb.EndsWith("aire") && ! verb.EndsWith("oire"))
             {
                 string stem = verb.TrimEnd("re");
                 return ApplyEndings(_endings, stem, stem + "s");
