@@ -65,6 +65,12 @@ namespace ConjugatorLibrary.ThirdGroup
                 return ApplyEndings(_endings, stem + "n", stem + "gn");
             }
 
+            if (verb.EndsWith("faire"))
+            {
+                string stem = verb.TrimEnd("faire");
+                return new []{"fais", "fais", "fait", "faisons", "faites", "font"}.AddEndings(stem);
+            }
+
             if (verb.EndsWith("ire") && ! verb.EndsWith("aire") && ! verb.EndsWith("oire"))
             {
                 if (verb.EndsWith("rire") && verb != "frire")

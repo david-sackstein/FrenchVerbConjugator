@@ -54,15 +54,6 @@
     "contraignent        contraindent"
   ],
   [
-    "contrefaire",
-    "contrefais          contrefais",
-    "contrefais          contrefais",
-    "contrefait          contrefait",
-    "contrefaisons       contrefayons",
-    "contrefaites        contrefayez",
-    "contrefont          contrefaient"
-  ],
-  [
     "contrefoutre",
     "contrefous          contrefouts",
     "contrefous          contrefouts",
@@ -144,15 +135,6 @@
     "décousent           découdent"
   ],
   [
-    "défaire",
-    "défais              défais",
-    "défais              défais",
-    "défait              défait",
-    "défaisons           défayons",
-    "défaites            défayez",
-    "défont              défaient"
-  ],
-  [
     "démordre",
     "démords             démords",
     "démords             démords",
@@ -205,15 +187,6 @@
     "sommes              êtons",
     "êtes                êtez",
     "sont                êtent"
-  ],
-  [
-    "faire",
-    "fais                fais",
-    "fais                fais",
-    "fait                fait",
-    "faisons             fayons",
-    "faites              fayez",
-    "font                faient"
   ],
   [
     "fondre",
@@ -351,24 +324,6 @@
     "redisent            redisent"
   ],
   [
-    "redéfaire",
-    "redéfais            redéfais",
-    "redéfais            redéfais",
-    "redéfait            redéfait",
-    "redéfaisons         redéfayons",
-    "redéfaites          redéfayez",
-    "redéfont            redéfaient"
-  ],
-  [
-    "refaire",
-    "refais              refais",
-    "refais              refais",
-    "refait              refait",
-    "refaisons           refayons",
-    "refaites            refayez",
-    "refont              refaient"
-  ],
-  [
     "refondre",
     "refonds             refonds",
     "refonds             refonds",
@@ -450,15 +405,6 @@
     "répondent           répondent"
   ],
   [
-    "satisfaire",
-    "satisfais           satisfais",
-    "satisfais           satisfais",
-    "satisfait           satisfait",
-    "satisfaisons        satisfayons",
-    "satisfaites         satisfayez",
-    "satisfont           satisfaient"
-  ],
-  [
     "sourdre",
     "                    sourds",
     "                    sourds",
@@ -475,15 +421,6 @@
     "sourions            sourivons",
     "souriez             sourivez",
     "sourient            sourivent"
-  ],
-  [
-    "surfaire",
-    "surfais             surfais",
-    "surfais             surfais",
-    "surfait             surfait",
-    "surfaisons          surfayons",
-    "surfaites           surfayez",
-    "surfont             surfaient"
   ],
   [
     "survivre",
