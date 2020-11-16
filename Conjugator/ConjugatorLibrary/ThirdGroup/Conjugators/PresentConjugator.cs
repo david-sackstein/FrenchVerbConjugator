@@ -15,7 +15,6 @@ namespace ConjugatorLibrary.ThirdGroup
             {
                 return ApplyEndings(_endings, "sui", "suiv");
             }
-
           
             if (verb.EndsWith("endre"))
             {
@@ -68,8 +67,16 @@ namespace ConjugatorLibrary.ThirdGroup
 
             if (verb.EndsWith("ire") && ! verb.EndsWith("aire") && ! verb.EndsWith("oire"))
             {
-                string stem = verb.TrimEnd("re");
-                return ApplyEndings(_endings, stem, stem + "s");
+                if (verb.EndsWith("rire") && verb != "frire")
+                {
+                    string stem = verb.TrimEnd("re");
+                    return ApplyEndings(_endings, stem, stem + "v");
+                }
+                else
+                {
+                    string stem = verb.TrimEnd("re");
+                    return ApplyEndings(_endings, stem, stem + "s");
+                }
             }
 
             string regularStem = verb.TrimEnd("re");
