@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using ConjugatorLibrary.Conjugators;
+using ConjugatorLibrary.FirstGroup;
 using ConjugatorLibrary.SecondGroup;
 using ConjugatorLibrary.ThirdGroup;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -19,9 +20,9 @@ namespace ConjugatorTests
         public static void SetUp(TestContext context)
         {
             _verbData = new VerbData(_nodeModulesPath);
-            //_conjugator = new FirstGroupConjugator();
+            _conjugator = new FirstGroupConjugator();
             //_conjugator = new SecondGroupConjugator();
-            _conjugator = new ThirdGroupConjugator();
+            //_conjugator = new ThirdGroupConjugator();
         }
 
         [TestMethod]
