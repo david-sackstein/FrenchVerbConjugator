@@ -1,24 +1,20 @@
-﻿namespace ConjugatorLibrary.FirstGroup
+﻿namespace ConjugatorLibrary.FirstGroup;
+
+public static class ParticipePasseConjugator
 {
-    public static class ParticipePasseConjugator
+    public static string[] Endings { get; } = { "é", "és", "ée", "ées" };
+
+    public static string[] GetConjugations(string verb)
     {
-        public static string[] Endings { get; } = {"é", "és", "ée", "ées"};
+        var stem = GetStem(verb);
 
-        public static string[] GetConjugations(string verb)
-        {
-            string stem = GetStem(verb);
+        return Endings.AddEndings(stem);
+    }
 
-            return Endings.AddEndings(stem);
-        }
+    private static string GetStem(string verb)
+    {
+        if (verb == "aller") return "all";
 
-        private static string GetStem(string verb)
-        {
-            if (verb == "aller")
-            {
-                return "all";
-            }
-
-            return verb.Remove(verb.Length - 2);
-        }
+        return verb.Remove(verb.Length - 2);
     }
 }

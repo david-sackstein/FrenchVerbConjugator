@@ -1,7 +1,9 @@
-﻿namespace ConjugatorLibrary.SecondGroup
+﻿namespace ConjugatorLibrary.SecondGroup;
+
+internal static class EmptyConjugator
 {
-    static class EmptyConjugator
+    public static string[] GetConjugations(string verb)
     {
-        public static string[] GetConjugations(string verb) => new string[0];
+        return new string[0];
     }
 }

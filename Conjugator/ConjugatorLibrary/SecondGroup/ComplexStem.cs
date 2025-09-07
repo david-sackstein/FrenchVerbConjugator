@@ -1,12 +1,11 @@
-﻿namespace ConjugatorLibrary.SecondGroup
+﻿namespace ConjugatorLibrary.SecondGroup;
+
+public record ComplexStem(string NonNousVousStem, string NousVousStem);
+
+public record ConjugationParts(string Stem, string[] Endings)
 {
-    public record ComplexStem (string NonNousVousStem, string NousVousStem);
-    
-    public record ConjugationParts (string Stem, string[] Endings) 
+    public string[] GetConjugation()
     {
-        public string[] GetConjugation()
-        {
-            return Endings.AddEndings(Stem);
-        }
+        return Endings.AddEndings(Stem);
     }
 }

@@ -17,7 +17,7 @@ internal class Program
     {
         var beforeFix = GetConjugations("conjugations.json");
         var afterFix = GetConjugations("conjugations-fixed.json");
-        string[] newVerbs = beforeFix.Keys.Except(afterFix.Keys).ToArray();
+        var newVerbs = beforeFix.Keys.Except(afterFix.Keys).ToArray();
         var best = afterFix.Concat(beforeFix.Where(kv => newVerbs.Contains(kv.Key)))
             .ToDictionary(kv => kv.Key, kv => kv.Value);
         SaveConjugations(_nodeModulesPath, beforeFix, "conjugations.json");
@@ -27,7 +27,7 @@ internal class Program
 
     private static Dictionary<string, Conjugation> GetConjugations(string name)
     {
-        string conjugationsFileName = Path.Combine(
+        var conjugationsFileName = Path.Combine(
             _nodeModulesPath, @$"french-verbs-lefff\dist\{name}");
 
         return LoadConjugations(conjugationsFileName);
@@ -39,15 +39,16 @@ internal class Program
             File.ReadAllText(fileName));
     }
 
-    public static void SaveConjugations(string nodeModulesPath, Dictionary<string, Conjugation> conjugations, string name)
+    public static void SaveConjugations(string nodeModulesPath, Dictionary<string, Conjugation> conjugations,
+        string name)
     {
-        string text = JsonSerializer.Serialize(conjugations, new JsonSerializerOptions
+        var text = JsonSerializer.Serialize(conjugations, new JsonSerializerOptions
         {
             Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
             WriteIndented = true
         });
 
-        string conjugationsFileName = Path.Combine(
+        var conjugationsFileName = Path.Combine(
             nodeModulesPath, $@"french-verbs-lefff\dist\{name}");
 
         File.WriteAllText(conjugationsFileName, text);

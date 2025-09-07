@@ -9,15 +9,15 @@ namespace ConjugatorTests;
 
 internal class VerbData
 {
-    public Dictionary<string, Conjugation> Conjugations { get; }
-
     public VerbData(string nodeModulesPath)
     {
-        string conjugationsFileName = Path.Combine(
+        var conjugationsFileName = Path.Combine(
             nodeModulesPath, @"french-verbs-lefff/dist/conjugations-fixed.json");
 
         Conjugations = LoadConjugations(conjugationsFileName);
     }
+
+    public Dictionary<string, Conjugation> Conjugations { get; }
 
     private static Dictionary<string, Conjugation> LoadConjugations(string fileName)
     {
@@ -27,13 +27,13 @@ internal class VerbData
 
     public static void SaveConjugations(string nodeModulesPath, Dictionary<string, Conjugation> conjugations)
     {
-        string text = JsonSerializer.Serialize(conjugations, new JsonSerializerOptions
+        var text = JsonSerializer.Serialize(conjugations, new JsonSerializerOptions
         {
             Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
             WriteIndented = true
         });
 
-        string conjugationsFileName = Path.Combine(
+        var conjugationsFileName = Path.Combine(
             nodeModulesPath, @"french-verbs-lefff/dist/conjugations-fixed.json");
 
         File.WriteAllText(conjugationsFileName, text);

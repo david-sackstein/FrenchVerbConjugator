@@ -1,39 +1,29 @@
-﻿namespace ConjugatorLibrary.FirstGroup
+﻿namespace ConjugatorLibrary.FirstGroup;
+
+public static class ImparfaitConjugator
 {
-    public static class ImparfaitConjugator
+    public static string[] Endings { get; } = { "ais", "ais", "ait", "ions", "iez", "aient" };
+
+    public static string[] GetConjugations(string verb)
     {
-        public static string[] Endings { get; } = {"ais", "ais", "ait", "ions", "iez", "aient"};
+        var stem = GetStem(verb);
 
-        public static string[] GetConjugations(string verb)
-        {
-            string stem = GetStem(verb);
+        var endings = Endings;
 
-            string[] endings = Endings;
+        if (verb[^3] == 'g') endings = endings.MatchNousVous(s => "e" + s);
 
-            if (verb[^3] == 'g')
-            {
-                endings = endings.MatchNousVous(s => "e" + s);
-            }
+        var withEndings = endings.AddEndings(stem);
 
-            string[] withEndings = endings.AddEndings(stem);
+        // soften the c with a cedilla before an 'a'
+        if (verb[^3] == 'c') withEndings = withEndings.MatchNousVous(s => s.ReplaceAt(stem.Length - 1, 'ç'));
 
-            // soften the c with a cedilla before an 'a'
-            if (verb[^3] == 'c')
-            {
-                withEndings = withEndings.MatchNousVous(s => s.ReplaceAt(stem.Length - 1, 'ç'));
-            }
+        return withEndings;
+    }
 
-            return withEndings;
-        }
+    private static string GetStem(string verb)
+    {
+        if (verb == "aller") return "all";
 
-        private static string GetStem(string verb)
-        {
-            if (verb == "aller")
-            {
-                return "all";
-            }
-
-            return verb.Remove(verb.Length - 2);
-        }
+        return verb.Remove(verb.Length - 2);
     }
 }

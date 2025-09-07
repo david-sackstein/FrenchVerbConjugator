@@ -9,10 +9,7 @@ public static class StringExtensions
 {
     public static string TrimEnd(this string inString, string suffix)
     {
-        if (!inString.EndsWith(suffix))
-        {
-            throw new ArgumentException("Bad suffix");
-        }
+        if (!inString.EndsWith(suffix)) throw new ArgumentException("Bad suffix");
         return inString[..^suffix.Length];
     }
 
@@ -33,13 +30,10 @@ public static class StringExtensions
 
     public static string ReplaceAt(this string inString, int index, char c)
     {
-        if (index < 0)
-        {
-            Console.WriteLine();
-        }
+        if (index < 0) Console.WriteLine();
 
-        int positiveIndex = index > 0 ? index : inString.Length + index;
-        return new StringBuilder(inString) {[positiveIndex] = c}.ToString();
+        var positiveIndex = index > 0 ? index : inString.Length + index;
+        return new StringBuilder(inString) { [positiveIndex] = c }.ToString();
     }
 
     public static IEnumerable<string> SelectExceptFor(this IEnumerable<string> source, int index,

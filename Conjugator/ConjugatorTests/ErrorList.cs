@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.Encodings.Web;
@@ -15,7 +14,7 @@ internal static class ErrorList
     public static void Save(string[] errorVerbs, Func<string, string[]> referenceConjugator,
         Func<string, string[]> conjugator)
     {
-        string[][] errorVerbsWith =
+        var errorVerbsWith =
             errorVerbs.Select(verb => Flatten(verb, referenceConjugator, conjugator)).ToArray();
         Save(errorVerbsWith);
     }
@@ -27,22 +26,22 @@ internal static class ErrorList
 
     public static string[][] LoadWithConjugations()
     {
-        string text = File.ReadAllText(errorFileName);
+        var text = File.ReadAllText(errorFileName);
         return JsonSerializer.Deserialize<string[][]>(text);
     }
 
     private static string[] Flatten(string verb, Func<string, string[]> referenceConjugator,
         Func<string, string[]> conjugator)
     {
-        string[] expected = referenceConjugator(verb);
-        string[] actual = conjugator(verb);
-        IEnumerable<string> conjugation = expected.Zip(actual).Select(tuple => $"{tuple.First,-20}{tuple.Second}");
-        return new[] {verb}.Concat(conjugation).ToArray();
+        var expected = referenceConjugator(verb);
+        var actual = conjugator(verb);
+        var conjugation = expected.Zip(actual).Select(tuple => $"{tuple.First,-20}{tuple.Second}");
+        return new[] { verb }.Concat(conjugation).ToArray();
     }
 
     private static void Save(string[][] errorVerbs)
     {
-        string errors = JsonSerializer.Serialize(errorVerbs, new JsonSerializerOptions
+        var errors = JsonSerializer.Serialize(errorVerbs, new JsonSerializerOptions
         {
             Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
             WriteIndented = true

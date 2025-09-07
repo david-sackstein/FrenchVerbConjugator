@@ -11,23 +11,23 @@ public static class ConjugationExtensions
         return endings.Select(ending => stem + ending).ToArray();
     }
 
-    public static string[] AddEndings(this string[] endings, 
-        string nonNousVousStem, 
+    public static string[] AddEndings(this string[] endings,
+        string nonNousVousStem,
         string nousVousStem)
     {
         return endings.MatchNousVous(
-            e => nonNousVousStem + e, 
+            e => nonNousVousStem + e,
             e => nousVousStem + e);
     }
 
-    public static string[] AddEndings(this string[] conjugations, 
-        string singularStem, 
-        string nousVousStem, 
+    public static string[] AddEndings(this string[] conjugations,
+        string singularStem,
+        string nousVousStem,
         string ilsStem)
     {
         return conjugations.MatchNousVousIls(
             e => singularStem + e,
-            e => nousVousStem + e, 
+            e => nousVousStem + e,
             e => ilsStem + e);
     }
 
@@ -39,14 +39,8 @@ public static class ConjugationExtensions
         return conjugations
             .Select((s, i) =>
             {
-                if (IsNousVous(i))
-                {
-                    return forNousVous(s);
-                }
-                if (IsIls(i))
-                {
-                    return forIls(s);
-                }
+                if (IsNousVous(i)) return forNousVous(s);
+                if (IsIls(i)) return forIls(s);
                 return forSingular(s);
             })
             .ToArray();
@@ -65,7 +59,7 @@ public static class ConjugationExtensions
     }
 
     public static string[] MatchNousVous(
-        this string[] conjugations, 
+        this string[] conjugations,
         Func<string, string> forNonNousVous)
     {
         return conjugations.MatchNousVous(forNonNousVous, s => s);

@@ -1,38 +1,33 @@
 ﻿using System.Linq;
 
-namespace ConjugatorLibrary.FirstGroup
+namespace ConjugatorLibrary.FirstGroup;
+
+public static class PresentStemModifier
 {
-    public static class PresentStemModifier
+    // The modified stem is used for je, tu, il, ils but not for nous and vous
+    public static bool GetModifiedStem(string stem, out string modifiedStem)
     {
-        // The modified stem is used for je, tu, il, ils but not for nous and vous
-        public static bool GetModifiedStem(string stem, out string modifiedStem)
-        {
-            if (
-                BasedOnLastTwoLetters(stem, out modifiedStem) ||
-                BasedOnLastThreeLetters(stem, out modifiedStem) ||
-                BasedOnLastFourLetters(stem, out modifiedStem))
-            {
-                return true;
-            }
+        if (
+            BasedOnLastTwoLetters(stem, out modifiedStem) ||
+            BasedOnLastThreeLetters(stem, out modifiedStem) ||
+            BasedOnLastFourLetters(stem, out modifiedStem))
+            return true;
 
-            modifiedStem = "";
-            return false;
-        }
+        modifiedStem = "";
+        return false;
+    }
 
-        private static bool BasedOnLastTwoLetters(string stem, out string actualStem)
-        {
-            const int endingLength = 2;
+    private static bool BasedOnLastTwoLetters(string stem, out string actualStem)
+    {
+        const int endingLength = 2;
 
-            actualStem = stem;
+        actualStem = stem;
 
-            if (stem.Length < endingLength)
-            {
-                return false;
-            }
+        if (stem.Length < endingLength) return false;
 
-            // @formatter:off
+        // @formatter:off
 
-            string stemEnding = stem.Substring(stem.Length - endingLength);
+            var stemEnding = stem.Substring(stem.Length - endingLength);
             switch (stemEnding)
             {
                 case "oy":
@@ -58,23 +53,20 @@ namespace ConjugatorLibrary.FirstGroup
                     return true;
             }
 
-            // @formatter:on
+        // @formatter:on
 
-            return false;
-        }
+        return false;
+    }
 
-        private static bool BasedOnLastThreeLetters(string stem, out string actualStem)
-        {
-            const int endingLength = 3;
+    private static bool BasedOnLastThreeLetters(string stem, out string actualStem)
+    {
+        const int endingLength = 3;
 
-            actualStem = stem;
+        actualStem = stem;
 
-            if (stem.Length < endingLength)
-            {
-                return false;
-            }
+        if (stem.Length < endingLength) return false;
 
-            string stemEnding = stem.Substring(stem.Length - endingLength);
+        var stemEnding = stem.Substring(stem.Length - endingLength);
 
             // @formatter:off
 
@@ -87,40 +79,36 @@ namespace ConjugatorLibrary.FirstGroup
                     return true;
             }
 
-            // @formatter:on
-            return false;
-        }
+        // @formatter:on
+        return false;
+    }
 
-        private static bool BasedOnLastFourLetters(string stem, out string actualStem)
+    private static bool BasedOnLastFourLetters(string stem, out string actualStem)
+    {
+        const int endingLength = 4;
+
+        actualStem = stem;
+
+        if (stem.Length < endingLength) return false;
+
+        var stemEnding = stem.Substring(stem.Length - endingLength);
+        if (stemEnding == "mour")
         {
-            const int endingLength = 4;
-
-            actualStem = stem;
-
-            if (stem.Length < endingLength)
-            {
-                return false;
-            }
-
-            string stemEnding = stem.Substring(stem.Length - endingLength);
-            if (stemEnding == "mour")
-            {
-                actualStem = stem.ReplaceAt(stem.Length - 3, 'e');
-                return true;
-            }
-
-            return false;
+            actualStem = stem.ReplaceAt(stem.Length - 3, 'e');
+            return true;
         }
 
-        private static string ReplaceEwithEGrave(string stem, string stemEnding)
-        {
-            int index = stem.Length - stemEnding.Length;
-            return stem.ReplaceAt(index, 'è');
-        }
+        return false;
+    }
 
-        private static string DoubleLastLetter(string stem)
-        {
-            return stem + stem[^1];
-        }
+    private static string ReplaceEwithEGrave(string stem, string stemEnding)
+    {
+        var index = stem.Length - stemEnding.Length;
+        return stem.ReplaceAt(index, 'è');
+    }
+
+    private static string DoubleLastLetter(string stem)
+    {
+        return stem + stem[^1];
     }
 }

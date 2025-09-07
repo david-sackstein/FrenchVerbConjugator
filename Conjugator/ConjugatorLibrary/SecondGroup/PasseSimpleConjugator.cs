@@ -1,20 +1,15 @@
-﻿namespace ConjugatorLibrary.SecondGroup
+﻿namespace ConjugatorLibrary.SecondGroup;
+
+public static class PasseSimpleConjugator
 {
-    public static class PasseSimpleConjugator
+    private static readonly PasseSimpleSubjectifImparfaitConjugatorImpl impl = new(isEndings, usEndings);
+    private static string[] isEndings { get; } = { "is", "is", "it", "îmes", "îtes", "irent" };
+    private static string[] usEndings { get; } = { "us", "us", "ut", "ûmes", "ûtes", "urent" };
+
+    public static string[] GetConjugations(string verb)
     {
-        private static string[] isEndings { get; } = {"is", "is", "it", "îmes", "îtes", "irent"};
-        private static string[] usEndings { get; } = {"us", "us", "ut", "ûmes", "ûtes", "urent"};
+        if (verb == "pleuvoir") return ["", "", "plut", "", "", "plurent"];
 
-        private static readonly PasseSimpleSubjectifImparfaitConjugatorImpl impl = new PasseSimpleSubjectifImparfaitConjugatorImpl(isEndings, usEndings);
-
-        public static string[] GetConjugations(string verb)
-        {
-            if (verb == "pleuvoir")
-            {
-                return ["", "", "plut", "", "", "plurent"];
-            }
-
-            return impl.GetConjugations(verb);
-        }
+        return impl.GetConjugations(verb);
     }
 }

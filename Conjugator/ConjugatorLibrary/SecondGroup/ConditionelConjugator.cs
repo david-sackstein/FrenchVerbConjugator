@@ -1,14 +1,13 @@
-﻿namespace ConjugatorLibrary.SecondGroup
+﻿namespace ConjugatorLibrary.SecondGroup;
+
+public static class ConditionelConjugator
 {
-    public static class ConditionelConjugator
+    public static string[] GetConjugations(string verb)
     {
-        public static string[] GetConjugations(string verb)
-        {
-            string stem = FutureConjugator.GetStem(verb);
+        var stem = FutureConjugator.GetStem(verb);
 
-            string[] endings = ImparfaitConjugator.Endings;
+        var endings = ImparfaitConjugator.Endings;
 
-            return endings.AddEndings(stem);
-        }
+        return endings.AddEndings(stem);
     }
 }

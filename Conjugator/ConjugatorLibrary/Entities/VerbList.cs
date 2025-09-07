@@ -4,6 +4,5 @@ namespace ConjugatorLibrary;
 
 public class VerbList
 {
-    [JsonPropertyName("verbs")]
-    public Verbs Verbs { get; set; }
+    [JsonPropertyName("verbs")] public Verbs Verbs { get; set; }
 }

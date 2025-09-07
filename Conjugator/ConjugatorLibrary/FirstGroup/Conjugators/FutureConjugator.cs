@@ -1,40 +1,36 @@
-﻿namespace ConjugatorLibrary.FirstGroup
+﻿namespace ConjugatorLibrary.FirstGroup;
+
+public static class FutureConjugator
 {
-    public static class FutureConjugator
+    public static string[] Endings { get; } = { "ai", "as", "a", "ons", "ez", "ont" };
+
+    public static string[] GetConjugations(string verb)
     {
-        public static string[] Endings { get; } = {"ai", "as", "a", "ons", "ez", "ont"};
+        var stem = GetStem(verb);
 
-        public static string[] GetConjugations(string verb)
+        return Endings.AddEndings(stem);
+    }
+
+    public static string GetStem(string verb)
+    {
+        switch (verb)
         {
-            string stem = GetStem(verb);
-
-            return Endings.AddEndings(stem);
+            case "aller":
+                return "ir";
+            case "renvoyer":
+            case "envoyer":
+                return verb.Replace("voyer", "verr");
+            default:
+                return GetShortenedStem(verb) + "er";
         }
+    }
 
-        public static string GetStem(string verb)
-        {
-            switch (verb)
-            {
-                case "aller":
-                    return "ir";
-                case "renvoyer":
-                case "envoyer":
-                    return verb.Replace("voyer", "verr");
-                default:
-                    return GetShortenedStem(verb) + "er";
-            }
-        }
+    private static string GetShortenedStem(string verb)
+    {
+        var shortenedStem = verb[..^2];
 
-        private static string GetShortenedStem(string verb)
-        {
-            string shortenedStem = verb[..^2];
+        if (FutureStemModifier.GetModifiedStem(shortenedStem, out var modifiedStem)) return modifiedStem;
 
-            if (FutureStemModifier.GetModifiedStem(shortenedStem, out string modifiedStem))
-            {
-                return modifiedStem;
-            }
-
-            return shortenedStem;
-        }
+        return shortenedStem;
     }
 }

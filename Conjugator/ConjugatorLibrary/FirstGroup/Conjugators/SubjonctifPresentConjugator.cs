@@ -6,24 +6,21 @@ public static class SubjonctifPresentConjugator
 {
     public static string[] GetConjugations(string verb)
     {
-        if (verb == "aller")
-        {
-            return ["aille", "ailles", "aille", "allions", "alliez", "aillent"];
-        }
+        if (verb == "aller") return ["aille", "ailles", "aille", "allions", "alliez", "aillent"];
 
-        string[] endings = {"e", "es", "e", "ions", "iez", "ent"};
+        string[] endings = { "e", "es", "e", "ions", "iez", "ent" };
 
         return ApplyEndings(endings, verb);
     }
 
     private static string[] ApplyEndings(string[] endings, string verb)
     {
-        string stem = verb.Remove(verb.Length - 2);
+        var stem = verb.Remove(verb.Length - 2);
 
         // determine the stem for je, tu, il, ils ("modifiedStem") which may
         // not be the same as for nous and vous
 
-        return PresentStemModifier.GetModifiedStem(stem, out string modifiedStem)
+        return PresentStemModifier.GetModifiedStem(stem, out var modifiedStem)
             ? AddEndings(endings, modifiedStem, stem)
             : AddEndings(endings, stem);
     }
