@@ -4,3 +4,8 @@
 [Oo]bj/
 
 *.user
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.DotSettings.user
