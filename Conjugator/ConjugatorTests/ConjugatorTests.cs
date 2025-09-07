@@ -5,17 +5,17 @@ using ConjugatorLibrary.Conjugators;
 using ConjugatorLibrary.SecondGroup;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace ConjugatorTests
-{
-    [TestClass]
-    public class ConjugatorTests
-    {
-        private const string _nodeModulesPath = @"../../../../../node_modules";
-        private static VerbData _verbData;
-        private static IConjugator _conjugator;
+namespace ConjugatorTests;
 
-        [ClassInitialize]
-        public static void SetUp(TestContext context)
+[TestClass]
+public class ConjugatorTests
+{
+    private const string _nodeModulesPath = @"../../../../../node_modules";
+    private static VerbData _verbData;
+    private static IConjugator _conjugator;
+
+    [ClassInitialize]
+    public static void SetUp(TestContext context)
         {
             _verbData = new VerbData(_nodeModulesPath);
             _conjugator = new SecondGroupConjugator();
@@ -131,4 +131,3 @@ namespace ConjugatorTests
             return isCorrect;
         }
     }
-}

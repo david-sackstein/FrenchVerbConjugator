@@ -5,38 +5,37 @@ using System.Text.Json;
 using System.Text.Unicode;
 using ConjugatorLibrary;
 
-namespace ConjugatorTests
+namespace ConjugatorTests;
+
+internal class VerbData
 {
-    internal class VerbData
+    public Dictionary<string, Conjugation> Conjugations { get; }
+
+    public VerbData(string nodeModulesPath)
     {
-        public Dictionary<string, Conjugation> Conjugations { get; }
+        string conjugationsFileName = Path.Combine(
+            nodeModulesPath, @"french-verbs-lefff/dist/conjugations-fixed.json");
 
-        public VerbData(string nodeModulesPath)
+        Conjugations = LoadConjugations(conjugationsFileName);
+    }
+
+    private static Dictionary<string, Conjugation> LoadConjugations(string fileName)
+    {
+        return JsonSerializer.Deserialize<Dictionary<string, Conjugation>>(
+            File.ReadAllText(fileName));
+    }
+
+    public static void SaveConjugations(string nodeModulesPath, Dictionary<string, Conjugation> conjugations)
+    {
+        string text = JsonSerializer.Serialize(conjugations, new JsonSerializerOptions
         {
-            string conjugationsFileName = Path.Combine(
-                nodeModulesPath, @"french-verbs-lefff/dist/conjugations-fixed.json");
+            Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
+            WriteIndented = true
+        });
 
-            Conjugations = LoadConjugations(conjugationsFileName);
-        }
+        string conjugationsFileName = Path.Combine(
+            nodeModulesPath, @"french-verbs-lefff/dist/conjugations-fixed.json");
 
-        private static Dictionary<string, Conjugation> LoadConjugations(string fileName)
-        {
-            return JsonSerializer.Deserialize<Dictionary<string, Conjugation>>(
-                File.ReadAllText(fileName));
-        }
-
-        public static void SaveConjugations(string nodeModulesPath, Dictionary<string, Conjugation> conjugations)
-        {
-            string text = JsonSerializer.Serialize(conjugations, new JsonSerializerOptions
-            {
-                Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
-                WriteIndented = true
-            });
-
-            string conjugationsFileName = Path.Combine(
-                nodeModulesPath, @"french-verbs-lefff/dist/conjugations-fixed.json");
-
-            File.WriteAllText(conjugationsFileName, text);
-        }
+        File.WriteAllText(conjugationsFileName, text);
     }
 }

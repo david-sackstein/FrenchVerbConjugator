@@ -1,10 +1,9 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace ConjugatorLibrary
+namespace ConjugatorLibrary;
+
+public class VerbList
 {
-    public class VerbList
-    {
-        [JsonPropertyName("verbs")]
-        public Verbs Verbs { get; set; }
-    }
+    [JsonPropertyName("verbs")]
+    public Verbs Verbs { get; set; }
 }

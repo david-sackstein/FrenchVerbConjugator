@@ -1,41 +1,40 @@
 ﻿using System.Linq;
 
-namespace ConjugatorLibrary.FirstGroup
+namespace ConjugatorLibrary.FirstGroup;
+
+public static class SubjonctifPresentConjugator
 {
-    public static class SubjonctifPresentConjugator
+    public static string[] GetConjugations(string verb)
     {
-        public static string[] GetConjugations(string verb)
+        if (verb == "aller")
         {
-            if (verb == "aller")
-            {
-                return ["aille", "ailles", "aille", "allions", "alliez", "aillent"];
-            }
-
-            string[] endings = {"e", "es", "e", "ions", "iez", "ent"};
-
-            return ApplyEndings(endings, verb);
+            return ["aille", "ailles", "aille", "allions", "alliez", "aillent"];
         }
 
-        private static string[] ApplyEndings(string[] endings, string verb)
-        {
-            string stem = verb.Remove(verb.Length - 2);
+        string[] endings = {"e", "es", "e", "ions", "iez", "ent"};
 
-            // determine the stem for je, tu, il, ils ("modifiedStem") which may
-            // not be the same as for nous and vous
+        return ApplyEndings(endings, verb);
+    }
 
-            return PresentStemModifier.GetModifiedStem(stem, out string modifiedStem)
-                ? AddEndings(endings, modifiedStem, stem)
-                : AddEndings(endings, stem);
-        }
+    private static string[] ApplyEndings(string[] endings, string verb)
+    {
+        string stem = verb.Remove(verb.Length - 2);
 
-        private static string[] AddEndings(string[] endings, string modifiedStem, string nousVousStem)
-        {
-            return endings.MatchNousVous(s => modifiedStem + s, s => nousVousStem + s);
-        }
+        // determine the stem for je, tu, il, ils ("modifiedStem") which may
+        // not be the same as for nous and vous
 
-        private static string[] AddEndings(string[] endings, string modifiedStem)
-        {
-            return endings.Select(ending => modifiedStem + ending).ToArray();
-        }
+        return PresentStemModifier.GetModifiedStem(stem, out string modifiedStem)
+            ? AddEndings(endings, modifiedStem, stem)
+            : AddEndings(endings, stem);
+    }
+
+    private static string[] AddEndings(string[] endings, string modifiedStem, string nousVousStem)
+    {
+        return endings.MatchNousVous(s => modifiedStem + s, s => nousVousStem + s);
+    }
+
+    private static string[] AddEndings(string[] endings, string modifiedStem)
+    {
+        return endings.Select(ending => modifiedStem + ending).ToArray();
     }
 }
