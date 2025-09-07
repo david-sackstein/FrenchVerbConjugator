@@ -10,7 +10,7 @@ namespace ConjugatorTests
 {
     internal static class ErrorList
     {
-        private const string errorFileName = @"..\..\..\errors.txt";
+        private const string errorFileName = @"../../../errors.txt";
 
         public static void Save(string[] errorVerbs, Func<string, string[]> referenceConjugator,
             Func<string, string[]> conjugator)

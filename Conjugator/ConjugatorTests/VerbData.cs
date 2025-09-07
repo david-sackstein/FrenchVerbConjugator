@@ -14,7 +14,7 @@ namespace ConjugatorTests
         public VerbData(string nodeModulesPath)
         {
             string conjugationsFileName = Path.Combine(
-                nodeModulesPath, @"french-verbs-lefff\dist\conjugations-fixed.json");
+                nodeModulesPath, @"french-verbs-lefff/dist/conjugations-fixed.json");
 
             Conjugations = LoadConjugations(conjugationsFileName);
         }
@@ -34,7 +34,7 @@ namespace ConjugatorTests
             });
 
             string conjugationsFileName = Path.Combine(
-                nodeModulesPath, @"french-verbs-lefff\dist\conjugations-fixed.json");
+                nodeModulesPath, @"french-verbs-lefff/dist/conjugations-fixed.json");
 
             File.WriteAllText(conjugationsFileName, text);
         }

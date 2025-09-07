@@ -10,7 +10,7 @@ namespace ConjugatorTests
     [TestClass]
     public class ConjugatorTests
     {
-        private const string _nodeModulesPath = @"..\..\..\..\..\node_modules";
+        private const string _nodeModulesPath = @"../../../../../node_modules";
         private static VerbData _verbData;
         private static IConjugator _conjugator;
 
