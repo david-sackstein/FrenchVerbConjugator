@@ -8,27 +8,27 @@ namespace ConjugatorLibrary.SecondGroup
         {
             if (verb == "avoir")
             {
-                return new[] {"ayant"};
+                return ["ayant"];
             }
 
             if (verb == "savoir")
             {
-                return new[] {"sachant"};
+                return ["sachant"];
             }
 
             if (verb == "pleuvoir")
             {
-                return new[] {"pleuvant"};
+                return ["pleuvant"];
             }
 
             if (verb.EndsWith("seoir"))
             {
                 if (verb.EndsWith("asseoir"))
                 {
-                    return new[] {verb.TrimEnd("seoir") + "soyant"};
+                    return [verb.TrimEnd("seoir") + "soyant"];
                 }
 
-                return new[] {verb.TrimEnd("seoir") + "séant"};
+                return [verb.TrimEnd("seoir") + "séant"];
             }
 
             string conjugation = PresentConjugator.GetConjugations(verb)[3];
@@ -37,7 +37,7 @@ namespace ConjugatorLibrary.SecondGroup
                 return null;
             }
             string stem = conjugation.TrimEnd("ons");
-            return new[] { stem + "ant" };
+            return [stem + "ant"];
         }
 
         private static string GetStem(string verb)

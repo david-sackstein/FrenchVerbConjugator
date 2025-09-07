@@ -5,7 +5,7 @@
         public static string[] GetConjugations(string verb)
         {
             string stem = GetStem(verb);
-            return new[] {stem + "ant"};
+            return [stem + "ant"];
         }
 
         private static string GetStem(string verb)

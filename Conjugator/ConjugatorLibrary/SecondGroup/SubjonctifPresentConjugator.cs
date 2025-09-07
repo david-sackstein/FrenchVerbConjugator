@@ -11,9 +11,9 @@ namespace ConjugatorLibrary.SecondGroup
             switch (verb)
             {
                 case "avoir":
-                    return new[] {"aie", "aies", "ait", "ayons", "ayez", "aient"};
+                    return ["aie", "aies", "ait", "ayons", "ayez", "aient"];
                 case "falloir":
-                    return new[] { "", "", "faille", "", "", "" };
+                    return ["", "", "faille", "", "", ""];
                 case "savoir":
                     return Endings.AddEndings("sach");
                 case "pouvoir":

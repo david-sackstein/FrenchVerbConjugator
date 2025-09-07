@@ -9,17 +9,17 @@ namespace ConjugatorLibrary.SecondGroup
         {
             if (verb == "savoir")
             {
-                return new[] {"", "sache", "" , "sachons", "sachez", ""  };
+                return ["", "sache", "" , "sachons", "sachez", ""];
             }
 
             if (verb == "faillir")
             {
-                return new[] {"", "faille", "" , "faillons", "faillez", ""  };
+                return ["", "faille", "" , "faillons", "faillez", ""];
             }
 
             if (verb == "avoir")
             {
-                return new[] {"", "aie", "" , "ayons", "ayez", ""  };
+                return ["", "aie", "" , "ayons", "ayez", ""];
             }
 
             string[] present = PresentConjugator.GetConjugations(verb);

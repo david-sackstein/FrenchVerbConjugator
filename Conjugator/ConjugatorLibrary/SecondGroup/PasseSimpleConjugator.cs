@@ -11,7 +11,7 @@
         {
             if (verb == "pleuvoir")
             {
-                return new[] {"", "", "plut", "", "", "plurent"};
+                return ["", "", "plut", "", "", "plurent"];
             }
 
             return impl.GetConjugations(verb);

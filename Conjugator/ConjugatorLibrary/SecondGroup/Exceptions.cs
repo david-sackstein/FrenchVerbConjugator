@@ -18,11 +18,10 @@ namespace ConjugatorLibrary.SecondGroup
             "recouvrir", "redécouvrir", "rouvrir", "réouvrir",
         };
 
-        public static readonly string[] verbsWithErEndings = verbsWithErtEndings.Concat(new[]
-        {
+        public static readonly string[] verbsWithErEndings = verbsWithErtEndings.Concat([
             "accueillir", "assaillir", "recueillir", "cueillir", 
             "défaillir", "tressaillir"
-        }).ToArray();
+        ]).ToArray();
 
         public static readonly string[] verbsWithYonsEndings =
         {

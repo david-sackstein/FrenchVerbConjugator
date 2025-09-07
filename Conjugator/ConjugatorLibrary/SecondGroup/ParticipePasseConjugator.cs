@@ -35,12 +35,12 @@ namespace ConjugatorLibrary.SecondGroup
         {
             return verb switch
             {
-                "avoir" => (true, new[] {"eu", "eus", "eue", "eues"}),
+                "avoir" => (true, ["eu", "eus", "eue", "eues"]),
                 "pouvoir" => (true, Enumerable.Repeat("pu", 4).ToArray()),
                 "pleuvoir" => (true, Enumerable.Repeat("plu", 4).ToArray()),
                 "falloir" => (true, Enumerable.Repeat("fallu", 4).ToArray()),
-                "mourir" => (true, new[] {"mort", "morts", "morte", "mortes"}),
-                "mouvoir" => (true, new[] {"mû", "mûs", "mûe", "mûes"}), // dubious because devoir doesnt work like this
+                "mourir" => (true, ["mort", "morts", "morte", "mortes"]),
+                "mouvoir" => (true, ["mû", "mûs", "mûe", "mûes"]), // dubious because devoir doesnt work like this
                 _ => (false, null)
             };
         }

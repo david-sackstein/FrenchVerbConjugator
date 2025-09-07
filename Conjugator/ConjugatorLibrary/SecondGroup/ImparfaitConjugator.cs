@@ -8,22 +8,22 @@ namespace ConjugatorLibrary.SecondGroup
         {
             if (verb == "falloir")
             {
-                return new[] { "", "", "fallait", "", "", "" };
+                return ["", "", "fallait", "", "", ""];
             }
 
             if (verb == "pleuvoir")
             {
-                return new[] { "", "", "pleuvait", "", "", "pleuvaient" };
+                return ["", "", "pleuvait", "", "", "pleuvaient"];
             }
 
             if (verb == "seoir")
             {
-                return new[] { "", "", "seyait", "", "", "seyaient" };
+                return ["", "", "seyait", "", "", "seyaient"];
             }
 
             if (verb == "messeoir")
             {
-                return new[] { "", "", "messeyait", "", "", "messeyaient" };
+                return ["", "", "messeyait", "", "", "messeyaient"];
             }
 
             if (verb == "chaloir")

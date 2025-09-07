@@ -8,7 +8,7 @@ namespace ConjugatorLibrary.FirstGroup
         {
             if (verb == "aller")
             {
-                return new[] {"aille", "ailles", "aille", "allions", "alliez", "aillent"};
+                return ["aille", "ailles", "aille", "allions", "alliez", "aillent"];
             }
 
             string[] endings = {"e", "es", "e", "ions", "iez", "ent"};
