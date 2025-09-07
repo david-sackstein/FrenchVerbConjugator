@@ -34,9 +34,9 @@ public static class ParticipePasseConjugator
         return verb switch
         {
             "avoir" => (true, ["eu", "eus", "eue", "eues"]),
-            "pouvoir" => (true, Enumerable.Repeat("pu", 4).ToArray()),
-            "pleuvoir" => (true, Enumerable.Repeat("plu", 4).ToArray()),
-            "falloir" => (true, Enumerable.Repeat("fallu", 4).ToArray()),
+            "pouvoir" => (true, ["pu", "pu", "pu", "pu"]),
+            "pleuvoir" => (true, ["plu", "plu", "plu", "plu"]),
+            "falloir" => (true, ["fallu", "fallu", "fallu", "fallu"]),
             "mourir" => (true, ["mort", "morts", "morte", "mortes"]),
             "mouvoir" => (true, ["mû", "mûs", "mûe", "mûes"]), // dubious because devoir doesnt work like this
             _ => (false, null)

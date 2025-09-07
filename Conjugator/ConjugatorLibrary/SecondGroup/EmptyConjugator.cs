@@ -4,6 +4,6 @@ internal static class EmptyConjugator
 {
     public static string[] GetConjugations(string verb)
     {
-        return new string[0];
+        return [];
     }
 }

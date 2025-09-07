@@ -13,14 +13,13 @@ public static class ImperatifConjugator
         if (verb == "avoir") return ["", "aie", "", "ayons", "ayez", ""];
 
         var present = PresentConjugator.GetConjugations(verb);
-        return new[]
-        {
+        return [
             null,
             Exceptions.verbsWithErEndings.Contains(verb) ? present[1].TrimEnd("s") : present[1], // tu
             null,
             present[3], // nous
             present[4], // vous
             null
-        };
+        ];
     }
 }

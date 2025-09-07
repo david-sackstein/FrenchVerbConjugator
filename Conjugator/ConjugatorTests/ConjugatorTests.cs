@@ -91,7 +91,7 @@ public class ConjugatorTests
             .ToDictionary(g => g.Key, g => g.ToArray());
 
         var expectedErrors = ErrorList.Load();
-        var actualErrors = grades.ContainsKey(false) ? grades[false] : new string[0];
+        var actualErrors = grades.ContainsKey(false) ? grades[false] : [];
 
         var newErrors = actualErrors.Except(expectedErrors).ToArray();
         var newFixes = expectedErrors.Except(actualErrors).ToArray();

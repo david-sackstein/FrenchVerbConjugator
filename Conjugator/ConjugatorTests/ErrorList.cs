@@ -36,7 +36,7 @@ internal static class ErrorList
         var expected = referenceConjugator(verb);
         var actual = conjugator(verb);
         var conjugation = expected.Zip(actual).Select(tuple => $"{tuple.First,-20}{tuple.Second}");
-        return new[] { verb }.Concat(conjugation).ToArray();
+        return [verb, .. conjugation];
     }
 
     private static void Save(string[][] errorVerbs)
