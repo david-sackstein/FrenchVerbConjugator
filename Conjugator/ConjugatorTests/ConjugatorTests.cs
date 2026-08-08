@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using ConjugatorLibrary.Conjugators;
 using ConjugatorLibrary.SecondGroup;
@@ -10,7 +11,8 @@ namespace ConjugatorTests
     [TestClass]
     public class ConjugatorTests
     {
-        private const string _nodeModulesPath = @"..\..\..\..\..\node_modules";
+        private static readonly string _nodeModulesPath = Path.GetFullPath(
+            Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\..\..\node_modules"));
         private static VerbData _verbData;
         private static IConjugator _conjugator;
 
