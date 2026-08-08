@@ -4,3 +4,7 @@
 [Oo]bj/
 
 *.user
+
+node_modules/
+!node_modules/french-verbs-lefff/dist/conjugations.json
+!node_modules/french-verbs-lefff/dist/conjugations-fixed.json
